@@ -1,0 +1,32 @@
+/* Class = "NSMenuItem"; title = "Cat Scratches"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Griffures de Chat";
+
+/* Class = "NSMenu"; title = "Cat Scratches"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Griffures de Chat";
+
+/* Class = "NSMenuItem"; title = "About Cat Scratches"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "À propos de Griffures de Chat";
+
+/* Class = "NSMenuItem"; title = "Hide Cat Scratches"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Masquer Griffures de Chat";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Masquer les autres";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Tout afficher";
+
+/* Class = "NSMenuItem"; title = "Quit Cat Scratches"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quitter Griffures de Chat";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Aide";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Aide";
+
+/* Class = "NSMenuItem"; title = "Cat Scratches Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Aide Griffures de Chat";
+
+/* Class = "NSWindow"; title = "Cat Scratches"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Griffures de Chat";

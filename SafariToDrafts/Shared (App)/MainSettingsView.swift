@@ -231,7 +231,7 @@ struct MainSettingsView: View {
 
     // MARK: - Helpers
 
-    private func platformSubtitle(ios: String, mac: String) -> String {
+    private func platformSubtitle(ios: LocalizedStringKey, mac: LocalizedStringKey) -> LocalizedStringKey {
         #if os(iOS)
         return ios
         #else
@@ -239,7 +239,7 @@ struct MainSettingsView: View {
         #endif
     }
 
-    private var appVersionLabel: String {
+    private var appVersionLabel: LocalizedStringKey {
         if let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String,
            !version.isEmpty {
             return "Cat Scratches version \(version)"
@@ -254,8 +254,8 @@ struct MainSettingsView: View {
 struct SettingsRow: View {
     let icon: String
     let iconColor: Color
-    let title: String
-    let subtitle: String
+    let title: LocalizedStringKey
+    let subtitle: LocalizedStringKey
 
     var body: some View {
         HStack(spacing: 12) {
@@ -282,7 +282,7 @@ struct SettingsRow: View {
 
 struct SettingsLinkRow: View {
     let icon: String
-    let title: String
+    let title: LocalizedStringKey
 
     var body: some View {
         HStack(spacing: 12) {
@@ -306,7 +306,7 @@ struct InstructionRow: View {
     let number: Int
     private let text: Text
 
-    init(number: Int, text: String) {
+    init(number: Int, text: LocalizedStringKey) {
         self.number = number
         self.text = Text(text)
     }

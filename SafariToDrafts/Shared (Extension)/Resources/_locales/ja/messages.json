@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "ネコスクラッチ"
+    },
+    "extension_description": {
+        "message": "キーボードショートカットでウェブコンテンツをキャプチャし、Draftsアプリに直接送信します。"
+    },
+    "action_title": {
+        "message": "Draftsにクリップ"
+    },
+    "settings_title": {
+        "message": "設定"
+    },
+    "section_destination": {
+        "message": "クリップの送信先"
+    },
+    "drafts_not_installed": {
+        "message": "Draftsがインストールされていません。"
+    },
+    "drafts_not_installed_fallback": {
+        "message": "コンテンツは共有シートに保存されます。"
+    },
+    "get_drafts": {
+        "message": "Draftsを入手"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "共有シート"
+    },
+    "section_format": {
+        "message": "下書きのフォーマット"
+    },
+    "label_default_tag": {
+        "message": "デフォルトタグ"
+    },
+    "placeholder_default_tag": {
+        "message": "例：読書、ウェブ、記事"
+    },
+    "label_template": {
+        "message": "テンプレート"
+    },
+    "placeholder_template": {
+        "message": "変数を使用: {title}, {url}, {content}, {timestamp}, {tag}。日時オプションは下記をご覧ください。"
+    },
+    "advanced_settings": {
+        "message": "詳細設定"
+    },
+    "section_drafts_url": {
+        "message": "Drafts URLスキーム"
+    },
+    "label_how_to_send": {
+        "message": "Draftsへの送信方法"
+    },
+    "mode_create_url": {
+        "message": "作成URL"
+    },
+    "mode_action_url": {
+        "message": "アクションURL"
+    },
+    "label_drafts_action_name": {
+        "message": "Draftsアクション名"
+    },
+    "placeholder_drafts_action": {
+        "message": "作成URLでは任意、アクションURLでは必須"
+    },
+    "help_drafts_action": {
+        "message": "作成URLでは下書き作成後にアクションを実行できます（任意）。アクションURLではアクション名が必須です。"
+    },
+    "section_capture": {
+        "message": "キャプチャ対象"
+    },
+    "label_content_selectors": {
+        "message": "記事テキストの検索先（CSSセレクタ）"
+    },
+    "placeholder_content_selectors": {
+        "message": "記事コンテンツを見つけるCSSセレクタを1行に1つずつ入力"
+    },
+    "label_custom_filters": {
+        "message": "除外対象（CSSセレクタ）"
+    },
+    "placeholder_custom_filters": {
+        "message": "除外する要素のCSSセレクタを1行に1つずつ入力"
+    },
+    "section_selector_finder": {
+        "message": "セレクタファインダー"
+    },
+    "help_selector_finder": {
+        "message": "ウェブページを解析して、記事コンテンツ抽出に最適なCSSセレクタを見つけます。"
+    },
+    "privacy_selector_finder": {
+        "message": "プライバシーに関する注意：「ページを解析」をクリックすると、URLとページHTMLの加工済みコピーがセレクタファインダーサービスおよびGeminiに送信されます。リクエストは一時的に処理され、ネコスクラッチには保存されません。"
+    },
+    "btn_analyze": {
+        "message": "ページを解析"
+    },
+    "loading_analyzing": {
+        "message": "ページ構造を解析中..."
+    },
+    "label_found_content_selector": {
+        "message": "検出されたコンテンツセレクタ"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "検出された除外要素"
+    },
+    "label_extraction_preview": {
+        "message": "抽出プレビュー"
+    },
+    "btn_add_selectors": {
+        "message": "現在のセレクタに追加"
+    },
+    "btn_reset": {
+        "message": "デフォルトに戻す"
+    },
+    "btn_save": {
+        "message": "設定を保存"
+    },
+    "status_using_defaults": {
+        "message": "デフォルト設定を使用中。"
+    },
+    "status_saved_icloud": {
+        "message": "設定をiCloudに保存しました！"
+    },
+    "status_saved_local": {
+        "message": "設定をローカルに保存しました（iCloudは利用不可）。"
+    },
+    "status_save_failed": {
+        "message": "保存に失敗しました。もう一度お試しください。"
+    },
+    "status_no_changes": {
+        "message": "未保存の変更はありません。"
+    },
+    "status_reset_success": {
+        "message": "設定をデフォルトに戻しました。"
+    },
+    "status_reset_failed": {
+        "message": "リセットに失敗しました。もう一度お試しください。"
+    },
+    "status_selectors_added": {
+        "message": "セレクタを追加しました！「設定を保存」をクリックして保存してください。"
+    },
+    "validation_min_content_length": {
+        "message": "最小コンテンツ長は正の数である必要があります"
+    },
+    "validation_link_ratio": {
+        "message": "リンク比率は0から1の間で指定してください"
+    },
+    "validation_action_required": {
+        "message": "アクションURLを選択した場合、Draftsアクション名は必須です。"
+    },
+    "error_enter_url": {
+        "message": "URLを入力してください"
+    },
+    "error_valid_url": {
+        "message": "有効なURLを入力してください"
+    },
+    "error_prefix": {
+        "message": "ネコスクラッチ エラー: $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "ネコスクラッチ エラー: アクションURLモードでは詳細設定でDraftsアクション名を指定する必要があります。"
+    },
+    "error_content_too_large": {
+        "message": "コンテンツが大きすぎて$APP_NAME$に送信できません。ページの一部を選択してお試しください。",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "このブラウザ環境ではシステム共有機能がサポートされていません。"
+    },
+    "version_label": {
+        "message": "バージョン $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "Kattenkrabben"
+    },
+    "extension_description": {
+        "message": "Leg webinhoud vast en stuur het rechtstreeks naar de Drafts-app met sneltoetsen."
+    },
+    "action_title": {
+        "message": "Knippen naar Drafts"
+    },
+    "settings_title": {
+        "message": "Instellingen"
+    },
+    "section_destination": {
+        "message": "Waar knipsels naartoe sturen"
+    },
+    "drafts_not_installed": {
+        "message": "Drafts is niet geïnstalleerd."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "Inhoud wordt opgeslagen via het deelmenu."
+    },
+    "get_drafts": {
+        "message": "Drafts downloaden"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "Deelmenu"
+    },
+    "section_format": {
+        "message": "Hoe concepten opmaken"
+    },
+    "label_default_tag": {
+        "message": "Standaard tag"
+    },
+    "placeholder_default_tag": {
+        "message": "bijv. lezen, web, artikel"
+    },
+    "label_template": {
+        "message": "Sjabloon"
+    },
+    "placeholder_template": {
+        "message": "Gebruik variabelen: {title}, {url}, {content}, {timestamp}, {tag}. Meer datum/tijd-opties hieronder."
+    },
+    "advanced_settings": {
+        "message": "Geavanceerde instellingen"
+    },
+    "section_drafts_url": {
+        "message": "Drafts URL-schema"
+    },
+    "label_how_to_send": {
+        "message": "Hoe naar Drafts sturen"
+    },
+    "mode_create_url": {
+        "message": "Aanmaak-URL"
+    },
+    "mode_action_url": {
+        "message": "Actie-URL"
+    },
+    "label_drafts_action_name": {
+        "message": "Drafts-actienaam"
+    },
+    "placeholder_drafts_action": {
+        "message": "Optioneel voor Aanmaak-URL; vereist voor Actie-URL"
+    },
+    "help_drafts_action": {
+        "message": "Aanmaak-URL kan optioneel een actie uitvoeren na het maken van het concept. Actie-URL vereist een actienaam."
+    },
+    "section_capture": {
+        "message": "Wat vastleggen"
+    },
+    "label_content_selectors": {
+        "message": "Waar artikeltekst vinden (CSS-selectors)"
+    },
+    "placeholder_content_selectors": {
+        "message": "Voer CSS-selectors in om artikelinhoud te vinden, één per regel"
+    },
+    "label_custom_filters": {
+        "message": "Wat negeren (CSS-selectors)"
+    },
+    "placeholder_custom_filters": {
+        "message": "Voer CSS-selectors in voor te verwijderen elementen, één per regel"
+    },
+    "section_selector_finder": {
+        "message": "Selector-zoeker"
+    },
+    "help_selector_finder": {
+        "message": "Analyseer een webpagina om de beste CSS-selectors te vinden voor het extraheren van artikelinhoud."
+    },
+    "privacy_selector_finder": {
+        "message": "Privacyopmerking: wanneer u op Pagina analyseren klikt, worden de URL en een verwerkte kopie van de HTML van de pagina naar de Selector-zoeker-service en Gemini gestuurd voor analyse. Verzoeken worden tijdelijk verwerkt en niet opgeslagen door Kattenkrabben."
+    },
+    "btn_analyze": {
+        "message": "Pagina analyseren"
+    },
+    "loading_analyzing": {
+        "message": "Paginastructuur wordt geanalyseerd..."
+    },
+    "label_found_content_selector": {
+        "message": "Gevonden inhoudsselector"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Gevonden te negeren elementen"
+    },
+    "label_extraction_preview": {
+        "message": "Extractievoorbeeld"
+    },
+    "btn_add_selectors": {
+        "message": "Toevoegen aan huidige selectors"
+    },
+    "btn_reset": {
+        "message": "Standaardinstellingen herstellen"
+    },
+    "btn_save": {
+        "message": "Instellingen opslaan"
+    },
+    "status_using_defaults": {
+        "message": "Standaardinstellingen worden gebruikt."
+    },
+    "status_saved_icloud": {
+        "message": "Instellingen opgeslagen in iCloud!"
+    },
+    "status_saved_local": {
+        "message": "Instellingen lokaal opgeslagen (iCloud niet beschikbaar)."
+    },
+    "status_save_failed": {
+        "message": "Opslaan mislukt. Probeer het opnieuw."
+    },
+    "status_no_changes": {
+        "message": "Geen onopgeslagen wijzigingen."
+    },
+    "status_reset_success": {
+        "message": "Instellingen hersteld naar standaard."
+    },
+    "status_reset_failed": {
+        "message": "Herstellen mislukt. Probeer het opnieuw."
+    },
+    "status_selectors_added": {
+        "message": "Selectors toegevoegd! Klik op \"Instellingen opslaan\" om ze te bewaren."
+    },
+    "validation_min_content_length": {
+        "message": "Minimale inhoudslengte moet een positief getal zijn"
+    },
+    "validation_link_ratio": {
+        "message": "Linkratio moet tussen 0 en 1 liggen"
+    },
+    "validation_action_required": {
+        "message": "Drafts-actienaam is vereist wanneer Actie-URL is geselecteerd."
+    },
+    "error_enter_url": {
+        "message": "Voer een URL in"
+    },
+    "error_valid_url": {
+        "message": "Voer een geldige URL in"
+    },
+    "error_prefix": {
+        "message": "Kattenkrabben-fout: $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "Kattenkrabben-fout: Actie-URL-modus vereist een Drafts-actienaam in Geavanceerde instellingen."
+    },
+    "error_content_too_large": {
+        "message": "Inhoud te groot om naar $APP_NAME$ te sturen. Probeer een kleiner gedeelte van de pagina te selecteren.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "Systeemdeelfunctie wordt niet ondersteund in deze browsercontext."
+    },
+    "version_label": {
+        "message": "Versie $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}

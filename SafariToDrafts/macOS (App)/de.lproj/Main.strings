@@ -1,0 +1,32 @@
+/* Class = "NSMenuItem"; title = "Cat Scratches"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Katzenkratzer";
+
+/* Class = "NSMenu"; title = "Cat Scratches"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Katzenkratzer";
+
+/* Class = "NSMenuItem"; title = "About Cat Scratches"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "Über Katzenkratzer";
+
+/* Class = "NSMenuItem"; title = "Hide Cat Scratches"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Katzenkratzer ausblenden";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Andere ausblenden";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Alle einblenden";
+
+/* Class = "NSMenuItem"; title = "Quit Cat Scratches"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Katzenkratzer beenden";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Hilfe";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Hilfe";
+
+/* Class = "NSMenuItem"; title = "Cat Scratches Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Katzenkratzer-Hilfe";
+
+/* Class = "NSWindow"; title = "Cat Scratches"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Katzenkratzer";

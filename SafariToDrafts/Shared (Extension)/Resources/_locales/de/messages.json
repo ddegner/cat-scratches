@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "Katzenkratzer"
+    },
+    "extension_description": {
+        "message": "Webinhalte erfassen und direkt per Tastenkürzel an die Drafts-App senden."
+    },
+    "action_title": {
+        "message": "In Drafts speichern"
+    },
+    "settings_title": {
+        "message": "Einstellungen"
+    },
+    "section_destination": {
+        "message": "Wohin Ausschnitte senden"
+    },
+    "drafts_not_installed": {
+        "message": "Drafts ist nicht installiert."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "Inhalte werden über das Teilen-Menü gespeichert."
+    },
+    "get_drafts": {
+        "message": "Drafts laden"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "Teilen-Menü"
+    },
+    "section_format": {
+        "message": "Entwürfe formatieren"
+    },
+    "label_default_tag": {
+        "message": "Standard-Tag"
+    },
+    "placeholder_default_tag": {
+        "message": "z. B. Lesen, Web, Artikel"
+    },
+    "label_template": {
+        "message": "Vorlage"
+    },
+    "placeholder_template": {
+        "message": "Platzhalter verwenden: {title}, {url}, {content}, {timestamp}, {tag}. Weitere Datums-/Zeitoptionen unten."
+    },
+    "advanced_settings": {
+        "message": "Erweiterte Einstellungen"
+    },
+    "section_drafts_url": {
+        "message": "Drafts-URL-Schema"
+    },
+    "label_how_to_send": {
+        "message": "Wie an Drafts senden"
+    },
+    "mode_create_url": {
+        "message": "Erstell-URL"
+    },
+    "mode_action_url": {
+        "message": "Aktions-URL"
+    },
+    "label_drafts_action_name": {
+        "message": "Drafts-Aktionsname"
+    },
+    "placeholder_drafts_action": {
+        "message": "Optional für Erstell-URL; erforderlich für Aktions-URL"
+    },
+    "help_drafts_action": {
+        "message": "Erstell-URL kann optional eine Aktion nach dem Erstellen des Entwurfs ausführen. Aktions-URL erfordert einen Aktionsnamen."
+    },
+    "section_capture": {
+        "message": "Was erfassen"
+    },
+    "label_content_selectors": {
+        "message": "Wo Artikeltext finden (CSS-Selektoren)"
+    },
+    "placeholder_content_selectors": {
+        "message": "CSS-Selektoren für Artikelinhalte eingeben, einen pro Zeile"
+    },
+    "label_custom_filters": {
+        "message": "Was ignorieren (CSS-Selektoren)"
+    },
+    "placeholder_custom_filters": {
+        "message": "CSS-Selektoren für zu entfernende Elemente eingeben, einen pro Zeile"
+    },
+    "section_selector_finder": {
+        "message": "Selektor-Finder"
+    },
+    "help_selector_finder": {
+        "message": "Eine Webseite analysieren, um die besten CSS-Selektoren für die Artikelextraktion zu finden."
+    },
+    "privacy_selector_finder": {
+        "message": "Datenschutzhinweis: Wenn Sie auf \u201ESeite analysieren\u201C klicken, werden die URL und eine verarbeitete Kopie des HTML der Seite an den Selektor-Finder-Dienst und Gemini zur Analyse gesendet. Anfragen werden vorübergehend verarbeitet und nicht von Katzenkratzer gespeichert."
+    },
+    "btn_analyze": {
+        "message": "Seite analysieren"
+    },
+    "loading_analyzing": {
+        "message": "Seitenstruktur wird analysiert..."
+    },
+    "label_found_content_selector": {
+        "message": "Gefundener Inhaltsselektor"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Gefundene zu ignorierende Elemente"
+    },
+    "label_extraction_preview": {
+        "message": "Extraktionsvorschau"
+    },
+    "btn_add_selectors": {
+        "message": "Zu aktuellen Selektoren hinzufügen"
+    },
+    "btn_reset": {
+        "message": "Auf Standard zurücksetzen"
+    },
+    "btn_save": {
+        "message": "Einstellungen speichern"
+    },
+    "status_using_defaults": {
+        "message": "Standardeinstellungen werden verwendet."
+    },
+    "status_saved_icloud": {
+        "message": "Einstellungen in iCloud gespeichert!"
+    },
+    "status_saved_local": {
+        "message": "Einstellungen lokal gespeichert (iCloud nicht verfügbar)."
+    },
+    "status_save_failed": {
+        "message": "Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut."
+    },
+    "status_no_changes": {
+        "message": "Keine ungespeicherten Änderungen."
+    },
+    "status_reset_success": {
+        "message": "Einstellungen auf Standard zurückgesetzt."
+    },
+    "status_reset_failed": {
+        "message": "Einstellungen konnten nicht zurückgesetzt werden. Bitte versuchen Sie es erneut."
+    },
+    "status_selectors_added": {
+        "message": "Selektoren hinzugefügt! Klicken Sie auf \u201EEinstellungen speichern\u201C, um sie zu behalten."
+    },
+    "validation_min_content_length": {
+        "message": "Mindestinhaltslänge muss eine positive Zahl sein"
+    },
+    "validation_link_ratio": {
+        "message": "Linkverhältnis muss zwischen 0 und 1 liegen"
+    },
+    "validation_action_required": {
+        "message": "Drafts-Aktionsname ist erforderlich, wenn Aktions-URL ausgewählt ist."
+    },
+    "error_enter_url": {
+        "message": "Bitte geben Sie eine URL ein"
+    },
+    "error_valid_url": {
+        "message": "Bitte geben Sie eine gültige URL ein"
+    },
+    "error_prefix": {
+        "message": "Katzenkratzer-Fehler: $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "Katzenkratzer-Fehler: Aktions-URL-Modus erfordert einen Drafts-Aktionsnamen in den erweiterten Einstellungen."
+    },
+    "error_content_too_large": {
+        "message": "Inhalt zu groß für $APP_NAME$. Versuchen Sie, einen kleineren Abschnitt der Seite auszuwählen.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "Systemfreigabe wird in diesem Browser-Kontext nicht unterstützt."
+    },
+    "version_label": {
+        "message": "Version $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}

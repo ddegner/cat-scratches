@@ -661,7 +661,7 @@
                     style="border-radius: 6px;">
             </picture>
             <div class="header-title">
-                <h1>Settings</h1>
+                <h1 data-i18n="settings_title">Settings</h1>
                 <p class="settings-version" id="settingsVersion"></p>
             </div>
         </div>
@@ -669,22 +669,22 @@
         <div class="content">
             <!-- Destination Section -->
             <div class="section">
-                <h2>Where to send clips</h2>
+                <h2 data-i18n="section_destination">Where to send clips</h2>
                 <div id="draftsNotInstalledBanner" class="status-message info"
                     style="display: none; margin-bottom: 16px;">
-                    <strong>Drafts is not installed.</strong> Content will be saved to Share Sheet.
+                    <strong data-i18n="drafts_not_installed">Drafts is not installed.</strong> <span data-i18n="drafts_not_installed_fallback">Content will be saved to Share Sheet.</span>
                     <a href="#" id="getDraftsLink"
-                        style="color: inherit; text-decoration: underline; margin-left: 8px;">Get Drafts</a>
+                        style="color: inherit; text-decoration: underline; margin-left: 8px;" data-i18n="get_drafts">Get Drafts</a>
                 </div>
                 <div class="form-group">
                     <div class="segmented-control">
                         <input type="radio" name="saveDestination" value="drafts" id="destDrafts">
                         <label for="destDrafts">
-                            <span>Drafts</span>
+                            <span data-i18n="dest_drafts">Drafts</span>
                         </label>
                         <input type="radio" name="saveDestination" value="share" id="destShare">
                         <label for="destShare">
-                            <span>Share Sheet</span>
+                            <span data-i18n="dest_share_sheet">Share Sheet</span>
                         </label>
                     </div>
 
@@ -696,17 +696,17 @@
 
             <!-- Output Format Section -->
             <div class="section section-no-divider">
-                <h2>How to format drafts</h2>
+                <h2 data-i18n="section_format">How to format drafts</h2>
 
                 <div class="form-group">
-                    <label for="defaultTag">Default Tag</label>
-                    <input type="text" id="defaultTag" placeholder="e.g., reading, web, article">
+                    <label for="defaultTag" data-i18n="label_default_tag">Default Tag</label>
+                    <input type="text" id="defaultTag" data-i18n-placeholder="placeholder_default_tag" placeholder="e.g., reading, web, article">
                 </div>
 
                 <div class="form-group">
-                    <label for="template">Template</label>
+                    <label for="template" data-i18n="label_template">Template</label>
                     <textarea id="template"
-                        placeholder="Use placeholders: {title}, {url}, {content}, {timestamp}, {tag}. More date/time options are below."></textarea>
+                        data-i18n-placeholder="placeholder_template" placeholder="Use placeholders: {title}, {url}, {content}, {timestamp}, {tag}. More date/time options are below."></textarea>
                     <details class="accordion accordion--placeholder">
                         <summary>
                             <span id="collapsedPlaceholderTags" class="placeholder-tags placeholder-summary-tags"></span>
@@ -719,31 +719,31 @@
             </div>
 
             <details class="accordion accordion--advanced" id="advancedSettingsAccordion">
-                <summary>Advanced Settings</summary>
+                <summary data-i18n="advanced_settings">Advanced Settings</summary>
                 <div class="accordion-content">
                     <!-- Drafts URL Section -->
                     <div class="section">
-                        <h2>Drafts URL Scheme</h2>
+                        <h2 data-i18n="section_drafts_url">Drafts URL Scheme</h2>
 
                         <div class="form-group">
-                            <label>How to send to Drafts</label>
+                            <label data-i18n="label_how_to_send">How to send to Drafts</label>
                             <div class="segmented-control" role="radiogroup" aria-label="Drafts URL Scheme">
                                 <input type="radio" name="draftsUrlMode" value="create" id="draftsUrlCreate">
                                 <label for="draftsUrlCreate">
-                                    <span>Create URL</span>
+                                    <span data-i18n="mode_create_url">Create URL</span>
                                 </label>
                                 <input type="radio" name="draftsUrlMode" value="runAction" id="draftsUrlRunAction">
                                 <label for="draftsUrlRunAction">
-                                    <span>Action URL</span>
+                                    <span data-i18n="mode_action_url">Action URL</span>
                                 </label>
                             </div>
                         </div>
 
                         <div class="form-group" id="draftsActionNameGroup">
-                            <label for="draftsActionName">Drafts Action Name</label>
+                            <label for="draftsActionName" data-i18n="label_drafts_action_name">Drafts Action Name</label>
                             <input type="text" id="draftsActionName"
-                                placeholder="Optional for Create URL; required for Action URL">
-                            <p style="margin: 8px 0 0 0; font-size: 12px; opacity: 0.8;">
+                                data-i18n-placeholder="placeholder_drafts_action" placeholder="Optional for Create URL; required for Action URL">
+                            <p data-i18n="help_drafts_action" style="margin: 8px 0 0 0; font-size: 12px; opacity: 0.8;">
                                 Create URL can optionally run an action after creating the draft. Action URL requires
                                 an action name.
                             </p>
@@ -752,12 +752,12 @@
 
                     <!-- Content Extraction Section -->
                     <div class="section">
-                        <h2>What to capture</h2>
+                        <h2 data-i18n="section_capture">What to capture</h2>
 
                         <div class="form-group">
-                            <label for="contentSelectors">Where to find article text (CSS selectors)</label>
+                            <label for="contentSelectors" data-i18n="label_content_selectors">Where to find article text (CSS selectors)</label>
                             <textarea id="contentSelectors"
-                                placeholder="Enter CSS selectors to find article content, one per line">[itemtype*="Article"]
+                                data-i18n-placeholder="placeholder_content_selectors" placeholder="Enter CSS selectors to find article content, one per line">[itemtype*="Article"]
 [itemtype*="BlogPosting"]
 [itemtype*="NewsArticle"]
 article[role="main"]
@@ -784,8 +784,8 @@ main
                         </div>
 
                         <div class="form-group">
-                            <label for="customFilters">What to ignore (CSS selectors)</label>
-                            <textarea id="customFilters" placeholder="Enter CSS selectors for elements to remove, one per line">img
+                            <label for="customFilters" data-i18n="label_custom_filters">What to ignore (CSS selectors)</label>
+                            <textarea id="customFilters" data-i18n-placeholder="placeholder_custom_filters" placeholder="Enter CSS selectors for elements to remove, one per line">img
 picture
 figure
 figcaption
@@ -937,10 +937,10 @@ form
 
                     <!-- Selector Finder Section -->
                     <div class="section">
-                        <h2>Selector Finder</h2>
-                        <div class="help-text" style="margin-bottom: 16px;">Analyze a web page to find the best CSS selectors
+                        <h2 data-i18n="section_selector_finder">Selector Finder</h2>
+                        <div class="help-text" data-i18n="help_selector_finder" style="margin-bottom: 16px;">Analyze a web page to find the best CSS selectors
                             for extracting article content.</div>
-                        <div class="help-text" style="margin-bottom: 16px;">
+                        <div class="help-text" data-i18n="privacy_selector_finder" style="margin-bottom: 16px;">
                             Privacy note: when you click Analyze Page, the URL and a processed copy of that page's HTML are
                             sent to the Selector Finder service and Gemini for analysis. Requests are processed transiently and are
                             not saved by Cat Scratches.
@@ -951,32 +951,32 @@ form
                                 placeholder="https://example.com/article">
                         </div>
 
-                        <button class="button button-primary" id="analyzeBtn">Analyze Page</button>
+                        <button class="button button-primary" id="analyzeBtn" data-i18n="btn_analyze">Analyze Page</button>
 
                         <div class="finder-loading" id="finderLoading">
                             <div class="spinner"></div>
-                            <span>Analyzing page structure...</span>
+                            <span data-i18n="loading_analyzing">Analyzing page structure...</span>
                         </div>
 
                         <div class="status-message error" id="finderError" style="margin-top: 16px;"></div>
 
                         <div class="finder-results" id="finderResults">
                             <div class="form-group" style="margin-top: 24px;">
-                                <label>Found Content Selector</label>
+                                <label data-i18n="label_found_content_selector">Found Content Selector</label>
                                 <div class="finder-selectors" id="foundContentSelector"></div>
                             </div>
 
                             <div class="form-group">
-                                <label>Found elements to ignore</label>
+                                <label data-i18n="label_found_elements_to_ignore">Found elements to ignore</label>
                                 <div class="finder-selectors" id="foundElementsToRemove" style="white-space: pre-wrap;"></div>
                             </div>
 
                             <div class="form-group">
-                                <label>Extraction Preview</label>
+                                <label data-i18n="label_extraction_preview">Extraction Preview</label>
                                 <div class="preview-content" id="finderPreview"></div>
                             </div>
 
-                            <button class="button button-primary" id="addSelectorsBtn">Add to Current Selectors</button>
+                            <button class="button button-primary" id="addSelectorsBtn" data-i18n="btn_add_selectors">Add to Current Selectors</button>
                         </div>
                     </div>
                 </div>
@@ -985,12 +985,13 @@ form
             <!-- Actions -->
             <div class="status-message" id="statusMessage"></div>
             <div class="button-group">
-                <button class="button button-danger" id="resetSettings">Reset to Defaults</button>
-                <button class="button" id="saveSettings" disabled>Save Settings</button>
+                <button class="button button-danger" id="resetSettings" data-i18n="btn_reset">Reset to Defaults</button>
+                <button class="button" id="saveSettings" data-i18n="btn_save" disabled>Save Settings</button>
             </div>
         </div>
     </div>
 
+    <script src="i18n.js"></script>
     <script src="defaults.js"></script>
     <script src="settings-store.js"></script>
     <script src="turndown.js"></script>

@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "Vết Mèo Cào"
+    },
+    "extension_description": {
+        "message": "Lưu nội dung web và gửi trực tiếp đến ứng dụng Drafts bằng phím tắt."
+    },
+    "action_title": {
+        "message": "Cắt vào Drafts"
+    },
+    "settings_title": {
+        "message": "Cài đặt"
+    },
+    "section_destination": {
+        "message": "Gửi bài cắt đến đâu"
+    },
+    "drafts_not_installed": {
+        "message": "Drafts chưa được cài đặt."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "Nội dung sẽ được lưu vào Bảng chia sẻ."
+    },
+    "get_drafts": {
+        "message": "Tải Drafts"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "Bảng chia sẻ"
+    },
+    "section_format": {
+        "message": "Cách định dạng bản nháp"
+    },
+    "label_default_tag": {
+        "message": "Thẻ mặc định"
+    },
+    "placeholder_default_tag": {
+        "message": "ví dụ: đọc, web, bài viết"
+    },
+    "label_template": {
+        "message": "Mẫu"
+    },
+    "placeholder_template": {
+        "message": "Dùng biến thay thế: {title}, {url}, {content}, {timestamp}, {tag}. Thêm tùy chọn ngày/giờ bên dưới."
+    },
+    "advanced_settings": {
+        "message": "Cài đặt nâng cao"
+    },
+    "section_drafts_url": {
+        "message": "Lược đồ URL của Drafts"
+    },
+    "label_how_to_send": {
+        "message": "Cách gửi đến Drafts"
+    },
+    "mode_create_url": {
+        "message": "Tạo URL"
+    },
+    "mode_action_url": {
+        "message": "URL hành động"
+    },
+    "label_drafts_action_name": {
+        "message": "Tên hành động Drafts"
+    },
+    "placeholder_drafts_action": {
+        "message": "Tùy chọn cho Tạo URL; bắt buộc cho URL hành động"
+    },
+    "help_drafts_action": {
+        "message": "Tạo URL có thể chạy một hành động sau khi tạo bản nháp. URL hành động yêu cầu tên hành động."
+    },
+    "section_capture": {
+        "message": "Nội dung cần lấy"
+    },
+    "label_content_selectors": {
+        "message": "Nơi tìm nội dung bài viết (bộ chọn CSS)"
+    },
+    "placeholder_content_selectors": {
+        "message": "Nhập bộ chọn CSS để tìm nội dung bài viết, mỗi dòng một bộ chọn"
+    },
+    "label_custom_filters": {
+        "message": "Nội dung cần bỏ qua (bộ chọn CSS)"
+    },
+    "placeholder_custom_filters": {
+        "message": "Nhập bộ chọn CSS cho các phần tử cần loại bỏ, mỗi dòng một bộ chọn"
+    },
+    "section_selector_finder": {
+        "message": "Tìm bộ chọn"
+    },
+    "help_selector_finder": {
+        "message": "Phân tích trang web để tìm bộ chọn CSS tốt nhất cho việc trích xuất nội dung bài viết."
+    },
+    "privacy_selector_finder": {
+        "message": "Lưu ý bảo mật: khi bạn nhấn Phân tích trang, URL và bản sao đã xử lý của HTML trang đó sẽ được gửi đến dịch vụ Tìm bộ chọn và Gemini để phân tích. Các yêu cầu được xử lý tạm thời và không được Vết Mèo Cào lưu lại."
+    },
+    "btn_analyze": {
+        "message": "Phân tích trang"
+    },
+    "loading_analyzing": {
+        "message": "Đang phân tích cấu trúc trang..."
+    },
+    "label_found_content_selector": {
+        "message": "Bộ chọn nội dung tìm thấy"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Phần tử cần bỏ qua tìm thấy"
+    },
+    "label_extraction_preview": {
+        "message": "Xem trước trích xuất"
+    },
+    "btn_add_selectors": {
+        "message": "Thêm vào bộ chọn hiện tại"
+    },
+    "btn_reset": {
+        "message": "Đặt lại mặc định"
+    },
+    "btn_save": {
+        "message": "Lưu cài đặt"
+    },
+    "status_using_defaults": {
+        "message": "Đang sử dụng cài đặt mặc định."
+    },
+    "status_saved_icloud": {
+        "message": "Đã lưu cài đặt vào iCloud!"
+    },
+    "status_saved_local": {
+        "message": "Đã lưu cài đặt cục bộ (iCloud không khả dụng)."
+    },
+    "status_save_failed": {
+        "message": "Không thể lưu cài đặt. Vui lòng thử lại."
+    },
+    "status_no_changes": {
+        "message": "Không có thay đổi chưa lưu."
+    },
+    "status_reset_success": {
+        "message": "Đã đặt lại cài đặt về mặc định."
+    },
+    "status_reset_failed": {
+        "message": "Không thể đặt lại cài đặt. Vui lòng thử lại."
+    },
+    "status_selectors_added": {
+        "message": "Đã thêm bộ chọn! Nhấn \"Lưu cài đặt\" để giữ lại."
+    },
+    "validation_min_content_length": {
+        "message": "Độ dài nội dung tối thiểu phải là số dương"
+    },
+    "validation_link_ratio": {
+        "message": "Tỷ lệ liên kết phải nằm giữa 0 và 1"
+    },
+    "validation_action_required": {
+        "message": "Tên hành động Drafts là bắt buộc khi chọn URL hành động."
+    },
+    "error_enter_url": {
+        "message": "Vui lòng nhập URL"
+    },
+    "error_valid_url": {
+        "message": "Vui lòng nhập URL hợp lệ"
+    },
+    "error_prefix": {
+        "message": "Lỗi Vết Mèo Cào: $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "Lỗi Vết Mèo Cào: Chế độ URL hành động yêu cầu Tên hành động Drafts trong Cài đặt nâng cao."
+    },
+    "error_content_too_large": {
+        "message": "Nội dung quá lớn để gửi đến $APP_NAME$. Hãy thử chọn một phần nhỏ hơn của trang.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "Chia sẻ hệ thống không được hỗ trợ trong ngữ cảnh trình duyệt này."
+    },
+    "version_label": {
+        "message": "Phiên bản $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}

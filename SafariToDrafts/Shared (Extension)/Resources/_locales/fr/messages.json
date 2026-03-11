@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "Griffures de Chat"
+    },
+    "extension_description": {
+        "message": "Capturez du contenu web et envoyez-le directement à l'application Drafts avec des raccourcis clavier."
+    },
+    "action_title": {
+        "message": "Capturer dans Drafts"
+    },
+    "settings_title": {
+        "message": "Réglages"
+    },
+    "section_destination": {
+        "message": "Où envoyer les captures"
+    },
+    "drafts_not_installed": {
+        "message": "Drafts n'est pas installé."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "Le contenu sera enregistré via la feuille de partage."
+    },
+    "get_drafts": {
+        "message": "Obtenir Drafts"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "Feuille de partage"
+    },
+    "section_format": {
+        "message": "Comment formater les brouillons"
+    },
+    "label_default_tag": {
+        "message": "Tag par défaut"
+    },
+    "placeholder_default_tag": {
+        "message": "ex. : lecture, web, article"
+    },
+    "label_template": {
+        "message": "Modèle"
+    },
+    "placeholder_template": {
+        "message": "Utilisez les variables : {title}, {url}, {content}, {timestamp}, {tag}. Plus d'options date/heure ci-dessous."
+    },
+    "advanced_settings": {
+        "message": "Réglages avancés"
+    },
+    "section_drafts_url": {
+        "message": "Schéma d'URL Drafts"
+    },
+    "label_how_to_send": {
+        "message": "Comment envoyer à Drafts"
+    },
+    "mode_create_url": {
+        "message": "URL de création"
+    },
+    "mode_action_url": {
+        "message": "URL d'action"
+    },
+    "label_drafts_action_name": {
+        "message": "Nom de l'action Drafts"
+    },
+    "placeholder_drafts_action": {
+        "message": "Facultatif pour URL de création ; requis pour URL d'action"
+    },
+    "help_drafts_action": {
+        "message": "L'URL de création peut éventuellement exécuter une action après la création du brouillon. L'URL d'action nécessite un nom d'action."
+    },
+    "section_capture": {
+        "message": "Quoi capturer"
+    },
+    "label_content_selectors": {
+        "message": "Où trouver le texte de l'article (sélecteurs CSS)"
+    },
+    "placeholder_content_selectors": {
+        "message": "Entrez les sélecteurs CSS pour trouver le contenu, un par ligne"
+    },
+    "label_custom_filters": {
+        "message": "Quoi ignorer (sélecteurs CSS)"
+    },
+    "placeholder_custom_filters": {
+        "message": "Entrez les sélecteurs CSS des éléments à supprimer, un par ligne"
+    },
+    "section_selector_finder": {
+        "message": "Chercheur de sélecteurs"
+    },
+    "help_selector_finder": {
+        "message": "Analysez une page web pour trouver les meilleurs sélecteurs CSS pour l'extraction de contenu."
+    },
+    "privacy_selector_finder": {
+        "message": "Note de confidentialité : lorsque vous cliquez sur Analyser la page, l'URL et une copie traitée du HTML de la page sont envoyées au service Chercheur de sélecteurs et à Gemini pour analyse. Les requêtes sont traitées de manière transitoire et ne sont pas enregistrées par Griffures de Chat."
+    },
+    "btn_analyze": {
+        "message": "Analyser la page"
+    },
+    "loading_analyzing": {
+        "message": "Analyse de la structure de la page..."
+    },
+    "label_found_content_selector": {
+        "message": "Sélecteur de contenu trouvé"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Éléments à ignorer trouvés"
+    },
+    "label_extraction_preview": {
+        "message": "Aperçu de l'extraction"
+    },
+    "btn_add_selectors": {
+        "message": "Ajouter aux sélecteurs actuels"
+    },
+    "btn_reset": {
+        "message": "Réinitialiser"
+    },
+    "btn_save": {
+        "message": "Enregistrer les réglages"
+    },
+    "status_using_defaults": {
+        "message": "Utilisation des réglages par défaut."
+    },
+    "status_saved_icloud": {
+        "message": "Réglages enregistrés dans iCloud !"
+    },
+    "status_saved_local": {
+        "message": "Réglages enregistrés localement (iCloud indisponible)."
+    },
+    "status_save_failed": {
+        "message": "Échec de l'enregistrement. Veuillez réessayer."
+    },
+    "status_no_changes": {
+        "message": "Aucune modification non enregistrée."
+    },
+    "status_reset_success": {
+        "message": "Réglages réinitialisés."
+    },
+    "status_reset_failed": {
+        "message": "Échec de la réinitialisation. Veuillez réessayer."
+    },
+    "status_selectors_added": {
+        "message": "Sélecteurs ajoutés ! Cliquez sur « Enregistrer les réglages » pour les conserver."
+    },
+    "validation_min_content_length": {
+        "message": "La longueur minimale du contenu doit être un nombre positif"
+    },
+    "validation_link_ratio": {
+        "message": "Le ratio de liens doit être compris entre 0 et 1"
+    },
+    "validation_action_required": {
+        "message": "Le nom de l'action Drafts est requis lorsque URL d'action est sélectionné."
+    },
+    "error_enter_url": {
+        "message": "Veuillez entrer une URL"
+    },
+    "error_valid_url": {
+        "message": "Veuillez entrer une URL valide"
+    },
+    "error_prefix": {
+        "message": "Erreur Griffures de Chat : $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "Erreur Griffures de Chat : le mode URL d'action nécessite un nom d'action Drafts dans les réglages avancés."
+    },
+    "error_content_too_large": {
+        "message": "Contenu trop volumineux pour $APP_NAME$. Essayez de sélectionner une portion plus petite de la page.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "Le partage système n'est pas pris en charge dans ce contexte de navigateur."
+    },
+    "version_label": {
+        "message": "Version $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}

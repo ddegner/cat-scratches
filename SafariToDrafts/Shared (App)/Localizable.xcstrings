@@ -1,0 +1,256 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Cat Scratches" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Katzenkratzer" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Arañazos de Gato" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Griffures de Chat" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ネコスクラッチ" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Kattenkrabben" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Vết Mèo Cào" } }
+      }
+    },
+    "Cat Scratches version %@" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Katzenkratzer Version %@" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Arañazos de Gato versión %@" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Griffures de Chat version %@" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ネコスクラッチ バージョン %@" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Kattenkrabben versie %@" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Vết Mèo Cào phiên bản %@" } }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Verbinden" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Conectar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Connexion" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "つながる" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Verbinden" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Kết nối" } }
+      }
+    },
+    "Created by David Degner" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erstellt von David Degner" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Creado por David Degner" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Créé par David Degner" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "David Degner 作" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Gemaakt door David Degner" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tạo bởi David Degner" } }
+      }
+    },
+    "Drafts Application" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Drafts App" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Aplicación Drafts" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Application Drafts" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Drafts アプリ" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Drafts App" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Ứng dụng Drafts" } }
+      }
+    },
+    "Drafts is not installed" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Drafts ist nicht installiert" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Drafts no está instalado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Drafts n'est pas installé" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Drafts がインストールされていません" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Drafts is niet geïnstalleerd" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Drafts chưa được cài đặt" } }
+      }
+    },
+    "Enable Cat Scratches in Extension Settings" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Katzenkratzer in den Erweiterungseinstellungen aktivieren" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Activa Arañazos de Gato en Ajustes de extensiones" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Activer Griffures de Chat dans les réglages des extensions" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "機能拡張の設定でネコスクラッチを有効にする" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Schakel Kattenkrabben in bij Extensie-instellingen" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Bật Vết Mèo Cào trong Cài đặt tiện ích mở rộng" } }
+      }
+    },
+    "Enable Safari Extension" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Safari-Erweiterung aktivieren" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Activar extensión de Safari" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Activer l'extension Safari" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Safari 機能拡張を有効にする" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Safari-extensie inschakelen" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Bật tiện ích mở rộng Safari" } }
+      }
+    },
+    "Extensions → Cat Scratches → Settings · Syncs via iCloud" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erweiterungen → Katzenkratzer → Einstellungen · Synchronisiert über iCloud" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Extensiones → Arañazos de Gato → Ajustes · Se sincroniza con iCloud" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Extensions → Griffures de Chat → Réglages · Synchronisé via iCloud" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "機能拡張 → ネコスクラッチ → 設定 · iCloud で同期" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Extensies → Kattenkrabben → Instellingen · Synchroniseert via iCloud" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tiện ích mở rộng → Vết Mèo Cào → Cài đặt · Đồng bộ qua iCloud" } }
+      }
+    },
+    "Get" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Laden" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obtener" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obtenir" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "入手" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Download" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tải" } }
+      }
+    },
+    "Get Drafts" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Drafts laden" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Obtener Drafts" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Obtenir Drafts" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Drafts を入手" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Drafts downloaden" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tải Drafts" } }
+      }
+    },
+    "Help" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Hilfe" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ayuda" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Aide" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ヘルプ" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Help" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Trợ giúp" } }
+      }
+    },
+    "Not Detected" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Nicht erkannt" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "No detectado" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Non détecté" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "未検出" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Niet gevonden" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Không phát hiện" } }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "OK" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "OK" } }
+      }
+    },
+    "Open any page in Safari" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Eine beliebige Seite in Safari öffnen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Abre cualquier página en Safari" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ouvrir une page dans Safari" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Safari で任意のページを開く" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Open een pagina in Safari" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Mở bất kỳ trang nào trong Safari" } }
+      }
+    },
+    "Open Extension Settings" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erweiterungseinstellungen öffnen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Abrir ajustes de extensión" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ouvrir les réglages de l'extension" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "機能拡張の設定を開く" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Extensie-instellingen openen" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Mở Cài đặt tiện ích mở rộng" } }
+      }
+    },
+    "Safari → Extensions → Cat Scratches → Settings · Syncs via iCloud" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Safari → Erweiterungen → Katzenkratzer → Einstellungen · Synchronisiert über iCloud" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Safari → Extensiones → Arañazos de Gato → Ajustes · Se sincroniza con iCloud" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Safari → Extensions → Griffures de Chat → Réglages · Synchronisé via iCloud" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Safari → 機能拡張 → ネコスクラッチ → 設定 · iCloud で同期" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Safari → Extensies → Kattenkrabben → Instellingen · Synchroniseert via iCloud" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Safari → Tiện ích mở rộng → Vết Mèo Cào → Cài đặt · Đồng bộ qua iCloud" } }
+      }
+    },
+    "Setup" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Einrichtung" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Configuración" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Configuration" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セットアップ" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Instellen" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Thiết lập" } }
+      }
+    },
+    "System Check" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Systemprüfung" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Comprobación del sistema" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Vérification du système" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "システムチェック" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Systeemcontrole" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Kiểm tra hệ thống" } }
+      }
+    },
+    "The extension will use the Share Sheet because Drafts is not detected." : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Die Erweiterung nutzt das Teilen-Menü, da Drafts nicht erkannt wurde." } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "La extensión usará la hoja de compartir porque no se detectó Drafts." } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "L'extension utilisera la feuille de partage car Drafts n'est pas détecté." } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "Drafts が検出されないため、共有シートを使用します。" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "De extensie gebruikt het deelmenu omdat Drafts niet is gevonden." } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Tiện ích mở rộng sẽ sử dụng Bảng chia sẻ vì không phát hiện Drafts." } }
+      }
+    },
+    "To enable or configure the extension:\n\n1. Open Settings → Apps → Safari\n2. Tap Extensions\n3. Tap Cat Scratches to enable and configure" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Um die Erweiterung zu aktivieren oder zu konfigurieren:\n\n1. Öffne Einstellungen → Apps → Safari\n2. Tippe auf Erweiterungen\n3. Tippe auf Katzenkratzer zum Aktivieren und Konfigurieren" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Para activar o configurar la extensión:\n\n1. Abre Ajustes → Apps → Safari\n2. Toca Extensiones\n3. Toca Arañazos de Gato para activar y configurar" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Pour activer ou configurer l'extension :\n\n1. Ouvrez Réglages → Apps → Safari\n2. Touchez Extensions\n3. Touchez Griffures de Chat pour activer et configurer" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "機能拡張を有効化または設定するには：\n\n1. 設定 → アプリ → Safari を開く\n2. 機能拡張をタップ\n3. ネコスクラッチをタップして有効化・設定" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Om de extensie in te schakelen of te configureren:\n\n1. Open Instellingen → Apps → Safari\n2. Tik op Extensies\n3. Tik op Kattenkrabben om in te schakelen en te configureren" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Để bật hoặc cấu hình tiện ích mở rộng:\n\n1. Mở Cài đặt → Ứng dụng → Safari\n2. Chạm Tiện ích mở rộng\n3. Chạm Vết Mèo Cào để bật và cấu hình" } }
+      }
+    },
+    "Use Extensions (" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Erweiterungen (" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Usa Extensiones (" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Utilisez Extensions (" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "機能拡張（" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Gebruik Extensies (" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Dùng Tiện ích mở rộng (" } }
+      }
+    },
+    ") for Cat Scratches, or press ⇧⌘D" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : ") für Katzenkratzer, oder drücke ⇧⌘D" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : ") para Arañazos de Gato, o pulsa ⇧⌘D" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : ") pour Griffures de Chat, ou appuyez sur ⇧⌘D" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "）でネコスクラッチを実行、または ⇧⌘D を押す" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : ") voor Kattenkrabben, of druk op ⇧⌘D" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : ") cho Vết Mèo Cào, hoặc nhấn ⇧⌘D" } }
+      }
+    },
+    "Click Cat Scratches in the toolbar, or press ⇧⌘D" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Klicke auf Katzenkratzer in der Symbolleiste oder drücke ⇧⌘D" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Haz clic en Arañazos de Gato en la barra de herramientas, o pulsa ⇧⌘D" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Cliquez sur Griffures de Chat dans la barre d'outils, ou appuyez sur ⇧⌘D" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ツールバーのネコスクラッチをクリック、または ⇧⌘D を押す" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Klik op Kattenkrabben in de werkbalk, of druk op ⇧⌘D" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Nhấp vào Vết Mèo Cào trên thanh công cụ, hoặc nhấn ⇧⌘D" } }
+      }
+    },
+    "View on GitHub" : {
+      "localizations" : {
+        "de" : { "stringUnit" : { "state" : "translated", "value" : "Auf GitHub ansehen" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Ver en GitHub" } },
+        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Voir sur GitHub" } },
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "GitHub で見る" } },
+        "nl" : { "stringUnit" : { "state" : "translated", "value" : "Bekijk op GitHub" } },
+        "vi" : { "stringUnit" : { "state" : "translated", "value" : "Xem trên GitHub" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

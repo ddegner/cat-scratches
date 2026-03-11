@@ -25,11 +25,11 @@
     },
     "action": {
         "default_icon": "images/toolbar-icon.png",
-        "default_title": "Clip to Drafts"
+        "default_title": "__MSG_action_title__"
     },
     "action_dark": {
         "default_icon": "images/toolbar-icon-dark.png",
-        "default_title": "Clip to Drafts"
+        "default_title": "__MSG_action_title__"
     },
     "commands": {
         "_execute_action": {

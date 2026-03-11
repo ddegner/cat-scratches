@@ -219,12 +219,13 @@ async function createDraftFromCurrentTab() {
         try {
             const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
             if (activeTab) {
+                const errorMsg = browser.i18n.getMessage('error_prefix', [error.message]);
                 await browser.scripting.executeScript({
                     target: { tabId: activeTab.id },
-                    func: (errorMessage) => {
-                        alert('Cat Scratches Error: ' + errorMessage);
+                    func: (msg) => {
+                        alert(msg);
                     },
-                    args: [error.message]
+                    args: [errorMsg]
                 });
             }
         } catch (alertError) {
@@ -392,21 +393,22 @@ async function invokeShareSheet(title, url, markdownBody) {
 
         if (activeTab?.id) {
             // Use the Web Share API from the page context
+            const shareNotSupportedMsg = browser.i18n.getMessage('error_share_not_supported');
             await browser.scripting.executeScript({
                 target: { tabId: activeTab.id },
-                func: (shareData) => {
+                func: (shareData, fallbackMsg) => {
                     if (navigator.share) {
                         navigator.share(shareData)
                             .then(() => console.log('Shared successfully'))
                             .catch((error) => console.log('Error sharing:', error));
                     } else {
-                        alert('System sharing is not supported in this browser context.');
+                        alert(fallbackMsg);
                     }
                 },
                 args: [{
                     title: title,
                     text: shareContent
-                }]
+                }, shareNotSupportedMsg]
             });
         }
     } catch (error) {
@@ -418,11 +420,11 @@ async function showDraftsActionRequiredError() {
     try {
         const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
         if (activeTab?.id) {
+            const actionRequiredMsg = browser.i18n.getMessage('error_action_required');
             await browser.scripting.executeScript({
                 target: { tabId: activeTab.id },
-                func: () => {
-                    alert('Cat Scratches Error: Action URL mode requires a Drafts Action Name in Advanced Settings.');
-                }
+                func: (msg) => alert(msg),
+                args: [actionRequiredMsg]
             });
         }
     } catch (error) {
@@ -437,7 +439,7 @@ async function showContentTooLargeError(appName) {
             await browser.scripting.executeScript({
                 target: { tabId: activeTab.id },
                 func: (msg) => alert(msg),
-                args: [`Content too large to send to ${appName}. Try selecting a smaller portion of the page.`]
+                args: [browser.i18n.getMessage('error_content_too_large', [appName])]
             });
         }
     } catch (e) {

@@ -79,7 +79,7 @@ async function updateHeaderVersion() {
         }
     }
 
-    versionElement.textContent = version ? `Version ${version}` : '';
+    versionElement.textContent = version ? browser.i18n.getMessage('version_label', [version]) : '';
 }
 
 // Load settings using shared storage logic
@@ -93,12 +93,12 @@ async function loadSettings() {
         } else if (result.source === 'local') {
             console.log('Settings loaded from local cache');
         } else {
-            showStatus('Using default settings.', 'info');
+            showStatus(browser.i18n.getMessage('status_using_defaults'), 'info');
         }
     } catch (error) {
         console.error('Failed to load settings:', error);
         currentSettings = getDefaultSettings();
-        showStatus('Using default settings.', 'info');
+        showStatus(browser.i18n.getMessage('status_using_defaults'), 'info');
     }
 }
 
@@ -109,15 +109,15 @@ async function saveSettings() {
         currentSettings = result.settings;
 
         if (result.savedToCloud) {
-            showStatus('Settings saved to iCloud!', 'success');
+            showStatus(browser.i18n.getMessage('status_saved_icloud'), 'success');
         } else {
-            showStatus('Settings saved locally (iCloud unavailable).', 'success');
+            showStatus(browser.i18n.getMessage('status_saved_local'), 'success');
         }
         setDirtyState(false);
         return true;
     } catch (error) {
         console.error('Failed to save settings:', error);
-        showStatus('Failed to save settings. Please try again.', 'error');
+        showStatus(browser.i18n.getMessage('status_save_failed'), 'error');
         return false;
     }
 }
@@ -312,7 +312,7 @@ function updateAdvancedFilteringFromUI() {
 // Handle save settings
 async function handleSaveSettings() {
     if (!isDirty) {
-        showStatus('No unsaved changes.', 'info');
+        showStatus(browser.i18n.getMessage('status_no_changes'), 'info');
         return;
     }
 
@@ -332,11 +332,11 @@ async function handleResetSettings() {
         setDirtyState(true);
         const saved = await saveSettings();  // Uses native messaging to save to iCloud
         if (saved) {
-            showStatus('Settings reset to defaults.', 'success');
+            showStatus(browser.i18n.getMessage('status_reset_success'), 'success');
         }
     } catch (error) {
         console.error('Failed to reset settings:', error);
-        showStatus('Failed to reset settings. Please try again.', 'error');
+        showStatus(browser.i18n.getMessage('status_reset_failed'), 'error');
     }
 }
 
@@ -344,20 +344,20 @@ async function handleResetSettings() {
 function validateSettings() {
     const minLength = currentSettings.advancedFiltering.minContentLength;
     if (minLength < 0 || isNaN(minLength)) {
-        showStatus('Minimum content length must be a positive number', 'error');
+        showStatus(browser.i18n.getMessage('validation_min_content_length'), 'error');
         return false;
     }
 
     const linkRatio = currentSettings.advancedFiltering.maxLinkRatio;
     if (linkRatio < 0 || linkRatio > 1 || isNaN(linkRatio)) {
-        showStatus('Link ratio must be between 0 and 1', 'error');
+        showStatus(browser.i18n.getMessage('validation_link_ratio'), 'error');
         return false;
     }
 
     const draftsMode = currentSettings?.draftsURL?.mode === 'runAction' ? 'runAction' : 'create';
     const actionName = (currentSettings?.draftsURL?.actionName || '').trim();
     if (currentSettings.saveDestination === 'drafts' && draftsMode === 'runAction' && !actionName) {
-        showStatus('Drafts Action Name is required when Action URL is selected.', 'error');
+        showStatus(browser.i18n.getMessage('validation_action_required'), 'error');
         return false;
     }
 
@@ -543,7 +543,7 @@ async function handleAnalyze() {
     const url = finderUrl.value.trim();
 
     if (!url) {
-        showFinderError('Please enter a URL');
+        showFinderError(browser.i18n.getMessage('error_enter_url'));
         return;
     }
 
@@ -551,7 +551,7 @@ async function handleAnalyze() {
     try {
         new URL(url);
     } catch {
-        showFinderError('Please enter a valid URL');
+        showFinderError(browser.i18n.getMessage('error_valid_url'));
         return;
     }
 
@@ -673,7 +673,7 @@ function handleAddSelectors() {
     }
 
     // Show success message
-    showStatus('Selectors added! Click "Save Settings" to keep them.', 'success');
+    showStatus(browser.i18n.getMessage('status_selectors_added'), 'success');
 
     // Scroll to the "What to capture" section
     document.getElementById('contentSelectors').scrollIntoView({ behavior: 'smooth', block: 'center' });

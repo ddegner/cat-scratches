@@ -6,5 +6,243 @@
     "extension_description": {
         "message": "Capture web content and send it directly to Drafts app with keyboard shortcuts.",
         "description": "Description of what the extension does."
+    },
+    "action_title": {
+        "message": "Clip to Drafts",
+        "description": "Tooltip for the toolbar button."
+    },
+    "settings_title": {
+        "message": "Settings",
+        "description": "Main heading on the settings page."
+    },
+    "section_destination": {
+        "message": "Where to send clips",
+        "description": "Section heading for choosing save destination."
+    },
+    "drafts_not_installed": {
+        "message": "Drafts is not installed.",
+        "description": "Banner text when Drafts app is not detected."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "Content will be saved to Share Sheet.",
+        "description": "Explanation shown when Drafts is not installed."
+    },
+    "get_drafts": {
+        "message": "Get Drafts",
+        "description": "Link to download Drafts from the App Store."
+    },
+    "dest_drafts": {
+        "message": "Drafts",
+        "description": "Label for Drafts destination option."
+    },
+    "dest_share_sheet": {
+        "message": "Share Sheet",
+        "description": "Label for Share Sheet destination option."
+    },
+    "section_format": {
+        "message": "How to format drafts",
+        "description": "Section heading for output format settings."
+    },
+    "label_default_tag": {
+        "message": "Default Tag",
+        "description": "Label for the default tag input."
+    },
+    "placeholder_default_tag": {
+        "message": "e.g., reading, web, article",
+        "description": "Placeholder text for the default tag input."
+    },
+    "label_template": {
+        "message": "Template",
+        "description": "Label for the template textarea."
+    },
+    "placeholder_template": {
+        "message": "Use placeholders: {title}, {url}, {content}, {timestamp}, {tag}. More date/time options are below.",
+        "description": "Placeholder text for the template textarea."
+    },
+    "advanced_settings": {
+        "message": "Advanced Settings",
+        "description": "Accordion label for advanced settings section."
+    },
+    "section_drafts_url": {
+        "message": "Drafts URL Scheme",
+        "description": "Section heading for URL scheme configuration."
+    },
+    "label_how_to_send": {
+        "message": "How to send to Drafts",
+        "description": "Label for URL scheme mode selection."
+    },
+    "mode_create_url": {
+        "message": "Create URL",
+        "description": "Label for Create URL mode option."
+    },
+    "mode_action_url": {
+        "message": "Action URL",
+        "description": "Label for Action URL mode option."
+    },
+    "label_drafts_action_name": {
+        "message": "Drafts Action Name",
+        "description": "Label for the Drafts action name input."
+    },
+    "placeholder_drafts_action": {
+        "message": "Optional for Create URL; required for Action URL",
+        "description": "Placeholder for the Drafts action name input."
+    },
+    "help_drafts_action": {
+        "message": "Create URL can optionally run an action after creating the draft. Action URL requires an action name.",
+        "description": "Help text explaining the two Drafts URL modes."
+    },
+    "section_capture": {
+        "message": "What to capture",
+        "description": "Section heading for content extraction settings."
+    },
+    "label_content_selectors": {
+        "message": "Where to find article text (CSS selectors)",
+        "description": "Label for the content selectors textarea."
+    },
+    "placeholder_content_selectors": {
+        "message": "Enter CSS selectors to find article content, one per line",
+        "description": "Placeholder for the content selectors textarea."
+    },
+    "label_custom_filters": {
+        "message": "What to ignore (CSS selectors)",
+        "description": "Label for the custom filters textarea."
+    },
+    "placeholder_custom_filters": {
+        "message": "Enter CSS selectors for elements to remove, one per line",
+        "description": "Placeholder for the custom filters textarea."
+    },
+    "section_selector_finder": {
+        "message": "Selector Finder",
+        "description": "Section heading for the AI selector finder tool."
+    },
+    "help_selector_finder": {
+        "message": "Analyze a web page to find the best CSS selectors for extracting article content.",
+        "description": "Help text for the selector finder."
+    },
+    "privacy_selector_finder": {
+        "message": "Privacy note: when you click Analyze Page, the URL and a processed copy of that page's HTML are sent to the Selector Finder service and Gemini for analysis. Requests are processed transiently and are not saved by Cat Scratches.",
+        "description": "Privacy notice for the selector finder."
+    },
+    "btn_analyze": {
+        "message": "Analyze Page",
+        "description": "Button to start page analysis."
+    },
+    "loading_analyzing": {
+        "message": "Analyzing page structure...",
+        "description": "Loading text during page analysis."
+    },
+    "label_found_content_selector": {
+        "message": "Found Content Selector",
+        "description": "Label for the content selector result."
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Found elements to ignore",
+        "description": "Label for the elements to remove result."
+    },
+    "label_extraction_preview": {
+        "message": "Extraction Preview",
+        "description": "Label for the extraction preview."
+    },
+    "btn_add_selectors": {
+        "message": "Add to Current Selectors",
+        "description": "Button to add found selectors to settings."
+    },
+    "btn_reset": {
+        "message": "Reset to Defaults",
+        "description": "Button to reset all settings to defaults."
+    },
+    "btn_save": {
+        "message": "Save Settings",
+        "description": "Button to save current settings."
+    },
+    "status_using_defaults": {
+        "message": "Using default settings.",
+        "description": "Status message when default settings are loaded."
+    },
+    "status_saved_icloud": {
+        "message": "Settings saved to iCloud!",
+        "description": "Status message when settings are saved to iCloud."
+    },
+    "status_saved_local": {
+        "message": "Settings saved locally (iCloud unavailable).",
+        "description": "Status message when settings are saved locally."
+    },
+    "status_save_failed": {
+        "message": "Failed to save settings. Please try again.",
+        "description": "Error message when saving settings fails."
+    },
+    "status_no_changes": {
+        "message": "No unsaved changes.",
+        "description": "Status message when there are no changes to save."
+    },
+    "status_reset_success": {
+        "message": "Settings reset to defaults.",
+        "description": "Status message when settings are reset."
+    },
+    "status_reset_failed": {
+        "message": "Failed to reset settings. Please try again.",
+        "description": "Error message when resetting settings fails."
+    },
+    "status_selectors_added": {
+        "message": "Selectors added! Click \"Save Settings\" to keep them.",
+        "description": "Status message when selectors are added from finder."
+    },
+    "validation_min_content_length": {
+        "message": "Minimum content length must be a positive number",
+        "description": "Validation error for minimum content length."
+    },
+    "validation_link_ratio": {
+        "message": "Link ratio must be between 0 and 1",
+        "description": "Validation error for link ratio."
+    },
+    "validation_action_required": {
+        "message": "Drafts Action Name is required when Action URL is selected.",
+        "description": "Validation error when action name is missing."
+    },
+    "error_enter_url": {
+        "message": "Please enter a URL",
+        "description": "Error when URL field is empty."
+    },
+    "error_valid_url": {
+        "message": "Please enter a valid URL",
+        "description": "Error when URL is invalid."
+    },
+    "error_prefix": {
+        "message": "Cat Scratches Error: $MESSAGE$",
+        "description": "Prefix for error alerts shown to the user.",
+        "placeholders": {
+            "MESSAGE": {
+                "content": "$1",
+                "example": "Could not extract content"
+            }
+        }
+    },
+    "error_action_required": {
+        "message": "Cat Scratches Error: Action URL mode requires a Drafts Action Name in Advanced Settings.",
+        "description": "Error when action name is not set but action URL mode is selected."
+    },
+    "error_content_too_large": {
+        "message": "Content too large to send to $APP_NAME$. Try selecting a smaller portion of the page.",
+        "description": "Error when content exceeds URL length limit.",
+        "placeholders": {
+            "APP_NAME": {
+                "content": "$1",
+                "example": "Drafts"
+            }
+        }
+    },
+    "error_share_not_supported": {
+        "message": "System sharing is not supported in this browser context.",
+        "description": "Error when Web Share API is not available."
+    },
+    "version_label": {
+        "message": "Version $VERSION$",
+        "description": "Version label shown in settings header.",
+        "placeholders": {
+            "VERSION": {
+                "content": "$1",
+                "example": "2.1.4"
+            }
+        }
     }
 }

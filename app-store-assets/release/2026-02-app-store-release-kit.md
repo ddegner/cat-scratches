@@ -71,7 +71,9 @@ How it works:
 3. Run Cat Scratches from the menu bar or keyboard shortcut
 4. Continue writing in Drafts or another app via Share Sheet
 
-Cat Scratches is built for writers, researchers, and anyone who wants a fast, clean web clipping workflow.`
+Cat Scratches is built for writers, researchers, and anyone who wants a fast, clean web clipping workflow.
+
+This extension only accesses the current webpage when you explicitly trigger it. It does not track browsing history or collect any data. Source code is available at https://github.com/ddegner/cat-scratches.`
 
 ### Keywords (<= 100 chars)
 `drafts,safari extension,web clipper,markdown,notes,writer,research,productivity,share sheet`
@@ -126,7 +128,9 @@ Expected behavior:
 - Keep formatting predictable with templates and tags
 - Fine-tune extraction with selectors and filters
 - Sync extension settings through iCloud
-- Fall back to Share Sheet when Drafts is unavailable`
+- Fall back to Share Sheet when Drafts is unavailable
+
+This extension only accesses the current webpage when you explicitly trigger it. It does not track browsing history or collect any data. Source code is available at https://github.com/ddegner/cat-scratches.`
 
 ### App Review Notes (macOS)
 `No account required.

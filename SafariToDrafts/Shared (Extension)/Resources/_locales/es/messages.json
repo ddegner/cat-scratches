@@ -1,0 +1,176 @@
+{
+    "extension_name": {
+        "message": "Arañazos de Gato"
+    },
+    "extension_description": {
+        "message": "Captura contenido web y envíalo directamente a la app Drafts con atajos de teclado."
+    },
+    "action_title": {
+        "message": "Recortar a Drafts"
+    },
+    "settings_title": {
+        "message": "Ajustes"
+    },
+    "section_destination": {
+        "message": "Dónde enviar los recortes"
+    },
+    "drafts_not_installed": {
+        "message": "Drafts no está instalado."
+    },
+    "drafts_not_installed_fallback": {
+        "message": "El contenido se guardará mediante la hoja de compartir."
+    },
+    "get_drafts": {
+        "message": "Obtener Drafts"
+    },
+    "dest_drafts": {
+        "message": "Drafts"
+    },
+    "dest_share_sheet": {
+        "message": "Hoja de compartir"
+    },
+    "section_format": {
+        "message": "Cómo dar formato a los borradores"
+    },
+    "label_default_tag": {
+        "message": "Etiqueta predeterminada"
+    },
+    "placeholder_default_tag": {
+        "message": "ej., lectura, web, artículo"
+    },
+    "label_template": {
+        "message": "Plantilla"
+    },
+    "placeholder_template": {
+        "message": "Usa variables: {title}, {url}, {content}, {timestamp}, {tag}. Más opciones de fecha/hora abajo."
+    },
+    "advanced_settings": {
+        "message": "Ajustes avanzados"
+    },
+    "section_drafts_url": {
+        "message": "Esquema de URL de Drafts"
+    },
+    "label_how_to_send": {
+        "message": "Cómo enviar a Drafts"
+    },
+    "mode_create_url": {
+        "message": "URL de creación"
+    },
+    "mode_action_url": {
+        "message": "URL de acción"
+    },
+    "label_drafts_action_name": {
+        "message": "Nombre de acción de Drafts"
+    },
+    "placeholder_drafts_action": {
+        "message": "Opcional para URL de creación; obligatorio para URL de acción"
+    },
+    "help_drafts_action": {
+        "message": "La URL de creación puede ejecutar una acción después de crear el borrador (opcional). La URL de acción requiere un nombre de acción."
+    },
+    "section_capture": {
+        "message": "Qué capturar"
+    },
+    "label_content_selectors": {
+        "message": "Dónde encontrar el texto del artículo (selectores CSS)"
+    },
+    "placeholder_content_selectors": {
+        "message": "Introduce selectores CSS para encontrar el contenido, uno por línea"
+    },
+    "label_custom_filters": {
+        "message": "Qué ignorar (selectores CSS)"
+    },
+    "placeholder_custom_filters": {
+        "message": "Introduce selectores CSS de elementos a eliminar, uno por línea"
+    },
+    "section_selector_finder": {
+        "message": "Buscador de selectores"
+    },
+    "help_selector_finder": {
+        "message": "Analiza una página web para encontrar los mejores selectores CSS para extraer contenido de artículos."
+    },
+    "privacy_selector_finder": {
+        "message": "Nota de privacidad: al hacer clic en Analizar página, la URL y una copia procesada del HTML se envían al servicio Buscador de selectores y a Gemini para su análisis. Las solicitudes se procesan de forma transitoria y Arañazos de Gato no las almacena."
+    },
+    "btn_analyze": {
+        "message": "Analizar página"
+    },
+    "loading_analyzing": {
+        "message": "Analizando la estructura de la página..."
+    },
+    "label_found_content_selector": {
+        "message": "Selector de contenido encontrado"
+    },
+    "label_found_elements_to_ignore": {
+        "message": "Elementos a ignorar encontrados"
+    },
+    "label_extraction_preview": {
+        "message": "Vista previa de la extracción"
+    },
+    "btn_add_selectors": {
+        "message": "Añadir a los selectores actuales"
+    },
+    "btn_reset": {
+        "message": "Restablecer valores predeterminados"
+    },
+    "btn_save": {
+        "message": "Guardar ajustes"
+    },
+    "status_using_defaults": {
+        "message": "Usando ajustes predeterminados."
+    },
+    "status_saved_icloud": {
+        "message": "¡Ajustes guardados en iCloud!"
+    },
+    "status_saved_local": {
+        "message": "Ajustes guardados localmente (iCloud no disponible)."
+    },
+    "status_save_failed": {
+        "message": "Error al guardar. Inténtalo de nuevo."
+    },
+    "status_no_changes": {
+        "message": "No hay cambios sin guardar."
+    },
+    "status_reset_success": {
+        "message": "Ajustes restablecidos a valores predeterminados."
+    },
+    "status_reset_failed": {
+        "message": "Error al restablecer. Inténtalo de nuevo."
+    },
+    "status_selectors_added": {
+        "message": "¡Selectores añadidos! Haz clic en \"Guardar ajustes\" para conservarlos."
+    },
+    "validation_min_content_length": {
+        "message": "La longitud mínima del contenido debe ser un número positivo"
+    },
+    "validation_link_ratio": {
+        "message": "La proporción de enlaces debe estar entre 0 y 1"
+    },
+    "validation_action_required": {
+        "message": "El nombre de acción de Drafts es obligatorio cuando se selecciona URL de acción."
+    },
+    "error_enter_url": {
+        "message": "Introduce una URL"
+    },
+    "error_valid_url": {
+        "message": "Introduce una URL válida"
+    },
+    "error_prefix": {
+        "message": "Error de Arañazos de Gato: $MESSAGE$",
+        "placeholders": { "MESSAGE": { "content": "$1" } }
+    },
+    "error_action_required": {
+        "message": "Error de Arañazos de Gato: el modo URL de acción requiere un nombre de acción de Drafts en Ajustes avanzados."
+    },
+    "error_content_too_large": {
+        "message": "Contenido demasiado grande para enviar a $APP_NAME$. Intenta seleccionar una parte más pequeña de la página.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
+    },
+    "error_share_not_supported": {
+        "message": "La función de compartir del sistema no es compatible con este contexto del navegador."
+    },
+    "version_label": {
+        "message": "Versión $VERSION$",
+        "placeholders": { "VERSION": { "content": "$1" } }
+    }
+}
