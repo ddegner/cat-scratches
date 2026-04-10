@@ -257,13 +257,19 @@
             .replace(/<!--.*?-->/g, '')
             .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
             .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '')
-            .replace(/&nbsp;/g, ' ')
-            .replace(/&amp;/g, '&')
-            .replace(/&lt;/g, '<')
-            .replace(/&gt;/g, '>')
-            .replace(/&quot;/g, '"')
-            .replace(/&#0*39;/g, "'")
-            .replace(/&[a-zA-Z]+;/g, '')
+            .replace(/&(?:#(\d+)|#x([0-9a-fA-F]+)|([a-zA-Z]+));/g, function (match, dec, hex, named) {
+                if (dec) return String.fromCharCode(parseInt(dec, 10));
+                if (hex) return String.fromCharCode(parseInt(hex, 16));
+                var entities = {
+                    nbsp: ' ', amp: '&', lt: '<', gt: '>', quot: '"', apos: "'",
+                    mdash: '\u2014', ndash: '\u2013', lsquo: '\u2018', rsquo: '\u2019',
+                    ldquo: '\u201C', rdquo: '\u201D', hellip: '\u2026', copy: '\u00A9',
+                    reg: '\u00AE', trade: '\u2122', bull: '\u2022', middot: '\u00B7',
+                    eacute: '\u00E9', egrave: '\u00E8', agrave: '\u00E0', uuml: '\u00FC',
+                    ouml: '\u00F6', auml: '\u00E4', ccedil: '\u00E7', ntilde: '\u00F1'
+                };
+                return entities[named] || match;
+            })
             .trim();
 
         return {

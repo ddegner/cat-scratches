@@ -16,6 +16,7 @@ importSharedScript('settings-store.js');
 
 // Global settings object
 let extensionSettings = null;
+let isProcessing = false;
 
 // NATIVE_APP_ID is provided by defaults.js
 
@@ -127,6 +128,8 @@ browser.storage.onChanged.addListener((changes, areaName) => {
 
 
 async function createDraftFromCurrentTab() {
+    if (isProcessing) return;
+    isProcessing = true;
     try {
         // Ensure settings are loaded
         if (!extensionSettings) {
@@ -217,20 +220,13 @@ async function createDraftFromCurrentTab() {
 
         // Show user-friendly error message
         try {
-            const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-            if (activeTab) {
-                const errorMsg = browser.i18n.getMessage('error_prefix', [error.message]);
-                await browser.scripting.executeScript({
-                    target: { tabId: activeTab.id },
-                    func: (msg) => {
-                        alert(msg);
-                    },
-                    args: [errorMsg]
-                });
-            }
+            const errorMsg = browser.i18n.getMessage('error_prefix', [error.message]);
+            await executeInActiveTab((msg) => alert(msg), [errorMsg]);
         } catch (alertError) {
             console.error("Could not show error message:", alertError);
         }
+    } finally {
+        isProcessing = false;
     }
 }
 
@@ -384,33 +380,31 @@ async function sendToDrafts(title, url, markdownBody) {
     await openURLScheme(result.url);
 }
 
+async function executeInActiveTab(func, args = []) {
+    const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
+    if (!activeTab?.id) return;
+    await browser.scripting.executeScript({
+        target: { tabId: activeTab.id },
+        func,
+        args
+    });
+}
+
 async function invokeShareSheet(title, url, markdownBody) {
     // Format content for sharing (from defaults.js)
     const shareContent = formatDraftContent(title, url, markdownBody, extensionSettings);
 
     try {
-        const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-
-        if (activeTab?.id) {
-            // Use the Web Share API from the page context
-            const shareNotSupportedMsg = browser.i18n.getMessage('error_share_not_supported');
-            await browser.scripting.executeScript({
-                target: { tabId: activeTab.id },
-                func: (shareData, fallbackMsg) => {
-                    if (navigator.share) {
-                        navigator.share(shareData)
-                            .then(() => console.log('Shared successfully'))
-                            .catch((error) => console.log('Error sharing:', error));
-                    } else {
-                        alert(fallbackMsg);
-                    }
-                },
-                args: [{
-                    title: title,
-                    text: shareContent
-                }, shareNotSupportedMsg]
-            });
-        }
+        const shareNotSupportedMsg = browser.i18n.getMessage('error_share_not_supported');
+        await executeInActiveTab((shareData, fallbackMsg) => {
+            if (navigator.share) {
+                navigator.share(shareData)
+                    .then(() => console.log('Shared successfully'))
+                    .catch((error) => console.log('Error sharing:', error));
+            } else {
+                alert(fallbackMsg);
+            }
+        }, [{ title: title, text: shareContent }, shareNotSupportedMsg]);
     } catch (error) {
         console.error("Failed to share:", error);
     }
@@ -418,15 +412,8 @@ async function invokeShareSheet(title, url, markdownBody) {
 
 async function showDraftsActionRequiredError() {
     try {
-        const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-        if (activeTab?.id) {
-            const actionRequiredMsg = browser.i18n.getMessage('error_action_required');
-            await browser.scripting.executeScript({
-                target: { tabId: activeTab.id },
-                func: (msg) => alert(msg),
-                args: [actionRequiredMsg]
-            });
-        }
+        const actionRequiredMsg = browser.i18n.getMessage('error_action_required');
+        await executeInActiveTab((msg) => alert(msg), [actionRequiredMsg]);
     } catch (error) {
         console.error('Could not show Drafts action required error:', error);
     }
@@ -434,14 +421,7 @@ async function showDraftsActionRequiredError() {
 
 async function showContentTooLargeError(appName) {
     try {
-        const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-        if (activeTab?.id) {
-            await browser.scripting.executeScript({
-                target: { tabId: activeTab.id },
-                func: (msg) => alert(msg),
-                args: [browser.i18n.getMessage('error_content_too_large', [appName])]
-            });
-        }
+        await executeInActiveTab((msg) => alert(msg), [browser.i18n.getMessage('error_content_too_large', [appName])]);
     } catch (e) {
         console.error("Failed to show length warning:", e);
     }
@@ -450,7 +430,6 @@ async function showContentTooLargeError(appName) {
 async function openURLScheme(targetURL) {
     try {
         const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-
         if (activeTab) {
             // Use tabs.update to navigate to the custom scheme
             // This is trusted from the background script and often bypasses the "Open in App?" prompt

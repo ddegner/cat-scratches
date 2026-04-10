@@ -6,25 +6,17 @@ The fastest and most elegant way to capture content from the web and send it dir
 **Website:** [daviddegner.com](https://www.daviddegner.com)
 **Source Code, bugs, and feature requests:** [github.com/ddegner/cat-scratches](https://github.com/ddegner/cat-scratches)
 
-## App Store Update (v2.1.1)
+## App Store Update (v2.2.1)
 
-Over the past month, I have been improving Cat Scratches in many small but important ways.
-
-I use it daily to save articles for later, send clean text to Drafts for AI actions, and capture readable content from cluttered pages.
-
-Version 2.1.1 is now available in the App Store:
+Cat Scratches v2.2.1 is available on the App Store for both iOS and macOS:
 [Cat Scratches on the App Store](https://apps.apple.com/us/app/cat-scratches/id6749605278)
 
-The macOS extension is still here, and its update should be approved soon:
-[Cat Scratches for macOS](https://apps.apple.com/us/app/cat-scratches/id6749605278)
+New in v2.2.x:
+- **Localization**: Full UI translations for Spanish, French, German, Japanese, Dutch, and Vietnamese
+- **Better content extraction**: Fixed HTML entity decoding that was silently destroying characters like em dashes, curly quotes, and accented letters
+- **Reliability**: Prevented duplicate drafts from rapid double-clicks or repeated keyboard shortcut presses
 
-New in this update: Advanced settings now include a Drafts URL Scheme toggle (`Create URL` or `Action URL`) plus a Drafts action field, so you can run post-processing actions from Drafts.
-
-One useful feature: if a page is not parsing correctly, enter its URL under the Advanced tab to get new parsing suggestions.
-Selector Finder is optional and uses a cloud service + Gemini analysis for that specific request.
-
-If you run into issues or want to tinker, the source is here:
-[Cat Scratches on GitHub](https://github.com/ddegner/cat-scratches/tree/main)
+Advanced settings include a Drafts URL Scheme toggle (`Create URL` or `Action URL`) plus a Drafts action field, so you can run post-processing actions from Drafts. If a page is not parsing correctly, use the Selector Finder under the Advanced tab to get AI-powered parsing suggestions.
 
 GitHub release binaries are macOS-only: each release publishes one Developer ID-signed, notarized, stapled macOS zip. iOS binaries are distributed through TestFlight/App Store, not GitHub assets.
 

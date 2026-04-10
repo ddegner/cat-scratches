@@ -2,6 +2,15 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.2.1] - 2026-04-09
+
+### Fixed
+- Fixed HTML entity decoding destroying valid characters (e.g. em dashes, curly quotes, accented letters) by replacing catch-all regex with proper entity decoder
+- Fixed race condition where rapid double-clicks or repeated keyboard shortcut could create duplicate drafts
+
+### Changed
+- Extracted shared active-tab script injection helper to reduce boilerplate in background.js
+
 ## [2.1.4] - 2026-02-27
 
 ### Fixed
