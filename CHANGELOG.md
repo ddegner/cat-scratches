@@ -11,6 +11,11 @@ All notable changes to Cat Scratches will be documented in this file.
 ### Changed
 - Extracted shared active-tab script injection helper to reduce boilerplate in background.js
 
+## [2.2.0] - 2026-03-11
+
+### Added
+- Localization for 6 additional languages: German (de), Spanish (es), French (fr), Japanese (ja), Dutch (nl), and Vietnamese (vi), covering both the native app UI (`.lproj/Localizable.strings`, `Main.strings`) and the extension UI (`_locales/*/messages.json`)
+
 ## [2.1.4] - 2026-02-27
 
 ### Fixed
