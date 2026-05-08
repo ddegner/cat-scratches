@@ -1,0 +1,28 @@
+{
+  "url": "https://www.theglobalist.com/example-article-2024/",
+  "recovery_url": "https://www.theglobalist.com/the-west-waves-the-welcome-flags-for-worlds-dirty-cash/",
+  "final_url": "https://www.theglobalist.com/the-west-waves-the-welcome-flags-for-worlds-dirty-cash/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 69376,
+  "error": null,
+  "fetched_at": "2026-05-06T20:03:10.451Z",
+  "elapsed_ms": 732,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The West Waves the Welcome Flags for World’s Dirty Cash  - The Globalist",
+  "recovery_attempts": [
+    {
+      "url": "https://www.theglobalist.com/example-article-2024/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.theglobalist.com/the-west-waves-the-welcome-flags-for-worlds-dirty-cash/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

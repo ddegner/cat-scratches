@@ -1,0 +1,28 @@
+{
+  "url": "https://www.aljazeera.com/opinions/2024/5/15/example-opinion",
+  "recovery_url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal",
+  "final_url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 211432,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:07.312Z",
+  "elapsed_ms": 49,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump says had ‘very good talks’ with Iran as Tehran reviews US proposal | US-Israel war on Iran News | Al Jazeera",
+  "recovery_attempts": [
+    {
+      "url": "https://www.aljazeera.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:68"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

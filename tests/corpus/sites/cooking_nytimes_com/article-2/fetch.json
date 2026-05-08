@@ -1,0 +1,18 @@
+{
+  "url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+  "replaced_url": "https://cooking.nytimes.com/recipes/1019529-classic-cacio-e-pepe",
+  "recovery_url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+  "final_url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 643944,
+  "error": null,
+  "fetched_at": "2026-05-07T02:25:06.256Z",
+  "elapsed_ms": 199,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Roasted Carrots With Shallots, Mozzarella and Spicy Bread Crumbs Recipe",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

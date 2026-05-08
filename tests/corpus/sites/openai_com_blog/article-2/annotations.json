@@ -1,0 +1,27 @@
+{
+  "url": "https://openai.com/index/sora/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article",
+  "keep": [
+    "h1-h3",
+    "article p",
+    "article blockquote"
+  ],
+  "strip": [
+    "button",
+    ".video-controls",
+    ".actions",
+    ".share-widget"
+  ],
+  "expected_quirks": [
+    "Similar layout to hello-gpt-4o; heavy video embeds with short captions"
+  ],
+  "category_tags": [
+    "corp-blog",
+    "announcement",
+    "ai"
+  ],
+  "notes": "Same OpenAI blog template fixes."
+}

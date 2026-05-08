@@ -1,0 +1,34 @@
+{
+  "url": "https://www.usatoday.com/story/news/politics/2024/11/06/example/12345/",
+  "recovery_url": "https://www.usatoday.com/story/sports/nfl/columnist/bell/2026/05/06/dwayne-haskin-jr-death-mental-health-awareness/89954761007/",
+  "final_url": "https://www.usatoday.com/story/sports/nfl/columnist/bell/2026/05/06/dwayne-haskin-jr-death-mental-health-awareness/89954761007/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 228914,
+  "error": null,
+  "fetched_at": "2026-05-06T20:01:58.853Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Dwayne Haskins Jr.'s dad opens up about son's mental health before tragic death",
+  "recovery_attempts": [
+    {
+      "url": "https://www.usatoday.com/story/news/politics/2024/11/06/example/12345/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.usatoday.com/story/money/2024/05/15/example/67890/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.usatoday.com/story/sports/nfl/columnist/bell/2026/05/06/dwayne-haskin-jr-death-mental-health-awareness/89954761007/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.wired.com/story/the-big-story-example-2024/",
+  "recovery_url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "final_url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1364635,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:58.087Z",
+  "elapsed_ms": 125,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Better Than Human: Why Robots Will—And Must—Take Our Jobs | WIRED",
+  "recovery_attempts": [
+    {
+      "url": "https://www.wired.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:97"
+    },
+    {
+      "url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

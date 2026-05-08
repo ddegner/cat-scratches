@@ -1,0 +1,18 @@
+{
+  "url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+  "replaced_url": "https://www.vanityfair.com/hollywood/story/example-two-2024",
+  "recovery_url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+  "final_url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1249729,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:35.109Z",
+  "elapsed_ms": 111,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Prada Heir Lorenzo Bertelli Hops Back Into His Racecar Driver’s Seat to Give VF a Spin | Vanity Fair",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

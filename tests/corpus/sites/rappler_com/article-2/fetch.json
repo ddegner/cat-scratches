@@ -1,0 +1,18 @@
+{
+  "url": "https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-hospitalized-critical-condition/",
+  "replaced_url": "https://www.rappler.com/business/example-two-may-2024/",
+  "recovery_url": "https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-hospitalized-critical-condition/",
+  "final_url": "https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-hospitalized-critical-condition/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 652130,
+  "error": null,
+  "fetched_at": "2026-05-07T02:12:07.000Z",
+  "elapsed_ms": 71,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "FACT CHECK: No reports of Marcos in critical condition at the hospital",
+  "replacement_reasons": [
+    "bad-url"
+  ]
+}

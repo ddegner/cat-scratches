@@ -1,0 +1,28 @@
+{
+  "url": "https://www.latimes.com/opinion/story/2024-11-06/example",
+  "recovery_url": "https://www.latimes.com/california/story/2026-05-06/yosemite-ditches-reservations-drawing-huge-crowds-in-free-for-all",
+  "final_url": "https://www.latimes.com/california/story/2026-05-06/yosemite-ditches-reservations-drawing-huge-crowds-in-free-for-all",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 491044,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:57.577Z",
+  "elapsed_ms": 38,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Yosemite ditches reservations, drawing huge crowds in a free-for-all - Los Angeles Times",
+  "recovery_attempts": [
+    {
+      "url": "https://www.latimes.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:343"
+    },
+    {
+      "url": "https://www.latimes.com/california/story/2026-05-06/yosemite-ditches-reservations-drawing-huge-crowds-in-free-for-all",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.thebeliever.net/logger/2015-12-18-are-bure-boke/",
+  "replaced_url": "https://www.thebeliever.net/example-interview-2024/",
+  "recovery_url": "https://www.thebeliever.net/logger/2015-12-18-are-bure-boke/",
+  "final_url": "https://www.thebeliever.net/logger/2015-12-18-are-bure-boke/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 236541,
+  "error": null,
+  "fetched_at": "2026-05-07T02:22:41.855Z",
+  "elapsed_ms": 404,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Are-Bure-Boke - Believer Magazine",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

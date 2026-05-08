@@ -1,0 +1,34 @@
+{
+  "url": "https://www.vqronline.org/essays-articles/2024/spring/example",
+  "recovery_url": "https://www.vqronline.org/winter-2025/photography-portfolios/last-days-and-afterlife-san-nicolas-mine",
+  "final_url": "https://www.vqronline.org/winter-2025/photography-portfolios/last-days-and-afterlife-san-nicolas-mine",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 66301,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:54.786Z",
+  "elapsed_ms": 28,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Last Days and Afterlife of the San Nicolás Mine | VQR",
+  "recovery_attempts": [
+    {
+      "url": "https://www.vqronline.org/essays-articles/2024/spring/example",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.vqronline.org/fiction/2024/fall/example",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.vqronline.org/winter-2025/photography-portfolios/last-days-and-afterlife-san-nicolas-mine",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

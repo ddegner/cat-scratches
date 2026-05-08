@@ -1,0 +1,18 @@
+{
+  "url": "https://theplosblog.plos.org/2025/08/plos-responds-to-pnas-study-detailing-the-growth-of-peer-review-integrity-issues/",
+  "replaced_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.example",
+  "recovery_url": "https://theplosblog.plos.org/2025/08/plos-responds-to-pnas-study-detailing-the-growth-of-peer-review-integrity-issues/",
+  "final_url": "https://theplosblog.plos.org/2025/08/plos-responds-to-pnas-study-detailing-the-growth-of-peer-review-integrity-issues/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 243527,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:17.358Z",
+  "elapsed_ms": 341,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "PLOS responds to PNAS study detailing the growth of peer review integrity issues - The Official PLOS Blog",
+  "replacement_reasons": [
+    "bad-title"
+  ]
+}

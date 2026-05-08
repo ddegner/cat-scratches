@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theguardian.com/world/2026/may/06/donald-trump-iran-war-deal-us-bombing",
+  "replaced_url": "https://www.theguardian.com/technology/2024/may/13/openai-gpt4o-chatgpt-demo",
+  "recovery_url": "https://www.theguardian.com/world/2026/may/06/donald-trump-iran-war-deal-us-bombing",
+  "final_url": "https://www.theguardian.com/world/2026/may/06/donald-trump-iran-war-deal-us-bombing",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 347720,
+  "error": null,
+  "fetched_at": "2026-05-07T01:56:17.635Z",
+  "elapsed_ms": 184,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "US fires on Iranian-flagged oil tanker as Trump gives Tehran fresh ultimatum | US-Israel war on Iran | The Guardian",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

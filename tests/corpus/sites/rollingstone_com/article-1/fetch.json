@@ -1,0 +1,18 @@
+{
+  "url": "https://www.rollingstone.com/culture/culture-news/met-gala-2026-memes-1235557852/",
+  "replaced_url": "https://www.rollingstone.com/culture/culture-features/example-1234567/",
+  "recovery_url": "https://www.rollingstone.com/culture/culture-news/met-gala-2026-memes-1235557852/",
+  "final_url": "https://www.rollingstone.com/culture/culture-news/met-gala-2026-memes-1235557852/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 564172,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:16.988Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Met Gala 2026: Best Memes Inspired By Connor Storrie, Bad Bunny, More",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

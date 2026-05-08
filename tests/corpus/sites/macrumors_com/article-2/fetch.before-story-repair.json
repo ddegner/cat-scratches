@@ -1,0 +1,28 @@
+{
+  "url": "https://www.macrumors.com/guide/iphone-16/",
+  "recovery_url": "https://www.macrumors.com/2026/04/20/camera-control-key-foldable-iphone-feature/",
+  "final_url": "https://www.macrumors.com/2026/04/20/camera-control-key-foldable-iphone-feature/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 129729,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:00.325Z",
+  "elapsed_ms": 69,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Apple Apparently Sees Camera Control as Key Foldable iPhone Feature - MacRumors",
+  "recovery_attempts": [
+    {
+      "url": "https://www.macrumors.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:346"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/04/20/camera-control-key-foldable-iphone-feature/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

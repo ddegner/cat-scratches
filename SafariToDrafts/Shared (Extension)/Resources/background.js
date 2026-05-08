@@ -429,6 +429,25 @@ async function showContentTooLargeError(appName) {
 
 async function openURLScheme(targetURL) {
     try {
+        if (typeof browser.runtime?.sendNativeMessage === 'function') {
+            const response = await browser.runtime.sendNativeMessage(NATIVE_APP_ID, {
+                action: 'openURL',
+                url: targetURL
+            });
+
+            if (response?.opened) {
+                return;
+            }
+
+            if (response?.error) {
+                console.warn('Native URL open failed:', response.error);
+            }
+        }
+    } catch (error) {
+        console.warn('Native URL open failed:', error);
+    }
+
+    try {
         const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
         if (activeTab) {
             // Use tabs.update to navigate to the custom scheme

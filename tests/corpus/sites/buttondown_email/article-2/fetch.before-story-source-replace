@@ -1,0 +1,32 @@
+{
+  "url": "https://buttondown.com/blog/2023-12-2-data-is-plural",
+  "replaced_url": "https://buttondown.com/blog/2023-12-2-data-is-plural",
+  "recovery_url": "https://buttondown.com/blog/data-is-plural",
+  "final_url": "https://buttondown.com/blog/2023-12-2-data-is-plural",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 86760,
+  "error": null,
+  "fetched_at": "2026-05-07T02:18:38.273Z",
+  "elapsed_ms": 299,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How Jeremy Singer-Vine curates curious datasets for readers",
+  "replacement_reasons": [
+    "duplicate-url"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:30:23.445Z",
+  "story_repair_reasons": [
+    "duplicate-url"
+  ],
+  "story_repair_candidates": [
+    "https://buttondown.com/register",
+    "https://buttondown.com/blog/data-is-plural"
+  ],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

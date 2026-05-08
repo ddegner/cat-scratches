@@ -1,0 +1,28 @@
+{
+  "url": "https://www.usatoday.com/story/money/2024/05/15/example/67890/",
+  "recovery_url": "https://www.usatoday.com/story/news/politics/2026/05/06/americans-disapprove-trump-pope-attacks/89966021007/",
+  "final_url": "https://www.usatoday.com/story/news/politics/2026/05/06/americans-disapprove-trump-pope-attacks/89966021007/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 218606,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:59.920Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump's Jesus posts have Americans siding with the Pope, poll shows",
+  "recovery_attempts": [
+    {
+      "url": "https://www.usatoday.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:141"
+    },
+    {
+      "url": "https://www.usatoday.com/story/news/politics/2026/05/06/americans-disapprove-trump-pope-attacks/89966021007/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

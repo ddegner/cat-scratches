@@ -1,0 +1,14 @@
+{
+  "url": "https://www.nytimes.com/2026/05/06/us/politics/israel-maga-republicans.html",
+  "final_url": "https://www.nytimes.com/2026/05/06/us/politics/israel-maga-republicans.html",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 333481,
+  "error": null,
+  "fetched_at": "2026-05-07T00:25:31.378Z",
+  "elapsed_ms": 526,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+  "recovery_method": "chrome-profile-cookies-http",
+  "cookie_count": 34,
+  "skipped_cookie_count": 2
+}

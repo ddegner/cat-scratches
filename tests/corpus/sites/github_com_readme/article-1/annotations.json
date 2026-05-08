@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/facebook/react/blob/main/README.md",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article.markdown-body",
+  "keep": [
+    "article.markdown-body h1-h4",
+    "article.markdown-body p",
+    "article.markdown-body pre",
+    "article.markdown-body ul, article.markdown-body ol"
+  ],
+  "strip": [
+    "header.AppHeader",
+    ".Layout-sidebar",
+    ".Layout-side",
+    ".file-header",
+    "nav[aria-label='File view']",
+    ".react-blob-sticky-header",
+    ".TableOfContents"
+  ],
+  "expected_quirks": [
+    "GitHub's rendered README lives inside article.markdown-body, but the blob viewer wraps it in layout chrome",
+    "Breadcrumbs ('react / README.md') at top and 'Raw / Blame / Edit' toolbar should be stripped",
+    "GitHub is a JS-heavy SPA; server HTML snapshot may be thin — consider using the raw.githubusercontent.com mirror for ground truth"
+  ],
+  "category_tags": [
+    "docs",
+    "readme",
+    "github",
+    "markdown"
+  ],
+  "notes": "GitHub blob pages are a known hard case. If extraction quality stays low, consider domain-specific rule: prefer raw.githubusercontent for *.md blob URLs."
+}

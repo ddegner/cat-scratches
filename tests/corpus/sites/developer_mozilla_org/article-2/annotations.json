@@ -1,0 +1,29 @@
+{
+  "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "main#content article.main-page-content",
+  "keep": [
+    "h1-h4",
+    "p",
+    "pre",
+    "dl"
+  ],
+  "strip": [
+    ".bc-table-container",
+    ".document-toc-container",
+    "aside.metadata",
+    ".interactive-example"
+  ],
+  "expected_quirks": [
+    "Interactive example iframe is rendered but has no text value — strip",
+    "Formal syntax block is crucial and must be preserved"
+  ],
+  "category_tags": [
+    "docs",
+    "reference",
+    "css"
+  ],
+  "notes": "Same MDN template as Array.map; same strip recommendations apply."
+}

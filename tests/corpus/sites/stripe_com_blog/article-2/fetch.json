@@ -1,0 +1,18 @@
+{
+  "url": "https://stripe.com/newsroom/news/nvidia-collaboration-with-stripe",
+  "replaced_url": "https://stripe.com/blog/example-two-2024",
+  "recovery_url": "https://stripe.com/newsroom/news/nvidia-collaboration-with-stripe",
+  "final_url": "https://stripe.com/newsroom/news/nvidia-collaboration-with-stripe",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 351268,
+  "error": null,
+  "fetched_at": "2026-05-07T02:26:07.131Z",
+  "elapsed_ms": 58,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Stripe deepens collaboration with NVIDIA to enhance Stripe’s AI-powered capabilities and expand global access to NVIDIA’s AI platform",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

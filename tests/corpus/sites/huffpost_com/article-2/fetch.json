@@ -1,0 +1,28 @@
+{
+  "url": "https://www.huffpost.com/entry/example-two_n_67890",
+  "recovery_url": "https://www.huffpost.com/entry/rudy-giuliani-girlfriend-health-update_n_69fa10cee4b055e1a49707bf?origin=top-ad-recirc",
+  "final_url": "https://www.huffpost.com/entry/rudy-giuliani-girlfriend-health-update_n_69fa10cee4b055e1a49707bf?origin=top-ad-recirc",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 410760,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:12.137Z",
+  "elapsed_ms": 32,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Rudy Giuliani’s Nurse ‘Girlfriend’ Explains His ‘Miracle’ Recovery | HuffPost Latest News",
+  "recovery_attempts": [
+    {
+      "url": "https://www.huffpost.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:147"
+    },
+    {
+      "url": "https://www.huffpost.com/entry/rudy-giuliani-girlfriend-health-update_n_69fa10cee4b055e1a49707bf?origin=top-ad-recirc",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -2,6 +2,20 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.3.0] - 2026-05-08
+
+### Added
+- Added a live corpus review workflow for checking Safari-to-Drafts captures against source-backed article pages and logging autonomous verdicts
+- Added corpus harness scripts and regression tests for extraction, story quality review, and text cleanup rules
+
+### Changed
+- Expanded default article selectors, DOM filters, and text cleanup rules to better capture article bodies while removing player chrome, recirculation modules, newsletters, ads, author boxes, and related-story clutter
+- Improved Drafts handoff so captures can open the created Draft directly from the native extension bridge
+
+### Fixed
+- Added schema.org article-body fallback extraction for pages where DOM selectors miss the real story body
+- Cleaned live-capture artifacts observed across NPR, Washington Post/Ripple, Semafor, BBC, Vox, ProPublica, LA Times, 404Media, and Martin Fowler pages
+
 ## [2.2.1] - 2026-04-09
 
 ### Fixed

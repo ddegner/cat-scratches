@@ -1,0 +1,40 @@
+{
+  "url": "https://waxy.org/2024/05/example-article/",
+  "recovery_url": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+  "final_url": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 52237,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:51.019Z",
+  "elapsed_ms": 76,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Launching a permanent archive for XOXO - Waxy.org",
+  "recovery_attempts": [
+    {
+      "url": "https://waxy.org/2026/02/wikipedia-blacklists-archive-today-starts-removing-695000-archive-links/",
+      "method": "http",
+      "status": 200,
+      "reason": "thin-text:295"
+    },
+    {
+      "url": "https://waxy.org/2026/02/wikipedia-blacklists-archive-today-starts-removing-695000-archive-links/",
+      "method": "chrome",
+      "status": 0,
+      "reason": "thin-text:295"
+    },
+    {
+      "url": "https://waxy.org/2025/12/jmail-world-adds-tools-to-explore-the-new-epstein-dump/",
+      "method": "http",
+      "status": 200,
+      "reason": "thin-text:211"
+    },
+    {
+      "url": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

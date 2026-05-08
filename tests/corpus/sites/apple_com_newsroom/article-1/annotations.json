@@ -1,0 +1,36 @@
+{
+  "url": "https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article.pr-content, main article",
+  "keep": [
+    "h1-h4",
+    "article p",
+    "article ul, article ol",
+    "article blockquote",
+    ".pr-dek"
+  ],
+  "strip": [
+    ".pr-share",
+    ".pr-pressinfo",
+    ".pr-gallery",
+    "a[rel='external']:has(> span:contains('opens in new window'))",
+    "a:contains('opens in new window')",
+    ".pr-image-gallery",
+    ".pr-press-contacts",
+    "section.pr-press-contacts"
+  ],
+  "expected_quirks": [
+    "'opens in new window' accessibility labels leak as visible text — need a rule to strip span.sr-only / aria-label-only spans",
+    "'Press Contacts' section at the bottom is boilerplate and should be stripped",
+    "'Images of iPhone 16 Pro and iPhone 16 Pro Max' gallery section is non-text",
+    "Dek ('Powered by the A18 Pro chip...') should be kept as it's the article subheadline"
+  ],
+  "category_tags": [
+    "corp-blog",
+    "press-release",
+    "apple"
+  ],
+  "notes": "Add 'press contacts' / 'opens in new window' regex to the CTA spam filter. Strip 'span.sr-only' class globally."
+}

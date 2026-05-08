@@ -1,0 +1,18 @@
+{
+  "url": "https://harpers.org/2026/05/weekly-review-oil-spill-eggs-super-soldiers-shakespeare-grok-plantir-sonic-boom-you-will-never-outrun-it/",
+  "replaced_url": "https://harpers.org/archive/2024/11/example-feature/",
+  "recovery_url": "https://harpers.org/2026/05/weekly-review-oil-spill-eggs-super-soldiers-shakespeare-grok-plantir-sonic-boom-you-will-never-outrun-it/",
+  "final_url": "https://harpers.org/2026/05/weekly-review-oil-spill-eggs-super-soldiers-shakespeare-grok-plantir-sonic-boom-you-will-never-outrun-it/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 115991,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:48.874Z",
+  "elapsed_ms": 61,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Weekly Review, by Harper’s Magazine",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

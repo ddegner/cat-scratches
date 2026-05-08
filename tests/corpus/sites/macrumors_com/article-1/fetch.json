@@ -1,0 +1,22 @@
+{
+  "url": "https://www.macrumors.com/2024/09/09/iphone-16-released/",
+  "recovery_url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+  "final_url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 128456,
+  "error": null,
+  "fetched_at": "2026-05-06T20:03:42.062Z",
+  "elapsed_ms": 33,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Apple Says iOS 26.5 Adds Three New Features to Your iPhone - MacRumors",
+  "recovery_attempts": [
+    {
+      "url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

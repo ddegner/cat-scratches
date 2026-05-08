@@ -1,0 +1,28 @@
+{
+  "url": "https://superuser.com/questions/123456/example-question",
+  "recovery_url": "https://superuser.com/questions/123456/example-question",
+  "final_url": "https://superuser.com/questions/123456/example-question",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 262568,
+  "error": null,
+  "fetched_at": "2026-05-06T20:08:14.428Z",
+  "elapsed_ms": 16150,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "windows xp - How can I access shared XP files over wifi with an Archos 5 Internet Tablet with Android? - Super User",
+  "recovery_attempts": [
+    {
+      "url": "https://superuser.com/questions/123456/example-question",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://superuser.com/questions/123456/example-question",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

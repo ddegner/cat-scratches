@@ -1,0 +1,11 @@
+{
+  "url": "https://timesofindia.indiatimes.com/india/example/articleshow/12345678.cms",
+  "final_url": "https://timesofindia.indiatimes.com/india/example/articleshow/12345678.cms",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 281636,
+  "error": null,
+  "fetched_at": "2026-05-06T19:38:04.068Z",
+  "elapsed_ms": 511,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

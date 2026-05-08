@@ -1,0 +1,18 @@
+{
+  "url": "https://dissentmagazine.org/online_articles/mamdani-mass-engagement-office-organize-nyc/",
+  "replaced_url": "https://www.dissentmagazine.org/online_articles/example-2024/",
+  "recovery_url": "https://dissentmagazine.org/online_articles/mamdani-mass-engagement-office-organize-nyc/",
+  "final_url": "https://dissentmagazine.org/online_articles/mamdani-mass-engagement-office-organize-nyc/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 81622,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:38.844Z",
+  "elapsed_ms": 40,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How Mamdani Can Build Mass Engagement - Dissent Magazine",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.fastcompany.com/91234567/example-article",
+  "final_url": "https://www.fastcompany.com/91234567/example-article",
+  "status": 403,
+  "content_type": "text/html;charset=utf-8",
+  "bytes": 775,
+  "error": null,
+  "fetched_at": "2026-05-06T19:38:59.708Z",
+  "elapsed_ms": 336,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-07T14:14:47.886Z",
+  "recovery_attempts": [
+    {
+      "url": "https://www.fastcompany.com",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    }
+  ],
+  "rejected_source": null,
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:21:52.644Z",
+  "story_repair_reasons": [
+    "missing-source"
+  ],
+  "story_repair_candidates": []
+}

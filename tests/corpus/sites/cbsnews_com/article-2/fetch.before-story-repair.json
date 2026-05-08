@@ -1,0 +1,28 @@
+{
+  "url": "https://www.cbsnews.com/news/example-two-2024/",
+  "recovery_url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+  "final_url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 601999,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:01.109Z",
+  "elapsed_ms": 33,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How much interest will a $150,000 CD account earn now? - CBS News",
+  "recovery_attempts": [
+    {
+      "url": "https://www.cbsnews.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:128"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

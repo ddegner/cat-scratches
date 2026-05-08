@@ -1,0 +1,28 @@
+{
+  "url": "https://www.rt.com/business/654321-example/",
+  "recovery_url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+  "final_url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 261959,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:46.527Z",
+  "elapsed_ms": 147,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "German authorities clamp down on alleged far-right extremists — RT World News",
+  "recovery_attempts": [
+    {
+      "url": "https://www.rt.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:86"
+    },
+    {
+      "url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

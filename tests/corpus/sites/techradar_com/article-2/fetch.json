@@ -1,0 +1,46 @@
+{
+  "url": "https://www.techradar.com/reviews/example-product-2024",
+  "recovery_url": "https://www.techradar.com/news/audio/hi-fi-radio/best-dab-radio-which-one-should-you-buy-901928",
+  "final_url": "https://www.techradar.com/news/audio/hi-fi-radio/best-dab-radio-which-one-should-you-buy-901928",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 2092278,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:40.256Z",
+  "elapsed_ms": 107,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The best DAB radios | TechRadar",
+  "recovery_attempts": [
+    {
+      "url": "https://www.techradar.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:238"
+    },
+    {
+      "url": "https://www.techradar.com/news/audio/hi-fi-radio/best-dab-radio-which-one-should-you-buy-901928",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:36:17.276Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [
+    "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+    "https://www.techradar.com/home/vacuums/hoover-hf3-dynamicclean-review",
+    "https://www.techradar.com/tablets/ereaders/onyx-boox-palma-2-pro-review",
+    "https://www.techradar.com/computing/keyboards/frankly-absurd-i-reviewed-the-keychron-v1-ultra-8k-and-loved-its-ridiculously-epic-660-hour-battery-life-and-sky-high-8-000hz-max-polling-rate",
+    "https://www.techradar.com/home/small-appliances/more-powerful-and-versatile-than-any-other-personal-fan-ive-tested-i-reviewed-sharks-3-in-1-portable-fan-and-have-never-experienced-so-many-different-kinds-of-cooling",
+    "https://www.techradar.com/home/smart-lights/ikea-varmblixt-review"
+  ],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

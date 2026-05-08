@@ -1,0 +1,559 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Linux kernel release 6.x &lt;http://kernel.org/&gt; &#8212; The Linux Kernel  documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <link rel="shortcut icon" href="../_static/logo.svg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Linux allocated devices (4.x+ version)" href="devices.html" />
+    <link rel="prev" title="The Linux kernel user’s and administrator’s guide" href="index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.svg" alt="Logo"/>
+            </a></p>
+<h1 class="logo"><a href="../index.html">The Linux Kernel</a></h1>
+
+
+
+<p class="blurb">7.1.0-rc2</p>
+
+
+
+
+
+
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+<p>
+<h3 class="kernel-toc-contents">Contents</h3>
+<input type="checkbox" class="kernel-toc-toggle" id = "kernel-toc-toggle" checked>
+<label class="kernel-toc-title" for="kernel-toc-toggle"></label>
+
+<div class="kerneltoc" id="kerneltoc">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../process/development-process.html">Development process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../process/submitting-patches.html">Submitting patches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../process/code-of-conduct.html">Code of conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../maintainer/index.html">Maintainer handbook</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../process/index.html">All development-process docs</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../core-api/index.html">Core API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../driver-api/index.html">Driver APIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../subsystem-apis.html">Subsystems</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../locking/index.html">Locking</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../process/license-rules.html">Licensing rules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doc-guide/index.html">Writing documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev-tools/index.html">Development tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev-tools/testing-overview.html">Testing guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kernel-hacking/index.html">Hacking guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../trace/index.html">Tracing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fault-injection/index.html">Fault injection</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../livepatch/index.html">Livepatching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rust/index.html">Rust</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#general-guides-to-kernel-administration">General guides to kernel administration</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Linux kernel release 6.x &lt;http://kernel.org/&gt;</a></li>
+<li class="toctree-l3"><a class="reference internal" href="devices.html">Linux allocated devices (4.x+ version)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="features.html">Feature status on all architectures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sysfs-rules.html">Rules on how to access information in sysfs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sysctl/index.html">Documentation for /proc/sys</a></li>
+<li class="toctree-l3"><a class="reference internal" href="cputopology.html">How CPU topology info is exported via sysfs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="abi.html">Linux ABI description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="hw-vuln/index.html">Hardware vulnerabilities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="LSM/index.html">Linux Security Module Usage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="perf-security.html">Perf events and tool security</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#booting-the-kernel">Booting the kernel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#tracking-down-and-identifying-problems">Tracking down and identifying problems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#core-kernel-subsystems">Core-kernel subsystems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#block-layer-and-filesystem-administration">Block-layer and filesystem administration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#device-specific-guides">Device-specific guides</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#workload-analysis">Workload analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#everything-else">Everything else</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../kbuild/index.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporting-issues.html">Reporting issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/index.html">Userspace tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../userspace-api/index.html">Userspace API</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../firmware-guide/index.html">Firmware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../devicetree/index.html">Firmware and Devicetree</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../arch/index.html">CPU architectures</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../staging/index.html">Unsorted documentation</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../translations/index.html">Translations</a></li>
+</ul>
+
+</div>
+
+<script type="text/javascript"> <!--
+  var sbar = document.getElementsByClassName("sphinxsidebar")[0];
+  let currents = document.getElementsByClassName("current")
+  if (currents.length) {
+    sbar.scrollTop = currents[currents.length - 1].offsetTop;
+  }
+  --> </script>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/admin-guide/README.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  
+
+
+
+
+<div class="language-selection">
+English
+
+<ul>
+
+<li><a href="../translations/zh_CN/admin-guide/README.html">Chinese (Simplified)</a></li>
+
+<li><a href="../translations/zh_TW/admin-guide/README.html">Chinese (Traditional)</a></li>
+
+<li><a href="../translations/it_IT/admin-guide/README.html">Italian</a></li>
+
+</ul>
+</div>
+<section id="linux-kernel-release-6-x-http-kernel-org">
+<span id="readme"></span><h1>Linux kernel release 6.x &lt;<a class="reference external" href="http://kernel.org/">http://kernel.org/</a>&gt;<a class="headerlink" href="#linux-kernel-release-6-x-http-kernel-org" title="Permalink to this heading">¶</a></h1>
+<p>These are the release notes for Linux version 6.  Read them carefully,
+as they tell you what this is all about, explain how to install the
+kernel, and what to do if something goes wrong.</p>
+<section id="what-is-linux">
+<h2>What is Linux?<a class="headerlink" href="#what-is-linux" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>Linux is a clone of the operating system Unix, written from scratch by
+Linus Torvalds with assistance from a loosely-knit team of hackers across
+the Net. It aims towards POSIX and Single UNIX Specification compliance.</p>
+<p>It has all the features you would expect in a modern fully-fledged Unix,
+including true multitasking, virtual memory, shared libraries, demand
+loading, shared copy-on-write executables, proper memory management,
+and multistack networking including IPv4 and IPv6.</p>
+<p>It is distributed under the GNU General Public License v2 - see the
+accompanying COPYING file for more details.</p>
+</div></blockquote>
+</section>
+<section id="on-what-hardware-does-it-run">
+<h2>On what hardware does it run?<a class="headerlink" href="#on-what-hardware-does-it-run" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>Although originally developed first for 32-bit x86-based PCs (386 or higher),
+today Linux also runs on (at least) the Compaq Alpha AXP, Sun SPARC and
+UltraSPARC, Motorola 68000, PowerPC, PowerPC64, ARM, Hitachi SuperH, Cell,
+IBM S/390, MIPS, HP PA-RISC, Intel IA-64, DEC VAX, AMD x86-64 Xtensa, and
+ARC architectures.</p>
+<p>Linux is easily portable to most general-purpose 32- or 64-bit architectures
+as long as they have a paged memory management unit (PMMU) and a port of the
+GNU C compiler (gcc) (part of The GNU Compiler Collection, GCC). Linux has
+also been ported to a number of architectures without a PMMU, although
+functionality is then obviously somewhat limited.
+Linux has also been ported to itself. You can now run the kernel as a
+userspace application - this is called UserMode Linux (UML).</p>
+</div></blockquote>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>There is a lot of documentation available both in electronic form on
+the Internet and in books, both Linux-specific and pertaining to
+general UNIX questions.  I’d recommend looking into the documentation
+subdirectories on any Linux FTP site for the LDP (Linux Documentation
+Project) books.  This README is not meant to be documentation on the
+system: there are much better sources available.</p></li>
+<li><p>There are various README files in the Documentation/ subdirectory:
+these typically contain kernel-specific installation notes for some
+drivers for example. Please read the
+<a class="reference internal" href="../process/changes.html#changes"><span class="std std-ref">Documentation/process/changes.rst</span></a> file, as it
+contains information about the problems which may result from upgrading
+your kernel.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="installing-the-kernel-source">
+<h2>Installing the kernel source<a class="headerlink" href="#installing-the-kernel-source" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p>If you install the full sources, put the kernel tarball in a
+directory where you have permissions (e.g. your home directory) and
+unpack it:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>xz -cd linux-6.x.tar.xz | tar xvf -
+</pre></div>
+</div>
+<p>Replace “X” with the version number of the latest kernel.</p>
+<p>Do NOT use the /usr/src/linux area! This area has a (usually
+incomplete) set of kernel headers that are used by the library header
+files.  They should match the library, and not get messed up by
+whatever the kernel-du-jour happens to be.</p>
+</li>
+<li><p>You can also upgrade between 6.x releases by patching.  Patches are
+distributed in the xz format.  To install by patching, get all the
+newer patch files, enter the top level directory of the kernel source
+(linux-6.x) and execute:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>xz -cd ../patch-6.x.xz | patch -p1
+</pre></div>
+</div>
+<p>Replace “x” for all versions bigger than the version “x” of your current
+source tree, <strong>in_order</strong>, and you should be ok.  You may want to remove
+the backup files (some-file-name~ or some-file-name.orig), and make sure
+that there are no failed patches (some-file-name# or some-file-name.rej).
+If there are, either you or I have made a mistake.</p>
+<p>Unlike patches for the 6.x kernels, patches for the 6.x.y kernels
+(also known as the -stable kernels) are not incremental but instead apply
+directly to the base 6.x kernel.  For example, if your base kernel is 6.0
+and you want to apply the 6.0.3 patch, you must not first apply the 6.0.1
+and 6.0.2 patches. Similarly, if you are running kernel version 6.0.2 and
+want to jump to 6.0.3, you must first reverse the 6.0.2 patch (that is,
+patch -R) <strong>before</strong> applying the 6.0.3 patch. You can read more on this in
+<a class="reference internal" href="../process/applying-patches.html#applying-patches"><span class="std std-ref">Documentation/process/applying-patches.rst</span></a>.</p>
+<p>Alternatively, the script patch-kernel can be used to automate this
+process.  It determines the current kernel version and applies any
+patches found:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>linux/scripts/patch-kernel linux
+</pre></div>
+</div>
+<p>The first argument in the command above is the location of the
+kernel source.  Patches are applied from the current directory, but
+an alternative directory can be specified as the second argument.</p>
+</li>
+<li><p>Make sure you have no stale .o files and dependencies lying around:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd linux
+make mrproper
+</pre></div>
+</div>
+<p>You should now have the sources correctly installed.</p>
+</li>
+</ul>
+</div></blockquote>
+</section>
+<section id="software-requirements">
+<h2>Software requirements<a class="headerlink" href="#software-requirements" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>Compiling and running the 6.x kernels requires up-to-date
+versions of various software packages.  Consult
+<a class="reference internal" href="../process/changes.html#changes"><span class="std std-ref">Documentation/process/changes.rst</span></a> for the minimum version numbers
+required and how to get updates for these packages.  Beware that using
+excessively old versions of these packages can cause indirect
+errors that are very difficult to track down, so don’t assume that
+you can just update packages when obvious problems arise during
+build or operation.</p>
+</div></blockquote>
+</section>
+<section id="build-directory-for-the-kernel">
+<h2>Build directory for the kernel<a class="headerlink" href="#build-directory-for-the-kernel" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><p>When compiling the kernel, all output files will per default be
+stored together with the kernel source code.
+Using the option <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">O=output/dir</span></code> allows you to specify an alternate
+place for the output files (including .config).
+Example:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>kernel source code: /usr/src/linux-6.x
+build directory:    /home/name/build/kernel
+</pre></div>
+</div>
+<p>To configure and build the kernel, use:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>cd /usr/src/linux-6.x
+make O=/home/name/build/kernel menuconfig
+make O=/home/name/build/kernel
+sudo make O=/home/name/build/kernel modules_install install
+</pre></div>
+</div>
+<p>Please note: If the <code class="docutils literal notranslate"><span class="pre">O=output/dir</span></code> option is used, then it must be
+used for all invocations of make.</p>
+</div></blockquote>
+</section>
+<section id="configuring-the-kernel">
+<h2>Configuring the kernel<a class="headerlink" href="#configuring-the-kernel" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><blockquote>
+<div><p>Do not skip this step even if you are only upgrading one minor
+version.  New configuration options are added in each release, and
+odd problems will turn up if the configuration files are not set up
+as expected.  If you want to carry your existing configuration to a
+new version with minimal work, use <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">oldconfig</span></code>, which will
+only ask you for the answers to new questions.</p>
+</div></blockquote>
+<ul>
+<li><p>Alternative configuration commands are:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&quot;make config&quot;      Plain text interface.
+
+&quot;make menuconfig&quot;  Text based color menus, radiolists &amp; dialogs.
+
+&quot;make nconfig&quot;     Enhanced text based color menus.
+
+&quot;make xconfig&quot;     Qt based configuration tool.
+
+&quot;make gconfig&quot;     GTK based configuration tool.
+
+&quot;make oldconfig&quot;   Default all questions based on the contents of
+                   your existing ./.config file and asking about
+                   new config symbols.
+
+&quot;make olddefconfig&quot;
+                   Like above, but sets new symbols to their default
+                   values without prompting.
+
+&quot;make defconfig&quot;   Create a ./.config file by using the default
+                   symbol values from either arch/$ARCH/configs/defconfig
+                   or arch/$ARCH/configs/${PLATFORM}_defconfig,
+                   depending on the architecture.
+
+&quot;make ${PLATFORM}_defconfig&quot;
+                   Create a ./.config file by using the default
+                   symbol values from
+                   arch/$ARCH/configs/${PLATFORM}_defconfig.
+                   Use &quot;make help&quot; to get a list of all available
+                   platforms of your architecture.
+
+&quot;make allyesconfig&quot;
+                   Create a ./.config file by setting symbol
+                   values to &#39;y&#39; as much as possible.
+
+&quot;make allmodconfig&quot;
+                   Create a ./.config file by setting symbol
+                   values to &#39;m&#39; as much as possible.
+
+&quot;make allnoconfig&quot; Create a ./.config file by setting symbol
+                   values to &#39;n&#39; as much as possible.
+
+&quot;make randconfig&quot;  Create a ./.config file by setting symbol
+                   values to random values.
+
+&quot;make localmodconfig&quot; Create a config based on current config and
+                      loaded modules (lsmod). Disables any module
+                      option that is not needed for the loaded modules.
+
+                      To create a localmodconfig for another machine,
+                      store the lsmod of that machine into a file
+                      and pass it in as a LSMOD parameter.
+
+                      Also, you can preserve modules in certain folders
+                      or kconfig files by specifying their paths in
+                      parameter LMC_KEEP.
+
+              target$ lsmod &gt; /tmp/mylsmod
+              target$ scp /tmp/mylsmod host:/tmp
+
+              host$ make LSMOD=/tmp/mylsmod \
+                      LMC_KEEP=&quot;drivers/usb:drivers/gpu:fs&quot; \
+                      localmodconfig
+
+                      The above also works when cross compiling.
+
+&quot;make localyesconfig&quot; Similar to localmodconfig, except it will convert
+                      all module options to built in (=y) options. You can
+                      also preserve modules by LMC_KEEP.
+
+&quot;make kvm_guest.config&quot;   Enable additional options for kvm guest kernel
+                          support.
+
+&quot;make xen.config&quot;   Enable additional options for xen dom0 guest kernel
+                    support.
+
+&quot;make tinyconfig&quot;  Configure the tiniest possible kernel.
+</pre></div>
+</div>
+<p>You can find more information on using the Linux kernel config tools
+in <a class="reference internal" href="../kbuild/kconfig.html"><span class="doc">Configuration targets and editors</span></a>.</p>
+</li>
+<li><p>NOTES on <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">config</span></code>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Having unnecessary drivers will make the kernel bigger, and can
+under some circumstances lead to problems: probing for a
+nonexistent controller card may confuse your other controllers.</p></li>
+<li><p>A kernel with math-emulation compiled in will still use the
+coprocessor if one is present: the math emulation will just
+never get used in that case.  The kernel will be slightly larger,
+but will work on different machines regardless of whether they
+have a math coprocessor or not.</p></li>
+<li><p>The “kernel hacking” configuration details usually result in a
+bigger or slower kernel (or both), and can even make the kernel
+less stable by configuring some routines to actively try to
+break bad code to find kernel problems (<a class="reference internal" href="../core-api/mm-api.html#c.kmalloc" title="kmalloc"><code class="xref c c-func docutils literal notranslate"><span class="pre">kmalloc()</span></code></a>).  Thus you
+should probably answer ‘n’ to the questions for “development”,
+“experimental”, or “debugging” features.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</section>
+<section id="compiling-the-kernel">
+<h2>Compiling the kernel<a class="headerlink" href="#compiling-the-kernel" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p>Make sure you have at least gcc 8.1 available.
+For more information, refer to <a class="reference internal" href="../process/changes.html#changes"><span class="std std-ref">Documentation/process/changes.rst</span></a>.</p></li>
+<li><p>Do a <code class="docutils literal notranslate"><span class="pre">make</span></code> to create a compressed kernel image. It is also possible to do
+<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code> if you have lilo installed or if your distribution has an
+install script recognised by the kernel’s installer. Most popular
+distributions will have a recognized install script. You may want to
+check your distribution’s setup first.</p>
+<p>To do the actual install, you have to be root, but none of the normal
+build should require that. Don’t take the name of root in vain.</p>
+</li>
+<li><p>If you configured any of the parts of the kernel as <code class="docutils literal notranslate"><span class="pre">modules</span></code>, you
+will also have to do <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">modules_install</span></code>.</p></li>
+<li><p>Verbose kernel compile/build output:</p>
+<p>Normally, the kernel build system runs in a fairly quiet mode (but not
+totally silent).  However, sometimes you or other kernel developers need
+to see compile, link, or other commands exactly as they are executed.
+For this, use “verbose” build mode.  This is done by passing
+<code class="docutils literal notranslate"><span class="pre">V=1</span></code> to the <code class="docutils literal notranslate"><span class="pre">make</span></code> command, e.g.:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>make V=1 all
+</pre></div>
+</div>
+<p>To have the build system also tell the reason for the rebuild of each
+target, use <code class="docutils literal notranslate"><span class="pre">V=2</span></code>.  The default is <code class="docutils literal notranslate"><span class="pre">V=0</span></code>.</p>
+</li>
+<li><p>Keep a backup kernel handy in case something goes wrong.  This is
+especially true for the development releases, since each new release
+contains new code which has not been debugged.  Make sure you keep a
+backup of the modules corresponding to that kernel, as well.  If you
+are installing a new kernel with the same version number as your
+working kernel, make a backup of your modules directory before you
+do a <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">modules_install</span></code>.</p>
+<p>Alternatively, before compiling, use the kernel config option
+“LOCALVERSION” to append a unique suffix to the regular kernel version.
+LOCALVERSION can be set in the “General Setup” menu.</p>
+</li>
+<li><p>In order to boot your new kernel, you’ll need to copy the kernel
+image (e.g. .../linux/arch/x86/boot/bzImage after compilation)
+to the place where your regular bootable kernel is found.</p></li>
+<li><p>Booting a kernel directly from a storage device without the assistance
+of a bootloader such as LILO or GRUB, is no longer supported in BIOS
+(non-EFI systems). On UEFI/EFI systems, however, you can use EFISTUB
+which allows the motherboard to boot directly to the kernel.
+On modern workstations and desktops, it’s generally recommended to use a
+bootloader as difficulties can arise with multiple kernels and secure boot.
+For more details on EFISTUB,
+see “<a class="reference internal" href="efi-stub.html"><span class="doc">The EFI Boot Stub</span></a>”.</p></li>
+<li><p>It’s important to note that as of 2016 LILO (LInux LOader) is no longer in
+active development, though as it was extremely popular, it often comes up
+in documentation. Popular alternatives include GRUB2, rEFInd, Syslinux,
+systemd-boot, or EFISTUB. For various reasons, it’s not recommended to use
+software that’s no longer in active development.</p></li>
+<li><p>Chances are your distribution includes an install script and running
+<code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">install</span></code> will be all that’s needed. Should that not be the case
+you’ll have to identify your bootloader and reference its documentation or
+configure your EFI.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="legacy-lilo-instructions">
+<h2>Legacy LILO Instructions<a class="headerlink" href="#legacy-lilo-instructions" title="Permalink to this heading">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>If you use LILO the kernel images are specified in the file /etc/lilo.conf.
+The kernel image file is usually /vmlinuz, /boot/vmlinuz, /bzImage or
+/boot/bzImage. To use the new kernel, save a copy of the old image and copy
+the new image over the old one. Then, you MUST RERUN LILO to update the
+loading map! If you don’t, you won’t be able to boot the new kernel image.</p></li>
+<li><p>Reinstalling LILO is usually a matter of running /sbin/lilo. You may wish
+to edit /etc/lilo.conf to specify an entry for your old kernel image
+(say, /vmlinux.old) in case the new one does not work. See the LILO docs
+for more information.</p></li>
+<li><p>After reinstalling LILO, you should be all set. Shutdown the system,
+reboot, and enjoy!</p></li>
+<li><p>If you ever need to change the default root device, video mode, etc. in the
+kernel image, use your bootloader’s boot options where appropriate. No need
+to recompile the kernel to change these parameters.</p></li>
+<li><p>Reboot with the new kernel and enjoy.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="if-something-goes-wrong">
+<h2>If something goes wrong<a class="headerlink" href="#if-something-goes-wrong" title="Permalink to this heading">¶</a></h2>
+<p>If you have problems that seem to be due to kernel bugs, please follow the
+instructions at ‘<a class="reference internal" href="reporting-issues.html"><span class="doc">Reporting issues</span></a>’.</p>
+<p>Hints on understanding kernel bug reports are in
+‘<a class="reference internal" href="bug-hunting.html"><span class="doc">Bug hunting</span></a>’. More on debugging the kernel
+with gdb is in ‘<a class="reference internal" href="../process/debugging/gdb-kernel-debugging.html"><span class="doc">Debugging kernel and modules via gdb</span></a>’ and
+‘<a class="reference internal" href="../process/debugging/kgdb.html"><span class="doc">Using kgdb, kdb and the kernel debugger internals</span></a>’.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &#169;The kernel development community.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 5.3.0</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/admin-guide/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

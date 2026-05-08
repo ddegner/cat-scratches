@@ -1,0 +1,6 @@
+{
+  "name": "Ghost.org blog",
+  "category": "blog",
+  "cms": "ghost",
+  "slug": "ghost_org"
+}

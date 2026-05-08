@@ -1,0 +1,29 @@
+{
+  "url": "https://docs.python.org/3/tutorial/datastructures.html",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "div.body section",
+  "keep": [
+    "h1-h4",
+    "p",
+    "pre",
+    "ol",
+    "ul"
+  ],
+  "strip": [
+    "div.sphinxsidebar",
+    "div.related",
+    ".headerlink"
+  ],
+  "expected_quirks": [
+    "Tutorial style: prose + many code blocks"
+  ],
+  "category_tags": [
+    "docs",
+    "tutorial",
+    "python",
+    "sphinx"
+  ],
+  "notes": "Same Sphinx template; positive anchor for tutorial-style docs."
+}

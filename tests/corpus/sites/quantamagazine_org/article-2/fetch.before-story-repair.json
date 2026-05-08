@@ -1,0 +1,28 @@
+{
+  "url": "https://www.quantamagazine.org/example-article-20240515/",
+  "recovery_url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+  "final_url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 261654,
+  "error": null,
+  "fetched_at": "2026-05-07T01:37:16.677Z",
+  "elapsed_ms": 47,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "A Treasure Trove of Cambrian Fossils Rewrites the Story of Early Life | Quanta Magazine",
+  "recovery_attempts": [
+    {
+      "url": "https://www.quantamagazine.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:53"
+    },
+    {
+      "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

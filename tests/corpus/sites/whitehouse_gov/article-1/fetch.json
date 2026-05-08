@@ -1,0 +1,28 @@
+{
+  "url": "https://www.whitehouse.gov/briefing-room/statements-releases/2024/11/06/example/",
+  "recovery_url": "https://www.whitehouse.gov/releases/2026/01/365-wins-in-365-days-president-trumps-return-marks-new-era-of-success-prosperity/",
+  "final_url": "https://www.whitehouse.gov/releases/2026/01/365-wins-in-365-days-president-trumps-return-marks-new-era-of-success-prosperity/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 310837,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:06.109Z",
+  "elapsed_ms": 34,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "365 WINS IN 365 DAYS: President Trump’s Return Marks New Era of Success, Prosperity – The White House",
+  "recovery_attempts": [
+    {
+      "url": "https://www.whitehouse.gov",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:79"
+    },
+    {
+      "url": "https://www.whitehouse.gov/releases/2026/01/365-wins-in-365-days-president-trumps-return-marks-new-era-of-success-prosperity/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

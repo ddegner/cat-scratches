@@ -1,0 +1,18 @@
+{
+  "url": "https://waxy.org/2025/08/will-smiths-concert-crowds-were-real-but-ai-is-blurring-the-lines/",
+  "replaced_url": "https://waxy.org/2024/11/example-two/",
+  "recovery_url": "https://waxy.org/2025/08/will-smiths-concert-crowds-were-real-but-ai-is-blurring-the-lines/",
+  "final_url": "https://waxy.org/2025/08/will-smiths-concert-crowds-were-real-but-ai-is-blurring-the-lines/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 71614,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:52.792Z",
+  "elapsed_ms": 142,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Will Smith's concert crowds are real, but AI is blurring the lines - Waxy.org",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

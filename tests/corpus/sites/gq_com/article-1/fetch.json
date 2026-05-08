@@ -1,0 +1,28 @@
+{
+  "url": "https://www.gq.com/story/example-feature-2024",
+  "recovery_url": "https://www.gq.com/story/enhanced-games-olympics-athletes",
+  "final_url": "https://www.gq.com/story/enhanced-games-olympics-athletes",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1285280,
+  "error": null,
+  "fetched_at": "2026-05-06T20:24:30.448Z",
+  "elapsed_ms": 101,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "What Would the Olympics Be Like If the Athletes Could Juice? | GQ",
+  "recovery_attempts": [
+    {
+      "url": "https://www.gq.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:65"
+    },
+    {
+      "url": "https://www.gq.com/story/enhanced-games-olympics-athletes",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-not-as-good-as-everyone-thinks-alastair-cooks-bold-claim-stirs-fresh-controversy/articleshow/130855524.cms",
+  "replaced_url": "https://timesofindia.indiatimes.com/business/india-business/example/articleshow/87654321.cms",
+  "recovery_url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-not-as-good-as-everyone-thinks-alastair-cooks-bold-claim-stirs-fresh-controversy/articleshow/130855524.cms",
+  "final_url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-not-as-good-as-everyone-thinks-alastair-cooks-bold-claim-stirs-fresh-controversy/articleshow/130855524.cms",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 285071,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:11.927Z",
+  "elapsed_ms": 83,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "‘IPL not as good as everyone thinks’: Alastair Cook’s bold claim stirs fresh controversy | Cricket News - The Times of India",
+  "replacement_reasons": [
+    "bad-title"
+  ]
+}

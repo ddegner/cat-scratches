@@ -1,0 +1,28 @@
+{
+  "url": "https://stratechery.com/2024/example-subscriber-post/",
+  "recovery_url": "https://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store/",
+  "final_url": "https://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 308171,
+  "error": null,
+  "fetched_at": "2026-05-06T20:26:39.217Z",
+  "elapsed_ms": 23,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Why Doesn’t Apple Enable Sustainable Businesses on the App Store? – Stratechery by Ben Thompson",
+  "recovery_attempts": [
+    {
+      "url": "https://stratechery.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:172"
+    },
+    {
+      "url": "https://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

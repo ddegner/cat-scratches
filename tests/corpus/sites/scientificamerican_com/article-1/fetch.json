@@ -1,0 +1,40 @@
+{
+  "url": "https://www.scientificamerican.com/article/example-article-2024/",
+  "recovery_url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+  "final_url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 101415,
+  "error": null,
+  "fetched_at": "2026-05-06T20:23:59.360Z",
+  "elapsed_ms": 31,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Why some mathematicians think we should abandon pi | Scientific American",
+  "recovery_attempts": [
+    {
+      "url": "https://www.scientificamerican.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:56"
+    },
+    {
+      "url": "https://www.scientificamerican.com/issue/sa/2026/05-01/",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.scientificamerican.com/issue/special-editions/2026/03-03/",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "div.mw-parser-output",
+  "keep": [
+    "h1, h2, h3, h4",
+    ".mw-parser-output > p",
+    ".mw-parser-output > ul",
+    ".mw-parser-output > ol",
+    "blockquote",
+    "figcaption"
+  ],
+  "strip": [
+    ".hatnote",
+    ".infobox",
+    ".navigation-not-searchable",
+    ".reflist",
+    ".navbox",
+    ".mw-jump-link",
+    ".mw-editsection",
+    "#toc",
+    ".shortdescription",
+    ".thumb"
+  ],
+  "expected_quirks": [
+    "MediaWiki. `.mw-parser-output` is the canonical content root.",
+    "Hatnote '(AI) redirects here' and short description tagline appear as orphan paragraphs at the top — should be stripped",
+    "Inline citations [1][2]... are currently kept; decision needed on whether to strip (reader pref) or keep (fidelity)",
+    "Navboxes at page bottom are sprawling and non-prose — definitely strip"
+  ],
+  "category_tags": [
+    "reference",
+    "encyclopedic",
+    "mediawiki",
+    "longform"
+  ],
+  "notes": "Add '.hatnote', '.shortdescription', '.navbox', '.mw-editsection' to BASE_FILTERS."
+}

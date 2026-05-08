@@ -1,0 +1,28 @@
+{
+  "url": "https://www.france24.com/en/africa/20240515-example-two",
+  "recovery_url": "https://www.france24.com/en/technology/20260429-trump-says-nasa-has-good-shot-at-returning-astronauts-to-moon-before-2029",
+  "final_url": "https://www.france24.com/en/technology/20260429-trump-says-nasa-has-good-shot-at-returning-astronauts-to-moon-before-2029",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 392590,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:44.329Z",
+  "elapsed_ms": 497,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump says NASA has ‘good shot’ at returning astronauts to Moon before 2029 - France 24",
+  "recovery_attempts": [
+    {
+      "url": "https://www.france24.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:128"
+    },
+    {
+      "url": "https://www.france24.com/en/technology/20260429-trump-says-nasa-has-good-shot-at-returning-astronauts-to-moon-before-2029",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

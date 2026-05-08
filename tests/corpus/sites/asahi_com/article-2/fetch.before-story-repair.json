@@ -1,0 +1,28 @@
+{
+  "url": "https://www.asahi.com/articles/ASS654321.html",
+  "recovery_url": "https://www.asahi.com/articles/ASV56266LV56ULFA00DM.html?iref=comtop_BreakingNews_list",
+  "final_url": "https://www.asahi.com/articles/ASV56266LV56ULFA00DM.html?iref=comtop_BreakingNews_list",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 190312,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:51.242Z",
+  "elapsed_ms": 371,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "日産、欧州の従業員を1割削減へ　英工場は生産ラインを一つに集約：朝日新聞",
+  "recovery_attempts": [
+    {
+      "url": "https://www.asahi.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:176"
+    },
+    {
+      "url": "https://www.asahi.com/articles/ASV56266LV56ULFA00DM.html?iref=comtop_BreakingNews_list",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

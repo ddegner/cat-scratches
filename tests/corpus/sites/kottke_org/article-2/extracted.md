@@ -1,0 +1,1 @@
+Jon Krakauer writes about what has changed about climbing Mt. Everest since he wrote Into Thin Air. “The deadly hazards I wrote about attracted novice climbers to Everest like gamblers to a slot machine.”

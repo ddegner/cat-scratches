@@ -1,0 +1,17 @@
+{
+  "url": "https://morningbrew.beehiiv.com/p/example",
+  "final_url": "https://morningbrew.beehiiv.com/?404=%2Fp%2Fexample",
+  "status": 410,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 39801,
+  "error": null,
+  "fetched_at": "2026-05-06T19:41:49.842Z",
+  "elapsed_ms": 783,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:25:30.495Z",
+  "story_repair_reasons": [
+    "missing-source"
+  ],
+  "story_repair_candidates": []
+}

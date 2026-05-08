@@ -1,0 +1,18 @@
+{
+  "url": "https://www.macrumors.com/2026/01/29/iphone-16-worlds-best-selling-phone-2025/",
+  "replaced_url": "https://www.macrumors.com/guide/iphone-16/",
+  "recovery_url": "https://www.macrumors.com/2026/01/29/iphone-16-worlds-best-selling-phone-2025/",
+  "final_url": "https://www.macrumors.com/2026/01/29/iphone-16-worlds-best-selling-phone-2025/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 128317,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:27.876Z",
+  "elapsed_ms": 66,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "iPhone 16 Tops List of World's Best-Selling Smartphones in 2025 - MacRumors",
+  "replacement_reasons": [
+    "bad-note"
+  ]
+}

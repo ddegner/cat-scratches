@@ -1,0 +1,28 @@
+{
+  "url": "https://www.theguardian.com/commentisfree/article/2024/jul/08/ai-technology-bubble-financial-collapse",
+  "recovery_url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
+  "final_url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 324850,
+  "error": null,
+  "fetched_at": "2026-05-07T01:31:46.731Z",
+  "elapsed_ms": 213,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Crossword editor’s desk: the Guardian’s 30,000th cryptic | Crosswords | The Guardian",
+  "recovery_attempts": [
+    {
+      "url": "https://www.theguardian.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:185"
+    },
+    {
+      "url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

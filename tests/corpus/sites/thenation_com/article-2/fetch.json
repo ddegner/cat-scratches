@@ -1,0 +1,28 @@
+{
+  "url": "https://www.thenation.com/article/culture/example-2024/",
+  "recovery_url": "https://www.thenation.com/article/world/trump-iran-war-escalation-energy-crisis-us-foreign-policy-risk/",
+  "final_url": "https://www.thenation.com/article/world/trump-iran-war-escalation-energy-crisis-us-foreign-policy-risk/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 304796,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:08.791Z",
+  "elapsed_ms": 60,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump Risks a Greater Catastrophe in the Iran Conflict | The Nation",
+  "recovery_attempts": [
+    {
+      "url": "https://www.thenation.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:78"
+    },
+    {
+      "url": "https://www.thenation.com/article/world/trump-iran-war-escalation-energy-crisis-us-foreign-policy-risk/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

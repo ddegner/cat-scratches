@@ -1,0 +1,28 @@
+{
+  "url": "https://www.semafor.com/article/11/06/2024/election-analysis",
+  "recovery_url": "https://www.semafor.com/article/05/06/2026/anthropics-tie-up-with-elon-musk-paves-way-for-space-data-centers",
+  "final_url": "https://www.semafor.com/article/05/06/2026/anthropics-tie-up-with-elon-musk-paves-way-for-space-data-centers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 114827,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:55.130Z",
+  "elapsed_ms": 78,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Anthropic’s tie up with Elon Musk paves way for space data centers | Semafor",
+  "recovery_attempts": [
+    {
+      "url": "https://www.semafor.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:52"
+    },
+    {
+      "url": "https://www.semafor.com/article/05/06/2026/anthropics-tie-up-with-elon-musk-paves-way-for-space-data-centers",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

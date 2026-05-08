@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ms.now/all-in/watch/epstein-s-purported-suicide-note-released-2499126339549",
+  "replaced_url": "https://www.msnbc.com/rachel-maddow-show/example-2024",
+  "recovery_url": "https://www.ms.now/all-in/watch/epstein-s-purported-suicide-note-released-2499126339549",
+  "final_url": "https://www.ms.now/all-in/watch/epstein-s-purported-suicide-note-released-2499126339549",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 231057,
+  "error": null,
+  "fetched_at": "2026-05-07T02:20:18.480Z",
+  "elapsed_ms": 33,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Epstein’s purported suicide note released",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

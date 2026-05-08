@@ -1,0 +1,29 @@
+{
+  "url": "https://arxiv.org/list/astro-ph.EP/recent",
+  "replaced_url": "https://arxiv.org/abs/2411.54321",
+  "recovery_url": "https://arxiv.org/list/astro-ph.EP/recent",
+  "final_url": "https://arxiv.org/list/astro-ph.EP/recent",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 122908,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:14.798Z",
+  "elapsed_ms": 120,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Earth and Planetary Astrophysics",
+  "replacement_reasons": [
+    "bad-title"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:36:30.908Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

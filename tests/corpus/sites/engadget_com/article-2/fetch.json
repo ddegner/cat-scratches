@@ -1,0 +1,18 @@
+{
+  "url": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+  "replaced_url": "https://www.engadget.com/example-news-2024-153000000.html",
+  "recovery_url": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+  "final_url": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 79803,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:29.641Z",
+  "elapsed_ms": 42,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "reMarkable Paper Pure Review: Great Hardware Held Back By Bad Philosophy",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

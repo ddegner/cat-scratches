@@ -1,0 +1,22 @@
+{
+  "url": "https://www.dissentmagazine.org/article/example-essay-2024/",
+  "recovery_url": "https://dissentmagazine.org/online_articles/gisele-pelicot-trial-memoirs/",
+  "final_url": "https://dissentmagazine.org/online_articles/gisele-pelicot-trial-memoirs/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 89576,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:40.162Z",
+  "elapsed_ms": 45,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "When the World Split Open - Dissent Magazine",
+  "recovery_attempts": [
+    {
+      "url": "https://dissentmagazine.org/online_articles/gisele-pelicot-trial-memoirs/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

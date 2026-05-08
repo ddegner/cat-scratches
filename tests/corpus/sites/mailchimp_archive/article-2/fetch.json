@@ -1,0 +1,24 @@
+{
+  "url": "https://us20.campaign-archive.com/?u=xyz&id=ghi",
+  "final_url": "https://mailchimp.com/about/mcsv-static",
+  "status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "bytes": 628,
+  "error": null,
+  "fetched_at": "2026-05-06T19:41:55.922Z",
+  "elapsed_ms": 167,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:30:37.192Z",
+  "story_repair_reasons": [
+    "bad-note",
+    "bad-title",
+    "duplicate-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

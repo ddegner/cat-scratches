@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian Publish site",
+  "category": "docs-public",
+  "cms": "obsidian",
+  "slug": "obsidian_publish"
+}

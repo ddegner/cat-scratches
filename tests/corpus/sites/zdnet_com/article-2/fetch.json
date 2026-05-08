@@ -1,0 +1,28 @@
+{
+  "url": "https://www.zdnet.com/article/example-two-2024/",
+  "recovery_url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+  "final_url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 844423,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:21.473Z",
+  "elapsed_ms": 310,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "I've fully converted to adaptive chargers from fast ones and already feel safer | ZDNET",
+  "recovery_attempts": [
+    {
+      "url": "https://www.zdnet.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:127"
+    },
+    {
+      "url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
+  "replaced_url": "https://daringfireball.net/linked/2024/11/06/trump",
+  "recovery_url": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
+  "final_url": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 11253,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:49.973Z",
+  "elapsed_ms": 105,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Daring Fireball: Tim Cook's Clever Solution to the Tariff Refund Puzzle",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

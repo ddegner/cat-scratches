@@ -1,0 +1,22 @@
+{
+  "url": "https://www.platformer.news/openai-board-anna-makanju-election/",
+  "recovery_url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/",
+  "final_url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 36323,
+  "error": null,
+  "fetched_at": "2026-05-06T20:03:43.420Z",
+  "elapsed_ms": 105,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Falling in and out of love with Moltbot",
+  "recovery_attempts": [
+    {
+      "url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

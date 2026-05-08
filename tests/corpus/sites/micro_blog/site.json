@@ -1,0 +1,6 @@
+{
+  "name": "Micro.blog example",
+  "category": "blog",
+  "cms": "micro.blog",
+  "slug": "micro_blog"
+}

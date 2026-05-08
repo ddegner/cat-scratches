@@ -1,0 +1,49 @@
+{
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.example",
+  "recovery_url": "https://journals.plos.org/globalpublichealth/",
+  "final_url": "https://journals.plos.org/globalpublichealth/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 75122,
+  "error": null,
+  "fetched_at": "2026-05-06T20:47:32.446Z",
+  "elapsed_ms": 202,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "PLOS Global Public Health",
+  "recovery_attempts": [
+    {
+      "url": "https://journals.plos.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:61"
+    },
+    {
+      "url": "https://plos.org/research-integrity-and-ethics/",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://plos.org/gates-foundation-partnership/",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://plos.org/payment-terms-and-conditions/",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://journals.plos.org/globalpublichealth/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "recovery_error": "Recovered front-page link was not a usable story page",
+  "recovery_attempted_at": "2026-05-06T20:53:11.753Z",
+  "rejected_source": "source.rejected.html"
+}

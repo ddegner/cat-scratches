@@ -1,0 +1,22 @@
+{
+  "url": "https://hacks.mozilla.org/2024/05/example-post/",
+  "recovery_url": "https://hacks.mozilla.org/2021/01/improving-cross-browser-testing-part-2-new-automation-features-in-firefox-nightly/",
+  "final_url": "https://hacks.mozilla.org/2021/01/improving-cross-browser-testing-part-2-new-automation-features-in-firefox-nightly/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 47295,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:54.126Z",
+  "elapsed_ms": 226,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Improving Cross-Browser Testing, Part 2: New Automation Features in Firefox Nightly - Mozilla Hacks - the Web developer blog",
+  "recovery_attempts": [
+    {
+      "url": "https://hacks.mozilla.org/2021/01/improving-cross-browser-testing-part-2-new-automation-features-in-firefox-nightly/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.npr.org/2024/11/06/nx-s1-trump-election-results",
+  "recovery_url": "https://www.npr.org/2026/05/06/nx-s1-5813506/lord-of-the-flies-review",
+  "final_url": "https://www.npr.org/2026/05/06/nx-s1-5813506/lord-of-the-flies-review",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 112451,
+  "error": null,
+  "fetched_at": "2026-05-06T19:56:44.324Z",
+  "elapsed_ms": 70,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "'Lord of the Flies' review: A haunting adaptation with echoes of 'Adolescence' : NPR",
+  "recovery_attempts": [
+    {
+      "url": "https://www.npr.org/2026/05/06/nx-s1-5813506/lord-of-the-flies-review",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

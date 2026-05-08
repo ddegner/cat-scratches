@@ -1,0 +1,11 @@
+{
+  "url": "https://www.rt.com/news/123456-example/",
+  "final_url": "https://www.rt.com/shows/breaking-set-summary/poisoning-wa-oscars-propaganda-tpp-secrecy-tour-de-peace-456/",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 162442,
+  "error": null,
+  "fetched_at": "2026-05-06T19:37:57.693Z",
+  "elapsed_ms": 1868,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head><meta charset="UTF-8">
+<title>Technical Debt</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" /><script defer src="https://cloud.umami.is/script.js" data-website-id="eb12527f-b713-4afa-905a-8a50f8a7f157"></script>
+<meta content = 'summary_large_image' name = 'twitter:card'></meta>
+
+<meta content = '16665197' name = 'twitter:site:id'></meta>
+
+<meta content = '@martinfowler' name = 'twitter:site'></meta>
+
+<meta content = 'bliki: Technical Debt' property = 'og:title'></meta>
+
+<meta content = 'https://martinfowler.com/bliki/TechnicalDebt.html' property = 'og:url'></meta>
+
+<meta content = 'Technical Debt is a metaphor for the consequences of cruft. You either have to accept a drag on further features (paying interest) or fix the software (paying the principal)' property = 'og:description'></meta>
+
+<meta content = 'https://martinfowler.com/bliki/images/tech-debt/sketch.png' property = 'og:image'></meta>
+
+<meta content = 'martinfowler.com' property = 'og:site_name'></meta>
+
+<meta content = 'article' property = 'og:type'></meta>
+
+<meta content = '2019-05-21 11:59:00 -0400' property = 'og:article:modified_time'></meta>
+
+<meta content = 'width=device-width, initial-scale=1' name = 'viewport'></meta>
+
+<link href = '/bliki/entry.css' rel = 'stylesheet' type = 'text/css'></link>
+</head>
+
+<body><header id = 'banner' style = 'background-image: url("../img/bloomsbury.png"); background-repeat: no-repeat'>
+
+<div class = 'name-logo'><a href = 'https://martinfowler.com'><img src = '/mf-name-white.png'></img></a></div>
+  <div class = 'search'>
+    <!-- SiteSearch Google -->
+    <form method='GET' action="https://www.google.com/search">
+      <input type='hidden' name='ie' value='UTF-8'/>
+      <input type='hidden' name='oe' value='UTF-8'/>
+      <input class = 'field' type='text' 
+             name='q' size='15' maxlength='255' value=""/>
+      <button class = 'button' type='submit' 
+             name='btnG' value=" " title = "Search"/>
+      <input type='hidden' name='domains' value="martinfowler.com"/>
+      <input type='hidden' name='sitesearch' value=""/> 
+      <input
+          type='hidden' name='sitesearch' value="martinfowler.com"/>
+    </form>
+  </div>
+
+<div class = 'menu-button navmenu-button'><a class = 'icon icon-bars' href = '#navmenu-bottom'></a></div>
+
+<nav class = 'top-menu'>
+<ul>
+<li><a class = '' href = 'https://refactoring.com'>Refactoring</a></li>
+
+<li><a class = '' href = '/agile.html'>Agile</a></li>
+
+<li><a class = '' href = '/architecture'>Architecture</a></li>
+
+<li><a class = '' href = '/aboutMe.html'>About</a></li>
+
+<li><a class = 'tw' href = 'https://www.thoughtworks.com/engineering'>Thoughtworks</a></li>
+
+<li><a class = 'icon icon-rss' href = '/feed.atom' title = 'feed'></a></li>
+
+<li><a class = 'icon icon-twitter' href = 'https://www.twitter.com/martinfowler' title = 'Twitter stream'></a></li>
+
+<li class = 'icon'><a href = 'https://toot.thoughtworks.com/@mfowler' title = 'Mastodon stream'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M21.2595 13.9898C20.9852 15.4006 18.8033 16.9446 16.2974 17.2439C14.9907 17.3998 13.7041 17.5431 12.3321 17.4802C10.0885 17.3774 8.31809 16.9446 8.31809 16.9446C8.31809 17.163 8.33156 17.371 8.3585 17.5655C8.65019 19.7797 10.5541 19.9124 12.3576 19.9742C14.1779 20.0365 15.7987 19.5254 15.7987 19.5254L15.8735 21.1711C15.8735 21.1711 14.6003 21.8548 12.3321 21.9805C11.0814 22.0493 9.52849 21.9491 7.71973 21.4703C3.79684 20.432 3.12219 16.2504 3.01896 12.0074C2.98749 10.7477 3.00689 9.55981 3.00689 8.56632C3.00689 4.22771 5.84955 2.95599 5.84955 2.95599C7.2829 2.29772 9.74238 2.0209 12.2993 2H12.3621C14.919 2.0209 17.3801 2.29772 18.8133 2.95599C18.8133 2.95599 21.6559 4.22771 21.6559 8.56632C21.6559 8.56632 21.6916 11.7674 21.2595 13.9898ZM18.3029 8.9029C18.3029 7.82924 18.0295 6.97604 17.4805 6.34482C16.9142 5.71359 16.1726 5.39001 15.2522 5.39001C14.187 5.39001 13.3805 5.79937 12.8473 6.61819L12.3288 7.48723L11.8104 6.61819C11.2771 5.79937 10.4706 5.39001 9.40554 5.39001C8.485 5.39001 7.74344 5.71359 7.17719 6.34482C6.62807 6.97604 6.3547 7.82924 6.3547 8.9029V14.1562H8.43597V9.05731C8.43597 7.98246 8.88822 7.4369 9.79281 7.4369C10.793 7.4369 11.2944 8.08408 11.2944 9.36376V12.1547H13.3634V9.36376C13.3634 8.08408 13.8646 7.4369 14.8648 7.4369C15.7694 7.4369 16.2216 7.98246 16.2216 9.05731V14.1562H18.3029V8.9029Z"></path></svg>
+</a></li>
+
+<li class = 'icon'><a href = 'https://www.linkedin.com/in/martin-fowler-com/' title = 'LinkedIn'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M4.00098 3H20.001C20.5533 3 21.001 3.44772 21.001 4V20C21.001 20.5523 20.5533 21 20.001 21H4.00098C3.44869 21 3.00098 20.5523 3.00098 20V4C3.00098 3.44772 3.44869 3 4.00098 3ZM5.00098 5V19H19.001V5H5.00098ZM7.50098 9C6.67255 9 6.00098 8.32843 6.00098 7.5C6.00098 6.67157 6.67255 6 7.50098 6C8.3294 6 9.00098 6.67157 9.00098 7.5C9.00098 8.32843 8.3294 9 7.50098 9ZM6.50098 10H8.50098V17.5H6.50098V10ZM12.001 10.4295C12.5854 9.86534 13.2665 9.5 14.001 9.5C16.072 9.5 17.501 11.1789 17.501 13.25V17.5H15.501V13.25C15.501 12.2835 14.7175 11.5 13.751 11.5C12.7845 11.5 12.001 12.2835 12.001 13.25V17.5H10.001V10H12.001V10.4295Z"></path></svg>
+</a></li>
+
+<li class = 'icon'><a href = 'https://bsky.app/profile/martinfowler.com' title = 'BlueSky'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 11.3884C11.0942 9.62673 8.62833 6.34423 6.335 4.7259C4.13833 3.17506 3.30083 3.4434 2.75167 3.69256C2.11583 3.9784 2 4.95506 2 5.52839C2 6.10339 2.315 10.2367 2.52 10.9276C3.19917 13.2076 5.61417 13.9776 7.83917 13.7309C4.57917 14.2142 1.68333 15.4017 5.48083 19.6292C9.65833 23.9542 11.2058 18.7017 12 16.0392C12.7942 18.7017 13.7083 23.7651 18.4442 19.6292C22 16.0392 19.4208 14.2142 16.1608 13.7309C18.3858 13.9784 20.8008 13.2076 21.48 10.9276C21.685 10.2376 22 6.10256 22 5.52923C22 4.95423 21.8842 3.97839 21.2483 3.6909C20.6992 3.44256 19.8617 3.17423 17.665 4.72423C15.3717 6.34506 12.9058 9.62756 12 11.3884Z"></path></svg></a></li>
+</ul>
+</nav>
+</header>
+<nav id = 'top-navmenu'>
+<nav class = 'navmenu'>
+<div class = 'nav-head'>  <div class = 'search'>
+    <!-- SiteSearch Google -->
+    <form method='GET' action="https://www.google.com/search">
+      <input type='hidden' name='ie' value='UTF-8'/>
+      <input type='hidden' name='oe' value='UTF-8'/>
+      <input class = 'field' type='text' 
+             name='q' size='15' maxlength='255' value=""/>
+      <button class = 'button' type='submit' 
+             name='btnG' value=" " title = "Search"/>
+      <input type='hidden' name='domains' value="martinfowler.com"/>
+      <input type='hidden' name='sitesearch' value=""/> 
+      <input
+          type='hidden' name='sitesearch' value="martinfowler.com"/>
+    </form>
+  </div>
+
+<div class = 'closediv'>
+<span class = 'close' title = 'close'></span>
+</div>
+</div>
+
+<div class = 'nav-body'>
+<div class = 'topics'>
+<h2>Topics</h2>
+
+<p><a href = '/architecture'>Architecture</a></p>
+
+<p><a href = 'https://refactoring.com'>Refactoring</a></p>
+
+<p><a href = '/agile.html'>Agile</a></p>
+
+<p><a href = '/delivery.html'>Delivery</a></p>
+
+<p><a href = '/microservices'>Microservices</a></p>
+
+<p><a href = '/data'>Data</a></p>
+
+<p><a href = '/testing'>Testing</a></p>
+
+<p><a href = '/dsl.html'>DSL</a></p>
+</div>
+
+<div class = 'about'>
+<h2>about me</h2>
+
+<p><a href = '/aboutMe.html'>About</a></p>
+
+<p><a href = '/books'>Books</a></p>
+
+<p><a href = '/faq.html'>FAQ</a></p>
+</div>
+
+<div class = 'content'>
+<h2>content</h2>
+
+<p><a href = '/videos.html'>Videos</a></p>
+
+<p><a href = '/tags'>Content Index</a></p>
+
+<p><a href = '/fragments'>Fragments</a></p>
+
+<p><a href = '/boardgames'>Board Games</a></p>
+
+<p><a href = '/photos'>Photography</a></p>
+</div>
+
+<div class = 'tw'>
+<h2>Thoughtworks</h2>
+
+<p><a href = 'https://thoughtworks.com'>Home</a></p>
+
+<p><a href = 'https://thoughtworks.com/insights'>Insights</a></p>
+
+<p><a href = 'https://thoughtworks.com/careers'>Careers</a></p>
+
+<p><a href = 'https://thoughtworks.com/radar'>Radar</a></p>
+
+<p><a href = 'https://www.thoughtworks.com/engineering'>Engineering</a></p>
+</div>
+
+<div class = 'feeds'>
+<h2>follow</h2>
+
+<p><a href = '/feed.atom'>RSS</a></p>
+
+<p><a href = 'https://toot.thoughtworks.com/@mfowler'>Mastodon</a></p>
+
+<p><a href = 'https://www.linkedin.com/in/martin-fowler-com/'>LinkedIn</a></p>
+
+<p><a href = 'https://bsky.app/profile/martinfowler.com'>Bluesky</a></p>
+
+<p><a href = 'https://www.twitter.com/martinfowler'>X</a></p>
+
+<p><a href = 'https://boardgamegeek.com/blog/13064/martins-7th-decade'>BGG</a></p>
+</div>
+</div>
+</nav>
+</nav>
+
+<main>
+<article>
+<h1><a href = TechnicalDebt.html>Technical Debt</a></h1>
+
+<p class = 'date'>21 May 2019</p>
+
+<div class = 'frontMatter'>
+<div class = 'author'>
+<p class = 'author-photo'><a href = '/'><img src = '/mf.jpg' title = 'Photo of Martin Fowler'></img></a></p>
+
+<p class = 'name'><a href = '/' rel = 'author'>Martin Fowler</a></p>
+</div>
+
+<div class = 'spacer'></div>
+
+<div class = 'tags'>
+<p class = 'tag-link'><a href = /tags/technical%20debt.html>technical debt</a></p>
+
+<p class = 'tag-link'><a href = /tags/programming%20style.html>programming style</a></p>
+</div>
+</div>
+
+<div class = 'clear'></div>
+
+<div class = 'paperBody'>
+<p>Software systems are prone to the build up of <b>cruft</b> - deficiencies in
+  internal quality that make it harder than it would ideally be to modify and
+  extend the system further. Technical Debt is a metaphor, coined by Ward
+  Cunningham, that frames how to think about dealing with this cruft, thinking
+  of it like a financial debt. The extra effort that it takes to add new
+  features is the interest paid on the debt.</p>
+
+<div class = 'fullPhoto '><img src = 'images/tech-debt/sketch.png'></img>
+<p class = 'photoCaption'></p>
+</div>
+
+<div class = 'clear'></div>
+
+<p>Imagine I have a confusing module structure in my code base. I need to add
+  a new feature. If the module structure was clear, then it would take
+  me four days to add the feature but with this cruft, it takes me six
+  days. The two day difference is the interest on the debt.</p>
+
+<p>What most appeals to me about the debt metaphor is how it frames how I  think
+  about how to deal with this cruft. I could take five days to clean up the modular
+  structure, removing that cruft, metaphorically paying off the principal. If I
+  only do it for this one feature, that's no gain, as I'd take nine days
+  instead of six. But if I have two more similar features coming up, then I'll
+  end up faster by removing the cruft first.</p>
+
+<aside>
+<div class = 'article-card'>
+<h3><a href = '/articles/is-quality-worth-cost.html'>Is High Quality Software Worth the Cost?</a></h3>
+
+<div class = 'card-body'>
+<p class = 'card-image'><img src = 'https://martinfowler.com/articles/is-quality-worth-cost/card.png'></img></p>
+
+<p class = 'abstract'>
+    A common debate in software development projects is between spending time
+    on improving the quality of the software versus concentrating on releasing
+    more valuable features. Usually the pressure to deliver functionality
+    dominates the discussion, leading many developers to complain that they
+    don't have time to work on architecture and code quality. This debate is
+    based on the assumption that increasing quality also increases costs, which
+    is our common experience. But the counter-intuitive reality is that internal
+    software quality removes the cruft that slows down developing new features,
+    thus decreasing the cost of enhancing the software.
+  </p>
+
+<div class = 'meta'>
+<p class = 'credits'>by Martin Fowler</p>
+
+<p class = 'date'>29 May 2019</p>
+
+<p class = 'more'><a href = '/articles/is-quality-worth-cost.html'>Read more…</a></p>
+
+<p class = 'type article'>article</p>
+
+<p class = 'tags'> <span class = 'tag-link'><a href = /tags/programming%20style.html>programming style</a></span> <span class = 'tag-link'><a href = /tags/productivity.html>productivity</a></span> <span class = 'tag-link'><a href = /tags/project%20planning.html>project planning</a></span> <span class = 'tag-link'><a href = /tags/technical%20debt.html>technical debt</a></span> </p>
+</div>
+</div>
+</div>
+</aside>
+
+<p>Stated like that, this sounds like a simple matter of working the numbers,
+  and any manager with a spreadsheet should figure out the choices. Sadly since
+  we <a href = '/bliki/CannotMeasureProductivity.html'>CannotMeasureProductivity</a>, none of these costs are objectively
+  measurable. We can <i>estimate</i> how long it takes to do a feature,
+  <i>estimate</i> what it might be like if the cruft was removed, and
+  <i>estimate</i> the cost of removing the cruft. But our accuracy of such
+  estimates is pretty low. </p>
+
+<p>Given this, usually the best route is to do what we usually do with
+  financial debts, pay the principal off gradually. On the first feature
+  I'll spend an extra couple of days to remove some of the cruft. That may
+  be enough to reduce the interest rate on future enhancements to a single
+  day. That's still going to take extra time, but by removing the cruft I'm
+  making it cheaper for future changes to this code. The great benefit of
+  gradual improvement like this is that it naturally means we spend more
+  time on removing cruft in those areas that we modify frequently, which are
+  exactly those areas of the code base where we most need the cruft to be
+  removed.</p>
+
+<p>Thinking of this as paying interest versus paying of principal can help
+  decide which cruft to tackle. If I have a terrible area of the code base,
+  one that's a nightmare to change, it's not a problem if I don't have to
+  modify it. I only trigger an interest payment when I have to work
+  with that part of the software (this is a place where the metaphor breaks down, since
+  financial interest payments are triggered by the passage of time). So crufty but stable areas of code can
+  be left alone. In contrast, areas of high activity need a
+  zero-tolerance attitude to cruft, because the interest payments are
+  cripplingly high. This is especially important since cruft
+  accumulates where developers make changes without paying attention to
+  internal quality - the more changes, the greater risk of cruft building
+  up.</p>
+
+<p>The metaphor of debt is sometimes used to justify neglecting internal quality.
+  The argument is that it takes time and effort to stop cruft from building up.
+  If there new features that are needed urgently, then perhaps it's best to take
+  on the debt, accepting that this debt will have to be managed in the future.</p>
+
+<p>The danger here is that most of the time this analysis isn't done well.
+  Cruft has a quick impact, slowing down the very new features that are needed
+  quickly.  Teams who do this
+  end up maxing out all their credit cards, but still delivering later than they
+  would have done had they put the effort into higher internal quality. Here the metaphor
+  often leads people astray, as the dynamics don't really match those for financial
+  loans. Taking on debt to speed delivery only works if you stay below the
+  design payoff line of the <a href = '/bliki/DesignStaminaHypothesis.html'>DesignStaminaHypothesis</a>, and teams hit
+  that line in weeks rather than months.</p>
+
+<p>There are regular debates whether different kinds of cruft should be
+  considered as debt or not. I found it useful to think about whether the debt
+  is acquired deliberately and whether it is prudent or reckless - leading me to
+  the <a href = '/bliki/TechnicalDebtQuadrant.html'>TechnicalDebtQuadrant</a>.</p>
+
+<div class = 'furtherReading'>
+<h2>Further Reading</h2>
+
+<p>As far as I can tell, Ward first introduced this concept in an experience
+    report for <a href = 'http://c2.com/doc/oopsla92.html'>OOPSLA 1992</a>. It has
+    also been discussed on the <a href = 'http://www.c2.com/cgi/wiki?ComplexityAsDebt'>wiki</a>.
+    Ward has a <a href = 'http://www.youtube.com/watch?v=pqeJFYwnkjE'>video talk</a> where he
+    discusses this metaphor he created.</p>
+
+<p>&#x201C;apenwarr&#x201D; has an excellent post - <a href = 'https://apenwarr.ca/log/?m=202306'>Tech debt
+    metaphor maximalism</a> - where he explores several ways to think about
+    applying the metaphor. He comments: &#x201C;I really like the &#x2018;tech debt&#x2019; metaphor.
+    A lot of people don&#x2019;t, but I think that&#x2019;s because they either don&#x2019;t extend
+    the metaphor far enough, or because they don&#x2019;t properly understand financial
+    debt.&#x201D;</p>
+
+<p>Dave Nicolette expands on Ward's view of technical debt with a <a href = 'http://neopragma.com/index.php/2019/03/30/technical-debt-the-man-the-metaphor-the-message/'>fine
+    case study</a> of what I refer to as <a href = '/bliki/TechnicalDebtQuadrant.html'>
+    Prudent Intentional debt</a></p>
+
+<p>A couple of readers sent in some similarly good names. David
+Panariti refers to ugly programming as <i>deficit programming</i>.
+Apparently he originally started using a few years ago when it fitted
+in with government policy; I suppose it's natural again now. </p>
+
+<p>Scott Wood suggested “<i>Technical Inflation</i> could be
+viewed as the ground lost when the current level of technology
+surpasses that of the foundation of your product to the extent that it
+begins losing compatibility with the industry.   Examples of this
+would be falling behind in versions of a language to the point where
+your code is no longer compatible with main stream compilers.” </p>
+
+<p><a href = 'http://www.construx.com/10x_Software_Development/Technical_Debt/'>Steve McConnell</a> brings out several good points in the metaphor,
+    particularly how keeping your unintended debt down gives you more
+    room to intentionally take on debt when it's useful to do so. I
+    also like his notion of minimum payments (which are very high to
+    fix issues with embedded systems as opposed to web sites).</p>
+
+<p>Aaron Erickson talks about <a href = 'http://www.informit.com/articles/article.aspx?p=1401640'>Enron
+    financing</a>.</p>
+
+<p><a href = 'http://blog.crisp.se/2013/10/11/henrikkniberg/good-and-bad-technical-debt'>Henrik Kniberg argues</a> that it's older technical debt that
+    causes the greatest problem and that it's wise to a qualitative
+    debt ceiling to help manage it.</p>
+
+<p> Erik Dietrich discusses the <a href = 'http://www.daedtech.com/human-cost-tech-debt/'>human cost of technical debt</a>: team
+    infighting, atrophied skills, and attrition. </p>
+</div>
+
+<div class = 'revisions'>
+<h2>Revisions</h2>
+
+<p>I originally published this post on October 1 2003. I gave it a thorough
+    rewrite in April 2019.</p>
+</div>
+</div>
+</article>
+
+<div class = 'clear'></div>
+</main>
+
+<nav id = 'bottom-navmenu'>
+<nav class = 'navmenu'>
+<div class = 'nav-head'>  <div class = 'search'>
+    <!-- SiteSearch Google -->
+    <form method='GET' action="https://www.google.com/search">
+      <input type='hidden' name='ie' value='UTF-8'/>
+      <input type='hidden' name='oe' value='UTF-8'/>
+      <input class = 'field' type='text' 
+             name='q' size='15' maxlength='255' value=""/>
+      <button class = 'button' type='submit' 
+             name='btnG' value=" " title = "Search"/>
+      <input type='hidden' name='domains' value="martinfowler.com"/>
+      <input type='hidden' name='sitesearch' value=""/> 
+      <input
+          type='hidden' name='sitesearch' value="martinfowler.com"/>
+    </form>
+  </div>
+
+<div class = 'closediv'>
+<span class = 'close' title = 'close'></span>
+</div>
+</div>
+
+<div class = 'nav-body'>
+<div class = 'topics'>
+<h2>Topics</h2>
+
+<p><a href = '/architecture'>Architecture</a></p>
+
+<p><a href = 'https://refactoring.com'>Refactoring</a></p>
+
+<p><a href = '/agile.html'>Agile</a></p>
+
+<p><a href = '/delivery.html'>Delivery</a></p>
+
+<p><a href = '/microservices'>Microservices</a></p>
+
+<p><a href = '/data'>Data</a></p>
+
+<p><a href = '/testing'>Testing</a></p>
+
+<p><a href = '/dsl.html'>DSL</a></p>
+</div>
+
+<div class = 'about'>
+<h2>about me</h2>
+
+<p><a href = '/aboutMe.html'>About</a></p>
+
+<p><a href = '/books'>Books</a></p>
+
+<p><a href = '/faq.html'>FAQ</a></p>
+</div>
+
+<div class = 'content'>
+<h2>content</h2>
+
+<p><a href = '/videos.html'>Videos</a></p>
+
+<p><a href = '/tags'>Content Index</a></p>
+
+<p><a href = '/fragments'>Fragments</a></p>
+
+<p><a href = '/boardgames'>Board Games</a></p>
+
+<p><a href = '/photos'>Photography</a></p>
+</div>
+
+<div class = 'tw'>
+<h2>Thoughtworks</h2>
+
+<p><a href = 'https://thoughtworks.com'>Home</a></p>
+
+<p><a href = 'https://thoughtworks.com/insights'>Insights</a></p>
+
+<p><a href = 'https://thoughtworks.com/careers'>Careers</a></p>
+
+<p><a href = 'https://thoughtworks.com/radar'>Radar</a></p>
+
+<p><a href = 'https://www.thoughtworks.com/engineering'>Engineering</a></p>
+</div>
+
+<div class = 'feeds'>
+<h2>follow</h2>
+
+<p><a href = '/feed.atom'>RSS</a></p>
+
+<p><a href = 'https://toot.thoughtworks.com/@mfowler'>Mastodon</a></p>
+
+<p><a href = 'https://www.linkedin.com/in/martin-fowler-com/'>LinkedIn</a></p>
+
+<p><a href = 'https://bsky.app/profile/martinfowler.com'>Bluesky</a></p>
+
+<p><a href = 'https://www.twitter.com/martinfowler'>X</a></p>
+
+<p><a href = 'https://boardgamegeek.com/blog/13064/martins-7th-decade'>BGG</a></p>
+</div>
+</div>
+</nav>
+</nav>
+<footer id='page-footer'>
+<div class='tw-logo'>
+<a href='https://www.thoughtworks.com/engineering'>
+<img src='/thoughtworks_white.png'>
+</a>
+</div>
+<div class='menu-button'>
+<div class='icon-bars navmenu-button'></div>
+</div>
+<div class='copyright'>
+<p>© Martin Fowler | <a href="/aboutMe.html#disclosures">Disclosures</a></p>
+</div>
+</footer>
+
+<script src = '/jquery-1.11.3.min.js' type = 'text/javascript'></script>
+
+<script src = '/mfcom.js' type = 'text/javascript'></script>
+</body>
+</html>

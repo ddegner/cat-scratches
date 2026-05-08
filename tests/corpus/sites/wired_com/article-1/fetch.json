@@ -1,0 +1,19 @@
+{
+  "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+  "replaced_url": "https://www.wired.com/story/openai-gpt-4o-demo/",
+  "recovery_url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+  "final_url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1320991,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:25.147Z",
+  "elapsed_ms": 128,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Elon Musk’s Last-Ditch Effort to Control OpenAI: Recruit Sam Altman to Tesla | WIRED",
+  "replacement_reasons": [
+    "very-thin",
+    "duplicate-url"
+  ]
+}

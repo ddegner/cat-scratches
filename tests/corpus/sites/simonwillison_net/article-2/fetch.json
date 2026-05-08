@@ -1,0 +1,18 @@
+{
+  "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+  "replaced_url": "https://simonwillison.net/2024/Nov/26/qwq/",
+  "recovery_url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+  "final_url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 21718,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:48.579Z",
+  "elapsed_ms": 184,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Profiling Hacker News users based on their comments",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://www.haaretz.com/opinion/2024-05-15/ty-article-opinion/example/0000018b-8765-4321-dcba-hgfe87654321",
+  "recovery_url": "https://www.haaretz.com/israel-news/haaretz-today/2026-05-05/ty-article/.highlight/theres-only-one-way-to-challenge-jewish-supremacy-in-israel/0000019d-f866-d22e-a9ff-fafe76b80002",
+  "final_url": "https://www.haaretz.com/israel-news/haaretz-today/2026-05-05/ty-article/.highlight/theres-only-one-way-to-challenge-jewish-supremacy-in-israel/0000019d-f866-d22e-a9ff-fafe76b80002",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 806588,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:08.617Z",
+  "elapsed_ms": 49,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "There's Only One Way to Challenge Jewish Supremacy in Israel - Haaretz Today",
+  "recovery_attempts": [
+    {
+      "url": "https://www.haaretz.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:157"
+    },
+    {
+      "url": "https://www.haaretz.com/israel-news/haaretz-today/2026-05-05/ty-article/.highlight/theres-only-one-way-to-challenge-jewish-supremacy-in-israel/0000019d-f866-d22e-a9ff-fafe76b80002",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T13:11:37.302Z",
+  "story_repair_reasons": [
+    "too-thin:229"
+  ],
+  "story_repair_candidates": [
+    "https://www.haaretz.com/israel-news/haaretz-today/2026-05-05/ty-article/.highlight/theres-only-one-way-to-challenge-jewish-supremacy-in-israel/0000019d-f866-d22e-a9ff-fafe76b80002",
+    "https://www.haaretz.com/israel-news/israel-politics/2026-04-27/ty-article/.premium/the-problem-with-naftali-bennett/0000019d-cf15-d0b7-abdf-ff1527170000",
+    "https://www.haaretz.com/opinion/editorial/2026-05-06/ty-article-opinion/ahead-of-election-the-netanyahu-apparatus-smear-campaigns-bear-fruit/0000019d-f9b7-d369-a19d-fbff9eba0000",
+    "https://www.haaretz.com/middle-east-news/iran/2026-05-07/ty-article/report-iran-set-to-respond-on-thursday-to-u-s-proposal-to-end-war/0000019e-0111-d930-adde-b3bf70190000",
+    "https://www.haaretz.com/israel-news/israel-security/2026-05-06/ty-article/.premium/idf-strikes-in-beirut-netanyahu-says-in-first-since-israel-lebanon-cease-fire/0000019d-fe55-d9e5-a7df-ff5de6840000",
+    "https://www.haaretz.com/opinion/editorial/2026-05-07/ty-article-opinion/stand-up-to-the-israeli-governments-assault-on-academic-freedom/0000019d-fee3-df19-af9d-fffbf31c0000",
+    "https://www.haaretz.com/opinion/2026-05-06/ty-article-opinion/.premium/for-one-idf-general-settler-terror-is-a-stain-on-institutional-jewish-violence/0000019d-f9b7-db6e-ab9f-ffb7875c0000",
+    "https://www.haaretz.com/israel-news/israel-security/2026-05-06/ty-article/.premium/explosive-hezbollah-drones-wounded-three-israeli-soldiers-in-lebanon/0000019d-fe22-d322-a3ff-fe362b290000",
+    "https://www.haaretz.com/israel-news/israel-security/2026-05-02/ty-article/.premium/israel-acquiring-low-cost-systems-from-u-s-to-intercept-drones/0000019d-e96c-dd9a-a79d-eded5a760000",
+    "https://www.haaretz.com/jewish/2026-05-06/ty-article/london-police-launch-specialist-jewish-protection-team-amid-surge-in-attacks/0000019d-fc4e-db6e-ab9f-ffde1b040000",
+    "https://www.haaretz.com/jewish/2026-05-06/ty-article/.premium/antisemitic-incidents-dropped-after-u-s-campus-protest-movement-wanes-adl-says/0000019d-f897-d22e-a9ff-faffbca20000",
+    "https://www.haaretz.com/middle-east-news/2026-05-04/ty-article/.premium/irans-priorities-are-starting-to-take-shape-in-talks-with-u-s/0000019d-ef85-de32-a1df-ffcf304a0000"
+  ],
+  "rejected_nonstory_files": null
+}

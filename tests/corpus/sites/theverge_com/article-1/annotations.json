@@ -1,0 +1,34 @@
+{
+  "url": "https://www.theverge.com/2024/5/13/24155493/openai-gpt-4o-launch-free-tier-demo",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article .duet--article--article-body, article",
+  "keep": [
+    "h1",
+    "article .duet--article--article-body p",
+    "article .duet--article--article-body blockquote",
+    "article .duet--article--article-body figure figcaption",
+    ".duet--article--byline",
+    "time[datetime]"
+  ],
+  "strip": [
+    ".duet--article--article-tag-list",
+    ".duet--article--series-shelf",
+    ".duet--article--related-list",
+    ".duet--article--article-body .c-newsletter_signup_box",
+    "aside.duet--sidebar--most-popular",
+    ".duet--article--follow-box",
+    ".duet--article--post-credit",
+    ".duet--recirculation--related-list",
+    "figure figcaption:has(> span:only-child)"
+  ],
+  "expected_quirks": [
+    "Chorus CMS (Duet design system) — class prefix 'duet--'",
+    "Summary dek is emitted twice in the rendered HTML (once in hero, once in body container) — dedupe on identical text",
+    "Series shelf (\"Part Of ... see all updates\") appears inline mid-article and should be treated as chrome",
+    "'Most Popular' sidebar is nested inside <article> in the DOM; pure `article` selector is insufficient"
+  ],
+  "category_tags": ["tech-news", "breaking", "short-form"],
+  "notes": "Current extractor leaks tag breadcrumbs, duplicate dek, series shelf, follow-box CTA, author tag list, 'More in:' block, and 'Most Popular' sidebar. Top candidate for a new strip selector: '.duet--article--series-shelf' and '.duet--recirculation--related-list'. Also add de-dup pass for adjacent identical paragraphs."
+}

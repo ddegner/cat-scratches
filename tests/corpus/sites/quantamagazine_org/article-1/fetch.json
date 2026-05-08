@@ -1,0 +1,18 @@
+{
+  "url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+  "replaced_url": "https://www.quantamagazine.org/the-year-in-math-2024-20241222/",
+  "recovery_url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+  "final_url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 237734,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:12.338Z",
+  "elapsed_ms": 62,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Hidden Mathematical Dance Inside Plant Cells | Quanta Magazine",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

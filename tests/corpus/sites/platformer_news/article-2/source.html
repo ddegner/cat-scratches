@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>The Trump administration&#x27;s AI doomer moment</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://www.platformer.news/assets/built/screen.css?v=4e2a313ed4">
+    <link rel="preload" as="script" href="https://www.platformer.news/assets/built/source.js?v=4e2a313ed4">
+
+    <link rel="stylesheet" type="text/css" href="https://www.platformer.news/assets/built/screen.css?v=4e2a313ed4">
+
+    <style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <meta name="description" content="A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering">
+    <link rel="icon" href="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w256h256/2024/05/Logomark_Blue_800px.png" type="image/png">
+    <link rel="canonical" href="https://www.platformer.news/trump-administration-doomers-ai/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Platformer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Trump administration&#x27;s AI doomer moment">
+    <meta property="og:description" content="A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering">
+    <meta property="og:url" content="https://www.platformer.news/trump-administration-doomers-ai/">
+    <meta property="og:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/05/shutterstock_2446827875.jpg">
+    <meta property="article:published_time" content="2026-05-06T00:00:22.000Z">
+    <meta property="article:modified_time" content="2026-05-06T00:00:24.000Z">
+    <meta property="article:tag" content="AI Safety">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Trump administration&#x27;s AI doomer moment">
+    <meta name="twitter:description" content="A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering">
+    <meta name="twitter:url" content="https://www.platformer.news/trump-administration-doomers-ai/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/05/shutterstock_2446827875.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Casey Newton">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="AI Safety">
+    <meta name="twitter:site" content="@platformer">
+    <meta name="twitter:creator" content="@CaseyNewton">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="690">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Platformer",
+        "url": "https://www.platformer.news/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Casey Newton",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp",
+            "width": 128,
+            "height": 128
+        },
+        "url": "https://www.platformer.news/author/casey-newton/",
+        "sameAs": [
+            "https://x.com/CaseyNewton"
+        ]
+    },
+    "headline": "The Trump administration&#x27;s AI doomer moment",
+    "url": "https://www.platformer.news/trump-administration-doomers-ai/",
+    "datePublished": "2026-05-06T00:00:22.000Z",
+    "dateModified": "2026-05-06T00:00:24.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/05/shutterstock_2446827875.jpg",
+        "width": 1200,
+        "height": 690
+    },
+    "keywords": "AI Safety",
+    "description": "A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering",
+    "mainEntityOfPage": "https://www.platformer.news/trump-administration-doomers-ai/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.36">
+    <link rel="alternate" type="application/rss+xml" title="Platformer" href="https://www.platformer.news/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.68/umd/portal.min.js" data-i18n="true" data-ghost="https://www.platformer.news/" data-key="784efcca5a3abd410ac226ae79" data-api="https://platformer.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="784efcca5a3abd410ac226ae79" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://platformer.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.platformer.news/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=4e2a313ed4"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=4e2a313ed4">
+    <script defer src="/public/comment-counts.min.js?v=4e2a313ed4" data-ghost-comments-counts-api="https://www.platformer.news/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=4e2a313ed4"></script>
+    <script defer src="/public/ghost-stats.min.js?v=4e2a313ed4" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.platformer.news/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="a04c7225-d919-4d78-9b7c-a3fdd071349b" tb_post_uuid="911747ee-7b7c-4c7b-bca8-e9651acc687f" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined"></script><style>:root {--ghost-accent-color: #2047FF;}</style>
+
+</head>
+<body class="post-template tag-ai-safety has-sans-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-middle-logo gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://www.platformer.news">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-home"><a href="https://www.platformer.news/">Home</a></li>
+    <li class="nav-about"><a href="https://www.platformer.news/about/">About</a></li>
+    <li class="nav-ethics"><a href="https://www.platformer.news/ethics/">Ethics</a></li>
+</ul>
+
+        </nav>
+
+        <div class="gh-navigation-actions">
+                <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>                <div class="gh-navigation-members">
+                            <a href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-button" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                </div>
+        </div>
+
+    </div>
+</header>
+
+    
+
+<main class="gh-main">
+
+    <article class="gh-article post tag-ai-safety">
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="https://www.platformer.news/tag/ai-safety/">AI Safety</a>
+            <h1 class="gh-article-title is-title">The Trump administration&#x27;s AI doomer moment</h1>
+                <p class="gh-article-excerpt is-body">A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering</p>
+
+            <div class="gh-article-meta">
+                <div class="gh-article-author-image">
+                            <a href="/author/casey-newton/">
+                                <img class="author-profile-image" src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp" alt="Casey Newton" />
+                            </a>
+                </div>
+                <div class="gh-article-meta-wrapper">
+                    <h4 class="gh-article-author-name"><a href="/author/casey-newton/">Casey Newton</a></h4>
+                    <div class="gh-article-meta-content">
+                        <time class="gh-article-meta-date" datetime="2026-05-05">May 5, 2026</time>
+                            <span class="gh-article-meta-length"><span class="bull">—</span> 8 min read</span>
+                    </div>
+                </div>
+            </div>
+
+                <figure class="gh-article-image">
+        <img
+            srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/2026/05/shutterstock_2446827875.jpg 320w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/05/shutterstock_2446827875.jpg 600w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/2026/05/shutterstock_2446827875.jpg 960w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/05/shutterstock_2446827875.jpg 1200w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/2026/05/shutterstock_2446827875.jpg 2000w"
+            src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/05/shutterstock_2446827875.jpg"
+            alt="The Trump administration&#x27;s AI doomer moment"
+        >
+            <figcaption><span style="white-space: pre-wrap;">(Shutterstock)</span></figcaption>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/Atlassian-Rovo-mock--1100x100-.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="1100" height="100" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/Atlassian-Rovo-mock--1100x100-.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/04/Atlassian-Rovo-mock--1100x100-.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/Atlassian-Rovo-mock--1100x100-.png 1100w" sizes="(min-width: 720px) 720px"></figure><p><em>This is a column about AI. My fiancé works at Anthropic. See&nbsp;my full ethics disclosure </em><a href="https://platformer.news/ethics?ref=platformer.news" rel="noreferrer"><em>here</em></a><em>.</em></p><p>In February 2025, Vice President JD Vance took the stage at the Paris AI Action Summit to <a href="https://www.platformer.news/paris-ai-action-summit-vance-safety/"><u>share</u></a> the administration’s views on AI regulation. “The AI future is not going to be won by hand-wringing about safety,” he warned. Excessive regulations might “kill a transformative industry just as it’s taking off,” Vance said, and suggested that AI companies asking to be regulated might simply be trying to crush their future competitors.</p><p>Vance’s remarks reflected the idea, then common among Trump officials, that fears about AI capabilities are dramatically overstated. David Sacks, the White House’s AI and crypto czar, has referred to a “doomer industrial complex” <a href="https://finance.yahoo.com/news/fight-pentagon-anthropic-confronts-one-010433244.html?ref=platformer.news"><u>enacting</u></a> a “sophisticated regulatory capture strategy based on fearmongering.” Michael Kratsios, who leads the Office of Science and Technology Policy, has <a href="https://www.whitehouse.gov/releases/2026/02/remarks-by-director-michael-kratsios-at-the-india-ai-impact-summit/?ref=platformer.news"><u>complained</u></a> that international efforts to govern AI “maintain a general atmosphere of fear.”</p><p>The administration has backed up its rhetoric with a lobbying push intended to <a href="https://www.politico.com/news/2026/04/03/trumps-partisan-ai-pitch-stalls-on-the-hill-00858101?ref=platformer.news"><u>block</u></a> most state-level AI regulation. <em>Axios</em> reported last month that Trump officials are pressuring Republican lawmakers in Nebraska and Tennessee to <a href="https://www.axios.com/2026/04/09/trump-white-house-gop-states-ai-rules?ref=platformer.news"><u>weaken or abandon</u></a> bills in their respective states that would introduce safety and transparency requirements for AI companies.</p><p>Which is what makes the administration's latest move so striking. Trump is quietly reviving a Biden-era idea his own officials once mocked — pre-release government review of powerful new AI models.</p><p>Here are Tripp Mickle, Julian E. Barnes, Sheera Frenkel and Dustin Volz <a href="https://www.nytimes.com/2026/05/04/technology/trump-ai-models.html?unlocked_article_code=1.f1A.UZqk.qOsB9ddO2F0V&smid=nytcore-android-share&ref=platformer.news"><u>in the <em>New York Times</em></u></a>:</p><blockquote>The administration is discussing an executive order to create an A.I. working group that would bring together tech executives and government officials to examine potential oversight procedures, according to U.S. officials, who declined to be identified in order to discuss deliberations over sensitive policies. Among the potential plans is a formal government review process for new A.I. models. [...]<br><br>The working group is likely to consider a number of oversight approaches, officials said. But a review process could be similar to one being developed in Britain, which has assigned several government bodies to ensure that A.I. models meet certain safety standards, people in the tech industry and the administration said.</blockquote><p>The Biden administration had issued its own executive order that instructed AI companies to perform safety testing and share the results with the government before releasing new models. Trump revoked the order on his first day of his second term. Three days later, he issued a new order titled “Removing Barriers to American Leadership in Artificial Intelligence” that effectively ended safety testing requirements.</p><p>What changed? Mythos. Anthropic’s latest large language model, now available in preview to a small number of companies, has proven capable enough at developing cybersecurity exploits that the government believes it poses national security risks. The White House now <a href="https://www.wsj.com/tech/ai/white-house-opposes-anthropics-plan-to-expand-access-to-mythos-model-dc281ab5?st=j2hzMM&reflink=desktopwebshare_permalink&ref=platformer.news"><u>opposes</u></a> the company’s plan to expand access from roughly 50 companies to 120 for security reasons. (It also says it worries Anthropic doesn’t have enough compute available to serve the model to government customers; Anthropic denies this.)</p><p>All of this is complicated, of course, by the fact that the Trump administration has also sought to designate Anthropic as a “supply chain risk” because it refused to amend its contract with the Pentagon to enable “all lawful use” of its technologies. While continuing to defend that designation in court, the administration has simultaneously been working to <a href="https://www.axios.com/2026/04/29/trump-anthropic-pentagon-ai-executive-order-gov?ref=platformer.news"><u>expand</u></a> access to Mythos throughout the government.&nbsp;</p><p>Trump officials are now in the nonsensical position of trying to help agencies get around the legal roadblock they themselves set up to stop them from using Anthropic’s models. One set of officials is working to phase out the use of Anthropic models over the next six months; another is working to expand agencies’ access to its technology throughout the government.</p><p>In the meantime, the rest of the industry now faces a regulatory environment that looks awfully similar to the one Democrats had implemented under Biden: a world where they submit their models to the government for review before releasing them widely. On Tuesday, Google, Microsoft and xAI <a href="https://www.bloomberg.com/news/articles/2026-05-05/ai-firms-agree-to-give-us-early-access-to-evaluate-their-models?ref=platformer.news"><u>all said</u></a> that they would give the government early access to their models. The reviews will be handled by the US Commerce Department’s Center for AI Standards and Innovation.</p><p>Before Trump 2.0, by the way, that body was known as the US AI Safety Institute. Its name changed last June. “For far too long, censorship and regulations have been used under the guise of national security,” Commerce Sec. Howard Lutnick <a href="https://www.commerce.gov/news/press-releases/2025/06/statement-us-secretary-commerce-howard-lutnick-transforming-us-ai?ref=platformer.news"><u>said</u></a> at the time. “Innovators will no longer be limited by these standards.”</p><p>Less than a year later, the administration’s sneering dismissal of safety concerns has transformed into something that resembles a mild panic. The National Security Agency is now <a href="https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech?sref=CrGXSfHu&ref=platformer.news"><u>using</u></a> the model to look for vulnerabilities in Microsoft products — and, one assumes, contemplating the fact that foreign nations will soon be using similarly capable technology against US critical infrastructure, if they aren’t already.</p><p>​​Meanwhile, the public backlash against data centers and other symbols of AI power is putting the Trump administration increasingly <a href="https://www.nytimes.com/2026/05/03/us/politics/democrats-republicans-ai.html?ref=platformer.news"><u>at odds</u></a> with its own base. And the government’s half-baked AI sales pitch to the general public, which has amounted to little more than “get rich and beat China,” has failed to resonate much beyond the venture-capitalist offices where it was originally conceived.</p><p>One result of this is that Trump’s effort to place <a href="https://www.platformer.news/trump-ai-moratorium-republican-backlash/" rel="noreferrer">a moratorium</a> on most state-level regulations of AI now seems even less likely to pass than it was before. Another likely effect of accelerationists’ declining influence is that we’ll see a push for expanded export controls on powerful chips to China. (Sacks, who recently left his job as AI czar for a role on the Council of Advisors on ​Science and Technology, had been a vocal proponent of loosening those controls.) A less likely but welcome development would be that the US re-engages with the United Kingdom, Japan, Korea and other allies to develop a shared strategy toward governing more powerful models.</p><p>Still, less democratic possibilities exist as well. Critics of the White House’s plans to subject frontier models to safety evaluations <a href="https://bsky.app/profile/kateruane.bsky.social/post/3ml2q5dzta223?ref=platformer.news"><u>worry</u></a> that the Trump administration will use any licensing regime for censorship — denying releases to models whose output is deemed “woke,” for example, or simply to pressure companies into doing other favors for the administration. Imagine Brendan Carr’s Federal Communications Commission, but for AI. Some level of worrying there is warranted.</p><p>But after Vance’s speech in Paris, I <a href="https://www.platformer.news/paris-ai-action-summit-vance-safety/"><u>noted</u></a> here the dangerous negligence of an AI policy that amounted to little more than “let’s see what happens.” A year later, the administration has come to realize that all those AI safety concerns were no mere hand-wringing. The models are getting more capable — and more dangerous. What Sacks once dismissed as the doomer industrial complex now includes a growing number of federal agencies and Trump administration officials.</p><p>And while they should have taken these fears seriously all along, I will settle for the administration taking them seriously now.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><p><strong>A MESSAGE FROM OUR SPONSOR</strong></p><h3 id="become-an-ai-native-team-with-rovo">Become an AI-native team with Rovo</h3><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/CSD-25538-Rovo-Novice-to-Native-Sprout-Social-1200x628.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="1200" height="628" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/CSD-25538-Rovo-Novice-to-Native-Sprout-Social-1200x628.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/04/CSD-25538-Rovo-Novice-to-Native-Sprout-Social-1200x628.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/CSD-25538-Rovo-Novice-to-Native-Sprout-Social-1200x628.png 1200w" sizes="(min-width: 720px) 720px"></figure><p>Atlassian Rovo is AI that knows your projects, code, and people so it can bring context (and guardrails) to every workflow.<br><br>And because Rovo lives where your teams already work, it doesn’t just find the answers — it helps you do the work.<br><br>See how Sprout Social is becoming an AI-native team with Rovo.</p><p><a href="https://www.atlassian.com/software/rovo?utm_source=alltogether&utm_medium=paid-social&utm_campaign=P:rovo|O:ppm|V:alltogether|G:us|L:en|F:aware|T:prospecting|I:imc-rovo-iyryk|A:image|D:alld&utm_content=P:rovo|O:ppm|V:alltogether|G:us|L:en|F:aware|T:prospecting|I:imc-rovo-iyryk|A:image|D:alld|U:alltogethernewsletter_image-core-brand-default-iyryk-na-na-na-AllTogetherNewsletter" rel="noreferrer"><u>Learn more.</u></a></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="following">Following</h3><h3 id="the-openai-elon-musk-trial-enters-week-two"><br>The OpenAI-Elon Musk trial enters week two</h3><p><strong>This week in court:</strong>&nbsp;</p><p><strong>OpenAI</strong> co-founder <strong>Greg Brockman</strong> <a href="https://www.bloomberg.com/news/articles/2026-05-05/brockman-says-musk-s-lack-of-ai-knowledge-was-concern-at-openai?ref=platformer.news"><u>said</u></a> he didn’t want <strong>Elon Musk</strong> to be OpenAI’s CEO because “he did not – and I believe does not – know AI,” in federal court today. Brockman added that he and co-founder <strong>Ilya Sutskever</strong> “did not think that he was going to spend the time required to actually get good at it.”</p><p>Brockman told jurors that Musk called a predecessor to <strong>ChatGPT</strong> “stupid,” and said that “kids on the internet could do a better job of it,” which raised concerns within OpenAI about his ability to run the company.</p><p>During discussions about a potential for-profit conversion, Brockman says Musk demanded a majority stake, saying he needed <a href="https://x.com/michelletomkim/status/2051724808459899292?s=20&ref=platformer.news"><u>$80 billion</u></a> to start a city on Mars. When Brockman pushed back, Musk allegedly said he could start another AI company tomorrow with “one Tweet.”</p><p>Musk, who also owns AI company xAI, is suing OpenAI for unlawful enrichment. He claims his original charitable donation to OpenAI should not have contributed to the for-profit venture OpenAI eventually created. OpenAI claims the suit is a “jealous” bid to attack a competitor to Musk’s <strong>xAI</strong>.</p><p>During his time on the stand, Brockman got grilled about his personal journal, which included such musings on OpenAI’s for-profit conversion as: “Financially what will take me to $1B?”</p><p>Musk lawyer <strong>Steven Molo</strong> asked why — if Brockman’s goal was a mere billion dollars — he hasn’t donated the rest of his $30 billion stake to OpenAI’s nonprofit. “It takes 30 billion dollars to get you out of bed in the morning?” Molo asked. Brockman said Molo was twisting his words.</p><p>In one of the trial’s more <a href="https://x.com/Hadas_Gold/status/2051727069986312681?s=20&ref=platformer.news"><u>operatic</u></a> twists, Brockman testified that when then-OpenAI board member <strong>Shivon Zilis</strong> had twins, she didn’t initially tell him Musk was the father. The trial proceedings previously revealed that Zilis <a href="https://www.washingtonpost.com/technology/2026/04/23/musk-altman-lawsuit-trial-openai/?ref=platformer.news"><u>secretly</u></a> funneled information about OpenAI to Musk. Brockman said he found out Musk was the father of her children through public reporting — and that Zilis told him at the time that her relationship with Musk was “platonic” and that the children were born via IVF.</p><p>Elsewhere at trial, Brockman testified that OpenAI will <a href="https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says?sref=CrGXSfHu&ref=platformer.news"><u>spend</u></a> $50 billion on compute this year.</p><p><strong>Why we’re following:</strong> Musk is asking the court to remove Brockman and OpenAI CEO <strong>Sam Altman</strong> from their leadership positions, and is seeking as much as $134 billion in damages, which he says he will donate to the non-profit foundation that controls OpenAI.</p><p>While the stakes for OpenAI’s future are high, we are admittedly more attuned to the various petty dramas that are unfolding in court. (Just two days before the trial began, after Brockman rebuffed Musk’s text suggesting that the parties settle, Musk <a href="https://www.cnbc.com/2026/05/04/musk-altman-open-ai-settlement-trial-brockman.html?ref=platformer.news"><u>responded</u></a>: “By the end of this week, you and Sam will be the most hated men in America. If you insist, so it will be.”)</p><p>In any case, let Brockman’s experience be a reminder to all of us to never, ever, write your diary in a Google Doc.</p><p><strong>What people are saying: </strong>The “takeaway from Greg Brockman[‘s] testimony at Elon vs. OpenAI trial today is that no grown man should have a diary,” <a href="https://x.com/alexeheath/status/2051435261972853247?ref=platformer.news"><u>wrote</u></a> <em>Sources</em>’ <strong>Alex Heath</strong>.</p><p>Meanwhile, Musk <a href="https://www.bloomberg.com/news/articles/2026-05-04/musk-agrees-to-pay-1-5-million-to-settle-sec-twitter-stake-case?ref=platformer.news"><u>agreed to pay</u></a> $1.5 million to settle SEC allegations that he deceived <strong>Twitter</strong> shareholders when he failed to disclose his growing stake in the company, which the <strong>SEC</strong> alleged led to an artificially low stock price.</p><p>Fascinatingly, notorious Silicon Valley fraudster <strong>Elizabeth Holmes</strong> <a href="https://x.com/elizabethholmes/status/2051412968592609348?ref=platformer.news"><u>congratulated</u></a> Elon on his Twitter settlement, writing, “I had an SEC settlement too” (you don't say). She added, “Elon's $1.5M settlement is basically a parking ticket. No admission. No criminal conviction,” concluding, “Big win for @elonmusk.”</p><p><em>—Ella Markianos</em></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="those-good-posts">Those good posts</h3><p><em>For more good posts every day, </em><a href="https://www.instagram.com/crumbler/?ref=platformer.news"><em>follow Casey’s Instagram stories</em></a><em>.</em></p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.38.11---PM.png" class="kg-image" alt="" loading="lazy" width="1350" height="316" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/05/Screenshot-2026-05-05-at-3.38.11---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/05/Screenshot-2026-05-05-at-3.38.11---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.38.11---PM.png 1350w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@jordanreviewsittt/post/DX1hAa7kbq6?ref=platformer.news" rel="noreferrer"><u>Link</u></a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.38.45---PM.png" class="kg-image" alt="" loading="lazy" width="1360" height="1076" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/05/Screenshot-2026-05-05-at-3.38.45---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/05/Screenshot-2026-05-05-at-3.38.45---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.38.45---PM.png 1360w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@michaelbeatricedad/post/DX0nueJlczZ?ref=platformer.news" rel="noreferrer">Link</a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.37.32---PM.png" class="kg-image" alt="" loading="lazy" width="1276" height="1064" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/05/Screenshot-2026-05-05-at-3.37.32---PM.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/05/Screenshot-2026-05-05-at-3.37.32---PM.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/05/Screenshot-2026-05-05-at-3.37.32---PM.png 1276w" sizes="(min-width: 720px) 720px"></figure><p>(<a href="https://www.threads.com/@frederic.chen/post/DX3KcSKlQ1S?ref=platformer.news" rel="noreferrer"><u>Link</u></a>)</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="600" height="157" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/floating_linebreak_600px-1.png 600w"></figure><h3 id="talk-to-us">Talk to us</h3><p>Send us tips, comments, questions, and feedback on these changes: <a href="mailto:casey@platformer.news"><u>casey@platformer.news</u></a>. Read <a href="https://www.platformer.news/ethics/"><u>our ethics policy here</u></a>.</p><figure class="kg-card kg-image-card"><img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/Atlassian-Rovo-mock--1100x100-.png" class="kg-image" alt="upload in progress, 0" loading="lazy" width="1100" height="100" srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/Atlassian-Rovo-mock--1100x100-.png 600w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1000/2026/04/Atlassian-Rovo-mock--1100x100-.png 1000w, https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/04/Atlassian-Rovo-mock--1100x100-.png 1100w" sizes="(min-width: 720px) 720px"></figure>
+        </section>
+
+    </article>
+
+        <div class="gh-comments gh-canvas">
+            
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.4/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://www.platformer.news/" data-api="https://platformer.ghost.io/ghost/api/content/" data-admin="https://platformer.ghost.io/ghost/" data-key="784efcca5a3abd410ac226ae79" data-title="null" data-count="true" data-post-id="69fa43d25413f30001f932e6" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#2047FF" data-comments-enabled="paid" data-publication="Platformer" crossorigin="anonymous"></script>
+    
+        </div>
+
+</main>
+
+
+            <section class="gh-container is-grid gh-outer">
+                <div class="gh-container-inner gh-inner">
+                    <h2 class="gh-container-title">Read more</h2>
+                    <div class="gh-feed">
+                            <article class="gh-card post no-image">
+    <a class="gh-card-link" href="/ai-bubble-railroad-mythos-openai-trial/">
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">We may now know what kind of AI bubble this is</h3>
+                <p class="gh-card-excerpt is-body">Think railroads, not crypto. PLUS: The government can&#x27;t decide what to do about Mythos, and week one of the OpenAI-Elon Musk trial</p>
+            <footer class="gh-card-meta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20" id="Lock-1--Streamline-Ultimate"><defs></defs><title>lock-1</title><path d="M4.375 8.125h11.25s1.25 0 1.25 1.25v8.75s0 1.25 -1.25 1.25H4.375s-1.25 0 -1.25 -1.25v-8.75s0 -1.25 1.25 -1.25" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M5.625 8.125V5a4.375 4.375 0 0 1 8.75 0v3.125" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="m10 12.5 0 2.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>                <!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-30">Apr 30, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post">
+    <a class="gh-card-link" href="/platformer-schedule-changes-ai-automation/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/Platformer_CoverPhoto_Blue_Platinum.png"
+                    alt="How we&#x27;re shaking up Platformer for the AI era"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">How we&#x27;re shaking up Platformer for the AI era</h3>
+                <p class="gh-card-excerpt is-body">On newsletters in the age of AI automation. PLUS: Musk and OpenAI in court, and China blocks Meta&#x27;s Manus acquisition</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-27">Apr 27, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post">
+    <a class="gh-card-link" href="/meta-mci-monitoring-layoffs-knowledge-work/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/04/shutterstock_2452456231.jpg 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/04/shutterstock_2452456231.jpg 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/04/shutterstock_2452456231.jpg 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/04/shutterstock_2452456231.jpg 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/04/shutterstock_2452456231.jpg 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/04/shutterstock_2452456231.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/shutterstock_2452456231.jpg"
+                    alt="Silhouetted men holding smartphones stand in front of a Meta AI logo projected behind them along with the Meta AI wordmark"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The week that Meta employees became training data</h3>
+                <p class="gh-card-excerpt is-body">Invasive monitoring and a fresh round of layoffs have workers I spoke to on edge. Is this the future of knowledge work?
+</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-23">Apr 23, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post no-image">
+    <a class="gh-card-link" href="/tim-cook-retire-anthropic-trump/">
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">Following: Trump says Anthropic is “shaping up”</h3>
+                <p class="gh-card-excerpt is-body">PLUS: Everyone has feelings about Tim Cook</p>
+            <footer class="gh-card-meta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20" id="Lock-1--Streamline-Ultimate"><defs></defs><title>lock-1</title><path d="M4.375 8.125h11.25s1.25 0 1.25 1.25v8.75s0 1.25 -1.25 1.25H4.375s-1.25 0 -1.25 -1.25v-8.75s0 -1.25 1.25 -1.25" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M5.625 8.125V5a4.375 4.375 0 0 1 8.75 0v3.125" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="m10 12.5 0 2.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>                <!--
+             -->
+                    <span class="gh-card-author">By Casey Newton, Ella Markianos</span>
+                    <time class="gh-card-date" datetime="2026-04-21">Apr 21, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                    </div>
+                </div>
+            </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+    <li class="nav-advanced-user-settings"><a href="https://www.platformer.news/advanced-settings/">Advanced User Settings</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+                <section class="gh-footer-signup">
+                    <h2 class="gh-footer-signup-header is-title">
+                        Platformer
+                    </h2>
+                    <p class="gh-footer-signup-subhead is-body">
+                        News at the intersection of Silicon Valley and democracy. On Monday, Tuesday, and Thursday at 5PM Pacific.
+                    </p>
+                    <form class="gh-form" data-members-form>
+    <input class="gh-form-input" id="footer-email" type="email" placeholder="jamie@example.com" required data-members-email>
+    <button class="gh-button" type="submit" aria-label="Subscribe">
+        <span><span>Subscribe</span> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+    <g stroke-linecap="round" stroke-width="2" fill="currentColor" stroke="none" stroke-linejoin="round" class="nc-icon-wrapper">
+        <g class="nc-loop-dots-4-24-icon-o">
+            <circle cx="4" cy="12" r="3"></circle>
+            <circle cx="12" cy="12" r="3"></circle>
+            <circle cx="20" cy="12" r="3"></circle>
+        </g>
+        <style data-cap="butt">
+            .nc-loop-dots-4-24-icon-o{--animation-duration:0.8s}
+            .nc-loop-dots-4-24-icon-o *{opacity:.4;transform:scale(.75);animation:nc-loop-dots-4-anim var(--animation-duration) infinite}
+            .nc-loop-dots-4-24-icon-o :nth-child(1){transform-origin:4px 12px;animation-delay:-.3s;animation-delay:calc(var(--animation-duration)/-2.666)}
+            .nc-loop-dots-4-24-icon-o :nth-child(2){transform-origin:12px 12px;animation-delay:-.15s;animation-delay:calc(var(--animation-duration)/-5.333)}
+            .nc-loop-dots-4-24-icon-o :nth-child(3){transform-origin:20px 12px}
+            @keyframes nc-loop-dots-4-anim{0%,100%{opacity:.4;transform:scale(.75)}50%{opacity:1;transform:scale(1)}}
+        </style>
+    </g>
+</svg>        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+    <style>
+        .checkmark {
+            width: 40px;
+            height: 40px;
+            display: block;
+            stroke-width: 2.5;
+            stroke: currentColor;
+            stroke-miterlimit: 10;
+        }
+
+        .checkmark__check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: stroke .3s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+        }
+
+        @keyframes stroke {
+            100% { stroke-dashoffset: 0; }
+        }
+    </style>
+</svg>    </button>
+    <p data-members-error></p>
+</form>                </section>
+
+    </div>
+</footer>    
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://www.platformer.news/assets/built/source.js?v=4e2a313ed4"></script>
+
+
+<script>
+!function(w,d,id,ns,s){var c=w[ns]=w[ns]||{};if(c.ready||(c.q=[],c.ready=function(){c.q.push(arguments)}),!d.getElementById(id)){var e=d.createElement(s);e.id=id,e.defer=true,e.src="https://assets.context.ly/kit/6.latest/loader.js";var h=d.getElementsByTagName(s)[0];h.parentNode.insertBefore(e,h)}}(window,document,"ctx-loader","Contextly","script");
+</script>
+<script>
+Contextly.ready('widgets');
+</script>
+<script>
+  const OutpostPub = {
+    apiDomain: "https://platformernews.outpost.pub",
+    apiKey: "5256302e-24e7-4b08-a293-c42417ba8d25",
+    siteName: "Platformer",
+    memberId: "",
+    memberEmail: "",
+        post: {
+          id: "69fa43d25413f30001f932e6",
+          tags: ["AI Safety"],
+        }
+  }
+</script>
+<script defer src="https://assets.outpostpublishingcoop.com/assets/v2/js/outpost-pub.js"></script>
+
+</body>
+</html>

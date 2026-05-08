@@ -1,0 +1,29 @@
+{
+  "url": "https://news.ycombinator.com/item?id=40358101",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "fixture-broken",
+  "content_root_selector": "table.fatitem, table.comment-tree",
+  "keep": [
+    "td.default .comment",
+    ".title > a.storylink, .titleline > a",
+    ".subtext"
+  ],
+  "strip": [
+    "tr.athing:not(.comtr) + tr + tr + tr.spacer",
+    "td.default > div.reply",
+    "a[href='hide?id=']"
+  ],
+  "expected_quirks": [
+    "HN uses nested <table> layouts with no semantic tags \u2014 extractor's selector list won't match",
+    "Output is almost entirely top-bar navigation ('new | past | comments | ask...') and footer links",
+    "True content (story title, story URL, comment tree) requires HN-specific selectors",
+    "Strong candidate for domain-specific extraction rule OR adding 'table.fatitem' and '.comment-tree' to BASE_SELECTORS"
+  ],
+  "category_tags": [
+    "forum",
+    "ugc",
+    "news-aggregator"
+  ],
+  "notes": "FIXTURE BROKEN: the fetched source.html is essentially chrome only (<4KB). Either the HN item ID no longer resolves or HN served a degenerate response to the Node UA. Replace the manifest URL with a live HN item (e.g. any currently-live https://news.ycombinator.com/item?id=... with >100 comments) and re-fetch before this page can be scored. Extraction fixes still needed per notes below."
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.seriouseats.com/papas-guisadas-mexican-stewed-potatoes-recipe-11965414",
+  "replaced_url": "https://www.seriouseats.com/classic-carbonara-recipe",
+  "recovery_url": "https://www.seriouseats.com/papas-guisadas-mexican-stewed-potatoes-recipe-11965414",
+  "final_url": "https://www.seriouseats.com/papas-guisadas-mexican-stewed-potatoes-recipe-11965414",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 366049,
+  "error": null,
+  "fetched_at": "2026-05-07T02:25:08.193Z",
+  "elapsed_ms": 155,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Papas Guisadas (Mexican Stewed Potatoes)",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

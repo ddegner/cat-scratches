@@ -1,0 +1,34 @@
+{
+  "url": "https://www.vox.com/future-perfect/2024/11/06/ai-safety",
+  "recovery_url": "https://www.vox.com/the-logoff-newsletter-trump/487986/kash-patel-fbi-investigate-atlantic-journalist-press-freedom",
+  "final_url": "https://www.vox.com/the-logoff-newsletter-trump/487986/kash-patel-fbi-investigate-atlantic-journalist-press-freedom",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 230378,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:52.843Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "FBI investigates journalist over Kash Patel reporting: What to know | Vox",
+  "recovery_attempts": [
+    {
+      "url": "https://www.vox.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:73"
+    },
+    {
+      "url": "https://www.vox.com/2018/12/7/18113237/ethics-and-guidelines-at-vox-com",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.vox.com/the-logoff-newsletter-trump/487986/kash-patel-fbi-investigate-atlantic-journalist-press-freedom",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.zdnet.com/article/example-2024/",
+  "recovery_url": "https://www.zdnet.com/article/sony-vs-samsung-soundbars-comparison/",
+  "final_url": "https://www.zdnet.com/home-and-office/home-entertainment/sony-vs-samsung-soundbars-comparison/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 826299,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:07.482Z",
+  "elapsed_ms": 291,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Sony vs. Samsung: My buying advice after testing both home theater systems | ZDNET",
+  "recovery_attempts": [
+    {
+      "url": "https://www.zdnet.com/article/sony-vs-samsung-soundbars-comparison/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

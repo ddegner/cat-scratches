@@ -1,0 +1,865 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Update on rubbish content — Blog of Mataroa.blog</title>
+
+        
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+        <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEwSURBVHgB7ZVBTsMwEEX/2GolQEjkBrkBPQI5ATlKd12SLrtr78EinACOkBuQG7QSEiClzuBpWYFUTxxY1W8ZfWe+7fEfIJFInDuEgbwtyjsQlUTm3q/Oj1+58b9qOueW2apuMQC1ge28vJlcmQcwzU8KmdfdR7/M1vUOf2XgUPzSPHv5DCq46d77QmPCQMFh5+riAs0mF7JGoQwJtosyn1j7igjYUXG9enw5pQmegDW2QizkypAkaMAYvkUkZPxLGWvAd/2Au/9FHhKomvA/0RhoEQtLQI00wOifEAvReANwtkYkEs0hTdCAvGMGNhgI99ho5oKqCfdTVx0Hjrp8s/+UNWFUBrKq3nXTvtCchOxcOweEweNYolnS0ZAE1HdGMFpm36xs61D0JhKJxE++AMI7Z3YRUW4wAAAAAElFTkSuQmCC">
+
+        
+        
+
+        <style>
+            /* variables */
+:root {
+    
+    font-family: sans-serif;
+    line-height: 1.5;
+
+    color-scheme: light dark;
+
+    /* this colour is only used in dark mode */
+    --dark-mode-color: #212529;
+
+    --link-color: #1175e2;
+    --ascent-color: #006cdf;
+    --dark-grey-color: #757575;
+    --light-grey-color: #eff1f5;
+    --airy-grey-color: #fafafa;
+    --green-color: #26bd60;
+    --red-color: #ff0000;
+    --purple-color: #cd1ecd;
+}
+
+@media (max-width: 34rem) {
+    :root {
+        /* mobile base font size remains 16px whether zialucia on or off */
+        font-size: 16px;
+    }
+}
+
+/* dark mode
+ * create a new color (dark-mode-color)
+ * override existing colors */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color: #fff;
+        background: var(--dark-mode-color);
+
+        --link-color: #70b3ff;
+        --dark-grey-color: #b1b6bb;
+        --light-grey-color: #353535;
+        --airy-grey-color: #2b2b2b;
+        --purple-color: #dd47ec;
+    }
+}
+
+/* general */
+html {
+    line-height: 1.15;
+    /* prevent adjustments of font size after orientation changes in iOS */
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.btn {
+    display: inline-block;
+    cursor: pointer;
+    background: var(--link-color);
+    color: #fff;
+    border: 1px solid var(--ascent-color);
+    padding: 8px 24px;
+}
+
+a.btn:hover,
+a.btn:active {
+    background: var(--ascent-color);
+    text-decoration: none;
+}
+
+a.btn:disabled {
+    pointer-events: none;
+    background: var(--ascent-color);
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--light-grey-color);
+    margin: 16px 0;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+main {
+    max-width: 34rem;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media print {
+    main {
+        max-width: unset;
+    }
+}
+
+@media print {
+    article {
+        page-break-before: always;
+    }
+}
+
+aside {
+    max-width: 34rem;
+    border: 1px dashed #000;
+    padding: 2px 6px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+@media (max-width: 34rem) {
+    aside {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+.alert-error {
+    color: var(--red-color);
+}
+
+section {
+    max-width: 34rem;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav {
+    max-width: 34rem;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+@media print {
+    nav {
+        display: none;
+    }
+}
+
+small {
+    /* fix font size in all browsers */
+    font-size: 80%;
+}
+
+/* prevent sub and sup from affecting the line height in all browsers */
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sub {
+    bottom: -0.25em;
+}
+sup {
+    top: -0.5em;
+}
+
+ol,
+ul {
+    padding-left: 24px;
+}
+
+blockquote {
+    border-left: 4px solid var(--light-grey-color);
+    padding-left: 16px;
+    margin-left: 0;
+    color: var(--dark-grey-color);
+}
+
+figure {
+    border: 1px var(--light-grey-color) solid;
+    margin: auto;
+    color: var(--dark-grey-color);
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin-left: 0;
+}
+
+table {
+    /* remove text indentation from table contents in Chrome and Safari */
+    text-indent: 0;
+
+    /* fix table border color inheritance in Chrome and Safari */
+    border-color: inherit;
+
+    border-collapse: collapse;
+    border: 1px solid var(--light-grey-color);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+thead:nth-child(odd),
+tr:nth-child(even) {
+    background: var(--light-grey-color);
+}
+
+th,
+td {
+    padding: 4px;
+}
+
+pre {
+    background: var(--airy-grey-color);
+    overflow-x: auto;
+}
+
+code {
+    background: var(--airy-grey-color);
+    padding: 2px;
+}
+
+hr {
+    border-top: 1px solid var(--light-grey-color);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+details {
+    border: 1px solid var(--light-grey-color);
+    margin-bottom: 8px;
+}
+
+details > div {
+    padding: 16px 24px;
+}
+
+details > div > p {
+    margin: 0;
+}
+
+details > div > p + p {
+    margin-top: 16px;
+}
+
+summary {
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--light-grey-color);
+    padding: 8px;
+}
+
+footer {
+    max-width: 34rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: var(--dark-grey-color);
+}
+
+.footer-comment {
+    margin-bottom: 8px;
+}
+
+.help {
+    cursor: help;
+    text-decoration: dotted underline;
+}
+
+/* mods
+ * they override specific classes with specific styles */
+.type-approve {
+    color: var(--green-color) !important;
+}
+
+.type-delete {
+    color: var(--red-color) !important;
+}
+
+.type-danger {
+    background: var(--red-color) !important;
+    border-color: var(--red-color) !important;
+}
+
+/* form */
+label {
+    display: block;
+    margin-top: 16px;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    /* fix font styles in all browsers */
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    /* remove margin in Firefox and Safari */
+    margin: 0;
+}
+
+button,
+select {
+    /* remove inheritance of text transform in Edge and Firefox */
+    text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    /* fix inability to style clickable types in iOS and Safari */
+    -webkit-appearance: button;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+textarea {
+    display: block;
+    border: 2px solid var(--light-grey-color);
+    box-sizing: border-box;
+    width: 34rem;
+}
+@media (max-width: 34rem) {
+    input[type="text"],
+    input[type="url"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+        width: 100%;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    input[type="text"],
+    input[type="url"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+        color: #fff;
+        background: var(--light-grey-color);
+    }
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background: var(--link-color);
+    color: #fff;
+    border: 1px solid var(--ascent-color);
+    padding: 8px 24px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+    background: var(--ascent-color);
+}
+
+input[type="submit"]:disabled {
+    pointer-events: none;
+    background: var(--ascent-color);
+}
+
+form .helptext {
+    color: var(--dark-grey-color);
+}
+
+.form-error {
+    color: var(--red-color);
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+.form-inline input[type="submit"] {
+    border: none;
+    background: unset;
+    color: var(--link-color);
+    padding: 0;
+}
+
+.form-inline input[type="submit"]:hover {
+    text-decoration: underline;
+}
+
+/* landing */
+.lead {
+    max-width: 34rem;
+    border: 1px dashed #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+@media (prefers-color-scheme: dark) {
+    .lead {
+        border-color: #fff;
+    }
+}
+
+.cta {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.cta-link {
+    font-size: 20px;
+}
+
+/* comparisons */
+.comparisons {
+    max-width: 1000px;
+}
+
+.comparisons h1,
+.comparisons p,
+.comparisons ol,
+.comparisons ul {
+    max-width: 34rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comparisons-matrix {
+    overflow: auto;
+}
+
+.comparisons table {
+    min-width: 800px;
+    white-space: nowrap;
+}
+
+.comparisons thead > tr > th:not(:first-child),
+.comparisons tbody > tr > td:not(:first-child) {
+    text-align: center;
+}
+
+.comparisons th {
+    text-align: left;
+}
+
+.comparisons tr {
+    min-width: 300px;
+}
+
+/* blog index */
+.blog a:hover {
+    text-decoration: underline;
+}
+
+.blog a:visited {
+    color: var(--purple-color);
+}
+
+.blog a:active {
+    color: var(--red-color);
+}
+
+.drafts {
+    border: 1px solid var(--light-grey-color);
+    padding: 16px 16px 0;
+    margin-bottom: 24px;
+}
+
+.posts {
+    list-style: none;
+    padding-left: 0;
+}
+
+.posts li {
+    margin-bottom: 24px;
+}
+
+.posts small {
+    white-space: nowrap;
+    color: var(--dark-grey-color);
+}
+
+.posts time {
+    white-space: nowrap;
+}
+
+.byline {
+    color: var(--dark-grey-color);
+    margin: 16px 0 24px;
+}
+
+.byline img {
+  width: 100%;
+}
+
+.webring {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.webring-name {
+    color: #000;
+}
+@media (prefers-color-scheme: dark) {
+    .webring-name {
+        color: #fff;
+    }
+}
+
+/* post detail */
+.posts-item-brand {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--dark-grey-color);
+}
+
+.posts-item-brand:hover {
+    text-decoration: none;
+}
+
+.posts-item-brand::before {
+    content: "« ";
+}
+
+.posts-item-title {
+    margin-bottom: 8px;
+}
+
+.posts-item-byline {
+    color: var(--dark-grey-color);
+    margin-bottom: 8px;
+}
+
+.posts-item-notice {
+    border: 1px solid var(--dark-grey-color);
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+
+.posts-item-body p {
+    
+}
+
+.posts-item-body li {
+    
+}
+
+.posts-item-body img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* comments */
+.comments {
+    margin-top: 64px;
+}
+
+.comments-title {
+    font-size: 1.2rem;
+    margin-top: 32px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--light-grey-color);
+}
+
+.comments-body {
+    margin-bottom: 16px;
+}
+
+.comments-body p {
+    margin-top: 4px;
+}
+
+/* page detail */
+.pages-item-brand {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--dark-grey-color);
+}
+
+.pages-item-brand:hover {
+    text-decoration: none;
+}
+
+.pages-item-brand::before {
+    content: "« ";
+}
+
+.pages-item-title {
+    margin-bottom: 8px;
+}
+
+.pages-item-byline {
+    color: var(--dark-grey-color);
+    margin-bottom: 8px;
+}
+
+.pages-item-body p {
+    
+}
+
+.pages-item-body li {
+    
+}
+
+.pages-item-body img {
+    max-width: 100%;
+}
+
+.pages-generic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-top: 16px;
+}
+@media (max-width: 490px) {
+  .pages-generic-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 340px) {
+  .pages-generic-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* dashboard */
+.dashboard-cta {
+    font-size: 1.1rem;
+}
+
+.dashboard-list {
+    margin: 1rem 0;
+    line-height: 1.6;
+}
+
+/* images */
+.images-grid {
+    max-width: 100%;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 302px;
+}
+
+.images-grid-item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--light-grey-color);
+}
+
+.images-grid-item img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+/* image detail */
+.images-item {
+    max-width: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.images-item img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.images-item-byline {
+    color: var(--dark-grey-color);
+}
+
+/* analytics */
+.analytics-chart {
+    background: var(--light-grey-color);
+    line-height: 0;
+}
+
+svg .analytics-chart-bar {
+    fill: var(--link-color);
+}
+
+svg .analytics-chart-bar:hover {
+    fill: var(--ascent-color);
+}
+
+svg .analytics-chart-text {
+    font-family: monospace;
+    font-size: 10px;
+}
+
+/* billing stripe */
+#subscription-form input[type="submit"] {
+    margin-top: 8px;
+}
+
+#card-element {
+    border: 1px solid var(--light-grey-color);
+    padding: 4px 8px;
+}
+
+#card-element-errors {
+    margin-top: 8px;
+    color: var(--red-color);
+}
+
+            
+        </style>
+    </head>
+
+    <body>
+        
+
+        
+        
+        
+
+        
+<main>
+    
+    <a href="/" class="posts-item-brand">Blog of Mataroa.blog</a>
+    
+
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+        <h1 class="posts-item-title" itemprop="name headline">Update on rubbish content</h1>
+
+        <div class="posts-item-byline">
+            
+            Published on <time datetime="2024-01-31" itemprop="datePublished">January 31, 2024</time>
+            
+            
+
+            
+        </div>
+
+        <div class="posts-item-body" itemprop="articleBody">
+            <p>After a long and arduous journey that lasted more than two years, 5399 Mataroa blogs have been manually and carefully screened. 54% of them were rubbish and have been deleted. Spam, SEO tricks, scam porn links, everything that contributes to the web’s terrible state was there. But we no longer serve them. At least <em>we</em> don’t contribute to that. </p>
+<p>2868 terrible blogs have been deleted. No empty blogs have been deleted, nor any blogs which have one post titled "Test". These are by honest humans and we want to keep them.</p>
+<p>But post with titles such as "How to get the best mortgage in Minnesota" or "Best plumber in London" or with content such as:</p>
+<blockquote>
+<p>Are you looking for a bathroom screen that perfectly matches your style and needs? At XYZ Shower Screens, we are committed to creating premium Semi Framed Shower Screens for every type of bathroom redesign.</p>
+</blockquote>
+<p>or:</p>
+<blockquote>
+<p>It is a common fact that the color is the most important aspect of your room decor. A good combination of color and furniture will create a perfect atmosphere. If you are not sure what color to choose, then the best option is to choose a neutral color. Neutral color will make you feel comfortable and relaxed. You can also get advice from expert interior designers in Mumbai.</p>
+</blockquote>
+<p>...have been deleted.</p>
+<p>However: feel free to advertise your projects, stores, selves, anything. The requirement is that it’s not automated or made for robots. Feel free to also write low quality content or sign up to test something or write controversial content whether it’s pornographic or claims that the sky is always pink!</p>
+<p>There is also a new signup form which somewhat limits bots — or at least makes it easier to screen them.</p>
+<p>That’s all for now. Onwards to the next iteration of this problem!</p>
+        </div>
+    </article>
+</main>
+
+
+
+
+
+<section class="comments">
+    
+
+    <div class="comments-title">Thoughts? Leave a comment</div>
+    <div class="comments-form">
+        <form method="post" action="/blog/update-on-rubbish-content/comments/create/">
+            
+
+            <p>
+                <label for="id_name">Name (optional):</label>
+                
+                <input type="text" name="name" id="id_name" maxlength="150" value="">
+            </p>
+
+            <p>
+                <label for="id_email">
+                    Email (optional and
+                    <span title="Only the blog author can see it." style="text-decoration: underline dashed;">private</span>):
+                </label>
+                
+                <input type="email" name="email" id="id_email" value="">
+            </p>
+
+            <p>
+                <label for="id_body">Comment:</label>
+                
+                <textarea name="body" id="id_body" cols="60" rows="5"></textarea>
+            </p>
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="bWZzZ0rUotyvmoBX5z2ESXSZmxC6sRwNkaVDu8B7Oqbu2Nc2zn1BOqA5aqhmCcKo">
+            <input type="submit" value="Publish comment">
+        </form>
+    </div>
+    
+
+    
+
+    
+</section>
+
+
+<footer>
+    
+    <p>Subscribe via <a href="/rss/">RSS</a> / <a href="/newsletter/">via Email</a>.</p>
+<p>Powered by <a href="https://mataroa.blog/">mataroa.blog</a>.</p>
+    
+</footer>
+
+
+
+
+        
+
+
+    </body>
+</html>

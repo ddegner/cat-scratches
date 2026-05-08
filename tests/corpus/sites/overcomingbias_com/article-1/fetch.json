@@ -1,0 +1,22 @@
+{
+  "url": "https://www.overcomingbias.com/p/example-post-2024",
+  "recovery_url": "https://www.overcomingbias.com/p/on-politics-and-governance",
+  "final_url": "https://www.overcomingbias.com/p/on-politics-and-governance",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 159806,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:42.710Z",
+  "elapsed_ms": 64,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "On Politics And Governance - by Robin Hanson",
+  "recovery_attempts": [
+    {
+      "url": "https://www.overcomingbias.com/p/on-politics-and-governance",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

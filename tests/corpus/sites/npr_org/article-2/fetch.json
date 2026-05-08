@@ -1,0 +1,28 @@
+{
+  "url": "https://www.npr.org/sections/health-shots/2024/05/01/ai-medicine",
+  "recovery_url": "https://www.npr.org/2026/05/06/g-s1-118141/ragtime-tiny-desk-concert",
+  "final_url": "https://www.npr.org/2026/05/06/g-s1-118141/ragtime-tiny-desk-concert",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 70378,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:07.528Z",
+  "elapsed_ms": 155,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Ragtime: Tiny Desk Concert : NPR",
+  "recovery_attempts": [
+    {
+      "url": "https://www.npr.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:123"
+    },
+    {
+      "url": "https://www.npr.org/2026/05/06/g-s1-118141/ragtime-tiny-desk-concert",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

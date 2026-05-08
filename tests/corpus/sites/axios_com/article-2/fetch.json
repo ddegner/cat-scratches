@@ -1,0 +1,34 @@
+{
+  "url": "https://www.axios.com/2024/05/15/openai-gpt-4o",
+  "recovery_url": "https://www.axios.com/2026/05/06/trump-ice-immigration-detention-court-ruling-florida",
+  "final_url": "https://www.axios.com/2026/05/06/trump-ice-immigration-detention-court-ruling-florida",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 268904,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:36.799Z",
+  "elapsed_ms": 6374,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Trump's ICE detention policy loses in federal appeals court",
+  "recovery_attempts": [
+    {
+      "url": "https://www.axios.com",
+      "method": "chrome-homepage",
+      "status": 0,
+      "reason": "homepage-links:28"
+    },
+    {
+      "url": "https://www.axios.com/2026/05/06/trump-ice-immigration-detention-court-ruling-florida",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://www.axios.com/2026/05/06/trump-ice-immigration-detention-court-ruling-florida",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

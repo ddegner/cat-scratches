@@ -1,0 +1,31 @@
+{
+  "url": "https://arstechnica.com/ai/2024/05/before-launching-gpt-4o-broke-records-on-chatbot-leaderboard-under-a-secret-name/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "ok",
+  "content_root_selector": "article.article-guts, .post-content",
+  "keep": [
+    "h1-h3",
+    ".post-content p",
+    ".post-content blockquote",
+    "figure figcaption"
+  ],
+  "strip": [
+    ".site-header",
+    ".story-sidebar",
+    ".related-stories",
+    ".newsletter-signup",
+    ".comment-section",
+    ".ad-bar"
+  ],
+  "expected_quirks": [
+    "Ars uses a newer CMS (Condé Nast's?) with class prefix '.post-content'",
+    "Next-page pagination links at bottom — strip",
+    "Inline ads appear between paragraphs — must be stripped"
+  ],
+  "category_tags": [
+    "tech-news",
+    "feature"
+  ],
+  "notes": "Verify '.post-content' is in BASE_SELECTORS; add '.related-stories', '.ad-bar' to filters if not present."
+}

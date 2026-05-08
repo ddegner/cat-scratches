@@ -1,0 +1,11 @@
+{
+  "url": "https://www.paulgraham.com/do.html",
+  "final_url": "https://www.paulgraham.com/do.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 15317,
+  "error": null,
+  "fetched_at": "2026-04-15T18:52:27.203Z",
+  "elapsed_ms": 68,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

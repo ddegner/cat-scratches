@@ -1,0 +1,11 @@
+{
+  "url": "https://stripe.com/blog/example-two-2024",
+  "final_url": "https://stripe.com/blog/example-two-2024",
+  "status": 404,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 328345,
+  "error": null,
+  "fetched_at": "2026-05-06T19:42:26.059Z",
+  "elapsed_ms": 857,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

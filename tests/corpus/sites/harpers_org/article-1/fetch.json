@@ -1,0 +1,18 @@
+{
+  "url": "https://harpers.org/2026/05/epiphany-narrative-kristin-dombek-interview/",
+  "replaced_url": "https://harpers.org/archive/2024/05/example-essay/",
+  "recovery_url": "https://harpers.org/2026/05/epiphany-narrative-kristin-dombek-interview/",
+  "final_url": "https://harpers.org/2026/05/epiphany-narrative-kristin-dombek-interview/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 114694,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:48.259Z",
+  "elapsed_ms": 60,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Epiphany Narrative, by Kristin Dombek, Noah Rawlings",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

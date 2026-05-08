@@ -1,0 +1,11 @@
+{
+  "url": "https://superuser.com/questions/654321/example-two",
+  "final_url": "https://superuser.com/questions/654321/example-two",
+  "status": 403,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 5765,
+  "error": null,
+  "fetched_at": "2026-05-06T19:41:17.276Z",
+  "elapsed_ms": 91,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

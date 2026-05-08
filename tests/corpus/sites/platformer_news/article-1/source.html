@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Falling in and out of love with Moltbot</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preload" as="style" href="https://www.platformer.news/assets/built/screen.css?v=4e2a313ed4">
+    <link rel="preload" as="script" href="https://www.platformer.news/assets/built/source.js?v=4e2a313ed4">
+
+    <link rel="stylesheet" type="text/css" href="https://www.platformer.news/assets/built/screen.css?v=4e2a313ed4">
+
+    <style>
+        :root {
+            --background-color: #ffffff
+        }
+    </style>
+
+    <script>
+        /* The script for calculating the color contrast has been taken from
+        https://gomakethings.com/dynamically-changing-the-text-color-based-on-background-color-contrast-with-vanilla-js/ */
+        var accentColor = getComputedStyle(document.documentElement).getPropertyValue('--background-color');
+        accentColor = accentColor.trim().slice(1);
+
+        if (accentColor.length === 3) {
+            accentColor = accentColor[0] + accentColor[0] + accentColor[1] + accentColor[1] + accentColor[2] + accentColor[2];
+        }
+
+        var r = parseInt(accentColor.substr(0, 2), 16);
+        var g = parseInt(accentColor.substr(2, 2), 16);
+        var b = parseInt(accentColor.substr(4, 2), 16);
+        var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+        var textColor = (yiq >= 128) ? 'dark' : 'light';
+
+        document.documentElement.className = `has-${textColor}-text`;
+    </script>
+
+    <meta name="description" content="Maybe someday you’ll have a genie in your laptop working for you 24/7. Today is not that day">
+    <link rel="icon" href="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w256h256/2024/05/Logomark_Blue_800px.png" type="image/png">
+    <link rel="canonical" href="https://www.platformer.news/moltbot-clawdbot-review-ai-agent/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Platformer">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Falling in and out of love with Moltbot">
+    <meta property="og:description" content="Maybe someday you’ll have a genie in your laptop working for you 24/7. Today is not that day">
+    <meta property="og:url" content="https://www.platformer.news/moltbot-clawdbot-review-ai-agent/">
+    <meta property="og:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png">
+    <meta property="article:published_time" content="2026-01-30T01:04:09.000Z">
+    <meta property="article:modified_time" content="2026-01-30T01:04:09.000Z">
+    <meta property="article:tag" content="AI">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Falling in and out of love with Moltbot">
+    <meta name="twitter:description" content="Maybe someday you’ll have a genie in your laptop working for you 24/7. Today is not that day">
+    <meta name="twitter:url" content="https://www.platformer.news/moltbot-clawdbot-review-ai-agent/">
+    <meta name="twitter:image" content="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Casey Newton">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="AI">
+    <meta name="twitter:site" content="@platformer">
+    <meta name="twitter:creator" content="@CaseyNewton">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="584">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Platformer",
+        "url": "https://www.platformer.news/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png"
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Casey Newton",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp",
+            "width": 128,
+            "height": 128
+        },
+        "url": "https://www.platformer.news/author/casey-newton/",
+        "sameAs": [
+            "https://x.com/CaseyNewton"
+        ]
+    },
+    "headline": "Falling in and out of love with Moltbot",
+    "url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/",
+    "datePublished": "2026-01-30T01:04:09.000Z",
+    "dateModified": "2026-01-30T01:04:09.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png",
+        "width": 1200,
+        "height": 584
+    },
+    "keywords": "AI",
+    "description": "Maybe someday you’ll have a genie in your laptop working for you 24/7. Today is not that day",
+    "mainEntityOfPage": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.36">
+    <link rel="alternate" type="application/rss+xml" title="Platformer" href="https://www.platformer.news/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.68/umd/portal.min.js" data-i18n="true" data-ghost="https://www.platformer.news/" data-key="784efcca5a3abd410ac226ae79" data-api="https://platformer.ghost.io/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style><script async src="https://js.stripe.com/v3/"></script>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="784efcca5a3abd410ac226ae79" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://platformer.ghost.io/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://www.platformer.news/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=4e2a313ed4"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=4e2a313ed4">
+    <script defer src="/public/comment-counts.min.js?v=4e2a313ed4" data-ghost-comments-counts-api="https://www.platformer.news/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=4e2a313ed4"></script>
+    <script defer src="/public/ghost-stats.min.js?v=4e2a313ed4" data-stringify-payload="false" data-datasource="analytics_events" data-storage="localStorage" data-host="https://www.platformer.news/.ghost/analytics/api/v1/page_hit"  tb_site_uuid="a04c7225-d919-4d78-9b7c-a3fdd071349b" tb_post_uuid="f47be82d-3afd-497d-8393-a3763bdfc019" tb_post_type="post" tb_member_uuid="undefined" tb_member_status="undefined"></script><style>:root {--ghost-accent-color: #2047FF;}</style>
+
+</head>
+<body class="post-template tag-ai has-sans-title has-sans-body">
+
+<div class="gh-viewport">
+    
+    <header id="gh-navigation" class="gh-navigation is-middle-logo gh-outer">
+    <div class="gh-navigation-inner gh-inner">
+
+        <div class="gh-navigation-brand">
+            <a class="gh-navigation-logo is-title" href="https://www.platformer.news">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </a>
+            <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>            <button class="gh-burger gh-icon-button" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"></path></svg>            </button>
+        </div>
+
+        <nav class="gh-navigation-menu">
+            <ul class="nav">
+    <li class="nav-home"><a href="https://www.platformer.news/">Home</a></li>
+    <li class="nav-about"><a href="https://www.platformer.news/about/">About</a></li>
+    <li class="nav-ethics"><a href="https://www.platformer.news/ethics/">Ethics</a></li>
+</ul>
+
+        </nav>
+
+        <div class="gh-navigation-actions">
+                <button class="gh-search gh-icon-button" aria-label="Search this site" data-ghost-search>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" width="20" height="20"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg></button>                <div class="gh-navigation-members">
+                            <a href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-button" href="#/portal/signup" data-portal="signup">Subscribe</a>
+                </div>
+        </div>
+
+    </div>
+</header>
+
+    
+
+<main class="gh-main">
+
+    <article class="gh-article post tag-ai">
+
+        <header class="gh-article-header gh-canvas">
+
+                <a class="gh-article-tag" href="https://www.platformer.news/tag/ai/">AI</a>
+            <h1 class="gh-article-title is-title">Falling in and out of love with Moltbot</h1>
+                <p class="gh-article-excerpt is-body">Maybe someday you’ll have a genie in your laptop working for you 24/7. Today is not that day</p>
+
+            <div class="gh-article-meta">
+                <div class="gh-article-author-image">
+                            <a href="/author/casey-newton/">
+                                <img class="author-profile-image" src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/2024/01/8a6ee2c2-52ed-4f9b-a701-e3467774d7f0_917x1297.webp" alt="Casey Newton" />
+                            </a>
+                </div>
+                <div class="gh-article-meta-wrapper">
+                    <h4 class="gh-article-author-name"><a href="/author/casey-newton/">Casey Newton</a></h4>
+                    <div class="gh-article-meta-content">
+                        <time class="gh-article-meta-date" datetime="2026-01-29">Jan 29, 2026</time>
+                            <span class="gh-article-meta-length"><span class="bull">—</span> 15 min read</span>
+                    </div>
+                </div>
+            </div>
+
+                <figure class="gh-article-image">
+        <img
+            srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png 320w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png 600w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png 960w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png 1200w,
+                    https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png 2000w"
+            src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/2026/01/Screenshot-2026-01-29-at-4.39.31---PM.png"
+            alt="Falling in and out of love with Moltbot"
+        >
+            <figcaption><span style="white-space: pre-wrap;">(Molt.bot)</span></figcaption>
+    </figure>
+
+        </header>
+
+        <section class="gh-content gh-canvas is-body">
+            <p><em>This is a column about AI. My boyfriend works at Anthropic. See&nbsp;</em><a href="https://www.platformer.news/ethics/"><em><u>my full ethics disclosure here</u></em></a><em>.</em></p><p><strong>I.</strong></p><p>One of my chief biases as a tech journalist is that I like trying new software. Show me a promising new tool and I will, at the drop of a hat, give my entire inbox and calendar over to it. Over time I have <a href="https://www.platformer.news/productivity-tools-ai-2025/"><u>begun to rein in this tendency</u></a>, recognizing that I typically lose more time to so-called productivity tools than I gain from them. And yet still, whenever I read about some groundbreaking widget, I find myself reaching to download it.&nbsp;</p><p>And so last week, when I read a piece titled “<a href="https://www.macstories.net/stories/clawdbot-showed-me-what-the-future-of-personal-ai-assistants-looks-like/?ref=platformer.news"><u>Clawdbot Showed Me What the Future of Personal AI Assistants Looks Like</u></a>,” I knew I was in trouble. The article, written by the great Federico Viticci at <em>MacStories</em>, described an open-source, locally running artificial intelligence that connected to all the most important services in his life. He spoke to it via voice notes and Telegram, and used it to replace (for free) automations that he previously paid for on Zapier. If he could imagine it, Viticci wrote, there was a good chance the tool — then called Clawdbot — could build it. It made him wonder what future apps would even have once AI became sufficiently powerful.&nbsp;</p><p>Viticci wrote:</p><blockquote>Clawdbot is a boutique, nerdy project right now, but consider it as an underlying trend going forward: when the major consumer LLMs become smart and intuitive enough to adapt to you on-demand for any given functionality – when you’ll eventually be able to ask Claude or ChatGPT to do or create anything on your computer with no Terminal UI – what will become of “apps” created by professional developers? I especially worry about standalone utility apps: if Clawdbot can create a virtual remote for my LG television (something I did) or give me a personalized report with voice every morning (another cron job I set up) that work exactly the way I want, why should I even bother going to the App Store to look for pre-built solutions made by someone else? What happens to Shortcuts when any “automation” I may want to carefully create is actually just a text message to a digital assistant away?&nbsp;</blockquote><p>These are excellent questions. The more I have been <a href="https://www.platformer.news/claude-code-for-writers-tips-ideas/"><u>using Claude Code</u></a>, the more I have found myself wondering the same things. For the moment, Claude Code has several limitations that prevent it from taking over the computer in the way that Viticci describes. And yet, reading about Clawdbot, I became curious whether that future might be closer than I imagined.</p><p>And so last Saturday, <a href="https://www.molt.bot/?ref=platformer.news"><u>I visited the website for Clawdbot</u></a>.</p><p>In many ways, Clawdbot resembled Claude Code. The resemblance was close enough that Anthropic asked its solo developer, Peter Steinberger, to change the name. Thus Clawdbot is now Moltbot; I’ll refer to it as such throughout the rest of this article.</p><p>Like Claude Code, Moltbot is installed via a terminal command and can then interact with the large language model of your choice. (You have to bring your own API key; I plugged in keys from Anthropic, OpenAI and Google to enable various different features.) Also like Claude, Moltbot can generate text and write code.&nbsp;&nbsp;</p><p>But Moltbot differs from a normal LLM in a handful of ways I found appealing.&nbsp;</p><p>One, it runs locally on your machine. (In my case, a 2024 M4 MacBook Pro.) Messages get sent to the AI providers, of course. But the core infrastructure, which handles Moltbot’s memory, scripts and other tools, stays on your computer.</p><p>Two, you can add it to the messaging app of your choice: Telegram, Discord, Slack and Signal among them. This is nice for several reasons, one of them being that it makes it easy to message Moltbot from your phone.</p><p>And three, Moltbot promised to have a persistent memory. Claude Code forgets much of what happens in any given session, and must constantly be reminded. Moltbot creates a series of daily notes about your interactions that it can load into the LLM’s context window, allegedly giving it improved recall compared to a standard command-line tool.</p><p>Over on YouTube, recommendations led me to several hypebeasts who promised me that Moltbot would do much more. Creators on X and YouTube said they had bought Mac minis to allow the tool then known as Clawdbot to run continuously. “<a href="https://www.youtube.com/watch?v=Qkqe-uRhQJE&pp=ygUIY2xhd2Rib3Q%3D&ref=platformer.news"><u>Clawdbot is the most powerful AI tool I’ve ever used in my life</u></a>,” read the title of a representative video from Alex Finn, who assured me that Moltbot would serve as my “24/7 AI employee.” Another creator promised to tell me “<a href="https://www.youtube.com/watch?v=YRhGtHfs1Lw&pp=ygUIY2xhd2Rib3Q%3D&ref=platformer.news"><u>How I use Clawdbot to Run My Business and Life 24/7</u></a>.”&nbsp;</p><p>By the end of the weekend, Best Buy had sold out of Mac minis in San Francisco.&nbsp;</p><p>I was convinced. I installed Moltbot with that single command, and onboarding proved refreshingly simple. (It was, in hindsight, the high-water mark of my time with the tool.)</p><p>Within 10 minutes or so, I had wired up Moltbot to many of the core systems I use in my life: an email account, my calendar, Notion, Todoist, and Capacities, among others. Once that was working, I set about working on the project that would come to define the week I spent with Moltbot: a highly personalized morning briefing that would bring together all the strands of my life into a single place.&nbsp;</p><p><strong>II.</strong>&nbsp;&nbsp;&nbsp;</p><p>I realize this project sounds kind of boring.&nbsp;</p><p>But one, it offered me a chance to see what Moltbot could do with all of those services I had stitched together. Two, if it worked, I would create something unique to me that I wouldn’t have been able to build myself.</p><p>And finally — which I realized only at the end of the process — the specific ways in which it broke persuaded me to uninstall Moltbot from my computer.</p>
+<aside class="gh-post-upgrade-cta">
+    <div class="gh-post-upgrade-cta-content" style="background-color: #2047FF">
+                <h2>This post is for paying subscribers only</h2>
+            <a class="gh-btn" data-portal="signup" href="#/portal/signup" style="color:#2047FF">Subscribe now</a>
+            <p><small>Already have an account? <a data-portal="signin" href="#/portal/signin">Sign in</a></small></p>
+    </div>
+</aside>
+
+        </section>
+
+    </article>
+
+
+</main>
+
+
+            <section class="gh-container is-grid gh-outer">
+                <div class="gh-container-inner gh-inner">
+                    <h2 class="gh-container-title">Read more</h2>
+                    <div class="gh-feed">
+                            <article class="gh-card post">
+    <a class="gh-card-link" href="/trump-administration-doomers-ai/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/05/shutterstock_2446827875.jpg 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/05/shutterstock_2446827875.jpg 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/05/shutterstock_2446827875.jpg 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/05/shutterstock_2446827875.jpg 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/05/shutterstock_2446827875.jpg 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/05/shutterstock_2446827875.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/05/shutterstock_2446827875.jpg"
+                    alt="The Trump administration&#x27;s AI doomer moment"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The Trump administration&#x27;s AI doomer moment</h3>
+                <p class="gh-card-excerpt is-body">A year ago, officials all but sneered at the idea of AI safety. A new frontier model has them reconsidering</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-05-05">May 5, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post no-image">
+    <a class="gh-card-link" href="/ai-bubble-railroad-mythos-openai-trial/">
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">We may now know what kind of AI bubble this is</h3>
+                <p class="gh-card-excerpt is-body">Think railroads, not crypto. PLUS: The government can&#x27;t decide what to do about Mythos, and week one of the OpenAI-Elon Musk trial</p>
+            <footer class="gh-card-meta">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20" id="Lock-1--Streamline-Ultimate"><defs></defs><title>lock-1</title><path d="M4.375 8.125h11.25s1.25 0 1.25 1.25v8.75s0 1.25 -1.25 1.25H4.375s-1.25 0 -1.25 -1.25v-8.75s0 -1.25 1.25 -1.25" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M5.625 8.125V5a4.375 4.375 0 0 1 8.75 0v3.125" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="m10 12.5 0 2.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>                <!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-30">Apr 30, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post">
+    <a class="gh-card-link" href="/platformer-schedule-changes-ai-automation/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/04/Platformer_CoverPhoto_Blue_Platinum.png 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/Platformer_CoverPhoto_Blue_Platinum.png"
+                    alt="How we&#x27;re shaking up Platformer for the AI era"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">How we&#x27;re shaking up Platformer for the AI era</h3>
+                <p class="gh-card-excerpt is-body">On newsletters in the age of AI automation. PLUS: Musk and OpenAI in court, and China blocks Meta&#x27;s Manus acquisition</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-27">Apr 27, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                            <article class="gh-card post">
+    <a class="gh-card-link" href="/meta-mci-monitoring-layoffs-knowledge-work/">
+            <figure class="gh-card-image">
+                <img
+                    srcset="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w160/format/webp/2026/04/shutterstock_2452456231.jpg 160w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w320/format/webp/2026/04/shutterstock_2452456231.jpg 320w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/format/webp/2026/04/shutterstock_2452456231.jpg 600w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w960/format/webp/2026/04/shutterstock_2452456231.jpg 960w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w1200/format/webp/2026/04/shutterstock_2452456231.jpg 1200w,
+                            https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w2000/format/webp/2026/04/shutterstock_2452456231.jpg 2000w"
+                    sizes="320px"
+                    src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/size/w600/2026/04/shutterstock_2452456231.jpg"
+                    alt="Silhouetted men holding smartphones stand in front of a Meta AI logo projected behind them along with the Meta AI wordmark"
+                    loading="lazy"
+                >
+            </figure>
+        <div class="gh-card-wrapper">
+            <h3 class="gh-card-title is-title">The week that Meta employees became training data</h3>
+                <p class="gh-card-excerpt is-body">Invasive monitoring and a fresh round of layoffs have workers I spoke to on edge. Is this the future of knowledge work?
+</p>
+            <footer class="gh-card-meta">
+<!--
+             -->
+                    <span class="gh-card-author">By Casey Newton</span>
+                    <time class="gh-card-date" datetime="2026-04-23">Apr 23, 2026</time>
+                <!--
+         --></footer>
+        </div>
+    </a>
+</article>                    </div>
+                </div>
+            </section>
+
+    
+    <footer class="gh-footer gh-outer">
+    <div class="gh-footer-inner gh-inner">
+
+        <div class="gh-footer-bar">
+            <span class="gh-footer-logo is-title">
+                    <img src="https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2024/05/Wordmark_Transparent_Slate_NoPadding.png" alt="Platformer">
+            </span>
+            <nav class="gh-footer-menu">
+                <ul class="nav">
+    <li class="nav-sign-up"><a href="#/portal/">Sign up</a></li>
+    <li class="nav-advanced-user-settings"><a href="https://www.platformer.news/advanced-settings/">Advanced User Settings</a></li>
+</ul>
+
+            </nav>
+            <div class="gh-footer-copyright">
+                Powered by <a href="https://ghost.org/" target="_blank" rel="noopener">Ghost</a>
+            </div>
+        </div>
+
+                <section class="gh-footer-signup">
+                    <h2 class="gh-footer-signup-header is-title">
+                        Platformer
+                    </h2>
+                    <p class="gh-footer-signup-subhead is-body">
+                        News at the intersection of Silicon Valley and democracy. On Monday, Tuesday, and Thursday at 5PM Pacific.
+                    </p>
+                    <form class="gh-form" data-members-form>
+    <input class="gh-form-input" id="footer-email" type="email" placeholder="jamie@example.com" required data-members-email>
+    <button class="gh-button" type="submit" aria-label="Subscribe">
+        <span><span>Subscribe</span> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path></svg></span>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+    <g stroke-linecap="round" stroke-width="2" fill="currentColor" stroke="none" stroke-linejoin="round" class="nc-icon-wrapper">
+        <g class="nc-loop-dots-4-24-icon-o">
+            <circle cx="4" cy="12" r="3"></circle>
+            <circle cx="12" cy="12" r="3"></circle>
+            <circle cx="20" cy="12" r="3"></circle>
+        </g>
+        <style data-cap="butt">
+            .nc-loop-dots-4-24-icon-o{--animation-duration:0.8s}
+            .nc-loop-dots-4-24-icon-o *{opacity:.4;transform:scale(.75);animation:nc-loop-dots-4-anim var(--animation-duration) infinite}
+            .nc-loop-dots-4-24-icon-o :nth-child(1){transform-origin:4px 12px;animation-delay:-.3s;animation-delay:calc(var(--animation-duration)/-2.666)}
+            .nc-loop-dots-4-24-icon-o :nth-child(2){transform-origin:12px 12px;animation-delay:-.15s;animation-delay:calc(var(--animation-duration)/-5.333)}
+            .nc-loop-dots-4-24-icon-o :nth-child(3){transform-origin:20px 12px}
+            @keyframes nc-loop-dots-4-anim{0%,100%{opacity:.4;transform:scale(.75)}50%{opacity:1;transform:scale(1)}}
+        </style>
+    </g>
+</svg>        <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+    <style>
+        .checkmark {
+            width: 40px;
+            height: 40px;
+            display: block;
+            stroke-width: 2.5;
+            stroke: currentColor;
+            stroke-miterlimit: 10;
+        }
+
+        .checkmark__check {
+            transform-origin: 50% 50%;
+            stroke-dasharray: 48;
+            stroke-dashoffset: 48;
+            animation: stroke .3s cubic-bezier(0.650, 0.000, 0.450, 1.000) forwards;
+        }
+
+        @keyframes stroke {
+            100% { stroke-dashoffset: 0; }
+        }
+    </style>
+</svg>    </button>
+    <p data-members-error></p>
+</form>                </section>
+
+    </div>
+</footer>    
+</div>
+
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://www.platformer.news/assets/built/source.js?v=4e2a313ed4"></script>
+
+
+<script>
+!function(w,d,id,ns,s){var c=w[ns]=w[ns]||{};if(c.ready||(c.q=[],c.ready=function(){c.q.push(arguments)}),!d.getElementById(id)){var e=d.createElement(s);e.id=id,e.defer=true,e.src="https://assets.context.ly/kit/6.latest/loader.js";var h=d.getElementsByTagName(s)[0];h.parentNode.insertBefore(e,h)}}(window,document,"ctx-loader","Contextly","script");
+</script>
+<script>
+Contextly.ready('widgets');
+</script>
+<script>
+  const OutpostPub = {
+    apiDomain: "https://platformernews.outpost.pub",
+    apiKey: "5256302e-24e7-4b08-a293-c42417ba8d25",
+    siteName: "Platformer",
+    memberId: "",
+    memberEmail: "",
+        post: {
+          id: "697be48f1403690001fe579d",
+          tags: ["AI"],
+        }
+  }
+</script>
+<script defer src="https://assets.outpostpublishingcoop.com/assets/v2/js/outpost-pub.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+  "replaced_url": "https://hacks.mozilla.org/2024/11/example-two/",
+  "recovery_url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+  "final_url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 35811,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:54.274Z",
+  "elapsed_ms": 153,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Firefox Developer Edition and Beta: Try out Mozilla's .rpm package! - Mozilla Hacks - the Web developer blog",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

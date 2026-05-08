@@ -1,0 +1,28 @@
+{
+  "url": "https://www.washingtonpost.com/politics/2024/11/06/trump-election-victory/",
+  "recovery_url": "https://www.washingtonpost.com/sports/nhl/2026/05/06/wild-special-teams-avalanche-stanley-cup/30470a46-4988-11f1-a119-857cd2bf4fd4_story.html",
+  "final_url": "https://www.washingtonpost.com/sports/nhl/2026/05/06/wild-special-teams-avalanche-stanley-cup/30470a46-4988-11f1-a119-857cd2bf4fd4_story.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 985235,
+  "error": null,
+  "fetched_at": "2026-05-06T20:21:30.875Z",
+  "elapsed_ms": 440,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Wild in a 0-2 hole in 2nd-round series, special teams slump deepens ahead of Game 3 against Colorado - The Washington Post",
+  "recovery_attempts": [
+    {
+      "url": "https://www.washingtonpost.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:171"
+    },
+    {
+      "url": "https://www.washingtonpost.com/sports/nhl/2026/05/06/wild-special-teams-avalanche-stanley-cup/30470a46-4988-11f1-a119-857cd2bf4fd4_story.html",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

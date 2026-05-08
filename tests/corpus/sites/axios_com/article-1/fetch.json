@@ -1,0 +1,34 @@
+{
+  "url": "https://www.axios.com/2024/11/06/trump-wins-2024-election",
+  "recovery_url": "https://www.axios.com/2026/05/06/scale-ai-jason-droege-reliable-ai",
+  "final_url": "https://www.axios.com/2026/05/06/scale-ai-jason-droege-reliable-ai",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 255635,
+  "error": null,
+  "fetched_at": "2026-05-06T20:13:58.618Z",
+  "elapsed_ms": 6635,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Axios interview: Scale AI CEO Jason Droege pushes \"reliability\" reality",
+  "recovery_attempts": [
+    {
+      "url": "https://www.axios.com",
+      "method": "chrome-homepage",
+      "status": 0,
+      "reason": "homepage-links:28"
+    },
+    {
+      "url": "https://www.axios.com/2026/05/06/scale-ai-jason-droege-reliable-ai",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://www.axios.com/2026/05/06/scale-ai-jason-droege-reliable-ai",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

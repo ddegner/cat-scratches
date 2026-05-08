@@ -1,0 +1,31 @@
+{
+  "url": "https://stratechery.com/2024/the-gen-ai-bridge-to-the-future/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "article .entry-content",
+  "keep": [
+    ".entry-content p",
+    ".entry-content h2, h3",
+    ".entry-content blockquote",
+    ".entry-content img + em"
+  ],
+  "strip": [
+    ".sharedaddy",
+    ".post-views",
+    ".subscription-form",
+    ".comments",
+    ".jp-relatedposts"
+  ],
+  "expected_quirks": [
+    "WordPress + Jetpack; standard .entry-content pattern",
+    "Subscription CTA box appears near end — strip"
+  ],
+  "category_tags": [
+    "tech-news",
+    "longform",
+    "analysis",
+    "wordpress"
+  ],
+  "notes": "WordPress canonical case; .entry-content is reliable. Positive anchor."
+}

@@ -157,6 +157,7 @@ function setupEventListeners() {
 
     // Advanced filtering inputs
     document.getElementById('customFilters').addEventListener('input', updateAdvancedFilteringFromUI);
+    document.getElementById('textCleanupRules').addEventListener('input', updateAdvancedFilteringFromUI);
     document.querySelectorAll('input[name="draftsUrlMode"]').forEach((input) => {
         input.addEventListener('change', updateDraftsURLFromUI);
     });
@@ -199,6 +200,7 @@ function updateUI() {
 
     // Advanced filtering
     document.getElementById('customFilters').value = currentSettings.advancedFiltering.customFilters.join('\n');
+    document.getElementById('textCleanupRules').value = currentSettings.advancedFiltering.textCleanupRules.join('\n');
 }
 
 function autoResizeTemplateTextarea() {
@@ -304,8 +306,13 @@ function updateAdvancedFilteringFromUI() {
         .split('\n')
         .map(line => line.trim())
         .filter(line => line);
+    const textCleanupRules = document.getElementById('textCleanupRules').value
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line);
 
     currentSettings.advancedFiltering.customFilters = customFilters;
+    currentSettings.advancedFiltering.textCleanupRules = textCleanupRules;
     setDirtyState(true);
 }
 
@@ -358,6 +365,18 @@ function validateSettings() {
     const actionName = (currentSettings?.draftsURL?.actionName || '').trim();
     if (currentSettings.saveDestination === 'drafts' && draftsMode === 'runAction' && !actionName) {
         showStatus(browser.i18n.getMessage('validation_action_required'), 'error');
+        return false;
+    }
+
+    const textCleanupErrors = validateTextCleanupRules(currentSettings.advancedFiltering.textCleanupRules);
+    if (textCleanupErrors.length > 0) {
+        const first = textCleanupErrors[0];
+        const fallback = `Text cleanup rule ${first.index + 1} is invalid: ${first.error}`;
+        const message = browser.i18n.getMessage('validation_text_cleanup_rule', [
+            String(first.index + 1),
+            first.error
+        ]) || fallback;
+        showStatus(message, 'error');
         return false;
     }
 
@@ -619,6 +638,7 @@ async function generatePreview(html, contentSelector, elementsToRemove, url) {
             },
             advancedFiltering: {
                 customFilters: elementsToRemove, // Use the found filters
+                textCleanupRules: currentSettings.advancedFiltering.textCleanupRules,
                 minContentLength: currentSettings.advancedFiltering.minContentLength,
                 maxLinkRatio: currentSettings.advancedFiltering.maxLinkRatio
             },

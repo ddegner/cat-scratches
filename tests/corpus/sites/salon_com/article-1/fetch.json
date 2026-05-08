@@ -1,0 +1,22 @@
+{
+  "url": "https://www.salon.com/2024/11/06/example/",
+  "recovery_url": "https://www.salon.com/2026/05/02/trumps-latest-science-purge-could-bring-major-risks-experts-say/",
+  "final_url": "https://www.salon.com/2026/05/02/trumps-latest-science-purge-could-bring-major-risks-experts-say/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 71866,
+  "error": null,
+  "fetched_at": "2026-05-06T20:02:15.839Z",
+  "elapsed_ms": 24,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump's latest science purge could bring major risks, experts say - Salon.com",
+  "recovery_attempts": [
+    {
+      "url": "https://www.salon.com/2026/05/02/trumps-latest-science-purge-could-bring-major-risks-experts-say/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

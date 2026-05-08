@@ -1,0 +1,19 @@
+{
+  "url": "https://www.nature.com/articles/d41586-026-01465-0?error=cookies_not_supported&code=65e79cfe-e12e-4a81-991b-54780d0cc9c5",
+  "replaced_url": "https://www.nature.com/articles/s41586-024-07654-3",
+  "recovery_url": "https://www.nature.com/articles/d41586-026-01465-0",
+  "final_url": "https://www.nature.com/articles/d41586-026-01465-0?error=cookies_not_supported&code=65e79cfe-e12e-4a81-991b-54780d0cc9c5",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 219818,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:04.117Z",
+  "elapsed_ms": 831,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Even the unconscious brain can learn — and predict what you’ll say next",
+  "replacement_reasons": [
+    "bad-note",
+    "duplicate-url"
+  ]
+}

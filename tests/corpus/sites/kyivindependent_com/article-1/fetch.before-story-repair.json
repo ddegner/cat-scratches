@@ -1,0 +1,28 @@
+{
+  "url": "https://kyivindependent.com/example-article-2024/",
+  "recovery_url": "https://kyivindependent.com/ukraine-business-roundup-on-corruption-in-ukraine/",
+  "final_url": "https://kyivindependent.com/ukraine-business-roundup-on-corruption-in-ukraine/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1630735,
+  "error": null,
+  "fetched_at": "2026-05-06T20:03:24.348Z",
+  "elapsed_ms": 423,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Ukraine Business Roundup — On corruption in Ukraine",
+  "recovery_attempts": [
+    {
+      "url": "https://kyivindependent.com/example-article-2024/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://kyivindependent.com/ukraine-business-roundup-on-corruption-in-ukraine/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

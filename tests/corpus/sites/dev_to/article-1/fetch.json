@@ -1,0 +1,22 @@
+{
+  "url": "https://dev.to/example/example-post-abc",
+  "recovery_url": "https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8",
+  "final_url": "https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 173193,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:55.434Z",
+  "elapsed_ms": 61,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "MiroFish: The Open-Source AI Engine That Builds Digital Worlds to Predict the Future - DEV Community",
+  "recovery_attempts": [
+    {
+      "url": "https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

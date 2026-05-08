@@ -111,6 +111,18 @@
         "message": "Enter CSS selectors for elements to remove, one per line",
         "description": "Placeholder for the custom filters textarea."
     },
+    "label_text_cleanup_rules": {
+        "message": "Text cleanup rules",
+        "description": "Label for the text cleanup rules textarea."
+    },
+    "placeholder_text_cleanup_rules": {
+        "message": "Use line:, block:, tail:, or replace: rules, one per line",
+        "description": "Placeholder for the text cleanup rules textarea."
+    },
+    "help_text_cleanup_rules": {
+        "message": "Post-extraction rules. Use line:, block:, tail:, or replace:. Blank lines and lines starting with # are ignored.",
+        "description": "Help text for the text cleanup rules textarea."
+    },
     "section_selector_finder": {
         "message": "Selector Finder",
         "description": "Section heading for the AI selector finder tool."
@@ -198,6 +210,18 @@
     "validation_action_required": {
         "message": "Drafts Action Name is required when Action URL is selected.",
         "description": "Validation error when action name is missing."
+    },
+    "validation_text_cleanup_rule": {
+        "message": "Text cleanup rule $RULE_NUMBER$ is invalid: $REASON$",
+        "description": "Validation error for invalid text cleanup regex rules.",
+        "placeholders": {
+            "RULE_NUMBER": {
+                "content": "$1"
+            },
+            "REASON": {
+                "content": "$2"
+            }
+        }
     },
     "error_enter_url": {
         "message": "Please enter a URL",

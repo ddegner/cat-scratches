@@ -1,0 +1,22 @@
+{
+  "url": "https://www.latimes.com/california/story/2024-05-15/example",
+  "recovery_url": "https://www.latimes.com/obituaries/story/2026-05-06/la-na-ted-turner-obituary",
+  "final_url": "https://www.latimes.com/obituaries/story/2026-05-06/la-na-ted-turner-obituary",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 473655,
+  "error": null,
+  "fetched_at": "2026-05-06T20:01:47.718Z",
+  "elapsed_ms": 21,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Ted Turner, CNN creator who revolutionized the media industry, dies at 87 - Los Angeles Times",
+  "recovery_attempts": [
+    {
+      "url": "https://www.latimes.com/obituaries/story/2026-05-06/la-na-ted-turner-obituary",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

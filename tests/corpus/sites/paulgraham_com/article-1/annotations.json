@@ -1,0 +1,30 @@
+{
+  "url": "https://www.paulgraham.com/greatwork.html",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "body > table td",
+  "keep": [
+    "p",
+    "i",
+    "b",
+    "blockquote"
+  ],
+  "strip": [
+    "a[name]:empty",
+    "font[size='-1']",
+    "a[href='index.html']"
+  ],
+  "expected_quirks": [
+    "Plain-HTML 1990s layout; content lives in a nested <table><td>",
+    "Footnotes are numbered and live at the bottom; preserve order",
+    "No <article>, no <main>, no <h1> — extractor fallback to body works here"
+  ],
+  "category_tags": [
+    "blog",
+    "essay",
+    "longform",
+    "static-html"
+  ],
+  "notes": "Positive anchor for the 'no semantic tags' scenario. Extractor must not rely on <article>/<main>."
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.salon.com/2024/05/15/example/",
+  "recovery_url": "https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/",
+  "final_url": "https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 74855,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:10.910Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Military's independent newspaper captured by MAGA - Salon.com",
+  "recovery_attempts": [
+    {
+      "url": "https://www.salon.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:68"
+    },
+    {
+      "url": "https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

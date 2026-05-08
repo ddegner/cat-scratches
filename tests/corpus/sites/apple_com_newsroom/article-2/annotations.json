@@ -1,0 +1,28 @@
+{
+  "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article.pr-content",
+  "keep": [
+    "h1-h4",
+    "p",
+    "ul",
+    "blockquote"
+  ],
+  "strip": [
+    ".pr-share",
+    ".pr-pressinfo",
+    ".pr-gallery",
+    "section.pr-press-contacts"
+  ],
+  "expected_quirks": [
+    "Same Apple Newsroom template"
+  ],
+  "category_tags": [
+    "corp-blog",
+    "press-release",
+    "apple"
+  ],
+  "notes": "Same fixes as iphone-16-pro announcement."
+}

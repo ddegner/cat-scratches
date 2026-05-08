@@ -1,0 +1,37 @@
+{
+  "url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e",
+  "replaced_url": "https://medium.com/@example/example-article-abc123",
+  "recovery_url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e",
+  "final_url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 132512,
+  "error": null,
+  "fetched_at": "2026-05-07T02:08:51.708Z",
+  "elapsed_ms": 60,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Careers at Medium | by Jobs @ Medium | Jobs at Medium | Medium",
+  "replacement_reasons": [
+    "bad-title"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:36:37.969Z",
+  "story_repair_reasons": [
+    "bad-title",
+    "bad-url"
+  ],
+  "story_repair_candidates": [
+    "https://policy.medium.com/medium-privacy-policy-f03bf92035c9",
+    "https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=--------------------------------------------",
+    "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+    "https://policy.medium.com/medium-rules-30e5502c4eb4",
+    "https://policy.medium.com/medium-rules-30e5502c4eb4?source=--------------------------------------------",
+    "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=--------------------------------------------"
+  ],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

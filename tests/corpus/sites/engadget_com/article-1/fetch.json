@@ -1,0 +1,18 @@
+{
+  "url": "https://www.engadget.com/2165331/google-home-gains-more-gemini-powered-camera-features/",
+  "replaced_url": "https://www.engadget.com/example-review-2024-120000000.html",
+  "recovery_url": "https://www.engadget.com/2165331/google-home-gains-more-gemini-powered-camera-features/",
+  "final_url": "https://www.engadget.com/2165331/google-home-gains-more-gemini-powered-camera-features/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 57509,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:29.207Z",
+  "elapsed_ms": 54,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Google Home Gains More Gemini-Powered Camera Features",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.swiftbysundell.com/articles/example-article/",
+  "recovery_url": "https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan",
+  "final_url": "https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 32553,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:52.239Z",
+  "elapsed_ms": 72,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Building a design system at Genius Scan | Swift by Sundell",
+  "recovery_attempts": [
+    {
+      "url": "https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

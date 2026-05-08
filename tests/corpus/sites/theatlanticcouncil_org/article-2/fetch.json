@@ -1,0 +1,28 @@
+{
+  "url": "https://www.atlanticcouncil.org/in-depth-research-reports/example-report-2024/",
+  "recovery_url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-coming-compute-war-in-ukraine/",
+  "final_url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-coming-compute-war-in-ukraine/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 246213,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:41.325Z",
+  "elapsed_ms": 78,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The coming compute war in Ukraine - Atlantic Council",
+  "recovery_attempts": [
+    {
+      "url": "https://www.atlanticcouncil.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:135"
+    },
+    {
+      "url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-coming-compute-war-in-ukraine/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

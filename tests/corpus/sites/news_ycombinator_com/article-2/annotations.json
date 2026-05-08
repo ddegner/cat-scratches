@@ -1,0 +1,26 @@
+{
+  "url": "https://news.ycombinator.com/item?id=42112345",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "fixture-broken",
+  "content_root_selector": "table.fatitem, table.comment-tree",
+  "keep": [
+    ".commtext",
+    ".titleline > a",
+    ".subtext"
+  ],
+  "strip": [
+    "#hnmain > tbody > tr:first-child",
+    ".reply",
+    ".togg"
+  ],
+  "expected_quirks": [
+    "Thread-view variant of same HN layout"
+  ],
+  "category_tags": [
+    "forum",
+    "ugc",
+    "thread"
+  ],
+  "notes": "FIXTURE BROKEN: the fetched source.html is essentially chrome only (<4KB). Either the HN item ID no longer resolves or HN served a degenerate response to the Node UA. Replace the manifest URL with a live HN item (e.g. any currently-live https://news.ycombinator.com/item?id=... with >100 comments) and re-fetch before this page can be scored. Extraction fixes still needed per notes below."
+}

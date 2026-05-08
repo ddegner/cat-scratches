@@ -1,0 +1,28 @@
+{
+  "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+  "recovery_url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+  "final_url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1446364,
+  "error": null,
+  "fetched_at": "2026-05-06T20:07:57.073Z",
+  "elapsed_ms": 16968,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "java - Why is conditional processing of a sorted array faster than of an unsorted array? - Stack Overflow",
+  "recovery_attempts": [
+    {
+      "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

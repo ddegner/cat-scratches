@@ -1,0 +1,28 @@
+{
+  "url": "https://phys.org/news/2024-11-example-two.html",
+  "recovery_url": "https://phys.org/news/2026-05-college-students-aismoothed-strong.html",
+  "final_url": "https://phys.org/news/2026-05-college-students-aismoothed-strong.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 166154,
+  "error": null,
+  "fetched_at": "2026-05-07T01:37:22.201Z",
+  "elapsed_ms": 77,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "College students are noticing their AI‑smoothed writing sounds strong—and not like them",
+  "recovery_attempts": [
+    {
+      "url": "https://phys.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:117"
+    },
+    {
+      "url": "https://phys.org/news/2026-05-college-students-aismoothed-strong.html",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

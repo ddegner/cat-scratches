@@ -1,0 +1,18 @@
+{
+  "url": "https://herman.bearblog.dev/vulnerability-as-a-service/",
+  "replaced_url": "https://herman.bearblog.dev/the-fundamentals-of-this-website/",
+  "recovery_url": "https://herman.bearblog.dev/vulnerability-as-a-service/",
+  "final_url": "https://herman.bearblog.dev/vulnerability-as-a-service/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 15164,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:15.523Z",
+  "elapsed_ms": 51,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Vulnerability as a Service | Herman's blog",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

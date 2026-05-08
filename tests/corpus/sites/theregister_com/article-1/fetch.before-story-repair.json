@@ -1,0 +1,22 @@
+{
+  "url": "https://www.theregister.com/2024/11/06/example_article/",
+  "recovery_url": "https://www.theregister.com/science/2026/05/06/mars-rover-hits-rocky-snag-with-power-tool/5230838",
+  "final_url": "https://www.theregister.com/science/2026/05/06/mars-rover-hits-rocky-snag-with-power-tool/5230838",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 169227,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:09.609Z",
+  "elapsed_ms": 134,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Mars rover hits rocky snag with power tool",
+  "recovery_attempts": [
+    {
+      "url": "https://www.theregister.com/science/2026/05/06/mars-rover-hits-rocky-snag-with-power-tool/5230838",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

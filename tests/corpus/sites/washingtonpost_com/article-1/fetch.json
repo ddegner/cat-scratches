@@ -1,0 +1,18 @@
+{
+  "url": "https://www.washingtonpost.com/ripple/2026/05/06/article/comey-indictment-first-amendment-precedent/?itid=hp_brand_promo_4",
+  "replaced_url": "https://www.washingtonpost.com/sports/nhl/2026/05/06/wild-special-teams-avalanche-stanley-cup/30470a46-4988-11f1-a119-857cd2bf4fd4_story.html",
+  "recovery_url": "https://www.washingtonpost.com/ripple/2026/05/06/article/comey-indictment-first-amendment-precedent/?itid=hp_brand_promo_4",
+  "final_url": "https://www.washingtonpost.com/ripple/2026/05/06/article/comey-indictment-first-amendment-precedent/?itid=hp_brand_promo_4",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 974225,
+  "error": null,
+  "fetched_at": "2026-05-07T13:10:24.962Z",
+  "elapsed_ms": 414,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How the Comey indictment could backfire on Republicans",
+  "replacement_reasons": [
+    "too-thin:292"
+  ]
+}

@@ -1,0 +1,1 @@
+20 years ago: a guy interviewing for an IT job gets pulled onto live TV. “Mr. Goma is being celebrated as a folk hero of sorts for anyone who has ever found themselves ill-equipped for a challenge in the workplace.”

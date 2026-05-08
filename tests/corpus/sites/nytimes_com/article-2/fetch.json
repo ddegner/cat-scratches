@@ -1,0 +1,36 @@
+{
+  "url": "https://www.nytimes.com/athletic/7259743/2026/05/06/ted-turner-death-obituary-tnt-tbs-sports-braves/",
+  "replaced_url": "https://www.nytimes.com/interactive/2024/upshot/2024-election-polls-trump-harris.html",
+  "recovery_url": "https://www.nytimes.com/athletic/7259743/2026/05/06/ted-turner-death-obituary-tnt-tbs-sports-braves/",
+  "final_url": "https://www.nytimes.com/athletic/7259743/2026/05/06/ted-turner-death-obituary-tnt-tbs-sports-braves/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 290317,
+  "error": null,
+  "fetched_at": "2026-05-07T01:56:15.581Z",
+  "elapsed_ms": 195,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "An appreciation of Ted Turner, a baseball maverick who used the Braves to conquer the world - The Athletic",
+  "replacement_reasons": [
+    "bad-note"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:28:28.330Z",
+  "story_repair_reasons": [
+    "bad-note"
+  ],
+  "story_repair_candidates": [
+    "https://www.nytimes.com/athletic/7259743/2026/05/06/ted-turner-death-obituary-tnt-tbs-sports-braves/",
+    "https://www.nytimes.com/2026/05/06/us/politics/trump-indiana-republican-base.html",
+    "https://www.nytimes.com/2026/05/06/us/politics/jd-vance-iowa-2028.html",
+    "https://www.nytimes.com/2026/05/06/us/politics/susan-collins-tremor-maine-senate-race.html",
+    "https://www.nytimes.com/2026/05/06/us/politics/michigan-senate-primary-democrats.html",
+    "https://www.nytimes.com/2026/05/06/us/politics/us-troops-iran.html"
+  ],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Manton Reece" name="author">
+
+  <title>Manton Reece</title>
+
+  <link href="/assets/css/style.css?1777995042" rel="stylesheet">
+  <link href="/assets/css/highlight.css?1777995042" rel="stylesheet">
+  <link href="/assets/css/alpine.css?1777995042" rel="stylesheet">
+  <style>
+
+.site-title {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.35;
+	padding-left: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+nav.main-nav a.cta {
+	background: #ffffff;
+	color: #f29c38;
+	padding: 6px 14px;
+	border: 2px solid #f29c38;
+	border-radius: 20px;
+	white-space: nowrap;
+	box-shadow: none;
+}
+
+nav.main-nav a.cta:hover {
+	background: #fffee4;
+	color: #f29c38;
+	margin-left: 12px;
+}
+
+</style>
+
+  
+  <link rel="alternate" href="https://www.manton.org/feed.xml" type="application/rss+xml" title="Manton Reece">
+  <link rel="alternate" href="https://www.manton.org/feed.json" type="application/json" title="Manton Reece">
+
+
+
+  <link rel="alternate" href="https://www.manton.org/podcast.xml" type="application/rss+xml" title="Podcast">
+  <link rel="alternate" href="https://www.manton.org/podcast.json" type="application/json" title="Podcast">
+
+
+<link rel="me" href="https://micro.blog/manton">
+
+
+  <link rel="me" href="https://twitter.com/mantonsblog">
+
+
+
+  <link rel="me" href="https://github.com/manton">
+
+
+
+
+<link rel="shortcut icon" href="https://micro.blog/manton/favicon.png" type="image/x-icon">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.manton.org/rsd.xml">
+<link rel="authorization_endpoint" href="https://micro.blog/indieauth/auth">
+<link rel="token_endpoint" href="https://micro.blog/indieauth/token">
+<link rel="subscribe" href="https://micro.blog/users/follow">
+<link rel="webmention" href="https://micro.blog/webmention">
+<link rel="micropub" href="https://micro.blog/micropub">
+<link rel="microsub" href="https://micro.blog/microsub">
+
+<link rel="stylesheet" href="/custom.css?1777995042">
+
+
+  <link rel="stylesheet" href="/css/bookgoals.css?v=1">
+
+  <link rel="stylesheet" href="/css/all.min.css?v=1">
+
+  <link rel="stylesheet" href="/dark.css?v=1">
+
+  <link rel="stylesheet" href="/css/collections.css?v=1">
+
+  <link rel="stylesheet" href="/archive_months.css?v=1">
+
+
+
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+
+
+  <script type="module">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('https:\/\/www.manton.org\/surprise-me\/redirect.js')
+    .catch((error) => {
+      console.error('Service Worker registration failed:', error);
+    });
+}
+</script>
+
+
+  <link rel="stylesheet" href="/css/barefoot.min.css">
+<script src="/js/barefoot.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {  
+    var barefoot = new BareFoot();
+    barefoot.init();
+  });
+</script>
+
+
+  
+  <link rel="blogroll" type="text/xml" href="/.well-known/recommendations.opml">
+
+
+
+  <script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const images = document.querySelectorAll('.microblog_collection img');
+		let currentImageIndex = 0;
+		let isMultiLightbox = false;
+
+		function isDataURL(url) {
+			return (typeof url == 'string') && url.trim().startsWith('data:');
+		}
+
+		function createLightbox() {
+			
+			const lightbox = document.createElement('div');
+			lightbox.id = 'microblog_lightbox';
+			
+			const closeBtn = document.createElement('button');
+			closeBtn.id = 'microblog_lightbox_close_btn';
+			closeBtn.innerHTML = '&times;';
+			
+			const prevBtn = document.createElement('button');
+			prevBtn.id = 'microblog_lightbox_prev_btn';
+			prevBtn.className = 'microblog_lightbox_nav';
+			prevBtn.innerHTML = '&larr;';
+			
+			const nextBtn = document.createElement('button');
+			nextBtn.id = 'microblog_lightbox_next_btn';
+			nextBtn.className = 'microblog_lightbox_nav';
+			nextBtn.innerHTML = '&rarr;';
+			
+			const lightboxImg = document.createElement('img');
+			lightboxImg.id = 'microblog_lightbox_img';
+			lightboxImg.alt = 'Lightbox Image';
+			
+			lightbox.appendChild(closeBtn);
+			lightbox.appendChild(prevBtn);
+			lightbox.appendChild(lightboxImg);
+			lightbox.appendChild(nextBtn);
+			
+			document.body.appendChild(lightbox);
+		
+			return { lightbox, closeBtn, prevBtn, nextBtn, lightboxImg };
+		}
+		
+		const { 
+			lightbox, 
+			closeBtn, 
+			prevBtn, 
+			nextBtn, 
+			lightboxImg 
+		} = createLightbox();
+
+		function openMultiLightbox(index) {
+			isMultiLightbox = true;
+			currentImageIndex = index;
+			lightboxImg.src = images[index].getAttribute('data-microblog-lightbox');
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'block';
+			nextBtn.style.display = 'block';
+		}
+		
+		function openSingleLightbox(url) {
+			isMultiLightbox = false;
+			lightboxImg.src = url;
+			lightbox.style.display = 'flex';
+
+			
+			prevBtn.style.display = 'none';
+			nextBtn.style.display = 'none';
+		}
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		function navigatePrevious() {
+			currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		function navigateNext() {
+			currentImageIndex = (currentImageIndex + 1) % images.length;
+			lightboxImg.src = images[currentImageIndex].getAttribute('data-microblog-lightbox');
+		}
+
+		
+		images.forEach((img, index) => {
+			if (isDataURL(img.src)) {
+				return;
+			}
+			img.addEventListener('click', () => openMultiLightbox(index));
+		});
+
+		closeBtn.addEventListener('click', closeLightbox);
+		prevBtn.addEventListener('click', navigatePrevious);
+		nextBtn.addEventListener('click', navigateNext);
+
+		
+		document.addEventListener('keydown', (e) => {
+			if (lightbox.style.display === 'flex') {
+				switch (e.key) {
+					case 'ArrowLeft':
+						if (isMultiLightbox) {
+							navigatePrevious();
+						}
+						break;
+					case 'ArrowRight':
+						if (isMultiLightbox) {
+							navigateNext();
+						}
+						break;
+					case 'Escape':
+						closeLightbox();
+						break;
+				}
+			}
+		});
+
+		
+		lightbox.addEventListener('click', (e) => {
+			if (e.target === lightbox) {
+				closeLightbox();
+			}
+		});
+		
+		
+		const single_images = document.querySelectorAll(".e-content img, .p-summary img");
+		single_images.forEach(function(image) {
+			
+			if (image.closest(".microblog_collection")) {
+				return;
+			}
+		
+			
+			if (!image.closest("a")) {
+				
+				const hasClickHandler = image.onclick || image.hasAttribute("onclick");
+				const hasTouchHandler = image.ontouchstart || image.hasAttribute("ontouchstart");
+		
+				
+				if (!hasClickHandler && !hasTouchHandler && !isDataURL(image.src)) {
+					image.addEventListener("click", function() {
+						openSingleLightbox(image.src);
+					});
+				}
+			}
+		});
+	});
+</script>
+
+
+  
+	 
+
+
+
+
+</head>
+
+<body>
+  <nav class="main-nav">
+
+	<div class="site-title">
+		<img src="https://avatars.micro.blog/avatars/2025/22/3.jpg" width="25" height="25" class="site-image">
+		<a href="/">Manton Reece</a>
+	</div>
+
+	<div class="site-menus">
+
+	
+		
+			<a href="/about/">About</a>
+		
+	
+		
+			<a href="/photos/">Photos</a>
+		
+	
+		
+			<a href="/videos/">Videos</a>
+		
+	
+		
+			<a href="/archive/">Archive</a>
+		
+	
+		
+			<a href="/30-days/">30 days</a>
+		
+	
+		
+			<a href="/90-parks/">90 parks</a>
+		
+	
+		
+			<a href="/reading/">Reading</a>
+		
+	
+		
+			<a href="/search/">Search</a>
+		
+	
+
+	<a class="cta" href="https://micro.blog/manton" rel="me">Also on Micro.blog</a>
+
+	</div>
+</nav>
+
+
+
+  <section id="wrapper">
+	
+<article class="h-entry post">
+  <header>
+	
+    <h2 class="headline">
+      <time class="dt-published" datetime="2026-05-06 13:23:16 -0500">
+        <a class="u-url dates" href="https://www.manton.org/2026/05/06/anthropic-has-announced-a-major.html">May 6, 2026</a>
+      </time>
+
+  
+
+    </h2>
+  </header>
+  <section class="e-content post-body">
+      <p>Anthropic has <a href="https://www.anthropic.com/news/higher-limits-spacex">announced a major deal with SpaceX</a> to help relieve pressure on Claude&rsquo;s current infrastructure:</p>
+<blockquote>
+<p>We’ve signed an agreement with SpaceX to use all of the compute capacity at their Colossus 1 data center. This gives us access to more than 300 megawatts of new capacity (over 220,000 NVIDIA GPUs) within the month.</p>
+</blockquote>
+<p>Colossus 1 was famously used to train Grok. My reading of this is that Anthropic now has access to essentially <em>all of the GPUs</em>, since 200k GPUs had been previously announced for the data center. Maybe they&rsquo;ve left a handful for Twitter / X.</p>
+
+  </section>
+
+  
+    <a class="u-syndication" href="at://did:plc:pko7wbcggok753hnvndxh3ni/app.bsky.feed.post/3ml7d74vg7d2n" style="display: none;">Also on Bluesky</a>
+  
+	
+  
+  <script type="text/javascript" src="https://micro.blog/conversation.js?url=https%3a%2f%2fwww.manton.org%2f2026%2f05%2f06%2fanthropic-has-announced-a-major.html"></script>
+  
+
+  <section id="post-meta" class="clearfix p-author h-card">
+    <a href="/" class="u-url">
+  	
+		<img class="u-photo avatar" src="https://avatars.micro.blog/avatars/2025/22/3.jpg" width="96" height="96">
+		<div>
+		  <span class="p-name dark">Manton Reece</span>
+		  <span><a href="https://micro.blog/manton">@manton</a></span>
+		</div>
+  	
+    </a>
+  </section>
+</article>
+
+  </section>
+  <footer id="footer">
+
+<section id="wrapper">
+  <ul>
+    <li><a href="/feed.xml">RSS</a></li>
+    <li><a href="/feed.json">JSON Feed</a></li>
+    <li><a href="/surprise-me/">Surprise me!</a></li>
+    <li><a href="/tweets/">Tweets</a></li>
+  </ul>
+</section>
+
+</footer>
+
+  
+		
+			<script src="https://cdn.jsdelivr.net/npm/hls.js?v=1"></script>
+		
+			<script src="/js/studio.js?v=1"></script>
+		
+</body>
+</html>

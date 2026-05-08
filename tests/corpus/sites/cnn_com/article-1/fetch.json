@@ -1,0 +1,18 @@
+{
+  "url": "https://www.cnn.com/2026/05/06/politics/jeffrey-epstein-purported-suicide-note",
+  "replaced_url": "https://www.cnn.com/2024/11/06/politics/election-2024-results/index.html",
+  "recovery_url": "https://www.cnn.com/2026/05/06/politics/jeffrey-epstein-purported-suicide-note",
+  "final_url": "https://www.cnn.com/2026/05/06/politics/jeffrey-epstein-purported-suicide-note",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 4031456,
+  "error": null,
+  "fetched_at": "2026-05-07T02:32:11.487Z",
+  "elapsed_ms": 106,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Judge releases purported Jeffrey Epstein suicide note | CNN Politics",
+  "replacement_reasons": [
+    "bad-url"
+  ]
+}

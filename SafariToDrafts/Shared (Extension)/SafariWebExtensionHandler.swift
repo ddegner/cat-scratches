@@ -94,6 +94,31 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
                 os_log(.info, "Drafts installed check: unknown (extension limitation)")
             }
 
+        case "openURL":
+            guard let urlString = messageDict["url"] as? String,
+                  let url = URL(string: urlString),
+                  url.scheme?.lowercased() == "drafts" else {
+                response["success"] = false
+                response["opened"] = false
+                response["error"] = "Invalid URL"
+                os_log(.error, "Failed to open URL: invalid or unsupported URL")
+                break
+            }
+
+            #if os(macOS)
+            let opened = NSWorkspace.shared.open(url)
+            response["opened"] = opened
+            if opened {
+                os_log(.info, "Opened Drafts URL via native handler")
+            } else {
+                os_log(.error, "Failed to open Drafts URL via native handler")
+            }
+            #else
+            response["opened"] = false
+            response["error"] = "Native URL open is unavailable on this platform"
+            os_log(.info, "Native URL open unavailable on this platform")
+            #endif
+
         case "getExtensionVersion":
             let version = (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String) ?? ""
             if !version.isEmpty {

@@ -1,0 +1,6 @@
+{
+  "name": "Python docs",
+  "category": "docs",
+  "cms": "sphinx",
+  "slug": "docs_python_org"
+}

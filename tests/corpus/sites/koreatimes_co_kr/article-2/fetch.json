@@ -1,0 +1,18 @@
+{
+  "url": "https://www.koreatimes.co.kr/world/20260507/trump-issues-ultimatum-for-iran-to-accept-deal-or-face-more-bombing",
+  "replaced_url": "https://www.koreatimes.co.kr/www/biz/2024/05/example_654321.html",
+  "recovery_url": "https://www.koreatimes.co.kr/world/20260507/trump-issues-ultimatum-for-iran-to-accept-deal-or-face-more-bombing",
+  "final_url": "https://www.koreatimes.co.kr/world/20260507/trump-issues-ultimatum-for-iran-to-accept-deal-or-face-more-bombing",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 134678,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:21.420Z",
+  "elapsed_ms": 40,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump issues ultimatum for Iran to accept deal or face more bombing - The Korea Times",
+  "replacement_reasons": [
+    "bad-title"
+  ]
+}

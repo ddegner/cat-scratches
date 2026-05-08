@@ -1,0 +1,25 @@
+{
+  "name": "cat-scratches-test-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extraction corpus & harness for the Cat Scratches Safari extension.",
+  "scripts": {
+    "build-manifest": "node build-manifest.mjs",
+    "fetch": "node fetch.mjs",
+    "fetch:pilot": "node fetch.mjs --pilot",
+    "run": "node run.mjs",
+    "run:articles": "node run.mjs --article-like",
+    "run:pilot": "node run.mjs --pilot",
+    "score": "node score.mjs",
+    "story-review": "node story-review.mjs",
+    "live-review": "node live-review.mjs",
+    "ab:selectors": "node ab-selectors.mjs"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

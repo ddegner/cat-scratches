@@ -1,0 +1,30 @@
+{
+  "url": "https://www.biorxiv.org/content/early/recent",
+  "replaced_url": "https://www.biorxiv.org/collection/pharmacology-and-toxicology",
+  "recovery_url": "https://www.biorxiv.org/content/early/recent",
+  "final_url": "https://www.biorxiv.org/content/early/recent",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 98519,
+  "error": null,
+  "fetched_at": "2026-05-07T02:34:13.604Z",
+  "elapsed_ms": 3560,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "All Articles | bioRxiv",
+  "replacement_reasons": [
+    "bad-title",
+    "bad-url"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:36:35.245Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

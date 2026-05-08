@@ -1,0 +1,49 @@
+{
+  "url": "https://www.squarespace.com/blog/example-post",
+  "recovery_url": "https://www.squarespace.com/websites/create-a-portfolio",
+  "final_url": "https://www.squarespace.com/websites/create-a-portfolio",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 481730,
+  "error": null,
+  "fetched_at": "2026-05-06T20:48:47.054Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Create a Portfolio Website - Online Portfolio Maker — Squarespace",
+  "recovery_attempts": [
+    {
+      "url": "https://www.squarespace.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:158"
+    },
+    {
+      "url": "https://www.squarespace.com/tools/business-name-generator",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.squarespace.com/solutions/nonprofits/environment-conservation",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.squarespace.com/websites/create-a-blog",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.squarespace.com/websites/create-a-portfolio",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "recovery_error": "Recovered front-page link was not a usable story page",
+  "recovery_attempted_at": "2026-05-06T20:53:11.756Z",
+  "rejected_source": "source.rejected.html"
+}

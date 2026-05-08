@@ -1,0 +1,28 @@
+{
+  "url": "https://time.com/7654321/example-two-2024/",
+  "recovery_url": "https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy/",
+  "final_url": "https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 284907,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:24.259Z",
+  "elapsed_ms": 21,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "New Trump 'Counterterrorism' Plan Highlights Cartels, Antifa",
+  "recovery_attempts": [
+    {
+      "url": "https://time.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:75"
+    },
+    {
+      "url": "https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

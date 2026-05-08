@@ -1,0 +1,18 @@
+{
+  "url": "https://stratechery.com/2013/apple-open-and-learning-from-history/",
+  "replaced_url": "https://stratechery.com/2024/example-free-post/",
+  "recovery_url": "https://stratechery.com/2013/apple-open-and-learning-from-history/",
+  "final_url": "https://stratechery.com/2013/apple-open-and-learning-from-history/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 295969,
+  "error": null,
+  "fetched_at": "2026-05-07T02:25:19.510Z",
+  "elapsed_ms": 547,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Truth About Windows Versus the Mac – Stratechery by Ben Thompson",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.bbc.com/future/article/20240726-how-the-human-body-changes-with-age",
+  "recovery_url": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+  "final_url": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 343985,
+  "error": null,
+  "fetched_at": "2026-05-07T01:31:47.918Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "What British people really mean when they say 'sorry'",
+  "recovery_attempts": [
+    {
+      "url": "https://www.bbc.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:194"
+    },
+    {
+      "url": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

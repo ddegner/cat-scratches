@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+  "replaced_url": "https://www.theregister.com/2024/11/06/example_article/",
+  "recovery_url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+  "final_url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 171914,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:33.987Z",
+  "elapsed_ms": 117,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Datacenter to become Arm’s biggest business ‘soon’",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

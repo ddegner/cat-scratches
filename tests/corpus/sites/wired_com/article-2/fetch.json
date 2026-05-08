@@ -1,0 +1,33 @@
+{
+  "url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "replaced_url": "https://www.wired.com/story/the-big-story-example-2024/",
+  "recovery_url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "final_url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1364635,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:26.101Z",
+  "elapsed_ms": 142,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Better Than Human: Why Robots Will—And Must—Take Our Jobs | WIRED",
+  "replacement_reasons": [
+    "very-thin",
+    "duplicate-url"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:35:42.888Z",
+  "story_repair_reasons": [
+    "very-thin"
+  ],
+  "story_repair_candidates": [
+    "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+    "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+    "https://www.wired.com/story/trumps-team-wants-him-to-accept-an-iran-deal-hes-already-rejected/",
+    "https://www.wired.com/story/anthropic-spacex-compute-deal-colossus/",
+    "https://www.wired.com/story/using-ai-negative-impact-thinking-problem-solving-study/",
+    "https://www.wired.com/story/i-am-begging-ai-companies-to-stop-naming-features-after-human-processes/"
+  ],
+  "rejected_nonstory_files": null
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+  "replaced_url": "https://www.gq.com/story/example-two-2024",
+  "recovery_url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+  "final_url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1109959,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:32.934Z",
+  "elapsed_ms": 94,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "‘The Odyssey’ Trailer's Accents Aren't Actually That Weird | GQ",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Powered by Bear Blog -->
+
+<head>
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  
+  <title>The Bear Manifesto | Herman&#x27;s blog</title>
+  <link rel="canonical" href="https://herman.bearblog.dev/manifesto/">
+  
+    
+
+    <meta name="herman" content="look-for-the-bear-necessities">
+    <meta name="token" content="FDzGfmPGZRCYNrxPTzPM">
+
+    
+<!-- Primary Meta Tags -->
+<meta name="title" content="The Bear Manifesto">
+<meta name="description" content="An outline of my philosophy and direction for the platform">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:site_name" content="Herman&#x27;s blog">
+<meta property="og:title" content="The Bear Manifesto">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://herman.bearblog.dev/manifesto/">
+<meta property="og:description" content="An outline of my philosophy and direction for the platform">
+<meta property="og:image" content="/static/og-image.png">
+
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary">
+<meta property="twitter:url" content="https://herman.bearblog.dev/manifesto/">
+<meta property="twitter:title" content="The Bear Manifesto">
+<meta property="twitter:description" content="An outline of my philosophy and direction for the platform">
+<meta property="twitter:image" content="/static/og-image.png">
+
+
+
+<!-- Microdata -->
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "article",
+    "name": "The Bear Manifesto",
+    "headline": "The Bear Manifesto",
+    "url": "https://herman.bearblog.dev/manifesto/",
+    "description": "An outline of my philosophy and direction for the platform",
+    "image": "/static/og-image.png"
+  }
+</script>
+    <link rel="alternate" type="application/atom+xml" href="/feed/" title="Herman&#x27;s blog">
+    <link rel="alternate" type="application/rss+xml" href="/feed/?type=rss" title="Herman&#x27;s blog">
+
+  
+    
+
+    
+    
+  
+  
+  
+    
+        <link rel="icon" href="https://bearblog.dev/static/favicon.svg">
+        <link rel="apple-touch-icon" href="https://bearblog.dev/static/favicon.svg">
+    
+
+
+
+  <style>
+      
+      
+    
+:root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color:  #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #01242e;
+        --heading-color: #eee;
+        --text-color: #ddd;
+        --link-color: #8cc2dd;
+        --visited-color:  #8b6fcb;
+        --code-background-color: #000;
+        --code-color: #ddd;
+        --blockquote-color: #ccc;
+    }
+}
+
+body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+}
+
+a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+nav a {
+    margin-right: 8px;
+}
+
+strong, b {
+    color: var(--heading-color);
+}
+
+button {
+    margin: 0;
+    cursor: pointer;
+}
+
+time {
+ 	font-family: monospace;
+  	font-style: normal;
+  	font-size: 15px;
+}
+
+main {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px dashed;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+}
+
+blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.title:hover {
+    text-decoration: none;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.title h1:before {
+	content: "ᕕ( ᐛ )ᕗ";
+}
+
+.inline {
+    width: auto !important;
+}
+
+.highlight, .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+}
+
+/* blog post list */
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
+
+ul.blog-posts li a:visited {
+    color: var(--visited-color);
+}
+    .upvote-button {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color: inherit;
+        color: inherit;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .upvote-button.upvoted {
+        color: salmon;
+    }
+    .upvote-count {
+        margin-top: -3px;
+    }
+
+      
+  </style>
+</head>
+
+<body class="post " onload="(function() { document.cookie = `timezone=${Intl.DateTimeFormat().resolvedOptions().timeZone};path=/`; })()">
+  
+  <header>
+    <a class="title" href="/">
+      <h1>
+        Herman&#x27;s blog
+      </h1>
+    </a>
+    <nav>
+      <p><a href='/'>Home</a> <a href='/now/'>Now</a> <a href='/projects/'>Projects</a> <a href='/blog/'>Blog</a></p>
+
+    </nav>
+  </header>
+  <main>
+    
+
+    
+
+    
+        <h1>The Bear Manifesto</h1>
+
+        <p>
+            <i>
+                <time datetime="2025-01-27T07:06Z">
+    27 Jan, 2025
+</time>
+            </i>
+        </p>
+    
+
+    <p>Given recent events in the blogging space (hello to all Cohost and Wordpress refugees), I wanted to take a moment to share my vision and commitments for Bear.</p>
+<p>First things first: Bear isn't going anywhere. No sudden shutdowns, no surprise acquisitions, no pivot to becoming an AI-powered metaverse blockchain solution. Just simple, clean blogging—now and in the future.</p>
+<h2 id=the-promises>The promises</h2><ol>
+<li><p>Bear won't shut down. Period. I've seen too many great platforms disappear overnight, leaving their communities scrambling. This is made worse when the platform is your personal garden and online neighbourhood. That won't happen here. Bear is built to last.</p>
+</li>
+<li><p>Bear won't sell. I'm not building this to flip it to the highest bidder. No VC funding, no external pressures, no "exit strategy." Bear is independent and will stay that way.</p>
+</li>
+<li><p>Bear won't show ads. Your blog is your space. No flashy banners will suddenly appear one day, and no sponsored content. Just your words, your way.</p>
+</li>
+</ol>
+<h2 id=built-to-last>Built to last</h2><p>Bear isn't just a weekend project—it's <a href='https://herman.bearblog.dev/building-software-to-last-forever'>built with longevity in mind</a>. The codebase is intentionally simple and maintainable. The infrastructure is robust and redundant. Everything is backed up religiously (and then backed up again, just to be sure).</p>
+<p>I'm not just thinking about next week or next month. I'm thinking about Bear being around in 10, 20, 50 years. That means making smart technical choices now that won't paint Bear into a corner later.</p>
+<p>In this way, Bear doesn't have explicit integrations with other tools and infrastructure. It is self-reliant with the ability for users to customise their blogs and build out those integrations as they see fit. So while it is possible to integrate blogs with newsletter tools, Mastodon, Bluesky, and The Fediverse at large, it's not the default.</p>
+<h2 id=planning-for-the-future>Planning for the future</h2><p>This is a morbid topic for me to write about: what happens to Bear if something happens to me? I've got that covered too. There's a detailed succession plan in place, including:</p>
+<ul>
+<li>Full documentation of all systems and processes</li>
+<li>Multiple trusted developers with access to the codebase</li>
+<li>Clear instructions for maintaining the platform</li>
+</ul>
+<p>So if I were to be incapacitated in any way, the platform will live on.</p>
+<h2 id=legal-structure>Legal structure</h2><p>I've recently chatted to a few bloggers and legal professionals on what a good structure looks like for a project like this. And the common theme was that the legal structure didn't matter nearly as much as the intentions of the people running things. We've seen our fair share of open-source projects become sour (see the recent Wordpress drama) or abandoned entirely. We've seen OpenAI become ClosedAI. There's a common thread here. Trust isn't just a legal structure, but a social contract.</p>
+<p>With this is mind, Bear will continue to run as a PTY LTD where the company exchanges some extra add-ons for money, and uses that money to maintain and improve the infrastructure (and allows me to focus on Bear full time). Perhaps a more fitting legal structure will present itself in the future. If you have any ideas please pop me an email.</p>
+<p>I've also been thinking about what kinds of organisations last the longest, and there are a few that come to mind:</p>
+<ul>
+<li>Small (usually family-owned) businesses</li>
+<li>Monasteries and convents</li>
+<li>Educational institutions</li>
+</ul>
+<p>I'm not sure how this information is best applied, but it's telling that 'growth at all costs' inevitably leads to the dissolution of the company.</p>
+<h2 id=the-bottom-line>The bottom line</h2><p>Bear is doing great. Not in terms of market share or valuations, but in staying true to what matters: giving people a reliable, simple, and independent place to share their thoughts online.</p>
+<p>If you're tired of platforms that treat you like a product, welcome home. Bear is here to stay.</p>
+<p>Keep blogging,</p>
+<p>Herman Martinus<br />
+Creator of Bear</p>
+
+
+    
+
+    
+        
+
+        
+            <form id="upvote-form" action="/upvote/" method="post" style="display: inline">
+    <small>
+        <input hidden name="uid" value="FDzGfmPGZRCYNrxPTzPM" style="display:none">
+        <input hidden name="title" value="The Bear Manifesto" style="display:none">
+
+        <button
+            class="upvote-button"
+            aria-label="Toast this post"
+            title="Toast this post"
+        >
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                <polyline points="17 11 12 6 7 11"></polyline>
+                <polyline points="17 18 12 13 7 18"></polyline>
+            </svg>
+            <small class="upvote-count" aria-hidden="true">&nbsp;</small>
+        </button>
+    </small>        
+</form>
+
+<script>
+    const $upvoteButton = document.querySelector('.upvote-button');
+    const $upvoteCount =  document.querySelector('.upvote-count')
+
+    fetch('/upvote-info/FDzGfmPGZRCYNrxPTzPM/').then(response => response.json()).then(data => {
+        $upvoteCount.innerText = data.upvote_count;
+        if (data.upvoted) {
+            $upvoteButton.disabled = true
+            $upvoteButton.style.color = "salmon"
+            $upvoteButton.ariaLabel = "Toasted"
+            $upvoteButton.title = "Toasted"
+        }
+        $upvoteButton.ariaLabel += ` (${data.upvote_count})`
+    });
+
+    let moved = false;
+    let pageLoaded = Date.now();
+
+    document.addEventListener('touchmove', () => moved = true);
+    document.addEventListener('mousemove', () => moved = true);
+
+    document.querySelector('#upvote-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        if (moved) {
+            document.querySelector('input[name="title"]').value = "";
+        }
+        if (Date.now() - pageLoaded < 2000 || !moved) {
+            return;
+        }
+
+        fetch(e.target.action, {
+            method: 'post',
+            body: new FormData(e.target),
+        });
+        
+        $upvoteButton.disabled = true
+        $upvoteButton.style.color = "salmon"
+        $upvoteButton.ariaLabel = "Toasted"
+        $upvoteButton.title = "Toasted"
+        const newUpvoteCount = `${(parseInt($upvoteCount.innerHTML.split(" ")[0]) + 1)}`
+        $upvoteCount.innerHTML = newUpvoteCount
+        $upvoteButton.ariaLabel += ` (${newUpvoteCount})`
+    });
+</script>
+        
+
+        
+            <script>
+            window.addEventListener("load", () => {
+                if (navigator.webdriver !== true) {
+                    const sendHit = score => {
+                        const params = new URLSearchParams({
+                            blog: "herman",
+                            token: "FDzGfmPGZRCYNrxPTzPM",
+                            referrer: document.referrer.includes("herman.bearblog.dev") ? "" : document.referrer,
+                            title: "",
+                            score: score
+                        });
+                        new Image().src = `/hit/?${params.toString()}`;
+                    };
+
+                    document.addEventListener('touchmove', () => sendHit(100), { once: true });
+                    document.addEventListener('mousemove', () => sendHit(100), { once: true });
+                }
+            });
+            </script>
+        
+    
+
+
+  </main>
+  <footer>
+    
+    
+        <span id="footer-directive">
+            <p><small>Subscribe via <a href='/feed/'>rss</a>, <a href='/subscribe/'>email</a> or just say <a href='/contact/'>hello</a>.</small></p>
+<script>
+  // Select the main container and the blog posts list
+  const mainContainer = document.querySelector('.blog main');
+  const blogPosts = document.querySelector('.blog .blog-posts');
+
+  if (blogPosts) {
+  const searchInput = document.createElement('input');
+  searchInput.type = 'text';
+  searchInput.id = 'searchInput';
+  searchInput.placeholder = 'Search...';
+  searchInput.style.display = 'block';
+
+  mainContainer.insertBefore(searchInput, blogPosts);
+
+  // Add event listener to filter posts based on input
+  searchInput.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    const posts = document.querySelectorAll('.blog-posts li');
+
+    posts.forEach(post => {
+      const title = post.textContent.toLowerCase();
+      post.style.display = title.includes(searchTerm) ? '' : 'none';
+    });
+  });
+}
+</script>
+
+        </span>
+    
+    <span>
+        Powered by <a href="https://bearblog.dev">Bear <span role="img" class="bear" aria-label="ASCII bear logo">ʕ•ᴥ•ʔ</span></a>
+    </span>
+
+  </footer>
+
+  
+  <script>
+        (() => {
+          "use strict";
+          const times = document.querySelectorAll('time');
+          const format_string = "" || "d M, Y"
+
+          times.forEach(time => {
+              time.innerText = formatDate(time.dateTime, format_string)
+          });
+
+          function formatDate(dateStr, formatStr) {
+            const date = new Date(dateStr);
+            const day = date.getDate();
+            const month = date.getMonth();
+            const year = date.getFullYear();
+            const weekday = date.getDay();
+            const hours = date.getHours();
+            const minutes = date.getMinutes();
+            const monthsFull = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const monthsShort = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            const daysFull = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const daysShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            
+            function getOrdinal(n) {
+                const s = ['th', 'st', 'nd', 'rd'];
+                const v = n % 100;
+                return s[(v - 20) % 10] || s[v] || s[0];
+            }
+            
+            const map = {
+                'd': () => day.toString().padStart(2, '0'),
+                'm': () => (month + 1).toString().padStart(2, '0'),
+                'Y': () => year.toString(),
+                'y': () => year.toString().slice(-2),
+                'F': () => monthsFull[month],
+                'j': () => day.toString(),
+                'D': () => daysShort[weekday],
+                'l': () => daysFull[weekday],
+                'S': () => getOrdinal(day),
+                'M': () => monthsShort[month],
+                'H': () => hours.toString().padStart(2, '0'),
+                'h': () => {
+                    let h = hours % 12;
+                    h = h === 0 ? 12 : h;
+                    return h.toString().padStart(2, '0');
+                },
+                'g': () => {
+                    let h = hours % 12;
+                    return h === 0 ? '12' : h.toString();
+                },
+                'i': () => minutes.toString().padStart(2, '0'),
+                'a': () => hours < 12 ? 'am' : 'pm',
+                'A': () => hours < 12 ? 'AM' : 'PM',
+            };
+            
+            let result = '';
+            for (let char of formatStr) {
+                result += map[char] ? map[char]() : char;
+            }
+            return result;
+        }
+        })();
+    </script>
+    
+</body>
+<!-- ID: herman -->
+<!-- 🐻 -->
+</html>

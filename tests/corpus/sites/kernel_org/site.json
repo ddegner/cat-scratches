@@ -1,0 +1,6 @@
+{
+  "name": "kernel.org docs",
+  "category": "docs",
+  "cms": "sphinx",
+  "slug": "kernel_org"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://longreads.com/2024/11/06/example-feature/",
+  "recovery_url": "https://longreads.com/2026/05/06/what-will-it-take-to-get-ai-out-of-schools/",
+  "final_url": "https://longreads.com/2026/05/06/what-will-it-take-to-get-ai-out-of-schools/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 207156,
+  "error": null,
+  "fetched_at": "2026-05-07T01:37:33.889Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "What Will It Take to Get AI Out of Schools? - Longreads",
+  "recovery_attempts": [
+    {
+      "url": "https://longreads.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:42"
+    },
+    {
+      "url": "https://longreads.com/2026/05/06/what-will-it-take-to-get-ai-out-of-schools/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

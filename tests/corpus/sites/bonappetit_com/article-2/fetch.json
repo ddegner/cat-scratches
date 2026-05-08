@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bonappetit.com/recipes/slideshow/spring-salads-slideshow",
+  "replaced_url": "https://www.bonappetit.com/recipe/classic-carbonara",
+  "recovery_url": "https://www.bonappetit.com/recipes/slideshow/spring-salads-slideshow",
+  "final_url": "https://www.bonappetit.com/recipes/slideshow/spring-salads-slideshow",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1471780,
+  "error": null,
+  "fetched_at": "2026-05-07T02:25:17.314Z",
+  "elapsed_ms": 191,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "33 Fresh, Spring Salads with Seasonal Produce | Bon Appétit",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

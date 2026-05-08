@@ -1,0 +1,32 @@
+{
+  "url": "https://www.wsj.com/tech/ai/openai-chatgpt-anthropic-2024-abcd1234",
+  "recovery_url": "https://www.wsj.com/news/types/obituaries",
+  "final_url": "https://www.wsj.com/news/types/obituaries",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 700096,
+  "error": null,
+  "fetched_at": "2026-05-06T19:56:13.964Z",
+  "elapsed_ms": 215,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Obituaries - News, Articles, Biography, Photos - WSJ.com",
+  "recovery_attempts": [
+    {
+      "url": "https://www.wsj.com",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    }
+  ],
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:45:06.588Z",
+  "rejected_source": "source.rejected.html",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T13:10:49.270Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": null
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://venturebeat.com/ai/example-article-2024/",
+  "recovery_url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+  "final_url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 151941,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:10.810Z",
+  "elapsed_ms": 40,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The app store for robots has arrived: Hugging Face launches open-source Reachy Mini App Store with 200+ apps | VentureBeat",
+  "recovery_attempts": [
+    {
+      "url": "https://venturebeat.com/ai/example-article-2024/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

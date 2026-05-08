@@ -1,0 +1,22 @@
+{
+  "url": "https://www.aljazeera.com/news/2024/11/6/example-article",
+  "recovery_url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/illegal-free-party-at-french-military-site-draws-up-to-40000-ravers",
+  "final_url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/illegal-free-party-at-french-military-site-draws-up-to-40000-ravers",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 194972,
+  "error": null,
+  "fetched_at": "2026-05-06T20:02:58.637Z",
+  "elapsed_ms": 198,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Illegal ‘free party’ at French military site draws up to 40,000 ravers | Music | Al Jazeera",
+  "recovery_attempts": [
+    {
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/4/illegal-free-party-at-french-military-site-draws-up-to-40000-ravers",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

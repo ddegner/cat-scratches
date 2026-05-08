@@ -1,0 +1,18 @@
+{
+  "url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+  "replaced_url": "https://github.blog/changelog/2024-11-example/",
+  "recovery_url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+  "final_url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 201710,
+  "error": null,
+  "fetched_at": "2026-05-07T02:26:10.091Z",
+  "elapsed_ms": 34,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The uphill climb of making diff lines performant - The GitHub Blog",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Daring Fireball: Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding</title>
+
+	<link rel="apple-touch-icon-precomposed" href="/graphics/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="/graphics/favicon.ico?v=005" />
+	<link rel="mask-icon" href="/graphics/dfstar.svg" color="#4a525a">
+	<link rel="stylesheet" type="text/css" media="screen"  href="/css/fireball_screen.css?v1.2025-03-12" />
+	<link rel="stylesheet" type="text/css" media="screen"  href="/css/ie_sucks.php" />
+	<link rel="stylesheet" type="text/css" media="print"   href="/css/fireball_print.css?v01" />
+	<link rel="alternate"  type="application/atom+xml"     href="/feeds/main" />
+	<link rel="alternate"  type="application/json"         href="/feeds/json" />
+	<link rel="me"                                         href="https://mastodon.social/@gruber" />
+	<link rel="me"                                         href="https://mastodon.social/@daringfireball" />
+	<script src="/js/js-global/FancyZoom.js"></script>
+	<script src="/js/js-global/FancyZoomHTML.js"></script>
+	<link rel="home" href="/" title="Home" />
+	<link rel="prev" href="https://daringfireball.net/linked/2026/05/06/maestri" title="Luca Maestri Runs the Cafeteria" />
+	
+	<!-- Twitter Card bullshit -->
+	<meta name="twitter:card"         content="summary" />
+	<meta name="twitter:site"         content="@daringfireball" />
+	<meta name="twitter:creator"      content="@gruber" />
+	<meta name="twitter:title"        content="Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding" />
+	<meta name="twitter:description"  content="Link to: https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next" />
+	<meta name="twitter:image"        content="https://daringfireball.net/graphics/df-wide-card.png" />
+	<!-- Facebook Open Graph bullshit -->
+	<meta property="og:title"       content="Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding" />
+	<meta property="og:type"        content="article" />
+	<meta property="og:url"         content="https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding" />
+	<meta property="og:image"       content="https://daringfireball.net/graphics/df-wide-card.png" />
+	<meta property="og:site_name"   content="Daring Fireball" />
+	<meta property="og:description" content="Link to: https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next" />
+
+	<!-- Short URL:	http://df4.us/x60 -->
+</head>
+
+<body onload="setupZoom()">
+<div id="Box">
+
+<div id="Banner">
+<a href="/" title="Daring Fireball: Home"><img src="/graphics/logos/" alt="Daring Fireball" height="56" /></a>
+</div>
+<div id="Sidebar">
+<p>By <strong>John&nbsp;Gruber</strong></p>
+
+<ul><!--&#9733;-->
+<li><a href="/archive/" title="Previous articles.">Archive</a></li><li><script>
+// <![CDATA[
+function ReadCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1, c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+	}
+	return null;
+}
+var display_linked_list = ReadCookie('displayLinkedList');
+var li_linked = '<a href="/linked/" title="The Linked List.">Linked List<\/a>';
+if (display_linked_list == "hide") {
+	// Linked List is off on home page, so show it in menu:
+	document.write(li_linked + "<\/li>\n<li>");
+}
+else {
+	// Default to not putting separate LL item in sidebar:
+}
+// ]]>
+</script></li>
+<li><a href="/thetalkshow/" title="America’s favorite 3-star podcast.">The Talk Show</a></li>
+<li><a href="https://dithering.fm/" title="Two episodes per week, 15 minutes per episode. Not a minute less, not a minute more.">Dithering</a></li>
+<li><a href="/projects/" title="Software projects, including SmartyPants and Markdown.">Projects</a></li>
+<li><a href="/contact/" title="How to send email or feedback regarding Daring Fireball.">Contact</a></li>
+<li><a href="/colophon/" title="About this site and the tools used to produce it.">Colophon</a></li>
+<li><a href="/feeds/">Feeds / Social</a></li>
+<!-- 
+<li><a href="https://twitter.com/daringfireball">Twitter</a></li>
+ -->
+<li><a href="/feeds/sponsors/">Sponsorship</a></li>
+</ul>
+
+<div id="SidebarMartini">
+<a href="https://workos.com/?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026">
+	<img alt="WorkOS" src="/martini/images/workos.png" height="90">
+</a>
+<p>OpenAI, Anthropic, Cursor, and Perplexity chose <a href="https://workos.com/?utm_source=daringfireball&utm_medium=newsletter&utm_campaign=q22026">WorkOS</a> over building it themselves.</p>
+</div>
+
+</div> <!-- Sidebar -->
+
+<div id="Main">
+
+
+<dl class="linkedlist tallenough">
+<dt><a href="https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next">Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding</a></dt>
+<dd>
+<p><a href="https://daringfireball.net/linked/2026/05/06/maestri">That previous item</a> led me to look at Claris’s website for the first time in a while. And, lo, there’s a banner promoting a message from CEO Ryan McCann that was posted just yesterday, under the headline “<a href="https://www.claris.com/blog/2026/how-claris-is-building-for-what-comes-next">How Claris Is Building for What’s Next</a>”:</p>
+
+<blockquote>
+  <p>Every AI-generated application creates the same problems: Where
+does it run, and how is it deployed, secured, and managed?</p>
+
+<p>The app needs a database. It needs user authentication, role-based
+permissions, and audit logging. It needs backup and recovery. It
+needs to work on Mac, Windows, iPad, iPhone, and the web. It needs
+to run on infrastructure your organization controls, whether that
+is in the cloud or on your own hardware.</p>
+
+<p>This is what FileMaker already is. One unified platform with data,
+logic, interface, security, and cross-platform delivery, built
+together from the start. We’ve been solving this problem at scale
+for over 40 years.</p>
+</blockquote>
+
+<p>“Mac, Windows, iPad, iPhone, and the web”, huh? Feels like there’s a somewhat popular platform missing from that list. Can’t quite put my finger on it. <a href="https://daringfireball.net/linked/2011/04/03/android-first">Oh yeah</a>.</p>
+
+<blockquote>
+  <p>FileMaker 2026 is coming soon. This release focuses on resiliency,
+productivity, and infrastructure, including native disaster
+recovery and business continuity capabilities enabled by two new
+features: FileMaker Server Remote Backup and Standby Server.
+Additionally, it lays the groundwork for agentic development. We
+will share specifics in the coming weeks.</p>
+
+<p>Later this summer, following the release of FileMaker 2026, we
+will deliver the first developer previews of our agentic coding
+functionality.</p>
+</blockquote>
+
+<p>I have to admit I very seldom hear about FileMaker, and I’ve never once heard of Ryan McCann before. But it must still be a significant business. Tim Cook certainly doesn’t seem like the sentimental type.</p>
+
+<p class="smallprint">★ <em>Wednesday, 6 May 2026</em></p>
+</dd>
+</dl>
+
+<div id="Footer">
+<form id="SiteSearch" action="https://daringfireball.net/search" method="get" style="margin-bottom: 2.5em;">
+<div>
+<input name="q" type="text" value="" style="margin-right: 8px; width: 66%;" />
+<input type="submit" value="Search" />
+</div>
+</form>
+
+<p class="smallprint">
+<a href="/preferences/" title="Customize the font size and presentation options for this web site.">Display Preferences</a>
+<br /><br />
+Copyright &copy; 2002–2026 The Daring Fireball Company LLC.
+</p>
+</div>
+
+
+<!-- Google Analytics -->
+
+<!-- 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-593949-1']);
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+ -->
+
+<!-- Asynchronously load Mint -->
+<!-- No, screw mint
+<script type="text/javascript">
+(function () {
+	var ma = document.createElement('script');
+	ma.type = 'text/javascript';
+	ma.src = '/mint/?js';
+	ma.async = true;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ma, s);
+})();
+</script>
+-->
+</div> <!-- Main -->
+
+</div> <!-- Box -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f7a9b6ca854f5fa',t:'MTc3ODA5ODAwMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"d5bbc0b4e8ae452eba45dc9b72931665","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

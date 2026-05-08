@@ -1,0 +1,187 @@
+<!DOCTYPE html><html ontouchstart lang="en"><head><meta charset="UTF-8"/><meta property="og:site_name" content="Swift by Sundell"/><link rel="canonical" href="https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan"/><meta name="twitter:url" content="https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan"/><meta property="og:url" content="https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan"/><title>Building a design system at Genius Scan | Swift by Sundell</title><meta name="twitter:title" content="Building a design system at Genius Scan | Swift by Sundell"/><meta property="og:title" content="Building a design system at Genius Scan | Swift by Sundell"/><meta name="description" content="An example of how to approach the task of building a design system for an app, by focusing on creating an initial set of reusable components that can be tweaked using the SwiftUI environment."/><meta name="twitter:description" content="An example of how to approach the task of building a design system for an app, by focusing on creating an initial set of reusable components that can be tweaked using the SwiftUI environment."/><meta property="og:description" content="An example of how to approach the task of building a design system for an app, by focusing on creating an initial set of reusable components that can be tweaked using the SwiftUI environment."/><meta name="twitter:card" content="summary"/><link rel="stylesheet" href="/styles.css?v=87" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/images/favicon.png" type="image/png"/><link rel="alternate" href="/rss" type="application/rss+xml" title="Subscribe to Swift by Sundell"/><meta name="twitter:image" content="https://www.swiftbysundell.com/images/social.png"/><meta property="og:image" content="https://www.swiftbysundell.com/images/social.png"/><meta name="theme-color" content="#ff644e"/></head><body class="v3"><header><div class="wrapper"><a href="/"><img src="/images/logo.png" alt="Swift by Sundell" class="logo"/></a><p>Articles and podcasts about Swift development, by <span class="inline-block"><a href="https://mastodon.social/@johnsundell" rel="nofollow" target="_blank">John Sundell</a>.</span></p><nav><ul><li class="selected"><a href="/articles">Articles</a></li><li><a href="/podcast">Podcast</a></li><li><a href="/archive">Archive</a></li><li class="hiddenOnMobile"><a href="/subscribe">Subscribe</a></li><li class="hiddenOnMobile"><a href="/about">About</a></li><li class="search"><a href="/search">Search</a></li></ul></nav></div></header><a href="https://geniusscansdk.com/swiftbysundell?utm_content=top_bar" class="top-bar"><div class="hstack inline"><img src="/images/supporters/geniusScan-topBar.png" alt="Genius Scan SDK"/><p>Presented by the <u>Genius Scan SDK</u></p></div></a><article class="page wrapper article"><h1>Building a design system at Genius Scan</h1><div class="metadata"><ul class="tags"><li class="variant-e"><a href="/tags/ui-development">ui development</a></li><li class="variant-d"><a href="/tags/swiftui">swiftui</a></li><li class="variant-d"><a href="/tags/sponsored">sponsored</a></li><li class="swift-version">Swift 6.1</li></ul><span class="date">Published on 31 Aug 2025</span></div><div class="content"><p>As an app’s code base grows and evolves, it can be really tricky to maintain consistency within its UI. It’s easy for things like margins and padding, or colors and fonts, to start diverging, as different developers might use different values within each individual UI component’s implementation. At the same time, UI code can also become increasingly complex, since new features might be designed and implemented completely from scratch, which often leads to a minimum amount of code reuse and duplicated engineering efforts.</p><p>That’s where some form of <em>design system</em> can be incredibly useful. Although a design system can take many different shapes and forms, the general idea is to formalize an app’s design and overall UI, by creating various components that can easily be reused within different contexts — leading to a more consistent, decoupled, and reusable overall implementation (both in terms of design and code).</p><p>At first, it might seem really tricky to start building such a system — as it’s common to consider it to be an enormous project that will require months to complete. Not to mention that the whole app then seemingly needs be rewritten to adopt the new system. The good news, though, is that a design system can very often be built incrementally, and there’s really no need to rewrite anything to get started.</p><p>So, in this article, I’d like to share how I’ve been helping the team at <a href="https://thegrizzlylabs.com/genius-scan">Genius Scan</a> (which is also the company that has helped me bring back Swift by Sundell after a long hiatus, by <a href="https://geniusscansdk.com/swiftbysundell">promoting their SDK</a>) to build an initial design system, which is being incrementally adopted across all of the company’s various code bases.</p><p>This article won’t be a step-by-step tutorial on how to build a design system for any app, but rather an example (real-world, although somewhat edited to work well for an article) of how to approach the task of building such a system. I hope it’ll be interesting, and serve as a nice source of inspiration.</p><a class="supporter hstack long-text" href="https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad" rel="nofollow" target="_blank"><img class="main" src="/images/supporters/geniusScan-image.png" alt="Genius Scan SDK"/><div><p>Swift by Sundell is brought to you by the <strong>Genius Scan SDK</strong> — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. <u>Try it today</u>.</p></div></a><h2><a id="picking-an-entry-point" href="#picking-an-entry-point">Picking an entry point</a></h2><p>Like all good engineering solutions, building a design system should aim to solve an actual problem that we’re facing within a given project. So, in the case of Genius Scan, what prompted us to start building such a system was that we had been struggling to maintain consistency (which in turn lead to duplicate bug fixes, and code duplication) within certain parts of our UI code — specifically within our various <em>lists</em>.</p><p>Like many other iOS apps, Genius Scan has a lot of list views — which let you view your scanned documents, folders, export services, and so on. So the first goal for our design system was to create a robust solution for building such lists, that would enable us to share as much code and design properties as possible between them, while still having a system that would be flexible enough to accommodate each list’s different needs.</p><p>By picking an initial, reasonably sized goal like that, and not requiring an entire huge set of components to be built up front, we would be able to build and test the initial version of our design system quite quickly, and incrementally adopt it whenever we built a new list, or when an existing one was significantly updated or refactored.</p><h2><a id="composition-is-key" href="#composition-is-key">Composition is key</a></h2><p>One mistake that’s sometimes made when building design systems is to lock them down too much around a specific set of prepared components. After all, even in the most consistent app code bases, different features will require different component tweaks, and app designs also tend to change over time.</p><p>So, just like how Apple designed SwiftUI’s overall API, placing a strong focus on <em>composition</em> can be incredibly important in order to create a design system that’ll actually stand the test of time. Essentially, we want to create a set of robust, well-defined building blocks, that can then be combined in order to create the actual UI for the features that we want to build.</p><p>In the case of Genius Scan, since our initial focus was on lists, we started by creating a basic <code>Row</code> component, which would simply combine a leading and trailing element into a horizontal row:</p><pre class="splash"><code><span class="s-comment">// We define all of our design system APIs as 'public', since
+// we're implementing our system as a separate Swift package.</span>
+<span class="s-keyword">public struct</span> Row&lt;Leading: <span class="s-type">View</span>, Trailing: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    <span class="s-keyword">public var</span> leading: <span class="s-type">Leading</span>
+    <span class="s-keyword">public var</span> trailing: <span class="s-type">Trailing</span>
+
+    <span class="s-keyword">public init</span>(
+        <span class="s-keyword">@ViewBuilder</span> leading: () -&gt; <span class="s-type">Leading</span>,
+        <span class="s-keyword">@ViewBuilder</span> trailing: () -&gt; <span class="s-type">Trailing</span> = <span class="s-type">EmptyView</span>.<span class="s-keyword">init</span>
+    ) {
+        <span class="s-keyword">self</span>.<span class="s-property">leading</span> = <span class="s-call">leading</span>()
+        <span class="s-keyword">self</span>.<span class="s-property">trailing</span> = <span class="s-call">trailing</span>()
+    }
+    
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">HStack</span> {
+            leading
+
+            trailing
+                .<span class="s-call">padding</span>(.<span class="s-dotAccess">leading</span>)
+                .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>, alignment: .<span class="s-dotAccess">trailing</span>)
+        }
+        .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>, alignment: .<span class="s-dotAccess">leading</span>)
+    }
+}</code></pre><p class="info">Note how we evaluate both of our content closures within the view’s initializer, rather than within its <code>body</code>. That’s to avoid re-evaluating the closures every time the view is updated. To learn more, check out <a href="/articles/swiftui-viewbuilder-tips-and-tricks/">“Tips and tricks for when using SwiftUI’s ViewBuilder”</a>.</p><p>The above component might not look that useful by itself, but it serves as a great starting point for building increasingly more complex row-based components. For example, using the above <code>Row</code>, we can now construct a specialized version of it for rendering a row that has a label and a text field — like this:</p><pre class="splash"><code><span class="s-keyword">public struct</span> TextFieldRow: <span class="s-type">View</span> {
+    <span class="s-keyword">public var</span> title: <span class="s-type">String</span>
+    <span class="s-keyword">public var</span> placeholder: <span class="s-type">String</span>
+    <span class="s-keyword">@Binding public var</span> text: <span class="s-type">String</span>
+
+    <span class="s-keyword">@FocusState private var</span> isTextFieldFocused
+
+    <span class="s-keyword">public init</span>(title: <span class="s-type">String</span>, placeholder: <span class="s-type">String</span>, text: <span class="s-type">Binding</span>&lt;<span class="s-type">String</span>&gt;) {
+        <span class="s-keyword">self</span>.<span class="s-property">title</span> = title
+        <span class="s-keyword">self</span>.<span class="s-property">placeholder</span> = placeholder
+        _text = text
+    }
+
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Row</span>(leading: {
+            <span class="s-type">Text</span>(title)
+                .<span class="s-call">bold</span>()
+                .<span class="s-call">foregroundStyle</span>(isTextFieldFocused ? .<span class="s-dotAccess">orange</span> : .<span class="s-dotAccess">primary</span>)
+                .<span class="s-call">onTapGesture</span> { isTextFieldFocused = <span class="s-keyword">true</span> }
+        }, trailing: {
+            <span class="s-type">TextField</span>(placeholder, text: <span class="s-property">$text</span>)
+                .<span class="s-call">multilineTextAlignment</span>(.<span class="s-dotAccess">trailing</span>)
+                .<span class="s-call">focused</span>(<span class="s-property">$isTextFieldFocused</span>)
+        })
+    }
+}</code></pre><p>We’re still building the foundation for our new design system, but we now already have a component that’s ready to be used as-is in a wide number of scenarios — for example whenever the user is entering text into some kind of form. But where the true power of a design system starts to show is when we start building in functionality into our components that all call sites get for free.</p><p>For example, if we add a <code>contentType</code> parameter to our <code>TextFieldRow</code>, then we can use that both to give the system a hint regarding what kind of text that the user is entering, as well as to choose the appropriate keyboard for that content type, and even automatically use a <code>SecureField</code> when the user is expected to input a password:</p><pre class="splash"><code><span class="s-keyword">public struct</span> TextFieldRow: <span class="s-type">View</span> {
+    ...
+    <span class="highlight"><span class="s-keyword">public var</span> contentType: <span class="s-type">UITextContentType</span>?</span>
+    ...
+
+    <span class="s-keyword">public init</span>(
+        title: <span class="s-type">String</span>,
+        placeholder: <span class="s-type">String</span>,
+        <span class="highlight">contentType: <span class="s-type">UITextContentType</span>?</span>,
+        text: <span class="s-type">Binding</span>&lt;<span class="s-type">String</span>&gt;
+    ) {
+        ...
+        <span class="s-keyword">self</span>.<span class="s-property">contentType</span> = contentType
+        ...
+    }
+
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Row</span>(leading: {
+            ...
+        }, trailing: {
+            inputView
+                .<span class="s-call">multilineTextAlignment</span>(.<span class="s-dotAccess">trailing</span>)
+                <span class="highlight">.<span class="s-call">textContentType</span>(contentType)
+.<span class="s-call">keyboardType</span>(contentType?.<span class="s-property">matchingKeyboardType</span> ?? .<span class="s-dotAccess">default</span>)</span>
+                .<span class="s-call">focused</span>(<span class="s-property">$isTextFieldFocused</span>)
+        })
+    }
+
+    <span class="s-keyword">@ViewBuilder private var</span> inputView: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="highlight"><span class="s-keyword">switch</span> contentType {
+<span class="s-keyword">case</span> .<span class="s-dotAccess">password</span>, .<span class="s-dotAccess">newPassword</span>:
+    <span class="s-type">SecureField</span>(placeholder, text: <span class="s-property">$text</span>)
+<span class="s-keyword">default</span>:
+    <span class="s-type">TextField</span>(placeholder, text: <span class="s-property">$text</span>)
+}</span>
+    }
+}</code></pre><p>One core aspect of SwiftUI that really makes it a great fit for building a design system is how easy it typically makes extracting one part of a component into a brand new implementation — which in turn gives us further opportunities for composition and code reuse.</p><p>For example, let’s say that we now wanted to make the above <code>UITextContentType</code>-related logic reusable, so that it’s not specifically tied to <code>TextFieldRow</code>. That could be done by extracting all of those parts into a new <code>TextInputView</code>, which we’d then make <code>TextFieldRow</code> use:</p><pre class="splash"><code><span class="s-keyword">public struct</span> TextInputView: <span class="s-type">View</span> {
+    <span class="s-keyword">public var</span> placeholder: <span class="s-type">String</span>
+    <span class="s-keyword">public var</span> contentType: <span class="s-type">UITextContentType</span>?
+    <span class="s-keyword">@Binding public var</span> text: <span class="s-type">String</span>
+
+    <span class="s-keyword">public init</span>(
+        placeholder: <span class="s-type">String</span>,
+        contentType: <span class="s-type">UITextContentType</span>?,
+        text: <span class="s-type">Binding</span>&lt;<span class="s-type">String</span>&gt;
+    ) {
+        <span class="s-keyword">self</span>.<span class="s-property">placeholder</span> = placeholder
+        <span class="s-keyword">self</span>.<span class="s-property">contentType</span> = contentType
+        _text = text
+    }
+
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        inputView
+            .<span class="s-call">textContentType</span>(contentType)
+            .<span class="s-call">keyboardType</span>(contentType?.<span class="s-property">matchingKeyboardType</span> ?? .<span class="s-dotAccess">default</span>)
+    }
+
+    <span class="s-keyword">@ViewBuilder private var</span> inputView: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-keyword">switch</span> contentType {
+        <span class="s-keyword">case</span> .<span class="s-dotAccess">password</span>, .<span class="s-dotAccess">newPassword</span>:
+            <span class="s-type">SecureField</span>(placeholder, text: <span class="s-property">$text</span>)
+        <span class="s-keyword">default</span>:
+            <span class="s-type">TextField</span>(placeholder, text: <span class="s-property">$text</span>)
+        }
+    }
+}
+
+<span class="s-keyword">public struct</span> TextFieldRow: <span class="s-type">View</span> {
+    ...
+
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Row</span>(leading: {
+           ...
+        }, trailing: {
+            <span class="highlight"><span class="s-type">TextInputView</span>(
+    placeholder: placeholder,
+    contentType: contentType,
+    text: <span class="s-property">$text</span>
+)</span>
+            .<span class="s-call">multilineTextAlignment</span>(.<span class="s-dotAccess">trailing</span>)
+            .<span class="s-call">focused</span>(<span class="s-property">$isTextFieldFocused</span>)
+        })
+    }
+}</code></pre><p>So, as the above examples illustrate, the process of getting started building a design system can really be quite simple, and as long as we focus on implementing composable building blocks, we’re quite likely to end up with a flexible solution that doesn’t require a lot of complex logic within each specific component.</p><p>For example, if a given feature within our app needs to show a label that’s different from the one that the default <code>TextFieldRow</code> uses, then that feature can now simply compose the root <code>Row</code> type with <code>TextInputView</code>, and define its own <code>leading</code> label for such rows, without having to add that additional complexity within our design system itself. That way the system itself can stay well-organized and focused, and defer all specialization to each individual feature.</p><h2><a id="the-power-of-the-environment" href="#the-power-of-the-environment">The power of the environment</a></h2><p>When it comes to specialization and customization, we do still want to enable our components to be tweaked to some extent, so that we won’t end up requiring a brand new (composed) implementation each time. Otherwise, we can often end up with another problem — that very few features actually end up <em>using</em> the design system that we’ve built, since building components from scratch ends up being easier.</p><p>The key here is to strike a nice balance between adding too much feature-specific functionality into our design system itself, versus making our components too simple and therefore not practically useable (which is also a big reason why it’s typically a good idea to have feature work drive the implementation of our design system, rather than building it in complete isolation).</p><p>For example, in the case of Genius Scan, some of the lists that we were building required each row to be inset with a certain amount of padding. Now, we could of course add support for that by adding a <code>padding</code> parameter to each of our row components, but that wouldn’t really be in favor of our consistency goal, and would also likely lead to code duplication and lots of magic numbers.</p><p>Instead, let’s take a look at how we can add a mechanism for changing a given row’s style using the <em>SwiftUI environment</em>.</p><p>To get started, let’s define a root <code>Configuration</code> value that we’re going to use to encapsulate all of our design system’s configurable parameters — which will also give us a great overview of what kind of design system aspects that are currently user-adjustable. In the case of Genius Scan, that configuration type ended up looking something like this:</p><pre class="splash"><code><span class="s-keyword">struct</span> Configuration {
+    <span class="s-keyword">var</span> rows = <span class="s-type">Row</span>.<span class="s-type">Configuration</span>()
+    <span class="s-keyword">var</span> colors = <span class="s-type">Color</span>.<span class="s-type">Configuration</span>()
+    <span class="s-keyword">var</span> icons = <span class="s-type">Icon</span>.<span class="s-type">Configuration</span>()
+    ...
+}
+
+<span class="s-keyword">extension</span> <span class="s-type">EnvironmentValues</span> {
+    <span class="s-keyword">@Entry var</span> configuration = <span class="s-type">Configuration</span>()
+}</code></pre><blockquote><p>Note how we also define an <code>@Entry</code> for our configuration within SwiftUI’s <code>EnvironmentValues</code> type. That’s so that we later will be able to get and set our design system’s configuration values through the SwiftUI environment.</p></blockquote><p>As we can see above, the root <code>Configuration</code> type essentially just encapsulates other configuration types that are specific to each component category, such as <code>rows</code>. That way, we can prevent <code>Configuration</code> from having too many properties, while also adding a bit of extra structure to our configuration values.</p><p>Looking closer at <code>Row.Configuration</code> in particular, it’ll enable us to change which <code>RowStyle</code> to use, and what background color to use for rows that are using the <code>inset</code> style:</p><pre class="splash"><code><span class="s-keyword">public enum</span> RowStyle {
+    <span class="s-keyword">case</span> plain
+    <span class="s-keyword">case</span> inset
+}
+
+<span class="s-keyword">extension</span> <span class="s-type">Row</span> <span class="s-keyword">where</span> <span class="s-type">Leading</span> == <span class="s-type">Never</span>, <span class="s-type">Trailing</span> == <span class="s-type">Never</span> {
+    <span class="s-keyword">struct</span> <span class="highlight"><span class="s-type">Configuration</span></span> {
+        <span class="s-keyword">var</span> style = <span class="s-type">RowStyle</span>.<span class="s-property">plain</span>
+        <span class="s-keyword">var</span> insetBackgroundColor = <span class="s-type">Color</span>.<span class="s-property">secondary</span>
+        ...
+    }
+}</code></pre><blockquote><p>Above we’re specifying <code>Never</code> as the generic constraint for both our <code>Leading</code> and <code>Trailing</code> types, since we want to use a single, non-generic <code>Configuration</code> type for all of our <code>Row</code> variants. In theory, we could’ve picked any other type to constrain to (such as <code>Text</code>, or <code>Color</code>), but <code>Never</code> is a quite good fit here since otherwise it might seem like our configuration only applies to rows with a specific kind of leading or training content.</p></blockquote><p>With the above pieces in place, let’s now update our <code>Row</code> component from before, by retrieving the <code>row</code> part of our design system’s configuration from the current environment, and to then use those configuration values to determine how to render each row’s <code>content</code> (which is the exact same UI code that we originally implemented directly within the <code>body</code> property):</p><pre class="splash"><code><span class="s-keyword">public struct</span> Row&lt;Leading: <span class="s-type">View</span>, Trailing: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    ...
+    <span class="s-keyword">@Environment</span>(\.<span class="s-property">configuration</span>.<span class="s-property">rows</span>) <span class="s-keyword">private var</span> configuration
+    ...
+
+    <span class="s-keyword">public var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-keyword">switch</span> <span class="highlight">configuration.<span class="s-property">style</span></span> {
+        <span class="s-keyword">case</span> .<span class="s-dotAccess">plain</span>:
+            content
+        <span class="s-keyword">case</span> .<span class="s-dotAccess">inset</span>:
+            content
+                .<span class="s-call">padding</span>()
+                .<span class="s-call">background</span>(<span class="highlight shifted">configuration.<span class="s-property">insetBackgroundColor</span></span>)
+        }
+    }
+    
+    <span class="s-keyword">private var</span> content: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">HStack</span> {
+            leading
+
+            trailing
+                .<span class="s-call">padding</span>(.<span class="s-dotAccess">leading</span>)
+                .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>, alignment: .<span class="s-dotAccess">trailing</span>)
+        }
+        .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>, alignment: .<span class="s-dotAccess">leading</span>)
+    }
+}</code></pre><p>Alright, just one piece of the puzzle left. You might have noticed that we didn’t actually make our <code>Configuration</code> type <code>public</code> earlier, even though we of course want users of our design system to be able to change configuration values from within a consuming app target.</p><p>The reason for that is because we instead want to define explicit public APIs for changing different aspects of each configuration — by implementing modifier-like <code>View</code> methods that will blend in very nicely with SwiftUI’s own APIs. That way, our <code>Configuration</code> type becomes an internal implementation detail, and we can tailor what kind of configuration aspects that we want to give each call site control over, like this:</p><pre class="splash"><code><span class="s-keyword">public extension</span> <span class="s-type">View</span> {
+    <span class="s-keyword">func</span> rowStyle(<span class="s-keyword">_</span> style: <span class="s-type">RowStyle</span>) -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-call">environment</span>(\.<span class="s-property">configuration</span>.<span class="s-property">rows</span>.<span class="s-property">style</span>, style)
+    }
+    
+    <span class="s-keyword">func</span> rowInsetBackgroundColor(<span class="s-keyword">_</span> color: <span class="s-type">Color</span>) -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-call">environment</span>(\.<span class="s-property">configuration</span>.<span class="s-property">rows</span>.<span class="s-property">insetBackgroundColor</span>, color)
+    }
+}</code></pre><blockquote><p>Above we’re allowing any <code>Color</code> value to be set as the row inset background color, which favors flexibility. However, if we’d like to restrict our API users to instead only pick from a set of pre-defined colors, then we could’ve defined our own <code>Color</code> enum instead of using SwiftUI’s color type directly.</p></blockquote><p>By continuously using the principles that we explored above, we can take this very early beginning of a design system and keep scaling it up — to add more components, more APIs, and to increase adoption within any apps that consume our system. A design system will probably never be “finished”, as it will likely need to be an ever-evolving code base that’s adapted to new designs, as well as system changes from Apple — such as the introduction of Liquid Glass in iOS 26.</p><a class="supporter hstack long-text" href="https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad" rel="nofollow" target="_blank"><img class="main" src="/images/supporters/geniusScan-image.png" alt="Genius Scan SDK"/><div><p>Swift by Sundell is brought to you by the <strong>Genius Scan SDK</strong> — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. <u>Try it today</u>.</p></div></a><h2><a id="conclusion" href="#conclusion">Conclusion</a></h2><p>A design system is not something that you’d typically start building when an app’s code base is relatively small, but once a code base reaches a point where UI consistency and code duplication starts to become an issue, then building a design system can be a great solution to such problems.</p><p>Plus, I’ve personally found that building a design system can often really help make the collaboration between developers and designers much better. When everyone involved in designing and building an app’s UI is focused on how different components can be defined and then later composed, then the process of translating designs into code often becomes so much more streamlined, and communication becomes smother too — since everyone now has a shared “vocabulary” of sorts when talking about the app’s UI.</p><p>I hope that you found this article interesting. If you have any questions, comments, or feedback, then feel free to each out via either <a href="https://mastodon.social/@johnsundell">Mastodon</a> or <a href="https://bsky.app/profile/johnsundell.bsky.social">Bluesky</a>.</p><p>Thanks for reading!</p></div><ul class="actions"></ul><div class="related-content"><div class="float-container"><h2>More on similar topics</h2><a href="/tags" class="browse-all">Browse all content by tag</a></div><ul class="item-list grid compact"><li><a href="/podcast/76" aria-label="76: “A huge year for SwiftUI”, a WWDC20 special with Josh Shaffer and Eliza Block"><article class="podcast"><span class="type">Podcast episode</span><h1>76: “A huge year for SwiftUI”<span class="guest"> a WWDC20 special with Josh Shaffer and Eliza Block</span></h1></article></a></li><li><a href="/tips/importing-interactive-uikit-views-into-swiftui" aria-label="Importing interactive UIKit views into SwiftUI"><article class="tips"><span class="type">Tip</span><h1>Importing interactive UIKit views into SwiftUI</h1></article></a></li><li><a href="/tips/using-swiftui-foreach-with-raw-values" aria-label="Using SwiftUI’s ForEach with raw values"><article class="tips"><span class="type">Tip</span><h1>Using SwiftUI’s ForEach with raw values</h1></article></a></li></ul></div></article><a href="/articles/let-vs-var-for-swift-struct-properties" aria-label="Deciding between ‘let’ and ‘var’ for Swift struct properties" class="pagination previous"><b>Previous:</b> Deciding between ‘let’ and ‘var’ for Swift struct properties</a><footer><p>Copyright © Sundell sp. z o.o. 2025.</p><p>Built in Swift using <a href="https://github.com/johnsundell/publish">Publish</a>.</p><p><a href="https://mastodon.social/@johnsundell" rel="nofollow" target="_blank">Mastodon</a> | <a href="/subscribe">RSS</a> | <a href="/contact">Contact</a></p></footer></body></html>

@@ -1,0 +1,22 @@
+{
+  "url": "https://kottke.org/24/11/example-link-post",
+  "recovery_url": "https://kottke.org/26/05/0048886-a-guy-interviewing-for-an",
+  "final_url": "https://kottke.org/26/05/0048886-a-guy-interviewing-for-an",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 24660,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:45.352Z",
+  "elapsed_ms": 73,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "20 years ago: a guy interviewing for an IT job gets pulled o...",
+  "recovery_attempts": [
+    {
+      "url": "https://kottke.org/26/05/0048886-a-guy-interviewing-for-an",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

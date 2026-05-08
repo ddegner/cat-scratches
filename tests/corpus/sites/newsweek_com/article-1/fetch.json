@@ -1,0 +1,18 @@
+{
+  "url": "https://www.newsweek.com/sports/mlb/framber-valdez-likely-facing-suspension-after-throwing-at-trevor-story-11919391",
+  "replaced_url": "https://www.newsweek.com/example-2024-12345",
+  "recovery_url": "https://www.newsweek.com/sports/mlb/framber-valdez-likely-facing-suspension-after-throwing-at-trevor-story-11919391",
+  "final_url": "https://www.newsweek.com/sports/mlb/framber-valdez-likely-facing-suspension-after-throwing-at-trevor-story-11919391",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 774205,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:20.754Z",
+  "elapsed_ms": 44,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Framber Valdez Likely Facing Suspension After Throwing at Trevor Story - Newsweek",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

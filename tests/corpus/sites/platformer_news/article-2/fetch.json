@@ -1,0 +1,28 @@
+{
+  "url": "https://www.platformer.news/anthropic-claude-3-5-sonnet/",
+  "recovery_url": "https://www.platformer.news/trump-administration-doomers-ai/",
+  "final_url": "https://www.platformer.news/trump-administration-doomers-ai/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 52316,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:01.309Z",
+  "elapsed_ms": 31,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Trump administration's AI doomer moment",
+  "recovery_attempts": [
+    {
+      "url": "https://www.platformer.news",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:13"
+    },
+    {
+      "url": "https://www.platformer.news/trump-administration-doomers-ai/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

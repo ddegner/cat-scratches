@@ -1,0 +1,34 @@
+{
+  "url": "https://www.vox.com/policy/2024/5/15/explainer-ai",
+  "recovery_url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+  "final_url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 259567,
+  "error": null,
+  "fetched_at": "2026-05-06T20:16:20.862Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "5 ways the Strait of Hormuz standoff could end | Vox",
+  "recovery_attempts": [
+    {
+      "url": "https://www.vox.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:73"
+    },
+    {
+      "url": "https://www.vox.com/2018/12/7/18113237/ethics-and-guidelines-at-vox-com",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

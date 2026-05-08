@@ -1,0 +1,18 @@
+{
+  "url": "https://apnews.com/article/iran-us-israel-war-china-may-6-2026-3d061a90ccde095178d9b988d94d08f3",
+  "replaced_url": "https://apnews.com/hub/artificial-intelligence",
+  "recovery_url": "https://apnews.com/article/iran-us-israel-war-china-may-6-2026-3d061a90ccde095178d9b988d94d08f3",
+  "final_url": "https://apnews.com/article/iran-us-israel-war-china-may-6-2026-3d061a90ccde095178d9b988d94d08f3",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 875153,
+  "error": null,
+  "fetched_at": "2026-05-07T02:06:36.586Z",
+  "elapsed_ms": 93,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "US fires on Iranian oil tanker as Trump pressures Tehran for deal to end war | AP News",
+  "replacement_reasons": [
+    "bad-note"
+  ]
+}

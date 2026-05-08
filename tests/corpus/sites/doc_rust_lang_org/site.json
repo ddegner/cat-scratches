@@ -1,0 +1,6 @@
+{
+  "name": "Rust book",
+  "category": "docs",
+  "cms": "mdbook",
+  "slug": "doc_rust_lang_org"
+}

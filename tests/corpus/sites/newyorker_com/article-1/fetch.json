@@ -1,0 +1,18 @@
+{
+  "url": "https://www.newyorker.com/magazine/2026/04/13/how-the-internet-fringe-infiltrated-republican-politics",
+  "replaced_url": "https://www.newyorker.com/magazine/2024/03/18/the-rise-of-ai",
+  "recovery_url": "https://www.newyorker.com/magazine/2026/04/13/how-the-internet-fringe-infiltrated-republican-politics",
+  "final_url": "https://www.newyorker.com/magazine/2026/04/13/how-the-internet-fringe-infiltrated-republican-politics",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1324807,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:00.753Z",
+  "elapsed_ms": 96,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How the Internet Fringe Infiltrated Republican Politics | The New Yorker",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

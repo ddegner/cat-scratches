@@ -1,0 +1,6 @@
+{
+  "name": "Wix blog example",
+  "category": "blog",
+  "cms": "wix",
+  "slug": "wix_blog"
+}

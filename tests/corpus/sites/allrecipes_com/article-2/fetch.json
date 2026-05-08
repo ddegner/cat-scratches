@@ -1,0 +1,18 @@
+{
+  "url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+  "replaced_url": "https://www.allrecipes.com/recipe/45957/classic-carbonara/",
+  "recovery_url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+  "final_url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 461991,
+  "error": null,
+  "fetched_at": "2026-05-07T02:25:14.701Z",
+  "elapsed_ms": 227,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Brunch Spinach Salad Recipe",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

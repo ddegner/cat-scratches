@@ -1,0 +1,28 @@
+{
+  "url": "https://nypost.com/2024/05/15/business/example/",
+  "recovery_url": "https://nypost.com/2026/05/06/business/ex-jpmorgan-banker-chirayu-rana-referred-to-mental-treatment-by-das-office-source/",
+  "final_url": "https://nypost.com/2026/05/06/business/ex-jpmorgan-banker-chirayu-rana-referred-to-mental-treatment-by-das-office-source/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 517055,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:58.898Z",
+  "elapsed_ms": 24,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Exclusive | Ex-JPMorgan banker Chirayu Rana was referred for mental treatment after probe into ‘sex slave’ claims found nothing: sources",
+  "recovery_attempts": [
+    {
+      "url": "https://nypost.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:267"
+    },
+    {
+      "url": "https://nypost.com/2026/05/06/business/ex-jpmorgan-banker-chirayu-rana-referred-to-mental-treatment-by-das-office-source/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

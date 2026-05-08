@@ -1,0 +1,25 @@
+{
+  "url": "https://www.paulgraham.com/do.html",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "body > table td",
+  "keep": [
+    "p",
+    "i",
+    "b"
+  ],
+  "strip": [
+    "a[name]:empty",
+    "font[size='-1']"
+  ],
+  "expected_quirks": [
+    "Same PG house style as greatwork.html"
+  ],
+  "category_tags": [
+    "blog",
+    "essay",
+    "static-html"
+  ],
+  "notes": "Short essay form. Tests extractor on minimal-markup HTML."
+}

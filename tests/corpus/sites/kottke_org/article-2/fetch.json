@@ -1,0 +1,18 @@
+{
+  "url": "https://kottke.org/26/05/0048880-what-has-changed-about-cl",
+  "replaced_url": "https://kottke.org/24/05/example-longer-post",
+  "recovery_url": "https://kottke.org/26/05/0048880-what-has-changed-about-cl",
+  "final_url": "https://kottke.org/26/05/0048880-what-has-changed-about-cl",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 25828,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:51.388Z",
+  "elapsed_ms": 74,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Jon Krakauer writes about what has changed about climbing Mt...",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

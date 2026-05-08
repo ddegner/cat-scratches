@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/torvalds/linux/blob/master/README",
+  "final_url": "https://github.com/torvalds/linux/blob/master/README",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 286017,
+  "error": null,
+  "fetched_at": "2026-04-15T18:52:34.706Z",
+  "elapsed_ms": 613,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

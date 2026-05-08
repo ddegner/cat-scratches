@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tumblr.com/staff/811667537981030400",
+  "replaced_url": "https://staff.tumblr.com/post/87654321/example-two",
+  "recovery_url": "https://www.tumblr.com/staff/811667537981030400",
+  "final_url": "https://www.tumblr.com/staff/811667537981030400",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 197428,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:25.609Z",
+  "elapsed_ms": 326,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Tumblr Advisor Board – @staff on Tumblr",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.nybooks.com/articles/2024/05/15/example/",
+  "recovery_url": "https://www.nybooks.com/articles/2026/05/28/irans-new-winter-christopher-de-bellaigue/",
+  "final_url": "https://www.nybooks.com/articles/2026/05/28/irans-new-winter-christopher-de-bellaigue/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 154800,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:48.446Z",
+  "elapsed_ms": 36,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Iran’s New Winter | Christopher de Bellaigue | The New York Review of Books",
+  "recovery_attempts": [
+    {
+      "url": "https://www.nybooks.com/articles/2026/05/28/irans-new-winter-christopher-de-bellaigue/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

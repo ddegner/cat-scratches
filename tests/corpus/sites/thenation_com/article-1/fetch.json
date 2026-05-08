@@ -1,0 +1,22 @@
+{
+  "url": "https://www.thenation.com/article/politics/example-2024/",
+  "recovery_url": "https://www.thenation.com/article/society/diy-trans-healthcare-history/",
+  "final_url": "https://www.thenation.com/article/society/diy-trans-healthcare-history/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 304610,
+  "error": null,
+  "fetched_at": "2026-05-06T20:02:12.749Z",
+  "elapsed_ms": 60,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Troubled History of DIY Trans Healthcare | The Nation",
+  "recovery_attempts": [
+    {
+      "url": "https://www.thenation.com/article/society/diy-trans-healthcare-history/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

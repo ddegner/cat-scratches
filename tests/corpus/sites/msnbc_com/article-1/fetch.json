@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ms.now/news/nearly-80000-ballots-in-limbo-after-louisiana-halted-house-primaries",
+  "replaced_url": "https://www.msnbc.com/opinion/example-2024",
+  "recovery_url": "https://www.ms.now/news/nearly-80000-ballots-in-limbo-after-louisiana-halted-house-primaries",
+  "final_url": "https://www.ms.now/news/nearly-80000-ballots-in-limbo-after-louisiana-halted-house-primaries",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 197643,
+  "error": null,
+  "fetched_at": "2026-05-07T02:20:17.968Z",
+  "elapsed_ms": 101,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Nearly 80,000 ballots in limbo after Louisiana halted House primaries",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

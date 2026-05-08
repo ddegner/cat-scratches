@@ -1,0 +1,22 @@
+{
+  "url": "https://www.cnet.com/tech/services-and-software/example-2024/",
+  "recovery_url": "https://www.cnet.com/news/social-media/online-child-teen-safety-social-media-age-verification-feature-news/",
+  "final_url": "https://www.cnet.com/news/social-media/online-child-teen-safety-social-media-age-verification-feature-news/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 928619,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:05.261Z",
+  "elapsed_ms": 233,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Kids, Social Media and Safety: Why a Years-Long Battle Has No End in Sight - CNET",
+  "recovery_attempts": [
+    {
+      "url": "https://www.cnet.com/news/social-media/online-child-teen-safety-social-media-age-verification-feature-news/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

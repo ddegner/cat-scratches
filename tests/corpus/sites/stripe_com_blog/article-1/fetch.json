@@ -1,0 +1,34 @@
+{
+  "url": "https://stripe.com/blog/example-post-2024",
+  "recovery_url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
+  "final_url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 353401,
+  "error": null,
+  "fetched_at": "2026-05-06T20:35:08.058Z",
+  "elapsed_ms": 627,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol codeveloped with OpenAI",
+  "recovery_attempts": [
+    {
+      "url": "https://stripe.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:85"
+    },
+    {
+      "url": "https://stripe.com/legal/restricted-businesses",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

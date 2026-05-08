@@ -1,0 +1,22 @@
+{
+  "url": "https://nypost.com/2024/11/06/news/example-article/",
+  "recovery_url": "https://nypost.com/2026/05/06/lifestyle/woman-left-stressful-teaching-job-to-earn-100000-a-year-as-a-professional-cuddler/",
+  "final_url": "https://nypost.com/2026/05/06/lifestyle/woman-left-stressful-teaching-job-to-earn-100000-a-year-as-a-professional-cuddler/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 600648,
+  "error": null,
+  "fetched_at": "2026-05-06T20:01:56.682Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Woman left 'stressful' teaching job to earn $100,000 a year as a professional cuddler",
+  "recovery_attempts": [
+    {
+      "url": "https://nypost.com/2026/05/06/lifestyle/woman-left-stressful-teaching-job-to-earn-100000-a-year-as-a-professional-cuddler/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

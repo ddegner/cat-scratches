@@ -1,0 +1,28 @@
+{
+  "url": "https://aeon.co/essays/example-philosophy-essay",
+  "recovery_url": "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed",
+  "final_url": "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 277405,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:40.289Z",
+  "elapsed_ms": 16093,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Why reality is more than the sum of its particles | Aeon Essays",
+  "recovery_attempts": [
+    {
+      "url": "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed",
+      "method": "http",
+      "status": 429,
+      "reason": "http:429"
+    },
+    {
+      "url": "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

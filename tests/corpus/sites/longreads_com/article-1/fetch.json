@@ -1,0 +1,22 @@
+{
+  "url": "https://longreads.com/2024/05/15/example-essay/",
+  "recovery_url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+  "final_url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 208308,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:21.203Z",
+  "elapsed_ms": 37,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Shall We Play a Game? - Longreads",
+  "recovery_attempts": [
+    {
+      "url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://www.propublica.org/article/example-investigation-2024",
+  "recovery_url": "https://www.propublica.org/article/more-parents-decline-vitamin-k-shot-newborns",
+  "final_url": "https://www.propublica.org/article/more-parents-decline-vitamin-k-shot-newborns",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 283990,
+  "error": null,
+  "fetched_at": "2026-05-06T20:01:43.036Z",
+  "elapsed_ms": 76,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Parents Increasingly Reject Vitamin K Shots for Newborns, Hospitals Report — ProPublica",
+  "recovery_attempts": [
+    {
+      "url": "https://www.propublica.org/article/example-investigation-2024",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.propublica.org/article/ai-accountability-2024",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.propublica.org/article/more-parents-decline-vitamin-k-shot-newborns",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

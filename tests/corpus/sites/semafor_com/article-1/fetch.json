@@ -1,0 +1,22 @@
+{
+  "url": "https://www.semafor.com/article/05/15/2024/openai-board",
+  "recovery_url": "https://www.semafor.com/article/04/28/2026/the-uaes-opec-exit-is-no-surprise?utm_medium=gulf&utm_campaign=flagshipnumbered6&utm_source=nowcta",
+  "final_url": "https://www.semafor.com/article/04/28/2026/the-uaes-opec-exit-is-no-surprise?utm_medium=gulf&utm_campaign=flagshipnumbered6&utm_source=nowcta",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 117671,
+  "error": null,
+  "fetched_at": "2026-05-06T20:01:44.592Z",
+  "elapsed_ms": 120,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The UAE’s OPEC exit is no surprise | Semafor",
+  "recovery_attempts": [
+    {
+      "url": "https://www.semafor.com/article/04/28/2026/the-uaes-opec-exit-is-no-surprise?utm_medium=gulf&utm_campaign=flagshipnumbered6&utm_source=nowcta",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

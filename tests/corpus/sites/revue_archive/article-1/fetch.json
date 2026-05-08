@@ -1,0 +1,30 @@
+{
+  "url": "https://www.getrevue.co/profile/example/issues/example-issue-12345",
+  "final_url": "https://www.getrevue.co/profile/example/issues/example-issue-12345",
+  "status": 0,
+  "content_type": "",
+  "bytes": 0,
+  "error": "fetch failed",
+  "fetched_at": "2026-05-06T19:41:53.646Z",
+  "elapsed_ms": 309,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:50:58.315Z",
+  "recovery_attempts": [
+    {
+      "url": "https://www.getrevue.co",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    }
+  ],
+  "rejected_source": null,
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:37:21.215Z",
+  "story_repair_reasons": [
+    "bad-note",
+    "bad-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": null
+}

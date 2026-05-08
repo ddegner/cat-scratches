@@ -1,0 +1,18 @@
+{
+  "url": "https://hey.mataroa.blog/p/why-doesnt-mataroa-block-ai-scrapers/",
+  "replaced_url": "https://hey.mataroa.blog/p/monthly-auto-exports-via-email/",
+  "recovery_url": "https://hey.mataroa.blog/p/why-doesnt-mataroa-block-ai-scrapers/",
+  "final_url": "https://hey.mataroa.blog/p/why-doesnt-mataroa-block-ai-scrapers/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 18838,
+  "error": null,
+  "fetched_at": "2026-05-07T02:13:38.053Z",
+  "elapsed_ms": 154,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Why doesn’t mataroa block AI scrapers? — Blog of Mataroa.blog",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

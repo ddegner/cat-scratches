@@ -1,0 +1,28 @@
+{
+  "url": "https://meta.discourse.org/t/example-topic/123456",
+  "final_url": "https://meta.discourse.org/t/example-topic/123456",
+  "status": 404,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 55791,
+  "error": null,
+  "fetched_at": "2026-05-06T19:41:19.518Z",
+  "elapsed_ms": 489,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:48:49.460Z",
+  "recovery_attempts": [
+    {
+      "url": "https://meta.discourse.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:3"
+    },
+    {
+      "url": "https://meta.discourse.org/tos",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    }
+  ],
+  "rejected_source": null
+}

@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+            
+        <!-- START email detection/removal script -->
+        <script>
+            !function(){"use strict";function e(e){const t=e.match(/((?=([a-z0-9._!#$%+^&*()[\]<>-]+))@[a-z0-9._-]+\.[a-z0-9._-]+)/gi);return t?t[0]:""}function t(t){return e(a(t.toLowerCase()))}function a(e){return e.replace(/\s/g,"")}async function n(e){const t={sha256Hash:"",sha1Hash:""};if(!("msCrypto"in window)&&"https:"===location.protocol&&"crypto"in window&&"TextEncoder"in window){const a=(new TextEncoder).encode(e),[n,c]=await Promise.all([s("SHA-256",a),s("SHA-1",a)]);t.sha256Hash=n,t.sha1Hash=c}return t}async function s(e,t){const a=await crypto.subtle.digest(e,t);return Array.from(new Uint8Array(a)).map(e=>("00"+e.toString(16)).slice(-2)).join("")}function c(e){let t=!0;return Object.keys(e).forEach(a=>{0===e[a].length&&(t=!1)}),t}function i(e,t,a){e.splice(t,1);const n="?"+e.join("&")+a.hash;history.replaceState(null,"",n)}var o={checkEmail:e,validateEmail:t,trimInput:a,hashEmail:n,hasHashes:c,removeEmailAndReplaceHistory:i,detectEmails:async function(){const e=new URL(window.location.href),a=Array.from(e.searchParams.entries()).map(e=>`=`);let s,o;const r=["adt_eih","sh_kit"];if(a.forEach((e,t)=>{const a=decodeURIComponent(e),[n,c]=a.split("=");if("adt_ei"===n&&(s={value:c,index:t,emsrc:"url"}),r.includes(n)){o={value:c,index:t,emsrc:"sh_kit"===n?"urlhck":"urlh"}}}),s)t(s.value)&&n(s.value).then(e=>{if(c(e)){const t={value:e,created:Date.now()};localStorage.setItem("adt_ei",JSON.stringify(t)),localStorage.setItem("adt_emsrc",s.emsrc)}});else if(o){const e={value:{sha256Hash:o.value,sha1Hash:""},created:Date.now()};localStorage.setItem("adt_ei",JSON.stringify(e)),localStorage.setItem("adt_emsrc",o.emsrc)}s&&i(a,s.index,e),o&&i(a,o.index,e)},cb:"adthrive"};const{detectEmails:r,cb:l}=o;r()}();
+        </script>
+        <!-- END email detection/removal script -->
+        <!-- AdThrive Head Tag Manual -->
+        <script data-no-optimize="1" data-cfasync="false">
+            (function(w, d) {
+                w.adthrive = w.adthrive || {};
+                w.adthrive.cmd = w.
+                    adthrive.cmd || [];
+                w.adthrive.plugin = 'adthrive-ads-manual';
+                w.adthrive.host = 'ads.adthrive.com';var s = d.createElement('script');
+                s.async = true;
+                s.referrerpolicy='no-referrer-when-downgrade';
+                s.src = 'https://' + w.adthrive.host + '/sites/69cbed962b3eb869315ab4fb/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + '&cb=' + (Math.floor(Math.random() * 100) + 1);
+                var n = d.getElementsByTagName('script')[0];
+                n.parentNode.insertBefore(s, n);
+            })(window, document);
+        </script>
+        <!-- End of AdThrive Head Tag -->            <link rel="preload" href="/wp-content/themes/unified/css/article.engadget.min.css?design=3&v=1777906119" as="style"><link rel="preload" href="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/intro-1778096075.sm.webp" as="image">
+<link class="preloadFont" rel="preload" href="https://www.engadget.com/font/Guardian-Text-Sans-Web-Bold.woff2" as="font" crossorigin>
+<link class="preloadFont" rel="preload" href="https://www.engadget.com/font/Guardian-Text-Sans-Web-Regular.woff2" as="font" crossorigin>
+
+        <link rel="stylesheet" type="text/css" href="/wp-content/themes/unified/css/article.engadget.min.css?design=3&v=1777906119" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content" />
+        <meta http-equiv="X-UA-Compatible" content="IE=10" />
+        
+        
+                <meta name="robots" content="max-image-preview:large">
+        <meta name="thumbnail" content="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/l-intro-1778096075.jpg">
+        <title>reMarkable Paper Pure Review: Great Hardware Held Back By Bad Philosophy</title>
+        <meta name='description' content="There’s an obvious conflict between business and ordinary users." />
+        <meta property="mrf:tags" content="Content Type:Review;Primary Category:Tablets;Category:Tablets;Headline Approver:Billy Steele;Trello Board:Features;Pitcher:Daniel Cooper;Ideation Source:Editorial;Intent:Short-Term;Important Topic:False" />
+        
+                <meta property="og:site_name" content="Engadget" />
+        <meta property="og:title" content="reMarkable Paper Pure review: Great hardware held back by bad philosophy - Engadget">
+        <meta property="og:image" content="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/l-intro-1778096075.jpg" />
+        <meta property="og:description" content="There’s an obvious conflict between business and ordinary users.">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="https://www.engadget.com/2164815/remarkable-paper-pure-review/">
+                <meta name="twitter:title" content="reMarkable Paper Pure review: Great hardware held back by bad philosophy - Engadget">
+        <meta name="twitter:description" content="There’s an obvious conflict between business and ordinary users.">
+        <meta name="twitter:site" content="@engadget">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/l-intro-1778096075.jpg">
+            <meta property="article:published_time" content="2026-05-06T12:00:00+00:00" />
+    <meta property="article:modified_time" content="2026-05-06T12:00:00+00:00" />
+    <meta property="article:author" content="Daniel Cooper" />
+        
+        <link rel="shortcut icon" href="https://www.engadget.com/img/engadget-favicon.png">
+        <link rel="icon" href="https://www.engadget.com/img/engadget-favicon.png">
+        <link rel="canonical" href="https://www.engadget.com/2164815/remarkable-paper-pure-review/"/>
+        <link rel="alternate" type="application/rss+xml" title="Tablets - Engadget" href="https://www.engadget.com/category/tablet-reviews/feed/" />
+
+        
+        <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.engadget.com\/2164815\/remarkable-paper-pure-review\/","url":"https:\/\/www.engadget.com\/2164815\/remarkable-paper-pure-review\/","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/www.engadget.com\/category\/reviews\/","name":"Reviews"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/www.engadget.com\/category\/tablet-reviews\/","name":"Tablets"}}]}},"isAccessibleForFree":true,"headline":"reMarkable Paper Pure Review: Great Hardware Held Back By Bad Philosophy","image":{"@type":"ImageObject","url":"https:\/\/www.engadget.com\/img\/gallery\/remarkable-paper-pure-review\/l-intro-1778096075.jpg","height":898,"width":1600},"datePublished":"2026-05-06T12:00:00+00:00","dateModified":"2026-05-06T12:00:00+00:00","author":[{"@type":"Person","name":"Daniel Cooper","description":"Dan Cooper has been writing about the future for more than 25 years, and has been tackling the topics big and small for Engadget since 2011. He abandoned a promising career as an intellectual property lawyer to become a technology journalist, where he could sit at home and play with gadgets.","url":"https:\/\/www.engadget.com\/author\/daniel-cooper\/","knowsAbout":["Wearables","Green tech","Intellectual property"],"alumniOf":[{"@type":"Organization","name":"University of Kent"},{"@type":"Organization","name":"Inns of Court School of Law"}],"sameAs":["https:\/\/www.linkedin.com\/in\/daniel-cooper-a7031415","https:\/\/muckrack.com\/daniel-cooper"]}],"publisher":{"@type":"Organization","address":{"@type":"PostalAddress","streetAddress":"11787 Lantern Road #201","addressLocality":"Fishers","addressRegion":"IN","postalCode":"46038","addressCountry":"US"},"contactPoint":{"@type":"ContactPoint","telephone":"(908) 514-8038","contactType":"customer support","email":"staff@engadget.com"},"publishingPrinciples":"https:\/\/www.engadget.com\/policies\/","@id":"https:\/\/www.engadget.com\/","name":"Engadget","url":"https:\/\/www.engadget.com\/","logo":{"@type":"ImageObject","url":"https:\/\/www.engadget.com\/img\/engadget-meta-image-1280x720.png","caption":"Engadget Logo"},"description":"Breaking news from the worlds of technology and entertainment, and expert reviews of the latest consumer tech products.","sameAs":["https:\/\/www.facebook.com\/Engadget","https:\/\/www.instagram.com\/engadget","https:\/\/x.com\/engadget","https:\/\/www.youtube.com\/c\/engadget","https:\/\/flipboard.com\/@Engadget","https:\/\/www.threads.com\/@engadget"]},"description":"There&rsquo;s an obvious conflict between business and ordinary users."}</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Review","author":[{"@type":"Person","name":"Daniel Cooper","description":"Dan Cooper has been writing about the future for more than 25 years, and has been tackling the topics big and small for Engadget since 2011. He abandoned a promising career as an intellectual property lawyer to become a technology journalist, where he could sit at home and play with gadgets.","url":"https:\/\/www.engadget.com\/author\/daniel-cooper\/","knowsAbout":["Wearables","Green tech","Intellectual property"],"alumniOf":[{"@type":"Organization","name":"University of Kent"},{"@type":"Organization","name":"Inns of Court School of Law"}],"sameAs":["https:\/\/www.linkedin.com\/in\/daniel-cooper-a7031415","https:\/\/muckrack.com\/daniel-cooper"]}],"publisher":{"@type":"Organization","address":{"@type":"PostalAddress","streetAddress":"11787 Lantern Road #201","addressLocality":"Fishers","addressRegion":"IN","postalCode":"46038","addressCountry":"US"},"contactPoint":{"@type":"ContactPoint","telephone":"(908) 514-8038","contactType":"customer support","email":"staff@engadget.com"},"publishingPrinciples":"https:\/\/www.engadget.com\/policies\/","@id":"https:\/\/www.engadget.com\/","name":"Engadget","url":"https:\/\/www.engadget.com\/","logo":{"@type":"ImageObject","url":"https:\/\/www.engadget.com\/img\/engadget-meta-image-1280x720.png","caption":"Engadget Logo"},"description":"Breaking news from the worlds of technology and entertainment, and expert reviews of the latest consumer tech products.","sameAs":["https:\/\/www.facebook.com\/Engadget","https:\/\/www.instagram.com\/engadget","https:\/\/x.com\/engadget","https:\/\/www.youtube.com\/c\/engadget","https:\/\/flipboard.com\/@Engadget","https:\/\/www.threads.com\/@engadget"]},"headline":"reMarkable Paper Pure Review: Great Hardware Held Back By Bad Philosophy","description":"There\u2019s an obvious conflict between business and ordinary users.","datePublished":"2026-05-06T12:00:00+00:00","dateModified":"2026-05-06T12:00:00+00:00","positiveNotes":{"@context":"https:\/\/schema.org","@type":"ItemList","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"name":"Class-leading handwriting"},{"@type":"ListItem","position":2,"name":"Better responsiveness"},{"@type":"ListItem","position":3,"name":"Nicer display"},{"@type":"ListItem","position":4,"name":"Gorgeous design"}]},"negativeNotes":{"@context":"https:\/\/schema.org","@type":"ItemList","numberOfItems":3,"itemListElement":[{"@type":"ListItem","position":1,"name":"No backlight is a big miss"},{"@type":"ListItem","position":2,"name":"No typing"},{"@type":"ListItem","position":3,"name":"Software integrations need work"}]},"reviewRating":{"@type":"Rating","ratingValue":8.3,"bestRating":10,"worstRating":1},"itemReviewed":{"@context":"https:\/\/schema.org","@type":"Product","name":"reMarkable Paper Pure","offers":{"@type":"Offer","price":399,"priceCurrency":"USD","availability":"https:\/\/schema.org\/OutOfStock"}}}</script>
+                </head>
+<body>
+<div id="wrapper">
+    <div class="page-wrap">
+        <header id="header" class="">
+            <div class="nav-drop">
+                <div class="jcf-scrollable">
+                    <div class="aside-holder">
+                                    <nav id="aside-nav">
+                <div class="nav-top">
+                    <div class="logo">
+                        <a href="/" class="logo-holder">
+                            <img src="https://www.engadget.com/img/engadget-logo-RGB-default.svg" alt="Engadget" width="135" height="28">
+                        </a>
+                        <a href="#" class="nav-opener close"></a>
+                    </div>
+                </div>
+                
+                <ul class="main-nav"><li class="navlink navlink-latest"><a href="/latest/">Latest</a></li><li class="navlink navlink-news"><a href="/category/news/">News</a><input type="checkbox" id="subnav-button-news"><label for="subnav-button-news"></label><ul class="main-nav"><li class="subnavlink navlink-ai"><a href="/category/ai/">AI</a></li><li class="subnavlink navlink-apps"><a href="/category/apps/">Apps</a></li><li class="subnavlink navlink-computing"><a href="/category/computing/">Computing</a></li><li class="subnavlink navlink-mobile"><a href="/category/mobile/">Mobile</a></li><li class="subnavlink navlink-social-media"><a href="/category/social-media/">Social Media</a></li><li class="subnavlink navlink-transportation-evs"><a href="/category/transportation-evs/">EVs & Transportation</a></li></ul></li><li class="navlink navlink-reviews"><a href="/category/reviews/">Reviews</a><input type="checkbox" id="subnav-button-reviews"><label for="subnav-button-reviews"></label><ul class="main-nav"><li class="subnavlink navlink-smartphone-reviews"><a href="/category/smartphone-reviews/">Smartphones</a></li><li class="subnavlink navlink-laptop-pc-reviews"><a href="/category/laptop-pc-reviews/">Laptops & PCs</a></li><li class="subnavlink navlink-gaming-reviews"><a href="/category/gaming-reviews/">Gaming</a></li><li class="subnavlink navlink-headphones-reviews"><a href="/category/headphones-reviews/">Headphones</a></li><li class="subnavlink navlink-wearable-reviews"><a href="/category/wearable-reviews/">Wearables</a></li><li class="subnavlink navlink-photography-reviews"><a href="/category/photography-reviews/">Photography</a></li><li class="subnavlink navlink-tablet-reviews"><a href="/category/tablet-reviews/">Tablets</a></li><li class="subnavlink navlink-home-product-reviews"><a href="/category/home-product-reviews/">Home</a></li></ul></li><li class="navlink navlink-best-tech"><a href="/category/best-tech/">Buying Guides</a><input type="checkbox" id="subnav-button-best-tech"><label for="subnav-button-best-tech"></label><ul class="main-nav"><li class="subnavlink navlink-laptop-buying-guides"><a href="/category/laptop-buying-guides/">Laptops</a></li><li class="subnavlink navlink-headphones-buying-guides"><a href="/category/headphones-buying-guides/">Headphones</a></li><li class="subnavlink navlink-smart-home-buying-guides"><a href="/category/smart-home-buying-guides/">Smart Home</a></li><li class="subnavlink navlink-gaming-buying-guides"><a href="/category/gaming-buying-guides/">Gaming</a></li></ul></li><li class="navlink navlink-gaming"><a href="/category/gaming/">Gaming</a><input type="checkbox" id="subnav-button-gaming"><label for="subnav-button-gaming"></label><ul class="main-nav"><li class="subnavlink navlink-nintendo"><a href="/category/nintendo/">Nintendo</a></li><li class="subnavlink navlink-pc"><a href="/category/pc/">PC</a></li><li class="subnavlink navlink-playstation"><a href="/category/playstation/">PlayStation</a></li><li class="subnavlink navlink-xbox"><a href="/category/xbox/">Xbox</a></li></ul></li><li class="navlink navlink-big-tech"><a href="/category/big-tech/">Big Tech</a><input type="checkbox" id="subnav-button-big-tech"><label for="subnav-button-big-tech"></label><ul class="main-nav"><li class="subnavlink navlink-amazon"><a href="/category/amazon/">Amazon</a></li><li class="subnavlink navlink-apple"><a href="/category/apple/">Apple</a></li><li class="subnavlink navlink-google"><a href="/category/google/">Google</a></li><li class="subnavlink navlink-meta"><a href="/category/meta/">Meta</a></li><li class="subnavlink navlink-microsoft"><a href="/category/microsoft/">Microsoft</a></li><li class="subnavlink navlink-samsung"><a href="/category/samsung/">Samsung</a></li></ul></li><li class="navlink navlink-entertainment"><a href="/category/entertainment/">Entertainment</a><input type="checkbox" id="subnav-button-entertainment"><label for="subnav-button-entertainment"></label><ul class="main-nav"><li class="subnavlink navlink-tv-movies"><a href="/category/tv-movies/">TV & Movies</a></li><li class="subnavlink navlink-streaming"><a href="/category/streaming/">Streaming</a></li></ul></li><li class="navlink navlink-cybersecurity"><a href="/category/cybersecurity/">Cybersecurity</a><input type="checkbox" id="subnav-button-cybersecurity"><label for="subnav-button-cybersecurity"></label><ul class="main-nav"><li class="subnavlink navlink-vpn"><a href="/category/vpn/">VPN</a></li></ul></li><li class="navlink navlink-wearables"><a href="/category/wearables/">Wearables</a></li><li class="navlink navlink-tomorrow"><a href="/category/tomorrow/">Tomorrow</a><input type="checkbox" id="subnav-button-tomorrow"><label for="subnav-button-tomorrow"></label><ul class="main-nav"><li class="subnavlink navlink-science"><a href="/category/science/">Science</a></li><li class="subnavlink navlink-space"><a href="/category/space/">Space</a></li><li class="subnavlink navlink-robotics"><a href="/category/robotics/">Robotics</a></li></ul></li></ul>        <ul class="social-buttons">
+            <li><a href="https://www.facebook.com/Engadget" target="_blank" title="Facebook" aria-label="Facebook"><svg class="icon"><use xlink:href="#facebook"></use></svg></a></li><li><a href="https://www.instagram.com/engadget" target="_blank" title="Instagram" aria-label="Instagram"><svg class="icon"><use xlink:href="#instagram"></use></svg></a></li><li><a href="https://x.com/engadget" target="_blank" title="Twitter" aria-label="Twitter"><svg class="icon"><use xlink:href="#twitter"></use></svg></a></li><li><a href="https://www.youtube.com/c/engadget" target="_blank" title="YouTube" aria-label="YouTube"><svg class="icon"><use xlink:href="#youtube"></use></svg></a></li><li><a href="https://flipboard.com/@Engadget" target="_blank" title="Flipboard" aria-label="Flipboard"><svg class="icon"><use xlink:href="#flipboard"></use></svg></a></li><li><a href="https://www.threads.com/@engadget" target="_blank" title="Threads" aria-label="Threads"><svg class="icon"><use xlink:href="#threads"></use></svg></a></li><li><a href="/feed/" target="_blank" title="RSS" aria-label="RSS"><svg class="icon"><use xlink:href="#rss"></use></svg></a></li>
+            
+            
+        </ul><ul class="info-links">
+    <li class="info-link first-info-link"><a href="/about/">About</a></li>
+    <li class="info-link"><a href="/policies/">Editorial Policies</a></li>
+    <li class="info-link"><a href="/reviews-policy-guidelines/">Reviews Policy</a></li>
+    
+    <li class="info-link"><a href="/engadget-podcasts-153249552.html">Podcast</a></li>
+    <li class="info-link"><a href="/sitemap/">Archive</a></li>
+    <li class="info-link"><a href="https://www.static.com/engadget-privacy-policy" target="_blank">Privacy Policy</a></a>
+    <li class="info-link"><a href="https://www.static.com/terms" target="_blank">Terms of Use</a></li>
+</ul>
+            </nav>                        <div class="nav-bottom">
+                            <span class="copyright-info">&copy; 2026                                <a href="https://www.static.com/" target="_blank">Static Media</a>. All Rights Reserved
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bg"></div>
+         
+            <div id="header-container">
+                <div id="hamburger-holder">
+                    <div class="hamburger nav-opener"></div>
+                </div>
+
+                    <div id="logo" class="top-nav-standard">
+        <a href="/"><img src="https://www.engadget.com/img/engadget-logo-RGB-default.svg" alt="Engadget" width="135" height="28"></a>
+    </div>
+                <div id="logo-icon" class="top-nav-scrolled">
+                    <a href="/" >
+                        <img src="https://www.engadget.com/img/engadget-icon-RGB-default.svg" alt="Engadget" width="28" height="28">                    </a>
+                </div>
+
+                <div id="top-nav-title" class="top-nav-scrolled">reMarkable Paper Pure review: Great hardware held back by bad philosophy</div>
+
+                            <div id="top-nav" class="top-nav-standard">
+                <nav id="top-nav-holder">
+                    
+                    <ul class="main-nav"><li class="navlink navlink-latest"><a href="/latest/">Latest</a></li><li class="navlink navlink-news"><a href="/category/news/">News</a><ul class="main-nav"><li class="subnavlink navlink-ai"><a href="/category/ai/">AI</a></li><li class="subnavlink navlink-apps"><a href="/category/apps/">Apps</a></li><li class="subnavlink navlink-computing"><a href="/category/computing/">Computing</a></li><li class="subnavlink navlink-mobile"><a href="/category/mobile/">Mobile</a></li><li class="subnavlink navlink-social-media"><a href="/category/social-media/">Social Media</a></li><li class="subnavlink navlink-transportation-evs"><a href="/category/transportation-evs/">EVs & Transportation</a></li></ul></li><li class="navlink navlink-reviews"><a href="/category/reviews/">Reviews</a><ul class="main-nav"><li class="subnavlink navlink-smartphone-reviews"><a href="/category/smartphone-reviews/">Smartphones</a></li><li class="subnavlink navlink-laptop-pc-reviews"><a href="/category/laptop-pc-reviews/">Laptops & PCs</a></li><li class="subnavlink navlink-gaming-reviews"><a href="/category/gaming-reviews/">Gaming</a></li><li class="subnavlink navlink-headphones-reviews"><a href="/category/headphones-reviews/">Headphones</a></li><li class="subnavlink navlink-wearable-reviews"><a href="/category/wearable-reviews/">Wearables</a></li><li class="subnavlink navlink-photography-reviews"><a href="/category/photography-reviews/">Photography</a></li><li class="subnavlink navlink-tablet-reviews"><a href="/category/tablet-reviews/">Tablets</a></li><li class="subnavlink navlink-home-product-reviews"><a href="/category/home-product-reviews/">Home</a></li></ul></li><li class="navlink navlink-best-tech"><a href="/category/best-tech/">Buying Guides</a><ul class="main-nav"><li class="subnavlink navlink-laptop-buying-guides"><a href="/category/laptop-buying-guides/">Laptops</a></li><li class="subnavlink navlink-headphones-buying-guides"><a href="/category/headphones-buying-guides/">Headphones</a></li><li class="subnavlink navlink-smart-home-buying-guides"><a href="/category/smart-home-buying-guides/">Smart Home</a></li><li class="subnavlink navlink-gaming-buying-guides"><a href="/category/gaming-buying-guides/">Gaming</a></li></ul></li><li class="navlink navlink-gaming"><a href="/category/gaming/">Gaming</a><ul class="main-nav"><li class="subnavlink navlink-nintendo"><a href="/category/nintendo/">Nintendo</a></li><li class="subnavlink navlink-pc"><a href="/category/pc/">PC</a></li><li class="subnavlink navlink-playstation"><a href="/category/playstation/">PlayStation</a></li><li class="subnavlink navlink-xbox"><a href="/category/xbox/">Xbox</a></li></ul></li><li class="navlink navlink-big-tech"><a href="/category/big-tech/">Big Tech</a><ul class="main-nav"><li class="subnavlink navlink-amazon"><a href="/category/amazon/">Amazon</a></li><li class="subnavlink navlink-apple"><a href="/category/apple/">Apple</a></li><li class="subnavlink navlink-google"><a href="/category/google/">Google</a></li><li class="subnavlink navlink-meta"><a href="/category/meta/">Meta</a></li><li class="subnavlink navlink-microsoft"><a href="/category/microsoft/">Microsoft</a></li><li class="subnavlink navlink-samsung"><a href="/category/samsung/">Samsung</a></li></ul></li><li class="navlink navlink-entertainment"><a href="/category/entertainment/">Entertainment</a><ul class="main-nav"><li class="subnavlink navlink-tv-movies"><a href="/category/tv-movies/">TV & Movies</a></li><li class="subnavlink navlink-streaming"><a href="/category/streaming/">Streaming</a></li></ul></li><li class="navlink navlink-cybersecurity"><a href="/category/cybersecurity/">Cybersecurity</a><ul class="main-nav"><li class="subnavlink navlink-vpn"><a href="/category/vpn/">VPN</a></li></ul></li><li class="navlink navlink-wearables"><a href="/category/wearables/">Wearables</a></li><li class="navlink navlink-tomorrow"><a href="/category/tomorrow/">Tomorrow</a><ul class="main-nav"><li class="subnavlink navlink-science"><a href="/category/science/">Science</a></li><li class="subnavlink navlink-space"><a href="/category/space/">Space</a></li><li class="subnavlink navlink-robotics"><a href="/category/robotics/">Robotics</a></li></ul></li>
+                </nav>
+            </div>                <svg width="0" height="0" class="hidden">
+            <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="rss">
+    <path d="M2.13 11.733c-1.175 0-2.13 0.958-2.13 2.126 0 1.174 0.955 2.122 2.13 2.122 1.179 0 2.133-0.948 2.133-2.122-0-1.168-0.954-2.126-2.133-2.126zM0.002 5.436v3.067c1.997 0 3.874 0.781 5.288 2.196 1.412 1.411 2.192 3.297 2.192 5.302h3.080c-0-5.825-4.739-10.564-10.56-10.564zM0.006 0v3.068c7.122 0 12.918 5.802 12.918 12.932h3.076c0-8.82-7.176-16-15.994-16z"></path>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="twitter">
+    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="facebook">
+    <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" id="flipboard">
+    <path d="m 6.9999999,0.99982 5.9993001,0 0,1.99835 0,1.99357 -1.993367,0 -1.9980673,0 -0.014998,1.99357 -0.01,1.99835 -1.9980669,0.01 -1.9933674,0.0146 -0.014998,1.99835 -0.01,1.99357 -1.9834686,0 -1.9836686,0 0,-6.00006 0,-5.99994 5.9992001,0 z"></path>
+</symbol>
+        <symbol viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="instagram">
+    <path d="M17.3183118,0.0772036939 C18.5358869,0.132773211 19.3775594,0.311686093 20.156489,0.614412318 C20.9357539,0.917263935 21.5259307,1.30117806 22.1124276,1.88767349 C22.6988355,2.47414659 23.0827129,3.06422396 23.3856819,3.84361655 C23.688357,4.62263666 23.8672302,5.46418415 23.9227984,6.68172489 C23.9916356,8.19170553 24,8.72394829 24,11.9999742 C24,15.2760524 23.9916355,15.808302 23.9227954,17.3182896 C23.8672306,18.5358038 23.6883589,19.3773584 23.3855877,20.1566258 C23.0826716,20.9358162 22.6987642,21.5259396 22.1124276,22.1122749 C21.5259871,22.6987804 20.9357958,23.0827198 20.1563742,23.3856323 C19.3772192,23.6883583 18.5357324,23.8672318 17.3183209,23.9227442 C15.8086874,23.9916325 15.2765626,24 12,24 C8.72343739,24 8.19131258,23.9916325 6.68172382,23.9227463 C5.46426077,23.8672314 4.62270711,23.6883498 3.84342369,23.3855738 C3.0641689,23.0827004 2.47399369,22.6987612 1.88762592,22.1123283 C1.30117312,21.525877 0.91721975,20.9357071 0.614318116,20.1563835 C0.311643016,19.3773633 0.132769821,18.5358159 0.0772038909,17.3183251 C0.0083529426,15.8092887 0,15.2774634 0,11.9999742 C0,8.7225328 0.00835296697,8.19071076 0.0772047368,6.68165632 C0.132769821,5.46418415 0.311643016,4.62263666 0.614362729,3.84350174 C0.91719061,3.06430165 1.30113536,2.4741608 1.88757245,1.88772514 C2.47399369,1.30123879 3.0641689,0.917299613 3.84345255,0.614414972 C4.62236201,0.311696581 5.46409415,0.132773979 6.68163888,0.0772035898 C8.19074867,0.00835221992 8.72252573,0 12,0 C15.2774788,0 15.8092594,0.00835235053 17.3183118,0.0772036939 Z M12,2.66666667 C8.75959504,2.66666667 8.26400713,2.67445049 6.80319929,2.74109814 C5.87614637,2.78341009 5.31952221,2.90172878 4.80947575,3.09995521 C4.37397765,3.26922052 4.09725505,3.44924273 3.77324172,3.77329203 C3.44916209,4.09737087 3.26913181,4.37408574 3.09996253,4.80937168 C2.90169965,5.31965737 2.78340891,5.87618164 2.74109927,6.80321713 C2.67445122,8.26397158 2.66666667,8.75960374 2.66666667,11.9999742 C2.66666667,15.2403924 2.67445121,15.7360281 2.74109842,17.1967643 C2.78340891,18.1238184 2.90169965,18.6803426 3.09990404,19.1904778 C3.26914133,19.6259017 3.44919889,19.9026659 3.77329519,20.2267614 C4.09725505,20.5507573 4.37397765,20.7307795 4.80932525,20.8999863 C5.31971515,21.0982887 5.87621193,21.2165784 6.80323907,21.2588497 C8.26460439,21.3255353 8.76051223,21.3333333 12,21.3333333 C15.2394878,21.3333333 15.7353956,21.3255353 17.1968056,21.2588476 C18.123775,21.216579 18.6802056,21.0982995 19.1905083,20.9000309 C19.6260288,20.7307713 19.9027426,20.5507596 20.2267583,20.226708 C20.5507492,19.9027179 20.7308046,19.6259456 20.9000375,19.1906283 C21.0983009,18.6803412 21.2165908,18.1238118 21.2588986,17.196779 C21.3255376,15.7350718 21.3333333,15.2390126 21.3333333,11.9999742 C21.3333333,8.76098665 21.3255376,8.26493375 21.2589016,6.80323567 C21.2165911,5.87618164 21.0983004,5.31965737 20.9001178,4.80957831 C20.7308131,4.37403932 20.550774,4.09729207 20.2267583,3.77324038 C19.9027658,3.44924868 19.6260264,3.26922777 19.1905015,3.09996643 C18.6803988,2.90171817 18.1238378,2.78341062 17.1967608,2.74109868 C15.7359966,2.67445057 15.2404012,2.66666667 12,2.66666667 Z M12,18.2222222 C8.56356156,18.2222222 5.77777778,15.4364384 5.77777778,12 C5.77777778,8.56356156 8.56356156,5.77777778 12,5.77777778 C15.4364384,5.77777778 18.2222222,8.56356156 18.2222222,12 C18.2222222,15.4364384 15.4364384,18.2222222 12,18.2222222 Z M12,15.5555556 C13.9636791,15.5555556 15.5555556,13.9636791 15.5555556,12 C15.5555556,10.0363209 13.9636791,8.44444444 12,8.44444444 C10.0363209,8.44444444 8.44444444,10.0363209 8.44444444,12 C8.44444444,13.9636791 10.0363209,15.5555556 12,15.5555556 Z M18.2222222,7.11111111 C17.4858426,7.11111111 16.8888889,6.51415744 16.8888889,5.77777778 C16.8888889,5.04139811 17.4858426,4.44444444 18.2222222,4.44444444 C18.9586019,4.44444444 19.5555556,5.04139811 19.5555556,5.77777778 C19.5555556,6.51415744 18.9586019,7.11111111 18.2222222,7.11111111 Z"/>
+</symbol>
+         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" id="linkedin">
+    <path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.1 113.49" id="muckrack">
+    <path class="b" d="M223.2,73.59c11.2-7.6,16.8-20.3,16.9-33.3C240.1,20.39,226.8.09,199.4.09c-8.35-.1-18.27-.1-28.14-.07-9.86.02-19.66.07-27.76.07v113.4h29.6v-35h17l17.1,35h30.6l.8-5-18.7-33.4c2.5-.8,3.3-1.5,3.3-1.5ZM199,54.29h-25.8v-29.7h25.8c8.4,0,12.3,7.4,12.3,14.6s-4.1,15.1-12.3,15.1Z"/><polygon class="b" points="0 .14 10.9 .14 64.5 49.24 117.9 .14 129.3 .14 129.3 113.34 99.7 113.34 99.7 54.24 66.1 83.74 62.7 83.74 29.6 54.24 29.6 113.34 0 113.34 0 .14"/>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="7 2 2 12" id="youtube">
+    <path d="M15.841 4.8c0 0-0.156-1.103-0.637-1.587-0.609-0.637-1.291-0.641-1.603-0.678-2.237-0.163-5.597-0.163-5.597-0.163h-0.006c0 0-3.359 0-5.597 0.163-0.313 0.038-0.994 0.041-1.603 0.678-0.481 0.484-0.634 1.587-0.634 1.587s-0.159 1.294-0.159 2.591v1.213c0 1.294 0.159 2.591 0.159 2.591s0.156 1.103 0.634 1.588c0.609 0.637 1.409 0.616 1.766 0.684 1.281 0.122 5.441 0.159 5.441 0.159s3.363-0.006 5.6-0.166c0.313-0.037 0.994-0.041 1.603-0.678 0.481-0.484 0.637-1.588 0.637-1.588s0.159-1.294 0.159-2.591v-1.213c-0.003-1.294-0.162-2.591-0.162-2.591zM6.347 10.075v-4.497l4.322 2.256-4.322 2.241z"></path>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="pinterest">
+    <g>
+    <path d="M220.646,338.475C207.223,408.825,190.842,476.269,142.3,511.5
+            c-14.996-106.33,21.994-186.188,39.173-270.971c-29.293-49.292,3.518-148.498,65.285-124.059
+            c76.001,30.066-65.809,183.279,29.38,202.417c99.405,19.974,139.989-172.476,78.359-235.054
+            C265.434-6.539,95.253,81.775,116.175,211.161c5.09,31.626,37.765,41.22,13.062,84.884c-57.001-12.65-74.005-57.6-71.822-117.533
+            c3.53-98.108,88.141-166.787,173.024-176.293c107.34-12.014,208.081,39.398,221.991,140.376
+            c15.67,113.978-48.442,237.412-163.23,228.529C258.085,368.704,245.023,353.283,220.646,338.475z">
+    </path>
+    </g>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="tiktok">
+    <path d="M 22.472559,-3.8146973e-6 C 23.000559,4.5408962 25.535059,7.2481962 29.941559,7.5361962 v 5.1073998 c -2.5536,0.2496 -4.7905,-0.5856 -7.3922,-2.1601 v 9.5523 c 0,12.1348 -13.2292004,15.927 -18.5478004,7.2291 -3.4177,-5.597 -1.3248,-15.4181 9.6387004,-15.8117 v 5.3857 c -0.8352,0.1344 -1.728,0.3456 -2.5441,0.6241 -2.4384004,0.8256 -3.8209004,2.3712 -3.4369004,5.0977 0.7392,5.2226 10.3204004,6.7682 9.5235004,-3.4369 V 0.00959619 h 5.2898 z" />
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="twitch">
+    <path d="M3 0l-3 5v23h8v4h4l4-4h5l9-9v-19h-27zM26 17l-5 5h-5l-4 4v-4h-6v-18h20v13z"></path><path d="M19 8h3v8h-3v-8z"></path><path d="M13 8h3v8h-3v-8z"></path>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.016 512.016" id="snapchat" >
+    <g>
+        <g>
+            <path d="M500.459,375.368c-64.521-10.633-93.918-75.887-97.058-83.294c-0.06-0.145-0.307-0.666-0.375-0.819
+                c-3.234-6.571-4.036-11.904-2.347-15.838c3.388-8.013,17.741-12.553,26.931-15.462c2.586-0.836,5.009-1.604,6.938-2.372
+                c18.586-7.339,27.913-16.717,27.716-27.895c-0.179-8.866-7.134-17.007-17.434-20.651c-3.55-1.485-7.774-2.295-11.887-2.295
+                c-2.842,0-7.066,0.401-11.102,2.287c-7.868,3.678-14.865,5.658-20.156,5.888c-2.355-0.094-4.139-0.486-5.427-0.922
+                c0.162-2.79,0.35-5.658,0.529-8.585l0.094-1.493c2.193-34.807,4.915-78.123-6.673-104.081
+                c-34.27-76.834-106.999-82.807-128.478-82.807l-10.018,0.094c-21.436,0-94.029,5.965-128.265,82.756
+                c-11.614,26.018-8.866,69.316-6.664,104.115c0.213,3.422,0.427,6.758,0.614,10.01c-1.468,0.503-3.584,0.947-6.46,0.947
+                c-6.161,0-13.542-1.997-21.931-5.922c-12.126-5.683-34.295,1.911-37.291,17.647c-1.63,8.516,1.801,20.796,27.383,30.908
+                c1.988,0.785,4.489,1.587,7.561,2.56c8.576,2.722,22.929,7.27,26.325,15.266c1.681,3.951,0.879,9.284-2.662,16.512
+                c-1.263,2.944-31.65,72.124-98.765,83.174c-6.963,1.143-11.93,7.322-11.537,14.353c0.111,1.954,0.563,3.917,1.399,5.897
+                c5.641,13.193,27.119,22.349,67.55,28.766c0.887,2.295,1.92,7.006,2.509,9.737c0.853,3.9,1.749,7.927,2.97,12.1
+                c1.229,4.224,4.881,11.307,15.445,11.307c3.575,0,7.714-0.811,12.211-1.681c6.468-1.271,15.309-2.995,26.274-2.995
+                c6.084,0,12.416,0.546,18.825,1.604c12.092,2.005,22.699,9.506,35.004,18.202c18.116,12.809,34.586,22.605,67.524,22.605
+                c0.87,0,1.732-0.026,2.577-0.085c1.22,0.06,2.449,0.085,3.695,0.085c28.851,0,54.246-7.62,75.494-22.63
+                c11.742-8.311,22.835-16.162,34.935-18.176c6.426-1.058,12.766-1.604,18.85-1.604c10.513,0,18.901,1.348,26.385,2.816
+                c5.06,0.998,9.02,1.476,12.672,1.476c7.373,0,12.8-4.053,14.874-11.127c1.195-4.113,2.091-8.021,2.961-12.015
+                c0.461-2.125,1.57-7.211,2.509-9.66c39.851-6.34,60.203-15.138,65.835-28.297c0.845-1.894,1.34-3.9,1.476-6.033
+                C512.372,382.707,507.422,376.529,500.459,375.368z"/>
+        </g>
+    </g>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" id="threads">
+    <path d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3051 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z" />
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="bluesky">
+    <path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/>
+</symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618 478" id="google">
+    <path d="M617.84 456.59C617.82 467.86 608.68 477 597.41 477.02H20.43C9.16 477 0.02 467.86 0 456.59V20.43C0.02 9.16 9.16 0.02 20.43 0H597.41C608.68 0.02 617.82 9.16 617.84 20.43V456.59ZM516.79 342.6V302.74C516.79 301.26 515.59 300.06 514.11 300.06H335.02V345.46H514.11C515.61 345.44 516.82 344.2 516.79 342.7C516.79 342.67 516.79 342.64 516.79 342.6ZM544.02 256.35V216.31C544.04 214.83 542.86 213.61 541.38 213.59C541.37 213.59 541.35 213.59 541.34 213.59H335.02V258.99H541.34C542.79 259.02 543.99 257.86 544.02 256.41C544.02 256.36 544.02 256.32 544.02 256.27V256.36V256.35ZM516.79 170.1V129.88C516.79 128.4 515.59 127.2 514.11 127.2H335.02V172.6H514.11C515.56 172.58 516.74 171.42 516.79 169.97V170.11V170.1ZM180.59 218.08V258.93H239.6C234.74 283.9 212.77 302.01 180.59 302.01C144.24 300.72 115.81 270.2 117.11 233.84C118.34 199.3 146.05 171.59 180.59 170.36C196.12 170.1 211.13 175.97 222.35 186.7L253.49 155.6C233.78 137.06 207.65 126.88 180.59 127.18C120.42 127.18 71.64 175.96 71.64 236.13C71.64 296.3 120.42 345.08 180.59 345.08C240.76 345.08 285 300.82 285 238.49C284.96 231.59 284.39 224.69 283.27 217.88L180.59 218.06V218.08Z"/>
+</symbol>
+        <symbol id="website" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.91041 1.47245C3.56879 -0.185927 6.25755 -0.185927 7.91592 1.47245L10.9186 4.47521C12.577 6.13361 12.577 8.82231 10.9186 10.4807C10.5041 10.8954 9.83185 10.8954 9.41728 10.4807C9.00271 10.0661 9.00271 9.39389 9.41728 8.97932C10.2465 8.15019 10.2465 6.80573 9.41728 5.97659L6.41454 2.97383C5.58535 2.14465 4.24097 2.14465 3.41178 2.97383C2.58261 3.80302 2.58261 5.1474 3.41178 5.97659L4.16248 6.72728C4.57708 7.14185 4.57707 7.81407 4.16248 8.22864C3.74789 8.64321 3.07569 8.64321 2.6611 8.22864L1.91041 7.47796C0.252031 5.81959 0.252031 3.13083 1.91041 1.47245ZM7.91592 5.9766C8.33049 6.39116 8.33049 7.06339 7.91592 7.47796C7.08678 8.3072 7.08678 9.65155 7.91592 10.4807L10.9186 13.4835C11.7479 14.3127 13.0922 14.3127 13.9215 13.4835C14.7506 12.6543 14.7506 11.3099 13.9215 10.4807L13.1708 9.73C12.7561 9.31544 12.7561 8.64321 13.1708 8.22864C13.5854 7.81407 14.2575 7.81407 14.6722 8.22864L15.4228 8.97932C17.0812 10.6377 17.0812 13.3265 15.4228 14.9849C13.7645 16.6433 11.0757 16.6433 9.41728 14.9849L6.41455 11.9822C4.75618 10.3238 4.75618 7.63498 6.41455 5.9766C6.82912 5.562 7.50135 5.562 7.91592 5.9766Z"/>
+</symbol>
+        
+        
+        
+        
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="advertise">
+            <g clip-path="url(#clip0_1911_5435)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1.40497L2.26973 4.27073L0 2.34144V12.6558L2.26967 10.7271L3.84476 11.191V14.1933C3.84529 15.229 4.55813 16.067 5.43904 16.0676H9.23405C9.67247 16.0682 10.0745 15.8571 10.3609 15.5183C10.6488 15.1814 10.8284 14.709 10.8278 14.1932V13.2478L12 13.593V1.40497ZM5.09306 14.5997C5.00434 14.4935 4.95039 14.3537 4.94986 14.1932V11.5168L9.72281 12.9219V14.1932C9.72227 14.3537 9.66885 14.4935 9.5796 14.5997C9.48985 14.7047 9.37052 14.7676 9.23409 14.7676H5.4391C5.30214 14.7676 5.18281 14.7047 5.09306 14.5997Z" />
+            <path d="M13 1.11045L17 -0.067627V15.0654L13 13.8875V1.11045Z" />
+            </g>
+            <defs>
+            <clipPath id="clip0_1911_5435">
+            <rect width="16" height="16" fill="white"/>
+            </clipPath>
+            </defs>
+        </symbol>
+                <svg viewBox="0 0 16 12" id="thumbsup" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2222_8606)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7679 0.877202C15.0737 1.21977 15.0737 1.77517 14.7679 2.11775L6.17838 11.7431C5.87464 12.0835 5.38283 12.0859 5.07636 11.7486L0.234285 6.41957C-0.0741555 6.08018 -0.0786252 5.52474 0.224313 5.17912L0.772832 4.55324C1.07577 4.20762 1.57139 4.20262 1.87984 4.5421L5.61494 8.65283L13.1074 0.256926C13.4131 -0.0856377 13.9087 -0.0856464 14.2144 0.256926L14.7679 0.877202Z" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_2222_8606">
+                    <rect width="15.3919" height="12" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+            <svg viewBox="0 0 17 18" id="thumbsdown" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.459 1.36719L9.7832 8.48633L16.8271 16L15.3682 17.3672L8.41309 9.94824L1.45898 17.3672L0 16L7.04199 8.48633L0.368164 1.36719L1.82715 0L8.41309 7.02539L15 0L16.459 1.36719Z" />
+            </svg>
+</svg>                    <nav id="social-nav-holder" class="top-nav-standard">
+        <ul class="social-buttons">
+            <li><a href="https://www.facebook.com/Engadget" target="_blank" title="Facebook" aria-label="Facebook"><svg class="icon"><use xlink:href="#facebook"></use></svg></a></li><li><a href="https://www.instagram.com/engadget" target="_blank" title="Instagram" aria-label="Instagram"><svg class="icon"><use xlink:href="#instagram"></use></svg></a></li><li><a href="https://x.com/engadget" target="_blank" title="Twitter" aria-label="Twitter"><svg class="icon"><use xlink:href="#twitter"></use></svg></a></li><li><a href="https://www.youtube.com/c/engadget" target="_blank" title="YouTube" aria-label="YouTube"><svg class="icon"><use xlink:href="#youtube"></use></svg></a></li><li><a href="https://flipboard.com/@Engadget" target="_blank" title="Flipboard" aria-label="Flipboard"><svg class="icon"><use xlink:href="#flipboard"></use></svg></a></li><li><a href="https://www.threads.com/@engadget" target="_blank" title="Threads" aria-label="Threads"><svg class="icon"><use xlink:href="#threads"></use></svg></a></li><li><a href="/feed/" target="_blank" title="RSS" aria-label="RSS"><svg class="icon"><use xlink:href="#rss"></use></svg></a></li>
+            
+            
+        </ul>
+    </nav>
+                                <div id="top-nav-share" class="top-nav-scrolled"></div>
+	                        </div>
+            <div id="is-tablet"></div>
+            <div id="is-mobile"></div>
+        </header>
+<main id="main" role="main" class="infinite review" data-post-type="articles">
+    <div class="holder">
+        <div id="content" class="article">
+            
+
+            <article class="news-post">
+    
+    
+    <ul class="breadcrumbs">
+<li>
+<a href="/category/reviews/">Reviews</a> </li>
+<li>
+<a href="/category/tablet-reviews/">Tablets</a> </li>
+</ul>
+                <div class="news-article">
+                <h1 class="title-gallery" data-post-id="2164815" id="title-gallery" data-has-pixel-tags="1" data-pixel-tag="engadget" data-author="Daniel Cooper" data-category="tablet-reviews" data-content_type="Review" data-mod_date="2026-05-06" data-layout="Infinite" data-post_id="2164815" data-pub_date="2026-05-06" data-day="Wednesday" data-dayhour="Wednesday-8AM" data-pubhour="8AM" data-num_slides="5" data-num_words="2200" data-pitcher="Daniel Cooper" data-trello_board="Features" data-intent="short-term" data-ideation="editorial">reMarkable Paper Pure review: Great hardware held back by bad philosophy</h1>
+            </div>
+
+    
+                <div class="news-article">
+                
+                                <div class="byline-container">
+                    <div class="byline-text-wrap">
+                        <span class="byline-by">By</span> <a href="/author/daniel-cooper/" class="byline-author">Daniel Cooper</a>
+                        
+                        <span class="byline-timestamp">
+                            <time datetime="2026-05-06T12:00:00+00:00">May 6, 2026 8:00 am EST</time></span>
+                        
+                    </div>
+                    
+                </div>
+                                <div class="slide-key image-holder gallery-image-holder credit-image-wrap lead-image-holder" data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy" data-slide-num="" data-post-id="2164815">
+                         
+                                             <picture id="p5a284ad69e2a425e1773177088ac8b96">
+                                                    <source media="(min-width: 429px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/intro-1778096075.webp" type="image/webp">
+                            <source media="(max-width: 428px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/intro-1778096075.sm.webp" type="image/webp">
+                        <img class="gallery-image " src="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/intro-1778096075.jpg" data-slide-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-id="2164815" data-slide-num="" data-slide-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy: " width="780" height="438" alt="Image of a reMarkable Paper Pure">
+                    </source></source></picture>
+                    <span class="gallery-image-credit">Daniel Cooper for Engadget</span>
+                    </div>
+                            <div class="columns-holder review">                <div class="score"> RATING : <span class="score-number">8.3 / 10</span>
+</div>
+                                <div class="procon">
+                    <figure class="pro">
+                        <figcaption>Pros</figcaption>
+                        <ul>
+<li>
+<svg class="icon"><use xlink:href="#thumbsup"></use></svg>Class-leading handwriting</li>
+<li>
+<svg class="icon"><use xlink:href="#thumbsup"></use></svg>Better responsiveness</li>
+<li>
+<svg class="icon"><use xlink:href="#thumbsup"></use></svg>Nicer display</li>
+<li>
+<svg class="icon"><use xlink:href="#thumbsup"></use></svg>Gorgeous design</li>                    </ul>
+                </figure>
+                <div class="review-divider"></div>
+                <figure class="con">
+                    <figcaption>Cons</figcaption>
+                    <ul>
+<li>
+<svg class="icon"><use xlink:href="#thumbsdown"></use></svg>No backlight is a big miss</li>
+<li>
+<svg class="icon"><use xlink:href="#thumbsdown"></use></svg>No typing</li>
+<li>
+<svg class="icon"><use xlink:href="#thumbsdown"></use></svg>Software integrations need work</li>                            </ul>
+                        </figure>
+                    </div>
+</div>
+				            <div class="columns-holder ">
+                
+                
+                <p dir="ltr">There's a lot riding on reMarkable's Paper Pure, a device that has to be a lot of things to a lot of people. It's got to be a worthy replacement to 2020's reMarkable 2, the e-paper slate that made the company a household name. It needs to be a truly mass market device, or at least as mass market as a device like this can be. And it needs to woo big businesses looking for a tool it can get into the hands of hundreds or thousands of employees.</p>
+<p dir="ltr">I wrote the above a <em>full week</em> before news broke reMarkable was slashing its workforce and firing CEO Phil Hess. According to <a href="https://e24.no/naeringsliv/i/ExboXl/remarkable-kutter-opptil-200-ansatte" target="_blank"><em>Norway's E24</em></a>, reMarkable has faced dwindling demand and rising costs thanks to the current global milieu. The Paper Pure doesn't have <em>a lot</em>, but in fact <em>everything</em> riding on its back as it makes its global debut today. Let's just hope the company's overtures toward big business don't conflict with the needs of ordinary users.</p>
+
+            </div>
+            </div>
+
+            <div class="news-article">
+                
+                <h2 class="">Hardware</h2>
+                                <div class="slide-key image-holder gallery-image-holder credit-image-wrap " data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy" data-slide-num="1" data-post-id="2164815">
+                         
+                                             <picture id="p97e8df108cde23becd39e59a36163123">
+                                                    <source media="(min-width: 429px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/hardware-1778096077.webp" type="image/webp">
+                            <source media="(max-width: 428px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/hardware-1778096077.sm.webp" type="image/webp">
+                        <img class="gallery-image " src="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/hardware-1778096077.jpg" data-slide-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-id="2164815" data-slide-num="1" data-slide-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy: Hardware" width="780" height="438" alt="Image of a reMarkable Paper Pure">
+                    </source></source></picture>
+                    <span class="gallery-image-credit">Daniel Cooper for Engadget</span>
+                    </div>
+				            <div class="columns-holder ">
+                <p dir="ltr">reMarkable has spent the last few years building out its high end line with the <a href="https://www.engadget.com/mobile/tablets/remarkable-paper-pro-review-writing-in-color-is-nice-but-itll-cost-you-173024590.html" target="_blank">Paper Pro</a> and <a href="https://www.engadget.com/mobile/tablets/remarkables-paper-pro-move-is-a-pocketable-version-of-its-e-paper-tablet-120011894.html" target="_blank">Move</a>. It's never said anything, but I get the sense both were far pricier than the company planned thanks to everything else going on right now. The flagship Paper Pro, after all, costs more than the higher-end MacBook Neo. The reMarkable Paper Pure sees the company taking what it learned from the high end and bringing it down to the rest of us.</p>
+<p dir="ltr">The Paper Pure is a monochrome e-paper writing slate with a 10.3-inch display, built and priced to tempt newbies. But, the company has also got one and a half eyes on cornering the enterprise market. It measures 7.4 x 8.9 x 0.2 inches and weighs 0.79 pounds, with the left side bezel thick enough that the slate will rest comfortably in your hand. And while it's ostensibly the cheaper device, it carries the same visual design language as found on the Paper Pro line.</p>
+<p dir="ltr">Inside is a 1.7GHz dual-core ARM Cortex A55, 2GB RAM, 32GB storage and a 3,820mAh battery. reMarkable says the device will last for three weeks on a charge, based on using the slate for an hour a day, every day. The 10.3-inch "Canvas" display is a customized version of E Ink's Carta 1300, which is whiter and has better contrast than the reMarkable 2.</p>
+<p dir="ltr">A surprising carry over is the new Marker, which was a passive stylus on the first two reMarkable slates. They were redesigned for the Paper Pro and Move as active units, talking to their respective tablets to reduce writing latency. And, like the Pro models, the Marker wirelessly charges when magnetically connected to the right side of the slate. The textured top layer is here too, ensuring a consistent, paper-like writing experience on the display. There's also full disk encryption and secure boot to appeal to enterprise users and their IT teams.</p>
+<p dir="ltr">Flip the device over and you'll notice the exposed plastic Torx screws on the back plate. This is part of the company's push to make the hardware more repairable ahead of the EU's directives on the matter. Even the Markers are now repairable, easy enough to access to swap out the batteries should something go wrong. However, the company doesn't yet have the parts infrastructure in place to enable it, and it would still much rather handle repairs itself.</p>
+<p dir="ltr">reMarkable is intentional in its design and sweats details far more than others in the industry. The chamfering around the edges is harder to achieve in plastic than metal, but the company went the extra mile to find a solution. It sourced recycled magnesium for the core inside the frame to make it strong but not heavy. And there's no flex or bend in the hardware, hell it's almost impossible to even see the join lines between the corner components such is the tidiness of reMarkable's design and manufacturing.</p>
+<p dir="ltr">Unfortunately, there's one omission which isn't just vexing but offensive at this point in time. Unlike the Pros, the Pure lacks a display backlight, giving it the same flaw which dogged the reMarkable 2. The lack there was painful if understandable, but here after so much time, it's unforgivable. As soon as the light levels fall, you'll struggle to use this thing, which is fine if you're working in a brightly lit office. But if you're a normal user who wants to organise their thoughts at the end of a long day, you're screwed. reMarkable said the lack of a backlight is "an intentional choice to provide the most paper-like experience for those who prioritize deep thinking, primarily in well-lit office environments."</p>
+<p dir="ltr">The reMarkable 2 and Paper Pro both had pogo pins to enable the use of <a href="https://www.engadget.com/remarkable-2-type-folio-keyboard-hands-on-130057978.html" target="_blank">Type Folios</a>, but neither the Pro Move or Pure do. I asked if this was a sign the company was going to open up the on-board Bluetooth, as many in the hacking community have done, to enable third-party keyboards. But the response was very much a non-committal gesture about how typing isn't one of the company's priorities right now. Perhaps reMarkable sees keyboards as a distraction from the pen-and-paper device it's trying to sell the world. Or maybe, since I last worked for a Fortune 500 company, <em>nobody types anything anymore</em>.</p>
+<p dir="ltr">Another thing you won't see on the Pure is a wraparound tablet folio as found on all its other devices. Instead, you get a cute carrying sleeve in a choice of colors (green, pink and dark blue) for when you're moving between meetings. The color and design is solid and precise; there are magnets inside the case to hold the flap in place and trigger the Paper Pure to wake up if you pull it out of its sleeve. The lack of a proper folio isn't great, but I do appreciate the effort made to craft a carrying case that you don't feel ashamed to use.</p>
+
+            </div>
+            </div>
+
+            <div class="news-article">
+                
+                <h2 class="">In-use</h2>
+                                <div class="slide-key image-holder gallery-image-holder credit-image-wrap " data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy" data-slide-num="2" data-post-id="2164815">
+                         
+                                             <picture id="p4dfbc7d7cdf9ee8e9311fd709d025e3c">
+                                                    <source media="(min-width: 429px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/in-use-1778096078.webp" type="image/webp">
+                            <source media="(max-width: 428px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/in-use-1778096078.sm.webp" type="image/webp">
+                        <img class="gallery-image " src="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/in-use-1778096078.jpg" data-slide-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-id="2164815" data-slide-num="2" data-slide-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy: In-use" width="780" height="438" alt="Image of a reMarkable Paper Pure">
+                    </source></source></picture>
+                    <span class="gallery-image-credit">Daniel Cooper for Engadget</span>
+                    </div>
+				            <div class="columns-holder ">
+                <p dir="ltr">The reMarkable Paper Pure is, without a doubt, one of the nicest e-paper writing slates I've spent a lot of time with. The writing experience is more or less identical to the one found on the Paper Pros, and it's an enormously well-crafted experience. I'm a big fan of the display and I'm fairly sure it's more responsive to page swipes and refreshes than its siblings. Given what people will use this device for, I'm not even sure they're going to miss the color display. I certainly didn't, which even I was surprised about, but then color isn't a necessity for a slate of this type. If you're just handwriting long notes and editing, you're probably not stopping every few scrawls to change ink color or highlight something anyway.</p>
+<p dir="ltr">I'll go further and say the Paper Pure is a far better device than the Paper Pro Move, which I found too small to be useful. In hindsight, the Move was likely a distraction if it held up engineering resources that could have gone to this. I've found it very easy to lean back in an armchair and scratch out my thoughts about this device in my time with the Pure. Plus, it's an excellent e-reader that doesn't burn out your eyes, and it's great for journaling and sketching out the earliest design plans for projects.</p>
+<p dir="ltr">reMarkable's intentionality encompasses AI: The company won't put any gen-AI crap on its gear for obvious reasons. But it does use machine learning to analyze your handwriting and, when you upload your documents to reMarkable's sharing page, it'll create AI summaries and extract action items. Plus, if you upload a file to, for instance, design website Miro, the AI will try and extract your writing and diagrams, digitizing them for the platform in question. These are all sensible and perfectly valid uses for the technology in my opinion, greasing the wheels of your workday rather than allowing you to outsource your thinking.</p>
+<p dir="ltr">The basic stuff hasn't changed. You create notebooks, using a variety of paper styles and templates. You can import .PDF and .EPUB files to read and amend, and can edit text directly if you can brave the on-screen keyboard. If your handwriting is clear enough (and mine rarely is) you can convert your scrawl to text, and the system will even let you search through your handwritten notes. Once done, you can share a .PDF of your work via email, Google Drive, Slack or various other third-party clients.</p>
+<p dir="ltr">reMarkable supports native import of .DOCX files, which you're able to edit with the stylus. When you want to export that file back to your computer, you'll get an AI summary of the recommended changes. But, much like the exports of .PDF and .EPUB files, you'll still have to manually copy-paste those amendments in your original document. Which, if I'm honest, doesn't seem like a particularly efficient way of doing things, especially given who the company is pitching itself to now.</p>
+<p dir="ltr">One of the new enterprise-friendly features is calendar integration, which will let you create and file meeting notes specific to each event. If it's, say, a recurring meeting, the system will tie all of those together in the same workbook so you aren't hunting for notes. Sadly, what you can't do with this feature is automate some of the busywork that comes with using the slate as a day planner. There's a small ecosystem of creators who sell custom .PDFs for use as planners or journals tailored to people's specific use cases. This prompted reMarkable to launch Methods, a more dynamic system to do the same thing, but it lacks the joined up thinking that such a feature could benefit from. After all, I'd love it if my reMarkable planner automatically filled in the information from my integrated calendar.</p>
+<p dir="ltr">For a while you've been able to share the screen of your reMarkable to a computer but that's gotten a lot more useful. You can share it via a USB-C cable or wirelessly to the company's web client to conduct presentations. Even better, and another sign of reMarkable's elegant design choices, is that if you hover the stylus a few millimetres over the display, it'll turn into a laser pointer with a slowly-diappearing light trail. So, if you need to highlight something in your presentation or brainstorming session, you can do so without affecting what's on your workbook.</p>
+<p dir="ltr">Unfortunately, all of these innovations are targeted so squarely at companies that regular folks might feel a bit elbowed out. It doesn't help that while the device itself is a joy to use, it's increasingly obvious the ecosystem that surrounds it is not. The friction inherent in moving a document on and off the slate, the extra steps in the workflow that it creates, are charming only in isolation.</p>
+
+            </div>
+            </div>
+
+            <div class="news-article">
+                
+                <h2 class="">Price</h2>
+                                <div class="slide-key image-holder gallery-image-holder credit-image-wrap " data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy" data-slide-num="3" data-post-id="2164815">
+                         
+                                             <picture id="p50b19663b7ba58b2438a80d6d5dff6fc">
+                                                    <source media="(min-width: 429px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/price-1778096079.webp" type="image/webp">
+                            <source media="(max-width: 428px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/price-1778096079.sm.webp" type="image/webp">
+                        <img class="gallery-image " src="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/price-1778096079.jpg" data-slide-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-id="2164815" data-slide-num="3" data-slide-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy: Price" width="780" height="438" alt="Image of the reMarkable Paper Pure">
+                    </source></source></picture>
+                    <span class="gallery-image-credit">Daniel Cooper for Engadget</span>
+                    </div>
+				            <div class="columns-holder ">
+                <p dir="ltr">reMarkable Paper Pure is available to pre-order today, with the base model and marker priced at $399. Spend $50 more, however, and you'll get the Paper Pure, the Marker Plus and the carrying sleeve for $449 which, if we're honest, is a much better deal. In addition, you'll likely not get the full benefit of using the hardware unless you fork out for the company's annual subscription which is $3.99 a month or $39 per year.</p>
+
+            </div>
+            </div>
+
+            <div class="news-article">
+                
+                <h2 class="">Wrap-up</h2>
+                                <div class="slide-key image-holder gallery-image-holder credit-image-wrap " data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy" data-slide-num="4" data-post-id="2164815">
+                         
+                                             <picture id="pbc6bb4c88823ba557b401e62e35a65cf">
+                                                    <source media="(min-width: 429px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/wrap-up-1778096080.webp" type="image/webp">
+                            <source media="(max-width: 428px)" srcset="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/wrap-up-1778096080.sm.webp" type="image/webp">
+                        <img class="gallery-image " src="https://www.engadget.com/img/gallery/remarkable-paper-pure-review/wrap-up-1778096080.jpg" loading="lazy" data-slide-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-id="2164815" data-slide-num="4" data-slide-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy: Wrap-up" width="780" height="438" alt="Image of the reMarkable Paper Pure">
+                    </source></source></picture>
+                    <span class="gallery-image-credit">Daniel Cooper for Engadget</span>
+                    </div>
+				            <div class="columns-holder ">
+                <p dir="ltr">The reMarkable Paper Pure is another fantastic piece of hardware from a company that just makes great tools. There are countless things I love about it, and it really does succeed in its mission to provide you a space to think without the temptations of the internet. I love the writing experience and it does feel close to writing on paper, rather than the more weightless experience you find on many other slates. I was expecting a step down on the display quality and responsiveness and found both to be improvements over its flagship siblings.</p>
+<p dir="ltr">I wasn't joking when I said I prefer this to the Paper Pro Move, which is more portable but less useful. I could easily picture having this device in my bag wherever I go to pull double duty as an e-reader and notebook. Hell, if reMarkable could improve the calendar integration it would be possible for me to replace the paper Bullet Journal I currently use to run my life. In many ways, I look at this device and think "I can see so many ways this would make things easier and better, if only it was more flexible."</p>
+<p dir="ltr">Until now, that inflexibility has represented the intentional, slow way of moving the company builds for. But when it starts making pitches to big business, which are all about efficiency, it loses a lot of its previously stored up credit. And that lack of flexibility dings the score for the Paper Pure because it needs a better ecosystem around the device itself. Thankfully, with the exception of the backlight, almost all of the issues are with software, and that's a far easier thing to fix.</p>
+
+            </div>
+            </div>
+
+    
+</article>            <div class="openweb-comment-container" id="conversation">
+    <div data-spotim-module="conversation" class="openweb-conversation" data-post-id="2164815"></div>
+</div>            
+            <div class="under-art" data-post-url="https://www.engadget.com/2164815/remarkable-paper-pure-review/" data-post-title="reMarkable Paper Pure review: Great hardware held back by bad philosophy"> 
+                <h2 class="section-header">Recommended</h2>
+                <input type="hidden" class="next-article-url" value="https://www.engadget.com/mobile/tablets/best-e-ink-tablet-130037939.html"/>
+                                <div class="zergnet-widget" id="zergnet-widget-93809" data-lazyload="2000" data-no-snippet>
+                    <div class="loading-more">
+    <svg class="loading-spinner" version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+        <path d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z">
+            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"/>
+        </path>
+    </svg>
+</div>
+                </div>
+        	</div>
+                            <script language="javascript" type="text/javascript">
+                    setTimeout(function() {
+                        var n = document.getElementById("#zergnet-widget-93809");
+                        var h = false;
+                        if ( n ) {
+                            h = n.innerHTML;
+                        }
+                        if ( h ) {
+                            return false;
+                        }
+                        var zergnet = document.createElement('script');
+                        zergnet.type = 'text/javascript'; zergnet.async = true;
+                        zergnet.src = '//www.zergnet.com/zerg.js?v=1&id=93809';
+                        var znscr = document.getElementsByTagName('script')[0];
+                        znscr.parentNode.insertBefore(zergnet, znscr);
+                    }, 3500);
+                </script>
+                           <div id="div-ad-1x1a" class="google-ad-placeholder clear placeholder placeholder-1-1" data-ad-height="any" data-ad-width="any" data-ad-pos="1x1"></div>
+
+        </div>
+    </div>
+    <div class="sidebar-container">
+                <div id="floatingAd">
+                    </div>
+    </div>
+    </main>
+
+</div>
+</div>
+
+            
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2EP6H9Y3S"></script>
+    <script>
+        window.LooperConfig = window.LooperConfig || {};
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);} 
+        gtag('js', new Date());
+        window.LooperConfig.ga4tag = "G-H2EP6H9Y3S";
+        window.LooperConfig.ga4data = {"author":"Daniel Cooper","category":"tablet-reviews","content_type":"Review","mod_date":"2026-05-06","layout":"Infinite","post_id":2164815,"pub_date":"2026-05-06","day":"Wednesday","dayhour":"Wednesday-8AM","pubhour":"8AM","num_slides":5,"num_words":2200,"pitcher":"Daniel Cooper","trello_board":"Features","intent":"short-term","ideation":"editorial"};
+        window.LooperConfig.categories = ["Tablets"];
+        window.LooperReady = function(){
+            if ( typeof( window.LooperReadyInside ) !== 'undefined' ) {
+                window.LooperReadyInside();
+            }
+            LooperConfig.params = false;
+            try {
+                LooperConfig.params = (new URL(document.location)).searchParams;
+            } catch( e ) {
+                //do nothing
+            }
+            
+            var widgets = document.querySelectorAll(".zergnet-widget");
+            var hasWidget = false;
+            for ( i = 0; i < widgets.length; i++ ) {
+                if ( !hasWidget && LoopGalObj.isVisible(widgets[i]) ) {
+                    hasWidget = true;
+                }
+            }
+            if (!hasWidget) {
+                LooperConfig['ga4data']["ad_block"] = true;
+            } else {
+                LooperConfig['ga4data']["ad_block"] = false;
+            }
+
+            var validZSource = {"newsletter":"newsletter","flipboard":"flipboard","smartnews":"smartnews","smartnews_sponsored":"smartnews_sponsored","msnsyndicated":"msnsyndicated","newsbreakapp":"newsbreakapp","topbuzz":"topbuzz","zinf_abtest":"zinf_abtest","nexthighlights":"nexthighlights","fb":"fb","fb_ios":"fb_ios","fb_android":"fb_android","gemini":"gemini","facebook_organic":"facebook_organic","gdiscover_sponsored":"gdiscover_sponsored","googlenewsapp":"googlenewsapp","snapchat":"snapchat","dt_app":"dt_app","youtube":"youtube","opera":"opera","aol":"aol"};
+
+            if (window.location.href.indexOf("zsource") !== -1) {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                    vars[key] = value.toLowerCase();
+                });
+                if (typeof( vars['zsource'] !== "undefined") && typeof( validZSource[vars['zsource']] ) !== "undefined") {
+                    LooperConfig['zsource'] = validZSource[vars['zsource']];
+                    document.cookie = "zsource=" + LooperConfig['zsource'] + "; path=/; max-age=600";
+                }
+            } else if (document.cookie.indexOf("zsource") !== -1) {
+                var cookieval = document.cookie;
+                var zsource = "";
+                if (cookieval) {
+                    var arr = cookieval.split(";");
+                    if (arr.length) {
+                        for (var i = 0; i < arr.length; i++) {
+                            var keyval = arr[i].split("=");
+                            if (keyval.length && keyval[0].indexOf("zsource") !== -1) {
+                                zsource = keyval[1].trim();
+                            }
+                        }
+                    }
+                }
+                if (typeof( validZSource[zsource] !== "undefined" )) {
+                    LooperConfig['zsource'] = validZSource[zsource];
+                }
+            }
+
+            if (typeof( LooperConfig['zsource'] ) !== "undefined") {
+                LooperConfig['ga4data']["zsource"] = LooperConfig['zsource'];
+            }
+
+            // ga4 first view setup
+            LooperConfig['ga4data']["first_view"] = false;
+            var ga4CookieName = '_ga_H2EP6H9Y3S' ;
+
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let decodedCookieArray = decodedCookie.split(';').map((d) => d.trim()).filter((d) => d.substring(0, ga4CookieName.length) === ga4CookieName);
+            var isGa4CookiePresent =  decodedCookieArray.length > 0;
+            if(!isGa4CookiePresent) {
+                LooperConfig['ga4data']["first_view"] = true;
+            }
+            LooperConfig['ga4data']['send_page_view'] = false;
+            
+            LooperConfig['ga4data']['view_type'] = Looper.viewType;
+            LooperConfig['ga4data']['last_id'] = Looper.lastID;
+            LooperConfig['ga4data']['last_url'] = Looper.lastURL;
+            LooperConfig['ga4data']['infinite_position'] = 0;
+            
+            gtag("config", LooperConfig.ga4tag, LooperConfig.ga4data);
+            gtag("event", "page_view");
+        };
+    </script>
+                <script type="text/javascript" src="/wp-content/themes/unified/js/loopgal.min.js?v=1777923642"></script>
+        <script>
+        (function(){
+                    var config = {};
+        config['v3UI'] = true;
+config['allowFullUrlForID'] = true;
+config['openWebID'] = 'sp_f76RE06N';
+
+            window.LoopGalObj = new LoopGal( config );
+                    window.Looper = new LoopEs();
+        if ( typeof( LooperReady ) !== "undefined" ){
+            LooperReady();
+        }
+        })();
+        </script>
+        <script type="text/javascript" async src="https://btloader.com/tag?o=5698917485248512&upapi=true&domain=engadget.com"></script>
+
+<script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\s*__adblocker\s*=\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false" !== t || c(), "true" === t && (r(), c()), t = a(), e++}), 50))}}}().init()}();
+</script><div data-spotim-module="pitc"></div><script async data-spotim-module="spotim-launcher" src="https://launcher.spot.im/spot/sp_f76RE06N"></script>
+        
+        <script>
+    (function(){
+        !function(){"use strict";function e(e){var t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1],c=document.createElement("script");c.src=e,t?c.type="module":(c.async=!0,c.type="text/javascript",c.setAttribute("nomodule",""));var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}!function(t,c){!function(t,c,n){var a,o,r;n.accountId=c,null!==(a=t.marfeel)&&void 0!==a||(t.marfeel={}),null!==(o=(r=t.marfeel).cmd)&&void 0!==o||(r.cmd=[]),t.marfeel.config=n;var i="https://sdk.mrf.io/statics";e("".concat(i,"/marfeel-sdk.js?id=").concat(c),!0),e("".concat(i,"/marfeel-sdk.es5.js?id=").concat(c),!1)}(t,c,arguments.length>2&&void 0!==arguments[2]?arguments[2]:{})}(window,3544,{} /*config*/)}();
+     })();
+</script>
+        
+        
+    <script async id="ebx" src="https://applets.ebxcdn.com/ebx.js"></script>
+
+            <script>
+    window.LooperConfig = window.LooperConfig || {};
+    window.LooperConfig.clip = {"readmore":{"text":"Read More: "},"followus":{"text":"Follow Us: ","enabled":0},"visitus":{"text":"Visit Us At: ","enabled":0}};
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "url": "https://www.etsy.com/listing/123456/example-item",
+  "recovery_url": "https://www.etsy.com/c/accessories/umbrellas-and-rain-accessories?ref=catnav-1",
+  "final_url": "https://www.etsy.com/c/accessories/umbrellas-and-rain-accessories?ref=catnav-1",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 676855,
+  "error": null,
+  "fetched_at": "2026-05-06T20:50:15.406Z",
+  "elapsed_ms": 932,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Umbrellas & Rain Accessories - Etsy",
+  "recovery_attempts": [
+    {
+      "url": "https://www.etsy.com",
+      "method": "chrome-homepage",
+      "status": 0,
+      "reason": "homepage-links:166"
+    },
+    {
+      "url": "https://help.etsy.com/hc/en-us/articles/360042433614-How-to-Opt-out-of-Personalized-Advertising",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://help.etsy.com/hc/en-us/articles/360042433614-How-to-Opt-out-of-Personalized-Advertising",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    },
+    {
+      "url": "https://www.etsy.com/c/home-and-living/curtains-and-window-treatments?ref=catnav-891",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.etsy.com/c/accessories/umbrellas-and-rain-accessories?ref=catnav-1",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "recovery_error": "Recovered front-page link was not a usable story page",
+  "recovery_attempted_at": "2026-05-06T20:53:11.756Z",
+  "rejected_source": "source.rejected.html"
+}

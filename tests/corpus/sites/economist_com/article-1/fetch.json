@@ -1,0 +1,45 @@
+{
+  "url": "https://www.economist.com/leaders/2024/11/07/the-trump-victory",
+  "recovery_url": "https://www.economist.com/business/2026/05/06/not-all-oil-giants-are-prospering-from-the-iran-war",
+  "final_url": "https://www.economist.com/business/2026/05/06/not-all-oil-giants-are-prospering-from-the-iran-war",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 292136,
+  "error": null,
+  "fetched_at": "2026-05-06T20:13:27.110Z",
+  "elapsed_ms": 7232,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Not all oil giants are prospering from the Iran war",
+  "recovery_attempts": [
+    {
+      "url": "https://www.economist.com",
+      "method": "chrome-homepage",
+      "status": 0,
+      "reason": "homepage-links:121"
+    },
+    {
+      "url": "https://www.economist.com/business/2026/05/06/not-all-oil-giants-are-prospering-from-the-iran-war",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://www.economist.com/business/2026/05/06/not-all-oil-giants-are-prospering-from-the-iran-war",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:32:07.485Z",
+  "story_repair_reasons": [
+    "bad-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

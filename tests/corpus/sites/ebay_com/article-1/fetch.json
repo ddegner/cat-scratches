@@ -1,0 +1,49 @@
+{
+  "url": "https://www.ebay.com/itm/123456789012",
+  "recovery_url": "https://www.ebay.com/b/Surveillance-Smart-Home-Electronics/185067/bn_115028425?LH_ItemCondition=2000",
+  "final_url": "https://www.ebay.com/b/Surveillance-Smart-Home-Electronics/185067/bn_115028425?LH_ItemCondition=2000",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1746519,
+  "error": null,
+  "fetched_at": "2026-05-06T20:50:24.686Z",
+  "elapsed_ms": 1439,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Smart Home Devices & Surveillance - Speakers, Cameras & More - eBay",
+  "recovery_attempts": [
+    {
+      "url": "https://www.ebay.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:238"
+    },
+    {
+      "url": "https://www.ebay.com/b/Cell-Phones-Smartphones/9355/bn_320094?rt=nc&LH_ItemCondition=2000%7C2010%7C2020%7C2030",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.ebay.com/b/Desktops-All-In-One-Computers/171957/bn_1643067?LH_ItemCondition=2000%7C2010%7C2020%7C2030",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.ebay.com/b/Headphones/112529/bn_879608?LH_ItemCondition=2000|2010|2020|2030&mag=1&rt=nc",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://www.ebay.com/b/Surveillance-Smart-Home-Electronics/185067/bn_115028425?LH_ItemCondition=2000",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "recovery_error": "Recovered front-page link was not a usable story page",
+  "recovery_attempted_at": "2026-05-06T20:53:11.757Z",
+  "rejected_source": "source.rejected.html"
+}

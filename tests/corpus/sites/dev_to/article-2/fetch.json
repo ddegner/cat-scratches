@@ -1,0 +1,18 @@
+{
+  "url": "https://dev.to/samchon/autobe-vs-claude-code-3rd-gen-coding-agent-developers-review-of-the-leaked-source-code-313b",
+  "replaced_url": "https://dev.to/example/example-two-def",
+  "recovery_url": "https://dev.to/samchon/autobe-vs-claude-code-3rd-gen-coding-agent-developers-review-of-the-leaked-source-code-313b",
+  "final_url": "https://dev.to/samchon/autobe-vs-claude-code-3rd-gen-coding-agent-developers-review-of-the-leaked-source-code-313b",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 194450,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:56.863Z",
+  "elapsed_ms": 22,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "AutoBE vs. Claude Code: 3rd-gen coding agent developer's review of the leaked source code - DEV Community",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

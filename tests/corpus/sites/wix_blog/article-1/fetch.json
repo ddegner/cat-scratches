@@ -1,0 +1,28 @@
+{
+  "url": "https://www.wix.com/blog/example-post",
+  "recovery_url": "https://www.wix.com/blog/how-to-design-a-website",
+  "final_url": "https://www.wix.com/blog/how-to-design-a-website",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1813445,
+  "error": null,
+  "fetched_at": "2026-05-06T20:25:09.314Z",
+  "elapsed_ms": 64,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How to Design a Website (Step-by-Step Guide)",
+  "recovery_attempts": [
+    {
+      "url": "https://www.wix.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:79"
+    },
+    {
+      "url": "https://www.wix.com/blog/how-to-design-a-website",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

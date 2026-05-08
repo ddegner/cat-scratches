@@ -1,0 +1,155 @@
+<!DOCTYPE html><html ontouchstart lang="en"><head><meta charset="UTF-8"/><meta property="og:site_name" content="Swift by Sundell"/><link rel="canonical" href="https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks"/><meta name="twitter:url" content="https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks"/><meta property="og:url" content="https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks"/><title>Tips and tricks for when using SwiftUI’s ViewBuilder | Swift by Sundell</title><meta name="twitter:title" content="Tips and tricks for when using SwiftUI’s ViewBuilder | Swift by Sundell"/><meta property="og:title" content="Tips and tricks for when using SwiftUI’s ViewBuilder | Swift by Sundell"/><meta name="description" content="Let’s explore how we can use SwiftUI’s ViewBuilder within our own code, and a few things that can be good to keep in mind when doing so."/><meta name="twitter:description" content="Let’s explore how we can use SwiftUI’s ViewBuilder within our own code, and a few things that can be good to keep in mind when doing so."/><meta property="og:description" content="Let’s explore how we can use SwiftUI’s ViewBuilder within our own code, and a few things that can be good to keep in mind when doing so."/><meta name="twitter:card" content="summary"/><link rel="stylesheet" href="/styles.css?v=87" type="text/css"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><link rel="shortcut icon" href="/images/favicon.png" type="image/png"/><link rel="alternate" href="/rss" type="application/rss+xml" title="Subscribe to Swift by Sundell"/><meta name="twitter:image" content="https://www.swiftbysundell.com/images/social.png"/><meta property="og:image" content="https://www.swiftbysundell.com/images/social.png"/><meta name="theme-color" content="#ff644e"/></head><body class="v3"><header><div class="wrapper"><a href="/"><img src="/images/logo.png" alt="Swift by Sundell" class="logo"/></a><p>Articles and podcasts about Swift development, by <span class="inline-block"><a href="https://mastodon.social/@johnsundell" rel="nofollow" target="_blank">John Sundell</a>.</span></p><nav><ul><li class="selected"><a href="/articles">Articles</a></li><li><a href="/podcast">Podcast</a></li><li><a href="/archive">Archive</a></li><li class="hiddenOnMobile"><a href="/subscribe">Subscribe</a></li><li class="hiddenOnMobile"><a href="/about">About</a></li><li class="search"><a href="/search">Search</a></li></ul></nav></div></header><a href="https://geniusscansdk.com/swiftbysundell?utm_content=top_bar" class="top-bar"><div class="hstack inline"><img src="/images/supporters/geniusScan-topBar.png" alt="Genius Scan SDK"/><p>Presented by the <u>Genius Scan SDK</u></p></div></a><article class="page wrapper article"><h1>Tips and tricks for when using SwiftUI’s ViewBuilder</h1><div class="metadata"><ul class="tags"><li class="variant-d"><a href="/tags/swiftui">swiftui</a></li><li class="swift-version">Swift 6.1</li></ul><span class="date">Published on 30 May 2025</span></div><div class="content"><p>SwiftUI’s <code>ViewBuilder</code> type is a key part of the library’s overall API design, in that it’s what enables multiple view expressions to be declared within a given scope (such as a <code>body</code> property implementation, or a closure passed to containers such as <code>HStack</code> or <code>VStack</code>) without requiring any manual grouping or wrapping at each call site.</p><p>For example, within the following <code>VStack</code>, we can simply place each subview within the closure we pass to it, and <code>ViewBuilder</code> will take care of collecting those views and <em>building</em> them into the final content that then gets rendered within the stack:</p><pre class="splash"><code><span class="s-type">VStack</span> {
+    <span class="s-type">Image</span>(systemName: <span class="s-string">"star"</span>)
+    <span class="s-type">Text</span>(<span class="s-string">"Hello, world!"</span>)
+}</code></pre><p>What’s interesting about <code>ViewBuilder</code> is that it’s completely possible to use SwiftUI for a significant amount of time before even discovering that it exists. After all, we don’t have to reference it explicitly in most situations, as SwiftUI’s various closures and protocols have already been annotated with the corresponding <code>@ViewBuilder</code> attribute out of the box.</p><p>For example, the <code>View</code> protocol that we use every time we want to define a custom view uses <code>ViewBuilder</code> implicitly, since the definition for the <code>body</code> property requirement looks like this:</p><pre class="splash"><code><span class="s-keyword">@MainActor @preconcurrency public protocol</span> View {
+    <span class="s-keyword">associatedtype</span> Body : <span class="s-type">View</span>
+
+    <span class="highlight"><span class="s-keyword">@ViewBuilder</span></span> <span class="s-keyword">@MainActor @preconcurrency var</span> body: <span class="s-type">Self</span>.<span class="s-type">Body</span> { <span class="s-keyword">get</span> }
+}</code></pre><p>That’s what makes it possible to use things like control flow within our view <code>body</code> implementations, even when each branch within such a flow returns different types, and even when we don’t explicitly mark our property with <code>@ViewBuilder</code> ourselves:</p><pre class="splash"><code><span class="s-keyword">struct</span> RootView: <span class="s-type">View</span> {
+    <span class="s-keyword">@State private var</span> user: <span class="s-type">User</span>?
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="highlight"><span class="s-keyword">if let</span> user {
+    <span class="s-type">HomeView</span>(user: user)
+} <span class="s-keyword">else</span> {
+    <span class="s-type">LoginView</span>(user: <span class="s-property">$user</span>)
+}</span>
+    }
+}</code></pre><blockquote><p>The way our views automatically get annotated with <code>@ViewBuilder</code> works the same way as why we don’t have to manually mark our views as <code>@MainActor</code> to run them on the main thread — our custom view types automatically inherit those attributes from the <code>View</code> protocol declaration.</p></blockquote><p>But there <em>are</em> situations in which using <code>ViewBuilder</code> directly can be incredibly useful — so let’s go ahead and explore a few such examples, along with some tips and tricks that can be good to keep in mind when writing that kind of code.</p><a class="supporter hstack long-text" href="https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad" rel="nofollow" target="_blank"><img class="main" src="/images/supporters/geniusScan-image.png" alt="Genius Scan SDK"/><div><p>Swift by Sundell is brought to you by the <strong>Genius Scan SDK</strong> — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. <u>Try it today</u>.</p></div></a><h2><a id="custom-containers" href="#custom-containers">Custom containers</a></h2><p>Any property, function, or closure can be marked with the <code>@ViewBuilder</code> attribute, which opts that code into getting the same <em><a href="https://en.wikipedia.org/wiki/Domain-specific_language">“DSL-like”</a></em> capabilities as SwiftUI’s built-in APIs. For example, let’s say that we’re building a custom <code>Container</code> view, which renders a <code>header</code> on top of a <code>content</code> view, while also applying some default styling to those two components:</p><pre class="splash"><code><span class="s-keyword">struct</span> Container&lt;Header: <span class="s-type">View</span>, Content: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    <span class="s-keyword">var</span> header: <span class="s-type">Header</span>
+    <span class="s-keyword">var</span> content: <span class="s-type">Content</span>
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">VStack</span>(spacing: <span class="s-number">0</span>) {
+            header
+                .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>)
+                .<span class="s-call">padding</span>()
+                .<span class="s-call">foregroundStyle</span>(.<span class="s-dotAccess">white</span>)
+                .<span class="s-call">background</span>(<span class="s-type">Color</span>.<span class="s-property">blue</span>)
+
+            <span class="s-type">ScrollView</span> {
+                content.<span class="s-call">padding</span>()
+            }
+        }
+    }
+}</code></pre><p>As our <code>Container</code> view is currently defined, we’re limited to using just a single view for both the <code>header</code> and <code>content</code> properties, and we’d pass them just like we’d pass any other Swift initializer values — for example like this:</p><pre class="splash"><code><span class="s-type">Container</span>(header: <span class="s-type">Text</span>(<span class="s-string">"Welcome"</span>), content: <span class="s-type">ContentView</span>())</code></pre><p>Now, let’s go ahead and mark both <code>header</code> and <code>content</code> with the <code>@ViewBuilder</code> attribute, to see how that affects our view’s API:</p><pre class="splash"><code><span class="s-keyword">struct</span> Container&lt;Header: <span class="s-type">View</span>, Content: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    <span class="highlight"><span class="s-keyword">@ViewBuilder</span></span> <span class="s-keyword">var</span> header: <span class="s-type">Header</span>
+    <span class="highlight"><span class="s-keyword">@ViewBuilder</span></span> <span class="s-keyword">var</span> content: <span class="s-type">Content</span>
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        ...
+    }
+}</code></pre><p>What’s interesting is that, even though we haven’t redefined either of the above properties as being closures (they still both just store a single view value), their values must now be <em>passed</em> as closures when we initialize our <code>Container</code> view. <code>ViewBuilder</code> will then take any closure that we passed, and apply its view building logic to it, resulting in a single output view, which is then stored within each property.</p><p>What that means is that we’re now able to use the same SwiftUI syntax as when interacting with the library’s built-in APIs when defining either our <code>header</code> or <code>content</code>. Let’s use that new capability to update our <code>RootView</code> from before to use our new <code>Container</code> implementation, as we’re now able to use an <code>if</code> statement with separate view branches to declare our view’s <code>content</code>:</p><pre class="splash"><code><span class="s-keyword">struct</span> RootView: <span class="s-type">View</span> {
+    <span class="s-keyword">@State private var</span> user: <span class="s-type">User</span>?
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Container</span>(header: {
+            <span class="s-type">Text</span>(<span class="s-string">"Welcome"</span>)
+        }, content: {
+            <span class="highlight"><span class="s-keyword">if let</span> user {
+    <span class="s-type">HomeView</span>(user: user)
+} <span class="s-keyword">else</span> {
+    <span class="s-type">LoginView</span>(user: <span class="s-property">$user</span>)
+}</span>
+        })
+    }
+}</code></pre><p>Neat! Next, let’s take a look at how we might handle situations when we want to omit a specific component from a custom container view.</p><h2><a id="making-view-builder-properties-optional" href="#making-view-builder-properties-optional">Making view builder properties optional</a></h2><p>For example, let’s say that we want to make our <code>Container</code> view’s <code>header</code> optional. One way to get that done would be to write an extension on <code>Container</code> with a generic constraint on SwiftUI’s <code>EmptyView</code> type, which allows us to then pass that type’s initializer as a closure when calling our view’s member-wise initializer:</p><pre class="splash"><code><span class="s-keyword">extension</span> <span class="s-type">Container</span> <span class="highlight"><span class="s-keyword">where</span> <span class="s-type">Header</span> == <span class="s-type">EmptyView</span></span> {
+    <span class="s-keyword">init</span>(<span class="s-keyword">@ViewBuilder</span> content: () -&gt; <span class="s-type">Content</span>) {
+        <span class="s-keyword">self</span>.<span class="s-keyword">init</span>(header: <span class="highlight"><span class="s-type">EmptyView</span>.<span class="s-keyword">init</span></span>, content: content)
+    }
+}</code></pre><p>Note that we have to use a closure for our <code>content</code> property above, rather than just a <code>Content</code> value. That’s because the automatic conversion from view builder closure to single view value that we utilized before only works for stored properties, not for function arguments. Our closure doesn’t need to be <code>@escaping</code>, though, since SwiftUI will still evaluate it directly and automatically convert it into a single view, just like when using our view’s member-wise initializer.</p><p>With the above in place, we could now update our <code>RootView</code> to no longer use a header, which in turn enables us to use trailing closure syntax to achieve a call site that looks exactly like when using SwiftUI’s built in containers (like <code>HStack</code> or <code>VStack</code>):</p><pre class="splash"><code><span class="s-keyword">struct</span> RootView: <span class="s-type">View</span> {
+    <span class="s-keyword">@State private var</span> user: <span class="s-type">User</span>?
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Container</span> {
+            <span class="s-keyword">if let</span> user {
+                <span class="s-type">HomeView</span>(user: user)
+            } <span class="s-keyword">else</span> {
+                <span class="s-type">LoginView</span>(user: <span class="s-property">$user</span>)
+            }
+        }
+    }
+}</code></pre><p>While the above works great, there’s an alternative approach that we can take if we don’t want to define a constrained <code>Container</code> extension, but rather just use a custom initializer with default argument values instead.</p><p>What’s cool about using <code>ViewBuilder</code> is that, unlike when accepting separate view values directly, the compiler will automatically infer the concrete types for <code>Header</code> and <code>Content</code> if we use default arguments for their corresponding values.</p><p>So, if we specify <code>EmptyView.init</code> as the default value for our <code>header</code> property argument, then we can achieve the exact same result as when using the extension-based approach, while also giving us the option to keep adding more default values and convenience APIs in the future — all without having to define multiple extensions:</p><pre class="splash"><code><span class="s-keyword">struct</span> Container&lt;Header: <span class="s-type">View</span>, Content: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    <span class="s-keyword">var</span> header: <span class="s-type">Header</span>
+    <span class="s-keyword">var</span> content: <span class="s-type">Content</span>
+
+    <span class="s-keyword">init</span>(<span class="s-keyword">@ViewBuilder</span> header: () -&gt; <span class="s-type">Header</span> = <span class="highlight"><span class="s-type">EmptyView</span>.<span class="s-keyword">init</span></span>,
+         <span class="s-keyword">@ViewBuilder</span> content: () -&gt; <span class="s-type">Content</span>) {
+        <span class="s-keyword">self</span>.<span class="s-property">header</span> = <span class="s-call">header</span>()
+        <span class="s-keyword">self</span>.<span class="s-property">content</span> = <span class="s-call">content</span>()
+    }
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        ...
+    }
+}</code></pre><p>Note that we no longer need to add the <code>@ViewBuilder</code> attribute to our properties, since we now perform the closure-to-view conversion ourselves (by simply calling those closures within our view’s initializer).</p><p>An alternative approach would’ve been to instead store references to our closures within the <code>header</code> and <code>content</code> properties, and to then call those closures within our view’s <code>body</code>. Doing so wouldn’t make much of a difference in this particular case (besides requiring those closures to be <code>@escaping</code>, which most of SwiftUI’s own view builder closures aren’t), however, in some situations, taking that approach can significantly hurt performance — since we’ll end up re-evaluating those closures every time our view’s <code>body</code> gets re-evaluated. So, when possible, resolving each view builder closure up-front gives us the most predictable and consistent results.</p><h2><a id="handling-multiple-view-expressions" href="#handling-multiple-view-expressions">Handling multiple view expressions</a></h2><p>Just like when using SwiftUI’s built-in containers, it’s also now possible to place multiple view expressions within either our <code>header</code> or <code>content</code> closures. For example, if we bring back the header within our <code>RootView</code>, we might use this capability to add a <code>NavigationLink</code> below our welcome text — like this:</p><pre class="splash"><code><span class="s-keyword">struct</span> RootView: <span class="s-type">View</span> {
+    ...
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Container</span>(header: {
+            <span class="s-type">Text</span>(<span class="s-string">"Welcome"</span>)
+            <span class="highlight"><span class="s-type">NavigationLink</span>(<span class="s-string">"Info"</span>) {
+    <span class="s-type">InfoView</span>()
+}</span>
+        }, content: {
+            ...
+        })
+    }
+}</code></pre><p>However, call sites like the one above might not always produce the result we’d expect, since when processed by <code>ViewBuilder</code>, multiple view expressions will essentially be treated the same way as if they were added to a SwiftUI <code>Group</code> — in that they’ll each be independently styled, sized, and positioned according to the current context.</p><p>So, in the above example, we’re not actually adding a <em>combined header</em> to our view, but rather <em>two separate headers</em> — each with its own layout within the enclosing <code>VStack</code>, and each with its own set of modifiers applied to it.</p><p>To resolve that, it might be a good idea to wrap both our <code>header</code> and <code>content</code> views within explicit containers, so that their layout will always be predictable, even when multiple view expressions are used at a specific call site:</p><pre class="splash"><code><span class="s-keyword">struct</span> Container&lt;Header: <span class="s-type">View</span>, Content: <span class="s-type">View</span>&gt;: <span class="s-type">View</span> {
+    ...
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">VStack</span>(spacing: <span class="s-number">0</span>) {
+            <span class="highlight"><span class="s-type">VStack</span> { header }</span>
+                .<span class="s-call">frame</span>(maxWidth: .<span class="s-dotAccess">infinity</span>)
+                .<span class="s-call">padding</span>()
+                .<span class="s-call">foregroundStyle</span>(.<span class="s-dotAccess">white</span>)
+                .<span class="s-call">background</span>(<span class="s-type">Color</span>.<span class="s-property">blue</span>)
+
+            <span class="s-type">ScrollView</span> {
+                <span class="highlight"><span class="s-type">VStack</span> { content }</span>
+                    .<span class="s-call">padding</span>()
+            }
+        }
+    }
+}</code></pre><p>Whether to take the above approach (and enforce a specific layout within the container in question), or leave it up to each call site to define its own layout, will likely come down to a combination of personal/team preference and the specific container (and layout behaviors) that we’re implementing.</p><p>There are cases, though, where it’s arguably best to add an explicit container at the call site, in order to make our code more clear and easier to maintain. For example, here we’re using <code>@ViewBuilder</code> as a sort of code organization tool, in that we’re applying it to private functions that we’re using to build separate parts of our view — which in general is a really great way to structure increasingly complex SwiftUI view implementations, rather than allowing our <code>body</code> properties to grow too large in scope:</p><pre class="splash"><code><span class="s-keyword">struct</span> RootView: <span class="s-type">View</span> {
+    <span class="s-keyword">@State private var</span> user: <span class="s-type">User</span>?
+
+    <span class="s-keyword">var</span> body: <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Container</span>(header: header, content: content)
+    }
+}
+
+<span class="s-keyword">private extension</span> <span class="s-type">RootView</span> {
+    <span class="highlight"><span class="s-keyword">@ViewBuilder func</span> header()</span> -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">Text</span>(<span class="s-string">"Welcome"</span>)
+        <span class="s-type">NavigationLink</span>(<span class="s-string">"Info"</span>) {
+            <span class="s-type">InfoView</span>()
+        }
+    }
+
+    <span class="highlight"><span class="s-keyword">@ViewBuilder func</span> content()</span> -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-keyword">if let</span> user {
+            <span class="s-type">HomeView</span>(user: user)
+        } <span class="s-keyword">else</span> {
+            <span class="s-type">LoginView</span>(user: <span class="s-property">$user</span>)
+        }
+    }
+}</code></pre><p>However, while our above code is now very neatly organized, the semantics of our new <code>header</code> function are arguably a bit odd — since it doesn’t really return <em>a header</em>, but rather multiple view expressions that will be <em>built into a header</em>. It might be a nitpicky detail in the grand scheme of things, but aiming to write code to be as clear as possible does often really help when it comes to future maintainability.</p><p>A rule of thumb that can be good to follow is that a function or computed property should never return multiple root view expressions (since that gives us an implicit group, just like before). Instead, it would arguably be better if our <code>header</code> function didn’t actually use <code>ViewBuilder</code>, but rather just returned an explicit <code>VStack</code> which in turn contains our header view’s content. That way, it’ll become crystal clear how our header will be rendered, even if we end up changing how our <code>Container</code> view works in the future:</p><pre class="splash"><code><span class="s-keyword">private extension</span> <span class="s-type">RootView</span> {
+    <span class="highlight"><span class="s-keyword">func</span> header()</span> -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-type">VStack</span>(spacing: <span class="s-number">20</span>) {
+            <span class="s-type">Text</span>(<span class="s-string">"Welcome"</span>)
+            <span class="s-type">NavigationLink</span>(<span class="s-string">"Info"</span>) {
+                <span class="s-type">InfoView</span>()
+            }
+        }
+    }
+
+    <span class="s-keyword">@ViewBuilder func</span> content() -&gt; <span class="s-keyword">some</span> <span class="s-type">View</span> {
+        <span class="s-keyword">if let</span> user {
+            <span class="s-type">HomeView</span>(user: user)
+        } <span class="s-keyword">else</span> {
+            <span class="s-type">LoginView</span>(user: <span class="s-property">$user</span>)
+        }
+    }
+}</code></pre><p>We still want to keep using <code>@ViewBuilder</code> for our <code>content</code> function, though, since it returns just a single (albeit conditional) root view expression.</p><a class="supporter hstack long-text" href="https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad" rel="nofollow" target="_blank"><img class="main" src="/images/supporters/geniusScan-image.png" alt="Genius Scan SDK"/><div><p>Swift by Sundell is brought to you by the <strong>Genius Scan SDK</strong> — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. <u>Try it today</u>.</p></div></a><h2><a id="conclusion" href="#conclusion">Conclusion</a></h2><p>SwiftUI’s <code>ViewBuilder</code> is a really powerful tool, and the fact that we can opt our own code into using it gives us a lot of flexibility when it comes to how we want to structure and reuse our UI code. By adopting it within our own custom containers, we can really craft APIs that feel right at home alongside SwiftUI’s own features, which in turn should help us improve the consistency and clarity of the UI code that we write.</p><p>I hope you enjoyed this article. If you have any questions, comments, or feedback, then feel free to reach out via either <a href="https://mastodon.social/@johnsundell">Mastodon</a> or <a href="https://bsky.app/profile/johnsundell.bsky.social">Bluesky</a>.</p><p>Thanks for reading!</p></div><ul class="actions"></ul><div class="related-content"><div class="float-container"><h2>More on similar topics</h2><a href="/tags" class="browse-all">Browse all content by tag</a></div><ul class="item-list grid compact"><li><a href="/tips/annotating-properties-with-result-builder-attributes" aria-label="Annotating properties with result builder attributes"><article class="tips"><span class="type">Tip</span><h1>Annotating properties with result builder attributes</h1></article></a></li><li><a href="/articles/rendering-swiftui-views-within-uitableview-or-uicollectionview" aria-label="Rendering SwiftUI views within UITableView or UICollectionView cells on iOS 16"><article class="article"><span class="type">Article</span><h1>Rendering SwiftUI views within UITableView or UICollectionView cells on iOS 16</h1></article></a></li><li><a href="/articles/swiftui-and-uikit-interoperability-part-1" aria-label="SwiftUI and UIKit interoperability - Part 1"><article class="article"><span class="type">Article</span><h1>SwiftUI and UIKit interoperability - Part 1</h1></article></a></li></ul></div></article><a href="/articles/decoding-swift-types-that-require-additional-data" aria-label="Decoding Swift types that require additional data" class="pagination next"><b>Next:</b> Decoding Swift types that require additional data</a><a href="/articles/using-defer-within-async-and-throwing-contexts" aria-label="Using Swift’s defer keyword within async and throwing contexts" class="pagination previous"><b>Previous:</b> Using Swift’s defer keyword within async and throwing contexts</a><footer><p>Copyright © Sundell sp. z o.o. 2025.</p><p>Built in Swift using <a href="https://github.com/johnsundell/publish">Publish</a>.</p><p><a href="https://mastodon.social/@johnsundell" rel="nofollow" target="_blank">Mastodon</a> | <a href="/subscribe">RSS</a> | <a href="/contact">Contact</a></p></footer></body></html>

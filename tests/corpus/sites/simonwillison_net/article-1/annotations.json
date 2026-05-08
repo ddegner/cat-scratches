@@ -1,0 +1,28 @@
+{
+  "url": "https://simonwillison.net/2024/May/13/gpt-4o/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "article, .entry-content",
+  "keep": [
+    "h1, h2, h3",
+    "article p",
+    "article blockquote",
+    "article pre, article code",
+    ".entry-date"
+  ],
+  "strip": [
+    ".site-nav, header nav",
+    "footer",
+    ".tags-list",
+    ".related-entries",
+    ".comments"
+  ],
+  "expected_quirks": [
+    "Link-blog style post: opens with linked reference phrase, prose follows",
+    "Uses a small blockquote pulling from OpenAI's announcement",
+    "Trailing 'Posted ... at ...' timestamp is part of the post and should be kept"
+  ],
+  "category_tags": ["blog", "tech", "ai", "short-form"],
+  "notes": "Extractor handled this correctly. Use as a positive regression anchor: if future changes reduce this to < 0.95 F1, they broke something."
+}

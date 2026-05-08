@@ -1,0 +1,18 @@
+{
+  "url": "https://gizmodo.com/redline-anime-movie-studio-madhouse-retro-review-2000755067",
+  "replaced_url": "https://gizmodo.com/example-article-1851234567",
+  "recovery_url": "https://gizmodo.com/redline-anime-movie-studio-madhouse-retro-review-2000755067",
+  "final_url": "https://gizmodo.com/redline-anime-movie-studio-madhouse-retro-review-2000755067",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 238444,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:31.092Z",
+  "elapsed_ms": 56,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Every Day Is a Perfect Day to Watch 'Redline'",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

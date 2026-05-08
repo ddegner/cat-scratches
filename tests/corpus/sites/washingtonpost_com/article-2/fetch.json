@@ -1,0 +1,48 @@
+{
+  "url": "https://www.washingtonpost.com/opinions/2024/10/25/washington-post-endorsement-presidential-race/",
+  "recovery_url": "https://www.washingtonpost.com/world/2026/05/06/israel-hezbollah-radwan-beirut-attack-haret-hreik/",
+  "final_url": "https://www.washingtonpost.com/world/2026/05/06/israel-hezbollah-radwan-beirut-attack-haret-hreik/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 996641,
+  "error": null,
+  "fetched_at": "2026-05-07T01:31:45.008Z",
+  "elapsed_ms": 105,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Israel strikes Beirut suburbs, threatening already shaky ceasefire - The Washington Post",
+  "recovery_attempts": [
+    {
+      "url": "https://www.washingtonpost.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:166"
+    },
+    {
+      "url": "https://www.washingtonpost.com/world/2026/05/06/israel-hezbollah-radwan-beirut-attack-haret-hreik/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T13:10:34.448Z",
+  "story_repair_reasons": [
+    "too-thin:302"
+  ],
+  "story_repair_candidates": [
+    "https://www.washingtonpost.com/sports/nba/2026/05/07/timberwolves-spurs-score/f0862508-49ce-11f1-a119-857cd2bf4fd4_story.html",
+    "https://www.washingtonpost.com/politics/2026/05/07/federal-workers-awards-doge-trump-musk/",
+    "https://www.washingtonpost.com/politics/2026/05/06/lutnick-testifies-before-congressional-panel-investigating-epstein/",
+    "https://www.washingtonpost.com/politics/2026/05/07/trump-ballroom-white-house-event/",
+    "https://www.washingtonpost.com/opinions/2026/05/07/amadeus-reboot-revives-fantasy-mozart-death/",
+    "https://www.washingtonpost.com/opinions/2026/05/07/modi-electoral-triumph-cements-his-legacy/",
+    "https://www.washingtonpost.com/opinions/2026/05/07/mother-day-america-thoughts-vietnamese-motherhood/",
+    "https://www.washingtonpost.com/opinions/2026/05/06/daniel-lurie-san-francisco-law-and-order-mayor/",
+    "https://www.washingtonpost.com/opinions/2026/05/06/supreme-courts-callais-redistricting-ruling-could-backfire-gop/",
+    "https://www.washingtonpost.com/opinions/2026/05/06/spirit-airlines-bailout-failed-good/",
+    "https://www.washingtonpost.com/ripple/2026/05/06/article/comey-indictment-first-amendment-precedent/?itid=hp_brand_promo_4",
+    "https://www.washingtonpost.com/world/2026/05/05/trump-rubio-pope-leo-rift/"
+  ],
+  "rejected_nonstory_files": null
+}

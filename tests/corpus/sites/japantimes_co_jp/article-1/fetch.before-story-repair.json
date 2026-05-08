@@ -1,0 +1,11 @@
+{
+  "url": "https://www.japantimes.co.jp/news/2024/11/06/japan/example/",
+  "final_url": "https://www.japantimes.co.jp/search?query=news",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 363502,
+  "error": null,
+  "fetched_at": "2026-05-06T19:38:16.691Z",
+  "elapsed_ms": 676,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

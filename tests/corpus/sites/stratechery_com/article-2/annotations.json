@@ -1,0 +1,25 @@
+{
+  "url": "https://stratechery.com/2024/apple-intelligence/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "article .entry-content",
+  "keep": [
+    ".entry-content p, h2, h3, blockquote"
+  ],
+  "strip": [
+    ".sharedaddy",
+    ".jp-relatedposts",
+    ".subscription-form"
+  ],
+  "expected_quirks": [
+    "Same WP template"
+  ],
+  "category_tags": [
+    "tech-news",
+    "longform",
+    "analysis",
+    "wordpress"
+  ],
+  "notes": "Positive anchor."
+}

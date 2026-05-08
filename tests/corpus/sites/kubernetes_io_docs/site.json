@@ -1,0 +1,6 @@
+{
+  "name": "Kubernetes docs",
+  "category": "docs",
+  "cms": "hugo",
+  "slug": "kubernetes_io_docs"
+}

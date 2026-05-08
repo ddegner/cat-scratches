@@ -1,0 +1,22 @@
+{
+  "url": "https://www.lrb.co.uk/the-paper/v46/n10/example/example-article",
+  "recovery_url": "https://www.lrb.co.uk/blog/2026/may/something-broken-or-nothing-at-all",
+  "final_url": "https://www.lrb.co.uk/blog/2026/may/something-broken-or-nothing-at-all",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 247418,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:42.973Z",
+  "elapsed_ms": 246,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Raha Nik-Andish | Something Broken or Nothing at All",
+  "recovery_attempts": [
+    {
+      "url": "https://www.lrb.co.uk/blog/2026/may/something-broken-or-nothing-at-all",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

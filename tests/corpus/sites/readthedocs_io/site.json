@@ -1,0 +1,6 @@
+{
+  "name": "Read the Docs",
+  "category": "docs-public",
+  "cms": "sphinx",
+  "slug": "readthedocs_io"
+}

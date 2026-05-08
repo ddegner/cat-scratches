@@ -1,0 +1,33 @@
+{
+  "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "main#content article.main-page-content",
+  "keep": [
+    "h1, h2, h3, h4",
+    "article p",
+    "article pre.brush",
+    "article table.standard-table",
+    "article dl"
+  ],
+  "strip": [
+    ".bc-table-container",
+    ".document-toc-container",
+    "aside.metadata",
+    ".banners-container",
+    ".bcd-signal-block",
+    ".section-content > p:has(+ .bc-data)"
+  ],
+  "expected_quirks": [
+    "Top 'Baseline Widely available' widget should be stripped (decorative)",
+    "'Learn more / See full compatibility / Report feedback' is a kebab-menu — chrome",
+    "Code samples (pre.brush.js) MUST be preserved; current extraction keeps these correctly"
+  ],
+  "category_tags": [
+    "docs",
+    "reference",
+    "api"
+  ],
+  "notes": "Add selector '.bc-table-container', '.bcd-signal-block', and the Baseline widget class to BASE_FILTERS."
+}

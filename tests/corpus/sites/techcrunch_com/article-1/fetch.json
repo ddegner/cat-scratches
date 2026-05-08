@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+  "replaced_url": "https://techcrunch.com/2024/05/13/openais-gpt-4o-multimodal-model-now-live-in-chatgpt/",
+  "recovery_url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+  "final_url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 238715,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:22.711Z",
+  "elapsed_ms": 30,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "This tiny, magnetic e-reader could stop you from doomscrolling | TechCrunch",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

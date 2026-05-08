@@ -1,0 +1,6 @@
+{
+  "name": "Docker docs",
+  "category": "docs",
+  "cms": "hugo",
+  "slug": "docs_docker_com"
+}

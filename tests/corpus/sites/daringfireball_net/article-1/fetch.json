@@ -1,0 +1,22 @@
+{
+  "url": "https://daringfireball.net/2024/09/the_ios_18_review",
+  "recovery_url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+  "final_url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 9972,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:43.978Z",
+  "elapsed_ms": 95,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Daring Fireball: Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
+  "recovery_attempts": [
+    {
+      "url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

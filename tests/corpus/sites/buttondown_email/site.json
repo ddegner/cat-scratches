@@ -1,0 +1,6 @@
+{
+  "name": "Buttondown newsletter",
+  "category": "newsletter",
+  "cms": "buttondown",
+  "slug": "buttondown_email"
+}

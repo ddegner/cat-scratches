@@ -1,0 +1,18 @@
+{
+  "url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+  "replaced_url": "https://www.techradar.com/computing/example-2024",
+  "recovery_url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+  "final_url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1823610,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:36.748Z",
+  "elapsed_ms": 37,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "5 Android 17 features that could be announced at Google's pre-I/O Android reveal — including Motion Assist and app locking | TechRadar",
+  "replacement_reasons": [
+    "bad-title"
+  ]
+}

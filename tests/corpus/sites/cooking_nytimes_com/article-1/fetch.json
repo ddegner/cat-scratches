@@ -1,0 +1,40 @@
+{
+  "url": "https://cooking.nytimes.com/recipes/1017611-perfect-instant-ramen",
+  "recovery_url": "https://cooking.nytimes.com/article/salt-sweat-steam-excerpt",
+  "final_url": "https://cooking.nytimes.com/article/salt-sweat-steam-excerpt",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 205879,
+  "error": null,
+  "fetched_at": "2026-05-06T20:49:35.657Z",
+  "elapsed_ms": 191,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Excerpt From Brigid Washington’s “Salt, Sweat and Steam” - NYT Cooking",
+  "recovery_attempts": [
+    {
+      "url": "https://cooking.nytimes.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:249"
+    },
+    {
+      "url": "https://cooking.nytimes.com/68861692-nyt-cooking/2110373-healthy-weeknight-dinners",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://cooking.nytimes.com/68861692-nyt-cooking/1197879-mothers-day-breakfast-and-brunch",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://cooking.nytimes.com/article/salt-sweat-steam-excerpt",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

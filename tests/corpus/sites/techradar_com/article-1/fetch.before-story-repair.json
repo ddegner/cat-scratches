@@ -1,0 +1,22 @@
+{
+  "url": "https://www.techradar.com/computing/example-2024",
+  "recovery_url": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+  "final_url": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 3041082,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:12.995Z",
+  "elapsed_ms": 39,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The best laptops 2026 tested, reviewed and rated | TechRadar",
+  "recovery_attempts": [
+    {
+      "url": "https://www.techradar.com/news/mobile-computing/laptops/best-laptops-1304361",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

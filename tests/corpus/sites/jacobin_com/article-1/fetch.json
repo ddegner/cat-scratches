@@ -1,0 +1,22 @@
+{
+  "url": "https://jacobin.com/2024/05/example-article",
+  "recovery_url": "https://jacobin.com/2024/06/morena-amlo-anti-corruption-class-politics/",
+  "final_url": "https://jacobin.com/2024/06/morena-amlo-anti-corruption-class-politics/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 58788,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:41.368Z",
+  "elapsed_ms": 98,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How Morena Turned Anti-Corruption Politics Into Class Politics",
+  "recovery_attempts": [
+    {
+      "url": "https://jacobin.com/2024/06/morena-amlo-anti-corruption-class-politics/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

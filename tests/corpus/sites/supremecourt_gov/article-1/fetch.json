@@ -1,0 +1,28 @@
+{
+  "url": "https://www.supremecourt.gov/opinions/23pdf/22-1219_c07d.pdf",
+  "recovery_url": "https://www.supremecourt.gov/publicinfo/year-end/year-endreports.aspx",
+  "final_url": "https://www.supremecourt.gov/publicinfo/year-end/year-endreports.aspx",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 43524,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:07.185Z",
+  "elapsed_ms": 61,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Chief Justice's Year-End Reports on the Federal Judiciary - Supreme Court of the United States",
+  "recovery_attempts": [
+    {
+      "url": "https://www.supremecourt.gov",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:52"
+    },
+    {
+      "url": "https://www.supremecourt.gov/publicinfo/year-end/year-endreports.aspx",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

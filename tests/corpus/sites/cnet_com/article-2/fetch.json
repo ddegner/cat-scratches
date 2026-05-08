@@ -1,0 +1,28 @@
+{
+  "url": "https://www.cnet.com/reviews/example-product-2024/",
+  "recovery_url": "https://www.cnet.com/tech/computing/this-25000-robot-looks-right-out-of-star-wars/",
+  "final_url": "https://www.cnet.com/tech/computing/this-25000-robot-looks-right-out-of-star-wars/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 953501,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:19.896Z",
+  "elapsed_ms": 223,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "This $25,000 Robot Looks Right Out of Star Wars - CNET",
+  "recovery_attempts": [
+    {
+      "url": "https://www.cnet.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:439"
+    },
+    {
+      "url": "https://www.cnet.com/tech/computing/this-25000-robot-looks-right-out-of-star-wars/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

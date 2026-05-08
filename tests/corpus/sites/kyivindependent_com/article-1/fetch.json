@@ -1,0 +1,18 @@
+{
+  "url": "https://kyivindependent.com/ukraines-culture-minister-on-why-culture-needs-kpis-to-succeed-on-a-mass-scale/",
+  "replaced_url": "https://kyivindependent.com/example-article-2024/",
+  "recovery_url": "https://kyivindependent.com/ukraines-culture-minister-on-why-culture-needs-kpis-to-succeed-on-a-mass-scale/",
+  "final_url": "https://kyivindependent.com/ukraines-culture-minister-on-why-culture-needs-kpis-to-succeed-on-a-mass-scale/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1598969,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:08.185Z",
+  "elapsed_ms": 471,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Ukraine's culture minister on why culture 'needs KPIs' to succeed",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

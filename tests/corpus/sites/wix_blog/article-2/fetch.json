@@ -1,0 +1,18 @@
+{
+  "url": "https://www.wix.com/blog/how-to-monetize-a-website",
+  "replaced_url": "https://www.wix.com/blog/example-two",
+  "recovery_url": "https://www.wix.com/blog/how-to-monetize-a-website",
+  "final_url": "https://www.wix.com/blog/how-to-monetize-a-website",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1716630,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:51.245Z",
+  "elapsed_ms": 66,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How to monetize your website in 15 actionable steps",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

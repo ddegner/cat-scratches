@@ -1,0 +1,28 @@
+{
+  "url": "https://www.rappler.com/business/example-two-may-2024/",
+  "recovery_url": "https://www.rappler.com/newsbreak/in-depth/navotas-landfill-fire-impact/",
+  "final_url": "https://www.rappler.com/features/newsbreak/in-depth/navotas-landfill-fire-impact/index.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 74058,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:54.346Z",
+  "elapsed_ms": 150,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How bad is the Navotas landfill fire?",
+  "recovery_attempts": [
+    {
+      "url": "https://www.rappler.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:154"
+    },
+    {
+      "url": "https://www.rappler.com/newsbreak/in-depth/navotas-landfill-fire-impact/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

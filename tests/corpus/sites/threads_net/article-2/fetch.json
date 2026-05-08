@@ -1,0 +1,11 @@
+{
+  "url": "https://www.threads.net/@zuck/post/C9876543210",
+  "final_url": "https://www.threads.com/?error=invalid_post",
+  "status": 200,
+  "content_type": "text/html; charset=\"utf-8\"",
+  "bytes": 591712,
+  "error": null,
+  "fetched_at": "2026-05-06T19:42:02.395Z",
+  "elapsed_ms": 1067,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

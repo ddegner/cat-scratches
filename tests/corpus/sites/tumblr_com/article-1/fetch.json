@@ -1,0 +1,28 @@
+{
+  "url": "https://staff.tumblr.com/post/12345678/example",
+  "recovery_url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+  "final_url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 283985,
+  "error": null,
+  "fetched_at": "2026-05-06T20:24:35.923Z",
+  "elapsed_ms": 1496,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Tumblr Staff — We meant it. Let's work together",
+  "recovery_attempts": [
+    {
+      "url": "https://staff.tumblr.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:218"
+    },
+    {
+      "url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

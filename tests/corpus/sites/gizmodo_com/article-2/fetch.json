@@ -1,0 +1,18 @@
+{
+  "url": "https://gizmodo.com/man-gets-worlds-worst-diarrhea-after-overdosing-on-experimental-glp-1-2000755155",
+  "replaced_url": "https://gizmodo.com/example-two-1857654321",
+  "recovery_url": "https://gizmodo.com/man-gets-worlds-worst-diarrhea-after-overdosing-on-experimental-glp-1-2000755155",
+  "final_url": "https://gizmodo.com/man-gets-worlds-worst-diarrhea-after-overdosing-on-experimental-glp-1-2000755155",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 220305,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:31.816Z",
+  "elapsed_ms": 45,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Man Gets Horrific Case of Diarrhea After Overdosing on Experimental GLP-1",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

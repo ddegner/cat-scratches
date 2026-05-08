@@ -1,0 +1,28 @@
+{
+  "url": "https://old.reddit.com/r/programming/comments/1cr5zgh/openai_releases_gpt4o/",
+  "recovery_url": "https://old.reddit.com/r/okbuddycinephile/comments/1t59734/the_substance_2024/",
+  "final_url": "https://old.reddit.com/r/okbuddycinephile/comments/1t59734/the_substance_2024/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 805790,
+  "error": null,
+  "fetched_at": "2026-05-06T20:25:12.817Z",
+  "elapsed_ms": 1548,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Substance (2024) : okbuddycinephile",
+  "recovery_attempts": [
+    {
+      "url": "https://old.reddit.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:118"
+    },
+    {
+      "url": "https://old.reddit.com/r/okbuddycinephile/comments/1t59734/the_substance_2024/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

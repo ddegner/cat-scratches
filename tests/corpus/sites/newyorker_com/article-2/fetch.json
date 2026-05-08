@@ -1,0 +1,18 @@
+{
+  "url": "https://www.newyorker.com/magazine/2026/05/11/glorious-country-victoria-johnson-book-review",
+  "replaced_url": "https://www.newyorker.com/culture/annals-of-inquiry/example-piece",
+  "recovery_url": "https://www.newyorker.com/magazine/2026/05/11/glorious-country-victoria-johnson-book-review",
+  "final_url": "https://www.newyorker.com/magazine/2026/05/11/glorious-country-victoria-johnson-book-review",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1145058,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:02.124Z",
+  "elapsed_ms": 106,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The Artist Who Made America Look Like a Promised Land | The New Yorker",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

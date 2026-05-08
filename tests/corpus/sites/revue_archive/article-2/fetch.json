@@ -1,0 +1,19 @@
+{
+  "url": "https://www.getrevue.co/profile/example/issues/example-two-67890",
+  "final_url": "https://www.getrevue.co/profile/example/issues/example-two-67890",
+  "status": 0,
+  "content_type": "",
+  "bytes": 0,
+  "error": "fetch failed",
+  "fetched_at": "2026-05-06T19:41:54.154Z",
+  "elapsed_ms": 6,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:37:21.215Z",
+  "story_repair_reasons": [
+    "bad-note",
+    "bad-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": null
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.newsweek.com/example-two-2024-67890",
+  "recovery_url": "https://www.newsweek.com/entertainment/movies/hokum-review-damian-mccarthy-does-it-again-with-adam-scott-led-thriller-11916380",
+  "final_url": "https://www.newsweek.com/entertainment/movies/hokum-review-damian-mccarthy-does-it-again-with-adam-scott-led-thriller-11916380",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 777192,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:25.591Z",
+  "elapsed_ms": 51,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "‘Hokum’ Review: Damian McCarthy Does It Again With Adam Scott-Led Thriller - Newsweek",
+  "recovery_attempts": [
+    {
+      "url": "https://www.newsweek.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:108"
+    },
+    {
+      "url": "https://www.newsweek.com/entertainment/movies/hokum-review-damian-mccarthy-does-it-again-with-adam-scott-led-thriller-11916380",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

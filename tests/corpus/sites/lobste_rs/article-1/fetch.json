@@ -1,0 +1,46 @@
+{
+  "url": "https://lobste.rs/s/abcdef/example_story",
+  "recovery_url": "https://lobste.rs/s/bgjmvk/we_re_not_building_ai_features_for_money",
+  "final_url": "https://lobste.rs/s/bgjmvk/we_re_not_building_ai_features_for_money",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10114,
+  "error": null,
+  "fetched_at": "2026-05-06T20:08:33.090Z",
+  "elapsed_ms": 864,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "We're Not Building AI Features for the Money | Lobsters",
+  "recovery_attempts": [
+    {
+      "url": "https://lobste.rs/domains/principia-softwarica.org",
+      "method": "http",
+      "status": 429,
+      "reason": "http:429"
+    },
+    {
+      "url": "https://lobste.rs/domains/principia-softwarica.org",
+      "method": "chrome",
+      "status": 0,
+      "reason": "thin-text:256"
+    },
+    {
+      "url": "https://lobste.rs/~aw1621107",
+      "method": "http",
+      "status": 200,
+      "reason": "thin-text:244"
+    },
+    {
+      "url": "https://lobste.rs/s/abcdef/example_story",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://lobste.rs/s/bgjmvk/we_re_not_building_ai_features_for_money",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

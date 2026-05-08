@@ -1,0 +1,30 @@
+{
+  "url": "https://docs.python.org/3/library/functools.html",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "near-perfect",
+  "content_root_selector": "div.body section",
+  "keep": [
+    "h1-h4",
+    "p",
+    "dl.py",
+    "pre"
+  ],
+  "strip": [
+    "div.sphinxsidebar",
+    "div.related",
+    "div.footer",
+    ".headerlink"
+  ],
+  "expected_quirks": [
+    "Sphinx-rendered page; signature blocks use <dl class='py function'>",
+    "¶ paragraph anchors (.headerlink) are decorative — strip"
+  ],
+  "category_tags": [
+    "docs",
+    "reference",
+    "python",
+    "sphinx"
+  ],
+  "notes": "Sphinx default theme. Consider adding '.headerlink' to BASE_FILTERS."
+}

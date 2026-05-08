@@ -1,0 +1,22 @@
+{
+  "url": "https://thehill.com/policy/defense/5867352-iranian-official-peace-proposal-americans-wish-list/",
+  "recovery_url": "https://thehill.com/policy/defense/5867352-iranian-official-peace-proposal-americans-wish-list/amp/",
+  "final_url": "https://thehill.com/policy/defense/5867352-iranian-official-peace-proposal-americans-wish-list/amp/",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 108951,
+  "error": null,
+  "fetched_at": "2026-05-07T03:48:35.760Z",
+  "elapsed_ms": 321,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_method": "http-amp",
+  "recovery_title": "Iranian official calls reported peace proposal ‘Americans’ wish list’",
+  "blocked_primary_url": true,
+  "story_repair_error": "No usable unique story/article page found",
+  "story_repair_attempted_at": "2026-05-07T14:06:35.004Z",
+  "story_repair_reasons": [
+    "bad-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": null
+}

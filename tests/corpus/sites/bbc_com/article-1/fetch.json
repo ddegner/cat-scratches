@@ -1,0 +1,28 @@
+{
+  "url": "https://www.bbc.com/news/articles/c0l15zd7937o",
+  "recovery_url": "https://www.bbc.com/news/articles/c1m253033m4o",
+  "final_url": "https://www.bbc.com/news/articles/c1m253033m4o",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 262372,
+  "error": null,
+  "fetched_at": "2026-05-06T19:54:29.274Z",
+  "elapsed_ms": 28,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Massive Alaska megatsunami was second largest ever recorded",
+  "recovery_attempts": [
+    {
+      "url": "https://www.bbc.com/future/article/20240726-how-the-human-body-changes-with-age",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/c1m253033m4o",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

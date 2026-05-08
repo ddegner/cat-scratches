@@ -1,0 +1,18 @@
+{
+  "url": "https://www.straitstimes.com/life/food/hawker-trio-built-curry-puffs-into-a-500000-business-in-a-year?ref=headstart",
+  "replaced_url": "https://www.straitstimes.com/singapore/example-article",
+  "recovery_url": "https://www.straitstimes.com/life/food/hawker-trio-built-curry-puffs-into-a-500000-business-in-a-year?ref=headstart",
+  "final_url": "https://www.straitstimes.com/life/food/hawker-trio-built-curry-puffs-into-a-500000-business-in-a-year?ref=headstart",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 157186,
+  "error": null,
+  "fetched_at": "2026-05-07T02:07:14.377Z",
+  "elapsed_ms": 379,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "What The Puff grows into $500k curry puff business | The Straits Times",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

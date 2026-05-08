@@ -1,0 +1,18 @@
+{
+  "url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+  "replaced_url": "https://abcnews.go.com/Technology/example/story?id=67890",
+  "recovery_url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+  "final_url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 163817,
+  "error": null,
+  "fetched_at": "2026-05-07T02:20:16.019Z",
+  "elapsed_ms": 106,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Runner competing in 250-mile ultramarathon dies after having medical emergency - ABC News",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

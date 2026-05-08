@@ -1,0 +1,32 @@
+{
+  "url": "https://example.typepad.com/blog/2024/05/example.html",
+  "recovery_url": "https://example.typepad.com/blog/2024/05/example.html",
+  "final_url": "https://example.typepad.com/blog/2024/05/example.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 507644,
+  "error": null,
+  "fetched_at": "2026-05-06T20:07:27.257Z",
+  "elapsed_ms": 16226,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Typepad | Network Solutions",
+  "recovery_attempts": [
+    {
+      "url": "https://example.typepad.com",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    }
+  ],
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:48:45.556Z",
+  "rejected_source": "source.rejected.html",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:37:07.560Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": null
+}

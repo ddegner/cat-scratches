@@ -1,0 +1,25 @@
+{
+  "url": "https://www.theverge.com/24284101/apple-iphone-16-review",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article .duet--article--article-body",
+  "keep": [
+    "article .duet--article--article-body p, h2, h3, blockquote",
+    "article .duet--article--byline"
+  ],
+  "strip": [
+    ".duet--article--article-tag-list",
+    ".duet--article--related-list",
+    ".duet--article--follow-box",
+    "aside.duet--sidebar--most-popular"
+  ],
+  "expected_quirks": [
+    "Same Chorus CMS as article-1 — very short extraction suggests the paywall/interstitial is swallowing the body"
+  ],
+  "category_tags": [
+    "tech-news",
+    "review"
+  ],
+  "notes": "Investigate why body_chars is only 896 — possibly a JS-rendered review body not present in static HTML."
+}

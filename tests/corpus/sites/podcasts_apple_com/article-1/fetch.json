@@ -1,0 +1,28 @@
+{
+  "url": "https://podcasts.apple.com/us/podcast/example/id123456789?i=1000654321987",
+  "recovery_url": "https://podcasts.apple.com/us/podcast/miami-gp-race-review/id1670705840?i=1000765941837",
+  "final_url": "https://podcasts.apple.com/us/podcast/miami-gp-race-review/id1670705840?i=1000765941837",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 154138,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:02.915Z",
+  "elapsed_ms": 293,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Miami GP Race Review - P1 with Matt and Tommy - Video Podcast - Apple Podcasts",
+  "recovery_attempts": [
+    {
+      "url": "https://podcasts.apple.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:141"
+    },
+    {
+      "url": "https://podcasts.apple.com/us/podcast/miami-gp-race-review/id1670705840?i=1000765941837",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

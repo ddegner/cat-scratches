@@ -1,0 +1,22 @@
+{
+  "url": "https://www.vanityfair.com/news/story/example-2024",
+  "recovery_url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+  "final_url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1138501,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:37.300Z",
+  "elapsed_ms": 117,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Anok Yai Says She Felt “Extremely Nervous” to Wear a Prosthetic Wig as Balenciaga’s Black Madonna | Vanity Fair",
+  "recovery_attempts": [
+    {
+      "url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

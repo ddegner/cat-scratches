@@ -1,0 +1,18 @@
+{
+  "url": "https://newrepublic.com/post/210051/robert-f-kennedy-jr-kids-tanning-beds",
+  "replaced_url": "https://newrepublic.com/article/654321/example-two",
+  "recovery_url": "https://newrepublic.com/post/210051/robert-f-kennedy-jr-kids-tanning-beds",
+  "final_url": "https://newrepublic.com/post/210051/robert-f-kennedy-jr-kids-tanning-beds",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 537282,
+  "error": null,
+  "fetched_at": "2026-05-07T02:23:37.403Z",
+  "elapsed_ms": 28,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "RFK Jr. Makes It Easier for Kids to Get Skin Cancer | The New Republic",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

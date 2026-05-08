@@ -1,0 +1,18 @@
+{
+  "url": "https://www.vqronline.org/vqr-congratulates-2024-winners",
+  "replaced_url": "https://www.vqronline.org/fiction/2024/fall/example",
+  "recovery_url": "https://www.vqronline.org/vqr-congratulates-2024-winners",
+  "final_url": "https://www.vqronline.org/vqr-congratulates-2024-winners",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 37756,
+  "error": null,
+  "fetched_at": "2026-05-07T02:22:37.275Z",
+  "elapsed_ms": 43,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "VQR Congratulates the 2024 Winners | VQR",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

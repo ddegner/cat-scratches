@@ -1,0 +1,31 @@
+{
+  "url": "https://www.squarespace.com/solutions/nonprofits/environment-conservation",
+  "replaced_url": "https://www.squarespace.com/tools/business-name-generator",
+  "recovery_url": "https://www.squarespace.com/solutions/nonprofits/environment-conservation",
+  "final_url": "https://www.squarespace.com/solutions/nonprofits/environment-conservation",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 419105,
+  "error": null,
+  "fetched_at": "2026-05-07T02:13:54.432Z",
+  "elapsed_ms": 31,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Environment & Conservation Software: All-In-One Business Management Software – Squarespace — Squarespace",
+  "replacement_reasons": [
+    "bad-title",
+    "bad-url"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:37:14.514Z",
+  "story_repair_reasons": [
+    "bad-title",
+    "bad-url"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

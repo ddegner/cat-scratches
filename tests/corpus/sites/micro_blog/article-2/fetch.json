@@ -1,0 +1,18 @@
+{
+  "url": "https://www.manton.org/2026/05/06/spacex-data-center-followup.html",
+  "replaced_url": "https://manton.org/2024/11/06/example-post.html",
+  "recovery_url": "https://www.manton.org/2026/05/06/spacex-data-center-followup.html",
+  "final_url": "https://www.manton.org/2026/05/06/spacex-data-center-followup.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10116,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:59.249Z",
+  "elapsed_ms": 174,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Manton Reece - SpaceX data center follow-up",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

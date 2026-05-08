@@ -1,0 +1,31 @@
+{
+  "url": "https://www.theinformation.com/articles/example-tech-scoop-2024",
+  "recovery_url": "https://www.theinformation.com/articles/example-tech-scoop-2024",
+  "final_url": "https://www.theinformation.com/articles/example-tech-scoop-2024",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 283046,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:00.505Z",
+  "elapsed_ms": 16121,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "The Information",
+  "recovery_attempts": [
+    {
+      "url": "https://www.theinformation.com",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    }
+  ],
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:46:59.862Z",
+  "rejected_source": "source.rejected.html",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:21:27.667Z",
+  "story_repair_reasons": [
+    "missing-source"
+  ],
+  "story_repair_candidates": []
+}

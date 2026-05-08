@@ -1,0 +1,14 @@
+{
+  "url": "https://www.overcomingbias.com/p/example-two-2024",
+  "recovery_url": "https://www.overcomingbias.com/p/betrayed-by-culture",
+  "final_url": "https://www.overcomingbias.com/p/betrayed-by-culture",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 168780,
+  "error": null,
+  "fetched_at": "2026-05-07T14:25:32.184Z",
+  "elapsed_ms": 0,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_method": "manual-front-page-candidate",
+  "recovery_title": "Betrayed By Culture - by Robin Hanson - Overcoming Bias"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.newscientist.com/article/2412345-example/",
+  "recovery_url": "https://www.newscientist.com/article/2523875-red-light-therapy-does-have-health-benefits-but-not-the-ones-you-think/",
+  "final_url": "https://www.newscientist.com/article/2523875-red-light-therapy-does-have-health-benefits-but-not-the-ones-you-think/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 460190,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:10.334Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Red-light therapy does have health benefits but not the ones you think | New Scientist",
+  "recovery_attempts": [
+    {
+      "url": "https://www.newscientist.com/article/2454321-example-two/",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://www.newscientist.com/article/2523875-red-light-therapy-does-have-health-benefits-but-not-the-ones-you-think/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

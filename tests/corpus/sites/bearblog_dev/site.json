@@ -1,0 +1,6 @@
+{
+  "name": "Bear Blog (example)",
+  "category": "blog",
+  "cms": "bearblog",
+  "slug": "bearblog_dev"
+}

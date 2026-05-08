@@ -1,0 +1,18 @@
+{
+  "url": "https://www.cnn.com/2026/05/06/politics/gop-trump-midterm-elections",
+  "replaced_url": "https://www.cnn.com/2026/05/06/business/mamdani-taxes-real-estate",
+  "recovery_url": "https://www.cnn.com/2026/05/06/politics/gop-trump-midterm-elections",
+  "final_url": "https://www.cnn.com/2026/05/06/politics/gop-trump-midterm-elections",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 3937826,
+  "error": null,
+  "fetched_at": "2026-05-07T02:32:15.158Z",
+  "elapsed_ms": 91,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Why Trump reasserting his domination of the GOP might not be good news for the party in 2026 | CNN Politics",
+  "replacement_reasons": [
+    "bad-url"
+  ]
+}

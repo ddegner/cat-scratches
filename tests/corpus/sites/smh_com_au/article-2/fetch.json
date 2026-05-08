@@ -1,0 +1,28 @@
+{
+  "url": "https://www.smh.com.au/business/markets/example-20240515-p5def34.html",
+  "recovery_url": "https://www.smh.com.au/politics/federal/thanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html",
+  "final_url": "https://www.smh.com.au/politics/federal/thanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 219868,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:26.367Z",
+  "elapsed_ms": 245,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Thanks to Donald Trump, the national mood has seldom been bleaker. Over to you, Jim Chalmers",
+  "recovery_attempts": [
+    {
+      "url": "https://www.smh.com.au",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:184"
+    },
+    {
+      "url": "https://www.smh.com.au/politics/federal/thanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

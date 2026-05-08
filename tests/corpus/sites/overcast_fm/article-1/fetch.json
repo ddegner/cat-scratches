@@ -1,0 +1,31 @@
+{
+  "url": "https://overcast.fm/+ABCDEFGHIJ",
+  "recovery_url": "https://overcast.fm/ads",
+  "final_url": "https://overcast.fm/ads",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 193956,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:05.091Z",
+  "elapsed_ms": 94,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Overcast",
+  "recovery_attempts": [
+    {
+      "url": "https://overcast.fm",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:4"
+    },
+    {
+      "url": "https://overcast.fm/podcasterinfo",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    }
+  ],
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:51:29.996Z",
+  "rejected_source": "source.rejected.html"
+}

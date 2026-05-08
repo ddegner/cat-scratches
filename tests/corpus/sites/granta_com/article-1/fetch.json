@@ -1,0 +1,89 @@
+{
+  "url": "https://granta.com/example-essay-2024/",
+  "recovery_url": "https://granta.com/contributor/jeremy-atherton-lin/",
+  "final_url": "https://granta.com/contributor/jeremy-atherton-lin/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 221135,
+  "error": null,
+  "fetched_at": "2026-05-06T20:06:31.613Z",
+  "elapsed_ms": 16102,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "Jeremy Atherton Lin | Granta",
+  "recovery_attempts": [
+    {
+      "url": "https://granta.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:62"
+    },
+    {
+      "url": "https://granta.com/products/every-drop-is-a-mans-nightmare/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/products/every-drop-is-a-mans-nightmare/",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    },
+    {
+      "url": "https://granta.com/transference-in-the-afternoon/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/grantas-environmental-policy/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/subscriptions/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/products/study-for-obedience/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/products/the-dimensions-of-a-cave/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/products/though-the-bodies-fall/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://granta.com/international-editions/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    }
+  ],
+  "recovery_error": "No usable alternative page found",
+  "recovery_attempted_at": "2026-05-06T20:48:13.760Z",
+  "rejected_source": "source.rejected.html",
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:23:09.128Z",
+  "story_repair_reasons": [
+    "missing-source"
+  ],
+  "story_repair_candidates": [
+    "https://granta.com/grantas-environmental-policy/",
+    "https://granta.com/transference-in-the-afternoon/",
+    "https://granta.com/two-poems-shapero-2/"
+  ]
+}

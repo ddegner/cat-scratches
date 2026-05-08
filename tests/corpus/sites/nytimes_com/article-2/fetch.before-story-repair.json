@@ -1,0 +1,28 @@
+{
+  "url": "https://www.nytimes.com/interactive/2024/upshot/2024-election-polls-trump-harris.html",
+  "recovery_url": "https://www.nytimes.com/athletic/7257260/2026/05/06/lakers-thunder-nba-playoffs-lebron-james-sga/",
+  "final_url": "https://www.nytimes.com/athletic/7257260/2026/05/06/lakers-thunder-nba-playoffs-lebron-james-sga/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 266660,
+  "error": null,
+  "fetched_at": "2026-05-07T01:31:43.254Z",
+  "elapsed_ms": 278,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Lakers forced the Thunder into an off night — and still lost. What can they do? - The Athletic",
+  "recovery_attempts": [
+    {
+      "url": "https://www.nytimes.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:94"
+    },
+    {
+      "url": "https://www.nytimes.com/athletic/7257260/2026/05/06/lakers-thunder-nba-playoffs-lebron-james-sga/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

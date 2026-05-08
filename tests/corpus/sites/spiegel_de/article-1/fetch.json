@@ -1,0 +1,28 @@
+{
+  "url": "https://www.spiegel.de/politik/deutschland/example-a-12345.html",
+  "recovery_url": "https://www.spiegel.de/wirtschaft/service/immobilien-schnell-und-guenstig-lohnt-sich-ein-fertighaus-fuer-sie-a-b0953544-cd1b-4bf0-9bbc-b3121eea5e03",
+  "final_url": "https://www.spiegel.de/wirtschaft/service/immobilien-schnell-und-guenstig-lohnt-sich-ein-fertighaus-fuer-sie-a-b0953544-cd1b-4bf0-9bbc-b3121eea5e03",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 565968,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:48.886Z",
+  "elapsed_ms": 233,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Immobilien: Schnell und günstig – lohnt sich ein Fertighaus für Sie? - DER SPIEGEL",
+  "recovery_attempts": [
+    {
+      "url": "https://www.spiegel.de",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:318"
+    },
+    {
+      "url": "https://www.spiegel.de/wirtschaft/service/immobilien-schnell-und-guenstig-lohnt-sich-ein-fertighaus-fuer-sie-a-b0953544-cd1b-4bf0-9bbc-b3121eea5e03",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

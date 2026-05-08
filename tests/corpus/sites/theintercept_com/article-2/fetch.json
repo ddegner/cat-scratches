@@ -1,0 +1,18 @@
+{
+  "url": "https://theintercept.com/2026/04/28/kalshi-polymarket-news-journalism-partnerships/",
+  "replaced_url": "https://theintercept.com/2024/11/06/example-analysis/",
+  "recovery_url": "https://theintercept.com/2026/04/28/kalshi-polymarket-news-journalism-partnerships/",
+  "final_url": "https://theintercept.com/2026/04/28/kalshi-polymarket-news-journalism-partnerships/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 180422,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:12.511Z",
+  "elapsed_ms": 20,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Prediction Markets Shouldn’t Be Involved in Journalism",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

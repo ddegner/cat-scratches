@@ -1,0 +1,34 @@
+{
+  "url": "https://phys.org/news/2024-05-example.html",
+  "recovery_url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+  "final_url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 169064,
+  "error": null,
+  "fetched_at": "2026-05-06T20:05:11.774Z",
+  "elapsed_ms": 70,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Death-defying protein found in tardigrades preserves synthetic cells",
+  "recovery_attempts": [
+    {
+      "url": "https://phys.org/news/2024-05-example.html",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://phys.org/news/2024-11-example-two.html",
+      "method": "http",
+      "status": 404,
+      "reason": "http:404"
+    },
+    {
+      "url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

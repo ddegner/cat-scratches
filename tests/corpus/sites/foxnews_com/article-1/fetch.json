@@ -1,0 +1,12 @@
+{
+  "url": "https://www.foxnews.com/politics/china-orders-firms-ignore-us-iran-sanctions-daring-us-enforce-crackdown",
+  "final_url": "https://www.foxnews.com/politics/china-orders-firms-ignore-us-iran-sanctions-daring-us-enforce-crackdown",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 435593,
+  "error": null,
+  "fetched_at": "2026-05-07T13:04:45.423Z",
+  "elapsed_ms": 488,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
+  "recovery_method": "front-page-replacement"
+}

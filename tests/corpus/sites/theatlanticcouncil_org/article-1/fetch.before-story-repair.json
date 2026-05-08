@@ -1,0 +1,22 @@
+{
+  "url": "https://www.atlanticcouncil.org/blogs/example-analysis-2024/",
+  "recovery_url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-irans-terror-regime-has-shown-its-true-face/",
+  "final_url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-irans-terror-regime-has-shown-its-true-face/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 222854,
+  "error": null,
+  "fetched_at": "2026-05-06T20:04:18.589Z",
+  "elapsed_ms": 65,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Charai for The National Interest: Iran's Terror Regime Has Shown Its True Face - Atlantic Council",
+  "recovery_attempts": [
+    {
+      "url": "https://www.atlanticcouncil.org/insight-impact/in-the-news/charai-for-the-national-interest-irans-terror-regime-has-shown-its-true-face/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

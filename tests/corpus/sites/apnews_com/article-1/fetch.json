@@ -1,0 +1,28 @@
+{
+  "url": "https://apnews.com/article/election-2024-trump-harris-results-cb7f0c6d1234",
+  "recovery_url": "https://apnews.com/article/cruise-ship-hantavirus-andes-strain-south-africa-cb424510bb0c934c781f6bd42ce2e7c8",
+  "final_url": "https://apnews.com/article/cruise-ship-hantavirus-andes-strain-south-africa-cb424510bb0c934c781f6bd42ce2e7c8",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1078635,
+  "error": null,
+  "fetched_at": "2026-05-07T01:32:04.624Z",
+  "elapsed_ms": 79,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "3 patients are evacuated from cruise ship with hantavirus outbreak | AP News",
+  "recovery_attempts": [
+    {
+      "url": "https://apnews.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:216"
+    },
+    {
+      "url": "https://apnews.com/article/cruise-ship-hantavirus-andes-strain-south-africa-cb424510bb0c934c781f6bd42ce2e7c8",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

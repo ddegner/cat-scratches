@@ -1,0 +1,11 @@
+{
+  "url": "https://www.koreatimes.co.kr/www/biz/2024/05/example_654321.html",
+  "final_url": "https://www.koreatimes.co.kr/?utm_source=legacy_url&utm_medium=redirect&utm_campaign=redirect_fail",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 434004,
+  "error": null,
+  "fetched_at": "2026-05-06T19:38:20.379Z",
+  "elapsed_ms": 244,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

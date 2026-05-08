@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <script>
+        const subscriberUser = !!document.cookie.split('; ').find(row => row.startsWith('wordpress_subscriber_user='));
+
+        const userDetails = subscriberUser ? JSON.parse(window.localStorage.getItem('userDetails')) : null;
+        const darkModeEnabled = userDetails ? userDetails?.userPreferences?.darkMode === true : false;
+        const stickyHeaderEnabled = userDetails ? userDetails?.userPreferences?.stickyHeader === true : false;
+
+        // Helper function to read cookies
+        function getCookie(name) {
+            var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+            return v ? v[2] : null;
+        }
+
+        // Check for the 'wordpress_premium_member' cookie
+        const hasPremiumCookie = getCookie('wordpress_premium_member') === '1';
+        const hasPremiumRoleInLS = userDetails
+            && userDetails.userRoles
+            && Array.isArray(userDetails.userRoles)
+            && userDetails.userRoles.includes('premium_member');
+        const isPremium = hasPremiumCookie || hasPremiumRoleInLS;
+
+        if (darkModeEnabled) {
+            document.documentElement.classList.add('dark');
+        }
+
+        if (isPremium) {
+            document.documentElement.classList.add('premium');
+        }
+    </script>
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MGRKVFC2');</script>
+    <!-- End Google Tag Manager -->
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts pre-connect
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.salon.com/app/themes/salon/assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.salon.com/app/themes/salon/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.salon.com/app/themes/salon/assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="https://www.salon.com/app/themes/salon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta property="fb:pages" content="120680396518" />
+    <meta property="fb:app_id" content="134091381200152" />
+    <meta name="p:domain_verify" content="afd252c603232fed8ddf2554b144079b"/>
+
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/icomoon.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/Helvetica-Bold-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/Helvetica-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/Helvetica-Oblique-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/Georgia-Bold-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="https://www.salon.com/app/themes/salon/dist/assets/TimesNewRoman-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v25.3.1 (Yoast SEO v25.3.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Military&#039;s independent newspaper captured by MAGA - Salon.com</title>
+	<meta name="description" content="Stars and Stripes is the latest casualty in the Trump administration&#039;s Pentagon purge" />
+	<link rel="canonical" href="https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Military&#039;s independent newspaper captured by MAGA" />
+	<meta property="og:description" content="Stars and Stripes is the latest casualty in the Trump administration&#039;s Pentagon purge" />
+	<meta property="og:url" content="https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/?utm_source=website&amp;utm_medium=social&amp;utm_campaign=ogshare&amp;utm_content=og" />
+	<meta property="og:site_name" content="Salon.com" />
+	<meta property="article:publisher" content="120680396518" />
+	<meta property="article:published_time" content="2026-05-03T10:30:19+00:00" />
+	<meta property="og:image" content="https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200"/>
+	<meta property="og:image:height" content="628"/>
+	<meta name="author" content="Chauncey DeVega" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Military&#039;s newspaper captured by MAGA" />
+	<meta name="twitter:description" content="Stars and Stripes is the latest casualty in the Trump administration&#039;s Pentagon purge" />
+	<meta name="twitter:image" content="https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464.jpg" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Chauncey DeVega" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="8 minutes" />
+	<meta property="article:section" content="All Salon" />
+	<meta property="article:section" content="News &amp; Politics" />
+	<meta property="article:tag" content="authoritarianism" />
+	<meta property="article:tag" content="commentary" />
+	<meta property="article:tag" content="Defense Department" />
+	<meta property="article:tag" content="Donald Trump" />
+	<meta property="article:tag" content="Military" />
+	<meta property="article:tag" content="Pentagon" />
+	<meta property="article:tag" content="Pete Hegseth" />
+	<meta property="article:tag" content="stars and stripes" />
+	<meta property="article:author" content="Chauncey DeVega" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='stylesheet' id='mp-theme-css' href='https://www.salon.com/app/plugins/memberpress/css/ui/theme.css?ver=1.12.14' type='text/css' media='all' />
+<link rel='stylesheet' id='global-salon-css' href='https://www.salon.com/app/themes/salon/dist/assets/global.css?ver=1.0.21' type='text/css' media='all' />
+<link rel='stylesheet' id='article-salon-css' href='https://www.salon.com/app/themes/salon/dist/assets/article.css?ver=1.0.21' type='text/css' media='all' />
+<link rel='stylesheet' id='ad-salon-css' href='https://www.salon.com/app/themes/salon/dist/assets/ad.css?ver=1.0.21' type='text/css' media='all' />
+
+        <script>
+            const site_htl_settings = {
+                // TODO: See site/classes/functions.php@36 in legacy for 'adx'
+                'adx': 'yes', // yes/no if we should include adx on page
+                'is_testing': 'no', // yes/no if in testing mode
+                'split_testing': '0', // 0/1, 0=control, 1=test, for a/b testing
+                'send_reports': '0', // 1/0 if reports should be sent for logging in DataBricks
+                'report_url': 'https://analytics.salon.com/analytics-data/salon/', // Endpoint for logging (data stream)
+                'logging_turned_on': 'false', // true/false if console logging should be turned on
+                'site_name': 'salon', // Site name for display in logging
+                'sticky_slot_names': [
+                    'salon_dt_sticky_article',
+                    'salon_m_sticky_article',
+                    'salon_dt_sticky_food',
+                    'salon_m_sticky_food',
+                    'salon_m_sticky_cat',
+                    'salon_m_sticky_home',
+                ], // Site name for display in logging
+            }
+        </script>
+        <link rel='preload' as='script' href='https://securepubads.g.doubleclick.net/tag/js/gpt.js'>
+        <script async src='https://htlbid.com/v3/salon.com/htlbid.js'></script>
+        <!-- Start WKND tag. Deploy at the beginning of document head. -->
+        <!-- Tag for Salon | Salon.com (salon.com) -->
+        <script>
+        if (typeof isPremium === 'undefined' || !isPremium) {
+            (function(d) {
+                var e = d.createElement('script');
+                e.src = d.location.protocol + '//tag.wknd.ai/4847/i.js';
+                e.async = true;
+                d.getElementsByTagName('head')[0].appendChild(e);
+            }(document));
+        }
+        </script>
+        <!-- End WKND tag -->
+        <script>
+            if (typeof subscriberUser === 'undefined' || !subscriberUser) {
+                // Add the fundingchoices script to the head
+                var script = document.createElement('script');
+                script.src = 'https://fundingchoicesmessages.google.com/i/pub-2575788690798282?ers=1';
+                script.async = true;
+                script.nonce = 'ZGji1MGG73JgcFq9PNV6dQ';
+
+                // Add second script to the head
+                var script2 = document.createElement('script');
+                script2.nonce = 'ZGji1MGG73JgcFq9PNV6dQ';
+                script2.innerHTML = '(function() {function signalGooglefcPresent() {if (!window.frames["googlefcPresent"]) {if (document.body) {const iframe = document.createElement("iframe"); iframe.style = "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;"; iframe.style.display = "none"; iframe.name = "googlefcPresent"; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();';
+
+                // Add both scripts to head
+                document.head.appendChild(script);
+                document.head.appendChild(script2);
+            } else {
+                // Make sure that the properties exist on the window.
+                window.googlefc = window.googlefc || {};
+                window.googlefc.ccpa = window.googlefc.ccpa || {}
+                window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+
+                // To guarantee functionality, this must go before the FC tag on the page.
+                googlefc.controlledMessagingFunction = (message) => {
+                    message.proceed(false);
+                };
+            }
+        </script>
+        <script type="application/ld+json">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Organization","url":"https:\/\/www.salon.com\/","sameAs":["https:\/\/www.facebook.com\/salon","https:\/\/www.instagram.com\/salonofficial","https:\/\/x.com\/salon","https:\/\/www.instagram.com\/salondotcom\/"],"logo":{"@type":"ImageObject","url":"https:\/\/www.salon.com\/app\/themes\/salon\/assets\/img\/salon-logo.svg"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Homepage","item":{"@type":"Thing","@id":"https:\/\/www.salon.com"}},{"@type":"ListItem","position":2,"name":"News &amp; Politics Articles","item":{"@type":"Thing","@id":"https:\/\/www.salon.com\/category\/news-and-politics"}},{"@type":"ListItem","position":3,"name":"Chauncey DeVega's Articles","item":{"@type":"Thing","@id":"https:\/\/www.salon.com\/writer\/chauncey_de_vega"}}]},{"@type":"NewsArticle","headline":"Military's independent newspaper captured by MAGA","url":"https:\/\/www.salon.com\/2026\/05\/03\/militarys-independent-newspaper-captured-by-maga\/","thumbnailUrl":"https:\/\/www.salon.com\/app\/uploads\/2026\/05\/Stars-and-Stripes-1252459464-150x150.jpg","alternativeHeadline":"Stars and Stripes is the latest casualty in the Trump administration's Pentagon purge","dateCreated":"2026-05-03T10:30:19+00:00","datePublished":"2026-05-03T10:30:19+00:00","dateModified":"2026-05-02T00:26:13+00:00","articleSection":"All Salon, News &amp; Politics","image":["https:\/\/www.salon.com\/app\/uploads\/2026\/05\/Stars-and-Stripes-1252459464-150x150.jpg","https:\/\/www.salon.com\/app\/uploads\/2026\/05\/Stars-and-Stripes-1252459464-300x202.jpg","https:\/\/www.salon.com\/app\/uploads\/2026\/05\/Stars-and-Stripes-1252459464-1024x691.jpg","https:\/\/www.salon.com\/app\/uploads\/2026\/05\/Stars-and-Stripes-1252459464.jpg"],"keywords":"authoritarianism, commentary, Defense Department, Donald Trump, Military, Pentagon, Pete Hegseth, stars and stripes","description":"","author":[{"@type":"Person","name":"Chauncey DeVega","jobTitle":"Senior Writer","description":"Chauncey DeVega is a senior politics writer for Salon where he focuses broadly on questions related to democracy, power, social inequality and American politics. His essays can also be found at\u00a0<a href=http:\/\/www.chaunceydevega.com\/ target=\"_blank\">Chaunceydevega.com<\/a>. He also hosts a weekly podcast,\u00a0<a href=https:\/\/www.thechaunceydevegashow.com\/ target=\"_blank\">The Chauncey DeVega Show<\/a>. Chauncey can be followed on\u00a0<a href=\"https:\/\/twitter.com\/chaunceydevega\" target=\"_blank\">Twitter<\/a>\u00a0and\u00a0<a href=\"https:\/\/www.facebook.com\/chauncey.devega\" target=\"_blank\">Facebook<\/a>..","url":"https:\/\/www.salon.com\/writer\/chauncey_de_vega","sameAs":["https:\/\/www.facebook.com\/chauncey.devega","https:\/\/x.com\/chaunceydevega"]}],"publisher":{"@type":"Organization","name":"Salon.com","logo":{"@type":"ImageObject","url":"https:\/\/www.salon.com\/app\/themes\/salon\/assets\/img\/salon-logo.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.salon.com\/2026\/05\/03\/militarys-independent-newspaper-captured-by-maga\/"}}]}</script>
+
+    <!--<script src="https://www.google.com/recaptcha/api.js?render=6LckLQkrAAAAABD30EsnOQxmtgweb-aPZojeUU3v" async defer></script>-->
+    <script>
+        let siteUrl = 'https://www.salon.com';
+        let captchaKey = '6LckLQkrAAAAABD30EsnOQxmtgweb-aPZojeUU3v';
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId      : '134091381200152',
+                cookie     : true,
+                xfbml      : true,
+                version    : 'v21.0'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+      
+<!-- Chartbeat -->
+<script type="text/javascript">
+(function() {
+    
+    let userType = 'anon';
+
+    if (subscriberUser) {
+        
+        if (isPremium) {
+            userType = 'paid';
+        }
+        else {
+            userType = 'lgdin';
+        }
+    }
+
+    let path = window.location.pathname;
+    var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+    _sf_async_config.uid = 1614;
+    _sf_async_config.domain = 'salon.com'; //CHANGE THIS TO THE ROOT DOMAIN
+    _sf_async_config.flickerControl = false;
+    _sf_async_config.path = path;
+    _sf_async_config.sections = "News & Politics"; // CHANGE THIS TO YOUR SECTION NAME(s)
+    _sf_async_config.authors = "chauncey_de_vega"; // CHANGE THIS TO YOUR AUTHOR NAME(s)
+
+    var _cbq = window._cbq = (window._cbq || []);
+    _cbq.push(["_acct", userType]);
+
+    function loadChartbeat() {
+        var e = document.createElement('script');
+        var n = document.getElementsByTagName('script')[0];
+        e.type = 'text/javascript';
+        e.async = true;
+        e.src = '//static.chartbeat.com/js/chartbeat.js';;
+        n.parentNode.insertBefore(e, n);
+    }
+    loadChartbeat();
+})();
+</script>
+<script async src="//static.chartbeat.com/js/chartbeat_mab.js"></script>
+    
+<script type="text/javascript">
+(function() {
+    'use strict';
+
+    // 5x5 Cookie Syncing Implementation
+    var script = document.createElement('script');
+    script.src = 'https://a.usbrowserspeed.com/cs?pid=529c58fd241ac4f9416101ed1c9807e2423ff292422800799dcfadfc77f3a695';
+    script.async = true;
+    script.type = 'text/javascript';
+
+    // Add error handling
+    script.onerror = function() {
+        if (window.console && console.warn) {
+            console.warn('5x5 cookie sync script failed to load');
+        }
+    };
+
+    // Append to body when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.appendChild(script);
+        });
+    } else {
+        document.body.appendChild(script);
+    }
+})();
+</script>
+
+<script type="text/javascript">
+    (function() {
+        'use strict';
+
+        // SHA-256 Hashing with normalization
+        async function hashEmail(email = '') {
+            if (!email) return '';
+
+            email = String(email).trim().toLowerCase();
+
+            if (email.endsWith('@gmail.com')) {
+                let [username, domain] = email.split('@');
+                username = username.replace(/\./g, '');
+                const plusIndex = username.indexOf('+');
+                if (plusIndex !== -1) {
+                    username = username.slice(0, plusIndex);
+                }
+                email = `${username}@${domain}`;
+            }
+
+            const data = new TextEncoder().encode(email);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+            return Array.from(new Uint8Array(hashBuffer))
+                .map(b => b.toString(16).padStart(2, '0'))
+                .join('');
+        }
+
+        // Send hash to Aditude wrapper
+        function sendToAditude(hash) {
+            if (!hash) return;
+
+            window.tude = window.tude || { cmd: [] };
+            window.tude.cmd.push(function() {
+                try {
+                    window.tude.setIdProfile({ e: hash });
+                } catch (e) {
+                }
+            });
+        }
+
+        function processUserEmail(emailValue) {
+            // Basic validation to ensure it looks like an email
+            if (emailValue && emailValue.includes('@') && emailValue.includes('.')) {
+                hashEmail(emailValue).then(hash => sendToAditude(hash));
+            }
+        }
+
+        // --- Input Capture (Forms) ---
+        document.addEventListener('DOMContentLoaded', function() {
+
+            /**
+             * Helper function to attach event listeners to forms.
+             * @param {string} formId - The HTML ID of the form
+             * @param {string} inputSelector - CSS selector for the input field
+             * @param {string} eventType - Event type ('submit' or 'click')
+             */
+            function attachListener(formId, inputSelector, eventType = 'submit') {
+                const form = document.getElementById(formId);
+                if (!form) return; // Exit if form is not on the current page
+
+                // For 'click', attach to the button inside the form. For 'submit', attach to the form itself.
+                const trigger = eventType === 'click' ? form.querySelector('button') : form;
+
+                if (trigger) {
+                    trigger.addEventListener(eventType, function() {
+                        const input = form.querySelector(inputSelector);
+                        if (input) processUserEmail(input.value);
+                    });
+                }
+            }
+
+            // Newsletters
+            attachListener('subscribe_newsletter', 'input[name="email"]');
+
+            // Newsletter CTA
+            attachListener('newsletter-cta-form', '#email');
+
+            // Login
+            attachListener('loginForm', 'input[name="username"]', 'click');
+
+            // Signup
+            attachListener('signupForm', 'input[name="email"]', 'click');
+        });
+
+        // --- URL Parameter Capture (Newsletter Clicks) ---
+        try {
+            const urlParams = new URLSearchParams(window.location.search);
+            const emailFromUrl = urlParams.get('email') || urlParams.get('e') || urlParams.get('utm_email');
+
+            if (emailFromUrl) {
+                processUserEmail(emailFromUrl);
+            }
+        } catch (e) {
+        }
+
+        // --- 5x5 API Fetch (Anonymous Match) ---
+        const sitePID = "529c58fd241ac4f9416101ed1c9807e2423ff292422800799dcfadfc77f3a695";
+        const fetchUrl = `https://a.usbrowserspeed.com/cs?pid=${encodeURIComponent(sitePID)}`;
+
+        fetch(fetchUrl, {
+            method: 'GET',
+            credentials: 'include',
+            headers: { 'Accept': 'application/json' }
+        })
+            .then(response => {
+                const contentType = response.headers.get('Content-Type') || '';
+                return contentType.includes('application/json') ? response.json() : null;
+            })
+            .then(data => {
+                // Check if API returned a hash
+                if (data && data.sha256_lower_case) {
+                    sendToAditude(data.sha256_lower_case);
+                }
+            })
+            .catch(() => {
+            });
+
+
+    })();
+</script>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body class="post-template-default single single-post postid-894876 single-format-standard">
+    <script>
+        if (stickyHeaderEnabled) {
+            document.body.setAttribute('data-fixed', 'true');
+        } else {
+            document.body.removeAttribute('data-fixed');
+        }
+    </script>
+        <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGRKVFC2"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        
+            <div class="loader-modal">
+    <div></div>
+</div>
+        <header class="main-header-container">
+            
+<section class="header__mobile">
+    <div>
+        <div class="header__mobile__logo">
+            <a href="https://www.salon.com" aria-label="To Salon Homepage">
+                <img class="-mt-2.5" src="https://www.salon.com/app/themes/salon/assets/img/mobile-logo.svg" width="136" height="40" alt="Salon logo" />
+            </a>
+        </div>
+        <div class="header__mobile__actions">
+            <a href="https://www.salon.com/premium?utm_source=header&#038;utm_medium=onsite&#038;utm_campaign=become-a-member-onsite-header" class="hide-if-premium header__subscribe-link" data-subscription-cta-region="header">
+    <button class="bg-[#ed2c1d] px-2 py-1 text-base font-bold text-white uppercase hover:bg-[#b20000]">
+    Subscribe</button>
+</a>
+            <button class="button__burger group/button__burger text-[#1e1e1e] dark:text-white text-2xl" aria-pressed="false" aria-controls="mobile-menu">
+    <i class="icon icon-burger block group-aria-pressed/button__burger:hidden" ></i>
+    <i class="icon icon-close hidden group-aria-pressed/button__burger:block" ></i>
+</button>
+        </div>
+    </div>
+    <nav
+    class="navigation__mobile"
+    aria-expanded="false"
+    id="mobile-menu"
+>
+    <div>
+        <div class="search__form w-full">
+    <form role="search" method="GET" action="https://www.salon.com/search/">
+        <div>
+                        <label for="search-form-1" class="hidden">Search</label>
+            <div class="relative">
+                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-[#666666] dark:text-white">
+                    <i class="icon icon-search" ></i>
+                </div>
+                <input type="search" name="s" id="search-form-1" class="block w-full rounded-sm border border-[#a6a6a6] dark:border-white py-2 pr-4 pl-10 text-[#666666] dark:text-white text-base leading-4 placeholder:text-sm placeholder:text-[#666666] dark:placeholder:text-white placeholder:leading-4 outline-0 dark:bg-[#1d1d1d]" placeholder="Search" value="" />
+            </div>
+        </div>
+    </form>
+</div>
+        <div class="menu-burger-menu-container"><ul class="menu"><li class="menu-item"><a href="https://www.salon.com/category/news-and-politics">News &amp; Politics</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/culture">Culture</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/food">Food</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/science-and-health">Science &amp; Health</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/money">Money</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/life-stories">Life Stories</a></li>
+<li class="menu-item"><a href="https://www.salon.com/tv">Video</a></li>
+<li class="menu-item menu-item-has-children"><a href="#">Reviews</a>
+<ul>
+<li class="menu-item menu-item-has-children"><a href="#">Lifestyle</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/12/16/navigating-the-new-sober-boom-where-a-persons-sobriety-is-as-unique-as-their-fingerprint/">The New Sober Boom</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2023/12/30/secrets-of-a-serial-addict-how-i-got-hooked-on-quitting-over-and-over-again/">Getting Hooked on Quitting</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Education</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2024/03/16/ignorance-and-democracy-capitalisms-long-against-higher-education/">Liberal Arts Cuts Are Dangerous</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2022/09/16/college-was-necessary-for-me-will-my-own-child-need-it-like-i-did/">Is College Necessary?</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Finance</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/08/26/my-parents-are-deadcan-i-afford-avocado-toast-now/">Dying Parents Costing Millennials Dear</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2023/09/09/how-did-le-creuset-the-self-described-heirloom-quality-cookware-change-the-cooking-game/">Gen Z Investing In Le Creuset</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Crypto</a>
+	<ul>
+<li class="menu-item menu-item-has-children"><a href="#">Investing</a>
+		<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/03/23/on-thursdays-we-wear-orange-sec-sues-lindsay-lohan-and-others-over-crypto-money-laundering-scam/">SEC vs Celebrity Crypto Promoters</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2022/04/16/impulsive-psychopaths-like-crypto-dark-personality-traits-increase-bitcoin-enthusiasm_partner/">&#8216;Dark&#8217; Personalities Drawn to BTC</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div>        <div id="userMenuContainerMobile">
+                    </div>
+        <div>
+            <div class="navigation__social">
+    <a href="https://x.com/Salon" target="_blank">
+        <i class="icon icon-twitter" ></i>
+    </a>
+    <a href="https://www.instagram.com/salonofficial" target="_blank">
+        <i class="icon icon-instagram" ></i>
+    </a>
+    <a href="https://www.youtube.com/user/SalonDotCom" target="_blank">
+        <i class="icon icon-youtube" ></i>
+    </a>
+    <a href="https://www.facebook.com/salon" target="_blank">
+        <i class="icon icon-facebook" ></i>
+    </a>
+    <a href="https://www.tiktok.com/@salonofficial" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-tiktok" ></i>
+    </a>
+    <a href="https://www.reddit.com/domain/salon.com" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-reddit" ></i>
+    </a>
+    <a href="https://www.linkedin.com/company/salon-com" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-linkedin" ></i>
+    </a>
+</div>
+        </div>
+    </div>
+</nav>
+</section>
+            
+<section class="header__desktop">
+    <section class="header__desktop__top">
+        <div>
+            <div>
+                <button class="button__burger group/button__burger text-[#1e1e1e] dark:text-white text-2xl" aria-pressed="false" aria-controls="burger-menu">
+    <i class="icon icon-burger block group-aria-pressed/button__burger:hidden" ></i>
+    <i class="icon icon-close hidden group-aria-pressed/button__burger:block" ></i>
+</button>
+                <nav class="navigation__burger" aria-expanded="false" id="burger-menu">
+    <div>
+        <div class="menu-burger-menu-container"><ul class="flex flex-col gap-2"><li class="menu-item"><a href="https://www.salon.com/category/news-and-politics">News &amp; Politics</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/culture">Culture</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/food">Food</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/science-and-health">Science &amp; Health</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/money">Money</a></li>
+<li class="menu-item"><a href="https://www.salon.com/category/life-stories">Life Stories</a></li>
+<li class="menu-item"><a href="https://www.salon.com/tv">Video</a></li>
+<li class="menu-item menu-item-has-children"><a href="#">Reviews</a>
+<ul>
+<li class="menu-item menu-item-has-children"><a href="#">Lifestyle</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/12/16/navigating-the-new-sober-boom-where-a-persons-sobriety-is-as-unique-as-their-fingerprint/">The New Sober Boom</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2023/12/30/secrets-of-a-serial-addict-how-i-got-hooked-on-quitting-over-and-over-again/">Getting Hooked on Quitting</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Education</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2024/03/16/ignorance-and-democracy-capitalisms-long-against-higher-education/">Liberal Arts Cuts Are Dangerous</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2022/09/16/college-was-necessary-for-me-will-my-own-child-need-it-like-i-did/">Is College Necessary?</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Finance</a>
+	<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/08/26/my-parents-are-deadcan-i-afford-avocado-toast-now/">Dying Parents Costing Millennials Dear</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2023/09/09/how-did-le-creuset-the-self-described-heirloom-quality-cookware-change-the-cooking-game/">Gen Z Investing In Le Creuset</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-has-children"><a href="#">Crypto</a>
+	<ul>
+<li class="menu-item menu-item-has-children"><a href="#">Investing</a>
+		<ul>
+<li class="menu-item"><a href="https://www.salon.com/2023/03/23/on-thursdays-we-wear-orange-sec-sues-lindsay-lohan-and-others-over-crypto-money-laundering-scam/">SEC vs Celebrity Crypto Promoters</a></li>
+<li class="menu-item"><a href="https://www.salon.com/2022/04/16/impulsive-psychopaths-like-crypto-dark-personality-traits-increase-bitcoin-enthusiasm_partner/">&#8216;Dark&#8217; Personalities Drawn to BTC</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div>    </div>
+</nav>
+            </div>
+            <a href="https://www.salon.com/premium?utm_source=header&#038;utm_medium=onsite&#038;utm_campaign=become-a-member-onsite-header" class="hide-if-premium header__subscribe-link" data-subscription-cta-region="header">
+    <button class="bg-[#ed2c1d] px-2 py-1 text-base font-bold text-white uppercase hover:bg-[#b20000]">
+    Subscribe</button>
+</a>
+            <div class="subscriptionSlogan hide-if-premium">
+                Spring Sale: Get 1 Year, Save 58%            </div>
+                    </div>
+        <div>
+                            <a href="https://www.salon.com/newsletter?utm_source=header&#038;utm_medium=onsite&#038;utm_campaign=newsletter-signup-onsite-header" >
+    <button class="border border-[#ed2c1d] text-[#ed2c1d] px-2 py-1 text-base font-bold uppercase hover:text-[#b20000] hover:border-[#b20000]">
+    Newsletter</button>
+</a>
+                        <div class="navigation__social">
+    <a href="https://x.com/Salon" target="_blank">
+        <i class="icon icon-twitter" ></i>
+    </a>
+    <a href="https://www.instagram.com/salonofficial" target="_blank">
+        <i class="icon icon-instagram" ></i>
+    </a>
+    <a href="https://www.youtube.com/user/SalonDotCom" target="_blank">
+        <i class="icon icon-youtube" ></i>
+    </a>
+    <a href="https://www.facebook.com/salon" target="_blank">
+        <i class="icon icon-facebook" ></i>
+    </a>
+    <a href="https://www.tiktok.com/@salonofficial" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-tiktok" ></i>
+    </a>
+    <a href="https://www.reddit.com/domain/salon.com" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-reddit" ></i>
+    </a>
+    <a href="https://www.linkedin.com/company/salon-com" target="_blank" class="salon-lg:hidden">
+        <i class="icon icon-linkedin" ></i>
+    </a>
+</div>
+            <div class="dropdown__user group/dropdown__user relative text-left">
+    <div class="flex justify-center">
+        <button type="button" class="text-[#1e1e1e] dark:text-white group-hover/dropdown__user:text-[#ed2c1d]" id="dropdown-user-2" aria-haspopup="true">
+            <i class="icon icon-user text-2xl" ></i>
+        </button>
+    </div>
+    <div class="absolute right-0 z-10 pt-2 w-56 origin-top-right rounded-md bg-white dark:bg-[#1d1d1d] shadow-lg invisible transition-opacity ease-out delay-100 opacity-0 group-hover/dropdown__user:opacity-100 group-hover/dropdown__user:visible" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-user-2" tabindex="-1">
+        <div role="none" id="userMenuContainer"></div>
+    </div>
+</div>
+        </div>
+    </section>
+    <section class="header__desktop__middle">
+        
+<nav class="navigation__desktop">
+    <div>
+        <div>
+            
+                <ul class="menu"><li class="menu-item"><a href="https://www.salon.com/category/news-and-politics">News &amp; Politics</a></li><li class="menu-item"><a href="https://www.salon.com/category/culture">Culture</a></li><li class="menu-item"><a href="https://www.salon.com/category/food">Food</a></li></ul>            <div class="logo__desktop">
+                <a href="https://www.salon.com" aria-label="To Salon Homepage">
+                    <img src="https://www.salon.com/app/themes/salon/assets/img/salon-logo.svg" width="341" height="100" alt="Salon logo" />
+                </a>
+            </div>
+                <ul class="menu"><li class="menu-item"><a href="https://www.salon.com/category/science-and-health">Science &amp; Health</a></li><li class="menu-item"><a href="https://www.salon.com/category/money">Money</a></li><li class="menu-item"><a href="https://www.salon.com/tv">Video</a></li></ul>                    </div>
+    </div>
+</nav>
+    </section>
+    <section class="header__desktop__bottom">
+        <div>
+            <div class="search__form w-full">
+    <form role="search" method="GET" action="https://www.salon.com/search/">
+        <div>
+                        <label for="search-form-3" class="hidden">Search</label>
+            <div class="relative">
+                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4 text-[#666666] dark:text-white">
+                    <i class="icon icon-search" ></i>
+                </div>
+                <input type="search" name="s" id="search-form-3" class="block w-full rounded-sm border border-[#a6a6a6] dark:border-white py-2 pr-4 pl-10 text-[#666666] dark:text-white text-base leading-4 placeholder:text-sm placeholder:text-[#666666] dark:placeholder:text-white placeholder:leading-4 outline-0 dark:bg-[#1d1d1d]" placeholder="Search" value="" />
+            </div>
+        </div>
+    </form>
+</div>
+        </div>
+    </section>
+</section>
+        </header>
+    
+    <main class="main-container">
+
+<div class="articles">
+    <section class="ad__container hide-if-premium  sample hidden">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template
+    class="ad__template sample"
+    data-slot=""
+    data-targeting="slot_number"
+    data-number="01"></template>
+        </div>
+    </div>
+</section>
+            <article id="post-894876" class="single-column post-894876 post type-post status-publish format-standard has-post-thumbnail hentry category-all-salon category-news-and-politics tag-authoritarianism tag-commentary tag-defense-department tag-donald-trump tag-military tag-pentagon tag-pete-hegseth tag-stars-and-stripes" data-post-id="894876">
+    <!-- TODO: Add the preview message here ... -->
+    
+<section class="article__title">
+            <div class="badge">commentary</div>
+        <h1>Military&#8217;s independent newspaper captured by MAGA</h1>
+    <h2>Stars and Stripes is the latest casualty in the Trump administration's Pentagon purge</h2>
+    <div class="writers">
+                    <div>
+                <div class="by">
+                    <span>By</span>
+                                            <a href="https://www.salon.com/writer/chauncey_de_vega">
+                            Chauncey DeVega                        </a>
+                                                            </div>
+                                    <div>
+                        Senior Writer                    </div>
+                            </div>
+                <div class="date">
+                            <h3>
+                    <span>Published</span>
+                    <time datetime="2026-05-03T06:30:19-04:00">
+                        May 3, 2026 6:30AM (EDT)                    </time>
+                </h3>
+                    </div>
+    </div>
+</section>
+    <section class="article__feature">
+    <!-- TODO: Add the featured video here... -->
+        <div class="attachment__image">
+    <div class="image ">
+        <img width="1692" height="1142" src="https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464.jpg" class=" attachment-full size-full position-center" alt="Marines in Iraq receive copies of Stars and Stripes in 2003 (DAVID K. DISMUKES/US NAVY/AFP via Getty Images)" sizes="(max-width: 1692px) 100vw, 1692px" decoding="async" fetchpriority="high" srcset="https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464.jpg 1692w, https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464-300x202.jpg 300w, https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464-1024x691.jpg 1024w, https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464-768x518.jpg 768w, https://www.salon.com/app/uploads/2026/05/Stars-and-Stripes-1252459464-1536x1037.jpg 1536w" />    </div>
+            <div class="alt-text">
+            Marines in Iraq receive copies of Stars and Stripes in 2003 (DAVID K. DISMUKES/US NAVY/AFP via Getty Images)        </div>
+    </div>
+</section>
+    <section class="main">
+        <div>
+            <!-- TODO: Add the functionality for the article sharing here ... -->
+            
+<section class="article__share">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.salon.com%2F2026%2F05%2F03%2Fmilitarys-independent-newspaper-captured-by-maga%2F&#038;utm_source=facebook&#038;utm_medium=social&#038;utm_campaign=socialbuttons&#038;utm_content=share_button" class="button__share group/button__share flex items-center bg-[#5f5f5f] rounded text-white hover:text-white hover:no-underline h-8 max-w-[115px] min-[801px]:w-full transition-colors relative hover:bg-[#3a5697]" rel="nofollow">
+    <i class="icon icon-facebook bg-[#797777] fill-white max-w-9 !w-9 shrink-0 !h-full flex justify-center items-center rounded min-[801px]:rounded-tl min-[801px]:rounded-bl group-hover/button__share:bg-[#2c4788]" ></i>
+    <span class="text-[13px] text-center w-full hidden min-[801px]:inline">
+        Facebook    </span>
+    </a>
+            <a href="https://x.com/share?url=https%3A%2F%2Fwww.salon.com%2F2026%2F05%2F03%2Fmilitarys-independent-newspaper-captured-by-maga%2F&#038;text=Military%E2%80%99s+independent+newspaper+captured+by+MAGA&#038;utm_source=twitter&#038;utm_medium=social&#038;utm_campaign=socialbuttons&#038;utm_content=share_button" class="button__share group/button__share flex items-center bg-[#5f5f5f] rounded text-white hover:text-white hover:no-underline h-8 max-w-[115px] min-[801px]:w-full transition-colors relative hover:bg-[#03a2e0]" rel="nofollow">
+    <i class="icon icon-twitter bg-[#797777] fill-white max-w-9 !w-9 shrink-0 !h-full flex justify-center items-center rounded min-[801px]:rounded-tl min-[801px]:rounded-bl group-hover/button__share:bg-[#048cc1]" ></i>
+    <span class="text-[13px] text-center w-full hidden min-[801px]:inline">
+        X    </span>
+    </a>
+            <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.salon.com%2F2026%2F05%2F03%2Fmilitarys-independent-newspaper-captured-by-maga%2F&#038;title=Military%E2%80%99s+independent+newspaper+captured+by+MAGA&#038;utm_source=reddit&#038;utm_medium=social&#038;utm_campaign=socialbuttons&#038;utm_content=share_button" class="button__share group/button__share flex items-center bg-[#5f5f5f] rounded text-white hover:text-white hover:no-underline h-8 max-w-[115px] min-[801px]:w-full transition-colors relative hover:bg-[#ff661e]" rel="nofollow">
+    <i class="icon icon-reddit bg-[#797777] fill-white max-w-9 !w-9 shrink-0 !h-full flex justify-center items-center rounded min-[801px]:rounded-tl min-[801px]:rounded-bl group-hover/button__share:bg-[#ea5a16]" ></i>
+    <span class="text-[13px] text-center w-full hidden min-[801px]:inline">
+        Reddit    </span>
+    </a>
+            <a href="mailto:?subject=Military%E2%80%99s%20independent%20newspaper%20captured%20by%20MAGA&#038;body=Check%20out%20this%20article%21%20https%3A%2F%2Fwww.salon.com%2F2026%2F05%2F03%2Fmilitarys-independent-newspaper-captured-by-maga%2F%3Futm_source%3Demail%26utm_medium%3Dsocial%26utm_campaign%3Dsocialbuttons%26utm_content%3Dshare_button" class="button__share group/button__share flex items-center bg-[#5f5f5f] rounded text-white hover:text-white hover:no-underline h-8 max-w-[115px] min-[801px]:w-full transition-colors relative hover:bg-[#3d4e66]" >
+    <i class="icon icon-email bg-[#797777] fill-white max-w-9 !w-9 shrink-0 !h-full flex justify-center items-center rounded min-[801px]:rounded-tl min-[801px]:rounded-bl group-hover/button__share:bg-[#2d394a]" ></i>
+    <span class="text-[13px] text-center w-full hidden min-[801px]:inline">
+        Email    </span>
+    </a>
+        <div class="article__title-badges">
+        <div class="google-preferred-source-container">
+            <a
+                class="google-preferred-source"
+                href="https://www.google.com/preferences/source?q=salon.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Set Salon as a preferred source on Google News"
+                            >
+                <picture
+                    data-light-src="https://www.salon.com/app/themes/salon/assets/img/google_preferred_source_badge_light@2x.png"
+                    data-dark-src="https://www.salon.com/app/themes/salon/assets/img/google_preferred_source_badge_dark@2x.png"
+                >
+                    <source srcset="https://www.salon.com/app/themes/salon/assets/img/google_preferred_source_badge_light@2x.png" media="(prefers-color-scheme: dark)">
+                    <img
+                        src="https://www.salon.com/app/themes/salon/assets/img/google_preferred_source_badge_light@2x.png"
+                        alt="Set Salon as a preferred source on Google News"
+                        loading="lazy"
+                        width="676"
+                        height="213"
+                    >
+                </picture>
+            </a>
+        </div>
+    </div>
+    <template id="save-article-button">
+        
+<button type="button" id="saveArticleBtn-3120" onclick="saveArticle(this.id);" class="button__tertiary group/button__tertiary border-2 border-[#5f5f5f] rounded text-[#5f5f5f] text-sm font-bold px-2 py-1 h-8 lowercase flex items-center gap-x-1.5 hover:text-[#e42416] hover:border-[#e42416]">
+            <i class="icon icon-save !h-4 !w-3 text-[#5f5f5f] group-hover/button__tertiary:text-[#e42416] text-base" ></i>
+        <span class="btnLabel">Save</span>
+</button>
+    </template>
+</section>
+            <!-- TODO: Add the editor's note here ... -->
+                        <section class="article__content page-article"><p><span style="font-weight: 400;"><a href="https://www.salon.com/topic/donald-trump">Donald Trump</a> is escalating his MAGA takeover of the United States military. One of the great strengths of American democracy is that</span><a href="https://www.defenseone.com/ideas/2025/06/dangers-partisan-military/406008/"> <span style="font-weight: 400;">the country’s military is nonpartisan</span></a><span style="font-weight: 400;">, a trait that ensures officers and service members alike obey the Constitution and serve civilian authority. The president rejects this foundational principle. In his mind, America’s military belongs to him, a view taken right out of the authoritarian playbook.</span></p>
+<p><span style="font-weight: 400;">After a spate of firings due to infighting ranging from building Navy ships to Defense Secretary <a href="https://www.salon.com/topic/pete-hegseth">Pete Hegseth</a>’s apparent refusal to promote officers of color and women, along with the </span><a href="https://www.theatlantic.com/ideas/2026/04/pete-hegseth-military-diversity/686734/"><span style="font-weight: 400;">purging of the Pentagon’s so-called diversity hires</span></a><span style="font-weight: 400;">, Trump’s politicization of the armed forces now includes the takeover of Stars and Stripes, the military’s congressionally-authorized independent newspaper. First published 160 years ago during the Civil War, it has been in continuous publication since World War II, with its editorial independence guaranteed by Congress. The act is a preview and warning of far worse things to come.</span></p>
+<div class="right_quote">
+<p class="insert-quote">Stars and Stripes will still carry its name but little else; it will be transformed into a propaganda mouthpiece for Trump and his MAGA coalition.</p>
+</div>
+<p><span style="font-weight: 400;">Toward the end of his first term, Trump tried to zero out funding for Stars and Stripes, but he was forced to back down following public outcry. His administration has taken another approach this time around in the form of firing Jacqueline Smith, the ombudsman responsible for maintaining the newspaper’s editorial independence. Stars and Stripes will still carry its name but little else; it will be transformed into a propaganda mouthpiece for Trump and his <a href="https://www.salon.com/topic/maga">MAGA coalition</a>. Firing Smith is part of a systematic campaign by the administration to remove ombudsmen, inspectors general and other leaders responsible for enforcing ethics, oversight and the rule of law.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="01"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">Pentagon spokesman Sean Parnell </span><a href="https://x.com/SeanParnellASW/status/2011802849903009991"><span style="font-weight: 400;">described the new direction</span></a><span style="font-weight: 400;">: “no more ‘woke content,’ and a ‘focus on warfighting, weapons systems, fitness, lethality, survivability, and ALL THINGS MILITARY.'”</span></p>
+<p><span style="font-weight: 400;">In an </span><a href="https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html"><span style="font-weight: 400;">essay</span></a><span style="font-weight: 400;"> last Thursday in Stars and Stripes, Smith described being fired in terms that were impersonal, precise and chilling. “This happened in the coldest way possible: DA Form 3434 stated that my last day as ombudsman for Stars and Stripes is April 28,” she wrote. “No reason is given. But: ‘This action is not grievable.’ No one should be surprised that they’re kicking out the one person charged by Congress with protecting Stars and Stripes’ editorial independence.”</span></p>
+<p><span style="font-weight: 400;">Last year, the Washington Post </span><a href="https://www.washingtonpost.com/business/2026/01/14/stars-and-stripes-trump-loyalty-test/"><span style="font-weight: 400;">reported</span></a><span style="font-weight: 400;"> that applicants for positions at Stars and Stripes were being asked how they would advance Trump’s policies. Representatives for the publication told the Post that it did not know about the loyalty questions.</span></p>
+<p>D. Earl Stephens <span style="font-weight: 400;">served as managing editor of Stars and Stripes from 1998 to 2009. He told me this is “the most significant attack in the paper’s history and benefits Trump, not the troops.” </span></p>
+<div class="layout_template_wrapper">
+<div class="related_article">
+<p class="related_text">Related</p>
+<div class="related_link"><a href="https://www.salon.com/2026/04/30/ukraine-appeals-to-trumps-vanity-in-hopes-of-security-guarantees/">Ukraine appeals to Trump’s vanity in hopes of security guarantees</a></div>
+</div>
+</div>
+<p><span style="font-weight: 400;">Blunt in his assessment, Stephens said, “Stripes delivers news the troops can trust, free from interference from paranoid, self-serving, unscrupulous people like Hegseth and his small-minded, insecure supplicants in the Pentagon. People like Hegseth are exactly why Stars and Stripes’ editorial independence is protected.”</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="02"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">Under the new new editorial regime, Stars and Stripes will likely no longer feature reporting about poor housing on military bases, difficulties accessing medical care, </span><a href="https://www.stripes.com/veterans/2025-07-31/veterans-military-sexual-trauma-18624859.html"><span style="font-weight: 400;">sexual assault</span></a><span style="font-weight: 400;"> and </span><a href="https://www.stripes.com/veterans/2024-02-01/veterans-affairs-senate-vet-centers-suicide-12865526.html"><span style="font-weight: 400;">high rates of suicides</span></a><span style="font-weight: 400;"> among veterans. This will mean less information for service members about how to exercise their rights, and to hold the military establishment accountable.</span></p>
+<p><span style="font-weight: 400;">But the thought-crime regime being enforced by the Trump administration and the Pentagon extends far beyond Stars and Stripes. </span></p>
+<p><span style="font-weight: 400;">The most recent example of this came with Hegseth’s firing of Navy Secretary John Phelan on April 22. A Trump donor and businessman with no military experience, his dismissal came after what the New York Times <a href="https://www.nytimes.com/2026/04/22/us/politics/navy-secretary-john-phelan.html">reported</a> as “months of infighting with senior Pentagon leaders and disagreements over how to revive the Navy’s struggling shipbuilding program.” Loyalty to Trump was not enough to save him.</span></p>
+<p><span style="font-weight: 400;">Phelan joins a growing list of senior officers who have been forced out, including Chairman of the Joint Chiefs of Staff General Charles Q. Brown, Chief of Naval Operations Admiral Lisa Franchetti and Army Chief of Staff Randy George, who was fired by Hegseth several weeks ago.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="03"></template>
+        </div>
+    </div>
+</section>
+
+<hr>
+<p style="text-align: center;"><strong><em>Want more sharp takes on politics? <a href="https://www.salon.com/newsletter?utm_source=onsite&amp;utm_medium=organic&amp;utm_campaign=standing-room-only-edit-signup">Sign up for our free newsletter</a>, Standing Room Only,</em> <em>written by Amanda Marcotte, now also a weekly show <a href="%E2%80%9Dhttps://www.salon.com/2025/06/13/standing-room-only-amanda-marcotte-salon-youtube-podcast/%E2%80%9D">on YouTube or wherever you get your podcasts</a>.</em></strong></p>
+<hr>
+<p><span style="font-weight: 400;">A disproportionate number of the purged officers are Black, brown or women. Hegseth and Trump view them as presumptively unqualified due to diversity, equity and inclusion initiatives — which, in practice, means they were fired because of the color of their skin and gender. During a speech at the 2024 Conservative Political Action Conference, Trump previewed these moves, </span><a href="https://www.independent.co.uk/news/world/americas/us-politics/trump-woke-dei-military-taskforce-b2624235.html"><span style="font-weight: 400;">accusing the military</span></a><span style="font-weight: 400;"> of being “woke at the top.”</span></p>
+<p><span style="font-weight: 400;">The Washington Post </span><a href="https://www.washingtonpost.com/national-security/2026/04/02/hegseth-ousts-army-general-randy-george/"><span style="font-weight: 400;">reported</span></a><span style="font-weight: 400;"> that George, a white man, was sacked because he was angry that Hegseth would not promote Black and female colonels to the rank of general. Dozens of other senior personnel and officials across the military and national security apparatus have also been forced out. Ultimately, loyalty to MAGA — and being the “right” gender and skin color — matter to the president and his acolytes more than professionalism, expertise and leadership skills.</span></p>
+<p><span style="font-weight: 400;">These moves follow Hegseth’s February announcement that beginning in 2027, the Pentagon </span><a href="https://apnews.com/article/hegseth-harvard-brown-columbia-yale-37927dc4faef30f061e70e046e786aa7"><span style="font-weight: 400;">will no longer allow military personnel</span></a><span style="font-weight: 400;"> to attend Ivy League and other elite institutions such as Harvard, Yale, Brown, Princeton and the Massachusetts Institute of Technology. In a video posted on social media, the secretary declared that such universities and colleges “have gorged themselves on a trust fund of American taxpayer dollars, only to become factories of anti-American resentment and military disdain” that had “replaced the study of victory and pragmatic realism with the promotion of wokeness and weakness.” In their place, military personnel will be steered toward Hillsdale, Liberty University and other schools judged to be </span><a href="https://www.foxnews.com/politics/hegseth-cuts-ivy-league-ties-military-education-shake-up-taps-hillsdale"><span style="font-weight: 400;">ideologically-aligned</span></a><span style="font-weight: 400;"> with the Pentagon’s goals.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="04"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">In May 2025, the Pentagon ordered that books and other materials that discuss race, gender and LGBTQ+ identity and other “</span><a href="https://www.whitehouse.gov/presidential-actions/2025/01/restoring-americas-fighting-force/"><span style="font-weight: 400;">divisive concepts</span></a><span style="font-weight: 400;">” should be removed from military service academy libraries and Pentagon schools for review. In practice, this meant award-winning and essential books on the Holocaust, chattel slavery, civil rights, racism and feminism. Maya Angelou’s autobiography “I Know Why the Caged Bird Sings” was included in the purge; Adolf Hitler’s “Mein Kampf” </span><a href="https://www.nytimes.com/2025/04/11/us/politics/naval-academy-banned-books.html#:~:text=Midshipmen%20at%20the%20U.S.%20Naval,April%2011%2C%202025"><span style="font-weight: 400;">was not</span></a><span style="font-weight: 400;">.</span></p>
+<div class="left_quote">
+<p class="insert-quote">A growing number of America’s service members are voicing discomfort about the politicization of the military and sharing larger concerns about ethics, morality and conscience — especially since the launch of Trump’s war of choice against Iran in March.</p>
+</div>
+<p><span style="font-weight: 400;">A growing number of America’s service members are voicing discomfort about the politicization of the military and sharing larger concerns about ethics, morality and conscience — especially since the launch of Trump’s war of choice against Iran in March.</span></p>
+<p><span style="font-weight: 400;">In an under-reported story, the GI Rights hotline, which helps service members understand their rights to discharge and responds to other concerns, has seen a large increase in calls.</span> <span style="font-weight: 400;">NPR recently </span><a href="https://www.npr.org/2026/04/10/nx-s1-5771612/military-iran-war-trump-conscientious-objector"><span style="font-weight: 400;">reported</span></a><span style="font-weight: 400;"> that the Center on Conscience and War, which helps run the hotline, has 80 new clients in the month of March alone. This is nearly double the average year’s total.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="05"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">As reporters Kat Lonsdorf and Tom Bowman noted, those numbers are “a drop in the bucket” compared to the more than 1.3 million people enlisted. But to outside observers and former military officials, they signal “a troubling disquiet within the ranks.”</span></p>
+<p><span style="font-weight: 400;">Trump has repeatedly </span><a href="https://www.npr.org/2026/01/15/nx-s1-5678612/minneapolis-insurrection-act-trump-threats"><span style="font-weight: 400;">threatened to invoke the Insurrection Act</span></a><span style="font-weight: 400;"> and declare martial law as part of his plan to remain in power for a third term, suggesting that he could order the military to assist with “election security” during the midterms and future elections to prevent “fraud.” If carried out, this would be an illegal act of voter intimidation against the Democratic Party’s likely voters. </span></p>
+<p><span style="font-weight: 400;">The president has threatened to order the military to bomb Iranian civilization “back to the stone ages,” an action that would likely constitute a crime against humanity. He and Hegseth have also engaged the military in carrying out de facto </span><a href="https://www.nytimes.com/2025/09/04/us/politics/trump-drug-smugglers-military.html"><span style="font-weight: 400;">summary executions of alleged drug traffickers</span></a><span style="font-weight: 400;"> by striking boats and other craft in the Caribbean and Eastern Pacific.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="06"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">In a series of historic speeches, including to a group of almost 800 admirals, generals and senior enlisted personnel </span><a href="https://www.theguardian.com/commentisfree/2025/oct/05/trump-military-quantico-speech"><span style="font-weight: 400;">assembled in September</span></a><span style="font-weight: 400;"> at a Quantico, Virginia, military base Trump proclaimed that the military will be his weapon against domestic “enemies,” calling Democrats “bad people” and “vicious,” and saying the military is trained to fight people like them.</span></p>
+<div class="layout_template_wrapper">
+<div class="sub_promo">
+<p class="sub_text">Spring savings are here!</p>
+<div class="sub_link"><a href="https://www.salon.com/premium?utm_source=onsite&amp;utm_medium=organic&amp;utm_campaign=become-a-member-in-content-widget-spring-savings"> Support Salon’s bold journalism. Annual members save 58% </a></div>
+</div>
+</div>
+<p><span style="font-weight: 400;">During his speech in Quantico, Trump </span><a href="https://thehill.com/homenews/administration/5528730-trump-military-training-cities-crime-crackdown/"><span style="font-weight: 400;">listed Democratic-led cities</span></a><span style="font-weight: 400;"> such as Chicago, New York, and Los Angeles as targets that “we’re going to straighten out one by one.” The reaction from the assembled senior officers and enlisted leaders was cold and mostly silent. He then threatened their careers and pensions if they did not obey.</span></p>
+<p><span style="font-weight: 400;">American presidents do not publicly speak or behave this way. But Trump is a <a href="https://www.salon.com/2026/04/20/the-label-wars-for-trump-miss-the-point-look-at-the-wreckage/">sui generis figure</a>, America’s first aspiring dictator-king who sees nothing wrong with politicizing the military against any person or group who dares to oppose him and the MAGA movement.</span></p><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="07"></template>
+        </div>
+    </div>
+</section>
+
+<p><span style="font-weight: 400;">What is happening at Stars and Stripes is not a mere controversy of the day or week, or a blip in the attention economy and 24-hour news cycle. It represents an attempt by the Trump administration to win the hearts and minds of America’s military personnel as part of a larger authoritarian project.  </span></p>
+<p><span style="font-weight: 400;">Trump and his MAGA forces and agents are trying to destroy America’s democratic and social institutions. The military is not coincidental to this project — it is central to it. Trump is not merely purging officers he does not like. He is working to make loyalty to him and MAGA ideology synonymous with allegiance to America.</span></p>
+<div class="layout_template_wrapper read_more">
+<div class="red_white_box">
+<p class="red_box">Read more</p>
+<p class="white_box">about the Pentagon</p>
+</div>
+<ul>
+<li><a href="https://www.salon.com/2026/04/26/trump-lost-badly-in-iran-how-does-he-spin-that-as-a-win/"><strong>Trump lost badly in Iran. How does he spin that as a win?</strong></a></li>
+<li><strong><a href="https://www.salon.com/2026/04/11/chairman-of-the-joint-chiefs-is-enabling-trumps-immorality/">Chairman of the Joint Chiefs of Staff is enabling Trump’s immorality</a></strong></li>
+<li><strong><a href="https://www.salon.com/2026/03/13/pete-hegseths-manly-act-is-backfiring/">Pete Hegseth’s manly act is backfiring</a></strong></li>
+</ul>
+</div>
+<hr><section class="ad__container hide-if-premium between compact inside ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template class="ad__template " data-slot="htlad-salon_{{device}}_incontent_article" data-targeting="slot_number" data-number="08"></template>
+        </div>
+    </div>
+</section>
+</section>
+                <section class="article__writers mt-14">
+                                <div class="post-430772 writer type-writer status-publish hentry article__writers article__writer-container" data-writer-id="430772">
+
+                                    <div class="writer-bio-ajax-content">
+                        <h3>
+                            <span>By</span>
+                            <a href="https://www.salon.com/writer/chauncey_de_vega">
+                                Chauncey DeVega                            </a>
+                        </h3>
+                    </div>
+
+                    <template class="writer-bio-template">
+                        <h3>
+                            <span>By</span>
+                            <a href="" class="writer-name-link">
+                            </a>
+                        </h3>
+
+                        <div class="socials" style="display: none;"> <a href="" class="social group/social facebook-link" target="_blank" style="display: none;">
+                                <i class="icon icon-facebook text-white h-5 w-5 flex items-center justify-center duration-[250ms] group-hover/social:scale-125" ></i>
+                            </a>
+                            <a href="" class="social group/social twitter-link" target="_blank" style="display: none;">
+                                <i class="icon icon-twitter text-white h-5 w-5 flex items-center justify-center duration-[250ms] group-hover/social:scale-125" ></i>
+                            </a>
+                            <a href="" class="social group/social instagram-link" target="_blank" style="display: none;">
+                                <i class="icon icon-instagram text-white h-5 w-5 flex items-center justify-center duration-[250ms] group-hover/social:scale-125" ></i>
+                            </a>
+                        </div>
+
+                        <div class="writer-bio-text"></div>
+
+                        <div class="more">
+                            <span>MORE FROM</span>
+                            <a href="" class="writer-more-from-link">
+                            </a>
+                        </div>
+                    </template>
+                            </div>
+            </section>
+            <hr>
+                <section class="article__topics">
+        <h2>
+            Related Topics            <span>
+                ------------------------------------------            </span>
+        </h2>
+        <div>
+                            <a href="https://www.salon.com/topic/authoritarianism" class="delay-400 pointer">
+                    Authoritarianism                </a>
+                            <a href="https://www.salon.com/topic/commentary" class="delay-400 pointer">
+                    Commentary                </a>
+                            <a href="https://www.salon.com/topic/defense-department" class="delay-400 pointer">
+                    Defense Department                </a>
+                            <a href="https://www.salon.com/topic/donald-trump" class="delay-400 pointer">
+                    Donald Trump                </a>
+                            <a href="https://www.salon.com/topic/military" class="delay-400 pointer">
+                    Military                </a>
+                            <a href="https://www.salon.com/topic/pentagon" class="delay-400 pointer">
+                    Pentagon                </a>
+                            <a href="https://www.salon.com/topic/pete-hegseth" class="delay-400 pointer">
+                    Pete Hegseth                </a>
+                            <a href="https://www.salon.com/topic/stars-and-stripes" class="delay-400 pointer">
+                    Stars And Stripes                </a>
+                    </div>
+    </section>
+            
+<section class="article__related" data-post-id="894876" data-terms="authoritarianism,commentary,defense-department,donald-trump,military,pentagon,pete-hegseth,stars-and-stripes">
+    <h2>
+        <span>
+            Related Articles        </span>
+    </h2>
+    <div>
+        <template>
+            <a href="" class="flex min-[501px]:hidden">
+                <div class="attachment__image">
+                    <div class="image">
+                        <img src="https://www.salon.com/app/themes/salon/assets/img/salon-placeholder.webp" decoding="async" fetchpriority="high" alt="Salon placeholder" class="attachment-full size-full">
+                    </div>
+                </div>
+                <h5></h5>
+                <span></span>
+            </a>
+        </template>
+    </div>
+</section>
+            <hr>
+            <section class="ad__container hide-if-premium below-article ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template
+    class="ad__template "
+    data-slot="htlad-salon_dt_belowArticle"
+    data-targeting="slot_number"
+    data-number="01"></template>
+        </div>
+    </div>
+</section>
+        </div>
+        <section class="ad__container hide-if-premium sidebar ">
+    <div>
+                    <div class="title ">
+                Advertisement:            </div>
+                <div class="banner ">
+            <template
+    class="ad__template "
+    data-slot="htlad-salon_dt_inview_article"
+    data-targeting="slot_number"
+    data-number="01"></template>
+        </div>
+    </div>
+</section>
+    </section>
+</article>
+    </div>
+
+    </main>
+
+    <footer>
+        <ul class="navigation__footer mt-4 text-center"><li class="menu-item"><a href="https://www.salon.com">Home</a></li>
+<li class="menu-item"><a href="https://www.salon.com/about">About</a></li>
+<li class="menu-item"><a href="https://www.salon.com/about/staff">Staff</a></li>
+<li class="menu-item"><a href="https://www.salon.com/about/contact">Contact</a></li>
+<li class="menu-item"><a href="https://www.salon.com/about/policy">Privacy</a></li>
+<li class="menu-item"><a href="https://www.salon.com/about/tos">Terms of Service</a></li>
+<li class="menu-item"><a href="https://www.salon.com/archive">Archive</a></li>
+<li class="menu-item"><a href="/premium/">Go Ad Free</a></li>
+</ul>        <div class="footer__copyright">
+    <p>
+        Copyright © 2026 Salon.com, LLC. Reproduction of material from any Salon pages without written permission is strictly prohibited. SALON ® is registered in the U.S. Patent and Trademark Office as a trademark of Salon.com, LLC. Associated Press articles: Copyright © 2016 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.    </p>
+    <p>
+        <a href="https://www.salon.com/2026/03/30/best-vpn-services-for-2026/">
+            VPN Providers        </a>
+    </p>
+    <p>
+        <a href="https://www.salon.com/about/dmca">
+            DMCA Policy        </a>
+    </p>
+</div>
+    </footer>
+
+    <div class="modal__alert" role="dialog" aria-modal="true" aria-hidden="true" id="alert-modal">
+    <div></div>
+    <div>
+        <div>
+            
+<div class="modal__close">
+    <button type="button" aria-controls="alert-modal">
+        <i class="icon icon-close-extrabold block w-5 text-xl" ></i>
+    </button>
+</div>
+            <div class="modal__content">
+                <div class="message">
+                    This is an alert message.                </div>
+                <div class="modal__close">
+                    <button type="button" aria-controls="alert-modal">
+                        OK                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <section id="outer_sticky" class="ad__sticky " style="display: none">
+    <div id="close_sticky" onclick="ads_project.close_sticky(); return false;">
+        <i class="icon icon-close" ></i>
+    </div>
+    <template
+    class="ad__template "
+    data-slot="htlad-salon_{{device}}_sticky_article"
+    data-targeting="sticky_refresh"
+    data-number="01"></template>
+</section>
+
+<script type="text/javascript" id="global-salon-js-extra">
+/* <![CDATA[ */
+var salonSubscriptionTracking = {"eventsEndpoint":"https:\/\/www.salon.com\/wp-json\/salon\/v1\/subscription-tracking\/events","pageContext":{"contentCategory":"article","currentPlan":null,"isCheckoutPage":false},"pendingSessionIds":[],"bootstrapEvents":[],"approximateBeginCheckout":"1"};
+/* ]]> */
+</script>
+<script type="module" type="text/javascript" src="https://www.salon.com/app/themes/salon/dist/assets/global.js?ver=1.0.21" id="global-salon-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="module" type="text/javascript" src="https://www.salon.com/app/themes/salon/dist/assets/article.js?ver=1.0.21" id="article-salon-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.salon.com/app/themes/salon/dist/assets/ad.js?ver=1.0.21" id="ad-salon-js" defer="defer" data-wp-strategy="defer"></script>
+</body>
+</html>

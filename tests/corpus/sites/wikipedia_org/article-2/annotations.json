@@ -1,0 +1,32 @@
+{
+  "url": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "div.mw-parser-output",
+  "keep": [
+    "h1-h4",
+    "p",
+    "ul",
+    "ol",
+    "blockquote"
+  ],
+  "strip": [
+    ".hatnote",
+    ".infobox",
+    ".navbox",
+    ".mw-editsection",
+    "#toc",
+    ".reflist"
+  ],
+  "expected_quirks": [
+    "Same MediaWiki template"
+  ],
+  "category_tags": [
+    "reference",
+    "history",
+    "mediawiki",
+    "longform"
+  ],
+  "notes": "Same fixes as AI article."
+}

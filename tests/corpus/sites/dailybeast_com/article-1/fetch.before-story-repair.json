@@ -1,0 +1,22 @@
+{
+  "url": "https://www.thedailybeast.com/example-2024",
+  "recovery_url": "https://thelooker.thedailybeast.com/makeup-artist-donni-davy-how-i-got-540000-followers-as-an-introvert/",
+  "final_url": "https://thelooker.thedailybeast.com/makeup-artist-donni-davy-how-i-got-540000-followers-as-an-introvert/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 335859,
+  "error": null,
+  "fetched_at": "2026-05-06T20:02:17.871Z",
+  "elapsed_ms": 275,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Introvert With 540,000 Followers Shares Her Secret to Facing Your Fears",
+  "recovery_attempts": [
+    {
+      "url": "https://thelooker.thedailybeast.com/makeup-artist-donni-davy-how-i-got-540000-followers-as-an-introvert/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

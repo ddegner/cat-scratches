@@ -1,0 +1,11 @@
+{
+  "url": "https://www.swiftbysundell.com/podcast/example-episode/",
+  "final_url": "https://www.swiftbysundell.com/podcast/example-episode/",
+  "status": 404,
+  "content_type": "text/html",
+  "bytes": 3159,
+  "error": null,
+  "fetched_at": "2026-05-06T19:40:06.966Z",
+  "elapsed_ms": 132,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

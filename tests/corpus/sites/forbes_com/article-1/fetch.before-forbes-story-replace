@@ -1,0 +1,28 @@
+{
+  "url": "https://www.forbes.com/sites/example/2024/05/15/example-article/",
+  "recovery_url": "https://www.forbes.com/sites/cle-de-peau-beaute/2026/03/11/shes-shown-80000-girls--non-binary-people-they-belong-in-steam/",
+  "final_url": "https://www.forbes.com/sites/cle-de-peau-beaute/2026/03/11/shes-shown-80000-girls--non-binary-people-they-belong-in-steam/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1930486,
+  "error": null,
+  "fetched_at": "2026-05-06T20:02:46.160Z",
+  "elapsed_ms": 16346,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "She’s Shown 80,000 Girls & Non-Binary People They Belong In STEAM",
+  "recovery_attempts": [
+    {
+      "url": "https://www.forbes.com/sites/cle-de-peau-beaute/2026/03/11/shes-shown-80000-girls--non-binary-people-they-belong-in-steam/",
+      "method": "http",
+      "status": 403,
+      "reason": "http:403"
+    },
+    {
+      "url": "https://www.forbes.com/sites/cle-de-peau-beaute/2026/03/11/shes-shown-80000-girls--non-binary-people-they-belong-in-steam/",
+      "method": "chrome",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

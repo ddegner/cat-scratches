@@ -1,0 +1,28 @@
+{
+  "url": "https://9to5mac.com/2024/06/10/wwdc-2024-keynote/",
+  "recovery_url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+  "final_url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 150235,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:59.167Z",
+  "elapsed_ms": 25,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "iOS 27 will let you choose between Gemini, Claude, and more for AI features: report - 9to5Mac",
+  "recovery_attempts": [
+    {
+      "url": "https://9to5mac.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:132"
+    },
+    {
+      "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

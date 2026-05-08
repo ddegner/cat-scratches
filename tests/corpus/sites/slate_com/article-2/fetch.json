@@ -1,0 +1,28 @@
+{
+  "url": "https://slate.com/technology/2024/05/example.html",
+  "recovery_url": "https://slate.com/technology/2026/05/artificial-intelligence-chatgpt-cancer-diagnosis.html",
+  "final_url": "https://slate.com/technology/2026/05/artificial-intelligence-chatgpt-cancer-diagnosis.html",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 379149,
+  "error": null,
+  "fetched_at": "2026-05-07T01:34:09.852Z",
+  "elapsed_ms": 21,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "A.I.: When ChatGPT learned I have cancer, it started treating me very strangely.",
+  "recovery_attempts": [
+    {
+      "url": "https://slate.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:75"
+    },
+    {
+      "url": "https://slate.com/technology/2026/05/artificial-intelligence-chatgpt-cancer-diagnosis.html",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

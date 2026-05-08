@@ -1,0 +1,28 @@
+{
+  "url": "https://github.blog/2024-05-example-post/",
+  "recovery_url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+  "final_url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 181032,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:10.691Z",
+  "elapsed_ms": 23,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "An update on GitHub availability - The GitHub Blog",
+  "recovery_attempts": [
+    {
+      "url": "https://github.blog",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:95"
+    },
+    {
+      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

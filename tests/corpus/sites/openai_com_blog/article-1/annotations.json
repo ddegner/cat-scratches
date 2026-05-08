@@ -1,0 +1,33 @@
+{
+  "url": "https://openai.com/index/hello-gpt-4o/",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": "article, main article",
+  "keep": [
+    "h1, h2, h3",
+    "article p",
+    "article blockquote",
+    "article ul, article ol",
+    "article pre"
+  ],
+  "strip": [
+    ".actions",
+    ".video-controls",
+    "button",
+    "figure figcaption:has(> :only-child)",
+    ".more-resources",
+    ".share-widget"
+  ],
+  "expected_quirks": [
+    "Concatenated button text: 'ContributionsTry on ChatGPT GPT-4o System Card' — these are <a>/<button> siblings that got flattened",
+    "Many embedded videos have single-line captions ('Sarcasm.', 'Interview prep.') — debatable keep/strip; currently kept as orphan paragraphs, which reads oddly",
+    "'Loading…', 'Share', 'More Resources' are UI chrome"
+  ],
+  "category_tags": [
+    "corp-blog",
+    "announcement",
+    "ai"
+  ],
+  "notes": "Strip <button> elements globally and de-orphan video captions. Candidate new BASE_FILTER: 'button, [role=\"button\"]'."
+}

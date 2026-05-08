@@ -1,0 +1,28 @@
+{
+  "url": "https://www.propublica.org/article/ai-accountability-2024",
+  "recovery_url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+  "final_url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 293425,
+  "error": null,
+  "fetched_at": "2026-05-07T01:33:53.953Z",
+  "elapsed_ms": 58,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump DOJ Dropped 23,000 Criminal Investigations in Shift to Immigration — ProPublica",
+  "recovery_attempts": [
+    {
+      "url": "https://www.propublica.org",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:53"
+    },
+    {
+      "url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

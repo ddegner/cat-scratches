@@ -1,0 +1,18 @@
+{
+  "url": "https://write.as/blog/identities",
+  "replaced_url": "https://write.as/example/example-two",
+  "recovery_url": "https://write.as/blog/identities",
+  "final_url": "https://write.as/blog/identities",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 10125,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:23.633Z",
+  "elapsed_ms": 230,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Identities — Write.as Blog",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

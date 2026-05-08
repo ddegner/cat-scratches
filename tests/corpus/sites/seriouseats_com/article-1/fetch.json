@@ -1,0 +1,28 @@
+{
+  "url": "https://www.seriouseats.com/the-best-chocolate-chip-cookie-recipe",
+  "recovery_url": "https://www.seriouseats.com/science-behind-room-temperature-food-11954970",
+  "final_url": "https://www.seriouseats.com/science-behind-room-temperature-food-11954970",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 349605,
+  "error": null,
+  "fetched_at": "2026-05-06T20:26:02.502Z",
+  "elapsed_ms": 187,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Not All Food Tastes Best Hot—Here’s Why",
+  "recovery_attempts": [
+    {
+      "url": "https://www.seriouseats.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:84"
+    },
+    {
+      "url": "https://www.seriouseats.com/science-behind-room-temperature-food-11954970",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

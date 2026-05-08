@@ -1,0 +1,28 @@
+{
+  "url": "https://smittenkitchen.com/2024/05/example-recipe/",
+  "recovery_url": "https://smittenkitchen.com/2006/11/chocolate-chip-sour-cream-cake/",
+  "final_url": "https://smittenkitchen.com/2006/11/chocolate-chip-sour-cream-cake/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 1109332,
+  "error": null,
+  "fetched_at": "2026-05-06T20:26:03.933Z",
+  "elapsed_ms": 62,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "chocolate chip sour cream coffee cake – smitten kitchen",
+  "recovery_attempts": [
+    {
+      "url": "https://smittenkitchen.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:54"
+    },
+    {
+      "url": "https://smittenkitchen.com/2006/11/chocolate-chip-sour-cream-cake/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

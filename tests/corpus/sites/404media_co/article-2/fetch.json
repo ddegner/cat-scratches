@@ -1,0 +1,18 @@
+{
+  "url": "https://www.404media.co/china-pressure-canceled-worlds-largest-digital-human-rights-conference/",
+  "replaced_url": "https://www.404media.co/example-feature-2024/",
+  "recovery_url": "https://www.404media.co/china-pressure-canceled-worlds-largest-digital-human-rights-conference/",
+  "final_url": "https://www.404media.co/china-pressure-canceled-worlds-largest-digital-human-rights-conference/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 56152,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:08.007Z",
+  "elapsed_ms": 16,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "China Pressure Canceled World’s Largest Digital Human Rights Conference",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

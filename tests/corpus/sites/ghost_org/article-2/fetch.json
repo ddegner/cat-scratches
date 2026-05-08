@@ -1,0 +1,29 @@
+{
+  "url": "https://ghost.org/business/",
+  "replaced_url": "https://ghost.org/resources/example-two/",
+  "recovery_url": "https://ghost.org/business/",
+  "final_url": "https://ghost.org/business/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 81481,
+  "error": null,
+  "fetched_at": "2026-05-07T02:24:14.411Z",
+  "elapsed_ms": 27,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Ghost for Business: The modern content marketing platform",
+  "replacement_reasons": [
+    "missing-source"
+  ],
+  "story_repair_error": "No usable unique front-page story found",
+  "story_repair_attempted_at": "2026-05-07T02:37:00.710Z",
+  "story_repair_reasons": [
+    "bad-title"
+  ],
+  "story_repair_candidates": [],
+  "rejected_nonstory_files": {
+    "source": "source.rejected-nonstory.html",
+    "extracted": "extracted.rejected-nonstory.md",
+    "result": "result.rejected-nonstory.json"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theparisreview.org/blog/2026/05/01/when-the-confederacy-came-to-la/",
+  "replaced_url": "https://www.theparisreview.org/interviews/example-interview/",
+  "recovery_url": "https://www.theparisreview.org/blog/2026/05/01/when-the-confederacy-came-to-la/",
+  "final_url": "https://www.theparisreview.org/blog/2026/05/01/when-the-confederacy-came-to-la/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 158622,
+  "error": null,
+  "fetched_at": "2026-05-07T02:22:35.987Z",
+  "elapsed_ms": 4423,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "chrome",
+  "recovery_title": "When the Confederacy Came to LA by Harmony Holiday",
+  "replacement_reasons": [
+    "missing-source"
+  ]
+}

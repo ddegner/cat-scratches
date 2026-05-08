@@ -1,0 +1,18 @@
+{
+  "url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+  "replaced_url": "https://theintercept.com/2024/05/15/example-investigation/",
+  "recovery_url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+  "final_url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 200612,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:11.801Z",
+  "elapsed_ms": 37,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "These Middle Eastern News Sites Are U.S. Government Propaganda Operations",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

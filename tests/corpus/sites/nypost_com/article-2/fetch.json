@@ -1,0 +1,18 @@
+{
+  "url": "https://nypost.com/2026/05/06/world-news/france-deploys-its-sole-aircraft-carrier-toward-strait-of-hormuz/",
+  "replaced_url": "https://nypost.com/2024/05/15/business/example/",
+  "recovery_url": "https://nypost.com/2026/05/06/world-news/france-deploys-its-sole-aircraft-carrier-toward-strait-of-hormuz/",
+  "final_url": "https://nypost.com/2026/05/06/world-news/france-deploys-its-sole-aircraft-carrier-toward-strait-of-hormuz/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 604732,
+  "error": null,
+  "fetched_at": "2026-05-07T02:32:17.023Z",
+  "elapsed_ms": 32,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "France deploys country's sole aircraft carrier toward Strait of Hormuz",
+  "replacement_reasons": [
+    "bad-url"
+  ]
+}

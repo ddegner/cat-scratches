@@ -1,0 +1,18 @@
+{
+  "url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+  "replaced_url": "https://www.cbsnews.com/news/example-2024/",
+  "recovery_url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+  "final_url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 605236,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:09.678Z",
+  "elapsed_ms": 60,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "$15,000 CD vs. $15,000 high-yield savings account vs. $15,000 money market account: Here's which is most profitable now - CBS News",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

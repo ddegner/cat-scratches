@@ -1,0 +1,46 @@
+{
+  "url": "https://buttondown.com/jmduke/archive/example-post/",
+  "recovery_url": "https://buttondown.com/blog/2025-01-13-clive-thompson",
+  "final_url": "https://buttondown.com/blog/2025-01-13-clive-thompson",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 84892,
+  "error": null,
+  "fetched_at": "2026-05-06T20:27:15.901Z",
+  "elapsed_ms": 223,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "How Clive Thompson uses Buttondown to grow his linkblog's audience",
+  "recovery_attempts": [
+    {
+      "url": "https://buttondown.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:14"
+    },
+    {
+      "url": "https://buttondown.com/features/concierge-migration",
+      "method": "http",
+      "status": 200,
+      "reason": "non-story-title"
+    },
+    {
+      "url": "https://buttondown.com/register",
+      "method": "http",
+      "status": 200,
+      "reason": "thin-text:187"
+    },
+    {
+      "url": "https://buttondown.com/register",
+      "method": "chrome",
+      "status": 0,
+      "reason": "timeout"
+    },
+    {
+      "url": "https://buttondown.com/blog/2025-01-13-clive-thompson",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

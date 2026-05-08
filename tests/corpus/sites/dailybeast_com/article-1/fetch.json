@@ -1,0 +1,18 @@
+{
+  "url": "https://www.thedailybeast.com/trump-79-debuts-swollen-hands-as-health-concerns-mount/",
+  "replaced_url": "https://www.thedailybeast.com/example-2024",
+  "recovery_url": "https://www.thedailybeast.com/trump-79-debuts-swollen-hands-as-health-concerns-mount/",
+  "final_url": "https://www.thedailybeast.com/trump-79-debuts-swollen-hands-as-health-concerns-mount/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 608321,
+  "error": null,
+  "fetched_at": "2026-05-07T01:57:14.106Z",
+  "elapsed_ms": 70,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Trump, 79, Debuts Swollen Hands as Health Concerns Mount",
+  "replacement_reasons": [
+    "duplicate-url"
+  ]
+}

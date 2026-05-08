@@ -1,0 +1,22 @@
+{
+  "url": "https://9to5mac.com/2024/09/09/iphone-16-announcement/",
+  "recovery_url": "https://9to5mac.com/2026/05/06/ipados-26-5-will-add-three-new-features-for-ipad-heres-whats-coming/?extended-comments=1",
+  "final_url": "https://9to5mac.com/2026/05/06/ipados-26-5-will-add-three-new-features-for-ipad-heres-whats-coming/?extended-comments=1",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 164065,
+  "error": null,
+  "fetched_at": "2026-05-06T20:03:40.312Z",
+  "elapsed_ms": 607,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "iPadOS 26.5 will add three new features for iPad, here’s what’s coming - 9to5Mac",
+  "recovery_attempts": [
+    {
+      "url": "https://9to5mac.com/2026/05/06/ipados-26-5-will-add-three-new-features-for-ipad-heres-whats-coming/?extended-comments=1",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

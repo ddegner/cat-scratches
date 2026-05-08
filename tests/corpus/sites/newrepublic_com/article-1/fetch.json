@@ -1,0 +1,11 @@
+{
+  "url": "https://newrepublic.com/article/123456/example-essay",
+  "final_url": "https://newrepublic.com/article/123456/jezebel-tracked-down-the-woman-who-read-claudia-rankines-citizen-at-a-trump-rally",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 142141,
+  "error": null,
+  "fetched_at": "2026-05-06T19:39:50.003Z",
+  "elapsed_ms": 391,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://github.com/torvalds/linux/blob/master/README",
+  "fetched_at": "2026-04-15",
+  "annotator": "human",
+  "quality": "needs-improvement",
+  "content_root_selector": ".blob-wrapper, article.markdown-body",
+  "keep": [
+    "pre",
+    "article.markdown-body"
+  ],
+  "strip": [
+    "header.AppHeader",
+    ".Layout-sidebar",
+    ".file-header",
+    "nav[aria-label='File view']"
+  ],
+  "expected_quirks": [
+    "Plain-text README (not .md) — rendered as a <pre>, not markdown",
+    "Extractor should still capture the raw text content"
+  ],
+  "category_tags": [
+    "docs",
+    "readme",
+    "github",
+    "plaintext"
+  ],
+  "notes": "Plain-text README case — tests extractor on non-markdown content files."
+}

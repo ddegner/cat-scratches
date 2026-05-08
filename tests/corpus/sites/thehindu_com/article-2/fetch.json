@@ -1,0 +1,28 @@
+{
+  "url": "https://www.thehindu.com/business/example/article87654321.ece",
+  "recovery_url": "https://frontline.thehindu.com/politics/arvind-kejriwal-exclusive-interview-delhi-election-2025-voting-aap-vs-bjp-vs-congress/article69131147.ece?utm_source=th&utm_medium=footer&utm_campaign=internal",
+  "final_url": "https://frontline.thehindu.com/politics/arvind-kejriwal-exclusive-interview-delhi-election-2025-voting-aap-vs-bjp-vs-congress/article69131147.ece?utm_source=th&utm_medium=footer&utm_campaign=internal",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 182514,
+  "error": null,
+  "fetched_at": "2026-05-07T01:35:51.839Z",
+  "elapsed_ms": 149,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Arvind Kejriwal Exclusive Interview | ‘AAP will form the government again in Delhi with a comfortable majority’ - Frontline",
+  "recovery_attempts": [
+    {
+      "url": "https://www.thehindu.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:216"
+    },
+    {
+      "url": "https://frontline.thehindu.com/politics/arvind-kejriwal-exclusive-interview-delhi-election-2025-voting-aap-vs-bjp-vs-congress/article69131147.ece?utm_source=th&utm_medium=footer&utm_campaign=internal",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,4028 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-07",
+  "total_sites": 200,
+  "total_pages": 400,
+  "categories": [
+    "blog",
+    "corp-blog",
+    "docs",
+    "docs-public",
+    "ecommerce",
+    "forum",
+    "government",
+    "longform",
+    "news-intl",
+    "news-major",
+    "newsletter",
+    "recipe",
+    "reference",
+    "science",
+    "social",
+    "tech-news",
+    "think-tank",
+    "video"
+  ],
+  "sites": [
+    {
+      "slug": "nytimes_com",
+      "name": "The New York Times",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.nytimes.com/2026/05/06/us/politics/israel-maga-republicans.html",
+          "note": "feature",
+          "replaced_from": "https://www.nytimes.com/2024/01/24/technology/openai-chatgpt-uk-election.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.nytimes.com/interactive/2024/upshot/2024-election-polls-trump-harris.html",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "NYTimes/Athletic-style page did not yield a usable source; skipping paywall-like slot"
+        }
+      ]
+    },
+    {
+      "slug": "washingtonpost_com",
+      "name": "The Washington Post",
+      "category": "news-major",
+      "cms": "arc",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.washingtonpost.com/ripple/2026/05/06/article/comey-indictment-first-amendment-precedent/?itid=hp_brand_promo_4",
+          "note": "story/article page",
+          "replaced_from": "https://www.washingtonpost.com/politics/2024/11/06/trump-election-victory/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.washingtonpost.com/world/2026/05/06/israel-hezbollah-radwan-beirut-attack-haret-hreik/",
+          "note": "skipped paywall",
+          "replaced_from": "https://www.washingtonpost.com/opinions/2024/10/25/washington-post-endorsement-presidential-race/",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "saved Washington Post page and alternatives expose teaser-length article text"
+        }
+      ]
+    },
+    {
+      "slug": "theguardian_com",
+      "name": "The Guardian",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theguardian.com/world/2026/may/06/donald-trump-iran-war-deal-us-bombing",
+          "note": "story/article page",
+          "replaced_from": "https://www.theguardian.com/technology/2024/may/13/openai-gpt4o-chatgpt-demo"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
+          "note": "story/article page",
+          "replaced_from": "https://www.theguardian.com/commentisfree/article/2024/jul/08/ai-technology-bubble-financial-collapse"
+        }
+      ]
+    },
+    {
+      "slug": "bbc_com",
+      "name": "BBC News",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.bbc.com/news/articles/c1m253033m4o",
+          "note": "story/article page",
+          "replaced_from": "https://www.bbc.com/news/articles/c0l15zd7937o"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+          "note": "story/article page",
+          "replaced_from": "https://www.bbc.com/future/article/20240726-how-the-human-body-changes-with-age"
+        }
+      ]
+    },
+    {
+      "slug": "reuters_com",
+      "name": "Reuters",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.reuters.com/world/us/trump-inauguration-live-updates-2025-01-20/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Reuters homepage/story requests return DataDome/CloudFront 401 challenge pages."
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/openai-2024-12-05/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Reuters homepage/story requests return DataDome/CloudFront 401 challenge pages."
+        }
+      ]
+    },
+    {
+      "slug": "apnews_com",
+      "name": "Associated Press",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://apnews.com/article/cruise-ship-hantavirus-andes-strain-south-africa-cb424510bb0c934c781f6bd42ce2e7c8",
+          "note": "story/article page",
+          "replaced_from": "https://apnews.com/article/election-2024-trump-harris-results-cb7f0c6d1234"
+        },
+        {
+          "id": "article-2",
+          "url": "https://apnews.com/article/iran-us-israel-war-china-may-6-2026-3d061a90ccde095178d9b988d94d08f3",
+          "note": "story/article page",
+          "replaced_from": "https://apnews.com/hub/artificial-intelligence"
+        }
+      ]
+    },
+    {
+      "slug": "wsj_com",
+      "name": "Wall Street Journal",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.wsj.com/tech/ai/openai-chatgpt-anthropic-2024-abcd1234",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "section/listing page metadata, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.wsj.com/opinion/editorial-2024-xyz",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Wall Street Journal page is a known paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "ft_com",
+      "name": "Financial Times",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.ft.com/content/abc-def-ghi-2024",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Financial Times content page is a known paywall target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.ft.com/content/markets-2024-jkl",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Financial Times content page is a known paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "bloomberg_com",
+      "name": "Bloomberg",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.bloomberg.com/news/articles/2024-05-15/ai-boom-nvidia",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "tool page, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.bloomberg.com/opinion/articles/2024-06-01/fed-rates",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Bloomberg opinion page is a known paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "economist_com",
+      "name": "The Economist",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.economist.com/leaders/2024/11/07/the-trump-victory",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Economist article is a known paywall target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.economist.com/briefing/2024/05/23/ai-and-work",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Economist briefing is a known paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "theatlantic_com",
+      "name": "The Atlantic",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theatlantic.com/magazine/archive/2024/09/industry-tv-show-hbo-finance/679164/",
+          "note": "magazine feature",
+          "replaced_from": "https://www.theatlantic.com/magazine/archive/2024/09/anne-applebaum-autocracy/679164/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theatlantic.com/national/archive/2024/05/political-dysfunction-facing-congress-washington-week/678425/",
+          "note": "tech essay",
+          "replaced_from": "https://www.theatlantic.com/technology/archive/2024/05/openai-altman-safety/678425/"
+        }
+      ]
+    },
+    {
+      "slug": "newyorker_com",
+      "name": "The New Yorker",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.newyorker.com/magazine/2026/04/13/how-the-internet-fringe-infiltrated-republican-politics",
+          "note": "story/article page",
+          "replaced_from": "https://www.newyorker.com/magazine/2024/03/18/the-rise-of-ai"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.newyorker.com/magazine/2026/05/11/glorious-country-victoria-johnson-book-review",
+          "note": "story/article page",
+          "replaced_from": "https://www.newyorker.com/culture/annals-of-inquiry/example-piece"
+        }
+      ]
+    },
+    {
+      "slug": "npr_org",
+      "name": "NPR",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.npr.org/2026/05/06/nx-s1-5813506/lord-of-the-flies-review",
+          "note": "story/article page",
+          "replaced_from": "https://www.npr.org/2024/11/06/nx-s1-trump-election-results"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.npr.org/2026/05/06/g-s1-118141/ragtime-tiny-desk-concert",
+          "note": "story/article page",
+          "replaced_from": "https://www.npr.org/sections/health-shots/2024/05/01/ai-medicine"
+        }
+      ]
+    },
+    {
+      "slug": "cnn_com",
+      "name": "CNN",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.cnn.com/2026/05/06/politics/jeffrey-epstein-purported-suicide-note",
+          "note": "story/article page",
+          "replaced_from": "https://www.cnn.com/2024/11/06/politics/election-2024-results/index.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.cnn.com/2026/05/06/politics/gop-trump-midterm-elections",
+          "note": "story/article page",
+          "replaced_from": "https://www.cnn.com/business/live-news/stock-market-today-01-15-25/index.html"
+        }
+      ]
+    },
+    {
+      "slug": "axios_com",
+      "name": "Axios",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.axios.com/2026/05/06/scale-ai-jason-droege-reliable-ai",
+          "note": "story/article page",
+          "replaced_from": "https://www.axios.com/2024/11/06/trump-wins-2024-election"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.axios.com/2026/05/06/trump-ice-immigration-detention-court-ruling-florida",
+          "note": "story/article page",
+          "replaced_from": "https://www.axios.com/2024/05/15/openai-gpt-4o"
+        }
+      ]
+    },
+    {
+      "slug": "politico_com",
+      "name": "Politico",
+      "category": "news-major",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.politico.com/news/2024/11/06/trump-wins-2024-00187234",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Politico homepage/feed/story requests return Cloudflare challenge pages."
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.politico.com/magazine/story/2024/05/15/example-longform",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Politico homepage/feed/story requests return Cloudflare challenge pages."
+        }
+      ]
+    },
+    {
+      "slug": "vox_com",
+      "name": "Vox",
+      "category": "news-major",
+      "cms": "chorus",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+          "note": "story/article page",
+          "replaced_from": "https://www.vox.com/policy/2024/5/15/explainer-ai"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.vox.com/the-logoff-newsletter-trump/487986/kash-patel-fbi-investigate-atlantic-journalist-press-freedom",
+          "note": "story/article page",
+          "replaced_from": "https://www.vox.com/future-perfect/2024/11/06/ai-safety"
+        }
+      ]
+    },
+    {
+      "slug": "propublica_org",
+      "name": "ProPublica",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.propublica.org/article/more-parents-decline-vitamin-k-shot-newborns",
+          "note": "story/article page",
+          "replaced_from": "https://www.propublica.org/article/example-investigation-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+          "note": "story/article page",
+          "replaced_from": "https://www.propublica.org/article/ai-accountability-2024"
+        }
+      ]
+    },
+    {
+      "slug": "semafor_com",
+      "name": "Semafor",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.semafor.com/article/04/28/2026/the-uaes-opec-exit-is-no-surprise?utm_medium=gulf&utm_campaign=flagshipnumbered6&utm_source=nowcta",
+          "note": "story/article page",
+          "replaced_from": "https://www.semafor.com/article/05/15/2024/openai-board"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.semafor.com/article/05/06/2026/anthropics-tie-up-with-elon-musk-paves-way-for-space-data-centers",
+          "note": "story/article page",
+          "replaced_from": "https://www.semafor.com/article/11/06/2024/election-analysis"
+        }
+      ]
+    },
+    {
+      "slug": "404media_co",
+      "name": "404 Media",
+      "category": "news-major",
+      "cms": "ghost",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/",
+          "note": "story/article page",
+          "replaced_from": "https://www.404media.co/example-investigation-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.404media.co/china-pressure-canceled-worlds-largest-digital-human-rights-conference/",
+          "note": "story/article page",
+          "replaced_from": "https://www.404media.co/example-feature-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "latimes_com",
+      "name": "Los Angeles Times",
+      "category": "news-major",
+      "cms": "arc",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.latimes.com/obituaries/story/2026-05-06/la-na-ted-turner-obituary",
+          "note": "story/article page",
+          "replaced_from": "https://www.latimes.com/california/story/2024-05-15/example"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.latimes.com/california/story/2026-05-06/yosemite-ditches-reservations-drawing-huge-crowds-in-free-for-all",
+          "note": "story/article page",
+          "replaced_from": "https://www.latimes.com/opinion/story/2024-11-06/example"
+        }
+      ]
+    },
+    {
+      "slug": "nypost_com",
+      "name": "New York Post",
+      "category": "news-major",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://nypost.com/2026/05/06/lifestyle/woman-left-stressful-teaching-job-to-earn-100000-a-year-as-a-professional-cuddler/",
+          "note": "story/article page",
+          "replaced_from": "https://nypost.com/2024/11/06/news/example-article/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://nypost.com/2026/05/06/world-news/france-deploys-its-sole-aircraft-carrier-toward-strait-of-hormuz/",
+          "note": "story/article page",
+          "replaced_from": "https://nypost.com/2024/05/15/business/example/"
+        }
+      ]
+    },
+    {
+      "slug": "usatoday_com",
+      "name": "USA Today",
+      "category": "news-major",
+      "cms": "gannett",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.usatoday.com/story/sports/nfl/columnist/bell/2026/05/06/dwayne-haskin-jr-death-mental-health-awareness/89954761007/",
+          "note": "story/article page",
+          "replaced_from": "https://www.usatoday.com/story/news/politics/2024/11/06/example/12345/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.usatoday.com/story/news/politics/2026/05/06/americans-disapprove-trump-pope-attacks/89966021007/",
+          "note": "story/article page",
+          "replaced_from": "https://www.usatoday.com/story/money/2024/05/15/example/67890/"
+        }
+      ]
+    },
+    {
+      "slug": "cbsnews_com",
+      "name": "CBS News",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+          "note": "story/article page",
+          "replaced_from": "https://www.cbsnews.com/news/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+          "note": "story/article page",
+          "replaced_from": "https://www.cbsnews.com/news/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "nbcnews_com",
+      "name": "NBC News",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.nbcnews.com/politics/2024-election/example-rcna123",
+          "note": "news"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.nbcnews.com/tech/example-rcna456",
+          "note": "tech"
+        }
+      ]
+    },
+    {
+      "slug": "abcnews_go_com",
+      "name": "ABC News",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://abcnews.com/Entertainment/wireStory/electrical-fire-broadway-theater-hosts-book-mormon-closed-132729594",
+          "note": "story/article page",
+          "replaced_from": "https://abcnews.go.com/Politics/example/story?id=12345"
+        },
+        {
+          "id": "article-2",
+          "url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+          "note": "story/article page",
+          "replaced_from": "https://abcnews.go.com/Technology/example/story?id=67890"
+        }
+      ]
+    },
+    {
+      "slug": "foxnews_com",
+      "name": "Fox News",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.foxnews.com/politics/china-orders-firms-ignore-us-iran-sanctions-daring-us-enforce-crackdown",
+          "note": "story/article page",
+          "replaced_from": "https://radio.foxnews.com/2026/05/06/bryan-kohbergers-plea-the-questions-that-remain/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.foxnews.com/media/rutgers-pulls-graduation-speaker-after-his-anti-israel-social-media-posts-allegedly-drew-student-backlash",
+          "note": "story/article page",
+          "replaced_from": "https://radio.foxnews.com/2026/05/06/luigi-mangione-celebrates-28th-birthday-with-1-5-million-in-donations/"
+        }
+      ]
+    },
+    {
+      "slug": "msnbc_com",
+      "name": "MSNBC",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.ms.now/news/nearly-80000-ballots-in-limbo-after-louisiana-halted-house-primaries",
+          "note": "story/article page",
+          "replaced_from": "https://www.msnbc.com/opinion/example-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.ms.now/all-in/watch/epstein-s-purported-suicide-note-released-2499126339549",
+          "note": "story/article page",
+          "replaced_from": "https://www.msnbc.com/rachel-maddow-show/example-2024"
+        }
+      ]
+    },
+    {
+      "slug": "theintercept_com",
+      "name": "The Intercept",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://theintercept.com/2026/04/20/pentagon-middle-eastern-news-propaganda-iran/",
+          "note": "story/article page",
+          "replaced_from": "https://theintercept.com/2024/05/15/example-investigation/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://theintercept.com/2026/04/28/kalshi-polymarket-news-journalism-partnerships/",
+          "note": "story/article page",
+          "replaced_from": "https://theintercept.com/2024/11/06/example-analysis/"
+        }
+      ]
+    },
+    {
+      "slug": "motherjones_com",
+      "name": "Mother Jones",
+      "category": "news-major",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.motherjones.com/politics/2026/05/donald-trump-racist-low-iq-truth-social/",
+          "note": "story/article page",
+          "replaced_from": "https://www.motherjones.com/politics/2024/11/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.motherjones.com/politics/2026/05/education-department-office-civil-rights-flunking/",
+          "note": "story/article page",
+          "replaced_from": "https://www.motherjones.com/environment/2024/05/example/"
+        }
+      ]
+    },
+    {
+      "slug": "thenation_com",
+      "name": "The Nation",
+      "category": "news-major",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.thenation.com/article/society/diy-trans-healthcare-history/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thenation.com/article/politics/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.thenation.com/article/world/trump-iran-war-escalation-energy-crisis-us-foreign-policy-risk/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thenation.com/article/culture/example-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "slate_com",
+      "name": "Slate",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://slate.com/life/2026/05/mormon-stories-church-lds-lawsuit-trademark.html",
+          "note": "story/article page",
+          "replaced_from": "https://slate.com/news-and-politics/2024/11/example.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://slate.com/technology/2026/05/artificial-intelligence-chatgpt-cancer-diagnosis.html",
+          "note": "story/article page",
+          "replaced_from": "https://slate.com/technology/2024/05/example.html"
+        }
+      ]
+    },
+    {
+      "slug": "salon_com",
+      "name": "Salon",
+      "category": "news-major",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.salon.com/2026/05/02/trumps-latest-science-purge-could-bring-major-risks-experts-say/",
+          "note": "story/article page",
+          "replaced_from": "https://www.salon.com/2024/11/06/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.salon.com/2026/05/03/militarys-independent-newspaper-captured-by-maga/",
+          "note": "story/article page",
+          "replaced_from": "https://www.salon.com/2024/05/15/example/"
+        }
+      ]
+    },
+    {
+      "slug": "huffpost_com",
+      "name": "HuffPost",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.huffpost.com/entry/chief-justice-roberts-public-supreme-court-politics_n_69fbed5fe4b0cb033e4f76f6",
+          "note": "story/article page",
+          "replaced_from": "https://www.huffpost.com/entry/morgan-freeman-the-concep_n_12345"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.huffpost.com/entry/rudy-giuliani-girlfriend-health-update_n_69fa10cee4b055e1a49707bf?origin=top-ad-recirc",
+          "note": "story/article page",
+          "replaced_from": "https://www.huffpost.com/entry/example-two_n_67890"
+        }
+      ]
+    },
+    {
+      "slug": "dailybeast_com",
+      "name": "The Daily Beast",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.thedailybeast.com/trump-79-debuts-swollen-hands-as-health-concerns-mount/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thedailybeast.com/example-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://thelooker.thedailybeast.com/makeup-artist-donni-davy-how-i-got-540000-followers-as-an-introvert/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thedailybeast.com/example-two-2024"
+        }
+      ]
+    },
+    {
+      "slug": "thehill_com",
+      "name": "The Hill",
+      "category": "news-major",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://thehill.com/policy/defense/5867352-iranian-official-peace-proposal-americans-wish-list/",
+          "note": "article; source uses AMP fallback",
+          "replaced_from": "https://thehill.com/homenews/administration/12345-example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://thehill.com/regulation/court-battles/5867749-supreme-court-roberts-political-actors/amp/",
+          "note": "story/article page",
+          "replaced_from": "https://thehill.com/opinion/67890-example/"
+        }
+      ]
+    },
+    {
+      "slug": "rollingstone_com",
+      "name": "Rolling Stone",
+      "category": "longform",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.rollingstone.com/culture/culture-news/met-gala-2026-memes-1235557852/",
+          "note": "story/article page",
+          "replaced_from": "https://www.rollingstone.com/culture/culture-features/example-1234567/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.rollingstone.com/music/music-features/kacey-musgraves-vince-staples-madonna-songs-you-need-to-know-1235556566/",
+          "note": "story/article page",
+          "replaced_from": "https://www.rollingstone.com/music/music-features/example-7654321/"
+        }
+      ]
+    },
+    {
+      "slug": "time_com",
+      "name": "TIME",
+      "category": "news-major",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://time.com/article/2026/05/06/pope-leo-nuclear-weapons-trump/",
+          "note": "story/article page",
+          "replaced_from": "https://time.com/1234567/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://time.com/article/2026/05/06/trump-new-counterterrorism-strategy/",
+          "note": "story/article page",
+          "replaced_from": "https://time.com/7654321/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "newsweek_com",
+      "name": "Newsweek",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.newsweek.com/sports/mlb/framber-valdez-likely-facing-suspension-after-throwing-at-trevor-story-11919391",
+          "note": "story/article page",
+          "replaced_from": "https://www.newsweek.com/example-2024-12345"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.newsweek.com/entertainment/movies/hokum-review-damian-mccarthy-does-it-again-with-adam-scott-led-thriller-11916380",
+          "note": "story/article page",
+          "replaced_from": "https://www.newsweek.com/example-two-2024-67890"
+        }
+      ]
+    },
+    {
+      "slug": "forbes_com",
+      "name": "Forbes",
+      "category": "news-major",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/05/07/top-iran-negotiator-mocks-operation-trust-me-bro-and-questions-reports-of-trumps-peace-proposal/",
+          "note": "story/article page",
+          "replaced_from": "https://www.forbes.com/sites/example/2024/05/15/example-article/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.forbes.com/sites/maryroeloffs/2026/05/07/ceos-say-layoffs-are-ais-fault-but-some-experts-think-companies-are-lying/",
+          "note": "story/article page",
+          "replaced_from": "https://www.forbes.com/sites/example/2024/11/06/example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "lemonde_fr",
+      "name": "Le Monde",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.lemonde.fr/politique/article/2024/11/06/example_12345_823448.html",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Le Monde article is a likely paywall/login target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.lemonde.fr/economie/article/2024/05/15/example_67890_3234524.html",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Le Monde article is a likely paywall/login target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "spiegel_de",
+      "name": "Der Spiegel",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.spiegel.de/wirtschaft/service/immobilien-schnell-und-guenstig-lohnt-sich-ein-fertighaus-fuer-sie-a-b0953544-cd1b-4bf0-9bbc-b3121eea5e03",
+          "note": "skipped paywall",
+          "replaced_from": "https://www.spiegel.de/politik/deutschland/example-a-12345.html",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "saved Spiegel+ page exposes only a subscription/access teaser, not the article body"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.spiegel.de/politik/ausland/demokraten-die-ergebnisse-in-den-einzelnen-staaten-a-67890.html",
+          "note": "business DE",
+          "replaced_from": "https://www.spiegel.de/wirtschaft/example-a-67890.html"
+        }
+      ]
+    },
+    {
+      "slug": "asahi_com",
+      "name": "Asahi Shimbun",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.asahi.com/articles/ASV567259V56BQBQ2C5M.html?iref=comtop_7_06",
+          "note": "story/article page",
+          "replaced_from": "https://www.asahi.com/articles/ASS123456.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.asahi.com/articles/ASV56266LV56ULFA00DM.html?iref=comtop_BreakingNews_list",
+          "note": "story/article page",
+          "replaced_from": "https://www.asahi.com/articles/ASS654321.html"
+        }
+      ]
+    },
+    {
+      "slug": "scmp_com",
+      "name": "South China Morning Post",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.scmp.com/news/china/politics/article/3123456/example",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "SCMP article is a likely paywall target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.scmp.com/business/article/3654321/example",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "SCMP article is a likely paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "aljazeera_com",
+      "name": "Al Jazeera",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+          "note": "story/article page",
+          "replaced_from": "https://www.aljazeera.com/news/2024/11/6/example-article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal",
+          "note": "story/article page",
+          "replaced_from": "https://www.aljazeera.com/opinions/2024/5/15/example-opinion"
+        }
+      ]
+    },
+    {
+      "slug": "haaretz_com",
+      "name": "Haaretz",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.haaretz.com/middle-east-news/iran/2026-05-06/ty-article/iran-demands-fair-deal-with-u-s-as-trump-pauses-strait-of-hormuz-ship-escorts/0000019d-fbc6-ddfa-a5bf-ffdfee680000",
+          "note": "skipped paywall",
+          "replaced_from": "https://www.haaretz.com/israel-news/2024-11-06/ty-article/example/0000018a-1234-5678-abcd-efgh12345678",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "saved Haaretz page contains only a paywall teaser paragraph"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.haaretz.com/israel-news/haaretz-today/2026-05-05/ty-article/.highlight/theres-only-one-way-to-challenge-jewish-supremacy-in-israel/0000019d-f866-d22e-a9ff-fafe76b80002",
+          "note": "skipped paywall",
+          "replaced_from": "https://www.haaretz.com/opinion/2024-05-15/ty-article-opinion/example/0000018b-8765-4321-dcba-hgfe87654321",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "saved Haaretz page contains only a paywall teaser paragraph"
+        }
+      ]
+    },
+    {
+      "slug": "theglobeandmail_com",
+      "name": "The Globe and Mail",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theglobeandmail.com/politics/article-example-2024/",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Globe and Mail article is a likely paywall target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theglobeandmail.com/business/article-example-two-2024/",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Globe and Mail article is a likely paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "smh_com_au",
+      "name": "Sydney Morning Herald",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.smh.com.au/politics/nsw/election-watchdog-investigates-premier-s-alleged-links-to-decade-old-donations-scandal-20260504-p5ztna.html",
+          "note": "story/article page",
+          "replaced_from": "https://www.smh.com.au/politics/federal/example-20241106-p5abc12.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.smh.com.au/politics/federal/thanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html",
+          "note": "story/article page",
+          "replaced_from": "https://www.smh.com.au/business/markets/example-20240515-p5def34.html"
+        }
+      ]
+    },
+    {
+      "slug": "theglobalist_com",
+      "name": "The Globalist",
+      "category": "news-intl",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theglobalist.com/the-west-waves-the-welcome-flags-for-worlds-dirty-cash/",
+          "note": "story/article page",
+          "replaced_from": "https://www.theglobalist.com/example-article-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theglobalist.com/sigmund-freud-and-21st-century-electoral-politics/",
+          "note": "story/article page",
+          "replaced_from": "https://www.theglobalist.com/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "dw_com",
+      "name": "Deutsche Welle",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.dw.com/en/austria-police-report-3-dead-in-shooting-in-linz-say-no-further-danger-to-public/a-77081505",
+          "note": "story/article page",
+          "replaced_from": "https://www.dw.com/en/example-article/a-12345678"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.dw.com/en/cnn-founder-ted-turner-has-died-at-87/a-77069817",
+          "note": "story/article page",
+          "replaced_from": "https://www.dw.com/en/example-two/a-87654321"
+        }
+      ]
+    },
+    {
+      "slug": "france24_com",
+      "name": "France 24",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.france24.com/en/europe/20260507-starmer-s-labour-to-face-potential-backlash-in-uk-local-elections",
+          "note": "story/article page",
+          "replaced_from": "https://www.france24.com/en/tv-shows/perspective/20260506-looking-ahead-to-the-uk-s-local-elections-with-british-politics-expert-colm-murphy"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.france24.com/en/technology/20260429-trump-says-nasa-has-good-shot-at-returning-astronauts-to-moon-before-2029",
+          "note": "story/article page",
+          "replaced_from": "https://www.france24.com/en/africa/20240515-example-two"
+        }
+      ]
+    },
+    {
+      "slug": "rt_com",
+      "name": "RT",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.rt.com/shows/breaking-set-summary/poisoning-wa-oscars-propaganda-tpp-secrecy-tour-de-peace-456/",
+          "note": "news RU-EN",
+          "replaced_from": "https://www.rt.com/news/123456-example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+          "note": "story/article page",
+          "replaced_from": "https://www.rt.com/business/654321-example/"
+        }
+      ]
+    },
+    {
+      "slug": "themoscowtimes_com",
+      "name": "The Moscow Times",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.themoscowtimes.com/2012/02/02/putin-agrees-to-collaborate-with-election-observer-group-a12345",
+          "note": "news",
+          "replaced_from": "https://www.themoscowtimes.com/2024/11/06/example-a12345"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.themoscowtimes.com/2019/10/24/win-a-6000-rub-gift-certificate-pinch-a67890",
+          "note": "news",
+          "replaced_from": "https://www.themoscowtimes.com/2024/05/15/example-two-a67890"
+        }
+      ]
+    },
+    {
+      "slug": "kyivindependent_com",
+      "name": "The Kyiv Independent",
+      "category": "news-intl",
+      "cms": "ghost",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://kyivindependent.com/ukraines-culture-minister-on-why-culture-needs-kpis-to-succeed-on-a-mass-scale/",
+          "note": "story/article page",
+          "replaced_from": "https://kyivindependent.com/example-article-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://kyivindependent.com/ukraine-business-roundup-on-corruption-in-ukraine/",
+          "note": "story/article page",
+          "replaced_from": "https://kyivindependent.com/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "timesofindia_indiatimes_com",
+      "name": "Times of India",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://timesofindia.indiatimes.com/india/example/articleshow/12345678.cms",
+          "note": "news IN",
+          "allow_short": true,
+          "short_review_note": "reviewed short news brief; complete body is under 700 chars"
+        },
+        {
+          "id": "article-2",
+          "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-not-as-good-as-everyone-thinks-alastair-cooks-bold-claim-stirs-fresh-controversy/articleshow/130855524.cms",
+          "note": "story/article page",
+          "replaced_from": "https://timesofindia.indiatimes.com/business/india-business/example/articleshow/87654321.cms"
+        }
+      ]
+    },
+    {
+      "slug": "thehindu_com",
+      "name": "The Hindu",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.thehindu.com/news/national/tamil-nadu/kin-of-veerappans-associates-meet-vaiko/article4415865.ece",
+          "note": "news IN",
+          "replaced_from": "https://www.thehindu.com/news/national/example/article12345678.ece"
+        },
+        {
+          "id": "article-2",
+          "url": "https://frontline.thehindu.com/politics/arvind-kejriwal-exclusive-interview-delhi-election-2025-voting-aap-vs-bjp-vs-congress/article69131147.ece?utm_source=th&utm_medium=footer&utm_campaign=internal",
+          "note": "story/article page",
+          "replaced_from": "https://www.thehindu.com/business/example/article87654321.ece"
+        }
+      ]
+    },
+    {
+      "slug": "straitstimes_com",
+      "name": "The Straits Times",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.straitstimes.com/life/food/hawker-trio-built-curry-puffs-into-a-500000-business-in-a-year?ref=headstart",
+          "note": "story/article page",
+          "replaced_from": "https://www.straitstimes.com/singapore/example-article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.straitstimes.com/singapore/transport/coe-prices-up-across-the-board-cat-a-premium-rises-to-124790?ref=singapore",
+          "note": "story/article page",
+          "replaced_from": "https://www.straitstimes.com/business/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "japantimes_co_jp",
+      "name": "The Japan Times",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.japantimes.co.jp/news/2026/05/06/japan/japan-government-agencies-ai/",
+          "note": "story/article page",
+          "replaced_from": "https://www.japantimes.co.jp/news/2024/11/06/japan/example/",
+          "allow_short": true,
+          "short_review_note": "reviewed short news brief; complete body is under 700 chars"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.japantimes.co.jp/news/2026/05/06/japan/swine-fever-outbreak-shizuoka/",
+          "note": "story/article page",
+          "replaced_from": "https://www.japantimes.co.jp/business/2024/05/15/companies/example/",
+          "allow_short": true,
+          "short_review_note": "reviewed short news brief; complete body is under 700 chars"
+        }
+      ]
+    },
+    {
+      "slug": "koreatimes_co_kr",
+      "name": "The Korea Times",
+      "category": "news-intl",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.koreatimes.co.kr/southkorea/20121030/gyeonggi-province-forges-education-deal-with-us-state?utm_source=legacy_url&utm_medium=redirect&utm_campaign=news_manager_id",
+          "note": "news KR-EN",
+          "replaced_from": "https://www.koreatimes.co.kr/www/nation/2024/11/example_123456.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.koreatimes.co.kr/world/20260507/trump-issues-ultimatum-for-iran-to-accept-deal-or-face-more-bombing",
+          "note": "story/article page",
+          "replaced_from": "https://www.koreatimes.co.kr/www/biz/2024/05/example_654321.html"
+        }
+      ]
+    },
+    {
+      "slug": "rappler_com",
+      "name": "Rappler",
+      "category": "news-intl",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.rappler.com/newsbreak/in-depth/224537-duterte-word-became-flesh-kill-bishops/",
+          "note": "story/article page",
+          "replaced_from": "https://www.rappler.com/nation/example-article-november-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-hospitalized-critical-condition/",
+          "note": "story/article page",
+          "replaced_from": "https://www.rappler.com/business/example-two-may-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "techcrunch_com",
+      "name": "TechCrunch",
+      "category": "tech-news",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+          "note": "story/article page",
+          "replaced_from": "https://techcrunch.com/2024/05/13/openais-gpt-4o-multimodal-model-now-live-in-chatgpt/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
+          "note": "story/article page",
+          "replaced_from": "https://techcrunch.com/2024/09/09/iphone-16-everything-announced-at-apples-it-s-glowtime-event/"
+        }
+      ]
+    },
+    {
+      "slug": "theverge_com",
+      "name": "The Verge",
+      "category": "tech-news",
+      "cms": "chorus",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theverge.com/2024/5/13/24155493/openai-gpt-4o-launching-free-for-all-chatgpt-users",
+          "note": "news",
+          "replaced_from": "https://www.theverge.com/2024/5/13/24155493/openai-gpt-4o-launch-free-tier-demo"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theverge.com/report/920005/social-media-clipping-podcasts-clavicular-marketing-mrbeast",
+          "note": "story/article page",
+          "replaced_from": "https://www.theverge.com/2024/10/30/24284101/elon-musk-has-been-ordered-to-appear-at-a-court-hearing-tomorrow",
+          "expected_current": false,
+          "expected_note": "Expected fixture belongs to the replaced quickpost URL; review extracted.md before accepting a new fixture."
+        }
+      ]
+    },
+    {
+      "slug": "arstechnica_com",
+      "name": "Ars Technica",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://arstechnica.com/ai/2024/05/before-launching-gpt-4o-broke-records-on-chatbot-leaderboard-under-a-secret-name/",
+          "note": "AI news"
+        },
+        {
+          "id": "article-2",
+          "url": "https://arstechnica.com/cars/2026/05/how-do-you-design-a-30000-electric-pickup-inside-fords-skunkworks/",
+          "note": "story/article page",
+          "replaced_from": "https://arstechnica.com/gadgets/2024/09/apples-iphone-16-pro-launches-sept-20-with-bigger-screens-and-a1-chip/"
+        }
+      ]
+    },
+    {
+      "slug": "wired_com",
+      "name": "WIRED",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.wired.com/story/elon-musk-recruit-sam-altman-tesla-ai-lab-trial/",
+          "note": "story/article page",
+          "replaced_from": "https://www.wired.com/story/openai-gpt-4o-demo/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+          "note": "story/article page",
+          "replaced_from": "https://www.wired.com/story/the-big-story-example-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "9to5mac_com",
+      "name": "9to5Mac",
+      "category": "tech-news",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://9to5mac.com/2026/05/06/ipados-26-5-will-add-three-new-features-for-ipad-heres-whats-coming/?extended-comments=1",
+          "note": "story/article page",
+          "replaced_from": "https://9to5mac.com/2024/09/09/iphone-16-announcement/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+          "note": "story/article page",
+          "replaced_from": "https://9to5mac.com/2024/06/10/wwdc-2024-keynote/"
+        }
+      ]
+    },
+    {
+      "slug": "macrumors_com",
+      "name": "MacRumors",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+          "note": "story/article page",
+          "replaced_from": "https://www.macrumors.com/2024/09/09/iphone-16-released/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.macrumors.com/2026/01/29/iphone-16-worlds-best-selling-phone-2025/",
+          "note": "story/article page",
+          "replaced_from": "https://www.macrumors.com/guide/iphone-16/"
+        }
+      ]
+    },
+    {
+      "slug": "news_ycombinator_com",
+      "name": "Hacker News (front page)",
+      "category": "forum",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://news.ycombinator.com/item?id=40358101",
+          "note": "comment thread"
+        },
+        {
+          "id": "article-2",
+          "url": "https://news.ycombinator.com/item?id=42112345",
+          "note": "comment thread"
+        }
+      ]
+    },
+    {
+      "slug": "stratechery_com",
+      "name": "Stratechery",
+      "category": "tech-news",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://stratechery.com/2024/the-gen-ai-bridge-to-the-future/",
+          "note": "essay"
+        },
+        {
+          "id": "article-2",
+          "url": "https://stratechery.com/2024/apple-intelligence-is-right-on-time/",
+          "note": "essay",
+          "replaced_from": "https://stratechery.com/2024/apple-intelligence/"
+        }
+      ]
+    },
+    {
+      "slug": "platformer_news",
+      "name": "Platformer",
+      "category": "tech-news",
+      "cms": "ghost",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.platformer.news/moltbot-clawdbot-review-ai-agent/",
+          "note": "story/article page",
+          "replaced_from": "https://www.platformer.news/openai-board-anna-makanju-election/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.platformer.news/trump-administration-doomers-ai/",
+          "note": "story/article page",
+          "replaced_from": "https://www.platformer.news/anthropic-claude-3-5-sonnet/"
+        }
+      ]
+    },
+    {
+      "slug": "theinformation_com",
+      "name": "The Information",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theinformation.com/articles/example-tech-scoop-2024",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "The Information article is a known paywall target and has no usable source"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theinformation.com/briefings/example-briefing-2024",
+          "note": "skipped paywall",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "The Information briefing is a known paywall target and has no usable source"
+        }
+      ]
+    },
+    {
+      "slug": "engadget_com",
+      "name": "Engadget",
+      "category": "tech-news",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.engadget.com/2165331/google-home-gains-more-gemini-powered-camera-features/",
+          "note": "story/article page",
+          "replaced_from": "https://www.engadget.com/example-review-2024-120000000.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+          "note": "story/article page",
+          "replaced_from": "https://www.engadget.com/example-news-2024-153000000.html"
+        }
+      ]
+    },
+    {
+      "slug": "gizmodo_com",
+      "name": "Gizmodo",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://gizmodo.com/redline-anime-movie-studio-madhouse-retro-review-2000755067",
+          "note": "story/article page",
+          "replaced_from": "https://gizmodo.com/example-article-1851234567"
+        },
+        {
+          "id": "article-2",
+          "url": "https://gizmodo.com/man-gets-worlds-worst-diarrhea-after-overdosing-on-experimental-glp-1-2000755155",
+          "note": "story/article page",
+          "replaced_from": "https://gizmodo.com/example-two-1857654321"
+        }
+      ]
+    },
+    {
+      "slug": "cnet_com",
+      "name": "CNET",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.cnet.com/news/social-media/online-child-teen-safety-social-media-age-verification-feature-news/",
+          "note": "story/article page",
+          "replaced_from": "https://www.cnet.com/tech/services-and-software/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.cnet.com/tech/computing/this-25000-robot-looks-right-out-of-star-wars/",
+          "note": "story/article page",
+          "replaced_from": "https://www.cnet.com/reviews/example-product-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "zdnet_com",
+      "name": "ZDNet",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.zdnet.com/home-and-office/home-entertainment/sony-vs-samsung-soundbars-comparison/",
+          "note": "story/article page",
+          "replaced_from": "https://www.zdnet.com/article/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+          "note": "story/article page",
+          "replaced_from": "https://www.zdnet.com/article/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "theregister_com",
+      "name": "The Register",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+          "note": "story/article page",
+          "replaced_from": "https://www.theregister.com/2024/11/06/example_article/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theregister.com/science/2026/05/06/mars-rover-hits-rocky-snag-with-power-tool/5230838",
+          "note": "story/article page",
+          "replaced_from": "https://www.theregister.com/2024/05/15/example_two/"
+        }
+      ]
+    },
+    {
+      "slug": "venturebeat_com",
+      "name": "VentureBeat",
+      "category": "tech-news",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+          "note": "story/article page",
+          "replaced_from": "https://venturebeat.com/ai/example-article-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://venturebeat.com/enterprise/example-two-2024/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "VentureBeat homepage/story requests return Vercel challenge pages in this environment."
+        }
+      ]
+    },
+    {
+      "slug": "techradar_com",
+      "name": "TechRadar",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+          "note": "story/article page",
+          "replaced_from": "https://www.techradar.com/computing/example-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.techradar.com/reviews/example-product-2024",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "buying guide/list page, not a story/article"
+        }
+      ]
+    },
+    {
+      "slug": "theatlanticcouncil_org",
+      "name": "Atlantic Council",
+      "category": "think-tank",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.atlanticcouncil.org/dispatches/can-iraqs-new-prime-minister-fix-his-countrys-broken-politics/",
+          "note": "story/article page",
+          "replaced_from": "https://www.atlanticcouncil.org/blogs/example-analysis-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-coming-compute-war-in-ukraine/",
+          "note": "story/article page",
+          "replaced_from": "https://www.atlanticcouncil.org/in-depth-research-reports/example-report-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "businessinsider_com",
+      "name": "Business Insider",
+      "category": "tech-news",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.businessinsider.com/tiktok-pulling-back-testing-ai-feature-went-haywire-charli-damelio2026-5",
+          "note": "story/article page",
+          "replaced_from": "https://www.businessinsider.com/example-article-2024-5"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.businessinsider.com/oil-us-iran-peace-war-news-latest-short-markets-2026-5",
+          "note": "story/article page",
+          "replaced_from": "https://www.businessinsider.com/example-two-2024-11"
+        }
+      ]
+    },
+    {
+      "slug": "fastcompany_com",
+      "name": "Fast Company",
+      "category": "tech-news",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.fastcompany.com/91234567/example-article",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Fast Company homepage/story requests return DataDome challenge pages."
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.fastcompany.com/97654321/example-two",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Fast Company homepage/story requests return DataDome challenge pages."
+        }
+      ]
+    },
+    {
+      "slug": "nature_com",
+      "name": "Nature",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.nature.com/articles/d41586-026-01454-3?error=cookies_not_supported&code=cc095b58-d12b-4252-8793-0aa028a9f4d7",
+          "note": "story/article page",
+          "replaced_from": "https://www.nature.com/articles/d41586-024-01234-5"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.nature.com/articles/d41586-026-01465-0?error=cookies_not_supported&code=65e79cfe-e12e-4a81-991b-54780d0cc9c5",
+          "note": "story/article page",
+          "replaced_from": "https://www.nature.com/articles/s41586-024-07654-3"
+        }
+      ]
+    },
+    {
+      "slug": "science_org",
+      "name": "Science (AAAS)",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.science.org/doi/10.1126/science.example",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "placeholder/landing metadata, not a fetched article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.science.org/content/article/example-news-2024",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Science news requests return Cloudflare challenge pages in this environment."
+        }
+      ]
+    },
+    {
+      "slug": "quantamagazine_org",
+      "name": "Quanta Magazine",
+      "category": "science",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+          "note": "story/article page",
+          "replaced_from": "https://www.quantamagazine.org/the-year-in-math-2024-20241222/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+          "note": "story/article page",
+          "replaced_from": "https://www.quantamagazine.org/example-article-20240515/"
+        }
+      ]
+    },
+    {
+      "slug": "arxiv_org",
+      "name": "arXiv",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://arxiv.org/abs/2405.12345",
+          "note": "abstract"
+        },
+        {
+          "id": "article-2",
+          "url": "https://arxiv.org/list/astro-ph.EP/recent",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://arxiv.org/abs/2411.54321",
+          "quarantined": true,
+          "quarantine_reason": "subject listing, not a paper page"
+        }
+      ]
+    },
+    {
+      "slug": "pubmed_ncbi_nlm_nih_gov",
+      "name": "PubMed",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38123456/",
+          "note": "abstract"
+        },
+        {
+          "id": "article-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38987654/",
+          "note": "abstract"
+        }
+      ]
+    },
+    {
+      "slug": "scientificamerican_com",
+      "name": "Scientific American",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+          "note": "story/article page",
+          "replaced_from": "https://www.scientificamerican.com/article/example-article-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.scientificamerican.com/article/the-hantavirus-cruise-ship-outbreak-is-a-dangerous-experiment/",
+          "note": "story/article page",
+          "replaced_from": "https://www.scientificamerican.com/article/example-two-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "newscientist_com",
+      "name": "New Scientist",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.newscientist.com/article/2523875-red-light-therapy-does-have-health-benefits-but-not-the-ones-you-think/",
+          "note": "story/article page",
+          "replaced_from": "https://www.newscientist.com/article/2412345-example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
+          "note": "story/article page",
+          "replaced_from": "https://www.newscientist.com/article/2454321-example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "phys_org",
+      "name": "Phys.org",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+          "note": "story/article page",
+          "replaced_from": "https://phys.org/news/2024-05-example.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://phys.org/news/2026-05-college-students-aismoothed-strong.html",
+          "note": "story/article page",
+          "replaced_from": "https://phys.org/news/2024-11-example-two.html"
+        }
+      ]
+    },
+    {
+      "slug": "plos_org",
+      "name": "PLOS ONE",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://theplosblog.plos.org/2025/11/plos-launches-two-journals-to-address-critical-real-world-challenges/",
+          "note": "story/article page",
+          "replaced_from": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.example"
+        },
+        {
+          "id": "article-2",
+          "url": "https://theplosblog.plos.org/2025/08/plos-responds-to-pnas-study-detailing-the-growth-of-peer-review-integrity-issues/",
+          "note": "story/article page",
+          "replaced_from": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.example"
+        }
+      ]
+    },
+    {
+      "slug": "biorxiv_org",
+      "name": "bioRxiv",
+      "category": "science",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.biorxiv.org/content/early/recent",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://www.biorxiv.org/content/10.1101/2024.05.15.123456v1",
+          "quarantined": true,
+          "quarantine_reason": "recent articles listing, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.biorxiv.org/content/10.1101/2024.11.06.654321v1",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "bioRxiv recent/preprint requests return Cloudflare challenge pages in this environment."
+        }
+      ]
+    },
+    {
+      "slug": "longreads_com",
+      "name": "Longreads",
+      "category": "longform",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+          "note": "story/article page",
+          "replaced_from": "https://longreads.com/2024/05/15/example-essay/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://longreads.com/2026/05/06/what-will-it-take-to-get-ai-out-of-schools/",
+          "note": "story/article page",
+          "replaced_from": "https://longreads.com/2024/11/06/example-feature/"
+        }
+      ]
+    },
+    {
+      "slug": "harpers_org",
+      "name": "Harper's Magazine",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://harpers.org/2026/05/epiphany-narrative-kristin-dombek-interview/",
+          "note": "story/article page",
+          "replaced_from": "https://harpers.org/archive/2024/05/example-essay/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://harpers.org/2026/05/weekly-review-oil-spill-eggs-super-soldiers-shakespeare-grok-plantir-sonic-boom-you-will-never-outrun-it/",
+          "note": "story/article page",
+          "replaced_from": "https://harpers.org/archive/2024/11/example-feature/"
+        }
+      ]
+    },
+    {
+      "slug": "aeon_co",
+      "name": "Aeon",
+      "category": "longform",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://aeon.co/essays/why-reality-is-more-than-the-sum-of-its-particles?utm_source=rss-feed",
+          "note": "story/article page",
+          "replaced_from": "https://aeon.co/essays/example-philosophy-essay"
+        },
+        {
+          "id": "article-2",
+          "url": "https://aeon.co/ideas/example-short-piece",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Aeon story/feed candidates return a Vercel challenge page in this environment."
+        }
+      ]
+    },
+    {
+      "slug": "lrb_co_uk",
+      "name": "London Review of Books",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.lrb.co.uk/blog/2026/may/something-broken-or-nothing-at-all",
+          "note": "story/article page",
+          "replaced_from": "https://www.lrb.co.uk/the-paper/v46/n10/example/example-article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.lrb.co.uk/blog/2026/april/britain-s-nuclear-subservience",
+          "note": "story/article page",
+          "replaced_from": "https://www.lrb.co.uk/blog/2024/november/example-blog"
+        }
+      ]
+    },
+    {
+      "slug": "nybooks_com",
+      "name": "New York Review of Books",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.nybooks.com/articles/2026/05/28/irans-new-winter-christopher-de-bellaigue/",
+          "note": "story/article page",
+          "replaced_from": "https://www.nybooks.com/articles/2024/05/15/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.nybooks.com/online/2026/05/02/his-moo-was-refined-the-story-of-ferdinand/",
+          "note": "story/article page",
+          "replaced_from": "https://www.nybooks.com/online/2024/11/06/example/"
+        }
+      ]
+    },
+    {
+      "slug": "theparisreview_org",
+      "name": "The Paris Review",
+      "category": "longform",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.theparisreview.org/blog/2026/05/05/the-ignorant-art-historian-ice-floes/",
+          "note": "story/article page",
+          "replaced_from": "https://www.theparisreview.org/blog/2024/05/15/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.theparisreview.org/blog/2026/05/01/when-the-confederacy-came-to-la/",
+          "note": "story/article page",
+          "replaced_from": "https://www.theparisreview.org/interviews/example-interview/"
+        }
+      ]
+    },
+    {
+      "slug": "vqronline_org",
+      "name": "Virginia Quarterly Review",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.vqronline.org/winter-2025/photography-portfolios/last-days-and-afterlife-san-nicolas-mine",
+          "note": "story/article page",
+          "replaced_from": "https://www.vqronline.org/essays-articles/2024/spring/example"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.vqronline.org/vqr-congratulates-2024-winners",
+          "note": "story/article page",
+          "replaced_from": "https://www.vqronline.org/fiction/2024/fall/example"
+        }
+      ]
+    },
+    {
+      "slug": "thebeliever_net",
+      "name": "The Believer",
+      "category": "longform",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.thebeliever.net/a-review-of-ladies-almanack/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thebeliever.net/logger/example-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.thebeliever.net/logger/2015-12-18-are-bure-boke/",
+          "note": "story/article page",
+          "replaced_from": "https://www.thebeliever.net/example-interview-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "granta_com",
+      "name": "Granta",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://granta.com/example-essay-2024/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Granta front page is reachable, but story candidates return 403/challenge pages."
+        },
+        {
+          "id": "article-2",
+          "url": "https://granta.com/example-fiction-2024/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Granta front page is reachable, but story candidates return 403/challenge pages."
+        }
+      ]
+    },
+    {
+      "slug": "thecut_com",
+      "name": "The Cut",
+      "category": "longform",
+      "cms": "chorus",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.thecut.com/2019/09/the-story-of-caroline-calloway-and-her-ghostwriter-natalie.html",
+          "note": "story/article page",
+          "replaced_from": "https://www.thecut.com/article/example-feature-2024.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.thecut.com/2026/05/how-misoprostol-only-abortion-works-and-what-to-expect.html",
+          "note": "story/article page",
+          "replaced_from": "https://www.thecut.com/article/example-two-2024.html"
+        }
+      ]
+    },
+    {
+      "slug": "gq_com",
+      "name": "GQ",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.gq.com/story/enhanced-games-olympics-athletes",
+          "note": "story/article page",
+          "replaced_from": "https://www.gq.com/story/example-feature-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.gq.com/story/the-odyssey-trailer-accents",
+          "note": "story/article page",
+          "replaced_from": "https://www.gq.com/story/example-two-2024"
+        }
+      ]
+    },
+    {
+      "slug": "vanityfair_com",
+      "name": "Vanity Fair",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+          "note": "story/article page",
+          "replaced_from": "https://www.vanityfair.com/news/story/example-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+          "note": "story/article page",
+          "replaced_from": "https://www.vanityfair.com/hollywood/story/example-two-2024"
+        }
+      ]
+    },
+    {
+      "slug": "newrepublic_com",
+      "name": "The New Republic",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://newrepublic.com/article/123456/jezebel-tracked-down-the-woman-who-read-claudia-rankines-citizen-at-a-trump-rally",
+          "note": "essay",
+          "replaced_from": "https://newrepublic.com/article/123456/example-essay"
+        },
+        {
+          "id": "article-2",
+          "url": "https://newrepublic.com/post/210051/robert-f-kennedy-jr-kids-tanning-beds",
+          "note": "story/article page",
+          "replaced_from": "https://newrepublic.com/article/654321/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "dissentmagazine_org",
+      "name": "Dissent",
+      "category": "longform",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://dissentmagazine.org/online_articles/gisele-pelicot-trial-memoirs/",
+          "note": "story/article page",
+          "replaced_from": "https://www.dissentmagazine.org/article/example-essay-2024/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://dissentmagazine.org/online_articles/mamdani-mass-engagement-office-organize-nyc/",
+          "note": "story/article page",
+          "replaced_from": "https://www.dissentmagazine.org/online_articles/example-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "jacobin_com",
+      "name": "Jacobin",
+      "category": "longform",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://jacobin.com/2024/06/morena-amlo-anti-corruption-class-politics/",
+          "note": "story/article page",
+          "replaced_from": "https://jacobin.com/2024/05/example-article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://jacobin.com/2026/05/commons-enclosure-working-class-history",
+          "note": "story/article page",
+          "replaced_from": "https://jacobin.com/2024/11/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "paulgraham_com",
+      "name": "Paul Graham's essays",
+      "category": "blog",
+      "cms": "static-html",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.paulgraham.com/greatwork.html",
+          "note": "essay (plain HTML)"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.paulgraham.com/do.html",
+          "note": "essay"
+        }
+      ]
+    },
+    {
+      "slug": "overcomingbias_com",
+      "name": "Overcoming Bias (Hanson)",
+      "category": "blog",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.overcomingbias.com/p/on-politics-and-governance",
+          "note": "story/article page",
+          "replaced_from": "https://www.overcomingbias.com/p/example-post-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.overcomingbias.com/p/betrayed-by-culture",
+          "note": "story/article page",
+          "replaced_from": "https://www.overcomingbias.com/p/example-two-2024"
+        }
+      ]
+    },
+    {
+      "slug": "joelonsoftware_com",
+      "name": "Joel on Software",
+      "category": "blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
+          "note": "classic post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/",
+          "note": "classic post"
+        }
+      ]
+    },
+    {
+      "slug": "danluu_com",
+      "name": "Dan Luu",
+      "category": "blog",
+      "cms": "static-html",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://danluu.com/diseconomies-scale/",
+          "note": "long post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://danluu.com/cocktail-ideas/",
+          "note": "short post"
+        }
+      ]
+    },
+    {
+      "slug": "simonwillison_net",
+      "name": "Simon Willison's TIL",
+      "category": "blog",
+      "cms": "django",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://simonwillison.net/2024/May/13/gpt-4o/",
+          "note": "post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+          "note": "story/article page",
+          "replaced_from": "https://simonwillison.net/2024/Nov/26/qwq/"
+        }
+      ]
+    },
+    {
+      "slug": "martinfowler_com",
+      "name": "Martin Fowler",
+      "category": "blog",
+      "cms": "jekyll",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://martinfowler.com/articles/ship-show-ask.html",
+          "note": "article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://martinfowler.com/bliki/TechnicalDebt.html",
+          "note": "bliki"
+        }
+      ]
+    },
+    {
+      "slug": "daringfireball_net",
+      "name": "Daring Fireball",
+      "category": "blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+          "note": "story/article page",
+          "replaced_from": "https://daringfireball.net/2024/09/the_ios_18_review"
+        },
+        {
+          "id": "article-2",
+          "url": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
+          "note": "story/article page",
+          "replaced_from": "https://daringfireball.net/linked/2024/11/06/trump"
+        }
+      ]
+    },
+    {
+      "slug": "kottke_org",
+      "name": "kottke.org",
+      "category": "blog",
+      "cms": "movable-type",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://kottke.org/26/05/0048886-a-guy-interviewing-for-an",
+          "note": "story/article page",
+          "replaced_from": "https://kottke.org/24/11/example-link-post",
+          "allow_short": true,
+          "short_review_note": "reviewed short link-blog post; complete body is under 700 chars"
+        },
+        {
+          "id": "article-2",
+          "url": "https://kottke.org/26/05/0048880-what-has-changed-about-cl",
+          "note": "story/article page",
+          "replaced_from": "https://kottke.org/24/05/example-longer-post",
+          "allow_short": true,
+          "short_review_note": "reviewed short link-blog post; complete body is under 700 chars"
+        }
+      ]
+    },
+    {
+      "slug": "waxy_org",
+      "name": "Waxy.org (Andy Baio)",
+      "category": "blog",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+          "note": "story/article page",
+          "replaced_from": "https://waxy.org/2024/05/example-article/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://waxy.org/2025/08/will-smiths-concert-crowds-were-real-but-ai-is-blurring-the-lines/",
+          "note": "story/article page",
+          "replaced_from": "https://waxy.org/2024/11/example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "swiftbysundell_com",
+      "name": "Swift by Sundell",
+      "category": "blog",
+      "cms": "publish",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan/",
+          "note": "story/article page",
+          "replaced_from": "https://www.swiftbysundell.com/articles/example-article/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks/",
+          "note": "story/article page",
+          "replaced_from": "https://www.swiftbysundell.com/podcast/example-episode/"
+        }
+      ]
+    },
+    {
+      "slug": "hacks_mozilla_org",
+      "name": "Mozilla Hacks",
+      "category": "blog",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://hacks.mozilla.org/2021/01/improving-cross-browser-testing-part-2-new-automation-features-in-firefox-nightly/",
+          "note": "story/article page",
+          "replaced_from": "https://hacks.mozilla.org/2024/05/example-post/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+          "note": "story/article page",
+          "replaced_from": "https://hacks.mozilla.org/2024/11/example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "dev_to",
+      "name": "DEV Community",
+      "category": "blog",
+      "cms": "forem",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8",
+          "note": "story/article page",
+          "replaced_from": "https://dev.to/example/example-post-abc"
+        },
+        {
+          "id": "article-2",
+          "url": "https://dev.to/samchon/autobe-vs-claude-code-3rd-gen-coding-agent-developers-review-of-the-leaked-source-code-313b",
+          "note": "story/article page",
+          "replaced_from": "https://dev.to/example/example-two-def"
+        }
+      ]
+    },
+    {
+      "slug": "medium_com",
+      "name": "Medium",
+      "category": "blog",
+      "cms": "medium",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://medium.com/@example/example-article-abc123",
+          "quarantined": true,
+          "quarantine_reason": "careers page, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://policy.medium.com/medium-privacy-policy-f03bf92035c9",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://medium.com/publication/example-two-def456",
+          "quarantined": true,
+          "quarantine_reason": "privacy policy, not a story/article"
+        }
+      ]
+    },
+    {
+      "slug": "substack_com",
+      "name": "Substack (generic)",
+      "category": "newsletter",
+      "cms": "substack",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://example.substack.com/p/example-post",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "policy page, not a newsletter issue/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://noahpinion.substack.com/p/example-noahpinion-post",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "paywall",
+          "skip_detail": "Noahpinion front-page replacement candidate is marked paid; skipping paid Substack pages."
+        }
+      ]
+    },
+    {
+      "slug": "ghost_org",
+      "name": "Ghost.org blog",
+      "category": "blog",
+      "cms": "ghost",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://ghost.org/6/",
+          "note": "story/article page",
+          "replaced_from": "https://ghost.org/blog/example-post/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://ghost.org/business/",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://ghost.org/resources/example-two/",
+          "quarantined": true,
+          "quarantine_reason": "business product page, not a story/article"
+        }
+      ]
+    },
+    {
+      "slug": "bearblog_dev",
+      "name": "Bear Blog (example)",
+      "category": "blog",
+      "cms": "bearblog",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://herman.bearblog.dev/vulnerability-as-a-service/",
+          "note": "story/article page",
+          "replaced_from": "https://herman.bearblog.dev/the-fundamentals-of-this-website/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://herman.bearblog.dev/manifesto/",
+          "note": "post"
+        }
+      ]
+    },
+    {
+      "slug": "mataroa_blog",
+      "name": "Mataroa blog (example)",
+      "category": "blog",
+      "cms": "mataroa",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://hey.mataroa.blog/p/why-doesnt-mataroa-block-ai-scrapers/",
+          "note": "story/article page",
+          "replaced_from": "https://mataroa.blog/blog/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://hey.mataroa.blog/p/update-on-rubbish-content/",
+          "note": "story/article page",
+          "replaced_from": "https://mataroa.blog/about/"
+        }
+      ]
+    },
+    {
+      "slug": "write_as",
+      "name": "Write.as example",
+      "category": "blog",
+      "cms": "writefreely",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://howto.write.as/enabling-federation",
+          "note": "story/article page",
+          "replaced_from": "https://write.as/example/example-post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://write.as/blog/identities",
+          "note": "story/article page",
+          "replaced_from": "https://write.as/example/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "tumblr_com",
+      "name": "Tumblr (example blog)",
+      "category": "blog",
+      "cms": "tumblr",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+          "note": "story/article page",
+          "replaced_from": "https://staff.tumblr.com/post/12345678/example"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.tumblr.com/staff/811667537981030400",
+          "note": "story/article page",
+          "replaced_from": "https://staff.tumblr.com/post/87654321/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "blogspot_com",
+      "name": "Blogger/Blogspot example",
+      "category": "blog",
+      "cms": "blogger",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://blogger.googleblog.com/2020/05/a-better-blogger-experience-on-web.html",
+          "note": "story/article page",
+          "replaced_from": "https://example.blogspot.com/2024/05/example-post.html"
+        },
+        {
+          "id": "article-2",
+          "url": "https://blogger.googleblog.com/2019/01/an-update-on-google-and-blogger.html",
+          "note": "story/article page",
+          "replaced_from": "https://example.blogspot.com/2024/11/example-two.html"
+        }
+      ]
+    },
+    {
+      "slug": "posterous_style_site",
+      "name": "Typepad example",
+      "category": "blog",
+      "cms": "typepad",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://example.typepad.com/blog/2024/05/example.html",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "parked/error page, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://example.typepad.com/blog/2024/11/example-two.html",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "dead-url",
+          "skip_detail": "Typepad example redirects to a Network Solutions shell/challenge page, not a story source."
+        }
+      ]
+    },
+    {
+      "slug": "squarespace_blog",
+      "name": "Squarespace example",
+      "category": "blog",
+      "cms": "squarespace",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.squarespace.com/solutions/nonprofits/environment-conservation",
+          "note": "quarantined non-story candidate",
+          "replaced_from": "https://www.squarespace.com/blog/example-post",
+          "quarantined": true,
+          "quarantine_reason": "solutions page, not a story/article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.squarespace.com/blog/client-payment-system-setup",
+          "note": "story/article page",
+          "replaced_from": "https://www.squarespace.com/blog/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "wix_blog",
+      "name": "Wix blog example",
+      "category": "blog",
+      "cms": "wix",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.wix.com/blog/how-to-design-a-website",
+          "note": "story/article page",
+          "replaced_from": "https://www.wix.com/blog/example-post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.wix.com/blog/how-to-monetize-a-website",
+          "note": "story/article page",
+          "replaced_from": "https://www.wix.com/blog/example-two"
+        }
+      ]
+    },
+    {
+      "slug": "micro_blog",
+      "name": "Micro.blog example",
+      "category": "blog",
+      "cms": "micro.blog",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.manton.org/2026/05/06/anthropic-has-announced-a-major.html",
+          "note": "front-page post",
+          "replaced_from": "https://micro.blog/discover/example-post",
+          "allow_short": true,
+          "short_review_note": "reviewed short microblog post; complete body is under 700 chars"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.manton.org/2026/05/06/spacex-data-center-followup.html",
+          "note": "story/article page",
+          "replaced_from": "https://manton.org/2024/11/06/example-post.html",
+          "allow_short": true,
+          "short_review_note": "reviewed short microblog post; complete body is under 700 chars"
+        }
+      ]
+    },
+    {
+      "slug": "hugo_example",
+      "name": "Hugo static example (gohugo.io)",
+      "category": "blog",
+      "cms": "hugo",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://gohugo.io/news/0.134.0-relnotes/",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "dead-url",
+          "skip_detail": "Original Hugo release-notes URL now returns 404; Hugo news feed points to GitHub releases rather than story pages."
+        },
+        {
+          "id": "article-2",
+          "url": "https://gohugo.io/about/introduction/",
+          "note": "about",
+          "replaced_from": "https://gohugo.io/about/what-is-hugo/"
+        }
+      ]
+    },
+    {
+      "slug": "developer_mozilla_org",
+      "name": "MDN",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+          "note": "API ref"
+        },
+        {
+          "id": "article-2",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
+          "note": "CSS ref",
+          "replaced_from": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns"
+        }
+      ]
+    },
+    {
+      "slug": "docs_python_org",
+      "name": "Python docs",
+      "category": "docs",
+      "cms": "sphinx",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://docs.python.org/3/library/functools.html",
+          "note": "library"
+        },
+        {
+          "id": "article-2",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html",
+          "note": "tutorial"
+        }
+      ]
+    },
+    {
+      "slug": "doc_rust_lang_org",
+      "name": "Rust book",
+      "category": "docs",
+      "cms": "mdbook",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html",
+          "note": "book"
+        },
+        {
+          "id": "article-2",
+          "url": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+          "note": "API"
+        }
+      ]
+    },
+    {
+      "slug": "react_dev",
+      "name": "React docs",
+      "category": "docs",
+      "cms": "next-custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://react.dev/learn/thinking-in-react",
+          "note": "learn"
+        },
+        {
+          "id": "article-2",
+          "url": "https://react.dev/reference/react/useState",
+          "note": "API"
+        }
+      ]
+    },
+    {
+      "slug": "docs_stripe_com",
+      "name": "Stripe docs",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://docs.stripe.com/payments/quickstart",
+          "note": "quickstart"
+        },
+        {
+          "id": "article-2",
+          "url": "https://docs.stripe.com/api/charges/object",
+          "note": "API"
+        }
+      ]
+    },
+    {
+      "slug": "github_com_readme",
+      "name": "GitHub README rendering",
+      "category": "docs",
+      "cms": "github",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://github.com/facebook/react/blob/main/README.md",
+          "note": "README"
+        },
+        {
+          "id": "article-2",
+          "url": "https://github.com/torvalds/linux/blob/master/README",
+          "note": "README"
+        }
+      ]
+    },
+    {
+      "slug": "kubernetes_io_docs",
+      "name": "Kubernetes docs",
+      "category": "docs",
+      "cms": "hugo",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+          "note": "concept"
+        },
+        {
+          "id": "article-2",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+          "note": "tutorial"
+        }
+      ]
+    },
+    {
+      "slug": "docs_docker_com",
+      "name": "Docker docs",
+      "category": "docs",
+      "cms": "hugo",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://docs.docker.com/get-started/docker-overview/",
+          "note": "overview",
+          "replaced_from": "https://docs.docker.com/get-started/overview/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://docs.docker.com/reference/cli/docker/container/run/",
+          "note": "CLI",
+          "replaced_from": "https://docs.docker.com/engine/reference/commandline/run/"
+        }
+      ]
+    },
+    {
+      "slug": "developer_apple_com_docs",
+      "name": "Apple Developer docs",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://developer.apple.com/documentation/swiftui/view",
+          "note": "API"
+        },
+        {
+          "id": "article-2",
+          "url": "https://developer.apple.com/documentation/uikit/uiviewcontroller",
+          "note": "API"
+        }
+      ]
+    },
+    {
+      "slug": "developer_android_com",
+      "name": "Android docs",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://developer.android.com/guide/components/activities/intro-activities",
+          "note": "guide"
+        },
+        {
+          "id": "article-2",
+          "url": "https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier",
+          "note": "API"
+        }
+      ]
+    },
+    {
+      "slug": "docs_microsoft_com",
+      "name": "Microsoft Learn",
+      "category": "docs",
+      "cms": "docfx",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/",
+          "note": "tutorial"
+        },
+        {
+          "id": "article-2",
+          "url": "https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview",
+          "note": "overview"
+        }
+      ]
+    },
+    {
+      "slug": "cloud_google_com_docs",
+      "name": "Google Cloud docs",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run",
+          "note": "overview",
+          "replaced_from": "https://cloud.google.com/run/docs/overview/what-is-cloud-run"
+        },
+        {
+          "id": "article-2",
+          "url": "https://docs.cloud.google.com/bigquery/docs/introduction",
+          "note": "intro",
+          "replaced_from": "https://cloud.google.com/bigquery/docs/introduction"
+        }
+      ]
+    },
+    {
+      "slug": "docs_aws_amazon_com",
+      "name": "AWS docs",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+          "note": "user guide"
+        },
+        {
+          "id": "article-2",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+          "note": "user guide"
+        }
+      ]
+    },
+    {
+      "slug": "kernel_org",
+      "name": "kernel.org docs",
+      "category": "docs",
+      "cms": "sphinx",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.kernel.org/doc/html/latest/process/coding-style.html",
+          "note": "spec"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.kernel.org/doc/html/latest/admin-guide/README.html",
+          "note": "spec"
+        }
+      ]
+    },
+    {
+      "slug": "rfc_editor_org",
+      "name": "RFC Editor",
+      "category": "docs",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+          "note": "RFC"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.rfc-editor.org/rfc/rfc8259.html",
+          "note": "RFC"
+        }
+      ]
+    },
+    {
+      "slug": "wikipedia_org",
+      "name": "Wikipedia",
+      "category": "reference",
+      "cms": "mediawiki",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+          "note": "long article"
+        },
+        {
+          "id": "article-2",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_Internet",
+          "note": "long article"
+        }
+      ]
+    },
+    {
+      "slug": "wiktionary_org",
+      "name": "Wiktionary",
+      "category": "reference",
+      "cms": "mediawiki",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://en.wiktionary.org/wiki/example",
+          "note": "entry"
+        },
+        {
+          "id": "article-2",
+          "url": "https://en.wiktionary.org/wiki/serendipity",
+          "note": "entry"
+        }
+      ]
+    },
+    {
+      "slug": "plato_stanford_edu",
+      "name": "Stanford Encyclopedia of Philosophy",
+      "category": "reference",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://plato.stanford.edu/entries/consciousness/",
+          "note": "entry"
+        },
+        {
+          "id": "article-2",
+          "url": "https://plato.stanford.edu/entries/ethics-ai/",
+          "note": "entry"
+        }
+      ]
+    },
+    {
+      "slug": "britannica_com",
+      "name": "Britannica",
+      "category": "reference",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.britannica.com/technology/artificial-intelligence",
+          "note": "topic",
+          "replaced_from": "https://www.britannica.com/topic/artificial-intelligence"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.britannica.com/event/French-Revolution",
+          "note": "event"
+        }
+      ]
+    },
+    {
+      "slug": "fandom_com",
+      "name": "Fandom wiki",
+      "category": "reference",
+      "cms": "mediawiki",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://en.wikipedia.org/wiki/Fandom_(website)",
+          "note": "meta"
+        },
+        {
+          "id": "article-2",
+          "url": "https://memory-alpha.fandom.com/wiki/Jean-Luc_Picard",
+          "note": "fan wiki"
+        }
+      ]
+    },
+    {
+      "slug": "reddit_com_old",
+      "name": "Old Reddit",
+      "category": "forum",
+      "cms": "reddit",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://old.reddit.com/r/okbuddycinephile/comments/1t59734/the_substance_2024/",
+          "note": "story/article page",
+          "replaced_from": "https://old.reddit.com/r/programming/comments/1cr5zgh/openai_releases_gpt4o/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://old.reddit.com/r/AskHistorians/comments/1cq9pz5/why_did_the_roman_empire_fall/",
+          "note": "Q&A"
+        }
+      ]
+    },
+    {
+      "slug": "reddit_com_new",
+      "name": "New Reddit",
+      "category": "forum",
+      "cms": "reddit",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.reddit.com/r/programming/comments/1cr123/example_thread/",
+          "note": "thread"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.reddit.com/r/AskHistorians/comments/1ab456/example_answer/",
+          "note": "Q&A"
+        }
+      ]
+    },
+    {
+      "slug": "news_ycombinator_com_thread",
+      "name": "HN thread",
+      "category": "forum",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://news.ycombinator.com/item?id=40358101",
+          "note": "thread"
+        },
+        {
+          "id": "article-2",
+          "url": "https://news.ycombinator.com/item?id=42112345",
+          "note": "thread"
+        }
+      ]
+    },
+    {
+      "slug": "stackoverflow_com",
+      "name": "Stack Overflow",
+      "category": "forum",
+      "cms": "stackexchange",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+          "note": "canonical Q"
+        },
+        {
+          "id": "article-2",
+          "url": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python",
+          "note": "canonical Q"
+        }
+      ]
+    },
+    {
+      "slug": "superuser_com",
+      "name": "Super User",
+      "category": "forum",
+      "cms": "stackexchange",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://superuser.com/questions/123456/example-question",
+          "note": "Q&A"
+        },
+        {
+          "id": "article-2",
+          "url": "https://superuser.com/questions/654321/example-two",
+          "note": "Q&A"
+        }
+      ]
+    },
+    {
+      "slug": "lobste_rs",
+      "name": "Lobsters",
+      "category": "forum",
+      "cms": "lobsters",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://lobste.rs/s/bgjmvk/we_re_not_building_ai_features_for_money",
+          "note": "story/article page",
+          "replaced_from": "https://lobste.rs/s/abcdef/example_story"
+        },
+        {
+          "id": "article-2",
+          "url": "https://lobste.rs/s/ghijkl/example_two",
+          "note": "comment thread"
+        }
+      ]
+    },
+    {
+      "slug": "discourse_org",
+      "name": "Discourse (meta)",
+      "category": "forum",
+      "cms": "discourse",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://meta.discourse.org/t/example-topic/123456",
+          "note": "topic"
+        },
+        {
+          "id": "article-2",
+          "url": "https://meta.discourse.org/t/example-two/654321",
+          "note": "topic"
+        }
+      ]
+    },
+    {
+      "slug": "github_com_issue",
+      "name": "GitHub Issue",
+      "category": "forum",
+      "cms": "github",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://github.com/nodejs/node/issues/12345",
+          "note": "issue"
+        },
+        {
+          "id": "article-2",
+          "url": "https://github.com/microsoft/vscode/pull/54321",
+          "note": "issue",
+          "replaced_from": "https://github.com/microsoft/vscode/issues/54321"
+        }
+      ]
+    },
+    {
+      "slug": "stackexchange_com",
+      "name": "Stack Exchange (generic)",
+      "category": "forum",
+      "cms": "stackexchange",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://english.stackexchange.com/questions/12345/example",
+          "note": "Q&A"
+        },
+        {
+          "id": "article-2",
+          "url": "https://math.stackexchange.com/questions/54321/example",
+          "note": "Q&A"
+        }
+      ]
+    },
+    {
+      "slug": "quora_com",
+      "name": "Quora",
+      "category": "forum",
+      "cms": "quora",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.quora.com/What-is-the-meaning-of-life",
+          "note": "answer"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.quora.com/How-does-the-internet-work",
+          "note": "answer"
+        }
+      ]
+    },
+    {
+      "slug": "cooking_nytimes_com",
+      "name": "NYT Cooking",
+      "category": "recipe",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://cooking.nytimes.com/article/salt-sweat-steam-excerpt",
+          "note": "story/article page",
+          "replaced_from": "https://cooking.nytimes.com/recipes/1017611-perfect-instant-ramen"
+        },
+        {
+          "id": "article-2",
+          "url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+          "note": "story/article page",
+          "replaced_from": "https://cooking.nytimes.com/recipes/1019529-classic-cacio-e-pepe"
+        }
+      ]
+    },
+    {
+      "slug": "seriouseats_com",
+      "name": "Serious Eats",
+      "category": "recipe",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.seriouseats.com/science-behind-room-temperature-food-11954970",
+          "note": "story/article page",
+          "replaced_from": "https://www.seriouseats.com/the-best-chocolate-chip-cookie-recipe"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.seriouseats.com/papas-guisadas-mexican-stewed-potatoes-recipe-11965414",
+          "note": "story/article page",
+          "replaced_from": "https://www.seriouseats.com/classic-carbonara-recipe"
+        }
+      ]
+    },
+    {
+      "slug": "smittenkitchen_com",
+      "name": "Smitten Kitchen",
+      "category": "recipe",
+      "cms": "wordpress",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://smittenkitchen.com/2006/11/chocolate-chip-sour-cream-cake/",
+          "note": "story/article page",
+          "replaced_from": "https://smittenkitchen.com/2024/05/example-recipe/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://smittenkitchen.com/2013/02/blood-orange-margaritas/",
+          "note": "story/article page",
+          "replaced_from": "https://smittenkitchen.com/2024/11/example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "allrecipes_com",
+      "name": "AllRecipes",
+      "category": "recipe",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+          "note": "recipe"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+          "note": "story/article page",
+          "replaced_from": "https://www.allrecipes.com/recipe/45957/classic-carbonara/"
+        }
+      ]
+    },
+    {
+      "slug": "bonappetit_com",
+      "name": "Bon Appétit",
+      "category": "recipe",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies",
+          "note": "recipe"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.bonappetit.com/recipes/slideshow/spring-salads-slideshow",
+          "note": "story/article page",
+          "replaced_from": "https://www.bonappetit.com/recipe/classic-carbonara"
+        }
+      ]
+    },
+    {
+      "slug": "amazon_com",
+      "name": "Amazon product page",
+      "category": "ecommerce",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.amazon.com/dp/B08N5WRWNW",
+          "note": "product"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.amazon.com/dp/B0CHX1W1XY",
+          "note": "product"
+        }
+      ]
+    },
+    {
+      "slug": "etsy_com",
+      "name": "Etsy listing",
+      "category": "ecommerce",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.etsy.com/listing/123456/example-item",
+          "note": "listing"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.etsy.com/listing/654321/example-two",
+          "note": "listing"
+        }
+      ]
+    },
+    {
+      "slug": "shopify_com_store",
+      "name": "Shopify storefront example",
+      "category": "ecommerce",
+      "cms": "shopify",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.allbirds.com/products/mens-wool-runners",
+          "note": "product"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.gymshark.com/products/gymshark-apex-t-shirt",
+          "note": "product"
+        }
+      ]
+    },
+    {
+      "slug": "ebay_com",
+      "name": "eBay listing",
+      "category": "ecommerce",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.ebay.com/itm/123456789012",
+          "note": "listing"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.ebay.com/itm/987654321098",
+          "note": "listing"
+        }
+      ]
+    },
+    {
+      "slug": "target_com",
+      "name": "Target product page",
+      "category": "ecommerce",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.target.com/p/example-product/-/A-12345678",
+          "note": "product"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.target.com/p/example-two/-/A-87654321",
+          "note": "product"
+        }
+      ]
+    },
+    {
+      "slug": "stratechery_substack",
+      "name": "Stratechery subscription post",
+      "category": "newsletter",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store/",
+          "note": "story/article page",
+          "replaced_from": "https://stratechery.com/2024/example-subscriber-post/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://stratechery.com/2013/apple-open-and-learning-from-history/",
+          "note": "story/article page",
+          "replaced_from": "https://stratechery.com/2024/example-free-post/"
+        }
+      ]
+    },
+    {
+      "slug": "beehiiv_newsletter",
+      "name": "Beehiiv newsletter",
+      "category": "newsletter",
+      "cms": "beehiiv",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.milkroad.com/p/example-issue",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "blocked",
+          "skip_detail": "Milk Road/Beehiiv candidate returns a challenge/blocked page."
+        },
+        {
+          "id": "article-2",
+          "url": "https://morningbrew.beehiiv.com/p/example",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "dead-url",
+          "skip_detail": "Morning Brew Beehiiv placeholder redirects to a missing/non-story shell."
+        }
+      ]
+    },
+    {
+      "slug": "buttondown_email",
+      "name": "Buttondown newsletter",
+      "category": "newsletter",
+      "cms": "buttondown",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://buttondown.com/blog/2023-12-2-data-is-plural",
+          "note": "story/article page",
+          "replaced_from": "https://buttondown.com/jmduke/archive/example-post/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://buttondown.com/blog/future-of-email",
+          "note": "story/article page",
+          "replaced_from": "https://buttondown.com/hillelwayne/archive/example-two/"
+        }
+      ]
+    },
+    {
+      "slug": "revue_archive",
+      "name": "Revue archive (legacy)",
+      "category": "newsletter",
+      "cms": "revue",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.getrevue.co/profile/example/issues/example-issue-12345",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "newsletter archive placeholder, not a fetched issue"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.getrevue.co/profile/example/issues/example-two-67890",
+          "note": "quarantined non-story candidate",
+          "quarantined": true,
+          "quarantine_reason": "newsletter archive placeholder, not a fetched issue"
+        }
+      ]
+    },
+    {
+      "slug": "mailchimp_archive",
+      "name": "Mailchimp web archive",
+      "category": "newsletter",
+      "cms": "mailchimp",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://us20.campaign-archive.com/?u=abc&id=def",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "dead-url",
+          "skip_detail": "Mailchimp archive placeholder is not a real campaign story URL."
+        },
+        {
+          "id": "article-2",
+          "url": "https://us20.campaign-archive.com/?u=xyz&id=ghi",
+          "note": "skipped unavailable",
+          "skip_story_review": true,
+          "skip_reason": "dead-url",
+          "skip_detail": "Mailchimp archive placeholder is not a real campaign story URL."
+        }
+      ]
+    },
+    {
+      "slug": "mastodon_social",
+      "name": "Mastodon post",
+      "category": "social",
+      "cms": "mastodon",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://mastodon.social/@Mastodon/112345678901234567",
+          "note": "post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://hachyderm.io/@example/112345678909876543",
+          "note": "post"
+        }
+      ]
+    },
+    {
+      "slug": "bsky_app",
+      "name": "Bluesky post",
+      "category": "social",
+      "cms": "bluesky",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://bsky.app/profile/jay.bsky.team/post/3kabc123def",
+          "note": "post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://bsky.app/profile/pfrazee.com/post/3kxyz456ghi",
+          "note": "post"
+        }
+      ]
+    },
+    {
+      "slug": "threads_net",
+      "name": "Threads post",
+      "category": "social",
+      "cms": "threads",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.threads.com/?error=invalid_post",
+          "note": "post",
+          "replaced_from": "https://www.threads.net/@mosseri/post/C1234567890"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.threads.com/?error=invalid_post",
+          "note": "post",
+          "replaced_from": "https://www.threads.net/@zuck/post/C9876543210"
+        }
+      ]
+    },
+    {
+      "slug": "linkedin_com_pulse",
+      "name": "LinkedIn article",
+      "category": "social",
+      "cms": "linkedin",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.linkedin.com/top-content/?trk=article_not_found",
+          "note": "article",
+          "replaced_from": "https://www.linkedin.com/pulse/example-article-jane-doe-abc123/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.linkedin.com/top-content/?trk=article_not_found",
+          "note": "article",
+          "replaced_from": "https://www.linkedin.com/pulse/example-two-john-smith-def456/"
+        }
+      ]
+    },
+    {
+      "slug": "x_com_article",
+      "name": "X (Twitter) long post",
+      "category": "social",
+      "cms": "x",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://x.com/elonmusk/status/1234567890123456789",
+          "note": "post"
+        },
+        {
+          "id": "article-2",
+          "url": "https://x.com/paulg/status/1876543210987654321",
+          "note": "post"
+        }
+      ]
+    },
+    {
+      "slug": "youtube_com_watch",
+      "name": "YouTube watch page",
+      "category": "video",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "note": "watch page"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+          "note": "watch page"
+        }
+      ]
+    },
+    {
+      "slug": "podcasts_apple_com",
+      "name": "Apple Podcasts episode",
+      "category": "video",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://podcasts.apple.com/us/podcast/miami-gp-race-review/id1670705840?i=1000765941837",
+          "note": "story/article page",
+          "replaced_from": "https://podcasts.apple.com/us/podcast/example/id123456789?i=1000654321987"
+        },
+        {
+          "id": "article-2",
+          "url": "https://podcasts.apple.com/us/podcast/example/id987654321?i=1000123456789",
+          "note": "episode"
+        }
+      ]
+    },
+    {
+      "slug": "spotify_com_episode",
+      "name": "Spotify episode",
+      "category": "video",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://open.spotify.com/episode/abc123def456ghi789",
+          "note": "episode"
+        },
+        {
+          "id": "article-2",
+          "url": "https://open.spotify.com/episode/xyz987wvu654tsr321",
+          "note": "episode"
+        }
+      ]
+    },
+    {
+      "slug": "transistor_fm_episode",
+      "name": "Transistor podcast page",
+      "category": "video",
+      "cms": "transistor",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://share.transistor.fm/s/abc12345",
+          "note": "transcript"
+        },
+        {
+          "id": "article-2",
+          "url": "https://share.transistor.fm/s/def67890",
+          "note": "transcript"
+        }
+      ]
+    },
+    {
+      "slug": "overcast_fm",
+      "name": "Overcast episode",
+      "category": "video",
+      "cms": "overcast",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://overcast.fm/+ABCDEFGHIJ",
+          "note": "page"
+        },
+        {
+          "id": "article-2",
+          "url": "https://overcast.fm/+KLMNOPQRST",
+          "note": "page"
+        }
+      ]
+    },
+    {
+      "slug": "whitehouse_gov",
+      "name": "White House briefing",
+      "category": "government",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.whitehouse.gov/releases/2026/01/365-wins-in-365-days-president-trumps-return-marks-new-era-of-success-prosperity/",
+          "note": "story/article page",
+          "replaced_from": "https://www.whitehouse.gov/briefing-room/statements-releases/2024/11/06/example/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/05/15/example/",
+          "note": "remarks"
+        }
+      ]
+    },
+    {
+      "slug": "supremecourt_gov",
+      "name": "Supreme Court opinion",
+      "category": "government",
+      "cms": "static-html",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.supremecourt.gov/publicinfo/year-end/year-endreports.aspx",
+          "note": "story/article page",
+          "replaced_from": "https://www.supremecourt.gov/opinions/23pdf/22-1219_c07d.pdf"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.supremecourt.gov/opinions/23pdf/22-500_abc.pdf",
+          "note": "opinion"
+        }
+      ]
+    },
+    {
+      "slug": "eur_lex_europa_eu",
+      "name": "EUR-Lex",
+      "category": "government",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+          "note": "regulation"
+        },
+        {
+          "id": "article-2",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R2065",
+          "note": "regulation"
+        }
+      ]
+    },
+    {
+      "slug": "gov_uk",
+      "name": "GOV.UK article",
+      "category": "government",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.gov.uk/government/news/foreign-office-travel-advice-updates",
+          "note": "story/article page",
+          "replaced_from": "https://www.gov.uk/guidance/coronavirus-covid-19"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.gov.uk/government/news/example-announcement",
+          "note": "announcement"
+        }
+      ]
+    },
+    {
+      "slug": "sec_gov",
+      "name": "SEC filing landing",
+      "category": "government",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "note": "10-K (HTML)"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.sec.gov/news/press-release/2024-123",
+          "note": "press release"
+        }
+      ]
+    },
+    {
+      "slug": "apple_com_newsroom",
+      "name": "Apple Newsroom",
+      "category": "corp-blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.apple.com/newsroom/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/",
+          "note": "press release"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.apple.com/newsroom/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/",
+          "note": "press release"
+        }
+      ]
+    },
+    {
+      "slug": "openai_com_blog",
+      "name": "OpenAI blog",
+      "category": "corp-blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://openai.com/index/hello-gpt-4o/",
+          "note": "blog"
+        },
+        {
+          "id": "article-2",
+          "url": "https://openai.com/index/sora/",
+          "note": "blog"
+        }
+      ]
+    },
+    {
+      "slug": "stripe_com_blog",
+      "name": "Stripe blog",
+      "category": "corp-blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://stripe.com/newsroom/news/stripe-openai-instant-checkout",
+          "note": "story/article page",
+          "replaced_from": "https://stripe.com/blog/example-post-2024"
+        },
+        {
+          "id": "article-2",
+          "url": "https://stripe.com/newsroom/news/nvidia-collaboration-with-stripe",
+          "note": "story/article page",
+          "replaced_from": "https://stripe.com/blog/example-two-2024"
+        }
+      ]
+    },
+    {
+      "slug": "github_blog",
+      "name": "GitHub blog",
+      "category": "corp-blog",
+      "cms": "wordpress-vip",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+          "note": "story/article page",
+          "replaced_from": "https://github.blog/2024-05-example-post/"
+        },
+        {
+          "id": "article-2",
+          "url": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+          "note": "story/article page",
+          "replaced_from": "https://github.blog/changelog/2024-11-example/"
+        }
+      ]
+    },
+    {
+      "slug": "anthropic_com_news",
+      "name": "Anthropic news",
+      "category": "corp-blog",
+      "cms": "custom",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+          "note": "announcement"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+          "note": "story/article page",
+          "replaced_from": "https://www.anthropic.com/research/example-paper"
+        }
+      ]
+    },
+    {
+      "slug": "notion_so_public",
+      "name": "Public Notion page",
+      "category": "docs-public",
+      "cms": "notion",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://www.notion.so/Public-example-page-abc123def456",
+          "note": "public page"
+        },
+        {
+          "id": "article-2",
+          "url": "https://www.notion.so/notion/Notion-Help-Center-example",
+          "note": "help"
+        }
+      ]
+    },
+    {
+      "slug": "confluence_cloud",
+      "name": "Confluence Cloud public",
+      "category": "docs-public",
+      "cms": "confluence",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://example.atlassian.net/wiki/spaces/EX/pages/123456/Example",
+          "note": "page"
+        },
+        {
+          "id": "article-2",
+          "url": "https://example.atlassian.net/wiki/spaces/EX/pages/654321/Example-Two",
+          "note": "page"
+        }
+      ]
+    },
+    {
+      "slug": "gitbook_io",
+      "name": "GitBook space",
+      "category": "docs-public",
+      "cms": "gitbook",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://gitbook.com/docs",
+          "note": "overview",
+          "replaced_from": "https://docs.gitbook.com/getting-started/overview"
+        },
+        {
+          "id": "article-2",
+          "url": "https://gitbook.com/docs/integrations/install-an-integration",
+          "note": "overview",
+          "replaced_from": "https://docs.gitbook.com/integrations/overview"
+        }
+      ]
+    },
+    {
+      "slug": "readthedocs_io",
+      "name": "Read the Docs",
+      "category": "docs-public",
+      "cms": "sphinx",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+          "note": "quickstart"
+        },
+        {
+          "id": "article-2",
+          "url": "https://flask.palletsprojects.com/en/stable/quickstart/",
+          "note": "quickstart"
+        }
+      ]
+    },
+    {
+      "slug": "obsidian_publish",
+      "name": "Obsidian Publish site",
+      "category": "docs-public",
+      "cms": "obsidian",
+      "pages": [
+        {
+          "id": "article-1",
+          "url": "https://obsidian.md/help/Start+here",
+          "note": "help",
+          "replaced_from": "https://publish.obsidian.md/help/Start+here"
+        },
+        {
+          "id": "article-2",
+          "url": "https://obsidian.md/help/Getting+started/Create+your+first+note",
+          "note": "help",
+          "replaced_from": "https://publish.obsidian.md/help/Getting+started/Create+your+first+note"
+        }
+      ]
+    }
+  ]
+}

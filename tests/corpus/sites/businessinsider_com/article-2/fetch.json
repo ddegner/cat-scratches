@@ -1,0 +1,28 @@
+{
+  "url": "https://www.businessinsider.com/example-two-2024-11",
+  "recovery_url": "https://www.businessinsider.com/oil-us-iran-peace-war-news-latest-short-markets-2026-5",
+  "final_url": "https://www.businessinsider.com/oil-us-iran-peace-war-news-latest-short-markets-2026-5",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 476060,
+  "error": null,
+  "fetched_at": "2026-05-07T01:36:42.598Z",
+  "elapsed_ms": 136,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Market Pros Flag Well-Timed Oil Shorts Made Before the Iran Peace News - Business Insider",
+  "recovery_attempts": [
+    {
+      "url": "https://www.businessinsider.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:62"
+    },
+    {
+      "url": "https://www.businessinsider.com/oil-us-iran-peace-war-news-latest-short-markets-2026-5",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.newscientist.com/article/2454321-example-two/",
+  "recovery_url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
+  "final_url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 452220,
+  "error": null,
+  "fetched_at": "2026-05-07T01:37:21.047Z",
+  "elapsed_ms": 668,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "The 50-year quest to create a quantum spin liquid may finally be over | New Scientist",
+  "recovery_attempts": [
+    {
+      "url": "https://www.newscientist.com",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:64"
+    },
+    {
+      "url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

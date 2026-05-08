@@ -1,0 +1,6 @@
+{
+  "name": "Hugo static example (gohugo.io)",
+  "category": "blog",
+  "cms": "hugo",
+  "slug": "hugo_example"
+}

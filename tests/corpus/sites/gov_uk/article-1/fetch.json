@@ -1,0 +1,28 @@
+{
+  "url": "https://www.gov.uk/guidance/coronavirus-covid-19",
+  "recovery_url": "https://www.gov.uk/government/news/foreign-office-travel-advice-updates",
+  "final_url": "https://www.gov.uk/government/news/foreign-office-travel-advice-updates",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 83235,
+  "error": null,
+  "fetched_at": "2026-05-06T20:28:08.450Z",
+  "elapsed_ms": 135,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+  "recovery_method": "http",
+  "recovery_title": "Foreign Office travel advice updates - GOV.UK",
+  "recovery_attempts": [
+    {
+      "url": "https://www.gov.uk",
+      "method": "http-homepage",
+      "status": 0,
+      "reason": "homepage-links:48"
+    },
+    {
+      "url": "https://www.gov.uk/government/news/foreign-office-travel-advice-updates",
+      "method": "http",
+      "status": 200,
+      "reason": null
+    }
+  ]
+}

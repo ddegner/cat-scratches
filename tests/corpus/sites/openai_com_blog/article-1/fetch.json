@@ -1,0 +1,11 @@
+{
+  "url": "https://openai.com/index/hello-gpt-4o/",
+  "final_url": "https://openai.com/index/hello-gpt-4o/",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 423352,
+  "error": null,
+  "fetched_at": "2026-04-15T18:52:45.976Z",
+  "elapsed_ms": 424,
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"
+}
