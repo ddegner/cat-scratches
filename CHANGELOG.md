@@ -2,6 +2,15 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+- Improved Reddit thread capture so the post body and real comments are kept while navigation, sorting controls, signup prompts, and footer chrome are removed.
+
+### Fixed
+- Preserved captured Markdown links, code indentation, nested-list indentation, literal entity text, and user selector priority during extraction.
+- Removed script/style content from selected-page captures and tightened cleanup rules to avoid truncating article content inside code blocks or ordinary prose.
+
 ## [2.3.0] - 2026-05-08
 
 ### Added

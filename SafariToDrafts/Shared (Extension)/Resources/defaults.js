@@ -67,6 +67,7 @@
     '.article__teaser',
     '.c-article-body',
     '#postBody',
+    'body.comments-page > .content',
     '.article-body',
     '.article-content',
     '.article__content',
@@ -161,7 +162,16 @@
     'button',
     'script',
     'noscript',
-    'form',
+    'form[action*="newsletter"]',
+    'form[action*="subscribe"]',
+    'form[class*="newsletter"]',
+    'form[id*="newsletter"]',
+    'form[class*="subscribe"]',
+    'form[id*="subscribe"]',
+    'form[class*="signup"]',
+    'form[id*="signup"]',
+    'form[class*="sign-up"]',
+    'form[id*="sign-up"]',
     '.image',
     '.img',
     '.photo',
@@ -205,6 +215,7 @@
     '[aria-modal="true"]',
     '[hidden]',
     '[style*="display:none"]',
+    '[style*="display: none"]',
     '.nav-menu',
     '.nav-list',
     '.nav-items',
@@ -346,7 +357,6 @@
     '[class*="follow-topics"]',
     '[data-uri*="/follow-topics-bar/"]',
     '.comments',
-    '.comment',
     '.comment-thread',
     '.disqus',
     '.comment-form',
@@ -354,6 +364,39 @@
     '[id*="comments"]',
     '[data-testid="comments"]',
     '[data-testid*="comments"]',
+    '.commentarea .menuarea',
+    '.commentarea .panestack-title',
+    '.listingsignupbar',
+    '.commentsignupbar',
+    'body.comments-page .tagline',
+    '.thing .domain',
+    '.thing .score',
+    '.thing .expand',
+    '.thing .numchildren',
+    '.morecomments',
+    '.deepthread',
+    '.interstitial',
+    '.about-this-ad-body',
+    '.midcol',
+    '.thing .rank',
+    '.flat-list.buttons',
+    '.sitetable .buttons',
+    '.thing .buttons',
+    '.entry .buttons',
+    '.reportform',
+    '.tagline .userattrs',
+    'shreddit-sort-dropdown',
+    'shreddit-comment-composer',
+    'comment-composer-host',
+    'shreddit-comments-page-ad',
+    'shreddit-comment-tree-ad',
+    'shreddit-ad-post',
+    'shreddit-post-overflow-menu',
+    'shreddit-post-share-button',
+    'faceplate-dropdown-menu',
+    'faceplate-partial[src*="comment-composer"]',
+    '[slot="credit-bar"]',
+    '[slot="post-insights"]',
     '.related',
     '.recommended',
     '.more-stories',
@@ -626,7 +669,7 @@
     String.raw`tail:/\n+#{1,6}\s*related topics\b[\s\S]*$/i`,
     String.raw`tail:/\n+#{1,6}\s*Latest on:[\s\S]*$/i`,
     String.raw`tail:/\n+#{1,6}\s*Subjects\b[\s\S]*$/i`,
-    String.raw`tail:/\n+#{1,6}\s*Jobs\b[\s\S]*$/i`,
+    String.raw`tail:/\n+#{1,6}\s*Jobs\s*(?:\n+\s*(?:[-*]\s+)?[A-Z][^\n]{2,120}\s*){1,20}\s*$/i`,
     String.raw`tail:/\n+#{1,6}\s*Enjoying our latest content\?\s*[\s\S]*$/i`,
     String.raw`tail:/\n+_?doi:\s*https?:\/\/doi\.org\/\S+\s*[\s\S]*$/i`,
     String.raw`tail:/\n+#{1,6}\s*tags:?\s*(?:\n+\*\s*[^\n]{1,120}){0,40}\s*(?:\n+#{1,6}\s*written by[\s\S]*)?$/i`,
@@ -649,7 +692,7 @@
     String.raw`line:/^\s*what new features do you want to see [^\n]{1,160}let us know in the comments\.?\s*$/i`,
     String.raw`tail:/\n+#{1,6}\s*best [^\n]{1,80} accessories\s*[\s\S]*$/i`,
     String.raw`tail:/\n+\**my favorite [^\n]{1,80} accessories:\**[\s\S]*$/i`,
-    String.raw`tail:/\n+more from [A-Z][^\n]{2,80}\s*[\s\S]*$/i`,
+    String.raw`tail:/\n+#{1,6}\s*more from [A-Z][^\n]{2,80}\s*[\s\S]*$/i`,
     String.raw`tail:/\n+Related Roundups?:[^\n]+(?:\n+Related Forums?:[^\n]+)?(?:\n+\[\s*\d+\s+comments?\s*\])?\s*$/i`,
     String.raw`tail:/\n+_?\**follow techradar on google news\**_[\s\S]{0,500}?_?\**whatsapp\**_?\s*too\.?\s*$/i`,
     String.raw`tail:/\n+_?\**follow techradar on google news[\s\S]*$/i`,
@@ -684,6 +727,12 @@
     String.raw`tail:/\n+Share\s+\u2014[\s\S]*$/i`,
     String.raw`line:/^\s*share to (?:facebook|x)\s*$/i`,
     String.raw`tail:/\n+#{1,6}\s*Comments\s+\d+[\s\S]*$/i`,
+    String.raw`replace:/\n+join the conversation\s*\n+sort by:\s*\n+(?:open comment sort options\s*\n+)?(?:\*?\s*(?:best|top|new|controversial|old|q&a)\s*\n+){1,8}/i => \n`,
+    String.raw`line:/^\s*(?:go to [^\n]{2,80}|\[go to [^\]]+\]\([^)]+\))\s*$/i`,
+    String.raw`line:/^\s*join the conversation\s*$/i`,
+    String.raw`line:/^\s*open comment sort options\s*$/i`,
+    String.raw`line:/^\s*sort by:?\s*$/i`,
+    String.raw`tail:/\n+learn more about[\s\S]{0,240}?manage your account settings\.?\s*$/i`,
     String.raw`line:/^\s*subscribe\s*$/i`,
     String.raw`line:/^\s*print in a simple, ad-free format\s*$/i`,
     String.raw`line:/^\s*ad-free and in a comfortable reading format\s*$/i`,
@@ -692,7 +741,7 @@
     String.raw`line:/^\s*---+\s*$/`,
     String.raw`line:/^\s*see all topics\s*$/i`,
     String.raw`line:/^\s*(?:facebook|tweet|email|link|threads|link copied!|follow)\s*$/i`,
-    String.raw`line:/^\s*by\s+[A-Z][^\n]{1,120}\s*$/`,
+    String.raw`line:/^\s*by\s+[A-Z][A-Za-z.'-]+(?:[\s\u00a0]+(?:[A-Z][A-Za-z.'-]+|[A-Z]\.)){0,5}\s*$/`,
     String.raw`line:/^\s*reporting from\s+[^\n]{1,160}\s*$/i`,
     String.raw`line:/^\s*\*?\s*(?:Jan\.?|January|Feb\.?|February|Mar\.?|March|Apr\.?|April|May|Jun\.?|June|Jul\.?|July|Aug\.?|August|Sept\.?|September|Oct\.?|October|Nov\.?|November|Dec\.?|December)\s+\d{1,2},\s+\d{4}\s*\*?\s*$/`,
     String.raw`line:/^\s*\**\s*want to stay updated\b.*$/i`,
@@ -700,7 +749,7 @@
   ];
 
   const unique = arr => Array.from(new Set(arr.map(s => (typeof s === 'string' ? s.trim() : s)).filter(Boolean)));
-  const DEFAULTS_REVISION = 6;
+  const DEFAULTS_REVISION = 7;
 
   const DEFAULT_SETTINGS = {
     defaultsRevision: DEFAULTS_REVISION,
@@ -744,7 +793,7 @@
     return overlap >= 5 && overlap / saved.length >= 0.35;
   }
 
-  function migrateEditableDefaultList(savedList, defaultList, savedRevision) {
+  function migrateEditableDefaultList(savedList, defaultList, savedRevision, options = {}) {
     if (!Array.isArray(savedList)) {
       return defaultList;
     }
@@ -754,6 +803,13 @@
     }
 
     if (savedRevision < DEFAULTS_REVISION && editableListLooksDefaultDerived(savedList, defaultList)) {
+      if (options.preserveCustomPriority) {
+        const defaultSet = new Set(defaultList);
+        const saved = unique(savedList);
+        const savedCustomEntries = saved.filter(item => !defaultSet.has(item));
+        return unique([...savedCustomEntries, ...defaultList, ...saved]);
+      }
+
       return unique([...defaultList, ...savedList]);
     }
 
@@ -784,7 +840,8 @@
     settings.contentExtraction.customSelectors = migrateEditableDefaultList(
       settings.contentExtraction.customSelectors,
       defaults.contentExtraction.customSelectors,
-      savedRevision
+      savedRevision,
+      { preserveCustomPriority: true }
     );
 
     // Merge advancedFiltering with defaults

@@ -13,6 +13,8 @@
     "run:pilot": "node run.mjs --pilot",
     "score": "node score.mjs",
     "story-review": "node story-review.mjs",
+    "regressions": "node extraction-regressions.mjs",
+    "reddit": "node reddit-extractor.mjs",
     "live-review": "node live-review.mjs",
     "ab:selectors": "node ab-selectors.mjs"
   },

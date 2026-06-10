@@ -1,0 +1,189 @@
+#!/usr/bin/env node
+
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+import vm from "node:vm";
+import { JSDOM, VirtualConsole } from "jsdom";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const EXT = join(__dirname, "..", "..", "SafariToDrafts", "Shared (Extension)", "Resources");
+const QUIET_VIRTUAL_CONSOLE = new VirtualConsole();
+QUIET_VIRTUAL_CONSOLE.on("jsdomError", () => {});
+
+const TURNDOWN_SRC = readFileSync(join(EXT, "turndown.js"), "utf8");
+const DEFAULTS_SRC = readFileSync(join(EXT, "defaults.js"), "utf8");
+const EXTRACTOR_SRC = readFileSync(join(EXT, "content-extractor.js"), "utf8");
+
+function createSandbox(html = "<!doctype html><title>T</title><main></main>", url = "https://example.test/") {
+  const dom = new JSDOM(html, { url, pretendToBeVisual: true, virtualConsole: QUIET_VIRTUAL_CONSOLE });
+  const sandbox = {
+    window: dom.window,
+    document: dom.window.document,
+    globalThis: {},
+    self: {},
+    navigator: dom.window.navigator,
+    location: dom.window.location,
+  };
+  sandbox.globalThis = sandbox;
+  vm.createContext(sandbox);
+  vm.runInContext(TURNDOWN_SRC, sandbox);
+  vm.runInContext(DEFAULTS_SRC, sandbox);
+  vm.runInContext(EXTRACTOR_SRC, sandbox);
+  return { dom, sandbox };
+}
+
+function extract(html, overrides = {}) {
+  const { dom, sandbox } = createSandbox(html);
+  const settings = sandbox.getDefaultSettings();
+  settings.contentExtraction.customSelectors = overrides.selectors || ["main"];
+  if (Object.prototype.hasOwnProperty.call(overrides, "filters")) {
+    settings.advancedFiltering.customFilters = overrides.filters;
+  } else if (!overrides.useDefaultFilters) {
+    settings.advancedFiltering.customFilters = [];
+  }
+  settings.advancedFiltering.textCleanupRules = overrides.rules || [];
+  if (overrides.minContentLength !== undefined) {
+    settings.advancedFiltering.minContentLength = overrides.minContentLength;
+  }
+  if (overrides.maxLinkRatio !== undefined) {
+    settings.advancedFiltering.maxLinkRatio = overrides.maxLinkRatio;
+  }
+
+  const result = sandbox.extractContentFromDoc(dom.window.document, settings, "https://example.test/");
+  dom.window.close();
+  return result.body;
+}
+
+const filler = " filler text".repeat(40);
+
+{
+  const body = extract(`<main><p>Hello <a href="https://example.com">world</a> end.${filler}</p></main>`);
+  assert.match(body, /\[world\]\(https:\/\/example\.com\)/, "page extraction preserves inline markdown links");
+}
+
+{
+  const body = extract(`<main><pre><code>function x() {\n    const value    = 1;\n    return value;\n}</code></pre><p>${filler}</p></main>`);
+  assert.match(body, /    const value    = 1;/, "normalization preserves fenced code indentation and spacing");
+  assert.match(body, /    return value;/, "normalization preserves leading code indentation");
+}
+
+{
+  const body = extract(`<main><ul><li>outer<ul><li>inner ${filler}</li></ul></li></ul></main>`);
+  assert.match(body, /\n {4}\* inner/, "normalization preserves nested-list indentation");
+}
+
+{
+  const body = extract(`<main><p>Code displays &amp;amp; and &amp;#128512;.${filler}</p></main>`);
+  assert.match(body, /&amp;/, "Turndown output is not double-decoded");
+  assert.match(body, /&#128512;/, "literal numeric entity text is not decoded after Turndown");
+  assert.doesNotMatch(body, //, "astral numeric entities are not decoded with fromCharCode garbage");
+}
+
+{
+  const articleBody = `The U.S. market value was $1.5 billion. It closed.Next sentence includes emoji &#128512;. ${"More text. ".repeat(40)}`;
+  const body = extract(`<!doctype html><title>S</title><script type="application/ld+json">${JSON.stringify({
+    "@type": "NewsArticle",
+    articleBody,
+  })}</script><main><p>Short.</p></main>`);
+
+  assert.match(body, /U\.S\./, "schema normalization preserves acronyms");
+  assert.match(body, /\$1\.5/, "schema normalization preserves decimals");
+  assert.match(body, /closed\. Next/, "schema normalization still fixes missing spaces after lowercase sentence endings");
+  assert.match(body, /😀/, "schema entity decoding uses full code points");
+}
+
+{
+  const { dom, sandbox } = createSandbox();
+  const container = dom.window.document.createElement("div");
+  container.innerHTML = '<p>Para <a href="https://example.com">link</a>.</p><script>trackUser()</script><style>.x{color:red}</style><noscript>fallback</noscript>';
+
+  const body = sandbox.extractMarkdownFromSelectionContainer(container);
+  assert.match(body, /\[link\]\(https:\/\/example\.com\)/, "selection extraction preserves links");
+  assert.doesNotMatch(body, /trackUser|color:red|fallback/, "selection extraction removes script/style/noscript content");
+  dom.window.close();
+}
+
+{
+  const body = extract("<main><p>tiny</p></main><section><p>fallback content ".repeat(20) + "</p></section>", {
+    minContentLength: 0,
+    maxLinkRatio: 0,
+  });
+  assert.equal(body, "tiny", "zero thresholds are honored for no-link content");
+}
+
+{
+  const { dom, sandbox } = createSandbox();
+  const defaults = sandbox.getDefaultSettings();
+  const savedSelectors = [".user-specific", ...defaults.contentExtraction.customSelectors.slice(0, 8)];
+  const migrated = sandbox.migrateSettings({
+    defaultsRevision: 1,
+    contentExtraction: { customSelectors: savedSelectors },
+  });
+
+  assert.equal(migrated.contentExtraction.customSelectors[0], ".user-specific", "custom selectors keep top priority after defaults migration");
+  assert.ok(
+    migrated.contentExtraction.customSelectors.includes(defaults.contentExtraction.customSelectors[0]),
+    "defaults are still refreshed during selector migration",
+  );
+  dom.window.close();
+}
+
+{
+  const { dom, sandbox } = createSandbox();
+  const xmlDoc = dom.window.document.implementation.createDocument(null, "root", null);
+  const result = sandbox.extractContentFromDoc(xmlDoc, sandbox.getDefaultSettings(), "https://example.test/feed.xml");
+  assert.equal(result.body, "No content extracted", "documents without body do not throw in fallback extraction");
+  dom.window.close();
+}
+
+{
+  const body = extract(`<main><p style="display: none">Hidden text</p><p>Visible text.${filler}</p></main>`, {
+    useDefaultFilters: true,
+  });
+  assert.doesNotMatch(body, /Hidden text/, "display: none descendants are filtered");
+  assert.match(body, /Visible text/, "visible content remains after hidden filtering");
+}
+
+{
+  const body = extract(`<main><figure><figcaption>Important diagram</figcaption></figure><p>${filler}</p><div class="social-media-buttons">Share</div></main>`, {
+    filters: [".social-media-buttons"],
+  });
+  assert.match(body, /Important diagram/, "non-media filters containing 'media' do not remove all media elements");
+  assert.doesNotMatch(body, /Share/, "the configured social-media filter still applies");
+}
+
+{
+  const body = extract(`<main><figure><figcaption>Important diagram</figcaption></figure><p>${filler}</p></main>`, {
+    filters: ["figure"],
+  });
+  assert.doesNotMatch(body, /Important diagram/, "explicit media element filters still remove matching media nodes");
+}
+
+{
+  const { dom, sandbox } = createSandbox();
+  const cleaned = sandbox.applyTextCleanupRules("```js\nsubscribe\n```\n\nsubscribe", ["line:/^subscribe$/i"]);
+  assert.equal(cleaned.trim(), "```js\nsubscribe\n```", "cleanup rules skip fenced code blocks");
+
+  const defaultCleaned = sandbox.applyTextCleanupRules(
+    "Intro paragraph.\n\n## Jobs at Apple\n\nImportant article content.",
+    sandbox.getDefaultSettings().advancedFiltering.textCleanupRules,
+  );
+  assert.match(defaultCleaned, /Important article content/, "Jobs tail rule does not truncate Jobs-at-topic article sections");
+
+  const moreFromCleaned = sandbox.applyTextCleanupRules(
+    "Intro.\n\nMore from New York came later in the reporting.\n\nImportant article content.",
+    sandbox.getDefaultSettings().advancedFiltering.textCleanupRules,
+  );
+  assert.match(moreFromCleaned, /Important article content/, "more-from tail rule does not truncate ordinary prose paragraphs");
+
+  assert.equal(
+    sandbox.applyTextCleanupRules("x", [String.raw`replace:/x/ => \\n`]),
+    String.raw`\n`,
+    "replacement decoding handles escaped backslash before n in one pass",
+  );
+  dom.window.close();
+}
+
+console.log("extraction regression tests passed");

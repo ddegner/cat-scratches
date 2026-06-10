@@ -49,11 +49,12 @@
     }
 
     function decodeRuleReplacement(raw) {
-        return String(raw || '')
-            .replace(/\\n/g, '\n')
-            .replace(/\\r/g, '\r')
-            .replace(/\\t/g, '\t')
-            .replace(/\\\\/g, '\\');
+        return String(raw || '').replace(/\\(n|r|t|\\)/g, function (match, escaped) {
+            if (escaped === 'n') return '\n';
+            if (escaped === 'r') return '\r';
+            if (escaped === 't') return '\t';
+            return '\\';
+        });
     }
 
     function parseTextCleanupRule(rule) {
@@ -125,34 +126,128 @@
         return regex.test(text);
     }
 
-    function applyTextCleanupRules(content, rules) {
-        let cleaned = String(content || '');
-        const { compiled } = compileTextCleanupRules(rules);
+    function splitMarkdownFenceSegments(content) {
+        const lines = String(content || '').split('\n');
+        const segments = [];
+        let buffer = [];
+        let inFence = false;
+        let fenceChar = '';
+        let fenceSize = 0;
 
-        for (const rule of compiled) {
-            if (rule.type === 'line') {
-                cleaned = cleaned
-                    .split('\n')
-                    .filter(line => !regexMatches(rule.regex, line))
-                    .join('\n');
-            } else if (rule.type === 'block') {
-                cleaned = cleaned
-                    .split(/\n{2,}/)
-                    .filter(block => !regexMatches(rule.regex, block.trim()))
-                    .join('\n\n');
-            } else if (rule.type === 'tail') {
-                rule.regex.lastIndex = 0;
-                const match = rule.regex.exec(cleaned);
-                if (match) {
-                    cleaned = cleaned.slice(0, match.index);
-                }
-            } else if (rule.type === 'replace') {
-                rule.regex.lastIndex = 0;
-                cleaned = cleaned.replace(rule.regex, rule.replacement);
+        function flush() {
+            if (buffer.length > 0) {
+                segments.push({
+                    fenced: inFence,
+                    text: buffer.join('\n')
+                });
+                buffer = [];
             }
         }
 
-        return cleaned;
+        for (const line of lines) {
+            const match = line.match(/^\s*(`{3,}|~{3,})/);
+
+            if (match) {
+                const marker = match[1];
+                const char = marker[0];
+
+                if (!inFence) {
+                    flush();
+                    inFence = true;
+                    fenceChar = char;
+                    fenceSize = marker.length;
+                    buffer.push(line);
+                    continue;
+                }
+
+                if (char === fenceChar && marker.length >= fenceSize) {
+                    buffer.push(line);
+                    flush();
+                    inFence = false;
+                    fenceChar = '';
+                    fenceSize = 0;
+                    continue;
+                }
+            }
+
+            buffer.push(line);
+        }
+
+        flush();
+        return segments;
+    }
+
+    function joinMarkdownFenceSegments(segments) {
+        return segments.map(segment => segment.text).join('\n');
+    }
+
+    function applyRuleToTextSegment(content, rule) {
+        if (rule.type === 'line') {
+            return String(content || '')
+                .split('\n')
+                .filter(line => !regexMatches(rule.regex, line))
+                .join('\n');
+        }
+
+        if (rule.type === 'block') {
+            return String(content || '')
+                .split(/\n{2,}/)
+                .filter(block => !regexMatches(rule.regex, block.trim()))
+                .join('\n\n');
+        }
+
+        if (rule.type === 'replace') {
+            rule.regex.lastIndex = 0;
+            return String(content || '').replace(rule.regex, rule.replacement);
+        }
+
+        return content;
+    }
+
+    function applyTextCleanupRules(content, rules) {
+        let segments = splitMarkdownFenceSegments(content);
+        const { compiled } = compileTextCleanupRules(rules);
+
+        for (const rule of compiled) {
+            if (rule.type === 'tail') {
+                const nextSegments = [];
+                let truncated = false;
+
+                for (const segment of segments) {
+                    if (truncated) {
+                        continue;
+                    }
+
+                    if (segment.fenced) {
+                        nextSegments.push(segment);
+                        continue;
+                    }
+
+                    rule.regex.lastIndex = 0;
+                    const match = rule.regex.exec(segment.text);
+                    if (match) {
+                        nextSegments.push({
+                            fenced: false,
+                            text: segment.text.slice(0, match.index)
+                        });
+                        truncated = true;
+                    } else {
+                        nextSegments.push(segment);
+                    }
+                }
+
+                segments = nextSegments;
+            } else {
+                segments = segments.map(segment => segment.fenced
+                    ? segment
+                    : {
+                        fenced: false,
+                        text: applyRuleToTextSegment(segment.text, rule)
+                    });
+            }
+        }
+
+        return joinMarkdownFenceSegments(segments);
     }
 
     function validateTextCleanupRules(rules) {
@@ -161,8 +256,14 @@
 
     function decodeHtmlEntities(content) {
         return String(content || '').replace(/&(?:#(\d+)|#x([0-9a-fA-F]+)|([a-zA-Z]+));/g, function (match, dec, hex, named) {
-            if (dec) return String.fromCharCode(parseInt(dec, 10));
-            if (hex) return String.fromCharCode(parseInt(hex, 16));
+            if (dec || hex) {
+                const codePoint = parseInt(dec || hex, dec ? 10 : 16);
+                try {
+                    return String.fromCodePoint(codePoint);
+                } catch (e) {
+                    return match;
+                }
+            }
             var entities = {
                 nbsp: ' ', amp: '&', lt: '<', gt: '>', quot: '"', apos: "'",
                 mdash: '\u2014', ndash: '\u2013', lsquo: '\u2018', rsquo: '\u2019',
@@ -175,20 +276,81 @@
         });
     }
 
-    function normalizeExtractedTextStart(content) {
-        return decodeHtmlEntities(String(content || '')
+    function removeRawHtmlScaffolding(content) {
+        return String(content || '')
             .replace(/<!--.*?-->/g, '')
             .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
             .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '')
-            .replace(/\r\n?/g, '\n')
-            .replace(/\n\s*\n\s*\n+/g, '\n\n')
-            .replace(/ +/g, ' '));
+            .replace(/<noscript\b[^<]*(?:(?!<\/noscript>)<[^<]*)*<\/noscript>/gi, '');
+    }
+
+    function normalizeExtractedTextStart(content) {
+        const normalizedLineEndings = removeRawHtmlScaffolding(content)
+            .replace(/\r\n?/g, '\n');
+
+        return joinMarkdownFenceSegments(splitMarkdownFenceSegments(normalizedLineEndings).map(segment => {
+            if (segment.fenced) {
+                return segment;
+            }
+
+            return {
+                fenced: false,
+                text: segment.text
+                    .replace(/\n\s*\n\s*\n+/g, '\n\n')
+                    .split('\n')
+                    .map(line => line.replace(/(\S) {2,}/g, '$1 '))
+                    .join('\n')
+            };
+        }));
     }
 
     function normalizeExtractedTextEnd(content) {
-        return String(content || '')
-            .replace(/\n\s*\n\s*\n+/g, '\n\n')
-            .trim();
+        const normalizedLineEndings = String(content || '').replace(/\r\n?/g, '\n');
+        return joinMarkdownFenceSegments(splitMarkdownFenceSegments(normalizedLineEndings).map(segment => {
+            if (segment.fenced) {
+                return segment;
+            }
+
+            return {
+                fenced: false,
+                text: segment.text.replace(/\n\s*\n\s*\n+/g, '\n\n')
+            };
+        })).trim();
+    }
+
+    function createBaseTurndownService() {
+        return new TurndownService({
+            headingStyle: 'atx',
+            hr: '---',
+            bulletListMarker: '*',
+            codeBlockStyle: 'fenced',
+            linkStyle: 'inlined'
+        });
+    }
+
+    function removeUnsafeDescendants(element) {
+        if (!element || !element.querySelectorAll) {
+            return element;
+        }
+
+        element.querySelectorAll('script, style, noscript').forEach(el => el.remove());
+        return element;
+    }
+
+    function extractMarkdownFromSelectionContainer(container) {
+        if (!container) {
+            return '';
+        }
+
+        const selectionClone = container.cloneNode ? container.cloneNode(true) : container;
+        removeUnsafeDescendants(selectionClone);
+
+        if (typeof TurndownService !== 'undefined') {
+            const turndownService = createBaseTurndownService();
+            return turndownService.turndown(selectionClone.innerHTML || '');
+        }
+
+        return selectionClone.textContent || '';
     }
 
     /**
@@ -210,6 +372,7 @@
             : [];
         const validCustomFilters = [];
         const mediaNodeNames = new Set(['IMG', 'PICTURE', 'FIGURE', 'VIDEO', 'AUDIO', 'FIGCAPTION']);
+        const mediaSelectorNames = ['img', 'picture', 'figure', 'video', 'audio', 'figcaption'];
 
         for (const filter of configuredFilters) {
             if (typeof filter !== 'string') {
@@ -230,15 +393,28 @@
             }
         }
 
-        const hasMediaFilter = validCustomFilters.some(filter => {
-            const lower = filter.toLowerCase();
-            return lower.includes('img') ||
-                lower.includes('picture') ||
-                lower.includes('figure') ||
-                lower.includes('video') ||
-                lower.includes('audio') ||
-                lower.includes('media');
-        });
+        function selectorTargetsMediaElement(filter) {
+            return String(filter || '')
+                .split(',')
+                .some(part => {
+                    const lower = part.trim().toLowerCase();
+                    return mediaSelectorNames.some(name => {
+                        if (lower === name) {
+                            return true;
+                        }
+                        return lower.startsWith(name + '.') ||
+                            lower.startsWith(name + '#') ||
+                            lower.startsWith(name + '[') ||
+                            lower.startsWith(name + ':') ||
+                            lower.startsWith(name + ' ') ||
+                            lower.startsWith(name + '>') ||
+                            lower.startsWith(name + '+') ||
+                            lower.startsWith(name + '~');
+                    });
+                });
+        }
+
+        const hasMediaElementFilter = validCustomFilters.some(selectorTargetsMediaElement);
 
         try {
             if (typeof TurndownService !== 'undefined') {
@@ -247,7 +423,7 @@
                     hr: '---',
                     bulletListMarker: '*',
                     codeBlockStyle: 'fenced',
-                    linkStyle: 'inline'
+                    linkStyle: 'inlined'
                 });
 
                 // Add custom rules
@@ -264,7 +440,7 @@
                         }
 
                         // Check for image/media elements
-                        if (hasMediaFilter && mediaNodeNames.has(node.nodeName)) {
+                        if (hasMediaElementFilter && mediaNodeNames.has(node.nodeName)) {
                             return true;
                         }
 
@@ -378,10 +554,23 @@
                 return '';
             }
 
-            return raw
+            const withoutScaffolding = removeRawHtmlScaffolding(raw);
+            let text = withoutScaffolding;
+
+            if (/<[a-z][\s\S]*>/i.test(withoutScaffolding)) {
+                try {
+                    const template = doc.createElement('template');
+                    template.innerHTML = withoutScaffolding;
+                    text = template.content.textContent || template.textContent || withoutScaffolding;
+                } catch (e) {
+                    text = withoutScaffolding;
+                }
+            }
+
+            return decodeHtmlEntities(text)
                 .replace(/\r\n?/g, '\n')
                 .replace(/[ \t]+/g, ' ')
-                .replace(/([.!?])(?=[A-Z0-9"“‘])/g, '$1 ')
+                .replace(/([a-z][.!?])(?=["“‘]?[A-Z])/g, '$1 ')
                 .replace(/\n[ \t]+/g, '\n')
                 .trim();
         }
@@ -450,13 +639,13 @@
                     for (const element of elements) {
                         // Start scoring
                         const { candidate, textLength, linkRatio } = getCandidateMetrics(element);
-                        const minContentLength = settings?.advancedFiltering?.minContentLength || 150;
+                        const minContentLength = settings?.advancedFiltering?.minContentLength ?? 150;
 
                         if (textLength >= minContentLength) {
                             // Calculate link ratio
-                            const maxLinkRatio = settings?.advancedFiltering?.maxLinkRatio || 0.3;
+                            const maxLinkRatio = settings?.advancedFiltering?.maxLinkRatio ?? 0.3;
 
-                            if (linkRatio < maxLinkRatio) {
+                            if (linkRatio <= maxLinkRatio) {
                                 let score = textLength;
 
                                 // Bonus for semantic elements
@@ -519,17 +708,21 @@
             // if no BEST element found -> fallback to BODY.
 
             if (useMarkdownConversion) {
-                const bodyClone = doc.body.cloneNode(true);
-                unwrapHtmlTemplateScripts(bodyClone);
-                removeFilteredDescendants(bodyClone);
-                content = turndownService.turndown(bodyClone.innerHTML);
+                const fallbackElement = doc.body || doc.documentElement;
+                if (fallbackElement) {
+                    const bodyClone = fallbackElement.cloneNode(true);
+                    unwrapHtmlTemplateScripts(bodyClone);
+                    removeFilteredDescendants(bodyClone);
+                    content = turndownService.turndown(bodyClone.innerHTML);
+                }
             } else {
-                content = doc.body.textContent || doc.body.innerText || '';
+                const fallbackElement = doc.body || doc.documentElement;
+                content = fallbackElement ? (fallbackElement.textContent || fallbackElement.innerText || '') : '';
                 content = content.substring(0, 10000);
             }
 
             // If content is still empty, and we had specific selectors, maybe return message?
-            if (!content && contentSelectors.length > 0) {
+            if (!content && contentSelectors.length > 0 && doc.body) {
                 content = "(Content selector matched no elements or content was empty)";
             }
         }
@@ -554,5 +747,6 @@
     // Expose globally
     root.applyTextCleanupRules = applyTextCleanupRules;
     root.validateTextCleanupRules = validateTextCleanupRules;
+    root.extractMarkdownFromSelectionContainer = extractMarkdownFromSelectionContainer;
     root.extractContentFromDoc = extractContentFromDoc;
 })();

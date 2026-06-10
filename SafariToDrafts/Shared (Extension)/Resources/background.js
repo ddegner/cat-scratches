@@ -168,16 +168,20 @@ async function createDraftFromCurrentTab() {
 
                         // Use Turndown if available
                         let content;
-                        if (typeof TurndownService !== 'undefined') {
+                        if (typeof window.extractMarkdownFromSelectionContainer === 'function') {
+                            content = window.extractMarkdownFromSelectionContainer(container);
+                        } else if (typeof TurndownService !== 'undefined') {
+                            container.querySelectorAll('script, style, noscript').forEach(el => el.remove());
                             const turndownService = new TurndownService({
                                 headingStyle: 'atx',
                                 hr: '---',
                                 bulletListMarker: '*',
                                 codeBlockStyle: 'fenced',
-                                linkStyle: 'inline'
+                                linkStyle: 'inlined'
                             });
                             content = turndownService.turndown(container.innerHTML);
                         } else {
+                            container.querySelectorAll('script, style, noscript').forEach(el => el.remove());
                             content = container.textContent || '';
                         }
 
