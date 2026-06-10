@@ -38,6 +38,9 @@
     "placeholder_default_tag": {
         "message": "bijv. lezen, web, artikel"
     },
+    "label_include_links": {
+        "message": "Links opnemen"
+    },
     "label_template": {
         "message": "Sjabloon"
     },

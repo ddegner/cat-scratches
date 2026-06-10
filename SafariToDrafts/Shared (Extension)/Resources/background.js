@@ -169,7 +169,7 @@ async function createDraftFromCurrentTab() {
                         // Use Turndown if available
                         let content;
                         if (typeof window.extractMarkdownFromSelectionContainer === 'function') {
-                            content = window.extractMarkdownFromSelectionContainer(container);
+                            content = window.extractMarkdownFromSelectionContainer(container, settings);
                         } else if (typeof TurndownService !== 'undefined') {
                             container.querySelectorAll('script, style, noscript').forEach(el => el.remove());
                             const turndownService = new TurndownService({
@@ -177,7 +177,7 @@ async function createDraftFromCurrentTab() {
                                 hr: '---',
                                 bulletListMarker: '*',
                                 codeBlockStyle: 'fenced',
-                                linkStyle: 'inlined'
+                                linkStyle: settings?.outputFormat?.includeLinks === true ? 'inlined' : 'none'
                             });
                             content = turndownService.turndown(container.innerHTML);
                         } else {

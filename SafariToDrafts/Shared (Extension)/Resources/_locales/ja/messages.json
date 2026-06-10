@@ -38,6 +38,9 @@
     "placeholder_default_tag": {
         "message": "例：読書、ウェブ、記事"
     },
+    "label_include_links": {
+        "message": "リンクを含める"
+    },
     "label_template": {
         "message": "テンプレート"
     },

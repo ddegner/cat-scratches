@@ -51,6 +51,10 @@
         "message": "e.g., reading, web, article",
         "description": "Placeholder text for the default tag input."
     },
+    "label_include_links": {
+        "message": "Include links",
+        "description": "Label for the setting that controls whether captured body links include URLs."
+    },
     "label_template": {
         "message": "Template",
         "description": "Label for the template textarea."

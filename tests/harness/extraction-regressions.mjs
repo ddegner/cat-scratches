@@ -50,6 +50,9 @@ function extract(html, overrides = {}) {
   if (overrides.maxLinkRatio !== undefined) {
     settings.advancedFiltering.maxLinkRatio = overrides.maxLinkRatio;
   }
+  if (overrides.includeLinks !== undefined) {
+    settings.outputFormat.includeLinks = overrides.includeLinks;
+  }
 
   const result = sandbox.extractContentFromDoc(dom.window.document, settings, "https://example.test/");
   dom.window.close();
@@ -60,7 +63,15 @@ const filler = " filler text".repeat(40);
 
 {
   const body = extract(`<main><p>Hello <a href="https://example.com">world</a> end.${filler}</p></main>`);
-  assert.match(body, /\[world\]\(https:\/\/example\.com\)/, "page extraction preserves inline markdown links");
+  assert.match(body, /Hello world end\./, "default page extraction preserves linked text");
+  assert.doesNotMatch(body, /\[world\]\(https:\/\/example\.com\)/, "default page extraction strips inline markdown links");
+}
+
+{
+  const body = extract(`<main><p>Hello <a href="https://example.com">world</a> end.${filler}</p></main>`, {
+    includeLinks: true,
+  });
+  assert.match(body, /\[world\]\(https:\/\/example\.com\)/, "page extraction preserves inline markdown links when enabled");
 }
 
 {
@@ -99,9 +110,15 @@ const filler = " filler text".repeat(40);
   const container = dom.window.document.createElement("div");
   container.innerHTML = '<p>Para <a href="https://example.com">link</a>.</p><script>trackUser()</script><style>.x{color:red}</style><noscript>fallback</noscript>';
 
-  const body = sandbox.extractMarkdownFromSelectionContainer(container);
-  assert.match(body, /\[link\]\(https:\/\/example\.com\)/, "selection extraction preserves links");
+  const settings = sandbox.getDefaultSettings();
+  const body = sandbox.extractMarkdownFromSelectionContainer(container, settings);
+  assert.match(body, /Para link\./, "default selection extraction preserves linked text");
+  assert.doesNotMatch(body, /\[link\]\(https:\/\/example\.com\)/, "default selection extraction strips links");
   assert.doesNotMatch(body, /trackUser|color:red|fallback/, "selection extraction removes script/style/noscript content");
+
+  settings.outputFormat.includeLinks = true;
+  const bodyWithLinks = sandbox.extractMarkdownFromSelectionContainer(container, settings);
+  assert.match(bodyWithLinks, /\[link\]\(https:\/\/example\.com\)/, "selection extraction preserves links when enabled");
   dom.window.close();
 }
 
@@ -115,6 +132,14 @@ const filler = " filler text".repeat(40);
 
 {
   const { dom, sandbox } = createSandbox();
+  const migratedOutput = sandbox.migrateSettings({
+    outputFormat: {},
+  });
+  assert.equal(migratedOutput.outputFormat.includeLinks, false, "missing includeLinks migrates to false");
+
+  const formatted = sandbox.formatDraftContent("Title", "https://source.example/story", "Body text", sandbox.getDefaultSettings());
+  assert.match(formatted, /<https:\/\/source\.example\/story>/, "template source URL remains available when body links default off");
+
   const defaults = sandbox.getDefaultSettings();
   const savedSelectors = [".user-specific", ...defaults.contentExtraction.customSelectors.slice(0, 8)];
   const migrated = sandbox.migrateSettings({

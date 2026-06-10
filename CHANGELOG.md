@@ -4,6 +4,9 @@ All notable changes to Cat Scratches will be documented in this file.
 
 ## [2.3.1] - 2026-06-10
 
+### Added
+- Added an Include links setting for captured body text after a Claude Fable 5 pass fixed several extraction bugs, including one that was stripping URL links; the setting defaults off so link text is kept without Markdown URLs while the template source URL remains available.
+
 ### Changed
 - Improved Reddit thread capture so the post body and real comments are kept while navigation, sorting controls, signup prompts, and footer chrome are removed.
 
@@ -11,6 +14,7 @@ All notable changes to Cat Scratches will be documented in this file.
 - Preserved captured Markdown links, code indentation, nested-list indentation, literal entity text, and user selector priority during extraction.
 - Removed script/style content from selected-page captures and tightened cleanup rules to avoid truncating article content inside code blocks or ordinary prose.
 - Kept end-of-article cleanup rules anchored to the true end of the document so a paywall or call-to-action phrase appearing before a code block no longer truncates the rest of the article.
+- Stopped an unterminated code fence on a page from disabling text cleanup for everything that follows it.
 - Extended cleanup rules to remove share, subscribe, byline, and comment-count chrome that now appears as Markdown links, along with empty placeholder links left by removed images.
 
 ## [2.3.0] - 2026-05-08

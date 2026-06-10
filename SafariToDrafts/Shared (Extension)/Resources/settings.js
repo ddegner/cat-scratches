@@ -154,6 +154,7 @@ function setupEventListeners() {
     // Output format inputs
     document.getElementById('template').addEventListener('input', updateOutputFormatFromUI);
     document.getElementById('defaultTag').addEventListener('input', updateOutputFormatFromUI);
+    document.getElementById('includeLinks').addEventListener('change', updateOutputFormatFromUI);
 
     // Advanced filtering inputs
     document.getElementById('customFilters').addEventListener('input', updateAdvancedFilteringFromUI);
@@ -185,6 +186,7 @@ function updateUI() {
     // Output format
     document.getElementById('template').value = currentSettings.outputFormat.template || '';
     document.getElementById('defaultTag').value = currentSettings.outputFormat.defaultTag || '';
+    document.getElementById('includeLinks').checked = currentSettings.outputFormat.includeLinks === true;
     autoResizeTemplateTextarea();
 
     // Drafts URL scheme
@@ -266,6 +268,7 @@ function updateContentSelectorsFromUI() {
 function updateOutputFormatFromUI() {
     currentSettings.outputFormat.template = document.getElementById('template').value;
     currentSettings.outputFormat.defaultTag = document.getElementById('defaultTag').value.trim();
+    currentSettings.outputFormat.includeLinks = document.getElementById('includeLinks').checked === true;
     autoResizeTemplateTextarea();
     setDirtyState(true);
 }

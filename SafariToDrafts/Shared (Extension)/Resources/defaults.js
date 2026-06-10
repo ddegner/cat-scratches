@@ -762,7 +762,8 @@
     },
     outputFormat: {
       template: '# {title}\n\n<{url}>\n\n---\n\n{content}',
-      defaultTag: ''
+      defaultTag: '',
+      includeLinks: false
     },
     draftsURL: {
       mode: 'create', // 'create' or 'runAction'
@@ -868,6 +869,11 @@
     // Ensure defaultTag exists (can be empty string)
     if (settings.outputFormat.defaultTag === undefined) {
       settings.outputFormat.defaultTag = defaults.outputFormat.defaultTag;
+    }
+
+    // Body links are opt-in. Missing or invalid values migrate to the new default.
+    if (typeof settings.outputFormat.includeLinks !== 'boolean') {
+      settings.outputFormat.includeLinks = defaults.outputFormat.includeLinks;
     }
 
     // Ensure drafts URL mode and action name exist.

@@ -38,6 +38,9 @@
     "placeholder_default_tag": {
         "message": "ex. : lecture, web, article"
     },
+    "label_include_links": {
+        "message": "Inclure les liens"
+    },
     "label_template": {
         "message": "Modèle"
     },

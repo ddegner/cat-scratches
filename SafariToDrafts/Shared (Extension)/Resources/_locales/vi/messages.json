@@ -38,6 +38,9 @@
     "placeholder_default_tag": {
         "message": "ví dụ: đọc, web, bài viết"
     },
+    "label_include_links": {
+        "message": "Bao gồm liên kết"
+    },
     "label_template": {
         "message": "Mẫu"
     },

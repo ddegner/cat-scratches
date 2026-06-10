@@ -332,13 +332,17 @@
         })).trim();
     }
 
-    function createBaseTurndownService() {
+    function shouldIncludeLinks(settings) {
+        return settings?.outputFormat?.includeLinks === true;
+    }
+
+    function createBaseTurndownService(settings) {
         return new TurndownService({
             headingStyle: 'atx',
             hr: '---',
             bulletListMarker: '*',
             codeBlockStyle: 'fenced',
-            linkStyle: 'inlined'
+            linkStyle: shouldIncludeLinks(settings) ? 'inlined' : 'none'
         });
     }
 
@@ -351,7 +355,7 @@
         return element;
     }
 
-    function extractMarkdownFromSelectionContainer(container) {
+    function extractMarkdownFromSelectionContainer(container, settings) {
         if (!container) {
             return '';
         }
@@ -360,7 +364,7 @@
         removeUnsafeDescendants(selectionClone);
 
         if (typeof TurndownService !== 'undefined') {
-            const turndownService = createBaseTurndownService();
+            const turndownService = createBaseTurndownService(settings);
             return turndownService.turndown(selectionClone.innerHTML || '');
         }
 
@@ -432,7 +436,7 @@
 
         try {
             if (typeof TurndownService !== 'undefined') {
-                turndownService = createBaseTurndownService();
+                turndownService = createBaseTurndownService(settings);
 
                 // Add custom rules
                 turndownService.addRule('removeUnwanted', {
