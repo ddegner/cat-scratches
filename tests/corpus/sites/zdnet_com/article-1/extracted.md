@@ -8,27 +8,27 @@ ZDNET's recommendations are based on many hours of testing, research, and compar
 
 When you click through from our site to a retailer and buy a product or service, we may earn affiliate commissions. This helps support our work, but does not affect what we cover or how, and it does not affect the price you pay. Neither ZDNET nor the author are compensated for these independent reviews. Indeed, we follow strict guidelines that ensure our editorial content is never influenced by advertisers.
 
-ZDNET's editorial team writes on behalf of you, our reader. Our goal is to deliver the most accurate information and the most knowledgeable advice possible in order to help you make smarter buying decisions on tech gear and a wide array of products and services. Our editors thoroughly review and fact-check every article to ensure that our content meets the highest standards. If we have made an error or published misleading information, we will correct or clarify the article. If you see inaccuracies in our content, please report the mistake via this form.
+ZDNET's editorial team writes on behalf of you, our reader. Our goal is to deliver the most accurate information and the most knowledgeable advice possible in order to help you make smarter buying decisions on tech gear and a wide array of products and services. Our editors thoroughly review and fact-check every article to ensure that our content meets the highest standards. If we have made an error or published misleading information, we will correct or clarify the article. If you see inaccuracies in our content, please report the mistake via [this form](https://zdnet.zendesk.com/hc/en-us/requests/new).
 
 Close
 
-Home Home & Office Home Entertainment Speakers
+[Home](/) [Home & Office](/topic/home-and-office/) [Home Entertainment](/topic/home-entertainment/) [Speakers](/topic/speakers/)
 
 Sony and Samsung both offer excellent home theater products, but consider these factors first.
 
-Written by Jada Jones, Editor
+Written by [Jada Jones, Editor](/meet-the-team/jada-jones/)
 
 Editor
 
 May 6, 2026 at 12:00 p.m. PT
 
-_Follow ZDNET:_ Add us as a preferred source _on Google._
+_Follow ZDNET:_ [Add us as a preferred source](https://cc.zdnet.com/v1/otc/00hQi47eqnEWQ6T9d4QLBUc?element=BODY&element_label=Add+us+as+a+preferred+Google+source&module=LINK&object_type=text-link&object_uuid=5e5d2e64-4b30-43e6-8555-26eac7e449f3&position=1&template=article&track_code=__COM_CLICK_ID__&url=https%3A%2F%2Fwww.google.com%2Fpreferences%2Fsource%3Fq%3Dzdnet.com&view_instance_uuid=379e95d2-6b56-476b-a90b-043a8dd63bd3) _on Google._
 
 When building a home theater, you'll likely consider Samsung or Sony. Both companies offer immersive home theater solutions to upgrade your watching experience. Before choosing a company's home theater products, consider which company's TVs you prefer. A TV from either of these companies serves as an anchor device, and your home theater will revolve around it.
 
 Each company's home theater products integrate with their TVs, and some features will be locked behind ecosystem walls if you mix and match manufacturers. 
 
-**Also: Forget the soundbar: How I upgraded my TV audio with spare Bluetooth speakers**
+**Also: [Forget the soundbar: How I upgraded my TV audio with spare Bluetooth speakers](https://www.zdnet.com/home-and-office/home-entertainment/5-ways-to-upgrade-bluetooth-speakers-instead-of-replacing-them/)**
 
 Generally, Sony offers modular options to build over time, with a focus on a cinematic experience and tight integration with PlayStation. On the other hand, Samsung is ideal for people who have a one-and-done approach to home theater, preferring to buy one complete system and stick with it for years. Samsung is also best for people with several Samsung smart appliances in their house, as your TV can act as a hub to monitor and control SmartThings-connected devices. 
 
@@ -36,9 +36,13 @@ Which home theater solution best fits your needs? Let's compare.
 
 ## You should build a Sony home theater if...
 
+[
+
 #### Buy Samsung home theater
 
 View now at Samsung
+
+](https://click.linksynergy.com/deeplink?id=IokOf8qagZo&mid=47773&u1=subid_value&murl=https%3A%2F%2Fwww.samsung.com%2Fus%2Ftelevisions-home-theater%2Fhome-theater%2Fall-home-theater%2F)
 
 ### 1\. You game on PlayStation 5
 
@@ -52,7 +56,7 @@ Both Sony's and Samsung's premium soundbars promise 4K/120Hz pass-through via HD
 
 Sony's Bravia home theater lineup includes several modular options, allowing you to build a system over time based on your space and budget. Sony offers six soundbars compatible with its modular product line, priced from $600 to $1,500. Four pairs of rear speakers are compatible with those six soundbars, along with five subwoofers that are compatible with the same six soundbars, in addition to the Bravia Theater Quad.
 
-**Also: I traded my Sonos Era 300 for Denon's new home speaker - and see no reason to go back**
+**Also: [I traded my Sonos Era 300 for Denon's new home speaker - and see no reason to go back](https://www.zdnet.com/home-and-office/home-entertainment/denon-home-400-review/)**
 
 On the other hand, Samsung's home theater systems are typically sold in a single box, meaning its flagship soundbar, rear speakers, and subwoofer come together in one purchase. Though Samsung's method may be more cost-effective than Sony's, you don't have nearly as much control over tailoring home theater systems specifically to your liking.
 
@@ -64,15 +68,19 @@ While Dolby Atmos is more accessible within hardware and is more frequently used
 
 ## You should build a Samsung home theater if...
 
+[
+
 #### Buy Sony home theater
 
 View now at Sony
+
+](https://www.tkqlhce.com/click-9041660-15737007?url=https%3A%2F%2Felectronics.sony.com%2Faudio%2Fsoundbars%2Fc%2Fall-soundbars&sid=subid_value)
 
 ### 1\. You want a connected smart home
 
 A compatible Samsung TV can behave as a SmartThings hub, allowing you to view and manage the devices on your SmartThings network. If you have Samsung smart appliances or Matter home automation products, your Samsung TV can keep you up to speed on your home's smart statuses.
 
-**Also: 60Hz vs. 120Hz vs. 165Hz: I've tested dozens of TVs, and here's what's best for your home**
+**Also: [60Hz vs. 120Hz vs. 165Hz: I've tested dozens of TVs, and here's what's best for your home](https://www.zdnet.com/home-and-office/home-entertainment/what-refresh-rate-is-best-for-your-tv/)**
 
 Samsung's home automation platform, SmartThings, serves as the hub for all your connected devices. Here, you can access compatible doorbell cameras, view the status of your compatible Samsung washing machine, track your pet's Galaxy Tag, or look into your compatible refrigerator. 
 
@@ -84,7 +92,7 @@ Samsung's premium and upper-midrange soundbars are sold in bundles: premium mode
 
 If you're not interested in curating a system over time, you'll appreciate that Samsung offers great home theater-in-a-box options. You can purchase a system once, have everything you need, and stick with it for several years.
 
-**Also: Why the 'Subwoofer Crawl' is the only way I found the bass sweet spot in my living room**
+**Also: [Why the 'Subwoofer Crawl' is the only way I found the bass sweet spot in my living room](https://www.zdnet.com/home-and-office/home-entertainment/best-subwoofer-placement-in-weird-rooms/)**
 
 If you have a Samsung TV, Samsung's soundbars will work better with it, especially with Q-Symphony. Q-Symphony is a feature that enables your compatible Samsung TV to simultaneously deliver audio through its TV speakers and your soundbar. Otherwise, as long as your TV has HDMI eARC, you can access all the other features Samsung's soundbars offer.   
 
@@ -94,20 +102,36 @@ Though both Sony and Samsung deliver great home theater products, each company s
 
 #### Featured reviews
 
-* I walked 3,000 steps with my Apple Watch, Google Pixel, and Oura Ring - this tracker was most accurate
- 
-* After using the MacBook Neo for weeks, switching to the Air has been refreshingly sweet
- 
-* I bought an earwax camera for my toolkit and use it for everything but my ears
- 
-* LG G6 vs. Samsung S95H: I compared the best OLED TVs of 2026 and made a tough choice
+* [
+    
+    I walked 3,000 steps with my Apple Watch, Google Pixel, and Oura Ring - this tracker was most accurate](/article/step-tracking-apple-google-oura-health-trackers-accuracy/ "I walked 3,000 steps with my Apple Watch, Google Pixel, and Oura Ring - this tracker was most accurate")
+    
+* [
+    
+    After using the MacBook Neo for weeks, switching to the Air has been refreshingly sweet](/article/macbook-air-m5-review/ "After using the MacBook Neo for weeks, switching to the Air has been refreshingly sweet")
+    
+* [
+    
+    I bought an earwax camera for my toolkit and use it for everything but my ears](/article/bebird-earsight-plus-d39r-earwax-removal-camera-review/ "I bought an earwax camera for my toolkit and use it for everything but my ears")
+    
+* [
+    
+    LG G6 vs. Samsung S95H: I compared the best OLED TVs of 2026 and made a tough choice](/article/lg-g6-vs-samsung-s95h/ "LG G6 vs. Samsung S95H: I compared the best OLED TVs of 2026 and made a tough choice")
 
-Editorial standards
+[Editorial standards](/editorial-guidelines/)
 
 ### Related
 
+[
+
 ### Why this 16-inch gaming laptop is a smarter buy than a desktop in 2026
+
+](/article/dell-alienware-16-area-51-review/)[
 
 ### The best laptops you can buy: Expert tested
 
+](/article/best-laptop/)[
+
 ### This 4TB WD Black SSD for 50% off at Best Buy is a deal I can seriously recommend
+
+](/article/wd-black-sn850x-4tb-best-buy-deal/)

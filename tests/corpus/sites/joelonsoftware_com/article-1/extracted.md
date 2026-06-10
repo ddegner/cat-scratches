@@ -1,6 +1,6 @@
-* Top 10, Rock star developer, News
+* [Top 10](https://www.joelonsoftware.com/category/reading-lists/top-10/), [Rock star developer](https://www.joelonsoftware.com/category/reading-lists/rock-star-developer/), [News](https://www.joelonsoftware.com/category/news/)
 
-Have you ever heard of SEMA? It’s a fairly esoteric system for measuring how good a software team is. No, _wait! Don’t follow that link!_ It will take you about six years just to _understand_ that stuff. So I’ve come up with my own, highly irresponsible, sloppy test to rate the quality of a software team. The great part about it is that it takes about 3 minutes. With all the time you save, you can go to medical school.
+Have you ever heard of [SEMA](http://www.sei.cmu.edu/sema/welcome.html)? It’s a fairly esoteric system for measuring how good a software team is. No, _wait! Don’t follow that link!_ It will take you about six years just to _understand_ that stuff. So I’ve come up with my own, highly irresponsible, sloppy test to rate the quality of a software team. The great part about it is that it takes about 3 minutes. With all the time you save, you can go to medical school.
 
 The Joel Test
 
@@ -24,7 +24,7 @@ A score of 12 is perfect, 11 is tolerable, but 10 or lower and you’ve got seri
 Of course, these are not the only factors that determine success or failure: in particular, if you have a great software team working on a product that nobody wants, well, people aren’t going to want it. And it’s possible to imagine a team of “gunslingers” that doesn’t do any of this stuff that still manages to produce incredible software that changes the world. But, all else being equal, if you get these 12 things right, you’ll have a disciplined team that can consistently deliver.
 
 **1\. Do you use source control?** 
-I’ve used commercial source control packages, and I’ve used CVS, which is free, and let me tell you, CVS is _fine_. But if you don’t have source control, you’re going to stress out trying to get programmers to work together. Programmers have no way to know what other people did. Mistakes can’t be rolled back easily. The other neat thing about source control systems is that the source code itself is checked out on every programmer’s hard drive — I’ve never heard of a project using source control that lost a lot of code.
+I’ve used commercial source control packages, and I’ve used [CVS](http://www.cvshome.org/), which is free, and let me tell you, CVS is _fine_. But if you don’t have source control, you’re going to stress out trying to get programmers to work together. Programmers have no way to know what other people did. Mistakes can’t be rolled back easily. The other neat thing about source control systems is that the source code itself is checked out on every programmer’s hard drive — I’ve never heard of a project using source control that lost a lot of code.
 
 **2\. Can you make a build in one step?** 
 By this I mean: how many steps does it take to make a shipping build from the latest source snapshot? On good teams, there’s a single script you can run that does a full checkout from scratch, rebuilds every line of code, makes the EXEs, in all their various versions, languages, and #ifdef combinations, creates the installation package, and creates the final media — CDROM layout, download website, whatever.
@@ -40,7 +40,7 @@ Breaking the build is so bad (and so common) that it helps to make daily builds,
 
 On the Excel team we had a rule that whoever broke the build, as their “punishment”, was responsible for babysitting the builds until someone else broke it. This was a good incentive not to break the build, and a good way to rotate everyone through the build process so that everyone learned how it worked.
 
-Read more about daily builds in my article Daily Builds are Your Friend.
+Read more about daily builds in my article [Daily Builds are Your Friend](https://www.joelonsoftware.com/articles/fog0000000023.html).
 
 **4\. Do you have a bug database?** 
 I don’t care what you say. If you are developing code, even on a team of one, without an organized database listing all known bugs in the code, you are going to ship low quality code. Lots of programmers think they can hold the bug list in their heads. Nonsense. I can’t remember more than two or three bugs at a time, and the next morning, or in the rush of shipping, they are forgotten. You absolutely have to keep track of bugs formally.
@@ -55,7 +55,7 @@ Bug databases can be complicated or simple. A minimal useful bug database must i
 
 If the complexity of bug tracking software is the only thing stopping you from tracking your bugs, just make a simple 5 column table with these crucial fields and _start using it_.
 
-For more on bug tracking, read Painless Bug Tracking.
+For more on bug tracking, read [Painless Bug Tracking](https://www.joelonsoftware.com/articles/fog0000000029.html).
 
 **5\. Do you fix bugs before writing new code?** 
 The very first version of Microsoft Word for Windows was considered a “death march” project. It took forever. It kept slipping. The whole team was working ridiculous hours, the project was delayed again, and again, and again, and the stress was incredible. When the dang thing finally shipped, years late, Microsoft sent the whole team off to Cancun for a vacation, then sat down for some serious soul-searching.
@@ -87,23 +87,23 @@ Which brings us to schedules. If your code is at all important to the business, 
 
 Unfortunately, that just doesn’t cut it. There are too many planning decisions that the business needs to make well in advance of shipping the code: demos, trade shows, advertising, etc. And the only way to do this is to have a schedule, and to keep it up to date.
 
-The other crucial thing about having a schedule is that it forces you to decide what features you are going to do, and then it forces you to pick the least important features and _cut them_ rather than slipping into featuritis (a.k.a. scope creep).
+The other crucial thing about having a schedule is that it forces you to decide what features you are going to do, and then it forces you to pick the least important features and _cut them_ rather than slipping into [featuritis](http://www.netmeg.net/jargon/terms/c/creeping_featuritis.html) (a.k.a. scope creep).
 
-Keeping schedules does not have to be hard. Read my article Painless Software Schedules, which describes a simple way to make great schedules.
+Keeping schedules does not have to be hard. Read my article [Painless Software Schedules](https://www.joelonsoftware.com/articles/fog0000000245.html), which describes a simple way to make great schedules.
 
 **7\. Do you have a spec?** 
 Writing specs is like flossing: everybody agrees that it’s a good thing, but nobody does it.
 
 I’m not sure why this is, but it’s probably because most programmers hate writing documents. As a result, when teams consisting solely of programmers attack a problem, they prefer to express their solution in code, rather than in documents. They would much rather dive in and write code than produce a spec first.
 
-At the design stage, when you discover problems, you can fix them easily by editing a few lines of text. Once the code is written, the cost of fixing problems is dramatically higher, both emotionally (people hate to throw away code) and in terms of time, so there’s resistance to actually fixing the problems. Software that wasn’t built from a spec usually winds up badly designed and the schedule gets out of control.  This seems to have been the problem at Netscape, where the first four versions grew into such a mess that management stupidly decided to throw out the code and start over. And then they made this mistake all over again with Mozilla, creating a monster that spun out of control and took _several years_ to get to alpha stage.
+At the design stage, when you discover problems, you can fix them easily by editing a few lines of text. Once the code is written, the cost of fixing problems is dramatically higher, both emotionally (people hate to throw away code) and in terms of time, so there’s resistance to actually fixing the problems. Software that wasn’t built from a spec usually winds up badly designed and the schedule gets out of control.  This seems to have been the problem at Netscape, where the first four versions grew into such a mess that management [stupidly decided](https://www.joelonsoftware.com/articles/fog0000000069.html) to throw out the code and start over. And then they made this mistake all over again with Mozilla, creating a monster that spun out of control and took _several years_ to get to alpha stage.
 
-My pet theory is that this problem can be fixed by teaching programmers to be less reluctant writers by sending them off to take an intensive course in writing. Another solution is to hire smart program managers who produce the written spec. In either case, you should enforce the simple rule “no code without spec”.
+My pet theory is that this problem can be fixed by teaching programmers to be less reluctant writers by sending them off to take [an intensive course in writing](http://www.yale.edu/engl450b/). Another solution is to hire smart program managers who produce the written spec. In either case, you should enforce the simple rule “no code without spec”.
 
-Learn all about writing specs by reading my 4-part series.
+Learn all about writing specs by reading my [4-part series](https://www.joelonsoftware.com/articles/fog0000000036.html).
 
 **8\. Do programmers have quiet working conditions?** 
-There are extensively documented productivity gains provided by giving knowledge workers space, quiet, and privacy. The classic software management book Peopleware documents these productivity benefits extensively.
+There are extensively documented productivity gains provided by giving knowledge workers space, quiet, and privacy. The classic software management book [Peopleware](http://www.amazon.com/exec/obidos/ASIN/0932633439/ref=nosim/joelonsoftware/) documents these productivity benefits extensively.
 
 Here’s the trouble. We all know that knowledge workers work best by getting into “flow”, also known as being “in the zone”, where they are fully concentrated on their work and fully tuned out of their environment. They lose track of time and produce great stuff through absolute concentration. This is when they get all of their productive work done. Writers, programmers, scientists, and even basketball players will tell you about being in the zone.
 
@@ -118,13 +118,13 @@ Here’s the simple algebra. Let’s say (as the evidence seems to suggest) that
 Now let’s move them into separate offices with walls and doors. Now when Mutt can’t remember the name of that function, he could look it up, which still takes 30 seconds, or he could ask Jeff, which now takes 45 seconds and involves standing up (not an easy task given the average physical fitness of programmers!). So he looks it up. So now Mutt loses 30 seconds of productivity, but we save 15 minutes for Jeff. Ahhh!
 
 **9\. Do you use the best tools money can buy?** 
-Writing code in a compiled language is one of the last things that still can’t be done instantly on a garden variety home computer. If your compilation process takes more than a few seconds, getting the latest and greatest computer is going to save you time. If compiling takes even 15 seconds, programmers will get bored while the compiler runs and switch over to reading The Onion, which will suck them in and kill hours of productivity.
+Writing code in a compiled language is one of the last things that still can’t be done instantly on a garden variety home computer. If your compilation process takes more than a few seconds, getting the latest and greatest computer is going to save you time. If compiling takes even 15 seconds, programmers will get bored while the compiler runs and switch over to reading [The Onion](http://www.theonion.com/), which will suck them in and kill hours of productivity.
 
 Debugging GUI code with a single monitor system is painful if not impossible. If you’re writing GUI code, two monitors will make things much easier.
 
 Most programmers eventually have to manipulate bitmaps for icons or toolbars, and most programmers don’t have a good bitmap editor available. Trying to use Microsoft Paint to manipulate bitmaps is a joke, but that’s what most programmers have to do.
 
-At my last job, the system administrator kept sending me automated spam complaining that I was using more than … get this … 220 megabytes of hard drive space on the server. I pointed out that given the price of hard drives these days, the cost of this space was significantly less than the cost of the _toilet paper_ I used. Spending even 10 minutes cleaning up my directory would be a fabulous waste of productivity.
+At [my last job](https://www.joelonsoftware.com/articles/TwoStories.html), the system administrator kept sending me automated spam complaining that I was using more than … get this … 220 megabytes of hard drive space on the server. I pointed out that given the price of hard drives these days, the cost of this space was significantly less than the cost of the _toilet paper_ I used. Spending even 10 minutes cleaning up my directory would be a fabulous waste of productivity.
 
 **Top notch development teams don’t torture their programmers.** Even minor frustrations caused by using underpowered tools add up, making programmers grumpy and unhappy. And a grumpy programmer is an unproductive programmer.
 
@@ -133,7 +133,7 @@ To add to all this… programmers are easily bribed by giving them the coolest, 
 **10\. Do you have testers?** 
 If your team doesn’t have dedicated testers, at least one for every two or three programmers, you are either shipping buggy products, or you’re wasting money by having $100/hour programmers do work that can be done by $30/hour testers. Skimping on testers is such an outrageous false economy that I’m simply blown away that more people don’t recognize it.
 
-Read Top Five (Wrong) Reasons You Don’t Have Testers, an article I wrote about this subject.
+Read [Top Five (Wrong) Reasons You Don’t Have Testers](https://www.joelonsoftware.com/articles/fog0000000067.html), an article I wrote about this subject.
 
 **11\. Do new candidates write code during their interview?** 
 Would you hire a magician without asking them to show you some magic tricks? Of course not.
@@ -142,11 +142,11 @@ Would you hire a caterer for your wedding without tasting their food? I doubt it
 
 Yet, every day, programmers are hired on the basis of an impressive resumé or because the interviewer enjoyed chatting with them. Or they are asked trivia questions (“what’s the difference between CreateDialog() and DialogBox()?”) which could be answered by looking at the documentation. You don’t care if they have memorized thousands of trivia about programming, you care if they are able to produce code. Or, even worse, they are asked “AHA!” questions: the kind of questions that seem easy when you know the answer, but if you don’t know the answer, they are impossible.
 
-Please, just _stop doing this_. Do whatever you want during interviews, but make the candidate _write some code_. (For more advice, read my Guerrilla Guide to Interviewing.)
+Please, just _stop doing this_. Do whatever you want during interviews, but make the candidate _write some code_. (For more advice, read my [Guerrilla Guide to Interviewing](https://www.joelonsoftware.com/articles/fog0000000073.html).)
 
 **12\. Do you do hallway usability testing? 
 **A _hallway usability test_ is where you grab the next person that passes by in the hallway and force them to try to use the code you just wrote. If you do this to five people, you will learn 95% of what there is to learn about usability problems in your code.
 
-Good user interface design is not as hard as you would think, and it’s crucial if you want customers to love and buy your product. You can read my free online book on UI design, a short primer for programmers.
+Good user interface design is not as hard as you would think, and it’s crucial if you want customers to love and buy your product. You can read my [free online book on UI design](https://www.joelonsoftware.com/uibook/chapters/fog0000000057.html), a short primer for programmers.
 
-But the most important thing about user interfaces is that if you show your program to a handful of people, (in fact, five or six is enough) you will quickly discover the biggest problems people are having. Read Jakob Nielsen’s article explaining why. Even if your UI design skills are lacking, as long as you force yourself to do hallway usability tests, which cost nothing, your UI will be much, much better.
+But the most important thing about user interfaces is that if you show your program to a handful of people, (in fact, five or six is enough) you will quickly discover the biggest problems people are having. Read [Jakob Nielsen’s article](http://www.useit.com/alertbox/20000319.html) explaining why. Even if your UI design skills are lacking, as long as you force yourself to do hallway usability tests, which cost nothing, your UI will be much, much better.

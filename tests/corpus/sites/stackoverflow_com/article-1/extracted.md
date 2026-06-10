@@ -23,7 +23,7 @@ Initially, I thought this might be just a language or compiler anomaly, so I tri
 
 With a similar but less extreme result.
 
-My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
+My first thought was that sorting brings the data into the [cache](https://en.wikipedia.org/wiki/CPU_cache), but that's silly because the array was just generated.
 
 * What is going on?
 * Why is processing a sorted array faster than processing an unsorted array?
@@ -32,34 +32,34 @@ The code is summing up some independent terms, so the order should not matter.
 
 ## Related / follow-up Q&As with more modern C++ compilers
 
-* Why is processing an unsorted array the same speed as processing a sorted array with modern x86-64 clang? - **modern C++ compilers auto-vectorize the loop**, especially when SSE4.1 or AVX2 is available. This avoids any data-dependent branching so performance isn't data-dependent.
-* gcc optimization flag -O3 makes code slower than -O2 - branchless scalar with `cmov` can result in a longer dependency chain (especially when GCC chooses poorly), creating a latency bottleneck that makes it slower than branchy asm for the sorted case.
+* [Why is processing an unsorted array the same speed as processing a sorted array with modern x86-64 clang?](https://stackoverflow.com/q/66521344) - **modern C++ compilers auto-vectorize the loop**, especially when SSE4.1 or AVX2 is available. This avoids any data-dependent branching so performance isn't data-dependent.
+* [gcc optimization flag -O3 makes code slower than -O2](https://stackoverflow.com/q/28875325) - branchless scalar with `cmov` can result in a longer dependency chain (especially when GCC chooses poorly), creating a latency bottleneck that makes it slower than branchy asm for the sorted case.
 
-* java
-* c++
-* performance
-* cpu-architecture
-* branch-prediction
+* [java](/questions/tagged/java "show questions tagged 'java'")
+* [c++](/questions/tagged/c%2b%2b "show questions tagged 'c++'")
+* [performance](/questions/tagged/performance "show questions tagged 'performance'")
+* [cpu-architecture](/questions/tagged/cpu-architecture "show questions tagged 'cpu-architecture'")
+* [branch-prediction](/questions/tagged/branch-prediction "show questions tagged 'branch-prediction'")
 
 Share a link to this question
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this question
 
-Improve this question
+[Improve this question](/posts/11227809/edit)
 
 Follow this question to receive notifications
 
-edited Apr 8 at 5:35
+[edited Apr 8 at 5:35](/posts/11227809/revisions "show all edits to this post")
 
-NoDataDumpNoContribution
+[NoDataDumpNoContribution](/users/1536976/nodatadumpnocontribution)
 
 10.9k99 gold badges7171 silver badges113113 bronze badges
 
 asked Jun 27, 2012 at 13:51
 
-GManNickG
+[GManNickG](/users/87234/gmannickg)
 
 507k5656 gold badges506506 silver badges551551 bronze badges
 
@@ -67,7 +67,7 @@ GManNickG
 
 ## 26 Answers
 
-Sorted by: Reset to default
+Sorted by: [Reset to default](/questions/11227809/why-is-conditional-processing-of-a-sorted-array-faster-than-of-an-unsorted-array?answertab=scoredesc#tab-top)
 
 Highest score (default) Trending (recent votes count more) Date modified (newest first) Date created (oldest first)
 
@@ -87,11 +87,13 @@ This answer has been awarded bounties worth 2200 reputation by Ry-, rebeliagamer
 
 Show activity on this post.
 
-**You are a victim of branch prediction fail.**
+**You are a victim of [branch prediction](https://en.wikipedia.org/wiki/Branch_predictor) fail.**
 
 ## What is Branch Prediction?
 
 Consider a railroad junction:
+
+ by Mecanismo, via Wikimedia Commons. Used under the [CC-By-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) license.
 
 Now for the sake of argument, suppose this is back in the 1800s - before long-distance or radio communication.
 
@@ -129,7 +131,7 @@ _**In other words, you try to identify a pattern and follow it.**_ This is more 
 
 Most applications have well-behaved branches. Therefore, modern branch predictors will typically achieve >90% hit rates. But when faced with unpredictable branches with no recognizable patterns, branch predictors are virtually useless.
 
-Further reading: "Branch predictor" article on Wikipedia.
+Further reading: ["Branch predictor" article on Wikipedia](https://en.wikipedia.org/wiki/Branch_predictor).
 
 ## As hinted from above, the culprit is this if-statement:
 
@@ -146,19 +148,20 @@ T = branch taken
 N = branch not taken
 
 data[] = 0, 1, 2, 3, 4, ... 126, 127, 128, 129, 130, ... 250, 251, 252, ...
-branch = N N N N N ... N N T T T ... T T T ...
+branch = N  N  N  N  N  ...   N    N    T    T    T  ...   T    T    T  ...
 
- = NNNNNNNNNNNN ... NNNNNNNTTTTTTTTT ... TTTTTTTTTT (easy to predict)
+       = NNNNNNNNNNNN ... NNNNNNNTTTTTTTTT ... TTTTTTTTTT  (easy to predict)
 ```
 
 However, when the data is completely random, the branch predictor is rendered useless, because it can't predict random data. Thus there will probably be around 50% misprediction (no better than random guessing).
 
 ```
-data[] = 226, 185, 125, 158, 198, 144, 217, 79, 202, 118, 14, 150, 177, 182, ...
-branch = T, T, N, T, T, T, T, N, T, N, N, T, T, T ...
+data[] = 226, 185, 125, 158, 198, 144, 217, 79, 202, 118,  14, 150, 177, 182, ...
+branch =   T,   T,   N,   T,   T,   T,   T,  N,   T,   N,   N,   T,   T,   T  ...
 
- = TTNTTTTNTNNTTT ... (completely random - impossible to predict)
+       = TTNTTTTNTNNTTT ...   (completely random - impossible to predict)
 ```
+
 
 **What can be done?**
 
@@ -233,38 +236,38 @@ A general rule of thumb is to avoid data-dependent branching in critical loops (
 **Update:**
 
 * GCC 4.6.1 with `-O3` or `-ftree-vectorize` on x64 is able to generate a conditional move, so there is no difference between the sorted and unsorted data - both are fast. This is called "if-conversion" (to branchless) and is necessary for vectorization but also sometimes good for scalar.
- 
- (Or somewhat fast: for the already-sorted case, `cmov` can be slower especially if GCC puts it on the critical path instead of just `add`, especially on Intel before Broadwell where `cmov` has 2-cycle latency: _gcc optimization flag -O3 makes code slower than -O2_)
- 
+    
+    (Or somewhat fast: for the already-sorted case, `cmov` can be slower especially if GCC puts it on the critical path instead of just `add`, especially on Intel before Broadwell where `cmov` has 2-cycle latency: _[gcc optimization flag -O3 makes code slower than -O2](https://stackoverflow.com/questions/28875325/gcc-optimization-flag-o3-makes-code-slower-than-o2)_)
+    
 * VC++ 2010 is unable to generate conditional moves for this branch even under `/Ox`.
- 
-* Intel C++ Compiler (ICC) 11 does something miraculous. It interchanges the two loops, thereby hoisting the unpredictable branch to the outer loop. Not only is it immune to the mispredictions, it's also twice as fast as whatever VC++ and GCC can generate! In other words, ICC took advantage of the test-loop to defeat the benchmark...
- 
+    
+* [Intel C++ Compiler](https://en.wikipedia.org/wiki/Intel_C++_Compiler) (ICC) 11 does something miraculous. It [interchanges the two loops](https://en.wikipedia.org/wiki/Loop_interchange), thereby hoisting the unpredictable branch to the outer loop. Not only is it immune to the mispredictions, it's also twice as fast as whatever VC++ and GCC can generate! In other words, ICC took advantage of the test-loop to defeat the benchmark...
+    
 * If you give the Intel compiler the branchless code, it just outright vectorizes it... and is just as fast as with the branch (with the loop interchange).
 
-* Clang also vectorizes the `if()` version, as will GCC 5 and later with `-O3`, even though it takes quite a few instructions to sign-extend to the 64-bit sum on x86 without SSE4 or AVX2. (`-march=x86-64-v2` or `v3`). See _Why is processing an unsorted array the same speed as processing a sorted array with modern x86-64 clang?_
+* Clang also vectorizes the `if()` version, as will GCC 5 and later with `-O3`, even though it takes quite a few instructions to sign-extend to the 64-bit sum on x86 without SSE4 or AVX2. (`-march=x86-64-v2` or `v3`). See _[Why is processing an unsorted array the same speed as processing a sorted array with modern x86-64 clang?](https://stackoverflow.com/questions/66521344/why-is-processing-an-unsorted-array-the-same-speed-as-processing-a-sorted-array)_
 
 This goes to show that even mature modern compilers can vary wildly in their ability to optimize code...
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/11227902/edit)
 
 Follow this answer to receive notifications
 
-edited Mar 4, 2024 at 17:37
+[edited Mar 4, 2024 at 17:37](/posts/11227902/revisions "show all edits to this post")
 
-Peter Cordes
+[Peter Cordes](/users/224132/peter-cordes)
 
 381k5353 gold badges760760 silver badges1k1k bronze badges
 
 answered Jun 27, 2012 at 13:56
 
-Mysticial
+[Mysticial](/users/922184/mysticial)
 
 473k4646 gold badges343343 silver badges338338 bronze badges
 
@@ -274,31 +277,31 @@ Sign up to request clarification or add additional context in comments.
 
 Matias Chara
 
-Matias Chara Over a year ago
+[Matias Chara](/users/4416169/matias-chara) [Over a year ago](#comment111173010_11227902)
 
 wait a second, doesnt shifting negative values to the right yield implementation-defined values? int t = (data\[c\] - 128) >> 31; sum += ~t & data\[c\];
 
 mins
 
-mins Over a year ago
+[mins](/users/774575/mins) [Over a year ago](#comment113860806_11227902)
 
-Incidently branch prediction failure can also be exploited by a program to obtain crypto keys being used by another program on the same CPU core.
+Incidently branch prediction failure can also be [exploited by a program to obtain crypto keys being used by another program](https://eprint.iacr.org/2006/288.pdf) on the same CPU core.
 
 Raphael
 
-Raphael Over a year ago
+[Raphael](/users/899213/raphael) [Over a year ago](#comment115951193_11227902)
 
 @Mycotina, I'm no expert, but what I understand is: the processor needs multiple steps to execute a single instruction (fetching, decoding, etc) -- this is called "instruction pipelining" -- so, as an optimization, it will fetch multiple instructions at once and "warm up" the next instructions while executing the current one. If the wrong branch is chosen, the instructions being "warmed up" in the pipeline must be discarded, so that the instructions on the right branch can be put into the pipeline instead.
 
 WhozCraig
 
-WhozCraig Over a year ago
+[WhozCraig](/users/1322972/whozcraig) [Over a year ago](#comment116023390_11227902)
 
 @Mycotina It's easier to understand when you think of the instruction pipeline cache as tracks, the train (with cars) as the instructions, and the indicator of whether you go left or right by some dude at the END of the train; not the beginning. By the time you see him to know you've guessed right, not only is it too late to switch things, the pipeline ahead is already populated, but in the wrong direction. If you guessed wrong the predicted pipeline needs to be thrown out (derail the train; drag it back before the switch house, put it back on the tracks, and send it the other way).
 
 Tom
 
-Tom Over a year ago
+[Tom](/users/8132066/tom) [Over a year ago](#comment117675227_11227902)
 
 @C.Binair Primarily it's runtime, i.e. processor predicts branches while executing the code. The processor also remembers previous results and use that to predict next jump. However, compiler can provide some initial hints for branch prediction while compiling - search for "likely" and "unlikely" attributes. So you could say the answer is kinda both, but runtime is when it actually happens.
 
@@ -322,23 +325,23 @@ With a sorted array, the condition `data[c] >= 128` is first `false` for a strea
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/11227877/edit)
 
 Follow this answer to receive notifications
 
-edited Jun 20, 2020 at 9:12
+[edited Jun 20, 2020 at 9:12](/posts/11227877/revisions "show all edits to this post")
 
-CommunityBot
+[Community](/users/-1/community)Bot
 
 111 silver badge
 
 answered Jun 27, 2012 at 13:54
 
-Daniel Fischer
+[Daniel Fischer](/users/1011995/daniel-fischer)
 
 185k1919 gold badges319319 silver badges436436 bronze badges
 
@@ -346,31 +349,31 @@ Daniel Fischer
 
 Adam Freeman
 
-Adam Freeman Over a year ago
+[Adam Freeman](/users/538458/adam-freeman) [Over a year ago](#comment40722655_11227877)
 
 Does branch prediction work better on sorted arrays vs. arrays with different patterns? For example, for the array --> { 10, 5, 20, 10, 40, 20, ... } the next element in the array from the pattern is 80. Would this kind of array be sped up by branch prediction in which the next element is 80 here if the pattern is followed? Or does it usually only help with sorted arrays?
 
 Agrim Pathak
 
-Agrim Pathak Over a year ago
+[Agrim Pathak](/users/3206624/agrim-pathak) [Over a year ago](#comment41900025_11227877)
 
 So basically everything I conventionally learned about big-O is out of the window? Better to incur a sorting cost than a branching cost?
 
 Daniel Fischer
 
-Daniel Fischer Over a year ago
+[Daniel Fischer](/users/1011995/daniel-fischer) [Over a year ago](#comment41904388_11227877)
 
-@AgrimPathak That depends. For not too large input, an algorithm with higher complexity is faster than an algorithm with lower complexity when the constants are smaller for the algorithm with higher complexity. Where the break-even point is can be hard to predict. Also, compare this, locality is important. Big-O is important, but it is not the sole criterion for performance.
+@AgrimPathak That depends. For not too large input, an algorithm with higher complexity is faster than an algorithm with lower complexity when the constants are smaller for the algorithm with higher complexity. Where the break-even point is can be hard to predict. Also, [compare this](http://stackoverflow.com/questions/14023988/why-is-processing-a-sorted-array-slower-than-an-unsorted-array?lq=1), locality is important. Big-O is important, but it is not the sole criterion for performance.
 
 Filip Bartuzi
 
-Filip Bartuzi Over a year ago
+[Filip Bartuzi](/users/2047418/filip-bartuzi) [Over a year ago](#comment42224805_11227877)
 
 When does branch prediction takes place? When does language will know that array is sorted? I'm thinking of situation of array that looks like: \[1,2,3,4,5,...998,999,1000, 3, 10001, 10002\] ? will this obscure 3 increase running time? Will it be as long as unsorted array?
 
 Daniel Fischer
 
-Daniel Fischer Over a year ago
+[Daniel Fischer](/users/1011995/daniel-fischer) [Over a year ago](#comment42225007_11227877)
 
 @FilipBartuzi Branch prediction takes place in the processor, below the language level (but the language may offer ways to tell the compiler what's likely, so the compiler can emit code suited to that). In your example, the out-of-order 3 will lead to a branch-misprediction (for appropriate conditions, where 3 gives a different result than 1000), and thus processing that array will likely take a couple dozen or hundred nanoseconds longer than a sorted array would, hardly ever noticeable. What costs time is i high rate of mispredictions, one misprediction per 1000 isn't much.
 
@@ -392,7 +395,7 @@ This answer has been awarded bounties worth 150 reputation by DatEpicCoderGuyWho
 
 Show activity on this post.
 
-The reason why performance improves drastically when the data is sorted is that the branch prediction penalty is removed, as explained beautifully in Mysticial's answer.
+The reason why performance improves drastically when the data is sorted is that the branch prediction penalty is removed, as explained beautifully in [Mysticial's answer](//stackoverflow.com/questions/11227809/why-is-it-faster-to-process-a-sorted-array-than-an-unsorted-array/11227902#11227902).
 
 Now, if we look at the code
 
@@ -406,7 +409,7 @@ In `C`, thus `C++`, the statement, which would compile directly (without any opt
 
 While maintaining readability, we can check the speedup factor.
 
-On an Intel Core i7\-2600K @ 3.4 GHz and Visual Studio 2010 Release Mode, the benchmark is:
+On an Intel [Core i7](//en.wikipedia.org/wiki/Intel_Core#Core_i7)\-2600K @ 3.4 GHz and Visual Studio 2010 Release Mode, the benchmark is:
 
 **x86**
 
@@ -472,35 +475,35 @@ On an x86-64 machine, `GCC -S` generates the assembly below.
 
 So why does a conditional move perform better?
 
-In a typical `x86` processor, the execution of an instruction is divided into several stages. Roughly, we have different hardware to deal with different stages. So we do not have to wait for one instruction to finish to start a new one. This is called **pipelining**.
+In a typical `x86` processor, the execution of an instruction is divided into several stages. Roughly, we have different hardware to deal with different stages. So we do not have to wait for one instruction to finish to start a new one. This is called **[pipelining](//en.wikipedia.org/wiki/Pipeline_\(computing\))**.
 
 In a branch case, the following instruction is determined by the preceding one, so we cannot do pipelining. We have to either wait or predict.
 
 In a conditional move case, the execution of conditional move instruction is divided into several stages, but the earlier stages like `Fetch` and `Decode` do not depend on the result of the previous instruction; only the latter stages need the result. Thus, we wait a fraction of one instruction's execution time. This is why the conditional move version is slower than the branch when the prediction is easy.
 
-The book _Computer Systems: A Programmer's Perspective, second edition_ explains this in detail. You can check Section 3.6.6 for _Conditional Move Instructions_, entire Chapter 4 for _Processor Architecture_, and Section 5.11.2 for special treatment for _Branch Prediction and Misprediction Penalties_.
+The book _[Computer Systems: A Programmer's Perspective, second edition](https://rads.stackoverflow.com/amzn/click/com/0136108040)_ explains this in detail. You can check Section 3.6.6 for _Conditional Move Instructions_, entire Chapter 4 for _Processor Architecture_, and Section 5.11.2 for special treatment for _Branch Prediction and Misprediction Penalties_.
 
 Sometimes, some modern compilers can optimize our code to assembly with better performance, and sometimes some compilers can't (the code in question is using Visual Studio's native compiler). Knowing the performance difference between a branch and a conditional move when unpredictable can help us write code with better performance when the scenario gets so complex that the compiler can not optimize them automatically.
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/11237235/edit)
 
 Follow this answer to receive notifications
 
-edited Jul 3, 2022 at 15:12
+[edited Jul 3, 2022 at 15:12](/posts/11237235/revisions "show all edits to this post")
 
-Mihir Ajmera
+[Mihir Ajmera](/users/13567719/mihir-ajmera)
 
 12711 silver badge99 bronze badges
 
 answered Jun 28, 2012 at 2:14
 
-WiSaGaN
+[WiSaGaN](/users/866732/wisagan)
 
 48.4k1010 gold badges5959 silver badges9292 bronze badges
 
@@ -508,25 +511,25 @@ WiSaGaN
 
 Linus Fernandes
 
-Linus Fernandes Over a year ago
+[Linus Fernandes](/users/3924108/linus-fernandes) [Over a year ago](#comment115127186_11237235)
 
-stackoverflow.com/questions/9745389/…
+[stackoverflow.com/questions/9745389/…](https://stackoverflow.com/questions/9745389/is-the-ternary-operator-faster-than-an-if-condition-in-java "is the ternary operator faster than an if condition in java")
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment128673830_11237235)
 
-You forgot to enable optimization; it's not useful to benchmark debug builds that store/reload everything to the stack. Use `gcc -O2 -fno-tree-vectorize -S` if you want efficient scalar asm that hopefully uses cmov. (`-O3` would probably auto-vectorize, so would `-O2` with GCC12 or later.) See also gcc optimization flag -O3 makes code slower than -O2 (for the sorted case, when it uses cmov poorly for the `if`).
+You forgot to enable optimization; it's not useful to benchmark debug builds that [store/reload everything to the stack](https://stackoverflow.com/questions/53366394/why-does-clang-produce-inefficient-asm-with-o0-for-this-simple-floating-point). Use `gcc -O2 -fno-tree-vectorize -S` if you want efficient scalar asm that hopefully uses cmov. (`-O3` would probably auto-vectorize, so would `-O2` with GCC12 or later.) See also [gcc optimization flag -O3 makes code slower than -O2](https://stackoverflow.com/q/28875325) (for the sorted case, when it uses cmov poorly for the `if`).
 
 ed\_\_
 
-ed\_\_ Over a year ago
+[ed\_\_](/users/13986340/ed) [Over a year ago](#comment139632555_11237235)
 
 I think calling the ternary operator "branchless" is the wrong idea here. You are relying on a language optimization feature which just so happens to be used in one of the two functions, even when they are semantically equivalent.
 
 RARE Kpop Manifesto
 
-RARE Kpop Manifesto Jan 5 at 1:50
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto) [Jan 5 at 1:50](#comment140928204_11237235)
 
 shouldn't it be `int max2(int a, int b) { return a >= b ? a : b }` so the value matching scenario wouldn't have to go to backside of the ternary ? (or does it make no difference?)
 
@@ -564,23 +567,23 @@ That one is 100,000 times faster than before.
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/11303693/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 2, 2024 at 18:32
+[edited Jan 2, 2024 at 18:32](/posts/11303693/revisions "show all edits to this post")
 
-AvidCoder
+[AvidCoder](/users/11631959/avidcoder)
 
 53122 gold badges88 silver badges2727 bronze badges
 
 answered Jul 3, 2012 at 2:25
 
-vulcan raven
+[vulcan raven](/users/863980/vulcan-raven)
 
 33.9k1111 gold badges6161 silver badges101101 bronze badges
 
@@ -588,19 +591,19 @@ vulcan raven
 
 cpcallen
 
-cpcallen Over a year ago
+[cpcallen](/users/4969945/cpcallen) [Over a year ago](#comment130709739_11303693)
 
 This is delightful, but for anyone who might not understand the joke: the purpose of the `for (unsigned i = 0; i < 100000; ++i)` in the original code is to run the code being benchmarked many times so as to be able to more accurately measure the time taken to execute it—measurements that would otherwise be compromised by limited timer resolution and/or jitter caused by other processes (including the OS) unpredictably preempting this one. It is true that the benchmarked code does take much, _much_ less time to execute if you run it only once!
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment137067847_11303693)
 
 @NameSurname - your edit didn't actually change the syntax highlighting; Java/C++ syntax highlighting was already the default because of the tags on the question, and Java vs. C++ highlighting don't differ in how they highlight this so it didn't matter which it picked. Please don't clutter up the edit queue (or spend your time on) edits that don't actually change anything. Also, in some of your other recent edit suggestions, don't use `code formatting` for names of programs, only things that are actual shell commands or source-code names of functions or variables. It's bad for screen readers
 
 RARE Kpop Manifesto
 
-RARE Kpop Manifesto Jan 5 at 1:52
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto) [Jan 5 at 1:52](#comment140928206_11303693)
 
 can we just lump it all into just `sum += data[j] * (data[j] >= 128) * 100000`, and make it **semi**\-constant time ?
 
@@ -630,11 +633,11 @@ Drilling down into the line-by-line output produced by `cg_annotate` we see for 
 
 **Sorted:**
 
- `Bc Bcm Bi Bim 10,001 4 0 0 for (unsigned i = 0; i < 10000; ++i) . . . . { . . . . // primary loop 327,690,000 10,016 0 0 for (unsigned c = 0; c < arraySize; ++c) . . . . { 327,680,000 10,006 0 0 if (data[c] >= 128) 0 0 0 0 sum += data[c]; . . . . } . . . . }`
+          `Bc Bcm Bi Bim 10,001 4 0 0 for (unsigned i = 0; i < 10000; ++i) . . . . { . . . . // primary loop 327,690,000 10,016 0 0 for (unsigned c = 0; c < arraySize; ++c) . . . . { 327,680,000 10,006 0 0 if (data[c] >= 128) 0 0 0 0 sum += data[c]; . . . . } . . . . }`
 
 **Unsorted:**
 
- `Bc Bcm Bi Bim 10,001 4 0 0 for (unsigned i = 0; i < 10000; ++i) . . . . { . . . . // primary loop 327,690,000 10,038 0 0 for (unsigned c = 0; c < arraySize; ++c) . . . . { 327,680,000 164,050,007 0 0 if (data[c] >= 128) 0 0 0 0 sum += data[c]; . . . . } . . . . }`
+          `Bc Bcm Bi Bim 10,001 4 0 0 for (unsigned i = 0; i < 10000; ++i) . . . . { . . . . // primary loop 327,690,000 10,038 0 0 for (unsigned c = 0; c < arraySize; ++c) . . . . { 327,680,000 164,050,007 0 0 if (data[c] >= 128) 0 0 0 0 sum += data[c]; . . . . } . . . . }`
 
 This lets you easily identify the problematic line - in the unsorted version the `if (data[c] >= 128)` line is causing 164,050,007 mispredicted conditional branches (`Bcm`) under cachegrind's branch-predictor model, whereas it's only causing 10,006 in the sorted version.
 
@@ -656,27 +659,27 @@ It can also do source code annotation with dissassembly.
 
  `Percent | Source code & Disassembly of sumtest_unsorted ------------------------------------------------ ... : sum += data[c]; 0.00 : 400a1a: mov -0x14(%rbp),%eax 39.97 : 400a1d: mov %eax,%eax 5.31 : 400a1f: mov -0x20040(%rbp,%rax,4),%eax 4.60 : 400a26: cltq 0.00 : 400a28: add %rax,-0x30(%rbp) ...`
 
-See the performance tutorial for more details.
+See [the performance tutorial](https://perf.wiki.kernel.org/index.php/Tutorial) for more details.
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/12853037/edit)
 
 Follow this answer to receive notifications
 
-edited Oct 18, 2012 at 19:20
+[edited Oct 18, 2012 at 19:20](/posts/12853037/revisions "show all edits to this post")
 
-Peter Mortensen
+[Peter Mortensen](/users/63550/peter-mortensen)
 
 31.1k2222 gold badges111111 silver badges134134 bronze badges
 
 answered Oct 12, 2012 at 5:53
 
-caf
+[caf](/users/134633/caf)
 
 241k4242 gold badges344344 silver badges481481 bronze badges
 
@@ -684,21 +687,21 @@ caf
 
 TallBrianL
 
-TallBrianL Over a year ago
+[TallBrianL](/users/2383730/tallbrianl) [Over a year ago](#comment30576818_12853037)
 
 This is scary, in the unsorted list, there should be 50% chance of hitting the add. Somehow the branch prediction only has a 25% miss rate, how can it do better than 50% miss?
 
 caf
 
-caf Over a year ago
+[caf](/users/134633/caf) [Over a year ago](#comment30577316_12853037)
 
 @tall.b.lo: The 25% is of all branches - there are _two_ branches in the loop, one for `data[c] >= 128` (which has a 50% miss rate as you suggest) and one for the loop condition `c < arraySize` which has ~0% miss rate.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment127137494_12853037)
 
-Note that benchmarking / profiling un-optimized ("debug mode") code is normally a bad idea. With optimization, that version without branch misses would be faster by a much larger margin, not stalling on store/reload latency for local variables. The actual branch mispredict rate for the critical branch should be about the same, though (assuming there is one: modern compilers can vectorize this or otherwise make branchless asm). Loop unrolling could change the overall miss rate by running a predictable loop branch less often.
+Note that benchmarking / profiling un-optimized ("debug mode") code is normally a bad idea. With optimization, that version without branch misses would be faster by a much larger margin, not stalling on store/reload latency for local variables. The actual branch mispredict rate for the critical branch should be about the same, though (assuming there is one: modern compilers can [vectorize this](https://stackoverflow.com/q/66521344) or otherwise make branchless asm). Loop unrolling could change the overall miss rate by running a predictable loop branch less often.
 
 This answer is useful
 
@@ -757,23 +760,23 @@ If you run into trouble with lookups in managed languages -- the key is to add a
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/16184827/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 16, 2019 at 4:47
+[edited Jan 16, 2019 at 4:47](/posts/16184827/revisions "show all edits to this post")
 
-Palec
+[Palec](/users/2157640/palec)
 
 13.8k88 gold badges8181 silver badges148148 bronze badges
 
 answered Apr 24, 2013 at 6:26
 
-atlaste
+[atlaste](/users/1031591/atlaste)
 
 31.3k33 gold badges6262 silver badges9494 bronze badges
 
@@ -815,23 +818,23 @@ So there is no doubt about the impact of branch prediction on performance!
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/14889969/edit)
 
 Follow this answer to receive notifications
 
-edited Feb 27, 2019 at 10:58
+[edited Feb 27, 2019 at 10:58](/posts/14889969/revisions "show all edits to this post")
 
-Georg Plaz
+[Georg Plaz](/users/4298200/georg-plaz)
 
 6,14455 gold badges4545 silver badges6666 bronze badges
 
 answered Feb 15, 2013 at 7:24
 
-Saqlain
+[Saqlain](/users/1012551/saqlain)
 
 18k44 gold badges3131 silver badges3333 bronze badges
 
@@ -839,31 +842,31 @@ Saqlain
 
 cst1992
 
-cst1992 Over a year ago
+[cst1992](/users/4037019/cst1992) [Over a year ago](#comment60153643_14889969)
 
 @MooingDuck 'Cause it won't make a difference - that value can be anything, but it still will be in the bounds of these thresholds. So why show a random value when you already know the limits? Although I agree that you could show one for the sake of completeness, and 'just for the heck of it'.
 
 Mooing Duck
 
-Mooing Duck Over a year ago
+[Mooing Duck](/users/845092/mooing-duck) [Over a year ago](#comment60164274_14889969)
 
 @cst1992: Right now his slowest timing is TTFFTTFFTTFF, which seems, to my human eye, quite predictable. Random is inherently unpredictable, so it's entirely possible it would be slower still, and thus outside the limits shown here. OTOH, it could be that TTFFTTFF perfectly hits the pathological case. Can't tell, since he didn't show the timings for random.
 
 steveha
 
-steveha Over a year ago
+[steveha](/users/166949/steveha) [Over a year ago](#comment64383305_14889969)
 
 @MooingDuck To a human eye, "TTFFTTFFTTFF" is a predictable sequence, but what we are talking about here is the behavior of the branch predictor built into a CPU. The branch predictor is not AI-level pattern recognition; it's very simple. When you just alternate branches it doesn't predict well. In most code, branches go the same way almost all the time; consider a loop that executes a thousand times. The branch at the end of the loop goes back to the start of the loop 999 times, and then the thousandth time does something different. A very simple branch predictor works well, usually.
 
 Mooing Duck
 
-Mooing Duck Over a year ago
+[Mooing Duck](/users/845092/mooing-duck) [Over a year ago](#comment64383386_14889969)
 
 @steveha: I think you're making assumptions about how the CPU branch predictor works, and I disagree with that methodology. I don't know how advanced that branch predictor is, but I seem to think it's far more advanced than you do. You're probably right, but measurements would definitely be good.
 
 Mooing Duck
 
-Mooing Duck Over a year ago
+[Mooing Duck](/users/845092/mooing-duck) [Over a year ago](#comment64551074_14889969)
 
 @steveha: The Two-level adaptive predictor could lock onto the TTFFTTFF pattern with no issue whatsoever. "Variants of this prediction method are used in most modern microprocessors". Local branch prediction and Global branch prediction are based on a two level adaptive predictor, they can as well. "Global branch prediction is used in AMD processors, and in Intel Pentium M, Core, Core 2, and Silvermont-based Atom processors" Also add Agree predictor, Hybrid predictor, Prediction of indirect jumps, to that list. Loop predictor wont lock on, but hits 75%. That leaves only 2 that can't lock on
 
@@ -905,27 +908,27 @@ this library would do something like:
 
 `i = (x < node->value); node = node->link[i];`
 
-Here's a link to this code: Red Black Trees, _Eternally Confuzzled_
+Here's a link to this code: [Red Black Trees](https://web.archive.org/web/20190207151651/https://www.eternallyconfuzzled.com/tuts/datastructures/jsw_tut_rbtree.aspx), _Eternally Confuzzled_
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/17782979/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 27, 2021 at 10:03
+[edited Jan 27, 2021 at 10:03](/posts/17782979/revisions "show all edits to this post")
 
-jakubde
+[jakubde](/users/13367995/jakubde)
 
 3111 gold badge33 silver badges66 bronze badges
 
 answered Jul 22, 2013 at 8:29
 
-steveha
+[steveha](/users/166949/steveha)
 
 77.2k2121 gold badges9494 silver badges120120 bronze badges
 
@@ -933,31 +936,31 @@ steveha
 
 atlaste
 
-atlaste Over a year ago
+[atlaste](/users/1031591/atlaste) [Over a year ago](#comment26185793_17782979)
 
 Right, you can also just use the bit directly and multiply (`data[c]>>7` - which is discussed somewhere here as well); I intentionally left this solution out, but of course you are correct. Just a small note: The rule of thumb for lookup tables is that if it fits in 4KB (because of caching), it'll work - preferably make the table as small as possible. For managed languages I'd push that to 64KB, for low-level languages like C++ and C, I'd probably reconsider (that's just my experience). Since `typeof(int) = 4`, I'd try to stick to max 10 bits.
 
 steveha
 
-steveha Over a year ago
+[steveha](/users/166949/steveha) [Over a year ago](#comment26206652_17782979)
 
 I think indexing with the 0/1 value will probably be faster than an integer multiply, but I guess if performance is really critical you should profile it. I agree that small lookup tables are essential to avoid cache pressure, but clearly if you have a bigger cache you can get away with a bigger lookup table, so 4KB is more a rule of thumb than a hard rule. I think you meant `sizeof(int) == 4`? That would be true for 32-bit. My two-year-old cell phone has a 32KB L1 cache, so even a 4K lookup table might work, especially if the lookup values were a byte instead of an int.
 
 Richard Tingle
 
-Richard Tingle Over a year ago
+[Richard Tingle](/users/2187042/richard-tingle) [Over a year ago](#comment33658701_17782979)
 
 Possibly I'm missing something but in your `j` equals 0 or 1 method why don't you just multiply your value by `j` before adding it rather than using the array indexing (possibly should be multiplied by `1-j` rather than `j`)
 
 atlaste
 
-atlaste Over a year ago
+[atlaste](/users/1031591/atlaste) [Over a year ago](#comment34186464_17782979)
 
 @steveha Multiplication should be faster, I tried looking it up in the Intel books, but couldn't find it... either way, benchmarking also gives me that result here.
 
 atlaste
 
-atlaste Over a year ago
+[atlaste](/users/1031591/atlaste) [Over a year ago](#comment34186699_17782979)
 
 @steveha P.S.: another possible answer would be `int c = data[j]; sum += c & -(c >> 7);` which requires no multiplications at all.
 
@@ -977,7 +980,7 @@ Show activity on this post.
 
 In the sorted case, you can do better than relying on successful branch prediction or any branchless comparison trick: completely remove the branch.
 
-Indeed, the array is partitioned in a contiguous zone with `data < 128` and another with `data >= 128`. So you should find the partition point with a dichotomic search (using `Lg(arraySize) = 15` comparisons), then do a straight accumulation from that point.
+Indeed, the array is partitioned in a contiguous zone with `data < 128` and another with `data >= 128`. So you should find the partition point with a [dichotomic search](https://en.wikipedia.org/wiki/Dichotomic_search) (using `Lg(arraySize) = 15` comparisons), then do a straight accumulation from that point.
 
 Something like (unchecked)
 
@@ -991,17 +994,17 @@ A yet faster approach, that gives an **approximate** solution for both sorted or
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/17828251/edit)
 
 Follow this answer to receive notifications
 
-edited May 11, 2019 at 11:31
+[edited May 11, 2019 at 11:31](/posts/17828251/revisions "show all edits to this post")
 
-Konard
+[Konard](/users/710069/konard)
 
 3,1243838 silver badges2828 bronze badges
 
@@ -1013,19 +1016,19 @@ user1196549
 
 sehe
 
-sehe Over a year ago
+[sehe](/users/85371/sehe) [Over a year ago](#comment26040119_17828251)
 
 `sum= 3137536` - clever. That's kinda obviously not the point of the question. The question is clearly about explaining surprising performance characteristics. I'm inclined to say that the addition of doing `std::partition` instead of `std::sort` is valuable. Though the actual question extends to more than just the synthetic benchmark given.
 
 user1196549
 
-user1196549 Over a year ago
+user1196549 [Over a year ago](#comment26048383_17828251)
 
 @DeadMG: this is indeed not the standard dichotomic search for a given key, but a search for the partitioning index; it requires a single compare per iteration. But don't rely on this code, I have not checked it. If you are interested in a guaranteed correct implementation, let me know.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment127143721_17828251)
 
 Binary search for the cut-point is unnecessary, just start summing from the end you want to keep, stopping when you get to a value you don't want. (Unless HW prefetching works _much_ worse when looping downwards instead of upwards). Of course, actually taking time to sort is not a useful part of an algorithm that starts with unsorted data. A histogram might be, if you want to answer multiple queries for different cut-points, other than 128, from the same data. (Since the small value-range means there are many duplicates in this smallish array.)
 
@@ -1045,12 +1048,12 @@ The above behavior is happening because of Branch prediction.
 
 To understand branch prediction one must first understand an **Instruction Pipeline.**
 
-The the steps of running an instruction can be overlapped with the sequence of steps of running the previous and next instruction, so that different steps can be executed concurrently in parallel. This technique is known as instruction pipelining and is used to increase throughput in modern processors. To understand this better please see this example on Wikipedia.
+The the steps of running an instruction can be overlapped with the sequence of steps of running the previous and next instruction, so that different steps can be executed concurrently in parallel. This technique is known as instruction pipelining and is used to increase throughput in modern processors. To understand this better please see this [example on Wikipedia](https://en.wikipedia.org/wiki/Pipeline_\(computing\)#Concept_and_motivation).
 
-Generally, modern processors have quite long (and wide) pipelines, so many instruction can be in flight. See Modern Microprocessors A 90-Minute Guide! which starts by introducing basic in-order pipelining and goes from there.
+Generally, modern processors have quite long (and wide) pipelines, so many instruction can be in flight. See [Modern Microprocessors A 90-Minute Guide!](https://www.lighterra.com/papers/modernmicroprocessors/) which starts by introducing basic in-order pipelining and goes from there.
 
 But for ease **let's consider a simple in-order pipeline with these 4 steps only.** 
-(Like a classic 5-stage RISC, but omitting a separate MEM stage.)
+(Like a [classic 5-stage RISC](https://en.wikipedia.org/wiki/Classic_RISC_pipeline), but omitting a separate MEM stage.)
 
 1. IF -- Fetch the instruction from memory
 2. ID -- Decode the instruction
@@ -1061,7 +1064,7 @@ But for ease **let's consider a simple in-order pipeline with these 4 steps only
 
 Moving back to the above question let's consider the following instructions:
 
- `A) if (data[c] >= 128) /\ / \ / \ true / \ false / \ / \ / \ / \ B) sum += data[c]; C) for loop or print().`
+                        `A) if (data[c] >= 128) /\ / \ / \ true / \ false / \ / \ / \ / \ B) sum += data[c]; C) for loop or print().`
 
 Without branch prediction, the following would occur:
 
@@ -1079,7 +1082,7 @@ Branch predictor will try to guess which way a branch (an if-then-else structure
 
 _**In case of a correct guess, the pipeline looks something like this:**_
 
-If it is later detected that the guess was wrong then the partially executed instructions are discarded and the pipeline starts over with the correct branch, incurring a delay. The time that is wasted in case of a branch misprediction is equal to the number of stages in the pipeline from the fetch stage to the execute stage. Modern microprocessors tend to have quite long pipelines so that the misprediction delay is between 10 and 20 clock cycles. The longer the pipeline the greater the need for a good branch predictor.
+If it is later detected that the guess was wrong then the partially executed instructions are discarded and the pipeline starts over with the correct branch, incurring a delay. The time that is wasted in case of a branch misprediction is equal to the number of stages in the pipeline from the fetch stage to the execute stage. Modern microprocessors tend to have quite long pipelines so that the misprediction delay is between 10 and 20 clock cycles. The longer the pipeline the greater the need for a good [branch predictor](https://en.wikipedia.org/wiki/Branch_predictor).
 
 In the OP's code, the first time when the conditional, the branch predictor does not have any information to base up prediction, so the first time it will randomly choose the next instruction. (Or fall back to _static_ prediction, typically forward not-taken, backward taken). Later in the for loop, it can base the prediction on the history. For an array sorted in ascending order, there are three possibilities:
 
@@ -1097,31 +1100,31 @@ But in case of a random unsorted array, the prediction will need to discard the 
 
 Further reading:
 
-* Modern Microprocessors A 90-Minute Guide!
-* Dan Luu's article on branch prediction (which covers older branch predictors, not modern IT-TAGE or Perceptron)
-* https://en.wikipedia.org/wiki/Branch\_predictor
-* Branch Prediction and the Performance of Interpreters - Don’t Trust Folklore - 2015 paper showing how well Intel's Haswell does at predicting the indirect branch of a Python interpreter's main loop (historically problematic due to a non-simple pattern), vs. earlier CPUs which didn't use IT-TAGE. (They don't help with this fully random case, though. Still 50% mispredict rate for the if inside the loop on a Skylake CPU when the source is compiled to branch asm.)
-* Static branch prediction on newer Intel processors - what CPUs actually do when running a branch instruction that doesn't have a dynamic prediction available. Historically, forward not-taken (like an `if` or `break`), backward taken (like a loop) has been used because it's better than nothing. Laying out code so the fast path / common case minimizes taken branches is good for I-cache density as well as static prediction, so compilers already do that. (That's the real effect of `likely` / `unlikely` hints in C source, not actually hinting the hardware branch prediction in most CPU, except maybe via static prediction.)
+* [Modern Microprocessors A 90-Minute Guide!](https://www.lighterra.com/papers/modernmicroprocessors/)
+* [Dan Luu's article on branch prediction](https://danluu.com/branch-prediction/) (which covers older branch predictors, not modern IT-TAGE or Perceptron)
+* [https://en.wikipedia.org/wiki/Branch\_predictor](https://en.wikipedia.org/wiki/Branch_predictor)
+* [Branch Prediction and the Performance of Interpreters - Don’t Trust Folklore](https://hal.inria.fr/hal-01100647/document) - 2015 paper showing how well Intel's Haswell does at predicting the indirect branch of a Python interpreter's main loop (historically problematic due to a non-simple pattern), vs. earlier CPUs which didn't use IT-TAGE. (They don't help with this fully random case, though. Still 50% mispredict rate for the if inside the loop on a Skylake CPU when the source is compiled to branch asm.)
+* [Static branch prediction on newer Intel processors](https://xania.org/201602/bpu-part-one) - what CPUs actually do when running a branch instruction that doesn't have a dynamic prediction available. Historically, forward not-taken (like an `if` or `break`), backward taken (like a loop) has been used because it's better than nothing. Laying out code so the fast path / common case minimizes taken branches is good for I-cache density as well as static prediction, so compilers already do that. (That's the [real effect](https://stackoverflow.com/questions/1851299/is-it-possible-to-tell-the-branch-predictor-how-likely-it-is-to-follow-the-branc) of `likely` / `unlikely` hints in C source, not actually hinting the hardware branch prediction in most CPU, except maybe via static prediction.)
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/31210295/edit)
 
 Follow this answer to receive notifications
 
-edited Apr 22, 2022 at 1:31
+[edited Apr 22, 2022 at 1:31](/posts/31210295/revisions "show all edits to this post")
 
-Peter Cordes
+[Peter Cordes](/users/224132/peter-cordes)
 
 381k5353 gold badges760760 silver badges1k1k bronze badges
 
 answered Jul 3, 2015 at 15:35
 
-Harsh Sharma
+[Harsh Sharma](/users/1627741/harsh-sharma)
 
 11.3k22 gold badges2020 silver badges3030 bronze badges
 
@@ -1129,15 +1132,15 @@ Harsh Sharma
 
 M.kazem Akhgary
 
-M.kazem Akhgary Over a year ago
+[M.kazem Akhgary](/users/4767498/m-kazem-akhgary) [Over a year ago](#comment80330289_31210295)
 
 how are two instructions executed together? is this done with separate cpu cores or is pipeline instruction is integrated in single cpu core?
 
 Sergey.quixoticaxis.Ivanov
 
-Sergey.quixoticaxis.Ivanov Over a year ago
+[Sergey.quixoticaxis.Ivanov](/users/6583956/sergey-quixoticaxis-ivanov) [Over a year ago](#comment81130628_31210295)
 
-@M.kazemAkhgary It's all inside one logical core. If you're interested, this is nicely described for example in Intel Software Developer Manual
+@M.kazemAkhgary It's all inside one logical core. If you're interested, this is nicely described for example in [Intel Software Developer Manual](https://software.intel.com/en-us/articles/intel-sdm)
 
 This answer is useful
 
@@ -1153,9 +1156,9 @@ Show activity on this post.
 
 An official answer would be from
 
-1. Intel - Avoiding the Cost of Branch Misprediction
-2. Intel - Branch and Loop Reorganization to Prevent Mispredicts
-3. Scientific papers - branch prediction computer architecture
+1. [Intel - Avoiding the Cost of Branch Misprediction](https://software.intel.com/en-us/articles/avoiding-the-cost-of-branch-misprediction)
+2. [Intel - Branch and Loop Reorganization to Prevent Mispredicts](https://software.intel.com/en-us/articles/branch-and-loop-reorganization-to-prevent-mispredicts)
+3. [Scientific papers - branch prediction computer architecture](https://scholar.google.com/scholar?q=branch%20prediction%20computer%20architecture&hl=da&as_sdt=0&as_vis=1&oi=scholart)
 4. Books: J.L. Hennessy, D.A. Patterson: Computer architecture: a quantitative approach
 5. Articles in scientific publications: T.Y. Yeh, Y.N. Patt made a lot of these on branch predictions.
 
@@ -1171,23 +1174,23 @@ On the other hand, once it's sorted, the predictor will first move into a state 
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/33070112/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 31, 2017 at 11:39
+[edited Jan 31, 2017 at 11:39](/posts/33070112/revisions "show all edits to this post")
 
-greatwolf
+[greatwolf](/users/234175/greatwolf)
 
 21.1k1313 gold badges7777 silver badges105105 bronze badges
 
 answered Oct 11, 2015 at 21:05
 
-Surt
+[Surt](/users/4013258/surt)
 
 16.1k33 gold badges2727 silver badges4040 bronze badges
 
@@ -1217,29 +1220,29 @@ or similarly:
 
 `if (unlikely(very_improbable_condition)) { /* Do something */ }`
 
-Both `likely()` and `unlikely()` are in fact macros that are defined by using something like the GCC's `__builtin_expect` to help the compiler insert prediction code to favour the condition taking into account the information provided by the user. GCC supports other builtins that could change the behavior of the running program or emit low level instructions like clearing the cache, etc. See this documentation that goes through the available GCC's builtins.
+Both `likely()` and `unlikely()` are in fact macros that are defined by using something like the GCC's `__builtin_expect` to help the compiler insert prediction code to favour the condition taking into account the information provided by the user. GCC supports other builtins that could change the behavior of the running program or emit low level instructions like clearing the cache, etc. See [this documentation](https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html) that goes through the available GCC's builtins.
 
 Normally this kind of optimizations are mainly found in hard-real time applications or embedded systems where execution time matters and it's critical. For example, if you are checking for some error condition that only happens 1/10000000 times, then why not inform the compiler about this? This way, by default, the branch prediction would assume that the condition is false.
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/32742980/edit)
 
 Follow this answer to receive notifications
 
-edited Oct 28, 2016 at 10:28
+[edited Oct 28, 2016 at 10:28](/posts/32742980/revisions "show all edits to this post")
 
-Stacked
+[Stacked](/users/1372621/stacked)
 
 7,38677 gold badges6464 silver badges7676 bronze badges
 
 answered Sep 23, 2015 at 14:57
 
-rkachach
+[rkachach](/users/1313233/rkachach)
 
 17.5k88 gold badges5050 silver badges6969 bronze badges
 
@@ -1303,23 +1306,23 @@ is optimal in most cases (unless you expect the `&&` expression to generate many
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/33048998/edit)
 
 Follow this answer to receive notifications
 
-edited May 30, 2019 at 16:34
+[edited May 30, 2019 at 16:34](/posts/33048998/revisions "show all edits to this post")
 
-Sujal Patel
+[Sujal Patel](/users/7405477/sujal-patel)
 
 2,54022 gold badges2222 silver badges4040 bronze badges
 
 answered Oct 10, 2015 at 0:30
 
-Maciej
+[Maciej](/users/4895229/maciej)
 
 9,63322 gold badges1818 silver badges1818 bronze badges
 
@@ -1353,7 +1356,7 @@ Also at the end, it's good to know we have two kinds of branch predictions that 
 
 **2\. Dynamic**
 
-See also this document from Intel, which says:
+See also [this document from Intel](https://web.archive.org/web/20100315172026/http://software.intel.com/en-us/articles/branch-and-loop-reorganization-to-prevent-mispredicts/), which says:
 
 > Static branch prediction is used by the microprocessor the first time a conditional branch is encountered, and dynamic branch prediction is used for succeeding executions of the conditional branch code.
 > 
@@ -1361,23 +1364,23 @@ See also this document from Intel, which says:
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/44614591/edit)
 
 Follow this answer to receive notifications
 
-edited May 10, 2023 at 17:27
+[edited May 10, 2023 at 17:27](/posts/44614591/revisions "show all edits to this post")
 
-miken32
+[miken32](/users/1255289/miken32)
 
 42.5k1616 gold badges128128 silver badges179179 bronze badges
 
 answered Jun 18, 2017 at 11:40
 
-Alireza
+[Alireza](/users/5423108/alireza)
 
 106k2727 gold badges280280 silver badges173173 bronze badges
 
@@ -1399,27 +1402,27 @@ This question has already been answered excellently many times over. Still I'd l
 
 Recently this example (modified very slightly) was also used as a way to demonstrate how a piece of code can be profiled within the program itself on Windows. Along the way, the author also shows how to use the results to determine where the code is spending most of its time in both the sorted & unsorted case. Finally the piece also shows how to use a little known feature of the HAL (Hardware Abstraction Layer) to determine just how much branch misprediction is happening in the unsorted case.
 
-The link is here: **A Demonstration of Self-Profiling**
+The link is here: [**A Demonstration of Self-Profiling**](//www.geoffchappell.com/studies/windows/km/ntoskrnl/api/ex/profile/demo.htm)
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/41603849/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 10, 2021 at 15:50
+[edited Jan 10, 2021 at 15:50](/posts/41603849/revisions "show all edits to this post")
 
-Deduplicator
+[Deduplicator](/users/3204551/deduplicator)
 
 46k77 gold badges7575 silver badges125125 bronze badges
 
 answered Jan 12, 2017 at 1:50
 
-ForeverLearning
+[ForeverLearning](/users/601567/foreverlearning)
 
 6,75544 gold badges3131 silver badges4040 bronze badges
 
@@ -1427,13 +1430,13 @@ ForeverLearning
 
 Peter Mortensen
 
-Peter Mortensen Over a year ago
+[Peter Mortensen](/users/63550/peter-mortensen) [Over a year ago](#comment85643214_41603849)
 
 That is a very interesting article (in fact, I have just read all of it), but how does it answer the question?
 
 ForeverLearning
 
-ForeverLearning Over a year ago
+[ForeverLearning](/users/601567/foreverlearning) [Over a year ago](#comment85650402_41603849)
 
 @PeterMortensen I am a bit flummoxed by your question. For example here is one relevant line from that piece: `When the input is unsorted, all the rest of the loop takes substantial time. But with sorted input, the processor is somehow able to spend not just less time in the body of the loop, meaning the buckets at offsets 0x18 and 0x1C, but vanishingly little time on the mechanism of looping.` Author is trying to discuss profiling in the context of code posted here and in the process trying to explain why the sorted case is so much more faster.
 
@@ -1449,7 +1452,7 @@ Loading when this answer was accepted…
 
 Show activity on this post.
 
-As what has already been mentioned by others, what behind the mystery is Branch Predictor.
+As what has already been mentioned by others, what behind the mystery is [Branch Predictor](https://en.wikipedia.org/wiki/Branch_predictor).
 
 I'm not trying to add something but explaining the concept in another way. There is a concise introduction on the wiki which contains text and diagram. I do like the explanation below which uses a diagram to elaborate the Branch Predictor intuitively.
 
@@ -1479,23 +1482,23 @@ It will take 9 clock cycles for 3 instructions to be completed.
 
 As you can see, it seems we don't have a reason not to use Branch Predictor.
 
-It's quite a simple demo that clarifies the very basic part of Branch Predictor. If those gifs are annoying, please feel free to remove them from the answer and visitors can also get the live demo source code from BranchPredictorDemo
+It's quite a simple demo that clarifies the very basic part of Branch Predictor. If those gifs are annoying, please feel free to remove them from the answer and visitors can also get the live demo source code from [BranchPredictorDemo](https://github.com/Eugene-Mark/BranchPredictorDemo)
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/47141245/edit)
 
 Follow this answer to receive notifications
 
-edited Feb 10, 2020 at 2:05
+[edited Feb 10, 2020 at 2:05](/posts/47141245/revisions "show all edits to this post")
 
 answered Nov 6, 2017 at 16:15
 
-Eugene
+[Eugene](/users/3378204/eugene)
 
 11.2k77 gold badges5858 silver badges7373 bronze badges
 
@@ -1503,27 +1506,27 @@ Eugene
 
 mckenzm
 
-mckenzm Over a year ago
+[mckenzm](/users/1734032/mckenzm) [Over a year ago](#comment100995393_47141245)
 
 Almost as good as the Intel marketing animations, and they were obsessed not just with branch prediction but out of order execution, both strategies being "speculative". Reading ahead in memory and storage (sequential pre-fetch to buffer) is also speculative. It all adds up.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment106374648_47141245)
 
 @mckenzm: out-of-order speculative exec makes branch prediction even more valuable; as well as hiding fetch/decode bubbles, branch prediction + speculative exec removes control dependencies from critical path latency. Code inside or after an `if()` block can execute _before_ the branch condition is known. Or for a search loop like `strlen` or `memchr`, interations can overlap. If you had to wait for the match-or-not result to be known before running any of the next iteration, you'd bottleneck on cache load + ALU latency instead of throughput.
 
 Justin Meskan
 
-Justin Meskan Over a year ago
+[Justin Meskan](/users/9045408/justin-meskan) [Over a year ago](#comment110823751_47141245)
 
 Did you make the example app in JavaFX?
 
 Eugene
 
-Eugene Over a year ago
+[Eugene](/users/3378204/eugene) [Over a year ago](#comment110824362_47141245)
 
-@HannaMcquaig No, it's made by Swing. The code is available at github.com/Eugene-Mark/branch-predictor-demo.
+@HannaMcquaig No, it's made by Swing. The code is available at [github.com/Eugene-Mark/branch-predictor-demo](https://github.com/Eugene-Mark/branch-predictor-demo).
 
 This answer is useful
 
@@ -1543,7 +1546,7 @@ It is important to understand that branch misprediction doesn't slow down progra
 
 `if (expression) { // Run 1 } else { // Run 2 }`
 
-Whenever there's an `if-else` \\ `switch` statement, the expression has to be evaluated to determine which block should be executed. In the assembly code generated by the compiler, conditional branch instructions are inserted.
+Whenever there's an `if-else` \\ `switch` statement, the expression has to be evaluated to determine which block should be executed. In the assembly code generated by the compiler, conditional [branch](https://en.wikipedia.org/wiki/Branch_\(computer_science\)) instructions are inserted.
 
 A branch instruction can cause a computer to begin executing a different instruction sequence and thus deviate from its default behavior of executing instructions in order (i.e. if the expression is false, the program skips the code of the `if` block) depending on some condition, which is the expression evaluation in our case.
 
@@ -1559,23 +1562,23 @@ While flushing pipelines is super fast, nowadays taking this gamble is worth it.
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/45503985/edit)
 
 Follow this answer to receive notifications
 
-edited Jun 20, 2020 at 9:12
+[edited Jun 20, 2020 at 9:12](/posts/45503985/revisions "show all edits to this post")
 
-CommunityBot
+[Community](/users/-1/community)Bot
 
 111 silver badge
 
 answered Aug 4, 2017 at 10:07
 
-Tony Tannous
+[Tony Tannous](/users/6530695/tony-tannous)
 
 15k1212 gold badges5959 silver badges9393 bronze badges
 
@@ -1583,9 +1586,9 @@ Tony Tannous
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment106374699_45503985)
 
-_While flushing pipelines is super fast_ Not really. It's fast compared to a cache miss all the way to DRAM, but on a modern high-performance x86 (like Intel Sandybridge-family) it's about a dozen cycles. Although fast recovery does allow it to avoid waiting for all older independent instructions to reach retirement before starting recovery, you still lose a lot of front-end cycles on a mispredict. What exactly happens when a skylake CPU mispredicts a branch?. (And each cycle can be about 4 instructions of work.) Bad for high-throughput code.
+_While flushing pipelines is super fast_ Not really. It's fast compared to a cache miss all the way to DRAM, but on a modern high-performance x86 (like Intel Sandybridge-family) it's about a dozen cycles. Although fast recovery does allow it to avoid waiting for all older independent instructions to reach retirement before starting recovery, you still lose a lot of front-end cycles on a mispredict. [What exactly happens when a skylake CPU mispredicts a branch?](//stackoverflow.com/q/50984007). (And each cycle can be about 4 instructions of work.) Bad for high-throughput code.
 
 This answer is useful
 
@@ -1599,7 +1602,7 @@ Loading when this answer was accepted…
 
 Show activity on this post.
 
-On ARM, there is no branch needed, because every instruction has a 4-bit condition field, which tests (at zero cost) any of 16 different different conditions that may arise in the Processor Status Register, and if the condition on an instruction is false, the instruction is skipped. This eliminates the need for short branches, and there would be no branch prediction hit for this algorithm. **Therefore, the sorted version of this algorithm would run slower than the unsorted version on ARM, because of the extra overhead of sorting.**
+On ARM, there is no branch needed, because every instruction has a 4-bit condition field, which tests (at zero cost) any of [16 different different conditions](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/condition-codes-1-condition-flags-and-codes) that may arise in the Processor Status Register, and if the condition on an instruction is false, the instruction is skipped. This eliminates the need for short branches, and there would be no branch prediction hit for this algorithm. **Therefore, the sorted version of this algorithm would run slower than the unsorted version on ARM, because of the extra overhead of sorting.**
 
 The inner loop for this algorithm would look something like the following in ARM assembly language:
 
@@ -1624,19 +1627,19 @@ If you have ever wondered why ARM has been so phenomenally successful, the brill
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/47942152/edit)
 
 Follow this answer to receive notifications
 
-edited Oct 20, 2020 at 22:33
+[edited Oct 20, 2020 at 22:33](/posts/47942152/revisions "show all edits to this post")
 
 answered Dec 22, 2017 at 13:13
 
-Luke Hutchison
+[Luke Hutchison](/users/3950982/luke-hutchison)
 
 9,35033 gold badges5757 silver badges5353 bronze badges
 
@@ -1644,31 +1647,31 @@ Luke Hutchison
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment87727753_47942152)
 
 The other innovation in ARM is the addition of the S instruction suffix, also optional on (almost) all instructions, which if absent, prevents instructions from changing status bits (with the exception of the CMP instruction, whose job is to set status bits, so it doesn't need the S suffix). This allows you to avoid CMP instructions in many cases, as long as the comparison is with zero or similar (eg. SUBS R0, R0, #1 will set the Z (Zero) bit when R0 reaches zero). Conditionals and the S suffix incur zero overhead. It's quite a beautiful ISA.
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment87727802_47942152)
 
 Not adding the S suffix allows you to have several conditional instructions in a row without worrying that one of them might change the status bits, which might otherwise have the side effect of skipping the rest of the conditional instructions.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment106733423_47942152)
 
 Note that the OP is _not_ including the time to sort in their measurement. It's probably an overall loss to sort first before running a branch x86 loop, too, even though the non-sorted case makes the loop run a lot slower. But sorting a big array requires a _lot_ of work.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment106733504_47942152)
 
-BTW, you could save an instruction in the loop by indexing relative to the end of the array. Before the loop, set up `R2 = data + arraySize`, then start with `R1 = -arraySize`. The bottom of the loop becomes `adds r1, r1, #1` / `bnz inner_loop`. Compilers don't use this optimization for some reason :/ But anyway, predicated execution of the add is not fundamentally different in this case from what you can do with branchless code on other ISAs, like x86 `cmov`. Although it's not as nice: gcc optimization flag -O3 makes code slower than -O2
+BTW, you could save an instruction in the loop by indexing relative to the end of the array. Before the loop, set up `R2 = data + arraySize`, then start with `R1 = -arraySize`. The bottom of the loop becomes `adds r1, r1, #1` / `bnz inner_loop`. Compilers don't use this optimization for some reason :/ But anyway, predicated execution of the add is not fundamentally different in this case from what you can do with branchless code on other ISAs, like x86 `cmov`. Although it's not as nice: [gcc optimization flag -O3 makes code slower than -O2](//stackoverflow.com/q/28875325)
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment106733620_47942152)
 
 (ARM predicated execution truly NOPs the instruction, so you can even use it on loads or stores that would fault, unlike x86 `cmov` with a memory source operand. Most ISAs, including AArch64, only have ALU select operations. So ARM predication can be powerful, and usable more efficiently than branchless code on most ISAs.)
 
@@ -1695,19 +1698,19 @@ The branch prediction will miss only once.
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/47457772/edit)
 
 Follow this answer to receive notifications
 
-edited Mar 5, 2019 at 9:58
+[edited Mar 5, 2019 at 9:58](/posts/47457772/revisions "show all edits to this post")
 
 answered Nov 23, 2017 at 14:28
 
-Yochai Timmer
+[Yochai Timmer](/users/536086/yochai-timmer)
 
 49.7k2525 gold badges155155 silver badges191191 bronze badges
 
@@ -1715,31 +1718,31 @@ Yochai Timmer
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment93233390_47457772)
 
 Right, but the setup cost of sorting the array is O(N log N), so breaking early doesn't help you if the only reason you are sorting the array is to be able to break early. If, however, you have other reasons to pre-sort the array, then yes, this is valuable.
 
 Yochai Timmer
 
-Yochai Timmer Over a year ago
+[Yochai Timmer](/users/536086/yochai-timmer) [Over a year ago](#comment96577845_47457772)
 
 Depends how many times you sort the data compared to how many times you loop on it. The sort in this example is just an example, it doesn't have to be just before the loop
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment96616030_47457772)
 
 Yes, that's exactly the point I made in my first comment :-) You say "The branch prediction will miss only once." But you are not counting the O(N log N) branch prediction misses inside the sort algorithm, which is actually greater than the O(N) branch prediction misses in the unsorted case. So you would need to use the entirety of the sorted data O(log N) times to break even (probably actually closer to O(10 log N), depending on the sort algorithm, e.g. for quicksort, due to cache misses -- mergesort is more cache-coherent, so you would need closer to O(2 log N) usages to break even.)
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment96616273_47457772)
 
 One significant optimization though would be to do only "half a quicksort", sorting only items less than the target pivot value of 127 (assuming everything less than _or equal to_ the pivot is sorted after the pivot). Once you reach the pivot, sum the elements before the pivot. This would run in O(N) startup time rather than O(N log N), although there will still be a lot of branch prediction misses, probably of the order of O(5 N) based on the numbers I gave before, since it's half a quicksort.
 
 Jason Short
 
-Jason Short Over a year ago
+[Jason Short](/users/19974/jason-short) [Over a year ago](#comment128714705_47457772)
 
 Came here looking for this exact answer. Early abort is the main reason to sort. Limit the search space entirely. In my testing it was 2x faster again by being able to stop looking much earlier in the loop.
 
@@ -1783,29 +1786,29 @@ Branch prediction: Guessing/predicting which road is straight and following it w
 
 Although both the roads reach the same destination, the straight road is shorter, and the other is longer. If then you choose the other by mistake, there is no turning back, and so you will waste some extra time if you choose the longer road. This is similar to what happens in the computer, and I hope this helped you understand better.
 
-Also I want to cite @Simon\_Weaver from the comments:
+Also I want to cite [@Simon\_Weaver](/u/16940) from the comments:
 
 > It doesn’t make fewer predictions - it makes fewer incorrect predictions. It still has to predict for each time through the loop...
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/47700573/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 10, 2021 at 15:59
+[edited Jan 10, 2021 at 15:59](/posts/47700573/revisions "show all edits to this post")
 
-Deduplicator
+[Deduplicator](/users/3204551/deduplicator)
 
 46k77 gold badges7575 silver badges125125 bronze badges
 
 answered Dec 7, 2017 at 17:28
 
-omkaartg
+[omkaartg](/users/8459055/omkaartg)
 
 2,79711 gold badge1212 silver badges2222 bronze badges
 
@@ -1829,33 +1832,33 @@ I tried the same code with MATLAB 2011b with my MacBook Pro (Intel i7, 64 bit, 2
 
 The results for the above MATLAB code are as follows:
 
- `a: Elapsed time (without sorting) = 3479.880861 seconds. b: Elapsed time (with sorting ) = 2377.873098 seconds.`
+  `a: Elapsed time (without sorting) = 3479.880861 seconds. b: Elapsed time (with sorting ) = 2377.873098 seconds.`
 
 The results of the C code as in @GManNickG I get:
 
- `a: Elapsed time (without sorting) = 19.8761 sec. b: Elapsed time (with sorting ) = 7.37778 sec.`
+  `a: Elapsed time (without sorting) = 19.8761 sec. b: Elapsed time (with sorting ) = 7.37778 sec.`
 
 Based on this, it looks MATLAB is almost _175 times_ slower than the C implementation without sorting and _350 times_ slower with sorting. In other words, the effect (of branch prediction) is _1.46x_ for MATLAB implementation and _2.7x_ for the C implementation.
 
 Share a link to this answer
 
-CC BY-SA 3.0
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/ "The current license for this post: CC BY-SA 3.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/14092288/edit)
 
 Follow this answer to receive notifications
 
-edited Mar 16, 2018 at 12:45
+[edited Mar 16, 2018 at 12:45](/posts/14092288/revisions "show all edits to this post")
 
-Peter Mortensen
+[Peter Mortensen](/users/63550/peter-mortensen)
 
 31.1k2222 gold badges111111 silver badges134134 bronze badges
 
 answered Dec 30, 2012 at 16:16
 
-Shan
+[Shan](/users/1020149/shan)
 
 5,2521313 gold badges4747 silver badges5959 bronze badges
 
@@ -1863,19 +1866,19 @@ Shan
 
 ysap
 
-ysap Over a year ago
+[ysap](/users/274579/ysap) [Over a year ago](#comment23890444_14092288)
 
 Just for the sake of completeness, this is probably not how you'd implement that in Matlab. I bet it'd be much faster if done after vectorizing the problem.
 
 Shan
 
-Shan Over a year ago
+[Shan](/users/1020149/shan) [Over a year ago](#comment23895018_14092288)
 
 Matlab does automatic parallelization / vectorization in many situations but the issue here is to check the effect of branch prediction. Matlab is not immune in anyway!
 
 Thorbjørn Ravn Andersen
 
-Thorbjørn Ravn Andersen Over a year ago
+[Thorbjørn Ravn Andersen](/users/53897/thorbj%c3%b8rn-ravn-andersen) [Over a year ago](#comment27061346_14092288)
 
 Does matlab use native numbers or a mat lab specific implementation (infinite amount of digits or so?)
 
@@ -1903,19 +1906,19 @@ This also "proves" that it has nothing to do with any algorithmic issue such as 
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/53689911/edit)
 
 Follow this answer to receive notifications
 
-edited Jul 2, 2019 at 4:08
+[edited Jul 2, 2019 at 4:08](/posts/53689911/revisions "show all edits to this post")
 
 answered Dec 9, 2018 at 6:18
 
-user2297550
+[user2297550](/users/2297550/user2297550)
 
 3,42433 gold badges3131 silver badges4444 bronze badges
 
@@ -1923,31 +1926,31 @@ user2297550
 
 Luke Hutchison
 
-Luke Hutchison Over a year ago
+[Luke Hutchison](/users/3950982/luke-hutchison) [Over a year ago](#comment96615671_53689911)
 
 I don't really see how this proves anything? The only thing you have shown is that "not doing all the work of sorting the whole array takes less time than sorting the whole array". Your claim that this "also runs fastest" is very architecture-dependent. See my answer about how this works on ARM. PS you could make your code faster on non-ARM architectures by putting the summation inside the 200-element block loop, sorting in reverse, and then using Yochai Timmer's suggestion of breaking once you get an out-of range value. That way each 200-element block summation can be terminated early.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment104848977_53689911)
 
 If you just want to implement the algorithm efficiently over unsorted data, you would do that operation branchlessly (and with SIMD, e.g. with x86 `pcmpgtb` to find elements with their high bit set, then AND to zero smaller elements). Spending any time actually sorting chunks would be slower. A branchless version would have data-independent performance, also proving that the cost came from branch misprediction. Or just use performance counters to observe that directly, like Skylake `int_misc.clear_resteer_cycles` or `int_misc.recovery_cycles` to count front-end idle cycles from mispredicts
 
 user2297550
 
-user2297550 Over a year ago
+[user2297550](/users/2297550/user2297550) [Over a year ago](#comment107930122_53689911)
 
 Both comments above seem to ignore the general algorithmic issues and complexity, in favor of advocating specialized hardware with special machine instructions. I find the first one particularly petty in that it blithely dismisses the important general insights in this answer in blind favor of specialized machine instructions.
 
 user2297550
 
-user2297550 Over a year ago
+[user2297550](/users/2297550/user2297550) [Over a year ago](#comment120275132_53689911)
 
 Also note that specialized hardware instructions do not help if the computation within the `if` is more complicated than an simple addition, which is quite likely in the general case. Therefore, this answer is unique in offering a general solution that is still `O(n)`
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment127160594_53689911)
 
 Just for the record, since our previous comments have been nuked, I don't think there's anything to gain in _overall_ performance by spending time (partially) sorting, unless you're artificially repeating the loop over the array like in this microbenchmark. Then yes, this piecewise sort gets close to the benefit of a full sort (e.g. 2.4s for this vs. 1.7s for a full sort on Skylake, vs. 10.9s for no sort before doing 100k passes. If you use `g++ -Os -Wa,-mbranches-within-32B-boundaries` to make branchy asm in the first place instead of a normal build).
 
@@ -1965,21 +1968,21 @@ Loading when this answer was accepted…
 
 Show activity on this post.
 
-_Bjarne Stroustrup's Answer to this question:_
+_[Bjarne Stroustrup's Answer](//stackoverflow.blog/2019/10/11/c-creator-bjarne-stroustrup-answers-our-top-five-c-questions/) to this question:_
 
 That sounds like an interview question. Is it true? How would you know? It is a bad idea to answer questions about efficiency without first doing some measurements, so it is important to know how to measure.
 
 So, I tried with a vector of a million integers and got:
 
 ```
-Already sorted 32995 milliseconds
-Shuffled 125944 milliseconds
+Already sorted    32995 milliseconds
+Shuffled          125944 milliseconds
 
-Already sorted 18610 milliseconds
-Shuffled 133304 milliseconds
+Already sorted    18610 milliseconds
+Shuffled          133304 milliseconds
 
-Already sorted 17942 milliseconds
-Shuffled 107858 milliseconds
+Already sorted    17942 milliseconds
+Shuffled          107858 milliseconds
 ```
 
 I ran that a few times to be sure. Yes, the phenomenon is real. My key code was:
@@ -1998,32 +2001,32 @@ If you want to write efficient code, you need to know a bit about machine archit
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/58385294/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 10, 2021 at 16:02
+[edited Jan 10, 2021 at 16:02](/posts/58385294/revisions "show all edits to this post")
 
 community wiki
 
-2 revs, 2 users 75% 
-Selcuk
+[2 revs, 2 users 75% 
+](/posts/58385294/revisions "show revision history for this post")[Selcuk](/users/2011147)
 
 ## 2 Comments
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment118605070_58385294)
 
 This seems to be missing the point of the question, and is answering whether sorting itself is faster with already-sorted arrays. This is less surprising because as this answer points out, there's less work to be done (with most sort algorithms other than merge-sort), on top of the branch-prediction effect. The actual question factors out this effect and is only timing a conditional increment.
 
 RARE Kpop Manifesto
 
-RARE Kpop Manifesto Jan 5 at 2:45
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto) [Jan 5 at 2:45](#comment140928238_58385294)
 
 which is still 2 different questions - most algos still have major speed differences between perfectly ascending-order sorted arrays and perfectly reverse-sorted arrays (the same reason `tail -n` is always much harder than `head -n` cuz it needs to deal with input rows perfectly sorted by row number, which is same as being perfectly reverse-sorted from `tail`'s perspective)
 
@@ -2041,29 +2044,29 @@ Show activity on this post.
 
 This question is rooted in _branch prediction models_ on CPUs. I'd recommend reading this paper:
 
-**Increasing the Instruction Fetch Rate via Multiple Branch Prediction and a Branch Address Cache** (But real CPUs these days still don't make multiple taken branch-predictions per clock cycle, except for Haswell and later effectively unrolling tiny loops in its loop buffer. Modern CPUs can predict multiple branches not-taken to make use of their fetches in large contiguous blocks.)
+[**Increasing the Instruction Fetch Rate via Multiple Branch Prediction and a Branch Address Cache**](https://pdfs.semanticscholar.org/5634/4be375cfed0f79cb9d009ac838682e1bace3.pdf) (But real CPUs these days still don't make multiple taken branch-predictions per clock cycle, except for Haswell and later [effectively unrolling tiny loops in its loop buffer](https://stackoverflow.com/questions/39311872/is-performance-reduced-when-executing-loops-whose-uop-count-is-not-a-multiple-of). Modern CPUs can predict multiple branches not-taken to make use of their fetches in large contiguous blocks.)
 
 When you have sorted elements, branch prediction easily predicts correctly except right at the boundary, letting instructions flow through the CPU pipeline efficiently, without having to rewind and take the correct path on mispredictions.
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/58531294/edit)
 
 Follow this answer to receive notifications
 
-edited Nov 14, 2024 at 15:48
+[edited Nov 14, 2024 at 15:48](/posts/58531294/revisions "show all edits to this post")
 
-Peter Cordes
+[Peter Cordes](/users/224132/peter-cordes)
 
 381k5353 gold badges760760 silver badges1k1k bronze badges
 
 answered Oct 23, 2019 at 21:35
 
-hatirlatici
+[hatirlatici](/users/3821643/hatirlatici)
 
 1,71522 gold badges1313 silver badges2626 bronze badges
 
@@ -2071,25 +2074,25 @@ hatirlatici
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment104848500_58531294)
 
 The instructions stay hot in the CPU's L1 instruction cache regardless of mispredicts. The problem is fetching them into the _pipeline_ in the right order, before the immediately-previous instructions have decoded and finished executing.
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment126421814_58531294)
 
 Also, in a simple CPU that has an "instruction register", it definitely always needs to read each instruction into the IR as part of executing it. The last paragraph of this answer is very distorted from how CPUs really work. Some CPUs with a loop buffer may be able to lock a sequence of instructions down into a loop to avoid even re-fetching from L1i cache, as long as they continue to execute the same way, but that's usually minor (e.g. in Intel Skylake the microcode update disabling the LSD didn't hurt much), just getting a little bit more value out of correct branch prediction.
 
 hatirlatici
 
-hatirlatici Over a year ago
+[hatirlatici](/users/3821643/hatirlatici) [Over a year ago](#comment126483396_58531294)
 
-The paper gives a general idea of how it handles fetching coordinated data as instruction from the o(n) perspective, also it was written in the early 90s so none of the cutting-edge memory/register designs did not exist at that time. The modern CPU cache designs and algorithms can be found in multiple papers for a benchmark, one of them might be ieeexplore.ieee.org/document/1027060?arnumber=1027060
+The paper gives a general idea of how it handles fetching coordinated data as instruction from the o(n) perspective, also it was written in the early 90s so none of the cutting-edge memory/register designs did not exist at that time. The modern CPU cache designs and algorithms can be found in multiple papers for a benchmark, one of them might be [ieeexplore.ieee.org/document/1027060?arnumber=1027060](https://ieeexplore.ieee.org/document/1027060?arnumber=1027060)
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment126485018_58531294)
 
 I'm not talking about what the linked paper says, I'm talking about the sentences in your actual answer, specifically the final paragraph. (The paper in your answer was published in 1993, and mentions superscalar CPUs and future directions of cpu architecture, so out-of-order exec was on the horizon, and it's definitely assuming parallel fetch and decode of multiple instructions. In fact that's the whole point of their proposal; seeing through multiple branches per clock cycle in a wider design, fetching them from L1i cache into the pipeline. Current CPUs still don't do that.)
 
@@ -2126,23 +2129,23 @@ unsorted
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/69851522/edit)
 
 Follow this answer to receive notifications
 
-edited Mar 18, 2022 at 5:43
+[edited Mar 18, 2022 at 5:43](/posts/69851522/revisions "show all edits to this post")
 
-Günter Zöchbauer
+[Günter Zöchbauer](/users/217408/g%c3%bcnter-z%c3%b6chbauer)
 
 662k235235 gold badges2.1k2.1k silver badges1.6k1.6k bronze badges
 
 answered Nov 5, 2021 at 10:05
 
-Geek26
+[Geek26](/users/17311156/geek26)
 
 52966 silver badges1111 bronze badges
 
@@ -2150,7 +2153,7 @@ Geek26
 
 Peter Cordes
 
-Peter Cordes Over a year ago
+[Peter Cordes](/users/224132/peter-cordes) [Over a year ago](#comment123474693_69851522)
 
 The should be a change near the middle of the sorted train-track / path of execution, as the branch inside the loop is taken for the first ~half, not-taken for the last ~half of the elements. (Or vice versa.) Also, what do the 5 different levels in the unsorted case mean? It's a 2-way branch.
 
@@ -2184,19 +2187,19 @@ And scale it by the `100,000` only once at the `return` statement. In order to b
 
 Share a link to this answer
 
-CC BY-SA 4.0
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "The current license for this post: CC BY-SA 4.0")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/79860452/edit)
 
 Follow this answer to receive notifications
 
-edited Jan 5 at 2:31
+[edited Jan 5 at 2:31](/posts/79860452/revisions "show all edits to this post")
 
 answered Jan 5 at 2:21
 
-RARE Kpop Manifesto
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto)
 
 3,11266 silver badges1515 bronze badges
 
@@ -2204,37 +2207,37 @@ RARE Kpop Manifesto
 
 Peter Cordes
 
-Peter Cordes Jan 5 at 2:40
+[Peter Cordes](/users/224132/peter-cordes) [Jan 5 at 2:40](#comment140928231_79860452)
 
 The 100k outer loop is a repeat loop for benchmarking, to make the time easy to measure without having to make the array gigantic. A real use-case wouldn't scale at all, but yes you could manually defeat it with loop-interchange to get the same result. And yes, a histogram is one way to make the main loop branchless. Certainly not the most efficient way if you have a compiler capable of doing a good job with `sum += x >= 128 ? x : 0;`, but is portable.
 
 Peter Cordes
 
-Peter Cordes Jan 5 at 2:41
+[Peter Cordes](/users/224132/peter-cordes) [Jan 5 at 2:41](#comment140928233_79860452)
 
-C++ does have `for (auto x : data)` to iterate over values of a container. An array (not just pointer) is a valid container, as are STL containers like `std::vector`. (Often people make `x` a reference with `auto &&x`, but value works here.) en.cppreference.com/w/cpp/language/range-for.html has some examples and documentation.
+C++ does have `for (auto x : data)` to iterate over values of a container. An array (not just pointer) is a valid container, as are STL containers like `std::vector`. (Often people make `x` a reference with `auto &&x`, but value works here.) [en.cppreference.com/w/cpp/language/range-for.html](https://en.cppreference.com/w/cpp/language/range-for.html) has some examples and documentation.
 
 Peter Cordes
 
-Peter Cordes Jan 5 at 2:45
+[Peter Cordes](/users/224132/peter-cordes) [Jan 5 at 2:45](#comment140928236_79860452)
 
 A histogram is obviously ideal for answering multiple queries, like sum of values >= 127, >= 128, >=129 etc. Otherwise wouldn't be worth constructing, unless using an implementation that can't make branchless code and suffers a lot from branch mispredicts.
 
 RARE Kpop Manifesto
 
-RARE Kpop Manifesto Jan 5 at 21:43
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto) [Jan 5 at 21:43](#comment140929557_79860452)
 
 would something like this make it faster `sum += (x >= 128) * x` - at least by any `CPU` with any brain since the boolean outcome is used no matter what, esp since your version is still doing `sum +=` regardless. There's always `x >= 128 ? (sum += x) : 0` but somehow people (for rather baffling reasons) dislike putting both `lhs` and `rhs` into the middle of a ternary (i'm guessing that's also part of the contrived rationale mentioned by the Fascist Dictator for Life when he imposed the most bloated and counter-intuitive ternary syntax upon others)
 
 Peter Cordes
 
-Peter Cordes Jan 6 at 1:22
+[Peter Cordes](/users/224132/peter-cordes) [Jan 6 at 1:22](#comment140929711_79860452)
 
 Putting `sum += x` in the middle of the ternary makes it logically identical to an `if`, requiring the compiler to do if-conversion optimization to make branchless asm. Having the `sum+=` part happen unconditionally (in the abstract machine) encourages compilers to make branchless code, adding 0 or x. `(x>=128)*x` compiled naively would require materializing an actual `0` or `1` and then multiplying, which isn't a disaster on modern CPUs, but isn't the asm you actually want except possibly on RISC-V without the extension that adds `cmov`. Good compilers can often optimize that multiply.
 
 RARE Kpop Manifesto
 
-RARE Kpop Manifesto Jan 5 at 23:22
+[RARE Kpop Manifesto](/users/14672114/rare-kpop-manifesto) [Jan 5 at 23:22](#comment140929640_79860452)
 
 Thank god Yoda doesn't speak syntax jargon. Otherwise he'd be like ::::::::::::: ::::::::::::::::: :::::::::::::::::: ::::::: `do while || do while not. there is no try catch.`
 
@@ -2242,14 +2245,14 @@ Start asking to get answers
 
 Find the answer to your question by asking.
 
-Ask question
+[Ask question](/questions/ask)
 
 Explore related questions
 
-* java
-* c++
-* performance
-* cpu-architecture
-* branch-prediction
+* [java](/questions/tagged/java "show questions tagged 'java'")
+* [c++](/questions/tagged/c%2b%2b "show questions tagged 'c++'")
+* [performance](/questions/tagged/performance "show questions tagged 'performance'")
+* [cpu-architecture](/questions/tagged/cpu-architecture "show questions tagged 'cpu-architecture'")
+* [branch-prediction](/questions/tagged/branch-prediction "show questions tagged 'branch-prediction'")
 
 See similar questions with these tags.

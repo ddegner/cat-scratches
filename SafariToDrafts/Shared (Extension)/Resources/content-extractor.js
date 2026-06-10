@@ -173,6 +173,12 @@
             buffer.push(line);
         }
 
+        // An unterminated fence is page noise, not a real code block — treat
+        // the trailing segment as plain text so cleanup rules still apply.
+        if (inFence) {
+            inFence = false;
+        }
+
         flush();
         return segments;
     }
@@ -204,39 +210,47 @@
         return content;
     }
 
+    function findTailTruncationIndex(segments, regex) {
+        // Tail rules must see the whole document so that $ keeps meaning
+        // end-of-document; matching per segment would let $ fire at every
+        // code-fence boundary. Matches starting inside a fence are skipped.
+        const fullText = joinMarkdownFenceSegments(segments);
+        const fencedRanges = [];
+        let offset = 0;
+
+        for (const segment of segments) {
+            if (segment.fenced) {
+                fencedRanges.push([offset, offset + segment.text.length]);
+            }
+            offset += segment.text.length + 1; // +1 for the joining '\n'
+        }
+
+        const flags = regex.flags.includes('g') ? regex.flags : regex.flags + 'g';
+        const searchRegex = new RegExp(regex.source, flags);
+        let match;
+
+        while ((match = searchRegex.exec(fullText)) !== null) {
+            const index = match.index;
+            const insideFence = fencedRanges.some(range => index >= range[0] && index < range[1]);
+            if (!insideFence) {
+                return { fullText, index };
+            }
+            searchRegex.lastIndex = index + Math.max(match[0].length, 1);
+        }
+
+        return { fullText, index: -1 };
+    }
+
     function applyTextCleanupRules(content, rules) {
         let segments = splitMarkdownFenceSegments(content);
         const { compiled } = compileTextCleanupRules(rules);
 
         for (const rule of compiled) {
             if (rule.type === 'tail') {
-                const nextSegments = [];
-                let truncated = false;
-
-                for (const segment of segments) {
-                    if (truncated) {
-                        continue;
-                    }
-
-                    if (segment.fenced) {
-                        nextSegments.push(segment);
-                        continue;
-                    }
-
-                    rule.regex.lastIndex = 0;
-                    const match = rule.regex.exec(segment.text);
-                    if (match) {
-                        nextSegments.push({
-                            fenced: false,
-                            text: segment.text.slice(0, match.index)
-                        });
-                        truncated = true;
-                    } else {
-                        nextSegments.push(segment);
-                    }
+                const { fullText, index } = findTailTruncationIndex(segments, rule.regex);
+                if (index >= 0) {
+                    segments = splitMarkdownFenceSegments(fullText.slice(0, index));
                 }
-
-                segments = nextSegments;
             } else {
                 segments = segments.map(segment => segment.fenced
                     ? segment
@@ -418,13 +432,7 @@
 
         try {
             if (typeof TurndownService !== 'undefined') {
-                turndownService = new TurndownService({
-                    headingStyle: 'atx',
-                    hr: '---',
-                    bulletListMarker: '*',
-                    codeBlockStyle: 'fenced',
-                    linkStyle: 'inlined'
-                });
+                turndownService = createBaseTurndownService();
 
                 // Add custom rules
                 turndownService.addRule('removeUnwanted', {

@@ -1,16 +1,16 @@
-Just $57. That's how much savers will earn in annual interest with a $15,000 deposit made into a traditional savings account now. With a barely noticeable average interest rate of 0.38%, rates here have actually declined, down from a 0.39% rate in March. Or, put another way, savers contemplating a $15,000 deposit into this account now can expect to earn a little more than $1 per week on their funds over the next year. 
+Just $57. That's how much savers will earn in annual interest with a $15,000 deposit made into a traditional savings account now. With a barely noticeable average interest rate of [0.38%](https://www.fdic.gov/national-rates-and-rate-caps), rates here have actually declined, down from a 0.39% rate in March. Or, put another way, savers contemplating a $15,000 deposit into this account now can expect to earn a little more than $1 per week on their funds over the next year. 
 
 But they don't have to.
 
-There are multiple high-rate savings account alternatives to consider now. And after the Federal Reserve kept interest rates on pause in its April meeting, and is likely to keep it frozen for the foreseeable future, savers can shop around for high-rate accounts with confidence, knowing that they're unlikely to drop during their search. There are three primary ones to consider for a $15,000 deposit now: a certificate of deposit (CD) account, a high-yield savings account and a money market account. All three come with competitive rates now, and all three will result in interest earnings exponentially higher than what the traditional savings account offers.
+There are multiple high-rate savings account alternatives to consider now. And after the [Federal Reserve kept interest rates on pause](https://www.cbsnews.com/news/federal-reserve-fomc-meeting-today-rate-decision-jerome-powell-kevin-warsh/) in its April meeting, and is likely to keep it frozen for the foreseeable future, savers can shop around for high-rate accounts with confidence, knowing that they're unlikely to drop during their search. There are three primary ones to consider for a $15,000 deposit now: a [certificate of deposit (CD) account](https://www.cbsnews.com/news/whats-a-certificate-of-deposit-cd/), a [high-yield savings account](https://www.cbsnews.com/news/high-yield-savings-account/) and a [money market account](https://www.cbsnews.com/news/money-market-accounts/). All three come with competitive rates now, and all three will result in interest earnings exponentially higher than what the traditional savings account offers.
 
 But which, exactly, will be the most profitable? Below, we'll crunch the numbers savers need to know to determine which account is worth opening now.
 
-See how much interest you could be earning with a top savings account here.
+[See how much interest you could be earning with a top savings account here](https://www.bankrate.com/landing/cbsnews/best-savings-options/?sub-id=www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now).
 
 ## **$15,000 CD vs. $15,000 high-yield savings account vs. $15,000 money market account: Here's which is most profitable now**
 
-A high-yield savings account has a variable interest rate that will change based on market conditions, as will a money market account. A CD, however, has a fixed interest rate that will remain the same through the account's maturity date. Determining the interest-earning capacity of the CD, then, can be done with precision, but some speculation will be required with the variable rate alternatives. 
+A high-yield savings account has a [variable interest rate](https://www.cbsnews.com/news/fixed-vs-variable-interest-rate-which-is-better-for-your-savings-now/) that will change based on market conditions, as will a money market account. A CD, however, has a fixed interest rate that will remain the same through the account's [maturity date](https://www.cbsnews.com/news/what-to-do-when-your-cd-matures-according-to-experts/). Determining the interest-earning capacity of the CD, then, can be done with precision, but some speculation will be required with the variable rate alternatives. 
 
 At the same time, with rates largely expected to remain elevated for at least the next few months, savers can still establish an approximate idea of how much money they stand to earn. Here's what that looks like over the next nine months, assuming the variable rates don't change and that no penalties are issued against any of the three:
 
@@ -31,9 +31,9 @@ At the same time, with rates largely expected to remain elevated for at least th
 
 Out of the three scenarios outlined above, the CD account is more profitable in two of the three. And that's guaranteed interest, unlike with the high-yield savings and money market accounts. In other words, depending on how the rate climate evolves, the CD may actually become more profitable in all three timelines. 
 
-Still, it's critical that you only deposit an amount of money into a CD that you can afford to part with for the full term, whether that be $15,000 or a different amount. CD early withdrawal penalties can negate most or even all of the interest earned on the account to that point.
+Still, it's critical that you only deposit an amount of money into a CD that you can afford to part with for the full [term](https://www.cbsnews.com/news/cd-terms-everything-to-know/), whether that be $15,000 or a different amount. [CD early withdrawal penalties](https://www.cbsnews.com/news/cd-early-withdrawal-penalties-what-to-know/) can negate most or even all of the interest earned on the account to that point.
 
-Start earning more interest on your money with a CD account here.
+[Start earning more interest on your money with a CD account here](https://www.bankrate.com/landing/cbsnews/best-cd-options/?sub-id=www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now).
 
 ## **The bottom line**
 

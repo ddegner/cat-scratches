@@ -6,8 +6,8 @@ For example, within the following `VStack`, we can simply place each subview wit
 
 ```
 VStack {
- Image(systemName: "star")
- Text("Hello, world!")
+    Image(systemName: "star")
+    Text("Hello, world!")
 }
 ```
 
@@ -17,9 +17,9 @@ For example, the `View` protocol that we use every time we want to define a cust
 
 ```
 @MainActor @preconcurrency public protocol View {
- associatedtype Body : View
+    associatedtype Body : View
 
- @ViewBuilder @MainActor @preconcurrency var body: Self.Body { get }
+    @ViewBuilder @MainActor @preconcurrency var body: Self.Body { get }
 }
 ```
 
@@ -27,15 +27,15 @@ That’s what makes it possible to use things like control flow within our view 
 
 ```
 struct RootView: View {
- @State private var user: User?
+    @State private var user: User?
 
- var body: some View {
- if let user {
- HomeView(user: user)
+    var body: some View {
+        if let user {
+    HomeView(user: user)
 } else {
- LoginView(user: $user)
+    LoginView(user: $user)
 }
- }
+    }
 }
 ```
 
@@ -43,30 +43,34 @@ struct RootView: View {
 
 But there _are_ situations in which using `ViewBuilder` directly can be incredibly useful — so let’s go ahead and explore a few such examples, along with some tips and tricks that can be good to keep in mind when writing that kind of code.
 
+[
+
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-## Custom containers
+](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
 
-Any property, function, or closure can be marked with the `@ViewBuilder` attribute, which opts that code into getting the same _“DSL-like”_ capabilities as SwiftUI’s built-in APIs. For example, let’s say that we’re building a custom `Container` view, which renders a `header` on top of a `content` view, while also applying some default styling to those two components:
+## [Custom containers](#custom-containers)
+
+Any property, function, or closure can be marked with the `@ViewBuilder` attribute, which opts that code into getting the same _[“DSL-like”](https://en.wikipedia.org/wiki/Domain-specific_language)_ capabilities as SwiftUI’s built-in APIs. For example, let’s say that we’re building a custom `Container` view, which renders a `header` on top of a `content` view, while also applying some default styling to those two components:
 
 ```
 struct Container<Header: View, Content: View>: View {
- var header: Header
- var content: Content
+    var header: Header
+    var content: Content
 
- var body: some View {
- VStack(spacing: 0) {
- header
- .frame(maxWidth: .infinity)
- .padding()
- .foregroundStyle(.white)
- .background(Color.blue)
+    var body: some View {
+        VStack(spacing: 0) {
+            header
+                .frame(maxWidth: .infinity)
+                .padding()
+                .foregroundStyle(.white)
+                .background(Color.blue)
 
- ScrollView {
- content.padding()
- }
- }
- }
+            ScrollView {
+                content.padding()
+            }
+        }
+    }
 }
 ```
 
@@ -80,12 +84,12 @@ Now, let’s go ahead and mark both `header` and `content` with the `@ViewBuilde
 
 ```
 struct Container<Header: View, Content: View>: View {
- @ViewBuilder var header: Header
- @ViewBuilder var content: Content
+    @ViewBuilder var header: Header
+    @ViewBuilder var content: Content
 
- var body: some View {
- ...
- }
+    var body: some View {
+        ...
+    }
 }
 ```
 
@@ -95,33 +99,33 @@ What that means is that we’re now able to use the same SwiftUI syntax as when 
 
 ```
 struct RootView: View {
- @State private var user: User?
+    @State private var user: User?
 
- var body: some View {
- Container(header: {
- Text("Welcome")
- }, content: {
- if let user {
- HomeView(user: user)
+    var body: some View {
+        Container(header: {
+            Text("Welcome")
+        }, content: {
+            if let user {
+    HomeView(user: user)
 } else {
- LoginView(user: $user)
+    LoginView(user: $user)
 }
- })
- }
+        })
+    }
 }
 ```
 
 Neat! Next, let’s take a look at how we might handle situations when we want to omit a specific component from a custom container view.
 
-## Making view builder properties optional
+## [Making view builder properties optional](#making-view-builder-properties-optional)
 
 For example, let’s say that we want to make our `Container` view’s `header` optional. One way to get that done would be to write an extension on `Container` with a generic constraint on SwiftUI’s `EmptyView` type, which allows us to then pass that type’s initializer as a closure when calling our view’s member-wise initializer:
 
 ```
 extension Container where Header == EmptyView {
- init(@ViewBuilder content: () -> Content) {
- self.init(header: EmptyView.init, content: content)
- }
+    init(@ViewBuilder content: () -> Content) {
+        self.init(header: EmptyView.init, content: content)
+    }
 }
 ```
 
@@ -131,17 +135,17 @@ With the above in place, we could now update our `RootView` to no longer use a h
 
 ```
 struct RootView: View {
- @State private var user: User?
+    @State private var user: User?
 
- var body: some View {
- Container {
- if let user {
- HomeView(user: user)
- } else {
- LoginView(user: $user)
- }
- }
- }
+    var body: some View {
+        Container {
+            if let user {
+                HomeView(user: user)
+            } else {
+                LoginView(user: $user)
+            }
+        }
+    }
 }
 ```
 
@@ -153,18 +157,18 @@ So, if we specify `EmptyView.init` as the default value for our `header` propert
 
 ```
 struct Container<Header: View, Content: View>: View {
- var header: Header
- var content: Content
+    var header: Header
+    var content: Content
 
- init(@ViewBuilder header: () -> Header = EmptyView.init,
- @ViewBuilder content: () -> Content) {
- self.header = header()
- self.content = content()
- }
+    init(@ViewBuilder header: () -> Header = EmptyView.init,
+         @ViewBuilder content: () -> Content) {
+        self.header = header()
+        self.content = content()
+    }
 
- var body: some View {
- ...
- }
+    var body: some View {
+        ...
+    }
 }
 ```
 
@@ -172,24 +176,24 @@ Note that we no longer need to add the `@ViewBuilder` attribute to our propertie
 
 An alternative approach would’ve been to instead store references to our closures within the `header` and `content` properties, and to then call those closures within our view’s `body`. Doing so wouldn’t make much of a difference in this particular case (besides requiring those closures to be `@escaping`, which most of SwiftUI’s own view builder closures aren’t), however, in some situations, taking that approach can significantly hurt performance — since we’ll end up re-evaluating those closures every time our view’s `body` gets re-evaluated. So, when possible, resolving each view builder closure up-front gives us the most predictable and consistent results.
 
-## Handling multiple view expressions
+## [Handling multiple view expressions](#handling-multiple-view-expressions)
 
 Just like when using SwiftUI’s built-in containers, it’s also now possible to place multiple view expressions within either our `header` or `content` closures. For example, if we bring back the header within our `RootView`, we might use this capability to add a `NavigationLink` below our welcome text — like this:
 
 ```
 struct RootView: View {
- ...
+    ...
 
- var body: some View {
- Container(header: {
- Text("Welcome")
- NavigationLink("Info") {
- InfoView()
+    var body: some View {
+        Container(header: {
+            Text("Welcome")
+            NavigationLink("Info") {
+    InfoView()
 }
- }, content: {
- ...
- })
- }
+        }, content: {
+            ...
+        })
+    }
 }
 ```
 
@@ -201,22 +205,22 @@ To resolve that, it might be a good idea to wrap both our `header` and `content`
 
 ```
 struct Container<Header: View, Content: View>: View {
- ...
+    ...
 
- var body: some View {
- VStack(spacing: 0) {
- VStack { header }
- .frame(maxWidth: .infinity)
- .padding()
- .foregroundStyle(.white)
- .background(Color.blue)
+    var body: some View {
+        VStack(spacing: 0) {
+            VStack { header }
+                .frame(maxWidth: .infinity)
+                .padding()
+                .foregroundStyle(.white)
+                .background(Color.blue)
 
- ScrollView {
- VStack { content }
- .padding()
- }
- }
- }
+            ScrollView {
+                VStack { content }
+                    .padding()
+            }
+        }
+    }
 }
 ```
 
@@ -226,28 +230,28 @@ There are cases, though, where it’s arguably best to add an explicit container
 
 ```
 struct RootView: View {
- @State private var user: User?
+    @State private var user: User?
 
- var body: some View {
- Container(header: header, content: content)
- }
+    var body: some View {
+        Container(header: header, content: content)
+    }
 }
 
 private extension RootView {
- @ViewBuilder func header() -> some View {
- Text("Welcome")
- NavigationLink("Info") {
- InfoView()
- }
- }
+    @ViewBuilder func header() -> some View {
+        Text("Welcome")
+        NavigationLink("Info") {
+            InfoView()
+        }
+    }
 
- @ViewBuilder func content() -> some View {
- if let user {
- HomeView(user: user)
- } else {
- LoginView(user: $user)
- }
- }
+    @ViewBuilder func content() -> some View {
+        if let user {
+            HomeView(user: user)
+        } else {
+            LoginView(user: $user)
+        }
+    }
 }
 ```
 
@@ -257,33 +261,37 @@ A rule of thumb that can be good to follow is that a function or computed proper
 
 ```
 private extension RootView {
- func header() -> some View {
- VStack(spacing: 20) {
- Text("Welcome")
- NavigationLink("Info") {
- InfoView()
- }
- }
- }
+    func header() -> some View {
+        VStack(spacing: 20) {
+            Text("Welcome")
+            NavigationLink("Info") {
+                InfoView()
+            }
+        }
+    }
 
- @ViewBuilder func content() -> some View {
- if let user {
- HomeView(user: user)
- } else {
- LoginView(user: $user)
- }
- }
+    @ViewBuilder func content() -> some View {
+        if let user {
+            HomeView(user: user)
+        } else {
+            LoginView(user: $user)
+        }
+    }
 }
 ```
 
 We still want to keep using `@ViewBuilder` for our `content` function, though, since it returns just a single (albeit conditional) root view expression.
 
+[
+
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-## Conclusion
+](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
+
+## [Conclusion](#conclusion)
 
 SwiftUI’s `ViewBuilder` is a really powerful tool, and the fact that we can opt our own code into using it gives us a lot of flexibility when it comes to how we want to structure and reuse our UI code. By adopting it within our own custom containers, we can really craft APIs that feel right at home alongside SwiftUI’s own features, which in turn should help us improve the consistency and clarity of the UI code that we write.
 
-I hope you enjoyed this article. If you have any questions, comments, or feedback, then feel free to reach out via either Mastodon or Bluesky.
+I hope you enjoyed this article. If you have any questions, comments, or feedback, then feel free to reach out via either [Mastodon](https://mastodon.social/@johnsundell) or [Bluesky](https://bsky.app/profile/johnsundell.bsky.social).
 
 Thanks for reading!

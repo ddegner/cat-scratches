@@ -74,7 +74,7 @@ They are not alone. For example, BiFinance’s Changpeng Zhao, has noted that he
 
 **Rarely, but sometimes, the Swiss authorities do wake up**
 
-Then there is Switzerland, whose bank secrecy laws have long been a comfort to kleptocrats and tax evaders alike. Swiss authorities have consistently turned a blind eye to the kinds of clients that many branches of Swiss banks in Switzerland, as well as Swiss-owned banks have prized. 
+[Then there is Switzerland,](https://www.theglobalist.com/switzerland-to-act-against-dirty-cash/) whose bank secrecy laws have long been a comfort to kleptocrats and tax evaders alike. Swiss authorities have consistently turned a blind eye to the kinds of clients that many branches of Swiss banks in Switzerland, as well as Swiss-owned banks have prized. 
 
 Lebanon’s financial crisis in 2021 caused to a considerable degree by the theft of hundreds of millions of dollars from the central bank, launched international criminal investigations. The trail led to the Geneva branch of Europe’s largest bank, UK-headquartered HSBC. 
 
@@ -104,7 +104,7 @@ The official excuse in Germany is that it cannot impose unilateral sanctions, bu
 
 Detecting money laundering, meanwhile, is becoming far more complicated and there is no evidence that Western countries are increasing the resources necessary for investigations and prosecutions.  
 
-Crypto-currencies are rapidly becoming a major money laundering vehicle for organized crime and for terrorism financing, as cases against the Prince Group brought by authorities in Singapore, the U.S. and the U.K. underscore. At the same time,  the scale of cyber scams is rising rapidly,
+[Crypto-currencies](https://www.theglobalist.com/cryptocurrencies-soar-as-trust-in-governments-falls/) are rapidly becoming a major money laundering vehicle for organized crime and for terrorism financing, as cases against the Prince Group brought by authorities in Singapore, the U.S. and the U.K. underscore. At the same time,  the scale of cyber scams is rising rapidly,
 
 The FBI’s 2024 Internet Crime Complaint Center (IC3) stated that it received 2,000 complaints daily from individuals claiming that they have been defrauded. It estimated cybercrimes in the U.S. amounted $16.4 billion just in 2024.
 
@@ -132,6 +132,6 @@ There had been hopes that increasing enforcement by some EU countries would coun
 
 The official excuse in Germany to proceed against money laundering is that it cannot impose unilateral sanctions, but needs full EU enforcement. What then are the grey bureaucrats in Brussels waiting for?
 
-A Global Ideas Center, Strategic Intervention Paper (SIP) from the Global Ideas Center
+A [Global Ideas Center](https://www.theglobalist.com/global-ideas-center/gic/), [Strategic Intervention Paper (SIP)](https://www.theglobalist.com/global-ideas-center/strategic-intervention-paper-sip/) from the [Global Ideas Center](https://globalideascenter.org/)
 
-You may quote from this text, provided you mention the name of the author and reference it as a new Global Ideas Center, Strategic Intervention Paper (SIP) published by the Global Ideas Center in Berlin on The Globalist.
+You may quote from this text, provided you mention the name of the author and reference it as a new [Global Ideas Center](https://www.theglobalist.com/global-ideas-center/gic/), [Strategic Intervention Paper (SIP)](https://www.theglobalist.com/global-ideas-center/strategic-intervention-paper-sip/) published by the Global Ideas Center in Berlin on The Globalist.

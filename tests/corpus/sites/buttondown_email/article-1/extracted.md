@@ -1,16 +1,16 @@
-I’m a data journalist based in New York City. Until early 2022, I worked in newsrooms, using data analysis and computer programming to guide and support investigative reporting, most recently as the data editor at BuzzFeed News for 7+ years. I left that job to go freelance and to start the Data Liberation Project — an initiative to identify, obtain, reformat, clean, document, publish, and disseminate government datasets of public interest.
+I’m a data journalist based in New York City. Until early 2022, I worked in newsrooms, using data analysis and computer programming to guide and support investigative reporting, most recently as the data editor at BuzzFeed News for 7+ years. I left that job to go freelance and to start the [Data Liberation Project](https://www.data-liberation-project.org/) — an initiative to identify, obtain, reformat, clean, document, publish, and disseminate government datasets of public interest.
 
 > And, last but not least, I keep writing the newsletter because I genuinely enjoy the process.
 
 ### Tell me a little bit about Data is Plural! What do you write about, and how did you get started?
 
-I started writing Data Is Plural in late 2015, to scratch a proverbial itch. At the time, it seemed there wasn’t a great way to _learn_ about public datasets. There were giant data portals, but they felt overwhelming and often lacked key context. There were also smaller, more niche data portals, but spread all across the web. And there were one-off blog posts here and there, highlighting a few gems. 
+I started writing [Data Is Plural](https://www.data-is-plural.com/) in late 2015, to scratch a proverbial itch. At the time, it seemed there wasn’t a great way to _learn_ about public datasets. There were giant data portals, but they felt overwhelming and often lacked key context. There were also smaller, more niche data portals, but spread all across the web. And there were one-off blog posts here and there, highlighting a few gems. 
 
-What I was hoping for — but couldn’t find — was what Data Is Plural became: A steady, concise feed describing a handful of datasets each week. DIP’s format has remained the same pretty much since launching: Five datasets per weekly edition, one paragraph of description each. So have the criteria: The datasets should be freely, publicly available and downloadable in bulk or via API; bonus points for originality, good documentation, open data formats, temporal freshness, and detail.
+What I was hoping for — but couldn’t find — was what Data Is Plural became: A steady, concise feed describing a handful of datasets each week. DIP’s format has remained the same pretty much since launching: Five datasets per weekly edition, one paragraph of description each. So have [the criteria](https://www.data-is-plural.com/faq/criteria/): The datasets should be freely, publicly available and downloadable in bulk or via API; bonus points for originality, good documentation, open data formats, temporal freshness, and detail.
 
 ### DIP has been around for nearly a decade, which is no mean feat. What inspires you to keep going?
 
-When I started writing Data Is Plural, I didn’t know what to expect ... but the thought of still writing it more than eight years later never crossed my mind. A few motivations have propelled DIP’s longevity. There’s the joy of hearing from readers who find the newsletter helpful. There’s the satisfaction of watching the archive grow into a resource of its own. Also, as someone who’s mostly inactive on social media, the newsletter has also been a helpful way to convey occasional updates about my work. And, last but not least, I keep writing the newsletter because I genuinely enjoy the process: looking for datasets, exploring them, and trying to understand them well enough to summarize.
+When I started writing Data Is Plural, I didn’t know what to expect ... but the thought of still writing it more than eight years later never crossed my mind. A few motivations have propelled DIP’s longevity. There’s the joy of hearing from readers who find the newsletter helpful. There’s the satisfaction of watching [the archive](https://www.data-is-plural.com/archive/) grow into a [resource of its own](https://docs.google.com/spreadsheets/u/0/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit). Also, as someone who’s mostly inactive on social media, the newsletter has also been a helpful way to convey occasional updates about my work. And, last but not least, I keep writing the newsletter because I genuinely enjoy the process: looking for datasets, exploring them, and trying to understand them well enough to summarize.
 
 > Justin won me over with his responsiveness, straightforward business plan, and general human-ness.
 
@@ -30,7 +30,7 @@ More generally, Buttondown’s customer service is (literally) the best I’ve e
 
 ### What are some things you’d be excited to see Buttondown build in the next few months?
 
-Buttondown has added a slew of new features since I started using it, so I should probably try some of those — the surveys seem fun — before proposing new ones.
+Buttondown has added a slew of new features since I started using it, so I should probably try some of those — the [surveys](https://buttondown.com/features/surveys) seem fun — before proposing new ones.
 
 But since you asked ... I'd be excited to be able to preview the newsletters _as they would appear_ in various email clients, such as Gmail, Apple Mail, Outlook, et cetera.
 

@@ -1,8 +1,8 @@
-France has deployed its sole, nuclear-powered aircraft carrier to the Middle East as part of a joint effort with the UK and Europe to ensure safe passage through the Strait of Hormuz, military officials said Wednesday.
+France has deployed its sole, nuclear-powered aircraft carrier to the Middle East as part of a joint effort with the UK and Europe to ensure [safe passage through the Strait of Hormuz](https://nypost.com/2026/05/04/world-news/iran-claims-to-hit-us-warship-in-strait-of-hormuz-after-trump-announces-new-plan-to-guide-ships-out/), military officials said Wednesday.
 
-The French Armed Forces ministry said the Charles de Gaulle aircraft carrier, along with its strike group escort, had crossed the Suez Canal and was en route to the Red Sea.
+The French Armed Forces ministry said the Charles de Gaulle aircraft carrier, along with its strike group escort, had crossed the Suez Canal and was en route to [the Red Sea](https://nypost.com/2026/03/21/us-news/irans-allies-threaten-red-sea-attacks-as-mullahs-choke-strait-of-hormuz/).
 
-The carrier is expected to enforce safe travel through the Strait of Hormuz once a US-Iranian peace deal is secured and Tehran agrees to open the waterway, which has remained shut since the war began.
+The carrier is expected to enforce safe travel through the Strait of Hormuz once a US-Iranian peace deal is secured and Tehran agrees to open the waterway, which has [remained shut](https://nypost.com/2026/05/03/world-news/iran-attacks-cargo-ship-in-strait-of-hormuz/) since the war began.
 
 “Geographically, it’s closer to the Strait of Hormuz and will therefore enable us to react faster, once the conditions are met,” Col. Guillaume Vernet, spokesman for the French armed forces chief of staff, said of the Charles de Gaulle carrier.
 
@@ -10,7 +10,7 @@ The Charles de Gaulle, launched in 1994, carries about 40 aircraft and helicopte
 
 The aircraft carrier is sailing with eight warships and two amphibious assault ships, and its deployment in the Red Sea allows its assets to be within range of the Strait of Hormuz without entering the contested waters.
 
-Vernet stressed that the Gaulle’s deployment is part of a multinational mission separate from President Trump’s “Project Freedom,” which saw US forces escort two ships out of the Strait of Hormuz before being put on pause Wednesday.
+Vernet stressed that the Gaulle’s deployment is part of a multinational mission separate from President Trump’s “Project Freedom,” which saw US forces escort two ships out of the Strait of Hormuz before [being put on pause Wednesday](https://nypost.com/2026/05/05/world-news/project-freedom-takes-hold-with-11-ships-transiting-strait-of-hormuz-as-trump-refuses-to-telegraph-his-redline-on-iran/).
 
 Vernet warned that attempts to cross the Strait of Hormuz will likely fail without Iran’s cooperation, as seen by Tehran’s repeated attacks on foreign vessels that tried to cross the strait earlier this week.
 

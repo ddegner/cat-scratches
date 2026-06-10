@@ -2,29 +2,29 @@ _First published Thu Apr 30, 2020; substantive revision Fri Mar 27, 2026_
 
 After around 70 years of development, it is now clear that AI and robotics _do_ have substantial impact on the world, even if the exact nature and depth of that impact is unclear. Which impact AI and robotics _should_ have also remains a largely unsolved question, and that is the main question of this article. In addition, AI and robotics have also given us occasion to reflect _theoretically_ on fundamental philosophical and ethical issues. The main debates that seem to have practical impact or theoretical relevance currently are about privacy, human autonomy, automated decisions, human-machine interaction, employment and the impact on society as a whole – plus the more abstract notions of autonomy, agency and superintelligence. For each of these issues, we outline the existing _positions_ and _arguments_, and how these hang together with other issues. Overall, the ethics of AI and robotics should mainly allow us to understand and evaluate techno-social development, thus enabling decisions which developments to avoid, but also enabling a positive vision for a world with AI and robotics that is worth wanting.
 
-* 1\. Introduction
- * 1.1 Scope: Ethics of AI & Robotics
- * 1.2 Techno-social Background
-* 2\. Main Debates
- * 2.1 Privacy & Data Protection
- * 2.2 Human Autonomy & Manipulation
- * 2.3 Epistemic Issues: Opacity & Explainability
- * 2.4 Good Decisions: Fairness & Bias
- * 2.5 Human-Robot Interaction
- * 2.6 Autonomous AI Systems
- * 2.7 Moral Status, Machine Ethics, Responsibility
- * 2.8 Superintelligence & Existential Risk
- * 2.9 Society, Politics, Economics
- * 2.10 AI Policy
-* 3\. Closing Note
-* Bibliography
-* Academic Tools
-* Other Internet Resources
- * Research Organizations
- * Conferences
- * Policy Documents
- * Other Relevant pages
-* Related Entries
+* [1\. Introduction](#Int)
+    * [1.1 Scope: Ethics of AI & Robotics](#ScoEthAIRob)
+    * [1.2 Techno-social Background](#TecSocBac)
+* [2\. Main Debates](#MaiDeb)
+    * [2.1 Privacy & Data Protection](#PriDatPro)
+    * [2.2 Human Autonomy & Manipulation](#HumAutMan)
+    * [2.3 Epistemic Issues: Opacity & Explainability](#EpiIssOpaExp)
+    * [2.4 Good Decisions: Fairness & Bias](#GooDecFaiBia)
+    * [2.5 Human-Robot Interaction](#HumRobInt)
+    * [2.6 Autonomous AI Systems](#AutAISys)
+    * [2.7 Moral Status, Machine Ethics, Responsibility](#MorStaMacEthRes)
+    * [2.8 Superintelligence & Existential Risk](#SupExiRis)
+    * [2.9 Society, Politics, Economics](#SocPolEco)
+    * [2.10 AI Policy](#AIPol)
+* [3\. Closing Note](#CloNot)
+* [Bibliography](#Bib)
+* [Academic Tools](#Aca)
+* [Other Internet Resources](#Oth)
+    * [Research Organizations](#ResOrg)
+    * [Conferences](#Con)
+    * [Policy Documents](#PolDoc)
+    * [Other Relevant pages](#OthRelPag)
+* [Related Entries](#Rel)
 
 ## 1\. Introduction
 
@@ -50,7 +50,7 @@ To some extent, the field of “applied ethics” is driven by technology: When 
 
 In the 20th Century, AI was usually understood as a research programme where the cognitive sciences would develop models of human intelligence as computation over meaningful symbols, and the computer sciences would implement these models on digital hardware, thus both testing the models, and achieving a general form of artificial intelligence. This programme is evident in Searle’s notion of “strong AI”: “computers given the right programs can be literally said to _understand_ and have other cognitive states” (Searle 1980, 417). It was later called “classical AI”, and it was in some competition with “connectionist AI” which proposed to focus on modelling the brain in “neural networks”, rather than in its functional architecture. Both versions of AI ran into significant problems during the “AI winter(s)”, ca. 1975–1995, and they spun off some specialised technical disciplines (e.g. image pattern recognition or robotics) that often avoided the tainted name “AI”.
 
-With the advent of more successful machine learning (ML) systems in the 2010s, mainly with multi-layered (“deep”) neural networks (LeCun, Bengio, and Hinton 2015; Schmidhuber 2015), and especially with popular generative AI, such as large language models (LLMs) around 2020, the use of the term “AI” has broadened massively. The major change towards ML has to do with algorithmic progress (e.g. general adversarial networks, or transformer models) and the fact that the cost of computing power and storage has reduced, while the investment has increased. The resulting exponential gains in computing power and data storage have led to the ability to train models on massive data (essentially all available data), and to generate very large models (typically at a size of 20–50% of the training data). This “scaling” achieves radical improvements of ML systems, that often went from performance at 10% human level to beyond human level in a few years. Current AI trends are tracked in several places; one prominent source is the HAI AI Index.
+With the advent of more successful machine learning (ML) systems in the 2010s, mainly with multi-layered (“deep”) neural networks (LeCun, Bengio, and Hinton 2015; Schmidhuber 2015), and especially with popular generative AI, such as large language models (LLMs) around 2020, the use of the term “AI” has broadened massively. The major change towards ML has to do with algorithmic progress (e.g. general adversarial networks, or transformer models) and the fact that the cost of computing power and storage has reduced, while the investment has increased. The resulting exponential gains in computing power and data storage have led to the ability to train models on massive data (essentially all available data), and to generate very large models (typically at a size of 20–50% of the training data). This “scaling” achieves radical improvements of ML systems, that often went from performance at 10% human level to beyond human level in a few years. Current AI trends are tracked in several places; one prominent source is the [HAI AI Index](https://hai.stanford.edu/ai-index/).
 
 The general aim of classical AI had been all but quietly given up after the AI winters, though a small group pushed for the idea that classical AI should focus directly on “Artificial General Intelligence” (AGI) – organising a niche conference series under that title since 2008. In the last 10 years, it has become common to ask once again, whether we might be on a road to a general AI, now understood to be based mainly on ML. The old label “AGI” is now often used to differentiate the aim of _general_ artificial intelligence at roughly human level from technical AI on specific problems, with the implication that something important happens at that point (this assumption drives some of the current hyper-investment into AI). It remains an open question whether AI is on course towards general intelligence (AAAI 2025, 58–63; Bengio et al. 2025) – this question matters to ethics in many ways, e.g. suggestions that minor AI quibbles do not matter compared to the enormous benefits of AGI, or that the arguments for existential risk from superintelligence become more urgent the closer we move to AGI.
 
@@ -312,9 +312,9 @@ In the history of AI policy, there was a phase in around 2015–20 when many org
 
 Among philosophers there is still some discussion about the value of “ethical principles” for AI, for example the five principles, based on the classic four “middle principles” in bioethics (Beauchamp and Childress 2013): (1) beneficence, (2) non-maleficence, (3) autonomy, and (4) justice, plus (5) explicability (Floridi and Cowls 2019). The initiative “Artificial Intelligence for Social Good” (AI4SG) suggests seven – quite different – principles: (1) falsifiability and incremental deployment; (2) safeguards against the manipulation of predictors; (3) receiver-contextualised intervention; (4) receiver-contextualised explanation and transparent purposes; (5) privacy protection and data subject consent; (6) situational fairness; and (7) human-friendly “semanticisation” (Floridi et al. 2020; Floridi 2023b). The discussion on principles and guidelines ranges from the view that they are meaningless, toothless and politically harmful (Munn 2023), to useful “work in progress” (Lundgren 2023) towards operationalisation (Stix 2021; Bleher and Braun 2023; Taddeo, Blanchard, and Thomas 2024), software engineering (Antikainen et al. 2021), and a systemic approach (Wang and Blok 2025).
 
-Current AI policy activities worldwide have been surveyed by the OECD AI Policy Observatory since 2020. For activities prior to 2020, see (Jobin, Ienca, and Vayena 2019), and the useful history in (Smuha 2021b). The basic handbook is now (Bullock et al. 2024).
+Current AI policy activities worldwide have been surveyed by the [OECD AI Policy Observatory](https://oecd.ai/) since 2020. For activities prior to 2020, see (Jobin, Ienca, and Vayena 2019), and the useful history in (Smuha 2021b). The basic handbook is now (Bullock et al. 2024).
 
-The most influential policy tools are the OECD AI Principles for a “human-centric approach to artificial intelligence” (originally adopted in 2019 and updated in 2024). These focus on: (1) Inclusive growth, sustainable development and well-being, (2) Respect for the rule of law, human rights and democratic values, including fairness and privacy, (3) Transparency and explainability, (4) Robustness, security and safety, and (5) Accountability. OECD policy is now developed with the Global Partnership on AI (GPAI), which was founded in 2022 to advise global governments on AI regulation.
+The most influential policy tools are the [OECD AI Principles](https://oecd.ai/en/ai-principles) for a “human-centric approach to artificial intelligence” (originally adopted in 2019 and updated in 2024). These focus on: (1) Inclusive growth, sustainable development and well-being, (2) Respect for the rule of law, human rights and democratic values, including fairness and privacy, (3) Transparency and explainability, (4) Robustness, security and safety, and (5) Accountability. OECD policy is now developed with the [Global Partnership on AI](https://gpai.ai) (GPAI), which was founded in 2022 to advise global governments on AI regulation.
 
 The most advanced legal regulation exists in the EU, with the hope of a “Brussels Effect”, as with the _General Data Protection Regulation_ (GDPR 2016): To lead the world on regulation (Lundgren et al. 2024). The AI regulation itself goes back to the “High-level expert group on AI”, which produced several relevant reports (AI HLEG 2019). The main component of this legal framework is the AI Act (EU Parliament 2024), which legally regulates AI applications by their risk, graded at five levels: unacceptable/high/general/limited/minimal. This includes risks in a consequentialist sense, as well as “risks to rights”. Wider policy concerns for the digital world that are strongly relevant for AI and robotics are laid down in the 2022 Digital Markets Act (EU Parliament 2022a), e.g. on monopolies of digital platforms and fair competition, and the 2022 Digital Services Act (EU Parliament 2022b), e.g. on disinformation and illegal content.
 
@@ -334,20 +334,20 @@ The problems of the very concept of AI through computation have played a promine
 * Allen, Colin, Iva Smit, and Wendell Wallach, 2006, “Why Machine Ethics?”, _IEEE Intelligent Systems_, 21(4): 12–17. doi:10.1109/MIS.2006.83
 * Allen, Colin, Gary Varner, and Jason Zinser, 2000, “Prolegomena to Any Future Artificial Moral Agent”, _Journal of Experimental & Theoretical Artificial Intelligence_, 12(3): 251–261. doi:10.1080/09528130050111428
 * Altay, Sacha, Manon Berriche, and Alberto Acerbi, 2023, “Misinformation on Misinformation: Conceptual and Methodological Challenges”, _Social Media + Society,_ 9(1), 20563051221150412.
-* Altman, Sam, 2025, “Reflections”, _Blog_, January 6, 2025. \[Altman 2025 available online\]
+* Altman, Sam, 2025, “Reflections”, _Blog_, January 6, 2025. \[[Altman 2025 available online](https://blog.samaltman.com/reflections)\]
 * Alvarado, Ramón, 2023, “AI as an Epistemic Technology”, _Science and Engineering Ethics_, 29(5), 32.
 * Amoroso, Daniele and Guglielmo Tamburrini, 2018, “The Ethical and Legal Case Against Autonomy in Weapons Systems”, _Global Jurist_, 18(1). doi:10.1515/gj-2017-0012
 * Anantrasirichai, Nantheera and David Bull, 2022, “Artificial Intelligence in the Creative Industries: A Review”, _Artificial Intelligence Review_, 55(1): 589–656.
 * Anderson, Michael and Susan Leigh Anderson, 2007, “Machine Ethics: Creating an Ethical Intelligent Agent”, _AI Magazine_, 28(4): 15–26.
 * –––, 2011, _Machine Ethics_, Cambridge: Cambridge University Press.
-* Anonymous, 2013, “How Many People Work in Agriculture in the European Union? An Answer Based on Eurostat Data Sources”, _EU Agricultural Economics Briefs_, 8 (July). \[Anonymous 2013 available online\]
+* Anonymous, 2013, “How Many People Work in Agriculture in the European Union? An Answer Based on Eurostat Data Sources”, _EU Agricultural Economics Briefs_, 8 (July). \[[Anonymous 2013 available online](https://ec.europa.eu/agriculture/sites/agriculture/files/rural-area-economics/briefs/pdf/08_en.pdf)\]
 * Antikainen, J., M. Agbese, H. K. Alanen, E. Halme, H. Isomäki, M. Jantunen, K. K. Kemell, R. Rousi, H. Vainio-Pekka, and V. Vakkuri, 2021, “A Deployment Model to Extend Ethically Aligned AI Implementation Method ECCOLA”, in , 230–235. doi:10.1109/REW53955.2021.00043
-* Arkin, Ronald C, 2009, _Governing Lethal Behavior in Autonomous Robots_, Boca Raton: CRC Press. \[Arkin 2009 available online\]
+* Arkin, Ronald C, 2009, _Governing Lethal Behavior in Autonomous Robots_, Boca Raton: CRC Press. \[[Arkin 2009 available online](http://books.google.co.uk/books?id=rIsJ_QXDdEUC&pg=PR3&source=gbs_selected_pages&cad=2#v=onepage&q&f=false)\]
 * Armstrong, Stuart, 2014, _Smarter than Us_, Berkeley: MIRI.
 * Arnold, Thomas and Matthias Scheutz, 2017, “Beyond Moral Dilemmas: Exploring the Ethical Landscape in HRI”, _2017 12th ACM/IEEE International Conference on Human-Robot Interaction_ (HRI), 445–452.
 * Asaro, Peter M, 2019, “AI Ethics in Predictive Policing: From Models of Threat to an Ethics of Care”, _IEEE Technology and Society Magazine_, 38(2): 40–53. doi:10.1109/MTS.2019.2915154
 * Awad, Edmond, Sohan Dsouza, Richard Kim, Jonathan Schulz, Joseph Henrich, Azim Shariff, Jean-François Bonnefon, and Iyad Rahwan, 2018, “The Moral Machine Experiment”, _Nature_, 563(7729): 59–64. doi:10.1038/s41586-018-0637-6
-* Baldwin, Richard, 2019, _The Globotics Upheaval: Globalisation, Robotics and the Future of Work_, London: Weidenfeld & Nicolson. \[Baldwin 2019 available online\]
+* Baldwin, Richard, 2019, _The Globotics Upheaval: Globalisation, Robotics and the Future of Work_, London: Weidenfeld & Nicolson. \[[Baldwin 2019 available online](https://www.amazon.co.uk/Globotics-Upheaval-Globalisation-Robotics-Future/dp/1474609015/ref=sr_1_1?ie=UTF8&qid=1544871486&sr=8-1&keywords=globotics)\]
 * Bales, Adam, William D’Alessandro, and Cameron Domenico Kirk-Giannini, 2024, “Artificial Intelligence: Arguments for Catastrophic Risk”, _Philosophy Compass_, 19(2): e12964. doi:10.1111/phc3.12964
 * Baum, Seth D., Stuart Armstrong, Timoteus Ekenstedt, Olle Häggström, Robin Hanson, Karin Kuhlemann, Matthijs M. Maas, James D. Miller, Markus Salmela, Anders Sandberg, et al., 2019, “Long-Term Trajectories of Human Civilization”, _Foresight_, 21(1): 53–83. doi:10.1108/FS-04-2018-0037
 * Beauchamp, Tom L and James F Childress, 2013, _Principles of Biomedical Ethics_, 7th edition, New York: Oxford University Press.
@@ -364,25 +364,25 @@ The problems of the very concept of AI through computation have played a promine
 * Boddington, Paula, 2023, _AI Ethics: A Textbook_, Singapore: Springer International Publishing.
 * Bolte, Larissa and Aimee van Wynsberghe, 2024, “Sustainable AI and the Third Wave of AI Ethics: A Structural Turn”, _AI and Ethics_, 16: 1–10. doi:10.1007/s43681-024-00522-6
 * Bostrom, Nick, 2003a, “Are You Living in a Computer Simulation?”, _Philosophical Quarterly_, 53(211): 243–255.
-* –––, 2003b, “Ethical Issues in Advanced Artificial Intelligence”, in _Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence_, I. Smit et al. (ed.), _Int. Institute of Advanced Studies in Systems Research and Cybernetics_, 12–17. \[Bostrom 2003b available online\]
+* –––, 2003b, “Ethical Issues in Advanced Artificial Intelligence”, in _Cognitive, Emotive and Ethical Aspects of Decision Making in Humans and in Artificial Intelligence_, I. Smit et al. (ed.), _Int. Institute of Advanced Studies in Systems Research and Cybernetics_, 12–17. \[[Bostrom 2003b available online](https://nickbostrom.com/ethics/ai.html)\]
 * –––, 2012, “The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents”, _Minds and Machines_, 22(2-special issue ‘Philosophy of AI’ ed. Vincent C. Müller): 71–85.
 * –––, 2014, _Superintelligence: Paths, Dangers, Strategies_, Oxford: Oxford University Press.
-* Bostrom, Nick and Eliezer Yudkovski, 2014, “The Ethics of Artificial Intelligence”, in _The Cambridge Handbook of Artificial Intelligence_, Keith Frankish (ed.), Cambridge: Cambridge University Press, 316–334. \[Bostrom & Yudkovski 2014 available online\]
+* Bostrom, Nick and Eliezer Yudkovski, 2014, “The Ethics of Artificial Intelligence”, in _The Cambridge Handbook of Artificial Intelligence_, Keith Frankish (ed.), Cambridge: Cambridge University Press, 316–334. \[[Bostrom & Yudkovski 2014 available online](https://www.fhi.ox.ac.uk/publications/bostrom-n-yudkowsky-e-2014-the-ethics-of-artificial-intelligence-the-cambridge-handbook-of-artificial-intelligence-316-334/)\]
 * Bottomley, Christopher and Timothy Luke Williamson, 2025, “On the Offense against Fanaticism”, _Ethics_, 135(2): 320–332. doi:10.1086/732617
-* Bradshaw, Samantha, Lisa-Maria Neudert, and Phil Howard, 2019, “Government Responses to Malicious Use of Social Media”, _Oxford Project on Computational Propaganda_, Working Paper 2019.2, Oxford. \[Bradshaw, Neudertavailable, & Howard 2019 available online\]
+* Bradshaw, Samantha, Lisa-Maria Neudert, and Phil Howard, 2019, “Government Responses to Malicious Use of Social Media”, _Oxford Project on Computational Propaganda_, Working Paper 2019.2, Oxford. \[[Bradshaw, Neudertavailable, & Howard 2019 available online](https://comprop.oii.ox.ac.uk/research/government-responses/)\]
 * Brey, Philip and Brandt Dainow, 2024, “Ethics by Design for Artificial Intelligence”, _AI and Ethics_, 4(4): 1265–1277.
 * Browne, Jude, Stephen Cave, Eleanor Drage, and Kerry McInerney, 2023, _Feminist AI: Critical Perspectives on Algorithms, Data, and Intelligent Machines_, Oxford: Oxford University Press.
 * Brundage, Miles, Shahar Avin, Jack Clark, Helen Toner, Peter Eckersley, Ben Garfinkel, Allan Dafoe, Paul Scharre, Thomas Zeitzoff, and Bobby Filar, 2018, “The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation”, _FHI/CSER/CNAS/EFF/OpenAI Report_, Cambridge, 1–101.
 * Brynjolfsson, Erik and Andrew McAfee, 2016, _The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies_, New York: W. W. Norton.
 * Bryson, Joanna J, 2010, “Robots Should Be Slaves”, in _Close Engagements with Artificial Companions: Key Social, Psychological, Ethical and Design Issues_, Yorick Wilks (ed.), Amsterdam: John Benjamins Publishing, 63–74.
-* –––, 2019, “The Past Decade and Future of AI’s Impact on Society”, in _Towards a New Enlightenment: A Transcendent Decade_, Anonymous (ed.), Madrid: Turner – BVVA. \[Bryson 2019 available online\]
+* –––, 2019, “The Past Decade and Future of AI’s Impact on Society”, in _Towards a New Enlightenment: A Transcendent Decade_, Anonymous (ed.), Madrid: Turner – BVVA. \[[Bryson 2019 available online](https://www.bbvaopenmind.com/en/books/towards-a-new-enlightenment-a-transcendent-decade/)\]
 * Bryson, Joanna J, Mihailis E Diamantis, and Thomas D Grant, 2017, “Of, for, and by the People: The Legal Lacuna of Synthetic Persons”, _Artificial Intelligence and Law_, 25(3): 273–291. doi:10.1007/s10506-017-9214-9
 * Budding, Céline, and Carlos Zednik, 2024, “Does Explainable AI Need Cognitive Models?”, _Proceedings of the Annual Meeting of the Cognitive Science Society,_ 46: 5244–5250.
 * Bullock, Justin B, Yu-Che Chen, Johannes Himmelreich, Valerie M Hudson, Anton Korinek, Matthew M Young, and Baobao Zhang, 2024, _The Oxford Handbook of AI Governance_, Oxford: Oxford University Press.
 * Burget, Mirjam, Emanuele Bardone, and Margus Pedaste, 2017, “Definitions and Conceptual Dimensions of Responsible Research and Innovation: A Literature Review”, _Science and Engineering Ethics_, 23(1): 1–19. doi:10.1007/s11948-016-9782-1
 * Burr, Christopher and Nello Christianini, 2019, “Can Machines Read Our Minds?”, _Minds and Machines_, 29(3): 461–494.
-* Butler, Samuel, 1863, “Darwin among the Machines: Letter to the Editor”, _The Press (Christchurch)_, 13.06.1863. \[Butler 1863 available online\]
-* Callaghan, Victor, James Miller, Roman V Yampolskiy, and Stuart Armstrong, 2017, _The Technological Singularity: Managing the Journey_, Berlin: Springer. \[Callaghan et al. 2017 available online\]
+* Butler, Samuel, 1863, “Darwin among the Machines: Letter to the Editor”, _The Press (Christchurch)_, 13.06.1863. \[[Butler 1863 available online](http://nzetc.victoria.ac.nz/tm/scholarly/tei-ButFir-t1-g1-t1-g1-t4-body.html)\]
+* Callaghan, Victor, James Miller, Roman V Yampolskiy, and Stuart Armstrong, 2017, _The Technological Singularity: Managing the Journey_, Berlin: Springer. \[[Callaghan et al. 2017 available online](https://link.springer.com/book/10.1007/978-3-662-54033-6#toc)\]
 * Calo, Ryan, 2018, “Artificial Intelligence Policy: A Primer and Roadmap”, _University of Bologna Law Review_, 3(2): 180–218. doi:10.2139/ssrn.3015350
 * Calo, Ryan, Michael A Froomkin, and Ian Kerr, 2016, _Robot Law_, Cheltenham: Edward Elgar.
 * Čapek, Karel, 1920, _R.U.R._, Peter Majer (trans.), London: Methuen 1999.
@@ -393,14 +393,14 @@ The problems of the very concept of AI through computation have played a promine
 * Chalmers, David J, 2010, “The Singularity: A Philosophical Analysis”, _Journal of Consciousness Studies_, 17(9–10): 7–65.
 * Chang, Ruth, 2002, “The Possibility of Parity”, _Ethics_, 112(4): 659–688.
 * –––, 2020, “Do We Have Normative Powers?”, _Proceedings of the Aristotelian Society_ (Supplementary Volume), 94(1): 275–300.
-* Christman, John, 2018, “Autonomy in Moral and Political Philosophy”, in _Stanford Encyclopedia of Philosophy_ (Spring 2018 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2018/entries/autonomy-moral/\>
+* Christman, John, 2018, “Autonomy in Moral and Political Philosophy”, in _Stanford Encyclopedia of Philosophy_ (Spring 2018 Edition), Edward N. Zalta (ed.), URL = <[https://plato.stanford.edu/archives/spr2018/entries/autonomy-moral/](https://plato.stanford.edu/archives/spr2018/entries/autonomy-moral/)\>
 * Clarke, Steve and Julian Savulescu, 2021, “Rethinking Our Assumptions about Moral Status”, in _Rethinking Moral Status_, Steve Clarke, Hazem Zohny, and Julian Savulescu (eds.), Oxford University Press, 1–20. doi:10.1093/oso/9780192894076.003.0001
 * Clarke, Steve, Hazem Zohny, and Julian Savulescu, 2021, _Rethinking Moral Status_, Oxford University Press. doi:10.1093/oso/9780192894076.001.0001
 * Coeckelbergh, Mark, 2010, “Robot Rights? Towards a Social-Relational Justification of Moral Consideration”, _Ethics and Information Technology_, 12(3): 209–221. doi:10.1007/s10676-010-9235-5
-* –––, 2012, _Growing Moral Relations: Critique of Moral Status Ascription_, London: Palgrave. \[Coeckelbergh 2010 available online\]
+* –––, 2012, _Growing Moral Relations: Critique of Moral Status Ascription_, London: Palgrave. \[[Coeckelbergh 2010 available online](http://www.palgrave.com/page/detail/?sf1=id_product&st1=581716)\]
 * –––, 2016, “Care Robots and the Future of ICT-Mediated Elderly Care: A Response to Doom Scenarios”, _AI & Society_, 31(4): 455–462.
 * –––, 2018, “What Do We Mean by a Relational Ethics? Growing a Relational Approach to the Moral Standing of Plants, Robots and Other Non-Humans”, in _Plant Ethics_, Angela Kallhoff, Marcello Di Paola, and Maria Schörgenhumer (eds.), London: Routledge, 110–121.
-* –––, 2020, _AI Ethics_, Cambridge, MA: MIT Press. \[Coeckelbergh 2020 available online\]
+* –––, 2020, _AI Ethics_, Cambridge, MA: MIT Press. \[[Coeckelbergh 2020 available online](https://books.google.gr/books?hl=en&lr=&id=Gs_XDwAAQBAJ&oi=fnd&pg=PR7&ots=EY2h7yNyNO&sig=fiKMvlndj95ulqxxn0_yv3R4gFM&redir_esc=y#v=onepage&q&f=false)\]
 * –––, 2022a, _Robot Ethics_, Cambridge, MA: MIT Press.
 * –––, 2022b, _The Political Philosophy of AI_, Cambridge: Polity.
 * –––, 2024, _Why AI Undermines Democracy and What to Do about It_, Cambridge: Polity.
@@ -417,18 +417,18 @@ The problems of the very concept of AI through computation have played a promine
 * –––, 2022, “Tragic Choices and the Virtue of Techno-Responsibility Gaps”, _Philosophy & Technology_, 35(2): 26. doi:10.1007/s13347-022-00519-1
 * Danaher, John and Neil McArthur, 2017, _Robot Sex: Social and Ethical Implications_, Boston, MA: MIT Press.
 * Danaher, John and Sven Nyholm, 2021, “Automation, Work and the Achievement Gap”, _AI and Ethics_, 1(3): 227–237. doi:10.1007/s43681-020-00028-x
-* DARPA, 1983, “Strategic Computing – New-Generation Computing Technology: A Strategic Plan for Its Development an Application to Critical Problems in Defense (28.10.1983)”. \[DARPA 1983 available online\]
+* DARPA, 1983, “Strategic Computing – New-Generation Computing Technology: A Strategic Plan for Its Development an Application to Critical Problems in Defense (28.10.1983)”. \[[DARPA 1983 available online](https://www.scribd.com/document/192183614/Strategic-Computing-1983)\]
 * de Vries, Alex, 2023, “The Growing Energy Footprint of Artificial Intelligence”, _Joule_, 7(10): 2191–2194.
 * de Vries-Gao, Alex, 2025, “Artificial Intelligence: Supply Chain Constraints and Energy Implications”, _Joule_, May (101961).
 * Dennett, Daniel C, 2017, _From Bacteria to Bach and Back: The Evolution of Minds_, New York: W.W. Norton.
 * Deutsch, David, 1985, “Quantum Theory, the Church-Turing Principle and the Universal Quantum Computer”, _Proceedings of the Royal Society of London_, A(400): 97–117.
-* Devlin, Kate, 2018, _Turned on: Science, Sex and Robots_, London: Bloomsbury. \[Devlin 2018 available online\]
-* Dignum, Virginia, 2019, _Responsible Artificial Intelligence_, Berlin: Springer. \[Dignum 2019 available online\]
+* Devlin, Kate, 2018, _Turned on: Science, Sex and Robots_, London: Bloomsbury. \[[Devlin 2018 available online](https://www.bloomsbury.com/us/turned-on-9781472950871/)\]
+* Dignum, Virginia, 2019, _Responsible Artificial Intelligence_, Berlin: Springer. \[[Dignum 2019 available online](https://link.springer.com/book/10.1007%2F978-3-030-30371-6)\]
 * Draper, Heather, Tom Sorell, Sandra Bedaf, Dag Sverre Syrdal, Carolina Gutierrez-Ruiz, Alexandre Duclos, and Farshid Amirabdollahian, 2014, “Ethical Dimensions of Human-Robot Interactions in the Care of Older People: Insights from 21 Focus Groups Convened in the UK, France and the Netherlands”, in _International Conference on Social Robotics_, M Beetz, B Johnston, and MA Williams (eds.), Vol. LNCS 8755, Cham: Springer.
 * Dreyfus, Hubert L., 1972, _What Computers Still Can’t Do: A Critique of Artificial Reason_, second edition, Cambridge, MA: MIT Press 1992.
 * Dreyfus, Hubert L., Stuart E. Dreyfus, and Tom Athanasiou, 1986, _Mind over Machine: The Power of Human Intuition and Expertise in the Era of the Computer_, New York: Free Press.
 * Du Sautoy, Marcus, 2019, “The Creativity Code: Art and Innovation in the Age of AI”, in _The Creativity Code_, Cambridge, MA: Harvard University Press.
-* Dubber, Markus D, Frank Pasquale, and Sunnit Das, 2020, _Oxford Handbook of Ethics of Artificial Intelligence_, New York: Oxford University Press. \[Dubber, Pasquale, & Das 2020 available online\]
+* Dubber, Markus D, Frank Pasquale, and Sunnit Das, 2020, _Oxford Handbook of Ethics of Artificial Intelligence_, New York: Oxford University Press. \[[Dubber, Pasquale, & Das 2020 available online](https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190067397.001.0001/oxfordhb-9780190067397)\]
 * Dung, Leonard, 2023, “How to Deal with Risks of AI Suffering”, _Inquiry_, 22. doi:10.1080/0020174x.2023.2238287
 * –––, 2024, “Is Superintelligence Necessarily Moral?”, _Analysis_, 84(4): 730–738.
 * –––, 2025, “Understanding Artificial Agency”, _The Philosophical Quarterly_, 75(2): 450–472. doi:10.1093/pq/pqae010
@@ -436,14 +436,14 @@ The problems of the very concept of AI through computation have played a promine
 * Dwork, Cynthia, Frank McSherry, Kobbi Nissim, and Adam Smith, 2006, “Calibrating Noise to Sensitivity in Private Data Analysis”, in Tal Rabin (ed.), _Theory of Cryptography_, Berlin, Heidelberg: Springer Berlin Heidelberg, 265–284.
 * Eden, Amnon, James H. Moor, Johnny Hartz Søraker, and Eric Steinhart, 2012, _Singularity Hypotheses: A Scientific and Philosophical Assessment_ (The Frontiers Collection), Berlin: Springer.
 * Erler, Alexandre and Vincent C. Müller, 2024, “AI as IA: The Use and Abuse of Artificial Intelligence (AI) for Human Enhancement through Intellectual Augmentation (IA)”, in _The Routledge Handbook of the Ethics of Human Enhancement_, Marcello Ienca and Fabrice Jotterand (eds.), London: Routledge, 187–199. doi:10.4324/9781003105596-19
-* EU Parliament, 2022a, “Digital Markets Act”, _Regulation (EU) 2022/1925 of the European Parliament and of the Council of 14 September 2022 on Contestable and Fair Markets in the Digital Sector_, 2022/1925, Brussels. \[EU Parliament 2022a available online\]
-* –––, 2022b, “Digital Services Act”, _Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services_, 2022/2065, Brussels. \[EU Parliament 2022b available online\]
-* –––, 2024, “Artificial Intelligence Act”, _Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying down Harmonised Rules on Artificial Intelligence and Amending Regulations_, 2024/1689, Brussels. \[EU Parliament 2024 available online\]
+* EU Parliament, 2022a, “Digital Markets Act”, _Regulation (EU) 2022/1925 of the European Parliament and of the Council of 14 September 2022 on Contestable and Fair Markets in the Digital Sector_, 2022/1925, Brussels. \[[EU Parliament 2022a available online](https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng)\]
+* –––, 2022b, “Digital Services Act”, _Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services_, 2022/2065, Brussels. \[[EU Parliament 2022b available online](https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng)\]
+* –––, 2024, “Artificial Intelligence Act”, _Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 Laying down Harmonised Rules on Artificial Intelligence and Amending Regulations_, 2024/1689, Brussels. \[[EU Parliament 2024 available online](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)\]
 * Eubanks, Virginia, 2018, _Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor_, London: St. Martin’s Press.
 * Faden, Ruth R and Tom L Beauchamp, 1986, _A History and Theory of Informed Consent_, Oxford: Oxford University Press.
-* Floridi, Luciano, 2016, “Should We Be Afraid of AI? Machines Seem to Be Getting Smarter and Smarter and Much Better at Human Jobs, yet True AI Is Utterly Implausible. Why?”, _Aeon_, September 5, 2016. \[Floridi 2016 available online\]
+* Floridi, Luciano, 2016, “Should We Be Afraid of AI? Machines Seem to Be Getting Smarter and Smarter and Much Better at Human Jobs, yet True AI Is Utterly Implausible. Why?”, _Aeon_, September 5, 2016. \[[Floridi 2016 available online](https://aeon.co/essays/true-ai-is-both-logically-possible-and-utterly-implausible)\]
 * –––, 2023a, “AI as Agency without Intelligence: On ChatGPT, Large Language Models, and Other Generative Models”, _Philosophy and Technology_, 36(15). doi:10.2139/ssrn.4358789
-* –––, 2023b, _The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities_, Oxford: Oxford University Press. \[Floridi 2023b available online\]
+* –––, 2023b, _The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities_, Oxford: Oxford University Press. \[[Floridi 2023b available online](https://academic.oup.com/book/46748)\]
 * Floridi, Luciano and Josh Cowls, 2019, “A Unified Framework of Five Principles for AI in Society”, _Harvard Data Science Review_, 1(1). doi:10.1162/99608f92.8cd550d1
 * Floridi, Luciano, Josh Cowls, Monica Beltrametti, Raja Chatila, Patrice Chazerand, Virginia Dignum, Christoph Luetge, Robert Madelin, Ugo Pagallo, Francesca Rossi, et al., 2018, “AI4People—An Ethical Framework for a Good AI Society: Opportunities, Risks, Principles, and Recommendations”, _Minds and Machines_, 28(4): 689–707.
 * Floridi, Luciano, Josh Cowls, Thomas C. King, and Mariarosaria Taddeo, 2020, “How to Design AI for Social Good: Seven Essential Factors”, _Science and Engineering Ethics_, 26(3): 1771–1796. doi:10.1007/s11948-020-00213-5
@@ -452,13 +452,13 @@ The problems of the very concept of AI through computation have played a promine
 * Floridi, Luciano, and Mariarosaria Taddeo (eds.), 2025, _A Companion to Digital Ethics._ Hoboken, NJ: John Wiley & Sons.
 * Foot, Philippa, 1967, “The Problem of Abortion and the Doctrine of the Double Effect”, _Oxford Review_, 5: 5–15.
 * Fosch-Villaronga, Eduard and Jordi Albo-Canals, 2019, “‘I’ll Take Care of You,’ Said the Robot”, _Paladyn, Journal of Behavioral Robotics_, 10(1): 77. doi:10.1515/pjbr-2019-0006
-* Frank, Lily E. and Michal Klincewicz, 2024, “Uses and Abuses of AI Ethics”, in _Handbook on the Ethics of Artificial Intelligence_, David J. Gunkel (ed.), London: Edward Elgar Publishing, 205–217. \[Frank & Klincewicz 2024 available online\]
+* Frank, Lily E. and Michal Klincewicz, 2024, “Uses and Abuses of AI Ethics”, in _Handbook on the Ethics of Artificial Intelligence_, David J. Gunkel (ed.), London: Edward Elgar Publishing, 205–217. \[[Frank & Klincewicz 2024 available online](https://philpapers.org/rec/FRAUAA-4)\]
 * Frank, Lily and Sven Nyholm, 2017, “Robot Sex and Consent: Is Consent to Sex between a Robot and a Human Conceivable, Possible, and Desirable?”, _Artificial Intelligence and Law_, 25(3): 305–323.
 * Frankfurt, Harry G, 1971, “Freedom of the Will and the Concept of a Person”, _The Journal of Philosophy_, LXVIII(1): 5–20.
 * –––, 2005, _On Bullshit_, Princeton, NJ: Princeton University Press.
-* Franssen, Maarten, Gert-Jan Lokhorst, and Ibo van de Poel, 2024, “Philosophy of Technology”, in _The Stanford Encyclopedia of Philosophy_ (Fall 2024 Edition), Edward N Zalta and Uri Nodelman (eds.) Edition, URL = <https://plato.stanford.edu/archives/fall2024/entries/technology/\>.
+* Franssen, Maarten, Gert-Jan Lokhorst, and Ibo van de Poel, 2024, “Philosophy of Technology”, in _The Stanford Encyclopedia of Philosophy_ (Fall 2024 Edition), Edward N Zalta and Uri Nodelman (eds.) Edition, URL = <[https://plato.stanford.edu/archives/fall2024/entries/technology/](https://plato.stanford.edu/archives/fall2024/entries/technology/)\>.
 * Frey, Carl Benedict, 2019, _The Technology Trap: Capital, Labour, and Power in the Age of Automation_, Princeton: Princeton University Press.
-* Frey, Carl Benedikt and Michael A. Osborne, 2013, “The Future of Employment: How Susceptible Are Jobs to Computerisation?”, _Oxford Martin School Working Papers_, Oxford. \[Frey & Osborne 2013 available online\]
+* Frey, Carl Benedikt and Michael A. Osborne, 2013, “The Future of Employment: How Susceptible Are Jobs to Computerisation?”, _Oxford Martin School Working Papers_, Oxford. \[[Frey & Osborne 2013 available online](http://www.oxfordmartin.ox.ac.uk/publications/view/1314)\]
 * Fricker, Miranda, 2007, _Epistemic Injustice: Power and the Ethics of Knowing_, Oxford: Oxford University Press.
 * Friedman, Batya, 1996, “Value-Sensitive Design”, _ACM Interactions_, 3(6): 16–23.
 * Gabriel, Iason, 2020, “Artificial Intelligence, Values, and Alignment”, _Minds and Machines_, 30(3): 411–437. doi:10.1007/s11023-020-09539-2
@@ -472,12 +472,12 @@ The problems of the very concept of AI through computation have played a promine
 * Gerdes, Anne, 2016, “The Issue of Moral Consideration in Robot Ethics”, _SIGCAS Comput. Soc._, 45(3): 274–279. doi:10.1145/2874239.2874278
 * Gertz, Nolen, 2018, _Nihilism and Technology_, London: Rowman & Littlefield.
 * Gewirth, Alan, 1978, “The Golden Rule Rationalized”, _Midwest Studies in Philosophy_, III(1): 133–147.
-* Gibert, Martin, 2018, “Éthique Artificielle (Version Grand Public)”, _Encyclopédie Philosophique_, December. \[Gibert 2018 available online\]
+* Gibert, Martin, 2018, “Éthique Artificielle (Version Grand Public)”, _Encyclopédie Philosophique_, December. \[[Gibert 2018 available online](http://encyclo-philo.fr/etique-artificielle-gp/)\]
 * Good, Irvin J, 1965, “Speculations Concerning the First Ultraintelligent Machine”, in _Advances in Computers_, Franz L Alt and Morris Ruminoff (eds.), New York & London: Academic Press, 6: 31–88.
 * Goos, Maarten, 2018, “The Impact of Technological Progress on Labour Markets: Policy Challenges”, _Oxford Review of Economic Policy_, 34(3): 362–375. doi:10.1093/oxrep/gry002
 * Goos, Maarten, Alan Manning, and Anna Salomons, 2009, “Job Polarization in Europe”, _American Economic Review_, 99(2): 58–63. doi:10.1257/aer.99.2.58
 * Gordon, John-Stewart, 2022, “Are Superintelligent Robots Entitled to Human Rights?”, _Ratio_, 35(3): 181–193. doi:10.1111/rati.12346
-* Gordon, John-Stewart and Sven Nyholm, 2021, “Ethics of Artificial Intelligence”, _Internet Encyclopedia of Philosophy_. \[Gordon & Nyholm 2021 available online\]
+* Gordon, John-Stewart and Sven Nyholm, 2021, “Ethics of Artificial Intelligence”, _Internet Encyclopedia of Philosophy_. \[[Gordon & Nyholm 2021 available online](https://iep.utm.edu/ethic-ai/)\]
 * Graham, Sandra and Brian S. Lowery, 2004, “Priming Unconscious Racial Stereotypes About Adolescent Offenders”, _Law and Human Behavior_, 28(5): 483–504. doi:10.1023/B:LAHU.0000046430.65485.1f
 * Greene, Joshua D, 2015, “The Rise of Moral Cognition”, _Cognition_, 135: 39–42.
 * Grunwald, Armin, 2018, _Technology Assessment in Practice and Theory_, London: Routledge.
@@ -488,16 +488,16 @@ The problems of the very concept of AI through computation have played a promine
 * Gutmann, Mathias, Klaus Wiegerling, and Benjamin Rathgeber, 2024, _Handbuch Technikphilosophie_, Stuttgart: J.B. Metzler. doi:10.1007/978-3-476-05991-8\_6
 * Gyevnár, Bálint, and Atoosa Kasirzadeh, 2025, “AI Safety for Everyone”, _Nature Machine Intelligence_, 7(4): 531–542.
 * Hagendorff, Thilo, 2024, “Mapping the Ethics of Generative AI: A Comprehensive Scoping Review”, _Minds and Machines_, 34(4): 1–27. doi:10.1007/s11023-024-09694-w
-* Häggström, Olle, 2016, _Here Be Dragons: Science, Technology and the Future of Humanity_, Oxford: Oxford University Press. \[Häggström 2016 available online\]
-* Hähnel, Martin and Regina Müller, 2025, _A Companion to Applied Philosophy of AI_ (Blackwell Companions to Philosophy), London: Wiley-Blackwell. \[Hähnel & Müller 2025 available online\]
+* Häggström, Olle, 2016, _Here Be Dragons: Science, Technology and the Future of Humanity_, Oxford: Oxford University Press. \[[Häggström 2016 available online](https://www.newscientist.com/article/mg22930540-900-here-be-dragons-hostile-aliens-tall-people-and-black-holes/)\]
+* Hähnel, Martin and Regina Müller, 2025, _A Companion to Applied Philosophy of AI_ (Blackwell Companions to Philosophy), London: Wiley-Blackwell. \[[Hähnel & Müller 2025 available online](https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781394238620)\]
 * Hakli, Raul and Pekka Mäkelä, 2019, “Moral Responsibility of Robots and Hybrid Agents”, _The Monist_, 102(2): 259–275.
 * Halpern, Orit and Robert Mitchell, 2023, _The Smartness Mandate_, Cambridge, MA: MIT Press.
 * Han, Byung-Chul, 2022, _Infocracy: Digitization and the Crisis of Democracy_, London: Polity Press.
 * Hansson, Sven Ove, 2013, _The Ethics of Risk: Ethical Analysis in an Uncertain World_, New York: Palgrave Macmillan.
 * –––, 2018, “How to Perform an Ethical Risk Analysis (eRA)”, _Risk Analysis_, 38(9): 1820–1829. doi:10.1111/risa.12978
 * Harari, Yuval Noah, 2016, _Homo Deus: A Brief History of Tomorrow_, New York: Harper.
-* Harris, Tristan, 2016, “How Technology Is Hijacking Your Mind — from a Magician and Google Design Ethicist”, _Medium.Com_, Thrive Global (May 18, 2016). \[Harris 2016 available online\]
-* Haskel, Jonathan and Stian Westlake, 2017, _Capitalism without Capital: The Rise of the Intangible Economy_, Princeton, NJ: Princeton University Press. \[Haskel & Westlake 2017 available online\]
+* Harris, Tristan, 2016, “How Technology Is Hijacking Your Mind — from a Magician and Google Design Ethicist”, _Medium.Com_, Thrive Global (May 18, 2016). \[[Harris 2016 available online](https://medium.com/thrive-global/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3)\]
+* Haskel, Jonathan and Stian Westlake, 2017, _Capitalism without Capital: The Rise of the Intangible Economy_, Princeton, NJ: Princeton University Press. \[[Haskel & Westlake 2017 available online](https://press.princeton.edu/titles/11086.html)\]
 * Helbing, Dirk, Bruno S. Frey, Gerd Gigerenzer, Ernst Hafen, Michael Hagner, Yvonne Hofstetter, Jeroen van den Hoven, Roberto V. Zicari, and Andrej Zwitter, 2019, “Will Democracy Survive Big Data and Artificial Intelligence?”, in _Towards Digital Enlightenment: Essays on the Dark and Light Sides of the Digital Revolution_, Dirk Helbing (ed.), Cham: Springer International Publishing, 73–98. doi:10.1007/978-3-319-90869-4\_7
 * Hellrigel-Holderbaum, Max, and Leonard Dung, forthcoming, “Misalignment or Misuse? The AGI Alignment Tradeoff”, _Philosophical Studies._
 * Hendrycks, Dan, 2025, _Introduction to AI Safety, Ethics, and Society_, London: Taylor & Francis.
@@ -505,31 +505,31 @@ The problems of the very concept of AI through computation have played a promine
 * Houkes, Wybo and Pieter E Vermaas, 2010, _Technical Functions: On the Use and Design of Artefacts_, Berlin: Springer.
 * Humphreys, Paul W, 2009, “The Philosophical Novelty of Computer Simulation Methods”, _Synthese,_ 196 (3): 615–626.
 * Huq, Aziz Z., 2020, “A Right to a Human Decision”, _Virginia Law Review_, 106(3): 611–688.
-* Jacobs, An, Lynn Tytgat, Michel Maus, Romain Meeusen, and Bram Vanderborght, 2019, _Homo Roboticus: 30 Questions and Answers on Man, Technology, Science & Art_, Brussels: ASP. \[Jacobs et al. 2019 available online\]
-* Jasanoff, Sheila, 2016, _The Ethics of Invention: Technology and the Human Future_, New York: Norton. \[Jasanoff 2016 available online\]
+* Jacobs, An, Lynn Tytgat, Michel Maus, Romain Meeusen, and Bram Vanderborght, 2019, _Homo Roboticus: 30 Questions and Answers on Man, Technology, Science & Art_, Brussels: ASP. \[[Jacobs et al. 2019 available online](http://homo-roboticus.be)\]
+* Jasanoff, Sheila, 2016, _The Ethics of Invention: Technology and the Human Future_, New York: Norton. \[[Jasanoff 2016 available online](https://wwnorton.com/books/The-Ethics-of-Invention/about-the-book/product-details)\]
 * Jobin, Anna, Marcello Ienca, and Effy Vayena, 2019, “The Global Landscape of AI Ethics Guidelines”, _Nature Machine Intelligence_, 1(9): 389–399. doi:10.1038/s42256-019-0088-2
 * Johnson, Gabbrielle M., 2024, “Varieties of Bias”, _Philosophy Compass_, 19(7).
 * Kahnemann, Daniel, 2011, _Thinking Fast and Slow_, London: Macmillan.
-* Kamiya, G. and P. Bertoldi, 2024, “Energy Consumption in Data Centres and Broadband Communication Networks in the EU”, _European Commission, Joint Research Centre_, JRC135926, Luxembourg: Publications Office of the European Union. \[Kamiya & Bertoldi 2024 available online\]
+* Kamiya, G. and P. Bertoldi, 2024, “Energy Consumption in Data Centres and Broadband Communication Networks in the EU”, _European Commission, Joint Research Centre_, JRC135926, Luxembourg: Publications Office of the European Union. \[[Kamiya & Bertoldi 2024 available online](https://data.europa.eu/doi/10.2760/706491)\]
 * Kamm, Frances Myrna and Eric Rakowski, 2016, _The Trolley Problem Mysteries_, New York: Oxford University Press.
 * Kasirzadeh, Atoosa, 2025, “Two Types of AI Existential Risk: Decisive and Accumulative”, _Philosophical Studies_, 182: 1975–2003. doi:10.1007/s11098-025-02301-3
 * Kay, Jackie, Atoosa Kasirzadeh, and Shakir Mohamed, 10AD, “Epistemic Injustice in Generative AI”, _Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society_, 7(1): 684–697. doi:10.1609/aies.v7i1.31671
 * Keynes, John Maynard, 1930, “Economic Possibilities for Our Grandchildren”, in _Essays in Persuasion_, New York: Harcourt Brace 1932, 358–373.
-* Kissinger, Henry A., 2018, “How the Enlightenment Ends: Philosophically, Intellectually—in Every Way—Human Society Is Unprepared for the Rise of Artificial Intelligence”, _The Atlantic_, June. \[Kissinger 2018 available online\]
+* Kissinger, Henry A., 2018, “How the Enlightenment Ends: Philosophically, Intellectually—in Every Way—Human Society Is Unprepared for the Rise of Artificial Intelligence”, _The Atlantic_, June. \[[Kissinger 2018 available online](https://www.theatlantic.com/magazine/archive/2018/06/henry-kissinger-ai-could-mean-the-end-of-human-history/559124/)\]
 * Klenk, Michael, and Fleur Jongepier (eds.), 2022, _The Philosophy of Online Manipulation_, London: Routledge.
 * Königs, Peter, 2022, “Artificial Intelligence and Responsibility Gaps: What Is the Problem?”, _Ethics and Information Technology_, 24(3): 36. doi:10.1007/s10676-022-09643-0
 * –––, 2024, “In Defense of ‘Surveillance Capitalism’”, _Philosophy & Technology,_ 37 (122), 1–33.
 * –––, 2025, “No Wellbeing for Robots (and Hence No Rights)”, _American Philosophical Quarterly_, 62(2): 191–208.
 * Koudina, Olya and Ibo Van de Poel, 2024, “A Sociotechnical System Perspective on AI”, _Minds and Machines_, 34(21) doi:10.1007/s11023-024-09680-2
 * Kurzweil, Ray, 1999, _The Age of Spiritual Machines: When Computers Exceed Human Intelligence_, London: Penguin.
-* –––, 2005, _The Singularity Is near: When Humans Transcend Biology_, London: Viking. \[Kurzweil 2005 available online\]
+* –––, 2005, _The Singularity Is near: When Humans Transcend Biology_, London: Viking. \[[Kurzweil 2005 available online](http://www.amazon.co.uk/exec/obidos/ASIN/0670033847/citeulike-21)\]
 * –––, 2012, _How to Create a Mind: The Secret of Human Thought Revealed_, New York: Viking.
 * Lanier, Jaron, 2014, _Who Owns the Future?_, New York: Simon & Schuster.
 * LeCun, Yan, Yoshua Bengio, and Geoffrey Hinton, 2015, “Deep Learning”, _Nature_, 521(7553): 436–444.
 * Lee, Minha, Sander Ackermans, Nena van As, Hanwen Chang, Enzo Lucas, and Wijnand IJsselsteijn, 2019, “Caring for Vincent: A Chatbot for Self-Compassion”, _(CHI ’19) Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems_, 702: 1–13.
 * Levy, David, 2007, _Love and Sex with Robots: The Evolution of Human-Robot Relationships_, New York: Harper & Co.
 * Lieder, Falk and Thomas L. Griffiths, 2020, “Resource-Rational Analysis: Understanding Human Cognition as the Optimal Use of Limited Computational Resources”, _Behavioral and Brain Sciences_, 43: e1. doi:10.1017/S0140525X1900061X
-* Lighthill, James, 1973, “Artificial Intelligence: A General Survey”, in _Artificial Intelligence: A Paper Symposium_ (London), London: Science Research Council. \[Lighthill 1973 available online\]
+* Lighthill, James, 1973, “Artificial Intelligence: A General Survey”, in _Artificial Intelligence: A Paper Symposium_ (London), London: Science Research Council. \[[Lighthill 1973 available online](http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm)\]
 * Lin, Patrick, 2015, “Why Ethics Matters for Autonomous Cars”, in _Autonomous Driving_, M. Maurer et al. (ed.), Berlin: Springer, 69–85. doi:10.1007/978-3-662-48847-8\_4
 * Lin, Patrick, Keith Abney, and Ryan Jenkins, 2017, _Robot Ethics 2.0: From Autonomous Cars to Artificial Intelligence_, New York: Oxford University Press.
 * Lin, Patrick, George Bekey, and Keith Abney, 2008, “Autonomous Military Robotics: Risk, Ethics, and Design”, _US Department of Navy, Office of Naval Research_, no. December 20, 2008: 1–112.
@@ -541,7 +541,7 @@ The problems of the very concept of AI through computation have played a promine
 * Marx, Karl, 1867, _Capital: Critique of Political Economy_ (Volume 1), Paul Reitter (ed. & tran.), Princeton, NJ: Princeton University Press.
 * Mason, Rebecca, 2022, “Women Are Not Adult Human Females”, _Australasian Journal of Philosophy_, 102(1): 180–191. doi:10.1080/00048402.2022.2149824
 * Mathur, Arunesh, Gunes Acar, Michael Friedman, Elena Lucherini, Jonathan Mayer, Marshini Chetty, and Arvind Narayanan, 2019, “Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites”, _Proceedings of the ACM Human-Computer Interaction_, 3(81): 1–32.
-* McCarthy, John, Marvin Minsky, Nathaniel Rochester, and Claude E. Shannon, 1955, “A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence”. \[McCarthy et al. 1955 available online\]
+* McCarthy, John, Marvin Minsky, Nathaniel Rochester, and Claude E. Shannon, 1955, “A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence”. \[[McCarthy et al. 1955 available online](http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html)\]
 * Meijer, Albert and Martijn Wessels, 2019, “Predictive Policing: Review of Benefits and Drawbacks”, _International Journal of Public Administration_, 42(12): 1031–1039.
 * Merrin, William and Andrew Hoskins, 2025, _Sharded Media: Trump’s Rage against the Mainstream_, London: Palgrave Macmillan. doi:10.1007/978-3-031-84786-8\_1
 * Metcalf, Jacob, Emily F. Keller, and Danah Boyd, 2016, “Perspectives on Big Data, Ethics, and Society”, _Council for Big Data, Ethics, and Society_, May 23, 2016: 23pp.
@@ -551,33 +551,33 @@ The problems of the very concept of AI through computation have played a promine
 * Misselhorn, Catrin, 2018, _Grundfragen Der Maschinenethik_, fifth edition, Ditzingen: Reclam.
 * –––, 2020, “Artificial Systems with Moral Capacities? A Research Design and Its Implementation in a Geriatric Care System”, _Artificial Intelligence_, 278(January): 103179. doi:10.1016/j.artint.2019.103179
 * –––, 2023, _Künstliche Intelligenz – Das Ende Der Kunst?_, Stuttgart: Reclam.
-* Mittelstadt, Brent Daniel, Patrick Allo, Mariarosaria Taddeo, Sandra Wachter, and Luciano Floridi, 2016, “The Ethics of Algorithms: Mapping the Debate”, _Big Data & Society_, 3(2). \[Mittelstadt et al. 2016 available online\]
+* Mittelstadt, Brent Daniel, Patrick Allo, Mariarosaria Taddeo, Sandra Wachter, and Luciano Floridi, 2016, “The Ethics of Algorithms: Mapping the Debate”, _Big Data & Society_, 3(2). \[[Mittelstadt et al. 2016 available online](https://journals.sagepub.com/doi/full/10.1177/2053951716679679)\]
 * Moor, James H., 2006, “The Nature, Importance, and Difficulty of Machine Ethics”, _IEEE Intelligent Systems_, 21(4): 18–21.
 * Moravec, Hans, 1998, _Robot: Mere Machine to Transcendent Mind_, New York: Oxford University Press.
 * More, Max and Natasha Vita-More, 2013, _The Transhumanist Reader_, London: John Wiley. doi:10.1002/9781118555927.fmatter
 * Mozorov, Eygeny, 2013, _To Save Everything, Click Here: The Folly of Technological Solutionism_, New York: Public Affairs.
 * Mühlhoff, Rainer, 2025, _Künstliche Intelligenz Und Der Neue Faschismus_, Stuttgart: Reclam.
 * Müller, Vincent C., 2012, “Autonomous Cognitive Systems in Real-World Environments: Less Control, More Flexibility and Better Interaction”, _Cognitive Computation_, 4(3): 212–215. doi:10.1007/s12559-012-9129-4
-* –––, 2014, “Editorial: Risks of General Artificial Intelligence”, _Journal of Experimental and Theoretical Artificial Intelligence_, 26(3): 297–301. \[Müller 2014 available online\]
+* –––, 2014, “Editorial: Risks of General Artificial Intelligence”, _Journal of Experimental and Theoretical Artificial Intelligence_, 26(3): 297–301. \[[Müller 2014 available online](http://www.tandfonline.com/toc/teta20/26/3)\]
 * –––, 2016a, “Autonomous Killer Robots Are Probably Good News”, in _Drones and Responsibility: Legal, Philosophical and Socio-Technical Perspectives on the Use of Remotely Controlled Weapons_, Ezio Di Nucci and Filippo Santoni de Sio (eds.), London: Routledge, 67–81. doi:10.4324/9781315578187-4
 * –––, 2016b, _Risks of Artificial Intelligence_, London: Chapman & Hall – CRC Press. doi:10.1201/b19187
 * –––, 2018, “In 30 Schritten Zum Mond? Zukünftiger Fortschritt in Der KI”, _Medienkorrespondenz_, 20(May 10, 2018): 5–15.
-* –––, 2020, “Ethics of Artificial Intelligence and Robotics”, in _Stanford Encyclopedia of Philosophy_ (Summer 2020 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/sum2020/entries/ethics-ai/\>
+* –––, 2020, “Ethics of Artificial Intelligence and Robotics”, in _Stanford Encyclopedia of Philosophy_ (Summer 2020 Edition), Edward N. Zalta (ed.), URL = <[https://plato.stanford.edu/archives/sum2020/entries/ethics-ai/](https://plato.stanford.edu/archives/sum2020/entries/ethics-ai/)\>
 * –––, 2021, “Is It Time for Robot Rights? Moral Status in Artificial Entities”, _Ethics & Information Technology_, 23(3): 579–587.
 * –––, 2022, “The History of Digital Ethics”, in _Oxford Handbook of Digital Ethics_, Carissa Véliz (ed.), Oxford: Oxford University Press, 3–19. doi:10.1093/oxfordhb/9780198857815.013.1
-* –––, 2025a, “Deep Opacity and AI: A Treat to XAI and to Privacy Protection Mechanisms”, in _A Companion to Applied Philosophy of AI_ (Blackwell Companions to Philosophy), Martin Hähnel and Regina Müller (eds.), London: Wiley-Blackwell. \[Müller 2025a available online\]
-* –––, 2025b, “Philosophy of AI: A Structured Overview”, in _Cambridge Handbook on the Law, Ethics and Policy of Artificial Intelligence_, Nathalie A. Smuha (ed.), Cambridge: Cambridge University Press, 40–58. \[Müller 2025b available online\]
-* Müller, Vincent C. and Nick Bostrom, 2016, “Future Progress in Artificial Intelligence: A Survey of Expert Opinion”, in _Fundamental Issues of Artificial Intelligence_ (Synthese Library 377), Vincent C. Müller (ed.), Berlin: Springer, 553–570. \[Müller & Bostrom 2016 available online\]
+* –––, 2025a, “Deep Opacity and AI: A Treat to XAI and to Privacy Protection Mechanisms”, in _A Companion to Applied Philosophy of AI_ (Blackwell Companions to Philosophy), Martin Hähnel and Regina Müller (eds.), London: Wiley-Blackwell. \[[Müller 2025a available online](https://www.wiley.com/en-us/A+Companion+to+Applied+Philosophy+of+AI-p-9781394238620)\]
+* –––, 2025b, “Philosophy of AI: A Structured Overview”, in _Cambridge Handbook on the Law, Ethics and Policy of Artificial Intelligence_, Nathalie A. Smuha (ed.), Cambridge: Cambridge University Press, 40–58. \[[Müller 2025b available online](https://www.cambridge.org/core/books/cambridge-handbook-of-the-law-ethics-and-policy-of-artificial-intelligence/philosophy-of-ai/EA114E662BF42641EA9720228D69407B)\]
+* Müller, Vincent C. and Nick Bostrom, 2016, “Future Progress in Artificial Intelligence: A Survey of Expert Opinion”, in _Fundamental Issues of Artificial Intelligence_ (Synthese Library 377), Vincent C. Müller (ed.), Berlin: Springer, 553–570. \[[Müller & Bostrom 2016 available online](http://www.springer.com/gp/book/9783319264837)\]
 * –––, 2026, “Short-Term or Long-Term AI Ethics? A Dilemma for Ethical Singularity Only”, in Nyholm, Sven, Atoosa Kasirzadeh and John Zerilli (eds.), _Contemporary Debates in the Ethics of Artificial Intelligence_, 309–318, London: Wiley
 * Müller, Vincent C. and Michael Cannon, 2022, “Existential Risk from AI and Orthogonality: Can We Have It Both Ways?”, _Ratio_, 35(1): 25–36. doi:10.1111/rati.12320
 * Müller, Vincent C. and Guido Löhr, forthcoming, _Artificial Minds_ (Cambridge Elements), Cambridge: Cambridge University Press.
 * Munn, Luke, 2023, “The Uselessness of AI Ethics”, _AI and Ethics_, 3(3): 869–877. doi:10.1007/s43681-022-00209-w
 * Miyahara, Katsunori, and Hayate Shimizu, 2025, “Instrumental, Intrinsic, and Functional Scarcity”, _Philosophy & Technology,_ 38(3): 103.
 * Narayanan, Arvind and Sayash Kapoor, 2024, _AI Snake Oil_, Princeton, NJ: Princeton University Press. doi:10.1515/9780691249643
-* Neumueller, Alexander, 2023, “Bitcoin Electricity Consumption: An Improved Assessment”, _Judge Business School_, August 31, 2023, Cambridge, UK: University of Cambridge. \[Neumueller 2023 available online\]
+* Neumueller, Alexander, 2023, “Bitcoin Electricity Consumption: An Improved Assessment”, _Judge Business School_, August 31, 2023, Cambridge, UK: University of Cambridge. \[[Neumueller 2023 available online](https://www.jbs.cam.ac.uk/2023/bitcoin-electricity-consumption/)\]
 * Newport, Cal, 2019, _Digital Minimalism: On Living Better with Less Technology_, London: Penguin.
 * Nissenbaum, Helen, 2004, “Privacy as Contextual Integrity”, _Washington Law Review_, 79(1): 119–157.
-* Noggle, Robert, 2022, “The Ethics of Manipulation”, in _The Stanford Encyclopedia of Philosophy_ (Summer 2022 Edition), Edward N Zalta (ed.), URL = <https://plato.stanford.edu/archives/sum2022/entries/ethics-manipulation/\>
+* Noggle, Robert, 2022, “The Ethics of Manipulation”, in _The Stanford Encyclopedia of Philosophy_ (Summer 2022 Edition), Edward N Zalta (ed.), URL = <[https://plato.stanford.edu/archives/sum2022/entries/ethics-manipulation/](https://plato.stanford.edu/archives/sum2022/entries/ethics-manipulation/)\>
 * Nørskov, Marco, 2017, _Social Robots_, London: Routledge.
 * Nyholm, Sven, 2018a, “The Ethics of Crashes with Self-Driving Cars: A Roadmap, II”, _Philosophy Compass_, 13(7): e12506. doi:10.1111/phc3.12506
 * –––, 2018b, “Attributing Agency to Automated Systems: Reflections on Human–Robot Collaborations and Responsibility-Loci”, _Science and Engineering Ethics_, 24(4): 1201–1219. doi:10.1007/s11948-017-9943-x
@@ -586,13 +586,13 @@ The problems of the very concept of AI through computation have played a promine
 * Nyholm, Sven, Atoosa Kasirzadeh, and John Zerilli (eds.), 2026, _Contemporary Debates in the Ethics of Artificial Intelligence_, London: Wiley.
 * O’Brolcháin, Fiachra and María Amparo Grau Ruiz, 2020, “Environmental Impact of Robotics: Ethical Concerns and Legal Alternatives”, in _Industry, Innovation and Infrastructure_, Walter Leal Filho, Anabela Marisa Azul, Luciana Brandli, Amanda Lange Salvia, and Tony Wall (eds.), Cham: Springer International Publishing, 1–15. doi:10.1007/978-3-319-71059-4\_147-1
 * Obuchowicz, R., J. Lasek, M. Wodziński, A. Piórkowski, M. Strzelecki, and K. Nurzynska, 2025, “Artificial Intelligence-Empowered Radiology-Current Status and Critical Review”, _Diagnostics_, 15(3). doi:10.3390/diagnostics15030282
-* O’Donnell, James, and Casey Crownhart, 2025, “We Did the Math on AI’s Energy Footprint. Here’s the Story You Haven’t Heard”, _MIT Technology Review_, May 20, 2025.\[O’Connell 2025available online\]
-* O’Connell, Mark, 2017, _To Be a Machine: Adventures among Cyborgs, Utopians, Hackers, and the Futurists Solving the Modest Problem of Death_, London: Granta. \[O’Connell 2017 available online\]
-* OECD, 2024, “Recommendation of the Council on Artificial Intelligence”, C/MIN(2024)16/FINAL(05.03.2024), OECD Legal Instruments. \[OCED 2024 available online\]
+* O’Donnell, James, and Casey Crownhart, 2025, “We Did the Math on AI’s Energy Footprint. Here’s the Story You Haven’t Heard”, _MIT Technology Review_, May 20, 2025.\[[O’Connell 2025available online](https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/)\]
+* O’Connell, Mark, 2017, _To Be a Machine: Adventures among Cyborgs, Utopians, Hackers, and the Futurists Solving the Modest Problem of Death_, London: Granta. \[[O’Connell 2017 available online](https://www.theguardian.com/books/2017/mar/23/to-be-a-machine-by-mark-oconnell-review)\]
+* OECD, 2024, “Recommendation of the Council on Artificial Intelligence”, C/MIN(2024)16/FINAL(05.03.2024), OECD Legal Instruments. \[[OCED 2024 available online](https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449)\]
 * Omohundro, Steve, 2014, “Autonomous Technology and the Greater Human Good”, _Journal of Experimental and Theoretical Artificial Intelligence_, 26(3-Special issue ‘Risks of General Artificial Intelligence’, ed. V. Müller): 303–315.
 * O’Neil, Cathy, 2016, _Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy_, Largo, ML: Crown.
 * O’Neil, Elizabeth, Michal Klincewicz, and Michiel Kemmer, 2022, “Ethical Issues with Artificial Ethics Assistants”, in _Oxford Handbook of Digital Ethics_, Carissa Véliz (ed.), Oxford: Oxford University Press, 312–335. doi:10.1093/oxfordhb/9780198857815.013.1
-* OpenAI, 2025, “OpenAI GPT-4.5 System Card”, no. February 27, 2025. \[OpenAI 2025 available online\]
+* OpenAI, 2025, “OpenAI GPT-4.5 System Card”, no. February 27, 2025. \[[OpenAI 2025 available online](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf)\]
 * Ord, Toby, 2020, _The Precipice: Existential Risk and the Future of Humanity_, London: Bloomsbury.
 * Paulo, Norbert, 2023, “The Trolley Problem in the Ethics of Autonomous Vehicles”, _The Philosophical Quarterly_, 73(4): 1046–1066. doi:10.1093/pq/pqad051
 * Poel, Ibo van de, 2020, “Embedding Values in Artificial Intelligence (AI) Systems”, _Minds and Machines_, 30(3): 385–409. doi:10.1007/s11023-020-09537-4
@@ -600,8 +600,8 @@ The problems of the very concept of AI through computation have played a promine
 * Prunkl, Carina, 2024, “Human Autonomy at Risk? An Analysis of the Challenges from AI”, _Minds and Machines,_ 34(3): 26.
 * Rachels, James, 1975, “Why Privacy Is Important”, _Philosophy and Public Affairs,_ 4(4): 323–333.
 * Rawls, John, 1971, _A Theory of Justice_, Cambridge, MA: Belknap Press.
-* Rees, Martin, 2018, _On the Future: Prospects for Humanity_, Princeton: Princeton University Press. \[Rees 2018 available online\]
-* Richardson, Kathleen, 2016, “Sex Robot Matters: Slavery, the Prostituted, and the Rights of Machines”, _IEEE Technology and Society_, 35(2). \[Richardson 2016 available online\]
+* Rees, Martin, 2018, _On the Future: Prospects for Humanity_, Princeton: Princeton University Press. \[[Rees 2018 available online](https://press.princeton.edu/titles/13251.html)\]
+* Richardson, Kathleen, 2016, “Sex Robot Matters: Slavery, the Prostituted, and the Rights of Machines”, _IEEE Technology and Society_, 35(2). \[[Richardson 2016 available online](https://ieeexplore.ieee.org/abstract/document/7484884)\]
 * Rini, Regina, 2020, “Deepfakes and the Epistemic Backstop”, _Philosophers’ Imprint_, 20(24): 1–16.
 * Risse, Mathias, 2023, _Political Theory of the Digital Age: Where Artificial Intelligence Might Take Us_, Cambridge: Cambridge University Press.
 * Rocher, Luc, Julien M. Hendrickx, and Yves-Alexandre de Montjoye, 2019, “Estimating the Success of Re-Identifications in Incomplete Datasets Using Generative Models”, _Nature Communications_, 10(1): 3069. doi:10.1038/s41467-019-10933-3
@@ -616,10 +616,10 @@ The problems of the very concept of AI through computation have played a promine
 * –––, 2019, _Human Compatible: Artificial Intelligence and the Problem of Control_, New York: Viking.
 * –––, 2022, “If We Succeed”, _Dædalus_, 151(2): 43–57.
 * Russell, Stuart, and Peter Norvig, 2020, _Artificial Intelligence: A Modern Approach_ (4 ed.). Upper Saddle River: Prentice Hall.
-* SAE, 2015, “Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles”, _SAE Recommended Practice_, J3016\_201806(2018-06–15). \[SAE 2015 available online\]
+* SAE, 2015, “Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles”, _SAE Recommended Practice_, J3016\_201806(2018-06–15). \[[SAE 2015 available online](https://www.sae.org/standards/content/j3016_201806/)\]
 * Sætra, Henrik Skaug and John Danaher, 2025, “Resolving the Battle of Short- vs. Long-Term AI Risks”, _AI and Ethics_, 5(1): 723–728. doi:10.1007/s43681-023-00336-y
 * Sandberg, Anders, 2013, “Feasibility of Whole Brain Emulation”, in _Theory and Philosophy of Artificial Intelligence_ (SAPERE), Vincent C. Müller (ed.), Berlin: Springer, 251–264.
-* Sanders, Nathan E and Bruce Schneier, 2024, “Let’s Not Make the Same Mistakes with AI That We Made with Social Media”, _MIT Technology Review_, March 13, 2024. \[Sanders & Schneier 2024 available online\]
+* Sanders, Nathan E and Bruce Schneier, 2024, “Let’s Not Make the Same Mistakes with AI That We Made with Social Media”, _MIT Technology Review_, March 13, 2024. \[[Sanders & Schneier 2024 available online](https://www.technologyreview.com/2024/03/13/1089729/lets-not-make-the-same-mistakes-with-ai-that-we-made-with-social-media/)\]
 * Santoni de Sio, Filippo, 2024, _Human Freedom in the Age of AI_, New York: Routledge.
 * Santoni de Sio, Filippo and Jeroen van den Hoven, 2018, “Meaningful Human Control over Autonomous Systems: A Philosophical Account”, _Frontiers in Robotics and AI_, 5(15): 1–15. doi:10.3389/frobt.2018.00015
 * Savulescu, Julian, Alberto Giubilini, Robert Vandersluis, and Abhishek Mishra, 2024, “Ethics of AI in Medicine”, _Singapore Medical Journal_, 65(3): 150–158.
@@ -640,13 +640,13 @@ The problems of the very concept of AI through computation have played a promine
 * Smolan, Sandy, 2016, “The Human Face of Big Data”, _PBS Documentary_, no. 24 February 2016, PBS-Luminous Content: 56 mins.
 * Smuha, Nathalie A., 2021a, “From a ‘Race to AI’ to a ‘Race to AI Regulation’: Regulatory Competition for Artificial Intelligence”, _Law, Innovation and Technology_, 13(1): 57–84. doi:10.1080/17579961.2021.1898300
 * –––, 2021b, “Beyond a Human Rights-Based Approach to AI Governance: Promise, Pitfalls, Plea”, _Philosophy & Technology_, 34(1): 91–104. doi:10.1007/s13347-020-00403-w
-* –––, 2025, _Cambridge Handbook on the Law, Ethics and Policy of Artificial Intelligence_, Cambridge: Cambridge University Press. \[Smuha 2025 available online\]
+* –––, 2025, _Cambridge Handbook on the Law, Ethics and Policy of Artificial Intelligence_, Cambridge: Cambridge University Press. \[[Smuha 2025 available online](https://www.cambridge.org/core/books/cambridge-handbook-of-the-law-ethics-and-policy-of-artificial-intelligence/philosophy-of-ai/EA114E662BF42641EA9720228D69407B)\]
 * Sparrow, Rob, 2007, “Killer Robots”, _Journal of Applied Philosophy_, 24(1): 62–77.
 * –––, 2016, “Robots in Aged Care: A Dystopian Future”, _AI & Society_, 31(4): 1–10.
 * Sparrow, Rob, and Gene Flenady, 2025, “The Testimony Gap: Machines and Reasons”, _Minds and Machines_, 35(1): 12.
 * Stix, Charlotte, 2021, “Actionable Principles for Artificial Intelligence Policy: Three Pathways”, _Science and Engineering Ethics_, 27(1): 15. doi:10.1007/s11948-020-00277-3
 * Stone, Christopher D, 1972, “Should Trees Have Standing – Toward Legal Rights for Natural Objects”, _Southern California Law Review_, 2: 450–501.
-* Stone, Peter, Rodney Brooks, Erik Brynjolfsson, Ryan Calo, Oren Etzioni, Greg Hager, Julia Hirschberg, Shivaram Kalyanakrishnan, Ece Kamar, Sarit Kraus, et al., 2021, “Gathering Strength, Gathering Storms: The One Hundred Year Study on Artificial Intelligence (AI100) 2021 Study Panel Report”, September 2021, Palo Alto: Stanford. \[Stone et al. 2021 available online\]
+* Stone, Peter, Rodney Brooks, Erik Brynjolfsson, Ryan Calo, Oren Etzioni, Greg Hager, Julia Hirschberg, Shivaram Kalyanakrishnan, Ece Kamar, Sarit Kraus, et al., 2021, “Gathering Strength, Gathering Storms: The One Hundred Year Study on Artificial Intelligence (AI100) 2021 Study Panel Report”, September 2021, Palo Alto: Stanford. \[[Stone et al. 2021 available online](https://ai100.stanford.edu)\]
 * Strawson, Galen, 2011, “Free Will”, _Routledge Encyclopedia of Philosophy_, London: Routledge. doi:10.4324/9780415249126-V014-2
 * Sullins, John P, 2012, “Robots, Love, and Sex: The Ethics of Building a Love Machine”, _IEEE Transactions on Affective Computing_, 3(4): 398–409. doi:10.1109/T-AFFC.2012.31
 * Sullivan, Emily, 2022, “Inductive Risk, Understanding, and Opaque Machine Learning Models”, _Philosophy of Science_, 89(5): 1065–1074. doi:10.1017/psa.2022.62
@@ -655,8 +655,8 @@ The problems of the very concept of AI through computation have played a promine
 * Taddeo, Mariarosaria, 2024, _The Ethics of Artificial Intelligence in Defense_, Oxford: Oxford University Press.
 * Taddeo, Mariarosaria, Alexander Blanchard, and Christopher Thomas, 2024, “From AI Ethics Principles to Practices: A Teleological Methodology to Apply AI Ethics Principles in The Defence Domain”, _Philosophy & Technology_, 37(1): 42. doi:10.1007/s13347-024-00710-6
 * Taddeo, Mariarosaria and Luciano Floridi, 2018, “How AI Can Be a Force for Good”, _Science_, 361(6404): 751–752. doi:10.1126/science.aat5991
-* Tavani, Herman T. and Michael Zimmer, 2025, “Search Engines and Ethics”, in _The Stanford Encyclopedia of Philosophy_ (Spring 2025 Edition), Edward N. Zalta (ed.), URL = <https://plato.stanford.edu/archives/spr2025/entries/ethics-search/\>
-* Taylor, Steve, Brian Pickering, Michael Boniface, Michael Anderson, David Danks, Asbjørn Følstad, Matthias Leese, Vincent C. Müller, Tom Sorrell, Alan Winfield, and Fiona Wollard, 2018, “Responsible AI – Key Themes, Concerns & Recommendations for European Research and Innovation: Summary of Consultation with Multidisciplinary Experts”, June. \[Taylor et al. 2018 available online\]
+* Tavani, Herman T. and Michael Zimmer, 2025, “Search Engines and Ethics”, in _The Stanford Encyclopedia of Philosophy_ (Spring 2025 Edition), Edward N. Zalta (ed.), URL = <[https://plato.stanford.edu/archives/spr2025/entries/ethics-search/](https://plato.stanford.edu/archives/spr2025/entries/ethics-search/)\>
+* Taylor, Steve, Brian Pickering, Michael Boniface, Michael Anderson, David Danks, Asbjørn Følstad, Matthias Leese, Vincent C. Müller, Tom Sorrell, Alan Winfield, and Fiona Wollard, 2018, “Responsible AI – Key Themes, Concerns & Recommendations for European Research and Innovation: Summary of Consultation with Multidisciplinary Experts”, June. \[[Taylor et al. 2018 available online](https://www.hub4ngi.eu)\]
 * Terwiesch, Christian, Lennart Meincke, and Gideon Nave, 2023, “The AI Ethicist: Fact or Fiction?”, _SSRN: The Wharton School Research Paper_, no. 4609825: 1–14.
 * Thaler, Richard H and Cass Sunstein, 2008, _Nudge: Improving Decisions about Health, Wealth and Happiness_, New York: Penguin.
 * Thoma, Johanna, 2019, “Decision Theory”, in _The Open Handbook of Formal Epistemology_, Richard Pettigrew and Jonathan Weisberg (eds.), PhilPapers, 57–106.
@@ -664,25 +664,25 @@ The problems of the very concept of AI through computation have played a promine
 * Thorstad, David, 2025, “Against the Singularity Hypothesis”, _Philosophical Studies_, 182(7): 1627–1651.
 * Tigard, Daniel W, 2021, “There Is No Techno-Responsibility Gap”, _Philosophy & Technology_, 34 (3): 589–607.
 * Toupin, Sophie, 2024, “Shaping Feminist Artificial Intelligence”, _New Media & Society_, 26(1): 580–595. doi:10.1177/14614448221150776
-* Turner, Jacob, 2019, _Robot Rules: Regulating Artificial Intelligence_, Berlin: Springer. \[Turner 2019 available online\]
-* Tzafestas, Spyros G, 2016, _Roboethics: A Navigating Overview_, Berlin: Springer. \[Tzafesstas 2016 available online\]
+* Turner, Jacob, 2019, _Robot Rules: Regulating Artificial Intelligence_, Berlin: Springer. \[[Turner 2019 available online](https://www.springer.com/gb/book/9783319962344)\]
+* Tzafestas, Spyros G, 2016, _Roboethics: A Navigating Overview_, Berlin: Springer. \[[Tzafesstas 2016 available online](https://www.springer.com/us/book/9783319217130)\]
 * Vallor, Shannon, 2024, _The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking_, Oxford: Oxford University Press. doi:10.1093/oso/9780197759066.001.0001
 * Véliz, Carissa, 2020, _Privacy Is Power_, London: Penguin.
 * –––, 2024, _The Ethics of Privacy and Surveillance._ Oxford: Oxford University Press.
 * Verbeek, Peter-Paul, 2011, _Moralizing Technology: Understanding and Designing the Morality of Things_, Chicago: University of Chicago Press.
 * Vosoughi, Soroush, Deb Roy, and Sinan Aral, 2018, “The Spread of True and False News Online”, _Science_, 359(6380): 1146–1151. doi:10.1126/science.aap9559
-* Wachter, Sandra and Brent Daniel Mittelstadt, 2019, “A Right to Reasonable Inferences: Re-Thinking Data Protection Law in the Age of Big Data and AI”, _Columbia Business Law Review_, 494. \[Wachter & Mittelstadt 2019 available online\]
+* Wachter, Sandra and Brent Daniel Mittelstadt, 2019, “A Right to Reasonable Inferences: Re-Thinking Data Protection Law in the Age of Big Data and AI”, _Columbia Business Law Review_, 494. \[[Wachter & Mittelstadt 2019 available online](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3248829)\]
 * Wallach, Wendell and Peter M Asaro, 2017, _Machine Ethics and Robot Ethics_, London: Routledge.
 * Walsh, Toby, 2018, _Machines That Think: The Future of Artificial Intelligence_, Amherst, MA: Prometheus Books.
 * Wang, Hao, and Vincent Blok, 2025, “Why Putting Artificial Intelligence Ethics into Practice Is Not Enough: Towards a Multi-Level Framework”, _Big Data & Society_, 12(2): 20539517251340620.
-* Westlake, Stian, 2014, _Our Work Here Is Done: Visions of a Robot Economy_, London: \[Westlake 2014 available online\]
-* Whittaker, Meredith, Kate Crawford, Roel Dobbe, Genevieve Fried, Elizabeth Kaziunas, Varoon Mathur, Sarah Myers West, Rashida Richardson, and Jason Schultz, 2018, “AI Now Report 2018”, New York: New York University. \[Whittaker et al. 2018 available online\]
+* Westlake, Stian, 2014, _Our Work Here Is Done: Visions of a Robot Economy_, London: \[[Westlake 2014 available online](https://www.nesta.org.uk/)\]
+* Whittaker, Meredith, Kate Crawford, Roel Dobbe, Genevieve Fried, Elizabeth Kaziunas, Varoon Mathur, Sarah Myers West, Rashida Richardson, and Jason Schultz, 2018, “AI Now Report 2018”, New York: New York University. \[[Whittaker et al. 2018 available online](https://ainowinstitute.org/AI_Now_2018_Report.html)\]
 * Whittlestone, Jess, Rune Nyrup, Anna Alexandrova, Kanta Dihal, and Stephen Cave, 2019, “Ethical and Societal Implications of Algorithms, Data, and Artificial Intelligence: A Roadmap for Research”, February, London: Nuffield Foundation, 1–59.
 * Wilkinson, Hayden, 2022, “In Defense of Fanaticism”, _Ethics_, 132(2): 445–477. doi:10.1086/716869
 * Williams, James, 2018, _Stand out of Our Light: Freedom and Resistance in the Attention Economy_, Cambridge: Cambridge University Press.
-* Woollard, Fiona and Frances Howard-Snyder, 2021, “Doing vs. Allowing Harm”, in _Stanford Encyclopedia of Philosophy_ (Fall 2021 Edition), Edward N Zalta (ed.), URL = <https://plato.stanford.edu/archives/fall2021/entries/doing-allowing/\>
+* Woollard, Fiona and Frances Howard-Snyder, 2021, “Doing vs. Allowing Harm”, in _Stanford Encyclopedia of Philosophy_ (Fall 2021 Edition), Edward N Zalta (ed.), URL = <[https://plato.stanford.edu/archives/fall2021/entries/doing-allowing/](https://plato.stanford.edu/archives/fall2021/entries/doing-allowing/)\>
 * Woolley, Sam and Phil Howard, 2017, _Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media_, Oxford: Oxford University Press.
-* World Economic Forum, 2025, “The Future of Jobs Report 2025”, no. 7, January 2025. \[Word Economic Forum 2025 available online\]
+* World Economic Forum, 2025, “The Future of Jobs Report 2025”, no. 7, January 2025. \[[Word Economic Forum 2025 available online](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)\]
 * Wynsberghe, Aimee van, 2016, _Healthcare Robots: Ethics, Design and Implementation_, London: Routledge.
 * –––, 2021, “Sustainable AI: AI for Sustainability and the Sustainability of AI”, _AI and Ethics_, 1(3): 213–218.
 * Yampolskiy, Roman V, 2018, _Artificial Intelligence Safety and Security_, London: Chapman and Hall/CRC. doi:10.1201/9781351251389
@@ -694,61 +694,61 @@ The problems of the very concept of AI through computation have played a promine
 * Zednik, Carlos, 2021, “Solving the Black Box Problem: A Normative Framework for Explainable Artificial Intelligence”, _Philosophy & Technology_, 34(2): 265–288. doi:10.1007/s13347-019-00382-7
 * Zerilli, John, 2022, “Explaining Machine Learning Decisions”, _Philosophy of Science_, 89(1): 1–19. doi:10.1017/psa.2021.13
 * Zhi-Xuan, Tan, Micah Carroll, Matija Franklin, and Hal Ashton, 2024, “Beyond Preferences in AI Alignment”, _Philosophical Studies_, 182: 1813–1863. doi:10.1007/s11098-024-02249-w
-* Zuboff, Shoshana, 2019, _The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power_, New York: Public Affairs. \[Zuboff 2019 available online\]
+* Zuboff, Shoshana, 2019, _The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power_, New York: Public Affairs. \[[Zuboff 2019 available online](http://www.faz.net/aktuell/feuilleton/debatten/the-digital-debate/shoshana-zuboff-secrets-of-surveillance-capitalism-14103616.html?printPagedArticle=true#pageIndex_0)\]
 
 ## Academic Tools
 
-> How to cite this entry.
+> [How to cite this entry](https://plato.stanford.edu/cgi-bin/encyclopedia/archinfo.cgi?entry=ethics-ai).
 > 
-> Preview the PDF version of this entry at the Friends of the SEP Society.
+> [Preview the PDF version of this entry](https://leibniz.stanford.edu/friends/preview/ethics-ai/) at the [Friends of the SEP Society](https://leibniz.stanford.edu/friends/).
 > 
-> Look up topics and thinkers related to this entry at the Internet Philosophy Ontology Project (InPhO).
+> [Look up topics and thinkers related to this entry](https://www.inphoproject.org/entity?sep=ethics-ai&redirect=True) at the Internet Philosophy Ontology Project (InPhO).
 > 
-> Enhanced bibliography for this entry at PhilPapers, with links to its database.
+> [Enhanced bibliography for this entry](https://philpapers.org/sep/ethics-ai/) at [PhilPapers](https://philpapers.org/), with links to its database.
 
 ## Other Internet Resources
 
-* Barandiaran, Xabier E and Lola S Almendros, 2024, “Transforming Agency: On the Mode of Existence of Large Language Models” \[arXiv Preprint\]
-* Bengio, Yoshua, et al. 2025, “International AI Safety Report” \[arXiv Preprint\].
-* Butlin, Patrick, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, Stephen M. Fleming, Chris Frith, and Xu Ji, 2023, “Consciousness in Artificial Intelligence: Insights from the Science of Consciousness” \[arXiv Preprint\]
-* Goldstein, Josh A., Girish Sastry, Micah Musser, Renee DiResta, Matthew Gentzel, and Katerina Sedova, 2023, “Generative Language Models and Automated Influence Operations: Emerging Threats and Potential Mitigations” \[arXiv Preprint\]
-* Grace, Katja, Harlan Stewart, Julia Fabienne Sandkühler, Stephen Thomas, Ben Weinstein-Raun, and Jan Brauner, 2024, “Thousands of AI Authors on the Future of AI” \[arXiv Preprint\]
-* Marcus, Gary, 2018, “Deep Learning: A Critical Appraisal” \[arXiv Preprint\]
+* Barandiaran, Xabier E and Lola S Almendros, 2024, “[Transforming Agency: On the Mode of Existence of Large Language Models](https://arxiv.org/abs/2407.10735)” \[arXiv Preprint\]
+* Bengio, Yoshua, et al. 2025, “[International AI Safety Report](https://arxiv.org/abs/2501.17805)” \[arXiv Preprint\].
+* Butlin, Patrick, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, Stephen M. Fleming, Chris Frith, and Xu Ji, 2023, “[Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2501.17805)” \[arXiv Preprint\]
+* Goldstein, Josh A., Girish Sastry, Micah Musser, Renee DiResta, Matthew Gentzel, and Katerina Sedova, 2023, “[Generative Language Models and Automated Influence Operations: Emerging Threats and Potential Mitigations](https://arxiv.org/abs/2301.04246)” \[arXiv Preprint\]
+* Grace, Katja, Harlan Stewart, Julia Fabienne Sandkühler, Stephen Thomas, Ben Weinstein-Raun, and Jan Brauner, 2024, “[Thousands of AI Authors on the Future of AI](https://arxiv.org/html/2401.02843v1)” \[arXiv Preprint\]
+* Marcus, Gary, 2018, “[Deep Learning: A Critical Appraisal](https://arxiv.org/abs/1801.00631)” \[arXiv Preprint\]
 
 ### Research Organizations
 
-* AI Now Institute (NYU)
-* Berkman Klein Center (Harvard)
-* Centre for Philosophy and AI Research {PAIR} (Erlangen-Nürnberg)
-* Digital Ethics Center (Yale)
-* Future of Life Institute
-* Institute for Ethics in AI (Oxford)
-* Leverhulme Centre for the Future of Intelligence (Cambridge)
-* Oxford Internet Institute
-* Stanford Center for Internet and Society
-* The Alan Turing Institute (UK)
+* [AI Now Institute (NYU)](https://ainowinstitute.org/)
+* [Berkman Klein Center (Harvard)](https://cyber.harvard.edu)
+* [Centre for Philosophy and AI Research {PAIR} (Erlangen-Nürnberg)](https://www.pair.fau.eu)
+* [Digital Ethics Center (Yale)](https://dec.yale.edu)
+* [Future of Life Institute](https://futureoflife.org/)
+* [Institute for Ethics in AI (Oxford)](https://www.oxford-aiethics.ox.ac.uk)
+* [Leverhulme Centre for the Future of Intelligence (Cambridge)](http://lcfi.ac.uk/)
+* [Oxford Internet Institute](https://www.oii.ox.ac.uk)
+* [Stanford Center for Internet and Society](http://cyberlaw.stanford.edu/)
+* [The Alan Turing Institute (UK)](https://www.turing.ac.uk)
 
 ### Conferences
 
-* AAAI/AIES
-* ACM FAT/FAccT
+* [AAAI/AIES](http://www.aies-conference.com/)
+* [ACM FAT/FAccT](https://www.fatconference.org)
 * ETHICOMP (different venues, annually)
-* International Association for Computing and Philosophy (IACAP)
-* Philosophy of AI
+* [International Association for Computing and Philosophy (IACAP)](https://www.iacap.org)
+* [Philosophy of AI](https://www.pt-ai.org/)
 * WE ROBOT (different venues, annually)
 
 ### Policy Documents
 
-* OECD & GPAI
-* Artificial Intelligence Governance Online
-* Singapore Consensus 2025
-* Turing Institute, London, AI Ethics and Governance in Practice
-* Turing Institute, London, AI Standards Hub
+* [OECD & GPAI](https://oecd.ai/en/)
+* [Artificial Intelligence Governance Online](https://www.ai-governance.online)
+* [Singapore Consensus 2025](https://aisafetypriorities.org)
+* [Turing Institute, London, AI Ethics and Governance in Practice](https://www.turing.ac.uk/research/research-projects/ai-ethics-and-governance-practice)
+* [Turing Institute, London, AI Standards Hub](https://www.turing.ac.uk/research/research-projects/ai-standards-hub)
 
 ### Other Relevant pages
 
-* PhilPapers section on Ethics of Artificial Intelligence
-* PhilPapers section on Robot Ethics
+* [PhilPapers section on Ethics of Artificial Intelligence](https://philpapers.org/browse/ethics-of-artificial-intelligence)
+* [PhilPapers section on Robot Ethics](https://philpapers.org/browse/robot-ethics)
 
 ### Acknowledgments
 
@@ -756,5 +756,5 @@ The colleagues worldwide did all the work that is reported here. The members of 
 
 The SEP editors thank Jason Brady for spotting, and taking the time to notify us about, a number of typographical and other errors in earlier versions.
 
-Copyright © 2026 by 
-Vincent C. Müller <_vincent.c.mueller@fau.de_\>
+[Copyright © 2026](../../info.html#c) by 
+[Vincent C. Müller](http://www.sophia.de) <[_vincent.c.mueller@fau.de_](mailto:vincent%2ec%2emueller%40fau%2ede)\>

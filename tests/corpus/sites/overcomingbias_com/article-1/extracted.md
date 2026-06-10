@@ -1,4 +1,4 @@
-Robin Hanson
+[Robin Hanson](https://substack.com/@wildideaman)
 
 The key innovation that has powered the modern era is: organizations. We solve a great many problems by creating an org, setting it tasks, giving it powers and resources, and putting some key “masters” in charge.
 

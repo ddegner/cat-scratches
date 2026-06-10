@@ -4,7 +4,7 @@ An Iranian official on Wednesday called a reported peace deal for the end to the
 
 “Americans will not obtain through a failed war what they failed to gain in face-to-face negotiations,” he added. “Iran has its finger on the trigger and is ready; if they do not surrender and grant the necessary concessions, or if they or their devilish henchdog allies try to act mischievously, we will deliver a harsh and regret-inducing response.”
 
-The U.S. and Iran were reportedly attempting to put together the details of a one-page memorandum to end hostilities on Wednesday.
+The U.S. and Iran were [reportedly attempting to put together](https://thehill.com/policy/international/5866955-us-iran-peace-deal-strait-of-hormuz/) the details of a one-page memorandum to end hostilities on Wednesday.
 
 The memo, from the U.S., would create a framework for future discussions about Tehran’s nuclear program, a source familiar with the talks told NewsNation’s Kellie Meyer on Wednesday.
 
@@ -12,4 +12,4 @@ Axios reported earlier Wednesday that the deal would involve Iran agreeing to a 
 
 Following the beginning of the war around two months ago, the Iranian military started threatening commercial vessels from countries that are not its allies against transiting the Strait of Hormuz, which is key to the oil industry.
 
-On Tuesday night, President Trump announced an abrupt end to his operation to loosen Iran’s grip on the Strait of Hormuz, shortly before reports came out that Washington and Tehran were nearing a framework of a deal to end the war.
+On Tuesday night, President Trump [announced an abrupt end](https://thehill.com/policy/defense/5866212-trump-iran-war-sharp-turn/) to his operation to loosen Iran’s grip on the Strait of Hormuz, shortly before reports came out that Washington and Tehran were nearing a framework of a deal to end the war.

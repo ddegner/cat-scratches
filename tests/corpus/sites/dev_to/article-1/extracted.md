@@ -125,8 +125,6 @@ LLM_MODEL_NAME=qwen-plus
 ZEP_API_KEY=your_zep_api_key
 ```
 
-### 2\. Install Dependencies
-
 ```
 # One command to install everything (root + frontend + backend)
 npm run setup:all
@@ -142,8 +140,6 @@ npm run setup
 npm run setup:backend
 ```
 
-### 3\. Run It
-
 ```
 # Start both frontend and backend
 npm run dev
@@ -154,9 +150,10 @@ That's it. Your frontend will be at `http://localhost:3000` and the API at `http
 You can also start them separately: 
 
 ```
-npm run backend # Backend only
-npm run frontend # Frontend only
+npm run backend   # Backend only
+npm run frontend  # Frontend only
 ```
+
 
 ## What Can You Actually Predict With This?
 
@@ -201,4 +198,4 @@ These are patterns you'll see increasingly in production AI systems, and MiroFis
 
 ## Links
 
-* **GitHub:** github.com/666ghj/MiroFish
+* **GitHub:** [github.com/666ghj/MiroFish](https://github.com/666ghj/MiroFish)

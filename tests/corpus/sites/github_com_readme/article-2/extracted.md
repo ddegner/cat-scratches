@@ -1,8 +1,8 @@
-torvalds / **linux** Public
+[torvalds](/torvalds) / **[linux](/torvalds/linux)** Public
 
-* Notifications
-* Fork 61.6k
-* Star
+* [Notifications](/login?return_to=%2Ftorvalds%2Flinux)
+* [Fork 61.6k](/login?return_to=%2Ftorvalds%2Flinux)
+* [Star](/login?return_to=%2Ftorvalds%2Flinux)
 
  ## Expand file tree
 
@@ -16,7 +16,7 @@ More file actions
 
 More file actions
 
-History
+[History](/torvalds/linux/commits/master/README)
 
 History
 
@@ -28,7 +28,7 @@ History
 
 168 lines (124 loc) · 5.9 KB
 
-Raw
+[Raw](https://github.com/torvalds/linux/raw/refs/heads/master/README)
 
 Copy raw file
 

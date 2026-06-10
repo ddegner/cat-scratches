@@ -1,6 +1,8 @@
+https://p.dw.com/p/5DNNZ
+
 US broadcast news pioneer and CNN founder Ted Turner has passed away, the cable news channel announced on Wednesday.
 
-Turner launched CNN in 1980 and revolutionized the way news was consumed in the US and the world by establishing the round-the-clock breaking news system, which reshaped the television industry in the late 20th century.
+Turner launched CNN in 1980 and revolutionized the way news was consumed in the [US](/en/united-states-of-america/t-19065189) and the world by establishing the round-the-clock breaking news system, which reshaped the television industry in the late 20th century.
 
 The Ohio native founded his media empire in Atlanta, Georgia, and after selling CNN to Time Warner, went on to become one of the most prominent business leaders and philanthropists of his era. He invested in sports teams, supported habitat restoration in the American mountain West and donated $1 billion (roughly €850 million) to United Nations charities, among his many achievements.
 

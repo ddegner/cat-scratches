@@ -78,7 +78,7 @@ const filler = " filler text".repeat(40);
   const body = extract(`<main><p>Code displays &amp;amp; and &amp;#128512;.${filler}</p></main>`);
   assert.match(body, /&amp;/, "Turndown output is not double-decoded");
   assert.match(body, /&#128512;/, "literal numeric entity text is not decoded after Turndown");
-  assert.doesNotMatch(body, //, "astral numeric entities are not decoded with fromCharCode garbage");
+  assert.doesNotMatch(body, /\uF600/, "astral numeric entities are not decoded with fromCharCode garbage");
 }
 
 {
@@ -183,6 +183,47 @@ const filler = " filler text".repeat(40);
     String.raw`\n`,
     "replacement decoding handles escaped backslash before n in one pass",
   );
+  dom.window.close();
+}
+
+{
+  const { dom, sandbox } = createSandbox();
+  const voxRule = [String.raw`tail:/\n+become a vox member to continue reading\.?\s*$/i`];
+
+  const midDocument = sandbox.applyTextCleanupRules(
+    "Intro.\n\nBecome a Vox member to continue reading.\n\n```js\ncode();\n```\n\nReal article continues.",
+    voxRule,
+  );
+  assert.match(midDocument, /Real article continues\./, "dollar-anchored tail rules do not fire at code-fence boundaries mid-document");
+  assert.match(midDocument, /code\(\);/, "code blocks survive dollar-anchored tail rules");
+
+  const atDocumentEnd = sandbox.applyTextCleanupRules(
+    "Intro.\n\nBecome a Vox member to continue reading.",
+    voxRule,
+  );
+  assert.equal(atDocumentEnd.trim(), "Intro.", "dollar-anchored tail rules still truncate at the true document end");
+
+  const afterFence = sandbox.applyTextCleanupRules(
+    "Intro.\n\n```js\ncode();\n```\n\nBecome a Vox member to continue reading.",
+    voxRule,
+  );
+  assert.match(afterFence, /code\(\);/, "tail truncation after a code block keeps the code block");
+  assert.doesNotMatch(afterFence, /Become a Vox member/i, "tail truncation after a code block still removes the tail");
+
+  const unterminatedFence = sandbox.applyTextCleanupRules(
+    "Text.\n\n```\nstray fence line\n\nadvertisement",
+    ["line:/^\\s*advertisement\\s*$/i"],
+  );
+  assert.doesNotMatch(unterminatedFence, /advertisement/, "cleanup still applies after an unterminated fence");
+  assert.match(unterminatedFence, /stray fence line/, "unterminated fence text is kept as plain text");
+
+  const linkedChrome = sandbox.applyTextCleanupRules(
+    "Article text.\n\n[Facebook](https://fb.example/share)\n\n[Tweet](https://x.example/share)\n\n[Share](https://example.com/share)\n\n[Subscribe](https://example.com/subscribe)\n\n[Skip advertisement](#after-ad)\n\nMore text.",
+    sandbox.getDefaultSettings().advancedFiltering.textCleanupRules,
+  );
+  assert.doesNotMatch(linkedChrome, /Facebook|Tweet|\[Share\]|\[Subscribe\]|Skip advertisement/, "link-wrapped share chrome lines are removed by default rules");
+  assert.match(linkedChrome, /Article text\./, "article prose survives linked-chrome cleanup");
+  assert.match(linkedChrome, /More text\./, "trailing prose survives linked-chrome cleanup");
   dom.window.close();
 }
 

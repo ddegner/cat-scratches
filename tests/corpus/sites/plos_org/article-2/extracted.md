@@ -1,4 +1,4 @@
-A new _PNAS_ study uses openly available articles to map the scale of paper mill and peer review ring activity across scholarly publishing. Three facts give essential context:
+A new [_PNAS_ study](https://www.pnas.org/doi/10.1073/pnas.2420092122) uses openly available articles to map the scale of paper mill and peer review ring activity across scholarly publishing. Three facts give essential context:
 
 1 An industry-wide threat, not a PLOS-specific problem
 

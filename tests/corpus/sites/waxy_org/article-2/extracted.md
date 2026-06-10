@@ -1,4 +1,4 @@
-This minute-long clip of a Will Smith concert is blowing up online for all the wrong reasons, with people accusing him of using AI to generate fake crowds filled with fake fans carrying fake signs. In the last day, the story’s been covered by Rolling Stone, VIBE, NME, Cosmopolitan, The Daily Mail, The Independent, Mashable, and Consequence of Sound.
+This [minute-long clip of a Will Smith concert](https://www.youtube.com/watch?v=5-4De-zNTT4) is blowing up online for all the wrong reasons, with people accusing him of using AI to generate fake crowds filled with fake fans carrying fake signs. In the last day, the story’s been covered by [Rolling Stone](https://www.rollingstone.com/music/music-news/will-smith-ai-crowd-tour-video-1235415353/), [VIBE](https://www.vibe.com/news/entertainment/will-smith-ai-clips-crowd-fake-concert-footage-1235099056/), [NME](https://www.nme.com/news/music/will-smith-accused-of-creating-ai-fans-in-new-tour-video-3887232), [Cosmopolitan](https://www.cosmopolitan.com/entertainment/celebs/a65899062/did-will-smith-use-ai-crowds-in-concert-video/), [The Daily Mail](https://www.dailymail.co.uk/tvshowbiz/article-15034169/Will-Smith-accused-posting-concert-video-AI-fans.html), [The Independent](https://www.the-independent.com/arts-entertainment/music/news/will-smith-tour-video-ai-crowd-fans-signs-b2813526.html), [Mashable](https://mashable.com/article/will-smith-tour-video-appears-to-use-fake-ai-crowd-viewers-say), and [Consequence of Sound](https://consequence.net/2025/08/will-smith-ai-crowds-video/).
 
 And it definitely looks terrible! The faces have all the characteristics of AI slop, with familiar artifacts like uncanny features, smeared faces, multiple fingers/limbs, and nonsensical signage. “From West Philly to West Swig̴̙̕g̷̤̔͜y”?
 
@@ -8,21 +8,21 @@ But here’s where things get complicated.
 
 ## Real Crowds, Real Signs
 
-The main Will Smith performance in the clip is from the Positiv Festival, held last month at the Théâtre Antique d’Orange in Orange, France. (Here’s a phone recording from the audience of the first half of the performance.) It’s intercut with various shots of audiences from the Gurtenfestival and Paléo festivals in Switzerland and the Ronquieres Festival in Belgium, among others.
+The main Will Smith performance in the clip is from the Positiv Festival, held last month at the [Théâtre Antique d’Orange](https://www.instagram.com/reel/DMx76OzMdxO/) in Orange, France. (Here’s a [phone recording](https://www.youtube.com/watch?v=fZLQ-fARByI) from the audience of the first half of the performance.) It’s intercut with various shots of audiences from the Gurtenfestival and Paléo festivals in Switzerland and the Ronquieres Festival in Belgium, among others.
 
-From this slideshow of photos from Paléo, you can see professionally-shot photos of the same audience from the video.
+From this [slideshow of photos](https://www.instagram.com/p/DMfgAkXRSyF/) from Paléo, you can see professionally-shot photos of the same audience from the video.
 
 The signs, previously distorted, can now be read, like this one which actually reads “From West Philly to West Swizzy.” (Short for Switzerland, if you’re wondering.)
 
 One of the most egregious examples is the couple holding the sign thanking Will Smith for helping them survive cancer which — _if it was AI-generated slop_ — would be pretty disgusting: a gross attempt to drum up sympathy with fake people.
 
-In an article posted by _The Independent_ today, music editor Roisin O’Connor points to the couple as clear evidence of AI generation:
+In an [article](https://www.the-independent.com/arts-entertainment/music/news/will-smith-tour-video-ai-crowd-fans-signs-b2813526.html) posted by _The Independent_ today, music editor Roisin O’Connor points to the couple as clear evidence of AI generation:
 
 > “Another shot shows a man’s knuckle appear to blur along with his sign, which reads ‘You Can Make It’ helped me survive cancer. THX Will.’ Meanwhile, the woman in front of him is seemingly holding his hand, but the headband of the woman behind her is somehow over her wrist.”
 
-**But the couple is real**. There’s two good photos of them on Will Smith’s Instagram in a slideshow of photos and videos from Gurtenfestival in Bern last month.
+**But the couple is real**. There’s two good photos of them on Will Smith’s Instagram in a [slideshow](https://www.instagram.com/p/DMVPEtPscFM/?img_index=5) of photos and videos from Gurtenfestival in Bern last month.
 
-You can see them in this video from Will Smith’s Instagram post, which I clipped below.
+You can see them in this video from [Will Smith’s Instagram post](https://www.instagram.com/reel/DMT6bldoD2G/), which I clipped below.
 
 ## Two Levels of AI Enhancement
 
@@ -37,25 +37,25 @@ Let’s start with YouTube.
 
 ## YouTube’s Shorts “Experiment”
 
-Will Smith’s team also uploaded this same video to Instagram and Facebook, where it looks _considerably_ better than the copy on YouTube, without the smeary sheen of uncanny detail. Every line is sharper and more exaggerated, especially noticeable in crowd shots with facial features and previously out-of-focus fans.
+Will Smith’s team also uploaded this same video to [Instagram](https://www.instagram.com/p/DNQsphpxgrg/) and [Facebook](https://www.facebook.com/reel/739450732135683), where it looks _considerably_ better than the copy on YouTube, without the smeary sheen of uncanny detail. Every line is sharper and more exaggerated, especially noticeable in crowd shots with facial features and previously out-of-focus fans.
 
 I put the videos side-by-side below. Try going full-screen and pause at any point to see the difference. The Instagram footage is noticeably better throughout, though some of the audience clips still have issues.
 
-For the last two months, it turns out that YouTube was quietly experimenting with post-processing YouTube Shorts videos: unblurring and denoising videos with often-unpleasant results.
+For the last [two months](https://www.theatlantic.com/technology/archive/2025/08/youtube-shorts-ai-upscaling/683946/), it turns out that YouTube was quietly experimenting with post-processing YouTube Shorts videos: unblurring and denoising videos with often-unpleasant results.
 
-I first heard about this ten days ago, when guitarist Rhett Shull posted a great video about the issue, which now has over 700k views.
+I first heard about this ten days ago, when guitarist Rhett Shull [posted a great video](https://www.youtube.com/watch?v=86nhP8tvbLY) about the issue, which now has over 700k views.
 
-Five days ago, YouTube finally confirmed it was happening. YouTube’s Creator Liaison Rene Ritchie posted on X about the experiment.
+Five days ago, YouTube finally confirmed it was happening. YouTube’s Creator Liaison Rene Ritchie [posted on X](https://twitter.com/YouTubeInsider/status/1958199532363317467) about the experiment.
 
-In a followup reply, Ritchie clarified the difference, as he saw it:
+In a [followup reply](https://twitter.com/YouTubeInsider/status/1958241868736815311), Ritchie clarified the difference, as he saw it:
 
 > GenAI typically refers to technologies like transformers and large language models, which are relatively new. Upscaling typically refers to taking one resolution (like SD/480p) and making it look good at a higher resolution (like HD/1080p). This isn’t using GenAI or doing any upscaling. It’s using the kind of machine learning you experience with computational photography on smartphones, for example, and it’s not changing the resolution.
 
-On Friday, Alex Reisner wrote about “YouTube’s Sneaky AI ‘Experiment’” in _The Atlantic_, and got another official statement from Google:
+On Friday, Alex Reisner wrote about “[YouTube’s Sneaky AI ‘Experiment’](https://archive.is/JjXn9#selection-581.0-586.0)” in _The Atlantic_, and got another official statement from Google:
 
 > When I asked Google, YouTube’s parent company, about what’s happening to these videos, the spokesperson Allison Toh wrote, “We’re running an experiment on select YouTube Shorts that uses image enhancement technology to sharpen content. These enhancements are not done with generative AI.” But this is a tricky statement: “Generative AI” has no strict technical definition, and “image enhancement technology” could be anything. I asked for more detail about which technologies are being employed, and to what end. Toh said YouTube is “using traditional machine learning to unblur, denoise, and improve clarity in videos,” she told me.
 
-(Update: On Tuesday morning, Rene Ritchie announced on X that YouTube was working on an opt-out for the Shorts filter.)
+(Update: On Tuesday morning, Rene Ritchie [announced on X](https://twitter.com/YouTubeInsider/status/1960385244747719046) that YouTube was working on an opt-out for the Shorts filter.)
 
 ## Will Smith’s Generated Videos
 
@@ -63,13 +63,13 @@ That explains why the entire YouTube Shorts video has that smeary look to it tha
 
 After looking at it, I believe that Will Smith’s team was using a generative video model — but not to create entirely new audience footage, like most people suspect.
 
-Instead, they started with photos shot by their official tour photographers, and used those photos in Runway, Veo 3, or a similar image-to-video model to create a short animated clip suitable for a concert montage.
+Instead, they started with photos shot by their official tour photographers, and used those photos in [Runway](https://academy.runwayml.com/gen4/gen4-image-to-video), [Veo 3](https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/), or a similar image-to-video model to create a short animated clip suitable for a concert montage.
 
 Let’s go back to the crowd photo from Paléo in Switzerland:
 
 I believe this is the **_exact_** photo that the crowd shot in the video was generated with. Here it is as a two-frame animation, with the first frame from the AI video overlaid on the original photo.
 
-Here’s another example. The photo below was taken at Ronquieres Festival in Belgium, posted to Will Smith’s Instagram three weeks ago.
+Here’s another example. The photo below was taken at Ronquieres Festival in Belgium, [posted to Will Smith’s](https://www.instagram.com/p/DNBJHKmx75j/?img_index=14) Instagram three weeks ago.
 
 And here’s the AI-generated clip that it was turned into.
 
@@ -79,7 +79,7 @@ And the short video clip that the photo was animated with using an image-to-vide
 
 ## Conclusion
 
-Virtually all of the commenters on YouTube, Reddit, and X believe this was fake footage of fake fans, generated by Will Smith’s team to prop up a lackluster tour.
+Virtually all of the commenters on [YouTube](https://www.youtube.com/watch?v=5-4De-zNTT4), [Reddit](https://www.reddit.com/search/?q=%22will+smith%22+ai&type=posts&sort=top&t=week), and X believe this was fake footage of fake fans, generated by Will Smith’s team to prop up a lackluster tour.
 
 Like the faces in the video, the truth is blurry.
 
@@ -87,4 +87,4 @@ The crowds were real, but the videos were manipulated: first by Will Smith’s t
 
 We can debate the ethics of using an image-to-video model to animate photos in this way, but I think it’s meaningfully different than what most people were accusing Will Smith of doing here: using generative AI video to fake a sold-out crowd of passionate fans.
 
-**Update:** I tracked down the couple in the video holding the sign about surviving cancer.
+**Update:** I [tracked down the couple](https://waxy.org/2025/09/interviewing-the-couple-in-the-will-smith-ai-crowd-video/) in the video holding the sign about surviving cancer.

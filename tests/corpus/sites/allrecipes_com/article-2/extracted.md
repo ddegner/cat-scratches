@@ -1,6 +1,8 @@
-3
+[3
 
-3
+](#)[3
+
+](#)
 
 Prep Time:
 
@@ -29,25 +31,25 @@ Oops! Something went wrong. Our team is working on it.
 This recipe was developed at its original yield. Ingredient amounts are automatically adjusted, but cooking times and steps remain unchanged. Note that not all recipes scale perfectly. Original recipe (1X) yields 8 servings
 
 * 2 (10 ounce) bags baby spinach
- 
+    
 * 2 bananas, sliced
- 
+    
 * 12 fresh strawberries, sliced
- 
+    
 * 1 (10 ounce) can mandarin oranges, drained
- 
+    
 * ½ cup dried cranberries
- 
+    
 * ½ cup pine nuts
- 
+    
 * 1 cup poppy seed salad dressing
 
 ## Directions
 
 1. Gather the ingredients.
- 
+    
 2. Place spinach in a large bowl. Arrange bananas, strawberries, mandarin oranges, cranberries, and pine nuts on top.
- 
+    
 3. Toss with poppy seed dressing before serving.
 
 58 home cooks made it!

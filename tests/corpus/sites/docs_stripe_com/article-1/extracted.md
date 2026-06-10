@@ -1,10 +1,10 @@
-Skip to content
+[Skip to content](#main-content)
 
-OverviewAccept a paymentUpgrade your integration
+[Overview](/payments)[Accept a payment](/payments/accept-a-payment)[Upgrade your integration](/payments/upgrades)
 
 Online payments
 
-OverviewFind your use case
+[Overview](/payments/online-payments)[Find your use case](/payments/use-cases/get-started)
 
 Use Payment Links
 
@@ -12,49 +12,49 @@ Build a payments page
 
 Build a custom integration with Elements
 
-Overview
+[Overview](/payments/advanced)
 
 Quickstart guides
 
-Build a checkout page with Checkout Sessions API
+[Build a checkout page with Checkout Sessions API](/payments/quickstart-checkout-sessions)
 
 Build a checkout page with Payment Intents API
 
-Stripe Elements
+[Stripe Elements](/payments/elements)
 
-Compare Checkout Sessions and PaymentIntents
+[Compare Checkout Sessions and PaymentIntents](/payments/checkout-sessions-and-payment-intents-comparison)
 
-Design an advanced integration
+[Design an advanced integration](/payments/payment-element/design-an-integration)
 
-Customize look and feel
+[Customize look and feel](/elements/appearance-api)
 
-Manage payment methods
+[Manage payment methods](/payments/advanced/payment-methods/manage)
 
-Collect additional information
+[Collect additional information](/payments/advanced/collect-additional-info)
 
-Build a subscriptions integration
+[Build a subscriptions integration](/payments/advanced/build-subscriptions)
 
-Dynamic updates
+[Dynamic updates](/payments/advanced/dynamic-updates)
 
-Add discounts
+[Add discounts](/payments/advanced/discounts)
 
-Collect taxes on your payments
+[Collect taxes on your payments](/payments/advanced/tax)
 
-Collect surcharges
+[Collect surcharges](/payments/advanced/surcharge)
 
-Redeem credits
+[Redeem credits](/payments/advanced/credits)
 
-Let customers pay in their local currency
+[Let customers pay in their local currency](/payments/custom/localize-prices)
 
-Save and retrieve customer payment methods
+[Save and retrieve customer payment methods](/payments/save-customer-payment-methods)
 
-Send receipts and paid invoices
+[Send receipts and paid invoices](/payments/advanced/receipts)
 
-Manually approve payments on your server
+[Manually approve payments on your server](/payments/custom/manual-approval)
 
-Authorize and capture a payment separately
+[Authorize and capture a payment separately](/payments/place-a-hold-on-a-payment-method)
 
-Elements with Checkout Sessions API beta changelog
+[Elements with Checkout Sessions API beta changelog](/checkout/elements-with-checkout-sessions-api/changelog)
 
 Build an in-app integration
 
@@ -62,7 +62,7 @@ Use Managed Payments
 
 Use Checkout studio
 
-Recurring payments
+[Recurring payments](/recurring-payments)
 
 In-person payments
 
@@ -80,7 +80,7 @@ Payment operations
 
 Analytics
 
-Balances and settlement time
+[Balances and settlement time](/payments/balances)
 
 Compliance and security
 
@@ -94,7 +94,7 @@ Radar fraud protection
 
 Payouts
 
-ReceiptsRefunds and cancellations
+[Receipts](/receipts)[Refunds and cancellations](/refunds)
 
 Advanced integrations
 

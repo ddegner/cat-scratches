@@ -1,10 +1,10 @@
-Write.as is part of the “fediverse,” a decentralized social network powered by the ActivityPub protocol. This allows users to follow and interact with your blog directly from platforms like Mastodon.
+Write.as is part of the “fediverse,” a decentralized social network powered by the ActivityPub protocol. This allows users to follow and interact with your blog directly from platforms like [Mastodon](https://joinmastodon.org).
 
 ## Social handle
 
-Your Write.as blog handle will look just like the ones you see on Mastodon, Pixelfed, Peertube, and other fediverse platforms. For example: **@blog@write.as**. The first part of your handle (e.g. “blog”) will be the same as your Write.as username or blog alias.
+Your Write.as blog handle will look just like the ones you see on Mastodon, Pixelfed, Peertube, and other fediverse platforms. For example: **[@blog@write.as](/@/blog@write.as)**. The first part of your handle (e.g. “blog”) will be the same as your Write.as username or blog alias.
 
-If you use a custom domain for your blog, you can also customize the username part of your handle, as seen here:
+If you use a [custom domain](https://howto.write.as/setting-up-a-custom-domain) for your blog, you can also customize the username part of your handle, as seen here:
 
 ## Enable federation
 
@@ -16,14 +16,14 @@ _Note:_ This will automatically be enabled when your blog is set to **Public** v
 
 Readers can follow your blog by searching for it from Mastodon or any other fediverse platform they use. They can search for:
 
-* Your handle (e.g. **@blog@write.as**)
-* Your blog's URL (e.g. **https://write.as/blog/**)
+* Your handle (e.g. **[@blog@write.as](/@/blog@write.as)**)
+* Your blog's URL (e.g. **[https://write.as/blog/](https://write.as/blog/)**)
 
 Once they've found it, they can click the “Follow” button they see there.
 
 ## Fediverse mentions
 
-You can mention other users in the fediverse by simply inserting their full handle in your blog posts — for example, `@handle@their.instance`
+You can mention other users in the fediverse by simply inserting their full handle in your blog posts — for example, `[@handle@their.instance](/@/handle@their.instance)`
 
 Once you publish your post, any users you've mentioned will receive a notification!
 
@@ -41,8 +41,8 @@ We recommend setting up your custom domain and settling on a permanent handle be
 
 ### Additional Troubleshooting
 
-If you run into any other trouble with your blog's federation, use this topic on our discussion forum for help. If a solution is not presented to your problem there, report your problem on that topic and the community will help.
+If you run into any other trouble with your blog's federation, use [this topic](https://discuss.write.as/t/federation-troubleshooting/227) on our discussion forum for help. If a solution is not presented to your problem there, report your problem on that topic and the community will help.
 
 ## Demo
 
-To see federation in action, watch a demo of how it works.
+To see federation in action, [watch a demo](https://video.writeas.org/videos/watch/cc55e615-d204-417c-9575-7b57674cc6f3) of how it works.

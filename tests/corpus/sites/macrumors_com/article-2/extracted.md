@@ -1,6 +1,6 @@
-Thursday January 29, 2026 3:24 am PST by Tim Hardwick
+Thursday January 29, 2026 3:24 am PST by [Tim Hardwick](https://www.macrumors.com/author/tim-hardwick/)
 
-Apple's iPhone 16 was the best-selling smartphone globally in 2025, according to Counterpoint Research's latest report. Apple and Samsung devices dominated the top 10 list for the fourth consecutive year, accounting for 19% of overall smartphone sales.
+Apple's iPhone 16 was the best-selling smartphone globally in 2025, according to Counterpoint Research's [latest report](https://counterpointresearch.com/en/insights/iphone-16-worlds-best-selling-smartphone-in-2025-apple-takes-7-spots-in-top-10-models). Apple and Samsung devices dominated the top 10 list for the fourth consecutive year, accounting for 19% of overall smartphone sales.
 
 Apple claimed seven of the top 10 spots, while Samsung captured the remaining three.
 
@@ -14,10 +14,10 @@ Looking ahead, Counterpoint expects premium flagship devices to increase their p
 
 Apple still sells iPhone 16 models as part of its smartphone lineup. Priced starting at $699, the previous-generation device features an A18 chip that supports Apple Intelligence, a dual-lens camera system, a Camera Control button for quick camera access, and a customizable Action button.
 
-Related Roundup: iPhone 16
+Related Roundup: [iPhone 16](https://www.macrumors.com/roundup/iphone-16/)
 
-Tag: Counterpoint
+Tag: [Counterpoint](https://www.macrumors.com/guide/counterpoint/)
 
-Related Forum: iPhone
+Related Forum: [iPhone](https://forums.macrumors.com/forums/iphone.99)
 
-\[ 36 comments \]
+\[ [36 comments](https://forums.macrumors.com/threads/iphone-16-tops-list-of-worlds-best-selling-smartphones-in-2025.2476826/) \]

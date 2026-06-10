@@ -1,6 +1,6 @@
 Submit a letter:
 
-Email us letters@nybooks.com
+Email us [letters@nybooks.com](mailto:letters@nybooks.com)
 
 In 1953 Iran’s prime minister, Mohammad Mossadegh, was toppled in a coup planned by MI6 and the CIA and carried out by Iranian army units and hoodlums supportive of Shah Mohammad Reza Pahlavi. Mossadegh had nationalized Iran’s British-run oil industry and allowed Iranians more freedom than they had ever known; the constitutional monarchy he favored was a path between the extremes of royal tyranny and popular radicalism that had beset the country for the previous three quarters of a century. In the years after Mossadegh’s overthrow, as the Shah built a dictatorship backed uncritically by the United States, Iranian democrats and liberals sank into a despondency that was expressed in works of art, perhaps the most lasting of which, the poem “Winter” by Mehdi Akhavan-Sales, describes the insidious effect of political failure on the spirit of the individual and the cohesion of society:
 
@@ -52,19 +52,19 @@ As long as the country remains on high alert and public discourse is dominated b
 
 More by Christopher de Bellaigue
 
-Hype and Fraud in India
+[Hype and Fraud in India](https://www.nybooks.com/articles/2026/01/15/hype-and-fraud-in-india-christopher-de-bellaigue/)
 
 Narendra Modi is pursuing his vision of “developed India” through distorted claims of progress, stolen elections, and anti-Muslim policies.
 
 January 15, 2026 issue
 
-The Ayatollah’s Kingly Woe
+[The Ayatollah’s Kingly Woe](https://www.nybooks.com/articles/2025/10/09/the-ayatollahs-kingly-woe-christopher-de-bellaigue/)
 
 The Supreme Leader’s frail health and Israel’s recent attacks have left the Islamic Republic on the brink of paralysis.
 
 October 9, 2025 issue
 
-Iran: A Grand Bargain?
+[Iran: A Grand Bargain?](https://www.nybooks.com/articles/2025/05/29/iran-a-grand-bargain-christopher-de-bellaigue/)
 
 The conditions necessary to negotiate a new nuclear deal and revive commercial ties between Iran and the US are in sight.
 
@@ -72,19 +72,19 @@ May 29, 2025 issue
 
 More by Christopher de Bellaigue
 
-Hype and Fraud in India
+[Hype and Fraud in India](https://www.nybooks.com/articles/2026/01/15/hype-and-fraud-in-india-christopher-de-bellaigue/)
 
 Narendra Modi is pursuing his vision of “developed India” through distorted claims of progress, stolen elections, and anti-Muslim policies.
 
 January 15, 2026 issue
 
-The Ayatollah’s Kingly Woe
+[The Ayatollah’s Kingly Woe](https://www.nybooks.com/articles/2025/10/09/the-ayatollahs-kingly-woe-christopher-de-bellaigue/)
 
 The Supreme Leader’s frail health and Israel’s recent attacks have left the Islamic Republic on the brink of paralysis.
 
 October 9, 2025 issue
 
-Iran: A Grand Bargain?
+[Iran: A Grand Bargain?](https://www.nybooks.com/articles/2025/05/29/iran-a-grand-bargain-christopher-de-bellaigue/)
 
 The conditions necessary to negotiate a new nuclear deal and revive commercial ties between Iran and the US are in sight.
 

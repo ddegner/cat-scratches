@@ -2,54 +2,54 @@ _First published Fri Jun 18, 2004; substantive revision Tue Jan 14, 2014_
 
 Perhaps no aspect of mind is more familiar or more puzzling than consciousness and our conscious experience of self and world. The problem of consciousness is arguably the central issue in current theorizing about the mind. Despite the lack of any agreed upon theory of consciousness, there is a widespread, if less than universal, consensus that an adequate account of mind requires a clear understanding of it and its place in nature. We need to understand both what consciousness is and how it relates to other, nonconscious, aspects of reality.
 
-* 1\. History of the issue
-* 2\. Concepts of Consciousness
- * 2.1 Creature Consciousness
- * 2.2 State consciousness
- * 2.3 Consciousness as an entity
-* 3\. Problems of Consciousness
-* 4\. The descriptive question: _What_ are the features of consciousness?
- * 4.1 First-person and third-person data
- * 4.2 Qualitative character
- * 4.3 Phenomenal structure
- * 4.4 Subjectivity
- * 4.5 Self-perspectival organization
- * 4.6 Unity
- * 4.7 Intentionality and transparency
- * 4.8 Dynamic flow
-* 5\. The explanatory question: _How_ can consciousness exist?
- * 5.1 Diversity of explanatory projects
- * 5.2 The explanatory gap
- * 5.3 Reductive and non-reductive explanation
- * 5.4 Prospects of explanatory success
-* 6\. The functional question: _Why_ does consciousness exist?
- * 6.1 Causal status of consciousness
- * 6.2 Flexible control
- * 6.3 Social coordination
- * 6.4 Integrated representation
- * 6.5 Informational access
- * 6.6 Freedom of will
- * 6.7 Intrinsic motivation
- * 6.8 Constitutive and contingent roles
-* 7\. Theories of consciousness
-* 8\. Metaphysical theories of consciousness
- * 8.1 Dualist theories
- * 8.2 Physicalist theories
-* 9\. Specific Theories of Consciousness
- * 9.1 Higher-order theories
- * 9.2 Reflexive theories
- * 9.3 Representationalist theories
- * 9.4 Narrative Interpretative Theories
- * 9.5 Cognitive Theories
- * 9.6 Information Integration Theory
- * 9.7 Neural Theories
- * 9.8 Quantum theories
- * 9.9 Non-physical theories
-* 10\. Conclusion
-* Bibliography
-* Academic Tools
-* Other Internet Resources
-* Related Entries
+* [1\. History of the issue](#HisIss)
+* [2\. Concepts of Consciousness](#ConCon)
+    * [2.1 Creature Consciousness](#CreCon)
+    * [2.2 State consciousness](#StaCon)
+    * [2.3 Consciousness as an entity](#ConEnt)
+* [3\. Problems of Consciousness](#ProCon)
+* [4\. The descriptive question: _What_ are the features of consciousness?](#DesQueWhaFeaCon)
+    * [4.1 First-person and third-person data](#FirPerThiPerDat)
+    * [4.2 Qualitative character](#QuaCha)
+    * [4.3 Phenomenal structure](#PheStr)
+    * [4.4 Subjectivity](#Sub)
+    * [4.5 Self-perspectival organization](#SelPerOrg)
+    * [4.6 Unity](#Uni)
+    * [4.7 Intentionality and transparency](#IntTra)
+    * [4.8 Dynamic flow](#DynFlo)
+* [5\. The explanatory question: _How_ can consciousness exist?](#ExpQueHowConExi)
+    * [5.1 Diversity of explanatory projects](#DivExpPro)
+    * [5.2 The explanatory gap](#ExpGap)
+    * [5.3 Reductive and non-reductive explanation](#RedNonRedExp)
+    * [5.4 Prospects of explanatory success](#ProExpSuc)
+* [6\. The functional question: _Why_ does consciousness exist?](#FunQueWhyDoeConExi)
+    * [6.1 Causal status of consciousness](#CauStaCon)
+    * [6.2 Flexible control](#FleCon)
+    * [6.3 Social coordination](#SocCoo)
+    * [6.4 Integrated representation](#IntRep)
+    * [6.5 Informational access](#InfAcc)
+    * [6.6 Freedom of will](#FreWil)
+    * [6.7 Intrinsic motivation](#IntMot)
+    * [6.8 Constitutive and contingent roles](#ConConRol)
+* [7\. Theories of consciousness](#TheCon)
+* [8\. Metaphysical theories of consciousness](#MetTheCon)
+    * [8.1 Dualist theories](#DuaThe)
+    * [8.2 Physicalist theories](#PhyThe)
+* [9\. Specific Theories of Consciousness](#SpeTheCon)
+    * [9.1 Higher-order theories](#HigOrdThe)
+    * [9.2 Reflexive theories](#RefThe)
+    * [9.3 Representationalist theories](#RepThe)
+    * [9.4 Narrative Interpretative Theories](#NarIntThe)
+    * [9.5 Cognitive Theories](#CogThe)
+    * [9.6 Information Integration Theory](#InfIntThe)
+    * [9.7 Neural Theories](#NeuThe)
+    * [9.8 Quantum theories](#QuaThe)
+    * [9.9 Non-physical theories](#NonPhyThe)
+* [10\. Conclusion](#Con)
+* [Bibliography](#Bib)
+* [Academic Tools](#Aca)
+* [Other Internet Resources](#Oth)
+* [Related Entries](#Rel)
 
 ## 1\. History of the issue
 
@@ -111,9 +111,9 @@ The notion of a conscious mental state also has a variety of distinct though per
 
 _States one is aware of._ On one common reading, a conscious mental state is simply a mental state one is aware of being in (Rosenthal 1986, 1996). Conscious states in this sense involve a form of _meta-mentality_ or _meta-intentionality_ in so far as they require mental states that are themselves about mental states. To have a conscious desire for a cup of coffee is to have such a desire and also to be simultaneously and directly aware that one has such a desire. Unconscious thoughts and desires in this sense are simply those we have without being aware of having them, whether our lack of self-knowledge results from simple inattention or more deeply psychoanalytic causes.
 
-_Qualitative states._ States might also be regarded as conscious in a seemingly quite different and more _qualitative_ sense. That is, one might count a state as conscious just if it has or involves qualitative or experiential properties of the sort often referred to as “qualia” or “raw sensory feels”. (See the entry on qualia.) One's perception of the Merlot one is drinking or of the fabric one is examining counts as a conscious mental state in this sense because it involves various sensory qualia, e.g., taste qualia in the wine case and color qualia in one's visual experience of the cloth. There is considerable disagreement about the nature of such qualia (Churchland 1985, Shoemaker 1990, Clark 1993, Chalmers 1996) and even about their existence. Traditionally qualia have been regarded as intrinsic, private, ineffable monadic features of experience, but current theories of qualia often reject at least some of those commitments (Dennett 1990).
+_Qualitative states._ States might also be regarded as conscious in a seemingly quite different and more _qualitative_ sense. That is, one might count a state as conscious just if it has or involves qualitative or experiential properties of the sort often referred to as “qualia” or “raw sensory feels”. (See the entry on [qualia](../qualia/).) One's perception of the Merlot one is drinking or of the fabric one is examining counts as a conscious mental state in this sense because it involves various sensory qualia, e.g., taste qualia in the wine case and color qualia in one's visual experience of the cloth. There is considerable disagreement about the nature of such qualia (Churchland 1985, Shoemaker 1990, Clark 1993, Chalmers 1996) and even about their existence. Traditionally qualia have been regarded as intrinsic, private, ineffable monadic features of experience, but current theories of qualia often reject at least some of those commitments (Dennett 1990).
 
-_Phenomenal states._ Such qualia are sometimes referred to as phenomenal properties and the associated sort of consciousness as _phenomenal_ consciousness, but the latter term is perhaps more properly applied to the overall structure of experience and involves far more than sensory qualia. The phenomenal structure of consciousness also encompasses much of the spatial, temporal and conceptual organization of our experience of the world and of ourselves as agents in it (see section 4.3). It is therefore probably best, at least initially, to distinguish the concept of phenomenal consciousness from that of qualitative consciousness, though they no doubt overlap.
+_Phenomenal states._ Such qualia are sometimes referred to as phenomenal properties and the associated sort of consciousness as _phenomenal_ consciousness, but the latter term is perhaps more properly applied to the overall structure of experience and involves far more than sensory qualia. The phenomenal structure of consciousness also encompasses much of the spatial, temporal and conceptual organization of our experience of the world and of ourselves as agents in it (see section [4.3](#PheStr)). It is therefore probably best, at least initially, to distinguish the concept of phenomenal consciousness from that of qualitative consciousness, though they no doubt overlap.
 
 _What-it-is-like states._ Consciousness in both those senses links up as well with Thomas Nagel's (1974) notion of a conscious creature, insofar as one might count a mental state as conscious in the _“what it is like_” sense just if there is something that it is like to be in that state. Nagel's criterion might be understood as aiming to provide a first-person or internal conception of what makes a state a phenomenal or qualitative state.
 
@@ -129,7 +129,7 @@ Aiming to go beyond the six options, one might distinguish conscious from noncon
 
 The noun “consciousness” has an equally diverse range of meanings that largely parallel those of the adjective “conscious”. Distinctions can be drawn between creature and state consciousness as well as among the varieties of each. One can refer specifically to phenomenal consciousness, access consciousness, reflexive or meta-mental consciousness, and narrative consciousness among other varieties.
 
-Here consciousness itself is not typically treated as a substantive entity but merely the abstract reification of whatever property or aspect is attributed by the relevant use of the adjective “conscious”. Access consciousness is just the property of having the required sort of internal access relations, and qualitative consciousness is simply the property that is attributed when “conscious” is applied in the qualitative sense to mental states. How much this commits one to the ontological status of consciousness per se will depend on how much of a Platonist one is about universals in general. (See the entry on the medieval problem of universals.) It need not commit one to consciousness as a distinct entity any more than one's use of “square”, “red” or “gentle” commits one to the existence of squareness, redness or gentleness as distinct entities.
+Here consciousness itself is not typically treated as a substantive entity but merely the abstract reification of whatever property or aspect is attributed by the relevant use of the adjective “conscious”. Access consciousness is just the property of having the required sort of internal access relations, and qualitative consciousness is simply the property that is attributed when “conscious” is applied in the qualitative sense to mental states. How much this commits one to the ontological status of consciousness per se will depend on how much of a Platonist one is about universals in general. (See the entry on [the medieval problem of universals](../universals-medieval/).) It need not commit one to consciousness as a distinct entity any more than one's use of “square”, “red” or “gentle” commits one to the existence of squareness, redness or gentleness as distinct entities.
 
 Though it is not the norm, one could nonetheless take a more robustly realist view of consciousness as a component of reality. That is one could think of consciousness as more on a par with electromagnetic fields than with life.
 
@@ -179,13 +179,13 @@ Qualia problems in many forms—Can there be inverted qualia? (Block 1980a 1980b
 
 Absent such a model, factual or descriptive errors are all too likely. For example, claims about the unintelligibility of the link between experienced red and any possible neural substrate of such an experience sometimes treat the relevant color quale as a simple and _sui generis_ property (Levine 1983), but phenomenal redness in fact exists within a complex color space with multiple systematic dimensions and similarity relations (Hardin 1992). Understanding the specific color quale relative to that larger relational structure not only gives us a better descriptive grasp of its qualitative nature, it may also provide some “hooks” to which one might attach intelligible psycho-physical links.
 
-Color may be the exception in terms of our having a specific and well developed formal understanding of the relevant qualitative space, but it is not likely an exception with regard to the importance of such spaces to our understanding of qualitative properties in general (Clark 1993, P.M. Churchland 1995). (See the entry on qualia.)
+Color may be the exception in terms of our having a specific and well developed formal understanding of the relevant qualitative space, but it is not likely an exception with regard to the importance of such spaces to our understanding of qualitative properties in general (Clark 1993, P.M. Churchland 1995). (See the entry on [qualia](../qualia/).)
 
 ### 4.3 Phenomenal structure
 
 _Phenomenal structure_ should not be conflated with qualitative structure, despite the sometimes interchangeable use of “qualia” and “phenomenal properties” in the literature. “Phenomenal organization” covers all the various kinds of order and structure found within the domain of experience, i.e., within the domain of the world as it _appears_ to us. There are obviously important links between the phenomenal and the qualitative. Indeed qualia might be best understood as properties of phenomenal or experienced objects, but there is in fact far more to the phenomenal than raw feels. As Kant (1787), Husserl (1913), and generations of phenomenologists have shown, the phenomenal structure of experience is richly intentional and involves not only sensory ideas and qualities but complex representations of time, space, cause, body, self, world and the organized structure of lived reality in all its conceptual and nonconceptual forms.
 
-Since many non-conscious states also have intentional and representational aspects, it may be best to consider phenomenal structure as involving a special kind of intentional and representational organization and content, the kind distinctively associated with consciousness (Siewert 1998). (See the entry on representational theories of consciousness.)
+Since many non-conscious states also have intentional and representational aspects, it may be best to consider phenomenal structure as involving a special kind of intentional and representational organization and content, the kind distinctively associated with consciousness (Siewert 1998). (See the entry on [representational theories of consciousness](../consciousness-representational/).)
 
 Answering the What question requires a careful account of the coherent and densely organized representational framework within which particular experiences are embedded. Since most of that structure is only implicit in the organization of experience, it can not just be read off by introspection. Articulating the structure of the phenomenal domain in a clear and intelligible way is a long and difficult process of inference and model building (Husserl 1929). Introspection can aid it, but a lot of theory construction and ingenuity are also needed.
 
@@ -199,7 +199,7 @@ _Subjectivity_ is another notion sometimes equated with the qualitative or the p
 
 On Thomas Nagel's (1974) account, facts about what it is like to be a bat are subjective in the relevant sense because they can be fully understood only from the bat-type point of view. Only creatures capable of having or undergoing similar such experiences can understand their what-it's-likeness in the requisite empathetic sense. Facts about conscious experience can be at best incompletely understood from an outside third person point of view, such as those associated with objective physical science. A similar view about the limits of third-person theory seems to lie behind claims regarding what Frank Jackson's (1982) hypothetical Mary, the super color scientist, could not understand about experiencing red because of her own impoverished history of achromatic visual experience.
 
-Whether facts about experience are indeed epistemically limited in this way is open to debate (Lycan 1996), but the claim that understanding consciousness requires special forms of knowing and access from the inside point of view is intuitively plausible and has a long history (Locke 1688). Thus any adequate answer to the What question must address the epistemic status of consciousness, both our abilities to understand it and their limits (Papineau 2002, Chalmers 2003). (See the entry on self-knowledge.)
+Whether facts about experience are indeed epistemically limited in this way is open to debate (Lycan 1996), but the claim that understanding consciousness requires special forms of knowing and access from the inside point of view is intuitively plausible and has a long history (Locke 1688). Thus any adequate answer to the What question must address the epistemic status of consciousness, both our abilities to understand it and their limits (Papineau 2002, Chalmers 2003). (See the entry on [self-knowledge](../self-knowledge/).)
 
 ### 4.5 Self-perspectival organization
 
@@ -215,17 +215,17 @@ _Unity_ is closely linked with the self-perspective, but it merits specific ment
 
 Some such integrations are relatively local as when diverse features detected within a single sense modality are combined into a representation of external objects bearing those features, e.g. when one has a conscious visual experience of a moving red soup can passing above a green striped napkin (Triesman and Gelade 1980).
 
-Other forms of intentional unity encompass a far wider range of contents. The content of one's present experience of the room in which one sits depends in part upon its location within a far larger structure associated with one's awareness of one's existence as an ongoing temporally extended observer within a world of spatially connected independently existing objects (Kant 1787, Husserl 1913). The individual experience can have the content that it does only because it resides within that larger unified structure of representation. (See the entry on unity of consciousness.)
+Other forms of intentional unity encompass a far wider range of contents. The content of one's present experience of the room in which one sits depends in part upon its location within a far larger structure associated with one's awareness of one's existence as an ongoing temporally extended observer within a world of spatially connected independently existing objects (Kant 1787, Husserl 1913). The individual experience can have the content that it does only because it resides within that larger unified structure of representation. (See the entry on [unity of consciousness](../consciousness-unity/).)
 
 Particular attention has been paid recently to the notion of phenomenal unity (Bayne 2010) and its relation to other forms of conscious unity such as those involving representational, functional or neural integration. Some have argued that phenomenal unity can be reduced to representational unity (Tye 2005) while others have denied the possibility of any such reduction (Bayne 2010).
 
 ### 4.7 Intentionality and transparency
 
-Conscious mental states are typically regarded as having a representational or intentional aspect in so far as they are about things, refer to things or have satisfaction conditions. One's conscious visual experience _correctly represent_s the world if there are lilacs in a white vase on the table (pace Travis 2004), one's conscious memory is _of_ the attack on the World Trade Center, and one's conscious desire is _for_ a glass of cold water. However, nonconscious states can also exhibit intentionality in such ways, and it is important to understand the ways in which the representational aspects of conscious states resemble and differ from those of nonconscious states (Carruthers 2000). Searle (1990) offers a contrary view according to which only conscious states and dispositions to have conscious states can be genuinely intentional, but most theorists regard intentionality as extending widely into the unconscious domain. (See the entry on consciousness and intentionality.)
+Conscious mental states are typically regarded as having a representational or intentional aspect in so far as they are about things, refer to things or have satisfaction conditions. One's conscious visual experience _correctly represent_s the world if there are lilacs in a white vase on the table (pace Travis 2004), one's conscious memory is _of_ the attack on the World Trade Center, and one's conscious desire is _for_ a glass of cold water. However, nonconscious states can also exhibit intentionality in such ways, and it is important to understand the ways in which the representational aspects of conscious states resemble and differ from those of nonconscious states (Carruthers 2000). Searle (1990) offers a contrary view according to which only conscious states and dispositions to have conscious states can be genuinely intentional, but most theorists regard intentionality as extending widely into the unconscious domain. (See the entry on [consciousness and intentionality](../consciousness-intentionality/).)
 
 One potentially important dimension of difference concerns so called _transparency_, which is an important feature of consciousness in two interrelated metaphoric senses, each of which has an intentional, an experiential and a functional aspect.
 
-Conscious perceptual experience is often said to be transparent, or in G.E. Moore's (1922) phrase “diaphanous”. We transparently “look through” our sensory experience in so far as we seem directly aware of external objects and events present to us rather than being aware of any properties of experience by which it presents or represents such objects to us. When I look out at the wind-blown meadow, it is the undulating green grass of which I am aware not of any green property of my visual experience. (See the entry on representational theories of consciousness.) Moore himself believed we could become aware of those latter qualities with effort and redirection of attention, though some contemporary transparency advocates deny it (Harman 1990, Tye 1995, Kind 2003).
+Conscious perceptual experience is often said to be transparent, or in G.E. Moore's (1922) phrase “diaphanous”. We transparently “look through” our sensory experience in so far as we seem directly aware of external objects and events present to us rather than being aware of any properties of experience by which it presents or represents such objects to us. When I look out at the wind-blown meadow, it is the undulating green grass of which I am aware not of any green property of my visual experience. (See the entry on [representational theories of consciousness](../consciousness-representational/).) Moore himself believed we could become aware of those latter qualities with effort and redirection of attention, though some contemporary transparency advocates deny it (Harman 1990, Tye 1995, Kind 2003).
 
 Conscious thoughts and experiences are also transparent in a semantic sense in that their meanings seem immediately known to us in the very act of thinking them (Van Gulick 1992). In that sense we might be said to ‘think right through’ them to what they mean or represent. Transparency in this semantic sense may correspond at least partly with what John Searle calls the “intrinsic intentionality” of consciousness (Searle 1992).
 
@@ -305,7 +305,7 @@ As with the What and How questions, the Why question poses a general problem tha
 
 ### 6.1 Causal status of consciousness
 
-Perhaps the most basic issue posed by any version of the Why question is whether or not consciousness of the relevant sort has any causal impact at all. If it has no effects and makes no causal difference whatsoever, then it would seem unable to play any significant role in the systems or organisms in which it is present, thus undercutting at the outset most inquiries about its possible value. Nor can the threat of epiphenomenal irrelevance be simply dismissed as an obvious non-option, since at least some forms of consciousness have been seriously alleged in the recent literature to lack causal status. (See the entry on epiphenomenalism.) Such worries have been raised especially with regard to qualia and qualitative consciousness (Huxley 1874, Jackson 1982, Chalmers 1996), but challenges have also been leveled against the causal status of other sorts including meta-mental consciousness (Velmans 1991).
+Perhaps the most basic issue posed by any version of the Why question is whether or not consciousness of the relevant sort has any causal impact at all. If it has no effects and makes no causal difference whatsoever, then it would seem unable to play any significant role in the systems or organisms in which it is present, thus undercutting at the outset most inquiries about its possible value. Nor can the threat of epiphenomenal irrelevance be simply dismissed as an obvious non-option, since at least some forms of consciousness have been seriously alleged in the recent literature to lack causal status. (See the entry on [epiphenomenalism](../epiphenomenalism/).) Such worries have been raised especially with regard to qualia and qualitative consciousness (Huxley 1874, Jackson 1982, Chalmers 1996), but challenges have also been leveled against the causal status of other sorts including meta-mental consciousness (Velmans 1991).
 
 Both metaphysical and empirical arguments have been given in support of such claims. Among the former are those that appeal to intuitions about the conceivability and logical possibility of zombies, i.e., of beings whose behavior, functional organization, and physical structure down to the molecular level are identical to those of normal human agents but who lack any qualia or qualitative consciousness. Some (Kirk 1970, Chalmers 1996) assert such beings are possible in worlds that share all our physical laws, but others deny it (Dennett 1991, Levine 2001). If they are possible in such worlds, then it would seem to follow that even in our world, qualia do not affect the course of physical events including those that constitute our human behaviors. If those events unfold in the same way whether or not qualia are present, then qualia appear to be inert or epiphenomenal at least with respect to events in the physical world. However, such arguments and the zombie intuitions on which they rely are controversial and their soundness remains in dispute (Searle 1992, Yablo 1998, Balog 1999).
 
@@ -337,7 +337,7 @@ _More unified and densely integrated representation of reality_. Conscious exper
 
 Of course, not all sensory information need be experienced to have an adaptive effect on behavior. Adaptive non-experiential sensory-motor links can be found both in simple organisms, as well as in some of the more direct and reflexive processes of higher organisms. But when experience is present, it provides a more unified and integrated representation of reality, one that typically allows for more open-ended avenues of response (Lorenz 1977). Consider for example the representation of space in an organism whose sensory input channels are simply linked to movement or to the orientation of a few fixed mechanisms such as those for feeding or grabbing prey, and compare it with that in an organism capable of using its spatial information for flexible navigation of its environment and for whatever other spatially relevant aims or goals it may have, as when a person visually scans her office or her kitchen (Gallistel 1990).
 
-It is representation of this latter sort that is typically made available by the integrated mode of presentation associated with conscious experience. The unity of experienced space is just one example of the sort of integration associated with our conscious awareness of an objective world. (See the entry on unity of consciousness.)
+It is representation of this latter sort that is typically made available by the integrated mode of presentation associated with conscious experience. The unity of experienced space is just one example of the sort of integration associated with our conscious awareness of an objective world. (See the entry on [unity of consciousness](../consciousness-unity/).)
 
 This integrative role or value is most directly associated with access consciousness, but also clearly with the larger phenomenal and intentional structure of experience. It is relevant even to the qualitative aspect of consciousness in so far as qualia play an important role in our experience of unified objects in a unified space or scene. It is intimately tied as well to the transparency of experience described in response to the What question, especially to semantic transparency (Van Gulick 1993). Integration of information plays a major role in several current neuro-cognitive theories of consciousness especially Global Workspace theories (see section 9.5) and Giulio Tononi's Integrated Information theory (section 9.6 below).
 
@@ -349,7 +349,7 @@ This particular role is most directly and definitionally tied to the notion of a
 
 ### 6.6 Freedom of will
 
-_Increased freedom of choice or free will_. The issue of free will remains a perennial philosophical problem, not only with regard to whether or not it exists but even as to what it might or should consist in (Dennett 1984, van Inwagen 1983, Hasker 1999, Wegner 2002). (See the entry on free will.) The notion of free will may itself remain too murky and contentious to shed any clear light on the role of consciousness, but there is a traditional intuition that the two are deeply linked.
+_Increased freedom of choice or free will_. The issue of free will remains a perennial philosophical problem, not only with regard to whether or not it exists but even as to what it might or should consist in (Dennett 1984, van Inwagen 1983, Hasker 1999, Wegner 2002). (See the entry on [free will](../freewill/).) The notion of free will may itself remain too murky and contentious to shed any clear light on the role of consciousness, but there is a traditional intuition that the two are deeply linked.
 
 Consciousness has been thought to open a realm of possibilities, a sphere of options within which the conscious self might choose or act freely. At a minimum, consciousness might seem a necessary precondition for any such freedom or self-determination (Hasker 1999). How could one engage in the requisite sort of free choice, while remaining solely within the unconscious domain? How can one determine one's own will without being conscious of it and of the options one has to shape it.
 
@@ -385,7 +385,7 @@ General metaphysical theories offer answers to the conscious version of the mind
 
 ### 8.1 Dualist theories
 
-_Dualist theories_ regard at least some aspects of consciousness as falling outside the realm of the physical,but specific forms of dualism differ in just which aspects those are. (See the entry on dualism.)
+_Dualist theories_ regard at least some aspects of consciousness as falling outside the realm of the physical,but specific forms of dualism differ in just which aspects those are. (See the entry on [dualism](../dualism/).)
 
 _Substance dualism_, such as traditional Cartesian dualism (Descartes 1644), asserts the existence of both physical and non-physical substances. Such theories entail the existence of non-physical minds or selves as entities in which consciousness inheres. Though substance dualism is at present largely out of favor, it does have some contemporary proponents (Swinburne 1986, Foster 1989, 1996).
 
@@ -397,21 +397,21 @@ _Emergent property dualism_ treats conscious properties as arising from complex 
 
 _Neutral monist property dualism_ treats both conscious mental properties and physical properties as in some way dependent upon and derivative from a more basic level of reality, that in itself is neither mental nor physical (Russell 1927, Strawson 1994). However, if one takes dualism to be a claim about there being two distinct realms of fundamental entities or properties, then perhaps neutral monism should not be classified as a version of property dualism in so far as it does not regard either mental or physical properties as ultimate or fundamental.
 
-_Panpsychism_ might be regarded as a fourth type of property dualism in that it regards all the constituents of reality as having some psychic, or at least proto-psychic, properties distinct from whatever physical properties they may have (Nagel 1979). Indeed neutral monism might be consistently combined with some version of _panprotopsychism_ (Chalmers 1996) according to which the proto-mental aspects of micro-constituents can give rise under suitable conditions of combination to full blown consciousness. (See the entry on panpsychism.)
+_Panpsychism_ might be regarded as a fourth type of property dualism in that it regards all the constituents of reality as having some psychic, or at least proto-psychic, properties distinct from whatever physical properties they may have (Nagel 1979). Indeed neutral monism might be consistently combined with some version of _panprotopsychism_ (Chalmers 1996) according to which the proto-mental aspects of micro-constituents can give rise under suitable conditions of combination to full blown consciousness. (See the entry on [panpsychism](../panpsychism/).)
 
 The nature of the relevant proto-psychic aspect remains unclear, and such theories face a dilemma if offered in hope of answering the Hard Problem. Either the proto-psychic properties involve the sort of qualitative phenomenal feel that generates the Hard Problem or they do not. If they do, it is difficult to understand how they could possibly occur as ubiquitous properties of reality. How could an electron or a quark have any such experiential feel? However, if the proto-psychic properties do not involve any such feel, it is not clear how they are any better able than physical properties to account for qualitative consciousness in solving the Hard Problem.
 
 A more modest form of panpsychism has been advocated by the neuroscientist Giulio Tononi (2008) and endorsed by other neuroscientists including Christof Koch (2012). This version derives from Tononi's integrated information theory (IIT) of consciousness that identifies consciousness with integrated information which can exist in many degrees (see section 9.6 below). According to IIT, even a simple indicator device such as a single photo diode possesses some degree of integrated information and thus some limited degree of consciousness, a consequence which both Tononi and Koch embrace as a form of panpsychism.
 
-A variety of arguments have been given in favor of dualist and other anti-physicalist theories of consciousness. Some are largely _a priori_ in nature such as those that appeal to the supposed conceivability of zombies (Kirk 1970, Chalmers 1996) or versions of the knowledge argument (Jackson 1982, 1986) which aim to reach an anti-physicalist conclusion about the ontology of consciousness from the apparent limits on our ability to fully understand the qualitative aspects of conscious experience through third-person physical accounts of the brain processes. (See Jackson 1998, 2004 for a contrary view; see also entries on zombies, and qualia: the knowledge argument.) Other arguments for dualism are made on more empirical grounds, such as those that appeal to supposed causal gaps in the chains of physical causation in the brain (Eccles and Popper 1977) or those based on alleged anomalies in the temporal order of conscious awareness (Libet 1982, 1985). Dualist arguments of both sorts have been much disputed by physicalists (P.S. Churchland 1981, Dennett and Kinsbourne 1992).
+A variety of arguments have been given in favor of dualist and other anti-physicalist theories of consciousness. Some are largely _a priori_ in nature such as those that appeal to the supposed conceivability of zombies (Kirk 1970, Chalmers 1996) or versions of the knowledge argument (Jackson 1982, 1986) which aim to reach an anti-physicalist conclusion about the ontology of consciousness from the apparent limits on our ability to fully understand the qualitative aspects of conscious experience through third-person physical accounts of the brain processes. (See Jackson 1998, 2004 for a contrary view; see also entries on [zombies](../zombies/), and [qualia: the knowledge argument](../qualia-knowledge/).) Other arguments for dualism are made on more empirical grounds, such as those that appeal to supposed causal gaps in the chains of physical causation in the brain (Eccles and Popper 1977) or those based on alleged anomalies in the temporal order of conscious awareness (Libet 1982, 1985). Dualist arguments of both sorts have been much disputed by physicalists (P.S. Churchland 1981, Dennett and Kinsbourne 1992).
 
 ### 8.2 Physicalist theories
 
 Most other metaphysical theories of consciousness are versions of physicalism of one familiar sort or another.
 
-_Eliminativist_ theories reductively deny the existence of consciousness or at least the existence of some of its commonly accepted sorts or features. (See the entry on eliminative materialism.) The radical eliminativists reject the very notion of consciousness as muddled or wrong headed and claim that the conscious/nonconscious distinction fails to cut mental reality at its joints (Wilkes 1984, 1988). They regard the idea of consciousness as sufficiently off target to merit elimination and replacement by other concepts and distinctions more reflective of the true nature of mind (P. S. Churchland 1983).
+_Eliminativist_ theories reductively deny the existence of consciousness or at least the existence of some of its commonly accepted sorts or features. (See the entry on [eliminative materialism](../materialism-eliminative/).) The radical eliminativists reject the very notion of consciousness as muddled or wrong headed and claim that the conscious/nonconscious distinction fails to cut mental reality at its joints (Wilkes 1984, 1988). They regard the idea of consciousness as sufficiently off target to merit elimination and replacement by other concepts and distinctions more reflective of the true nature of mind (P. S. Churchland 1983).
 
-Most eliminativists are more qualified in their negative assessment. Rather than rejecting the notion outright, they take issue only with some of the prominent features that it is commonly thought to involve, such as qualia (Dennett 1990, Carruthers 2000), the conscious self (Dennett 1992), or the so called “Cartesian Theater” where the temporal sequence of conscious experience gets internally projected (Dennett and Kinsbourne 1992). More modest eliminativists, like Dennett, thus typically combine their qualified denials with a positive theory of those aspects of consciousness they take as real, such as the Multiple Drafts Model (section 9.3 below).
+Most eliminativists are more qualified in their negative assessment. Rather than rejecting the notion outright, they take issue only with some of the prominent features that it is commonly thought to involve, such as qualia (Dennett 1990, Carruthers 2000), the conscious self (Dennett 1992), or the so called “Cartesian Theater” where the temporal sequence of conscious experience gets internally projected (Dennett and Kinsbourne 1992). More modest eliminativists, like Dennett, thus typically combine their qualified denials with a positive theory of those aspects of consciousness they take as real, such as the Multiple Drafts Model (section [9.3](#RepThe) below).
 
 _Identity theory_, at least strict psycho-physical type-type identity theory, offers another strongly reductive option by identifying conscious mental properties, states and processes with physical ones, most typically of a neural or neurophysiological nature. If having a qualitative conscious experience of phenomenal red _just is_ being in a brain state with the relevant neurophysiological properties, then such experiential properties are real but their reality is a straight forwardly physical reality.
 
@@ -425,9 +425,9 @@ Most physicalist theories of consciousness are neither eliminativist nor based o
 
 Among the common variants are those that take conscious reality to _supervene_ on the physical, be _composed of_ the physical, or be _realized by_ the physical.
 
-_Functionalist_ theories in particular rely heavily on the notion of _realization_ to explicate the relation between consciousness and the physical. According to functionalism, a state or process counts as being of a given mental or conscious type in virtue of the functional role it plays within a suitably organized system (Block 1980a). A given physical state realizes the relevant conscious mental type by playing the appropriate role within the larger physical system that contains it. (See the entry on functionalism.) The functionalist often appeals to analogies with other inter-level relations, as between the biological and biochemical or the chemical and the atomic. In each case properties or facts at one level are realized by complex interactions between items at an underlying level.
+_Functionalist_ theories in particular rely heavily on the notion of _realization_ to explicate the relation between consciousness and the physical. According to functionalism, a state or process counts as being of a given mental or conscious type in virtue of the functional role it plays within a suitably organized system (Block 1980a). A given physical state realizes the relevant conscious mental type by playing the appropriate role within the larger physical system that contains it. (See the entry on [functionalism](../functionalism/).) The functionalist often appeals to analogies with other inter-level relations, as between the biological and biochemical or the chemical and the atomic. In each case properties or facts at one level are realized by complex interactions between items at an underlying level.
 
-Critics of functionalism often deny that consciousness can be adequately explicated in functional terms (Block 1980a, 1980b, Levine 1983, Chalmers 1996). According to such critics, consciousness may have interesting functional characteristics but its nature is not essentially functional. Such claims are sometimes supported by appeal to the supposed possibility of absent or inverted qualia, i.e., the possibility of beings who are functionally equivalent to normal humans but who have reversed qualia or none at all. The status of such possibilities is controversial (Shoemaker 1981, Dennett 1990, Carruthers 2000), but if accepted they would seem to pose a problem for the functionalist. (See the entry on qualia.)
+Critics of functionalism often deny that consciousness can be adequately explicated in functional terms (Block 1980a, 1980b, Levine 1983, Chalmers 1996). According to such critics, consciousness may have interesting functional characteristics but its nature is not essentially functional. Such claims are sometimes supported by appeal to the supposed possibility of absent or inverted qualia, i.e., the possibility of beings who are functionally equivalent to normal humans but who have reversed qualia or none at all. The status of such possibilities is controversial (Shoemaker 1981, Dennett 1990, Carruthers 2000), but if accepted they would seem to pose a problem for the functionalist. (See the entry on [qualia](../qualia/).)
 
 Those who ground ontological physicalism on the realization relation often combine it with a nonreductive view at the conceptual or representational level that stresses the autonomy of the special sciences and the distinct modes of description and cognitive access they provide.
 
@@ -443,7 +443,7 @@ Although there are many general metaphysical/ontological theories of consciousne
 
 ### 9.1 Higher-order theories
 
-Higher-order (HO) theories analyze the notion of a conscious mental state in terms of reflexive meta-mental self-awareness. The core idea is that what makes a mental state M a conscious mental state is the fact that it is accompanied by a simultaneous and non-inferential higher-order (i.e., meta-mental) state whose content is that one is now in M. Having a conscious desire for some chocolate involves being in two mental states; one must have both a desire for some chocolate and also a higher-order state whose content is that one is now having just such a desire. Unconscious mental states are unconscious precisely in that we lack the relevant higher-order states about them. Their being unconscious consists in the fact that we are not reflexively and directly aware of being in them. (See the entry on higher-order theories of consciousness.)
+Higher-order (HO) theories analyze the notion of a conscious mental state in terms of reflexive meta-mental self-awareness. The core idea is that what makes a mental state M a conscious mental state is the fact that it is accompanied by a simultaneous and non-inferential higher-order (i.e., meta-mental) state whose content is that one is now in M. Having a conscious desire for some chocolate involves being in two mental states; one must have both a desire for some chocolate and also a higher-order state whose content is that one is now having just such a desire. Unconscious mental states are unconscious precisely in that we lack the relevant higher-order states about them. Their being unconscious consists in the fact that we are not reflexively and directly aware of being in them. (See the entry on [higher-order theories of consciousness](../consciousness-higher/).)
 
 Higher-order theories come in two main variants that differ concerning the psychological mode of the relevant conscious-making meta-mental states. Higher-order thought (HOT) theories take the required higher-order state to be an assertoric thought-like meta-state (Rosenthal 1986, 1993). Higher-order perception (HOP) theories take them to be more perception-like and associated with a kind of inner sense and intra-mental monitoring systems of some sort (Armstrong 1981, Lycan 1987, 1996).
 
@@ -783,23 +783,23 @@ A comprehensive understanding of consciousness will likely require theories of m
 
 ## Academic Tools
 
-> How to cite this entry.
+> [How to cite this entry](https://plato.stanford.edu/cgi-bin/encyclopedia/archinfo.cgi?entry=consciousness).
 > 
-> Preview the PDF version of this entry at the Friends of the SEP Society.
+> [Preview the PDF version of this entry](https://leibniz.stanford.edu/friends/preview/consciousness/) at the [Friends of the SEP Society](https://leibniz.stanford.edu/friends/).
 > 
-> Look up topics and thinkers related to this entry at the Internet Philosophy Ontology Project (InPhO).
+> [Look up topics and thinkers related to this entry](https://www.inphoproject.org/entity?sep=consciousness&redirect=True) at the Internet Philosophy Ontology Project (InPhO).
 > 
-> Enhanced bibliography for this entry at PhilPapers, with links to its database.
+> [Enhanced bibliography for this entry](http://philpapers.org/sep/consciousness/) at [PhilPapers](http://philpapers.org/), with links to its database.
 
 ## Other Internet Resources
 
-* Journal of Consciousness Studies.
-* Association for the Scientific Study of Consciousness.
-* Center for Consciousness Studies (University of Arizona/Tucson).
+* [Journal of Consciousness Studies](http://www.imprint.co.uk/).
+* [Association for the Scientific Study of Consciousness](http://www.theassc.org).
+* [Center for Consciousness Studies](http://consciousness.arizona.edu/) (University of Arizona/Tucson).
 
 ### Acknowledgments
 
 The SEP editors would like to thank Claudio Vanin and Fairley Cessna for (separately) pointing out a number of typographical errors in this entry. We're grateful to them for taking the time to compile their lists and sending them to us.
 
-Copyright © 2014 by 
-Robert Van Gulick <_rnvangul@syr.edu_\>
+[Copyright © 2014](../../info.html#c) by 
+[Robert Van Gulick](http://thecollege.syr.edu/people/faculty/pages/phi/vangulick-robert.html) <[_rnvangul@syr.edu_](mailto:rnvangul%40syr%2eedu)\>

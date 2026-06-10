@@ -1,4 +1,8 @@
-nodejs / **node** Public
+[nodejs](/nodejs) / **[node](/nodejs/node)** Public
+
+* [Notifications](/login?return_to=%2Fnodejs%2Fnode)
+* [Fork 35.5k](/login?return_to=%2Fnodejs%2Fnode)
+* [Star](/login?return_to=%2Fnodejs%2Fnode)
 
 # installer will not overwrite user's .npmrc, even if invalid #12345
 
@@ -10,15 +14,15 @@ Closed
 
 Closed
 
-installer will not overwrite user's .npmrc, even if invalid#12345
+[installer will not overwrite user's .npmrc, even if invalid](#top)#12345
 
 Copy link
 
 Labels
 
-feature requestIssues that request new features to be added to Node.js.installIssues and PRs related to the installers.
+[feature request](https://github.com/nodejs/node/issues?q=state%3Aopen%20label%3A%22feature%20request%22)Issues that request new features to be added to Node.js.[install](https://github.com/nodejs/node/issues?q=state%3Aopen%20label%3A%22install%22)Issues and PRs related to the installers.
 
-opened on Apr 11, 2017
+opened [on Apr 11, 2017](https://github.com/nodejs/node/issues/12345#issue-221064271)
 
 Issue body actions
 
@@ -45,7 +49,7 @@ No one assigned
 
 ### Labels
 
-feature requestIssues that request new features to be added to Node.js.installIssues and PRs related to the installers.
+[feature request](https://github.com/nodejs/node/issues?q=state%3Aopen%20label%3A%22feature%20request%22)Issues that request new features to be added to Node.js.[install](https://github.com/nodejs/node/issues?q=state%3Aopen%20label%3A%22install%22)Issues and PRs related to the installers.
 
 ### Type
 

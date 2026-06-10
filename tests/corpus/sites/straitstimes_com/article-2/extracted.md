@@ -1,14 +1,16 @@
+[Sign up now:](/newsletter-signup?ref=inline-article) Get ST's newsletters delivered to your inbox
+
 The premium for a Category B certificate came in at $126,236 on May 6.
 
 ST PHOTO: LIM YAOHUI
 
 SINGAPORE – Certificate of entitlement (COE) prices for cars in Category A and Category B rose at the latest tender on May 6.
 
-The premium for Category A, which is for smaller, less powerful cars and electric vehicles (EVs), ended at $124,790, a 1.4 per cent increase from the $123,010 recorded during the previous tender on April 22.
+The premium for Category A, which is for smaller, less powerful cars and electric vehicles (EVs), ended at $124,790, a 1.4 per cent increase from the $123,010 recorded during [the previous tender on April 22.](/singapore/transport/cat-a-coe-rate-rises-to-123010-exceeds-cat-b-price-for-second-time-in-two-months?ref=inline-article)
 
 At that point, it had exceeded the price of a Category B certificate.
 
-The latest Category A price is the highest since the record of $128,105 was set in October 2025.
+The latest Category A price is the highest since the [record of $128,105 was set in October 2025](https://www.straitstimes.com/singapore/transport/cat-a-coe-premium-hits-new-record-of-128105-cat-b-price-climbs-to-141000?ref=inline-article).
 
 Category B certificates – which are for larger, more powerful cars and EVs – now cost more, at $126,236 on May 6.
 
@@ -26,7 +28,7 @@ The price of a motorcycle COE (Category D) went up by 1.7 per cent, from $9,290 
 
 As for commercial vehicle (Category C) COEs, the premium increased to $87,479 – a 4.8 per cent change from $83,501.
 
-In a statement shortly after the exercise, the Land Transport Authority (LTA) said that from past experience, the upcoming Car Expo is likely to lead to higher COE prices that negate discounts for purchases during this period. The car show takes place on May 9 and 10.
+In a statement shortly after the exercise, the Land Transport Authority (LTA) said that from past experience, the [upcoming Car Expo](/life/motoring/mercedes-benz-c-class-goes-electric-the-car-expo-returns-toyota-to-sell-us-made-cars-in-japan?ref=inline-article) is likely to lead to higher COE prices that negate discounts for purchases during this period. The car show takes place on May 9 and 10.
 
 “We urge car buyers to bid prudently,” LTA added.
 

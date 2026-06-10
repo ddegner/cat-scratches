@@ -6,7 +6,7 @@ Two years into studying at the Culinary Institute of America in Hyde Park, N.Y.,
 
 After an internship but before the final leg of my program, I returned home to see an old roommate get married. Touching down at the airport, I was welcomed as one of the country’s own. No longer a visitor, a stranger, an outsider or an immigrant, I was home.
 
-## Recipe: Passion Fruit Juice
+## Recipe: [Passion Fruit Juice](https://cooking.nytimes.com/recipes/777922586-passion-fruit-juice)
 
 At my brother Reynold’s place in the heart of Port of Spain, I slept for a full day. Rest was more restful in a country where I didn’t always have to wrestle. When I awoke, I made a beeline to Hott Shoppe, a small roti shop that serves the most silken dhal puri skins. My brother ordered his favorite: a curry chicken buss-up-shut, served with flaky paratha, stewed Chinese long beans (bodi), ethereally smooth pumpkin talkari spiked with geera (roasted cumin), aloo and channa amped with “slight peppa,” and a thump of mango achar. I had something I’ve enjoyed ever since I was a child: a boneless chicken mini roti with a banana Solo (a flavored soft drink).
 

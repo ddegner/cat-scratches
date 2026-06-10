@@ -2,7 +2,7 @@ A first-of-its-kind artificial-intelligence tool detects duplicate or suspicious
 
 The system — developed by Institute of Physics Publishing (IOPP), based in Bristol, UK — can help to uncover cases of plagiarized or template-like peer reviews, which individuals or organized groups use to push manuscripts through the publication process or boost citations to their own work.
 
-The technology aims to “combat this pressing issue”, said Lauren Flintoft, the IOPP’s research integrity manager, who presented the findings of a pilot study testing the tool at the 9th World Conference on Research Integrity in Vancouver, Canada on 4 May. Most integrity checks focus on manuscripts, but “peer-review process fraud is equally as important and targeted probably more often than you think by bad actors”, Flintoft told the meeting.
+The technology aims to “combat this pressing issue”, said Lauren Flintoft, the IOPP’s research integrity manager, who presented the findings of a pilot study testing the tool at the 9th World Conference on Research Integrity in Vancouver, Canada on 4 May. Most integrity checks [focus on manuscripts](https://www.nature.com/articles/d41586-026-01340-y), but “peer-review process fraud is equally as important and targeted probably more often than you think by bad actors”, Flintoft told the meeting.
 
 In an analysis of around half a million peer-review reports for manuscripts submitted to the IOPP between 2020 and 2025, the AI tool identified nearly 2,500 reports that had at least 60% overlap with former reviewer reports, of which 785 reports had at least 80% overlap. Of the flagged cases, 89 were exact duplicates.
 
@@ -10,7 +10,7 @@ The IOPP is rolling out the tool across all its journals, the publisher announce
 
 ## Review mills
 
-Two studies, of open-peer-review reports1,2 — which involve reviews being posted alongside published papers — discovered hundreds of reviews for manuscripts across different publishers that seem to have been copied from a template. These reports, for example, contained similar wording or identical typos, and commonly included citations of the reviewers’ own papers. Research-integrity sleuth Maria Ángeles Oviedo-García, who studies marketing at the University of Seville in Spain and co-authored both analyses, called these cases “review mills”.
+Two studies, of open-peer-review reports[1](#ref-CR1),[2](#ref-CR2) — which involve reviews being posted alongside published papers — discovered hundreds of reviews for manuscripts across different publishers that seem to have been copied from a template. These reports, for example, contained similar wording or identical typos, and commonly included citations of the reviewers’ own papers. Research-integrity sleuth Maria Ángeles Oviedo-García, who studies marketing at the University of Seville in Spain and co-authored both analyses, called these cases “review mills”.
 
 At the publisher PLOS, there have been “rising cases of peer-review integrity issues over the past few years”, says Renee Hoch, head of publication ethics in San Francisco, California.
 

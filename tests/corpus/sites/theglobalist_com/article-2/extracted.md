@@ -97,6 +97,6 @@ Shared opposition to adversaries helps create emotional cohesion across an other
 
 Political systems that repress powerful human instincts, as balanced  "democratic" systems inevitably must, are constantly being tested.
 
-A Global Ideas Center, Strategic Assessment Memo (SAM) from the Global Ideas Center
+A [Global Ideas Center](https://www.theglobalist.com/global-ideas-center/gic/), [Strategic Assessment Memo (SAM)](https://www.theglobalist.com/global-ideas-center/strategic-assessment-memo-sam/) from the [Global Ideas Center](https://globalideascenter.org/)
 
-You may quote from this text, provided you mention the name of the author and reference it as a new Global Ideas Center, Strategic Assessment Memo (SAM) published by the Global Ideas Center in Berlin on The Globalist.
+You may quote from this text, provided you mention the name of the author and reference it as a new [Global Ideas Center](https://www.theglobalist.com/global-ideas-center/gic/), [Strategic Assessment Memo (SAM)](https://www.theglobalist.com/global-ideas-center/strategic-assessment-memo-sam/) published by the Global Ideas Center in Berlin on The Globalist.

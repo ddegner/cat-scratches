@@ -1,6 +1,6 @@
-Learn React
+[Learn React](/learn)
 
-Quick Start
+[Quick Start](/learn)
 
 # Thinking in React
 
@@ -13,7 +13,7 @@ Imagine that you already have a JSON API and a mockup from a designer.
 The JSON API returns some data that looks like this:
 
 ```
-[ { category: "Fruits", price: "$1", stocked: true, name: "Apple" }, { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" }, { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" }, { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" }, { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" }, { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }]
+[  { category: "Fruits", price: "$1", stocked: true, name: "Apple" },  { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },  { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" },  { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" },  { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },  { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }]
 ```
 
 The mockup looks like this:
@@ -26,7 +26,7 @@ Start by drawing boxes around every component and subcomponent in the mockup and
 
 Depending on your background, you can think about splitting up a design into components in different ways:
 
-* **Programming**—use the same techniques for deciding if you should create a new function or object. One such technique is the separation of concerns, that is, a component should ideally only be concerned with one thing. If it ends up growing, it should be decomposed into smaller subcomponents.
+* **Programming**—use the same techniques for deciding if you should create a new function or object. One such technique is the [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), that is, a component should ideally only be concerned with one thing. If it ends up growing, it should be decomposed into smaller subcomponents.
 * **CSS**—consider what you would make class selectors for. (However, components are a bit less granular.)
 * **Design**—consider how you would organize the design’s layers.
 
@@ -45,114 +45,114 @@ If you look at `ProductTable` (lavender), you’ll see that the table header (co
 Now that you’ve identified the components in the mockup, arrange them into a hierarchy. Components that appear within another component in the mockup should appear as a child in the hierarchy:
 
 * `FilterableProductTable`
- * `SearchBar`
- * `ProductTable`
- * `ProductCategoryRow`
- * `ProductRow`
+    * `SearchBar`
+    * `ProductTable`
+        * `ProductCategoryRow`
+        * `ProductRow`
 
 ## Step 2: Build a static version in React
 
 Now that you have your component hierarchy, it’s time to implement your app. The most straightforward approach is to build a version that renders the UI from your data model without adding any interactivity… yet! It’s often easier to build the static version first and add interactivity later. Building a static version requires a lot of typing and no thinking, but adding interactivity requires a lot of thinking and not a lot of typing.
 
-To build a static version of your app that renders your data model, you’ll want to build components that reuse other components and pass data using props. Props are a way of passing data from parent to child. (If you’re familiar with the concept of state, don’t use state at all to build this static version. State is reserved only for interactivity, that is, data that changes over time. Since this is a static version of the app, you don’t need it.)
+To build a static version of your app that renders your data model, you’ll want to build [components](/learn/your-first-component) that reuse other components and pass data using [props.](/learn/passing-props-to-a-component) Props are a way of passing data from parent to child. (If you’re familiar with the concept of [state](/learn/state-a-components-memory), don’t use state at all to build this static version. State is reserved only for interactivity, that is, data that changes over time. Since this is a static version of the app, you don’t need it.)
 
 You can either build “top down” by starting with building the components higher up in the hierarchy (like `FilterableProductTable`) or “bottom up” by working from components lower down (like `ProductRow`). In simpler examples, it’s usually easier to go top-down, and on larger projects, it’s easier to go bottom-up.
 
-Fork
+[Fork](https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app "Open in CodeSandbox")
 
 function ProductCategoryRow({ category }) {
- return (
- <tr\>
- <th colSpan\="2"\>
- {category}
- </th\>
- </tr\>
- );
+  return (
+    <tr\>
+      <th colSpan\="2"\>
+        {category}
+      </th\>
+    </tr\>
+  );
 }
 
 function ProductRow({ product }) {
- const name = product.stocked ? product.name :
- <span style\={{ color: 'red' }}\>
- {product.name}
- </span\>;
+  const name = product.stocked ? product.name :
+    <span style\={{ color: 'red' }}\>
+      {product.name}
+    </span\>;
 
- return (
- <tr\>
- <td\>{name}</td\>
- <td\>{product.price}</td\>
- </tr\>
- );
+  return (
+    <tr\>
+      <td\>{name}</td\>
+      <td\>{product.price}</td\>
+    </tr\>
+  );
 }
 
 function ProductTable({ products }) {
- const rows = \[\];
- let lastCategory = null;
+  const rows = \[\];
+  let lastCategory = null;
 
- products.forEach((product) \=> {
- if (product.category !== lastCategory) {
- rows.push(
- <ProductCategoryRow
- category\={product.category}
- key\={product.category} />
- );
- }
- rows.push(
- <ProductRow
- product\={product}
- key\={product.name} />
- );
- lastCategory = product.category;
- });
+  products.forEach((product) \=> {
+    if (product.category !== lastCategory) {
+      rows.push(
+        <ProductCategoryRow
+          category\={product.category}
+          key\={product.category} />
+      );
+    }
+    rows.push(
+      <ProductRow
+        product\={product}
+        key\={product.name} />
+    );
+    lastCategory = product.category;
+  });
 
- return (
- <table\>
- <thead\>
- <tr\>
- <th\>Name</th\>
- <th\>Price</th\>
- </tr\>
- </thead\>
- <tbody\>{rows}</tbody\>
- </table\>
- );
+  return (
+    <table\>
+      <thead\>
+        <tr\>
+          <th\>Name</th\>
+          <th\>Price</th\>
+        </tr\>
+      </thead\>
+      <tbody\>{rows}</tbody\>
+    </table\>
+  );
 }
 
 function SearchBar() {
- return (
- <form\>
- <input type\="text" placeholder\="Search..." />
- <label\>
- <input type\="checkbox" />
- {' '}
- Only show products in stock
- </label\>
- </form\>
- );
+  return (
+    <form\>
+      <input type\="text" placeholder\="Search..." />
+      <label\>
+        <input type\="checkbox" />
+        {' '}
+        Only show products in stock
+      </label\>
+    </form\>
+  );
 }
 
 function FilterableProductTable({ products }) {
- return (
- <div\>
- <SearchBar />
- <ProductTable products\={products} />
- </div\>
- );
+  return (
+    <div\>
+      <SearchBar />
+      <ProductTable products\={products} />
+    </div\>
+  );
 }
 
 const PRODUCTS = \[
- {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
- {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
- {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
- {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
- {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
- {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
+  {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
+  {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
+  {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
+  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
+  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
+  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
 \];
 
 export default function App() {
- return <FilterableProductTable products\={PRODUCTS} />;
+  return <FilterableProductTable products\={PRODUCTS} />;
 }
 
-(If this code looks intimidating, go through the Quick Start first!)
+(If this code looks intimidating, go through the [Quick Start](/learn) first!)
 
 After building your components, you’ll have a library of reusable components that render your data model. Because this is a static app, the components will only return JSX. The component at the top of the hierarchy (`FilterableProductTable`) will take your data model as a prop. This is called _one-way data flow_ because the data flows down from the top-level component to the ones at the bottom of the tree.
 
@@ -164,7 +164,7 @@ At this point, you should not be using any state values. That’s for the next s
 
 To make the UI interactive, you need to let users change your underlying data model. You will use _state_ for this.
 
-Think of state as the minimal set of changing data that your app needs to remember. The most important principle for structuring state is to keep it DRY (Don’t Repeat Yourself). Figure out the absolute minimal representation of the state your application needs and compute everything else on-demand. For example, if you’re building a shopping list, you can store the items as an array in state. If you want to also display the number of items in the list, don’t store the number of items as another state value—instead, read the length of your array.
+Think of state as the minimal set of changing data that your app needs to remember. The most important principle for structuring state is to keep it [DRY (Don’t Repeat Yourself).](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) Figure out the absolute minimal representation of the state your application needs and compute everything else on-demand. For example, if you’re building a shopping list, you can store the items as an array in state. If you want to also display the number of items in the list, don’t store the number of items as another state value—instead, read the length of your array.
 
 Now think of all of the pieces of data in this example application:
 
@@ -196,8 +196,8 @@ This means only the search text and the value of the checkbox are state! Nicely 
 
 There are two types of “model” data in React: props and state. The two are very different:
 
-* **Props** are like arguments you pass to a function. They let a parent component pass data to a child component and customize its appearance. For example, a `Form` can pass a `color` prop to a `Button`.
-* **State** is like a component’s memory. It lets a component keep track of some information and change it in response to interactions. For example, a `Button` might keep track of `isHovered` state.
+* [**Props** are like arguments you pass](/learn/passing-props-to-a-component) to a function. They let a parent component pass data to a child component and customize its appearance. For example, a `Form` can pass a `color` prop to a `Button`.
+* [**State** is like a component’s memory.](/learn/state-a-components-memory) It lets a component keep track of some information and change it in response to interactions. For example, a `Button` might keep track of `isHovered` state.
 
 Props and state are different, but they work together. A parent component will often keep some information in state (so that it can change it), and _pass it down_ to child components as their props. It’s okay if the difference still feels fuzzy on the first read. It takes a bit of practice for it to really stick!
 
@@ -210,153 +210,153 @@ For each piece of state in your application:
 1. Identify _every_ component that renders something based on that state.
 2. Find their closest common parent component—a component above them all in the hierarchy.
 3. Decide where the state should live:
- 1. Often, you can put the state directly into their common parent.
- 2. You can also put the state into some component above their common parent.
- 3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
+    1. Often, you can put the state directly into their common parent.
+    2. You can also put the state into some component above their common parent.
+    3. If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common parent component.
 
 In the previous step, you found two pieces of state in this application: the search input text, and the value of the checkbox. In this example, they always appear together, so it makes sense to put them into the same place.
 
 Now let’s run through our strategy for them:
 
 1. **Identify components that use state:**
- * `ProductTable` needs to filter the product list based on that state (search text and checkbox value).
- * `SearchBar` needs to display that state (search text and checkbox value).
+    * `ProductTable` needs to filter the product list based on that state (search text and checkbox value).
+    * `SearchBar` needs to display that state (search text and checkbox value).
 2. **Find their common parent:** The first parent component both components share is `FilterableProductTable`.
 3. **Decide where the state lives**: We’ll keep the filter text and checked state values in `FilterableProductTable`.
 
 So the state values will live in `FilterableProductTable`.
 
-Add state to the component with the `useState()` Hook. Hooks are special functions that let you “hook into” React. Add two state variables at the top of `FilterableProductTable` and specify their initial state:
+Add state to the component with the [`useState()` Hook.](/reference/react/useState) Hooks are special functions that let you “hook into” React. Add two state variables at the top of `FilterableProductTable` and specify their initial state:
 
 ```
-function FilterableProductTable({ products }) { const [filterText, setFilterText] = useState(''); const [inStockOnly, setInStockOnly] = useState(false);
+function FilterableProductTable({ products }) {  const [filterText, setFilterText] = useState('');  const [inStockOnly, setInStockOnly] = useState(false);
 ```
 
 Then, pass `filterText` and `inStockOnly` to `ProductTable` and `SearchBar` as props:
 
 ```
-<div> <SearchBar filterText={filterText} inStockOnly={inStockOnly} /> <ProductTable products={products} filterText={filterText} inStockOnly={inStockOnly} /></div>
+<div>  <SearchBar    filterText={filterText}    inStockOnly={inStockOnly} />  <ProductTable    products={products}    filterText={filterText}    inStockOnly={inStockOnly} /></div>
 ```
 
 You can start seeing how your application will behave. Edit the `filterText` initial value from `useState('')` to `useState('fruit')` in the sandbox code below. You’ll see both the search input text and the table update:
 
-Fork
+[Fork](https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app "Open in CodeSandbox")
 
 import { useState } from 'react';
 
 function FilterableProductTable({ products }) {
- const \[filterText, setFilterText\] = useState('');
- const \[inStockOnly, setInStockOnly\] = useState(false);
+  const \[filterText, setFilterText\] = useState('');
+  const \[inStockOnly, setInStockOnly\] = useState(false);
 
- return (
- <div\>
- <SearchBar
- filterText\={filterText}
- inStockOnly\={inStockOnly} />
- <ProductTable
- products\={products}
- filterText\={filterText}
- inStockOnly\={inStockOnly} />
- </div\>
- );
+  return (
+    <div\>
+      <SearchBar
+        filterText\={filterText}
+        inStockOnly\={inStockOnly} />
+      <ProductTable
+        products\={products}
+        filterText\={filterText}
+        inStockOnly\={inStockOnly} />
+    </div\>
+  );
 }
 
 function ProductCategoryRow({ category }) {
- return (
- <tr\>
- <th colSpan\="2"\>
- {category}
- </th\>
- </tr\>
- );
+  return (
+    <tr\>
+      <th colSpan\="2"\>
+        {category}
+      </th\>
+    </tr\>
+  );
 }
 
 function ProductRow({ product }) {
- const name = product.stocked ? product.name :
- <span style\={{ color: 'red' }}\>
- {product.name}
- </span\>;
+  const name = product.stocked ? product.name :
+    <span style\={{ color: 'red' }}\>
+      {product.name}
+    </span\>;
 
- return (
- <tr\>
- <td\>{name}</td\>
- <td\>{product.price}</td\>
- </tr\>
- );
+  return (
+    <tr\>
+      <td\>{name}</td\>
+      <td\>{product.price}</td\>
+    </tr\>
+  );
 }
 
 function ProductTable({ products, filterText, inStockOnly }) {
- const rows = \[\];
- let lastCategory = null;
+  const rows = \[\];
+  let lastCategory = null;
 
- products.forEach((product) \=> {
- if (
- product.name.toLowerCase().indexOf(
- filterText.toLowerCase()
- ) === -1
- ) {
- return;
- }
- if (inStockOnly && !product.stocked) {
- return;
- }
- if (product.category !== lastCategory) {
- rows.push(
- <ProductCategoryRow
- category\={product.category}
- key\={product.category} />
- );
- }
- rows.push(
- <ProductRow
- product\={product}
- key\={product.name} />
- );
- lastCategory = product.category;
- });
+  products.forEach((product) \=> {
+    if (
+      product.name.toLowerCase().indexOf(
+        filterText.toLowerCase()
+      ) === -1
+    ) {
+      return;
+    }
+    if (inStockOnly && !product.stocked) {
+      return;
+    }
+    if (product.category !== lastCategory) {
+      rows.push(
+        <ProductCategoryRow
+          category\={product.category}
+          key\={product.category} />
+      );
+    }
+    rows.push(
+      <ProductRow
+        product\={product}
+        key\={product.name} />
+    );
+    lastCategory = product.category;
+  });
 
- return (
- <table\>
- <thead\>
- <tr\>
- <th\>Name</th\>
- <th\>Price</th\>
- </tr\>
- </thead\>
- <tbody\>{rows}</tbody\>
- </table\>
- );
+  return (
+    <table\>
+      <thead\>
+        <tr\>
+          <th\>Name</th\>
+          <th\>Price</th\>
+        </tr\>
+      </thead\>
+      <tbody\>{rows}</tbody\>
+    </table\>
+  );
 }
 
 function SearchBar({ filterText, inStockOnly }) {
- return (
- <form\>
- <input
- type\="text"
- value\={filterText}
- placeholder\="Search..."/>
- <label\>
- <input
- type\="checkbox"
- checked\={inStockOnly} />
- {' '}
- Only show products in stock
- </label\>
- </form\>
- );
+  return (
+    <form\>
+      <input
+        type\="text"
+        value\={filterText}
+        placeholder\="Search..."/>
+      <label\>
+        <input
+          type\="checkbox"
+          checked\={inStockOnly} />
+        {' '}
+        Only show products in stock
+      </label\>
+    </form\>
+  );
 }
 
 const PRODUCTS = \[
- {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
- {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
- {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
- {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
- {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
- {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
+  {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
+  {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
+  {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
+  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
+  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
+  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
 \];
 
 export default function App() {
- return <FilterableProductTable products\={PRODUCTS} />;
+  return <FilterableProductTable products\={PRODUCTS} />;
 }
 
 Notice that editing the form doesn’t work yet. There is a console error in the sandbox above explaining why:
@@ -368,7 +368,7 @@ You provided a \`value\` prop to a form field without an \`onChange\` handler. T
 In the sandbox above, `ProductTable` and `SearchBar` read the `filterText` and `inStockOnly` props to render the table, the input, and the checkbox. For example, here is how `SearchBar` populates the input value:
 
 ```
-function SearchBar({ filterText, inStockOnly }) { return ( <form> <input type="text" value={filterText} placeholder="Search..."/>
+function SearchBar({ filterText, inStockOnly }) {  return (    <form>      <input        type="text"        value={filterText}        placeholder="Search..."/>
 ```
 
 However, you haven’t added any code to respond to the user actions like typing yet. This will be your final step.
@@ -382,150 +382,156 @@ React makes this data flow explicit, but it requires a little more typing than t
 You want to make it so whenever the user changes the form inputs, the state updates to reflect those changes. The state is owned by `FilterableProductTable`, so only it can call `setFilterText` and `setInStockOnly`. To let `SearchBar` update the `FilterableProductTable`’s state, you need to pass these functions down to `SearchBar`:
 
 ```
-function FilterableProductTable({ products }) { const [filterText, setFilterText] = useState(''); const [inStockOnly, setInStockOnly] = useState(false); return ( <div> <SearchBar filterText={filterText} inStockOnly={inStockOnly} onFilterTextChange={setFilterText} onInStockOnlyChange={setInStockOnly} />
+function FilterableProductTable({ products }) {  const [filterText, setFilterText] = useState('');  const [inStockOnly, setInStockOnly] = useState(false);  return (    <div>      <SearchBar        filterText={filterText}        inStockOnly={inStockOnly}        onFilterTextChange={setFilterText}        onInStockOnlyChange={setInStockOnly} />
 ```
 
 Inside the `SearchBar`, you will add the `onChange` event handlers and set the parent state from them:
 
 ```
-function SearchBar({ filterText, inStockOnly, onFilterTextChange, onInStockOnlyChange}) { return ( <form> <input type="text" value={filterText} placeholder="Search..." onChange={(e) => onFilterTextChange(e.target.value)} /> <label> <input type="checkbox" checked={inStockOnly} onChange={(e) => onInStockOnlyChange(e.target.checked)}
+function SearchBar({  filterText,  inStockOnly,  onFilterTextChange,  onInStockOnlyChange}) {  return (    <form>      <input        type="text"        value={filterText}        placeholder="Search..."        onChange={(e) => onFilterTextChange(e.target.value)}      />      <label>        <input          type="checkbox"          checked={inStockOnly}          onChange={(e) => onInStockOnlyChange(e.target.checked)}
 ```
 
 Now the application fully works!
 
-Fork
+[Fork](https://codesandbox.io/api/v1/sandboxes/define?undefined&environment=create-react-app "Open in CodeSandbox")
 
 import { useState } from 'react';
 
 function FilterableProductTable({ products }) {
- const \[filterText, setFilterText\] = useState('');
- const \[inStockOnly, setInStockOnly\] = useState(false);
+  const \[filterText, setFilterText\] = useState('');
+  const \[inStockOnly, setInStockOnly\] = useState(false);
 
- return (
- <div\>
- <SearchBar
- filterText\={filterText}
- inStockOnly\={inStockOnly}
- onFilterTextChange\={setFilterText}
- onInStockOnlyChange\={setInStockOnly} />
- <ProductTable
- products\={products}
- filterText\={filterText}
- inStockOnly\={inStockOnly} />
- </div\>
- );
+  return (
+    <div\>
+      <SearchBar
+        filterText\={filterText}
+        inStockOnly\={inStockOnly}
+        onFilterTextChange\={setFilterText}
+        onInStockOnlyChange\={setInStockOnly} />
+      <ProductTable
+        products\={products}
+        filterText\={filterText}
+        inStockOnly\={inStockOnly} />
+    </div\>
+  );
 }
 
 function ProductCategoryRow({ category }) {
- return (
- <tr\>
- <th colSpan\="2"\>
- {category}
- </th\>
- </tr\>
- );
+  return (
+    <tr\>
+      <th colSpan\="2"\>
+        {category}
+      </th\>
+    </tr\>
+  );
 }
 
 function ProductRow({ product }) {
- const name = product.stocked ? product.name :
- <span style\={{ color: 'red' }}\>
- {product.name}
- </span\>;
+  const name = product.stocked ? product.name :
+    <span style\={{ color: 'red' }}\>
+      {product.name}
+    </span\>;
 
- return (
- <tr\>
- <td\>{name}</td\>
- <td\>{product.price}</td\>
- </tr\>
- );
+  return (
+    <tr\>
+      <td\>{name}</td\>
+      <td\>{product.price}</td\>
+    </tr\>
+  );
 }
 
 function ProductTable({ products, filterText, inStockOnly }) {
- const rows = \[\];
- let lastCategory = null;
+  const rows = \[\];
+  let lastCategory = null;
 
- products.forEach((product) \=> {
- if (
- product.name.toLowerCase().indexOf(
- filterText.toLowerCase()
- ) === -1
- ) {
- return;
- }
- if (inStockOnly && !product.stocked) {
- return;
- }
- if (product.category !== lastCategory) {
- rows.push(
- <ProductCategoryRow
- category\={product.category}
- key\={product.category} />
- );
- }
- rows.push(
- <ProductRow
- product\={product}
- key\={product.name} />
- );
- lastCategory = product.category;
- });
+  products.forEach((product) \=> {
+    if (
+      product.name.toLowerCase().indexOf(
+        filterText.toLowerCase()
+      ) === -1
+    ) {
+      return;
+    }
+    if (inStockOnly && !product.stocked) {
+      return;
+    }
+    if (product.category !== lastCategory) {
+      rows.push(
+        <ProductCategoryRow
+          category\={product.category}
+          key\={product.category} />
+      );
+    }
+    rows.push(
+      <ProductRow
+        product\={product}
+        key\={product.name} />
+    );
+    lastCategory = product.category;
+  });
 
- return (
- <table\>
- <thead\>
- <tr\>
- <th\>Name</th\>
- <th\>Price</th\>
- </tr\>
- </thead\>
- <tbody\>{rows}</tbody\>
- </table\>
- );
+  return (
+    <table\>
+      <thead\>
+        <tr\>
+          <th\>Name</th\>
+          <th\>Price</th\>
+        </tr\>
+      </thead\>
+      <tbody\>{rows}</tbody\>
+    </table\>
+  );
 }
 
 function SearchBar({
- filterText,
- inStockOnly,
- onFilterTextChange,
- onInStockOnlyChange
+  filterText,
+  inStockOnly,
+  onFilterTextChange,
+  onInStockOnlyChange
 }) {
- return (
- <form\>
- <input
- type\="text"
- value\={filterText} placeholder\="Search..."
- onChange\={(e) \=> onFilterTextChange(e.target.value)} />
- <label\>
- <input
- type\="checkbox"
- checked\={inStockOnly}
- onChange\={(e) \=> onInStockOnlyChange(e.target.checked)} />
- {' '}
- Only show products in stock
- </label\>
- </form\>
- );
+  return (
+    <form\>
+      <input
+        type\="text"
+        value\={filterText} placeholder\="Search..."
+        onChange\={(e) \=> onFilterTextChange(e.target.value)} />
+      <label\>
+        <input
+          type\="checkbox"
+          checked\={inStockOnly}
+          onChange\={(e) \=> onInStockOnlyChange(e.target.checked)} />
+        {' '}
+        Only show products in stock
+      </label\>
+    </form\>
+  );
 }
 
 const PRODUCTS = \[
- {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
- {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
- {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
- {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
- {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
- {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
+  {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
+  {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
+  {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
+  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
+  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
+  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
 \];
 
 export default function App() {
- return <FilterableProductTable products\={PRODUCTS} />;
+  return <FilterableProductTable products\={PRODUCTS} />;
 }
 
-You can learn all about handling events and updating state in the Adding Interactivity section.
+You can learn all about handling events and updating state in the [Adding Interactivity](/learn/adding-interactivity) section.
 
 ## Where to go from here
 
-This was a very brief introduction to how to think about building components and applications with React. You can start a React project right now or dive deeper on all the syntax used in this tutorial.
+This was a very brief introduction to how to think about building components and applications with React. You can [start a React project](/learn/installation) right now or [dive deeper on all the syntax](/learn/describing-the-ui) used in this tutorial.
+
+[
 
 PreviousTutorial: Tic-Tac-Toe
 
+](/learn/tutorial-tic-tac-toe)[
+
 NextInstallation
+
+](/learn/installation)

@@ -1,16 +1,14 @@
-# Quickstart¶
-
 Eager to get started? This page gives a good introduction in how to get started with Requests.
 
 First, make sure that:
 
-* Requests is installed
- 
-* Requests is up-to-date
+* Requests is [installed](../install/#install)
+    
+* Requests is [up-to-date](../../community/updates/#updates)
 
 Let’s get started with some simple examples.
 
-## Make a Request¶
+## Make a Request[¶](#make-a-request "Link to this heading")
 
 Making a request with Requests is very simple.
 
@@ -22,7 +20,7 @@ Now, let’s try to get a webpage. For this example, let’s get GitHub’s publ
 
 \>>> r \= requests.get('https://api.github.com/events')
 
-Now, we have a `Response` object called `r`. We can get all the information we need from this object.
+Now, we have a [`Response`](../../api/#requests.Response "requests.Response") object called `r`. We can get all the information we need from this object.
 
 Requests’ simple API means that all forms of HTTP request are as obvious. For example, this is how you make an HTTP POST request:
 
@@ -37,7 +35,7 @@ Nice, right? What about the other HTTP request types: PUT, DELETE, HEAD and OPTI
 
 That’s all well and good, but it’s also only the start of what Requests can do.
 
-## Passing Parameters In URLs¶
+## Passing Parameters In URLs[¶](#passing-parameters-in-urls "Link to this heading")
 
 You often want to send some sort of data in the URL’s query string. If you were constructing the URL by hand, this data would be given as key/value pairs in the URL after a question mark, e.g. `httpbin.org/get?key=val`. Requests allows you to provide these arguments as a dictionary of strings, using the `params` keyword argument. As an example, if you wanted to pass `key1=value1` and `key2=value2` to `httpbin.org/get`, you would use the following code:
 
@@ -59,7 +57,7 @@ You can also pass a list of items as a value:
 \>>> print(r.url)
 https://httpbin.org/get?key1=value1&key2=value2&key2=value3
 
-## Response Content¶
+## Response Content[¶](#response-content "Link to this heading")
 
 We can read the content of the server’s response. Consider the GitHub timeline again:
 
@@ -81,7 +79,7 @@ If you change the encoding, Requests will use the new value of `r.encoding` when
 
 Requests will also use custom encodings in the event that you need them. If you have created your own encoding and registered it with the `codecs` module, you can simply use the codec name as the value of `r.encoding` and Requests will handle the decoding for you.
 
-## Binary Response Content¶
+## Binary Response Content[¶](#binary-response-content "Link to this heading")
 
 You can also access the response body as bytes, for non-text requests:
 
@@ -90,7 +88,7 @@ b'\[{"repository":{"open\_issues":0,"url":"https://github.com/...
 
 The `gzip` and `deflate` transfer-encodings are automatically decoded for you.
 
-The `br` transfer-encoding is automatically decoded for you if a Brotli library like brotli or brotlicffi is installed.
+The `br` transfer-encoding is automatically decoded for you if a Brotli library like [brotli](https://pypi.org/project/brotli) or [brotlicffi](https://pypi.org/project/brotlicffi) is installed.
 
 For example, to create an image from binary data returned by a request, you can use the following code:
 
@@ -99,7 +97,7 @@ For example, to create an image from binary data returned by a request, you can 
 
 \>>> i \= Image.open(BytesIO(r.content))
 
-## JSON Response Content¶
+## JSON Response Content[¶](#json-response-content "Link to this heading")
 
 There’s also a builtin JSON decoder, in case you’re dealing with JSON data:
 
@@ -113,7 +111,7 @@ In case the JSON decoding fails, `r.json()` raises an exception. For example, if
 
 It should be noted that the success of the call to `r.json()` does **not** indicate the success of the response. Some servers may return a JSON object in a failed response (e.g. error details with HTTP 500). Such JSON will be decoded and returned. To check that a request is successful, use `r.raise_for_status()` or check `r.status_code` is what you expect.
 
-## Raw Response Content¶
+## Raw Response Content[¶](#raw-response-content "Link to this heading")
 
 In the rare case that you’d like to get the raw socket response from the server, you can access `r.raw`. If you want to do this, make sure you set `stream=True` in your initial request. Once you do, you can do this:
 
@@ -128,8 +126,8 @@ b'\\x1f\\x8b\\x08\\x00\\x00\\x00\\x00\\x00\\x00\\x03'
 In general, however, you should use a pattern like this to save what is being streamed to a file:
 
 with open(filename, 'wb') as fd:
- for chunk in r.iter\_content(chunk\_size\=128):
- fd.write(chunk)
+    for chunk in r.iter\_content(chunk\_size\=128):
+        fd.write(chunk)
 
 Using `Response.iter_content` will handle a lot of what you would otherwise have to handle when using `Response.raw` directly. When streaming a download, the above is the preferred and recommended way to retrieve the content. Note that `chunk_size` can be freely adjusted to a number that may better fit your use cases.
 
@@ -137,7 +135,7 @@ Note
 
 An important note about using `Response.iter_content` versus `Response.raw`. `Response.iter_content` will automatically decode the `gzip` and `deflate` transfer-encodings. `Response.raw` is a raw stream of bytes – it does not transform the response content. If you really need access to the bytes as they were returned, use `Response.raw`.
 
-## Custom Headers¶
+## Custom Headers[¶](#custom-headers "Link to this heading")
 
 If you’d like to add HTTP headers to a request, simply pass in a `dict` to the `headers` parameter.
 
@@ -150,19 +148,19 @@ For example, we didn’t specify our user-agent in the previous example:
 
 Note: Custom headers are given less precedence than more specific sources of information. For instance:
 
-* Authorization headers set with headers= will be overridden if credentials are specified in `.netrc`, which in turn will be overridden by the `auth=` parameter. Requests will search for the netrc file at ~/.netrc, ~/\_netrc, or at the path specified by the NETRC environment variable. Check details in netrc authentication.
- 
+* Authorization headers set with headers= will be overridden if credentials are specified in `.netrc`, which in turn will be overridden by the `auth=` parameter. Requests will search for the netrc file at ~/.netrc, ~/\_netrc, or at the path specified by the NETRC environment variable. Check details in [netrc authentication](../authentication/#authentication).
+    
 * Authorization headers will be removed if you get redirected off-host.
- 
+    
 * Proxy-Authorization headers will be overridden by proxy credentials provided in the URL.
- 
+    
 * Content-Length headers will be overridden when we can determine the length of the content.
 
 Furthermore, Requests does not change its behavior at all based on which custom headers are specified. The headers are simply passed on into the final request.
 
 Note: All header values must be a `string`, bytestring, or unicode. While permitted, it’s advised to avoid passing unicode header values.
 
-## More complicated POST requests¶
+## More complicated POST requests[¶](#more-complicated-post-requests "Link to this heading")
 
 Typically, you want to send some form-encoded data — much like an HTML form. To do this, simply pass a dictionary to the `data` argument. Your dictionary of data will automatically be form-encoded when the request is made:
 
@@ -171,12 +169,12 @@ Typically, you want to send some form-encoded data — much like an HTML form. T
 \>>> r \= requests.post('https://httpbin.org/post', data\=payload)
 \>>> print(r.text)
 {
- ...
- "form": {
- "key2": "value2",
- "key1": "value1"
- },
- ...
+  ...
+  "form": {
+    "key2": "value2",
+    "key1": "value1"
+  },
+  ...
 }
 
 The `data` argument can also have multiple values for each key. This can be done by making `data` either a list of tuples or a dictionary with lists as values. This is particularly useful when the form has multiple elements that use the same key:
@@ -187,14 +185,14 @@ The `data` argument can also have multiple values for each key. This can be done
 \>>> r2 \= requests.post('https://httpbin.org/post', data\=payload\_dict)
 \>>> print(r1.text)
 {
- ...
- "form": {
- "key1": \[
- "value1",
- "value2"
- \]
- },
- ...
+  ...
+  "form": {
+    "key1": \[
+      "value1",
+      "value2"
+    \]
+  },
+  ...
 }
 \>>> \# httpbin may embed non-deterministic metadata,
 \>>> \# so we only compare our submitted data here.
@@ -223,7 +221,7 @@ If you need that header set and you don’t want to encode the `dict` yourself, 
 
 Note, the `json` parameter is ignored if either `data` or `files` is passed.
 
-## POST a Multipart-Encoded File¶
+## POST a Multipart-Encoded File[¶](#post-a-multipart-encoded-file "Link to this heading")
 
 Requests makes it simple to upload Multipart-encoded files:
 
@@ -233,11 +231,11 @@ Requests makes it simple to upload Multipart-encoded files:
 \>>> r \= requests.post(url, files\=files)
 \>>> r.text
 {
- ...
- "files": {
- "file": "<censored...binary...data>"
- },
- ...
+  ...
+  "files": {
+    "file": "<censored...binary...data>"
+  },
+  ...
 }
 
 You can set the filename, content\_type and headers explicitly:
@@ -248,11 +246,11 @@ You can set the filename, content\_type and headers explicitly:
 \>>> r \= requests.post(url, files\=files)
 \>>> r.text
 {
- ...
- "files": {
- "file": "<censored...binary...data>"
- },
- ...
+  ...
+  "files": {
+    "file": "<censored...binary...data>"
+  },
+  ...
 }
 
 If you want, you can send strings to be received as files:
@@ -263,22 +261,22 @@ If you want, you can send strings to be received as files:
 \>>> r \= requests.post(url, files\=files)
 \>>> r.text
 {
- ...
- "files": {
- "file": "some,data,to,send\\\\nanother,row,to,send\\\\n"
- },
- ...
+  ...
+  "files": {
+    "file": "some,data,to,send\\\\nanother,row,to,send\\\\n"
+  },
+  ...
 }
 
-In the event you are posting a very large file as a `multipart/form-data` request, you may want to stream the request. By default, `requests` does not support this, but there is a separate package which does - `requests-toolbelt`. You should read the toolbelt’s documentation for more details about how to use it.
+In the event you are posting a very large file as a `multipart/form-data` request, you may want to stream the request. By default, `requests` does not support this, but there is a separate package which does - `requests-toolbelt`. You should read [the toolbelt’s documentation](https://toolbelt.readthedocs.io) for more details about how to use it.
 
-For sending multiple files in one request refer to the advanced section.
+For sending multiple files in one request refer to the [advanced](../advanced/#advanced) section.
 
 Warning
 
-It is strongly recommended that you open files in binary mode. This is because Requests may attempt to provide the `Content-Length` header for you, and if it does this value will be set to the number of _bytes_ in the file. Errors may occur if you open the file in _text mode_.
+It is strongly recommended that you open files in [binary mode](https://docs.python.org/3/tutorial/inputoutput.html#tut-files "(in Python v3.14)"). This is because Requests may attempt to provide the `Content-Length` header for you, and if it does this value will be set to the number of _bytes_ in the file. Errors may occur if you open the file in _text mode_.
 
-## Response Status Codes¶
+## Response Status Codes[¶](#response-status-codes "Link to this heading")
 
 We can check the response status code:
 
@@ -291,7 +289,7 @@ Requests also comes with a built-in status code lookup object for easy reference
 \>>> r.status\_code \== requests.codes.ok
 True
 
-If we made a bad request (a 4XX client error or 5XX server error response), we can raise it with `Response.raise_for_status()`:
+If we made a bad request (a 4XX client error or 5XX server error response), we can raise it with [`Response.raise_for_status()`](../../api/#requests.Response.raise_for_status "requests.Response.raise_for_status"):
 
 \>>> bad\_r \= requests.get('https://httpbin.org/status/404')
 \>>> bad\_r.status\_code
@@ -299,8 +297,8 @@ If we made a bad request (a 4XX client error or 5XX server error response), we c
 
 \>>> bad\_r.raise\_for\_status()
 Traceback (most recent call last):
- File "requests/models.py", line 832, in raise\_for\_status
- raise http\_error
+  File "requests/models.py", line 832, in raise\_for\_status
+    raise http\_error
 requests.exceptions.HTTPError: 404 Client Error
 
 But, since our `status_code` for `r` was `200`, when we call `raise_for_status()` we get:
@@ -310,22 +308,22 @@ None
 
 All is well.
 
-## Response Headers¶
+## Response Headers[¶](#response-headers "Link to this heading")
 
 We can view the server’s response headers using a Python dictionary:
 
 \>>> r.headers
 {
- 'content-encoding': 'gzip',
- 'transfer-encoding': 'chunked',
- 'connection': 'close',
- 'server': 'nginx/1.0.4',
- 'x-runtime': '148ms',
- 'etag': '"e1ca502697e5c9317743dc078f67693f"',
- 'content-type': 'application/json'
+    'content-encoding': 'gzip',
+    'transfer-encoding': 'chunked',
+    'connection': 'close',
+    'server': 'nginx/1.0.4',
+    'x-runtime': '148ms',
+    'etag': '"e1ca502697e5c9317743dc078f67693f"',
+    'content-type': 'application/json'
 }
 
-The dictionary is special, though: it’s made just for HTTP headers. According to RFC 7230, HTTP Header names are case-insensitive.
+The dictionary is special, though: it’s made just for HTTP headers. According to [RFC 7230](https://tools.ietf.org/html/rfc7230#section-3.2), HTTP Header names are case-insensitive.
 
 So, we can access the headers using any capitalization we want:
 
@@ -335,11 +333,11 @@ So, we can access the headers using any capitalization we want:
 \>>> r.headers.get('content-type')
 'application/json'
 
-It is also special in that the server could have sent the same header multiple times with different values, but requests combines them so they can be represented in the dictionary within a single mapping, as per RFC 7230:
+It is also special in that the server could have sent the same header multiple times with different values, but requests combines them so they can be represented in the dictionary within a single mapping, as per [RFC 7230](https://tools.ietf.org/html/rfc7230#section-3.2):
 
 > A recipient MAY combine multiple header fields with the same field name into one “field-name: field-value” pair, without changing the semantics of the message, by appending each subsequent field value to the combined field value in order, separated by a comma.
 
-## Cookies¶
+## Cookies[¶](#cookies "Link to this heading")
 
 If a response contains some Cookies, you can quickly access them:
 
@@ -358,7 +356,7 @@ To send your own cookies to the server, you can use the `cookies` parameter:
 \>>> r.text
 '{"cookies": {"cookies\_are": "working"}}'
 
-Cookies are returned in a `RequestsCookieJar`, which acts like a `dict` but also offers a more complete interface, suitable for use over multiple domains or paths. Cookie jars can also be passed in to requests:
+Cookies are returned in a [`RequestsCookieJar`](../../api/#requests.cookies.RequestsCookieJar "requests.cookies.RequestsCookieJar"), which acts like a `dict` but also offers a more complete interface, suitable for use over multiple domains or paths. Cookie jars can also be passed in to requests:
 
 \>>> jar \= requests.cookies.RequestsCookieJar()
 \>>> jar.set('tasty\_cookie', 'yum', domain\='httpbin.org', path\='/cookies')
@@ -368,13 +366,13 @@ Cookies are returned in a `RequestsCookieJar`, which acts like a `dict` but also
 \>>> r.text
 '{"cookies": {"tasty\_cookie": "yum"}}'
 
-## Redirection and History¶
+## Redirection and History[¶](#redirection-and-history "Link to this heading")
 
 By default Requests will perform location redirection for all verbs except HEAD.
 
 We can use the `history` property of the Response object to track redirection.
 
-The `Response.history` list contains the `Response` objects that were created in order to complete the request. The list is sorted from the oldest to the most recent response.
+The [`Response.history`](../../api/#requests.Response.history "requests.Response.history") list contains the [`Response`](../../api/#requests.Response "requests.Response") objects that were created in order to complete the request. The list is sorted from the oldest to the most recent response.
 
 For example, GitHub redirects all HTTP requests to HTTPS:
 
@@ -409,31 +407,29 @@ If you’re using HEAD, you can enable redirection as well:
 \>>> r.history
 \[<Response \[301\]>\]
 
-## Timeouts¶
+## Timeouts[¶](#timeouts "Link to this heading")
 
 You can tell Requests to stop waiting for a response after a given number of seconds with the `timeout` parameter. Nearly all production code should use this parameter in nearly all requests. Failure to do so can cause your program to hang indefinitely:
 
 \>>> requests.get('https://github.com/', timeout\=0.001)
 Traceback (most recent call last):
- File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1, in <module>
 requests.exceptions.Timeout: HTTPConnectionPool(host='github.com', port=80): Request timed out. (timeout=0.001)
 
 Note
 
 `timeout` is not a time limit on the entire response download; rather, an exception is raised if the server has not issued a response for `timeout` seconds (more precisely, if no bytes have been received on the underlying socket for `timeout` seconds). If no timeout is specified explicitly, requests do not time out.
 
-## Errors and Exceptions¶
+## Errors and Exceptions[¶](#errors-and-exceptions "Link to this heading")
 
-In the event of a network problem (e.g. DNS failure, refused connection, etc), Requests will raise a `ConnectionError` exception.
+In the event of a network problem (e.g. DNS failure, refused connection, etc), Requests will raise a [`ConnectionError`](../../api/#requests.ConnectionError "requests.exceptions.ConnectionError") exception.
 
-`Response.raise_for_status()` will raise an `HTTPError` if the HTTP request returned an unsuccessful status code.
+[`Response.raise_for_status()`](../../api/#requests.Response.raise_for_status "requests.Response.raise_for_status") will raise an [`HTTPError`](../../api/#requests.HTTPError "requests.exceptions.HTTPError") if the HTTP request returned an unsuccessful status code.
 
-If a request times out, a `Timeout` exception is raised.
+If a request times out, a [`Timeout`](../../api/#requests.Timeout "requests.exceptions.Timeout") exception is raised.
 
-If a request exceeds the configured number of maximum redirections, a `TooManyRedirects` exception is raised.
+If a request exceeds the configured number of maximum redirections, a [`TooManyRedirects`](../../api/#requests.TooManyRedirects "requests.exceptions.TooManyRedirects") exception is raised.
 
-All exceptions that Requests explicitly raises inherit from `requests.exceptions.RequestException`.
+All exceptions that Requests explicitly raises inherit from [`requests.exceptions.RequestException`](../../api/#requests.RequestException "requests.exceptions.RequestException").
 
----
-
-Ready for more? Check out the advanced section.
+Ready for more? Check out the [advanced](../advanced/#advanced) section.

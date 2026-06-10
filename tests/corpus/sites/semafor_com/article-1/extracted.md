@@ -22,4 +22,4 @@ _Wael Mahdi is an independent commentator specializing in OPEC and Saudi Arabia�
 
 ### Notable
 
-* **UAE leadership has discussed leaving OPEC for years because it has long been stuck with a quota that didn’t reflect its production capacity**, and has clashed with Saudi Arabia over output, The Wall Street Journal reported in 2023.
+* **UAE leadership has discussed leaving OPEC for years because it has long been stuck with a quota that didn’t reflect its production capacity**, and has clashed with Saudi Arabia over output, [The Wall Street Journal reported in 2023](https://www.wsj.com/articles/saudi-arabia-and-u-a-e-clash-over-oil-yemen-as-rift-grows-ff286ff9).

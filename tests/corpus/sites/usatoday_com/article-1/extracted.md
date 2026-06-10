@@ -1,4 +1,4 @@
-Jarrett Bell
+[Jarrett Bell](/staff/2647582001/jarrett-bell/)
 
 USA TODAY
 
@@ -24,7 +24,7 @@ The floor is yours, Sir.
 
 “We started to recognize warning signs, that we knew something wasn’t right with Dwayne. Now we’ve become an advocate to get people aware of that. There’s mental health that manifests over a period of time, then all of a sudden something will trauma a person, where they won’t be able to have effective decision-making. And it continually gets triggered and triggered.”
 
-It’s a striking coincidence that Haskins is launching this campaign – he hopes to develop a comprehensive program and take it nationwide next year – at a time when the NFL is ramping up mental health support programs in the aftermath of tragedies in recent months where two active players, Marshawn Kneeland of the Dallas Cowboys and Rondale Moore of the Minnesota Vikings, died by suicide.
+It’s a striking coincidence that Haskins is launching this campaign – he hopes to develop a comprehensive program and take it nationwide next year – at a time when the NFL is ramping up mental health support programs in the aftermath of tragedies in recent months where two active players, [Marshawn Kneeland of the Dallas Cowboys](/story/sports/nfl/columnist/bell/2025/11/09/dallas-cowboys-impact-marshawn-kneeland-tragedy/87175300007/) and [Rondale Moore of the Minnesota Vikings](/story/sports/nfl/2026/02/21/rondale-moore-dies-25-years-old-minnesota-vikings-jeff-brohm/88804872007/), died by suicide.
 
 “I do think there is still a stigma, but I think the stigma is more around help-seeking behaviors as opposed to mental health in general,” Dr. Nyaka NiiLampti, NFL vice president of wellness and clinical services, told USA TODAY Sports.
 
@@ -42,7 +42,7 @@ Haskins was unaware that the NFL recently announced its added emphasis on mental
 
 “I think that’s what the problem was. He wasn’t strong enough to say, ‘Hey, I need help,’ ” Haskins said. “But we knew something was wrong. That’s why the celebration (on May 16) is a platform for people to know about the warning signs.”        
 
-Put yourself in the father’s shoes. There is no playbook for losing a son or daughter. The grieving, Haskins realizes, will continue for the rest of his life. He pointed out that he and Tamara are still grieving the losses of their young mothers in 1988 yet have been forced to cope with losing their son in a different context. There was never a chance to say goodbye before Dwayne, Jr. was struck by a dump truck while crossing a highway in Fort Lauderdale, Fla., in the early morning of April 9, 2022.
+Put yourself in the father’s shoes. There is no playbook for losing a son or daughter. The grieving, Haskins realizes, will continue for the rest of his life. He pointed out that he and Tamara are still grieving the losses of their young mothers in 1988 yet have been forced to cope with losing their son in a different context. There was never a chance to say goodbye before Dwayne, Jr. was [struck by a dump truck while crossing a highway](/story/sports/nfl/2022/04/09/dwayne-hawkins-dead-pittsburgh-steelers-car/9524836002/) in Fort Lauderdale, Fla., in the early morning of April 9, 2022.
 
 And the circumstances surrounding the death – according to the toxicology report, Dwayne, Jr., was legally drunk with ketamine and other drugs in his system, fueling allegations of foul play – left many unanswered questions. Dwayne, Jr., who played his third and final NFL season as backup with the Pittsburgh Steelers in 2021, was in Florida for several weeks of offseason training.
 

@@ -2,7 +2,7 @@ Is everyone on vacation without you? Are your social media feeds one big blur of
 
 You may not be in the tropics, but glass for glass, we can fake it. You may not have fresh coconuts overhead and sweet mango and papaya slices on your breakfast plate, but if we hurry, we can grab onto the tail end of blood orange season and squeeze it into something better.
 
-Things might get awkward, however, if you have a three year-old. “What that, mommy?” he might ask as he sleepily wanders in from his rare (but wildly applauded) nap and you’ll explain that you’re making orange juice from special red oranges and you’ll realize by the look on his face that your child — you, a person that turns flour into bread, potatoes into pasta, sugar into caramel — hadn’t realized that orange juice didn’t come in a carton and to fend off the feelings of failure, put him to work and pour him a glass of something he found so outstandingly delicious, you all but forgot about that Pity Party you were planning.
+Things might get awkward, however, if you have a three year-old. “What that, mommy?” he might ask as he sleepily wanders in from his rare (but wildly applauded) nap and you’ll explain that you’re making orange juice from special red oranges and you’ll realize by the look on his face that your child — you, a person that turns flour into [bread](http://smittenkitchen.com/recipes/#Bread), potatoes into [pasta](http://smittenkitchen.com/blog/2013/01/gnocchi-in-tomato-broth-more-book-tour/), sugar into [caramel](http://smittenkitchen.com/blog/2013/02/salted-caramel-brownies/) — hadn’t realized that orange juice didn’t come in a carton and to fend off the feelings of failure, put him to work and pour him a glass of something he found so outstandingly delicious, you all but forgot about that Pity Party you were planning.
 
 No need to. Stow what’s _left_ of the orange juice in the fridge until after he goes to bed, and then pull down the (admittedly dusty) Triple Sec and tequila, and see if you can dig up some passable limes from the fridge. Get some ice cubes and a tall glass. If you’ve been hanging onto any tacky drink umbrellas, this is the time to bust them out. Measure, pour, mix and sit back, close your eyes, imagine yourself on a deserted beach where you are completely unable to remember what you were feeling grumpy about. Happy weekend!
 
@@ -13,7 +13,7 @@ No need to. Stow what’s _left_ of the orange juice in the fridge until after h
 * **Servings:** 2, but only if you share
 * **Time:** 5 minutes
 * **Source:** Smitten Kitchen
-* Print
+* [Print](#)
 
 Note: If you don’t have triple sec or cointreau, simple syrup will provide an equally sweet but less boozy result. If you like a salt rim, my favorite salt for glass rims is actually Diamond brand kosher salt (vs. more expensive tins of “rimming salt.”). Pour a little onto small saucer; swipe the rim of your glass with a blood orange wedge, and dip the rim in the salt.
 

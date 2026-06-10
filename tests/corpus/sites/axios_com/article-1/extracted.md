@@ -1,8 +1,8 @@
-Scale AI CEO Jason Droege tells Axios that AI is often too unreliable for mission-critical use by business, military and government.
+Scale AI CEO [Jason Droege](https://www.axios.com/2025/09/17/jason-droege-scale-ai) tells Axios that AI is often too unreliable for mission-critical use by business, military and government.
 
 * "The cost of mistakes in these environments can be high," Droege, 47, said in an interview from San Francisco, where Scale — which celebrated its 10th anniversary this week — is based.
 
-**Why it matters:** Droege — who succeeded founder Alexandr Wang last June when the wunderkind became Meta's first chief AI officer, and Meta took a 49% stake in Scale — wants to signal that it isn't merely a data annotation company, but has long been an AI infrastructure and deployment company.
+**Why it matters:** Droege — who [succeeded](https://x.com/alexandr_wang/status/1933328165306577316) founder [Alexandr Wang](https://www.meta.com/media-gallery/executives/alexandr-wang/) last June when the wunderkind became Meta's first chief AI officer, and Meta took a [49% stake](https://www.reuters.com/business/finance/meta-finalizes-investment-scale-ai-valuing-startup-29-billion-2025-06-13/) in Scale — wants to signal that it isn't merely a data annotation company, but has long been an AI infrastructure and deployment company.
 
 **Droege unveiled** his mantra for his 1,300+ employees in a memo, "The Reliability Race," being reported here for the first time.
 
@@ -18,3 +18,5 @@ Scale AI CEO Jason Droege tells Axios that AI is often too unreliable for missio
 * "What we hear in the industry is lots of hype, lots of talk. Then Scale will innovate and grind to get to the outcomes that the customers expect."
 
 **Asked about** his hallmark as a leader, Droege told Axios: "We are in one of the most dynamic times in all of history. So becoming distracted is a certain path to failure. I think I'm really good at figuring out the two or three things that are important and just reinforcing those constantly."
+
+* _[Go deeper](https://www.axios.com/2025/09/17/jason-droege-scale-ai)._

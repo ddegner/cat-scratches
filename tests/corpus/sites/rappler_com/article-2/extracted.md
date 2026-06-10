@@ -1,4 +1,4 @@
-Marcos Fact Checks
+[Marcos Fact Checks](https://www.rappler.com/topic/marcos-fact-checks/)
 
 May 7, 2026 10:00 AM PHT
 
@@ -26,15 +26,15 @@ The narrator also said: _“Marcos Jr., na-hospital o nagiging kritikal ang kani
 
 The YouTube channel “Jay Guevarra TV” has over 504,000 followers and consistently posts anti-Marcos and pro-Duterte content.
 
-**The facts:** Malacañang has consistently debunked claims that Marcos is in critical condition. In a press briefing on April 13, Marcos himself brushed off rumors that he was ill, asserting that he is in good health.
+**The facts:** Malacañang has consistently debunked claims that Marcos is in critical condition. In a [press briefing](https://www.youtube.com/watch?v=iWv99Tze_60) on April 13, Marcos himself brushed off rumors that he was ill, asserting that he is [in good health](https://www.abs-cbn.com/news/nation/2026/4/13/marcos-says-he-is-in-good-health-1605).
 
-The President has made several public appearances over the past week. On May 6, he led a situation briefing on the impact of Mayon Volcano’s unrest, ordering the immediate distribution of aid to affected residents in Albay. Marcos also visited several cities in Metro Manila for the launch of the social program, “Bawat Bayan Makikinabang,” which provides rice to indigent and vulnerable households.
+The President has made several public appearances over the past week. On May 6, he led a [situation briefing](https://pia.gov.ph/news/pbbm-holds-situation-briefing-on-impact-of-mayon-volcano-unrest-orders-immediate-aid-for-affected-families/) on the impact of Mayon Volcano’s unrest, ordering the immediate distribution of aid to affected residents in Albay. Marcos also visited several cities in Metro Manila for the [launch](https://pco.gov.ph/news_releases/bawat-bayan-makikinabang-direktang-lunas-ng-gobyerno-sa-mahihirap/) of the social program, “Bawat Bayan Makikinabang,” which provides rice to indigent and vulnerable households.
 
-Rumors of Marcos’ deteriorating health have circulated online in recent weeks. In April, Palace Press Officer Claire Castro said there was no basis for the release of a medical bulletin on the President’s health, noting that a sitting President cannot be compelled to disclose medical records without substantiated claims.
+Rumors of Marcos’ deteriorating health have [circulated online](https://www.rappler.com/voices/newsletters/decoded-marcos-jr-health-disinformation/) in recent weeks. In April, Palace Press Officer Claire Castro said there was [no basis](https://www.pna.gov.ph/articles/1272982) for the release of a medical bulletin on the President’s health, noting that a sitting President cannot be compelled to disclose medical records without substantiated claims.
 
-While the Palace previously confirmed Marcos was hospitalized back in January — stating that he was diagnosed with diverticulitis, which Marcos described as a common complaint of people who are “heavily stressed”— officials assured the public that this condition was not life-threatening.
+While the Palace previously confirmed Marcos was [hospitalized](https://www.rappler.com/philippines/marcos-spends-night-hospital-discomfort/) back in January — stating that he was diagnosed with diverticulitis, which Marcos described as a common complaint of people who are “heavily stressed”— officials assured the public that this condition was [not life-threatening](https://www.rappler.com/newsbreak/inside-track/ferdinand-marcos-jr-health-death-rumor/).
 
-**Illegal drug use allegations:** Rumors of Marcos’ alleged drug use, which the President has denied, have surfaced repeatedly over the years. In November 2025, Senator Imee Marcos previously accused her brother, along with First Lady Liza Araneta-Marcos and her nephews, of drug addiction.
+**Illegal drug use allegations:** Rumors of Marcos’ alleged drug use, which the President has [denied](https://www.abs-cbn.com/news/nation/2025/11/18/malaca-ang-denies-marcos-jr-s-drug-use-amid-sister-imee-s-allegations-0026), have surfaced repeatedly over the years. In November 2025, Senator Imee Marcos previously accused her brother, along with First Lady Liza Araneta-Marcos and her nephews, of [drug addiction](https://www.rappler.com/philippines/imee-accuses-president-bongbong-liza-marcos-family-drug-addicts/).
 
 During an Iglesia ni Cristo rally in Manila, the senator called on her brother to “come home” and seek treatment.
 
@@ -42,15 +42,15 @@ During an Iglesia ni Cristo rally in Manila, the senator called on her brother t
 
 (I’m asking that we go home now. Rest, for the sake of your health. I can bear it if you fail and lose your position, but I cannot bear to lose you. Take care of yourself. Get treatment. Rid your system of drugs.)
 
-In 2024, former president Rodrigo Duterte also accused Marcos of being a drug addict.
+In 2024, former president Rodrigo Duterte [also accused Marcos of being a drug addict.](https://www.rappler.com/philippines/marcos-blames-duterte-fentanyl-use-tirades-accusations/)
 
 **Debunked:** Rappler has previously debunked similar claims regarding Marcos’ health and alleged use of illegal drugs: 
 
-* FACT CHECK: Marcos did not say cocaine use led to diverticulitis diagnosis
-* FACT CHECK: No reports of Marcos rushed to hospital due to medical emergency
-* FACT CHECK: No Supreme Court-led raid, drug-related arrests in Malacañang
-* FACT CHECK: Circulating Marcos ‘medical report’ is fake
-* FACT CHECK: Photo of Marcos in hospital bed is AI-generated
+* [FACT CHECK: Marcos did not say cocaine use led to diverticulitis diagnosis](https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-not-say-cocaine-caused-diverticulitis/)
+* [FACT CHECK: No reports of Marcos rushed to hospital due to medical emergency](https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-rushed-hospital-medical-emergency/)
+* [FACT CHECK: No Supreme Court-led raid, drug-related arrests in Malacañang](https://www.rappler.com/newsbreak/fact-check/no-supreme-court-led-drug-related-arrest-malacanang/)
+* [FACT CHECK: Circulating Marcos ‘medical report’ is fake](https://www.rappler.com/newsbreak/fact-check/circulating-fake-medical-report-ferdinand-marcos-jr/)
+* [FACT CHECK: Photo of Marcos in hospital bed is AI-generated](https://www.rappler.com/newsbreak/fact-check/ferdinand-bongbong-marcos-hospital-bed-photo-ai-generated/)
 
 **– Reinnard Balonzo/Rappler.com** 
 

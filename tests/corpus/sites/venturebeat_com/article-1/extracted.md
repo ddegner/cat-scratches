@@ -1,10 +1,10 @@
 There's an app for nearly every imaginable user and use case these days, but one thing they all have in common is that they're centered around one device: the smartphone.
 
-That changes today as Hugging Face, the 10-year-old New York City startup best known for being the go-to place online to host and use cutting-edge, open-source AI models, agents and applications, launches a new App Store for Reachy Mini, its low-cost ($299) open-source physical robot that debuted back in July 2025 (itself the fruit of Hugging Face's acquisition of another startup, Pollen Robotics).
+That changes today as [Hugging Face](https://huggingface.co/), the 10-year-old New York City startup best known for being the go-to place online to host and use cutting-edge, open-source AI models, agents and applications, launches a [new App Store](https://pollen-robotics-reachy-mini.hf.space/apps) for [Reachy Mini](https://huggingface.co/reachy-mini), its low-cost ($299) open-source physical robot that [debuted back in July 2025](https://venturebeat.com/ai/hugging-face-just-launched-a-299-robot-that-could-disrupt-the-entire-robotics-industry) (itself the fruit of Hugging Face's [acquisition of another startup, Pollen Robotics](https://techcrunch.com/2025/04/14/hugging-face-buys-a-humanoid-robotics-startup/)).
 
 The new Hugging Face Reachy Mini App Store already hosts a library of over 200 community-built applications, and Reachy Mini owners will be able to download any of these free of charge to start (unlike smartphone apps, there's no monetization option for app creators on this store — yet).
 
-The Reachy Mini App Store will also offer Reachy Mini owners — around 10,000 units have been sold so far since last year — an easy means of building their own custom apps for the tiny, stationary desktop robot with built-in camera eyes, speaker, and microphone, via Hugging Face's existing, AI-powered agent called "ML Intern."
+The Reachy Mini App Store will also offer Reachy Mini owners — around 10,000 units have been sold so far since last year — an easy means of building their own custom apps for the tiny, stationary desktop robot with built-in camera eyes, speaker, and microphone, via [Hugging Face's existing, AI-powered agent called "ML Intern."](https://huggingface.co/spaces/smolagents/ml-intern)
 
 The significance lies not just in the hardware, but in the removal of the "roboticist" barrier; for the first time, individuals without a background in engineering or coding are shipping functional robotics software in under an hour.
 
@@ -14,7 +14,7 @@ The significance lies not just in the hardware, but in the removal of the "robot
 
 The technical bottleneck in robotics has historically been the scarcity of high-quality training data.
 
-While Large Language Models (LLMs) have mastered general-purpose coding by training on massive repositories like Microsoft's GitHub, the volume of code specific to robotics remains "tiny" by comparison (though Github does contain likely the largest existent, publicly accessible library of robotics code to date, with more than 17,000 different repositories or "repos" dedicated to the field).
+While Large Language Models (LLMs) have mastered general-purpose coding by training on massive repositories like Microsoft's [GitHub](https://github.com/huggingface/lerobot), the volume of code specific to robotics remains "tiny" by comparison (though Github does contain likely the largest existent, publicly accessible library of robotics code to date, with [more than 17,000 different repositories or "repos"](https://github.com/topics/robotics) dedicated to the field).
 
 This lack of data has meant that, until now, AI agents were relatively poor at understanding the physical abstractions and firmware requirements of hardware.
 
@@ -30,12 +30,12 @@ For real-time interaction, the official conversation apps utilize OpenAI Realtim
 
 ## **Low-cost Reachy Mini is a hit**
 
-In order to take advantage of the new Hugging Face Reachy Mini App Store, users are encouraged to purchase **Reachy Mini**, a cute desktop robot Hugging Face launched back in July 2025 as an affordable, open-source alternative to the existing, commercially available robots from the likes of Boston Dynamics, whose infamous Spot robot dog retails for around $70,000. Even Chinese competitors start at $1,900+.
+In order to take advantage of the new Hugging Face Reachy Mini App Store, users are encouraged to purchase **Reachy Mini**, a cute desktop robot [Hugging Face launched back in July 2025](https://huggingface.co/blog/reachy-mini) as an affordable, open-source alternative to the existing, commercially available robots from the likes of Boston Dynamics, whose infamous [Spot robot dog retails for around $70,000.](https://standardbots.com/blog/spot-robot) [Even Chinese competitors start at $1,900+](https://futurology.tech/products/unitree-go2-air-robot-dog-open-box-new?variant=49774542913813&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_campaign=Shopping%20/%20Robot%20Dogs%20/%20Tier1&utm_term=online&utm_content=pla&gad_source=1&gad_campaignid=23771882061&gbraid=0AAAAAq2eWXxRUqBZi5m6I91vMfri0nOjN&gclid=CjwKCAjwqubPBhBOEiwAzgZX2msSDKS6VnIOHbuPqkCLObGlaflNfM-cWg-3gMJr_6KONgAxTputQhoCZvgQAvD_BwE).
 
 In contrast, the Reachy Mini is accessibly priced for hobbyists and developers. It comes in two variants:
 
 * **Reachy Mini Lite ($299 plus shipping)**: A tethered version that connects via USB and uses an external computer for processing.
- 
+    
 * **Reachy Mini Wireless ($449 plus shipping):** A standalone version featuring an on-board Raspberry Pi CM 4 and Wi-Fi connectivity.
 
 Delangue said that of the 10,000 Reachy Mini units sold so far, 3,000 were sold in just the past two weeks. Hugging Face expects to ship another 1,000 units within the next 30 days.
@@ -45,12 +45,12 @@ Even those who don't own a Reachy Mini can still develop apps for it, however, u
 The **App Store** itself is hosted on the Hugging Face Hub. It functions much like a standard software repository but for hardware behaviors:
 
 * **Search and Install**: Users can find apps, click a button, and install them directly to their robot.
- 
+    
 * **Forkability**: Every app is "forkable," meaning a user can duplicate an existing app and ask an AI agent to modify it (e.g., "make it answer in French").
- 
+    
 * **Simulation Mode**: Crucially, the store includes a browser-based simulator. This allows users who do not own a physical Reachy Mini to build, test, and play with the catalog in a virtual environment.
 
-Both are part of Hugging Face's ongoing "Le Robot" effort — a project that began in 2024 with Hugging Face researchers specializing in robotics and AI developing and publishing on the web their own open-source code, tutorials, and hardware to make robotics development more accessible to a wider audience.
+Both are part of Hugging Face's ongoing ["Le Robot"](https://huggingface.co/lerobot) effort — a project that began in [2024](https://venturebeat.com/automation/hugging-face-launches-lerobot-open-source-robotics-code-library) with Hugging Face researchers specializing in robotics and AI developing and publishing on the web their own open-source code, tutorials, and hardware to make robotics development more accessible to a wider audience.
 
 And unlike Github, which is designed for a developer audience, the Hugging Face Reachy Mini App Store is designed for robot owners and users who may have no technical experience or training whatsoever.
 
@@ -62,8 +62,8 @@ Delangue notes that closed systems prevent the training of agents and limit the 
 
 This open licensing model has two primary implications for the ecosystem:
 
-1. **Accelerated Development**: Because the code is public and integrated with the Hugging Face ecosystem via "Spaces," Hugging Face's feature for hosting AI-powered web apps launched in 2021, agents can more easily learn how to interact with the hardware.
- 
+1. **Accelerated Development**: Because the code is public and integrated with the Hugging Face ecosystem via "Spaces," Hugging Face's feature for hosting AI-powered web apps [launched in 2021](https://www.ibm.com/think/topics/hugging-face), agents can more easily learn how to interact with the hardware.
+    
 2. **Community Sovereignty**: Apps are not locked behind a proprietary wall. Currently, all 200+ apps on the store are free, though the platform's foundation on "Spaces" provides the flexibility for creators to potentially monetize their work in the future.
 
 "For the moment, all the apps are free," Delangue noted. "It’s flexible, it’s built on \[Hugging Face\] Spaces, so at some point maybe people are going to make them paid."
@@ -76,16 +76,16 @@ So who built them, and how did they do it without this platform existing prior?
 
 Delangue told VentureBeat that more than **150 different creators** have contributed to the store, most of whom had never written a line of robotics code before.
 
-Yet, they have been able to do so thanks to Hugging Face's ML Intern and Github. The new Hugging Face Reachy Mini App Store now puts the tools and existing apps into one place for easier accessibility.
+Yet, they have been able to do so thanks to Hugging Face's ML Intern and [Github](https://github.com/huggingface/lerobot). The new Hugging Face Reachy Mini App Store now puts the tools and existing apps into one place for easier accessibility.
 
 Delangue was keen to highlight one of the early Reachy robotics app developers in particular to VentureBeat: Joel Cohen, a 78-year-old retired marketing executive.
 
 Cohen, who is colorblind and has no technical background, spent two weeks assembling his Reachy Mini Lite (a task that usually takes three hours). Despite these physical challenges, he used an AI agent to build a "VP of Future Thinking" facilitator for his Zoom-based CEO peer groups. The app enables the robot to:
 
 * Greet 29 members by name.
- 
+    
 * Fact-check discussions in real-time.
- 
+    
 * Summarize key themes and push back on surface-level answers.
 
 "I built this by describing what I needed in plain English," Cohen stated in a press release provided to VentureBeat ahead of the launch. "No SDK. No robotics background. No developer experience".
@@ -93,11 +93,11 @@ Cohen, who is colorblind and has no technical background, spent two weeks assemb
 Other community-driven applications include:
 
 * **Emotional Damage Chess**: A robot that plays chess and mocks the user’s blunders.
- 
+    
 * **Reachy Phone Home**: An anti-procrastination tool that detects when a user picks up their phone and tells them to get back to work.
- 
+    
 * **Language Tutor**: A physical companion that listens to speech and corrects accents.
- 
+    
 * **F1 Race Commentator**: A desk companion that calls Formula 1 races live as they happen.
 
 Delangue himself related to VentureBeat that in only a few hours, he built an app for his own Reachy Mini robot at the Hugging Face Miami office to have the robot act as a receptionist.

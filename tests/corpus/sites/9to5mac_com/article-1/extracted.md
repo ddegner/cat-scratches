@@ -1,8 +1,8 @@
-iPadOS 26.5 is launching very soon, and with it three new features for your iPad. Here’s what’s new.
+iPadOS 26.5 is [launching very soon](https://9to5mac.com/2026/05/01/ios-26-5-release-date-heres-when-new-iphone-features-are-coming/), and with it three new features for your iPad. Here’s what’s new.
 
 ## #1: Automatic pairing for Magic Keyboard, Magic Trackpad, and Magic Mouse
 
-iPadOS 26.5 introduces a change intended to make it easier to pair Apple accessories with your iPad.
+iPadOS 26.5 [introduces a change](https://9to5mac.com/2026/04/20/ipados-26-5-has-convenient-upgrade-when-using-magic-keyboard-more/) intended to make it easier to pair Apple accessories with your iPad.
 
 Now, when you connect a Magic Keyboard, Magic Trackpad, or Magic Mouse via USB-C, the accessory will automatically establish a Bluetooth connection too.
 
@@ -14,7 +14,7 @@ The Mac has worked this way for years, with wired connections automatically enab
 
 Apple has a new Pride Luminance wallpaper coming in iPadOS 26.5, and it includes far more than one single wallpaper.
 
-Pride Luminance offers 11 colorful wallpapers to choose from. And if that’s not enough, there’s even a custom wallpaper builder feature.
+Pride Luminance [offers 11 colorful wallpapers](https://9to5mac.com/2026/05/04/ios-26-5-adds-beautiful-wallpapers-for-your-iphone-heres-whats-new/) to choose from. And if that’s not enough, there’s even a custom wallpaper builder feature.
 
 When setting up the wallpaper, you can choose to custom-pick which colors are used. iPadOS 26.5 lets you select as few as 1 and as many as 12 different colors for your wallpaper.
 
@@ -22,7 +22,7 @@ So if your iPad is in need of a fresh wallpaper, Pride Luminance offers a lot of
 
 ## #3: Reminders snoozing updates
 
-I use Apple’s Reminders app on my iPad every day, and there’s a small enhancement in iPadOS 26.5 that’s made it even better.
+I use Apple’s Reminders app on my iPad every day, and there’s a [small enhancement](https://9to5mac.com/2026/05/05/ios-26-5-makes-reminders-app-better-by-improving-one-of-my-top-features/) in iPadOS 26.5 that’s made it even better.
 
 The snoozing function that’s available when you long-press a reminder alert has been updated to include specific snooze times.
 
@@ -34,6 +34,6 @@ It’s a subtle change, but by removing ambiguity, Reminders’ snooze options a
 
 ## iPadOS 26.5 features: wrap-up
 
-iPadOS 26.5 also benefits from Apple Maps’ new ‘Suggested Places’ feature. So if you like browsing Maps on your iPad, that addition can help you find new places.
+iPadOS 26.5 also benefits from Apple Maps’ [new ‘Suggested Places’ feature](https://9to5mac.com/2026/03/30/ios-26-5-adds-new-apple-maps-feature-for-trending-places/). So if you like browsing Maps on your iPad, that addition can help you find new places.
 
-Otherwise, Apple has largely turned its focus to iPadOS 27, which will be unveiled next month with a much bigger lineup of new features for iPad.
+Otherwise, Apple has largely turned its focus to iPadOS 27, which will [be unveiled next month](https://9to5mac.com/2026/05/05/ios-27-seven-new-features-are-being-announced-next-month/) with a much bigger lineup of new features for iPad.

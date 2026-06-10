@@ -20,7 +20,7 @@ In almost every case, the babies’ deaths could have been prevented with a long
 
 Many of them are doing so out of a well-meaning but ill-informed abundance of caution. In the hopes of safeguarding their newborns from what they see as unnecessary medical intervention, they have shunned fundamental and scientifically sound pharmaceutical intervention. The trend is also fueled by a contradictory pairing: families’ fierce desire to protect their babies and a cascade of false information infused into their social media algorithms.
 
-Although it is not a vaccine, the vitamin K shot has been swept up in the same post-pandemic tide that has led to a drop in key childhood vaccines, including for measles and whooping cough.
+Although it is not a vaccine, the vitamin K shot has been swept up in the same post-pandemic tide that has led to a drop in key childhood vaccines, including for [measles and whooping cough](https://www.propublica.org/article/whooping-cough-measles-outbreak-vaccine-hesitancy-trump).
 
 The vitamin K shot is one of the three main interventions, along with the hepatitis B vaccine and an antibiotic ointment in the eyes, that newborns typically receive before leaving the hospital. Leading American institutions and the World Health Organization recommend that newborns get the shot.
 
@@ -38,7 +38,7 @@ Meanwhile, families continue to be inundated with advice from self-proclaimed ex
 
 Nearly a century’s worth of research and medical advancements shows the opposite to be true.
 
-Babies who don’t get the vitamin K shot, research shows, are 81 times more likely than those who do to develop late vitamin K deficiency bleeding, where in many cases oxygen can’t reach their brains and blood pools around their skulls. Perhaps most alarming is that, according to the CDC, 1 in every 5 babies with vitamin K deficiency bleeding will die.
+Babies who don’t get the vitamin K shot, [research shows](https://www.cdc.gov/vitamin-k-deficiency/about/index.html#:~:text=Signs%20and%20symptoms&text=Bruises%2C%20especially%20around%20the%20baby's,the%20gums%20may%20appear%20pale.), are 81 times more likely than those who do to develop late vitamin K deficiency bleeding, where in many cases oxygen can’t reach their brains and blood pools around their skulls. Perhaps most alarming is that, according to the CDC, 1 in every 5 babies with vitamin K deficiency bleeding will die.
 
 Determining precisely how many babies have died or suffered severe brain damage because of a lack of vitamin K is difficult. State and federal agencies don’t track data around vitamin K injection refusal or subsequent bleeding, which impedes their ability to quantify and track outcomes, including death.
 
@@ -48,7 +48,7 @@ But those numbers capture only a fraction of deaths, which often are classified 
 
 “A lot of the providers don’t have this on their radar,” said Dr. Jaspreet Loyal, a pediatric hospitalist at Yale Medicine. “The lack of data is almost acting like a reassurance for families that this risk is worth taking.”
 
-Although it is difficult to quantify deaths attributable to vitamin K deficiency, there is clearly a large jump in the number of parents declining the vitamin K shot. Some hospitals have seen refusal rates more than double. A national study of more than 5 million births, published in December, found that the rate of U.S. babies not receiving vitamin K at birth topped 5% in 2024 — up 77% from 2017.
+Although it is difficult to quantify deaths attributable to vitamin K deficiency, there is clearly a large jump in the number of parents declining the vitamin K shot. Some hospitals have seen refusal rates more than double. A [national study](https://jamanetwork.com/journals/jama/fullarticle/2842444?guestAccessKey=94d98e67-297d-479f-a0ad-9b3daee96709&utm_source=for_the_media&utm_medium=referral&utm_campaign=ftm_links&utm_content=tfl&utm_term=120825) of more than 5 million births, published in December, found that the rate of U.S. babies not receiving vitamin K at birth topped 5% in 2024 — up 77% from 2017.
 
 ### More Newborns Are Not Getting Vitamin K Shots
 

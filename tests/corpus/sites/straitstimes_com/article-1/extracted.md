@@ -1,5 +1,7 @@
 Tastemakers
 
+[Sign up now:](/headstart-signup?ref=inline-article) Get tips on how to grow your career and money
+
 (From left) Mr Brandon Lim and his brother, Mr Lim Yuan Ming, are co-owners of What The Puff. The third co-owner, Mr Oh Chin Jie, is not in the picture.
 
 ST PHOTO: CHONG JUN LIANG
@@ -36,7 +38,7 @@ While business was slow at the start, returning customers who gave positive feed
 
 In late January, they took $15,000 from the first stall’s earnings to open a second outlet at the same hawker centre in Bedok where the Lims’ parents ran their Teochew porridge stall. All three partners did not draw full salaries for the first six months. 
 
-In July 2025, they opened their third outlet at Punggol Coast Hawker Centre with $20,000. The location, situated within Punggol Digital District, has since become their strongest outlet. They expanded quickly to other locations after receiving feedback from customers that Changi was out of the way to visit often.
+In July 2025, they opened their third outlet at Punggol Coast Hawker Centre with $20,000. The location, situated within [Punggol Digital District](/business/punggol-digital-district-takes-shape-with-two-thirds-of-space-pre-committed?ref=inline-article), has since become their strongest outlet. They expanded quickly to other locations after receiving feedback from customers that Changi was out of the way to visit often.
 
 The business now has 10 employees – four full-timers and six part-timers across all outlets – but growth has also tested the business partners.
 
@@ -85,11 +87,11 @@ Still, the partners are not rushing to expand.
 **Where:** 01-29 Haig Road Market & Food Centre, 14 Haig Road 
 **Open:** 6am to 3pm daily 
 **Tel:** WhatsApp 8944-4177 
- 
+  
 **Where:** 01-27 Block 216 Bedok Food Centre and Market, 216 Bedok North Street 1 
 **Open:** 6am to 2pm daily 
 **Tel:** WhatsApp 8944-4177 
- 
-**Where:** 02-K76 Punggol Coast Hawker Centre, 84 Punggol Way  
+  
+**Where:** 02-K76 Punggol Coast Hawker Centre, 84 Punggol Way   
 **Open:** 7.30am to 8pm daily 
 **Tel:** WhatsApp 8944-4177

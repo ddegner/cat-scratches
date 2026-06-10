@@ -1,4 +1,4 @@
-1. World
+1. [World](/world "World Go to the page")
 
 # Trump issues ultimatum for Iran to accept deal or face more bombing
 

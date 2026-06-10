@@ -1,4 +1,4 @@
-Photography by Lys Arango, 
+Photography by [Lys Arango](/people/lys-arango), 
 
 In Asturias, Spain, coal is no longer king, and a region is being reinvented.
 

@@ -2,13 +2,13 @@
 
 Here’s a mildly dystopian prompt I’ve been experimenting with recently: “Profile this user”, accompanied by a copy of their last 1,000 comments on Hacker News.
 
-Obtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as `author_username`. Here’s a JSON feed of my (`simonw`) most recent comments, for example:
+Obtaining those comments is easy. The [Algolia Hacker News API](https://hn.algolia.com/api) supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as `author_username`. Here’s a JSON feed of my (`simonw`) most recent comments, for example:
 
-https://hn.algolia.com/api/v1/search\_by\_date?tags=comment,author\_simonw&hitsPerPage=1000
+[https://hn.algolia.com/api/v1/search\_by\_date?tags=comment,author\_simonw&hitsPerPage=1000](https://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&hitsPerPage=1000)
 
 The Algolia API is served with open CORS headers, which means you can access the API from JavaScript running on any web page.
 
-Last August I had ChatGPT build me a simple tool for hitting that API for any user which fetches their comments and gives me a mobile-friendly “copy to clipboard” button. I’ve since tweaked it a few times with Claude.
+Last August I [had ChatGPT build me](https://chatgpt.com/share/68a4d2b1-a678-8006-aca0-cec51b243bd3) a [simple tool](https://tools.simonwillison.net/hn-comments-for-user) for hitting that API for any user which fetches their comments and gives me a mobile-friendly “copy to clipboard” button. I’ve since [tweaked it a few times](https://github.com/simonw/tools/commits/main/hn-comments-for-user.html) with Claude.
 
 I can then paste the whole lot into any LLM—these days I mostly use Claude Opus 4.6 for this—and prompt “profile this user” to see what it can figure out.
 
@@ -49,3 +49,5 @@ I expect it guessed my real name due to my habit of linking to my own writing fr
 It’s a little creepy to be able to derive this much information about someone so easily, even when they’ve shared that freely in a public (and API-available) place.
 
 I mainly use this to check that I’m not getting embroiled in an extensive argument with someone who has a history of arguing in bad faith. Thankfully that’s rarely the case—Hacker News continues to be a responsibly moderated online space.
+
+Posted [21st March 2026](/2026/Mar/21/) at 11:59 pm · Follow me on [Mastodon](https://fedi.simonwillison.net/@simon), [Bluesky](https://bsky.app/profile/simonwillison.net), [Twitter](https://twitter.com/simonw) or [subscribe to my newsletter](https://simonwillison.net/about/#subscribe)

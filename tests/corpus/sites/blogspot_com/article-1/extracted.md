@@ -1,4 +1,4 @@
-Since 1999, millions of people have expressed themselves on Blogger. From detailed posts about almost every apple variety you could ever imagine to a blog dedicated to the art of blogging itself, the ability to easily share, publish and express oneself on the web is at the core of Blogger’s mission. As the web constantly evolves, we want to ensure anyone using Blogger has an easy and intuitive experience publishing their content to the web.  
+Since 1999, millions of people have expressed themselves on Blogger. From detailed posts about almost every [apple variety](https://adamapples.blogspot.com/) you could ever imagine to a blog dedicated to [the art of blogging](https://howtoblog.krishnainfotron.com/) itself, the ability to easily share, publish and express oneself on the web is at the core of Blogger’s mission. As the web constantly evolves, we want to ensure anyone using Blogger has an easy and intuitive experience publishing their content to the web.  
 
 That’s why we’ve been slowly introducing an improved web experience for Blogger. Give the fresh interface a spin by clicking “Try the New Blogger” in the left-hand navigation pane. 
 
@@ -20,7 +20,7 @@ A fresh Comments page helps you connect with readers more easily by surfacing ar
 
 Posts
 
-We’ve improved support for Search Operators on the Posts page to help you filter your Blogger posts and page search results more easily. 
+We’ve improved support for [Search Operators](https://support.google.com/blogger/answer/9675453?hl=en) on the Posts page to help you filter your Blogger posts and page search results more easily. 
 
 Editor
 

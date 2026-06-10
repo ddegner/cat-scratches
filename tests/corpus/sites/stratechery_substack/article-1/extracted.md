@@ -1,14 +1,14 @@
-_This series of posts is about enabling sustainable businesses on the App Store. In Part 1, I discuss why Paper and other productivity apps may not be doing as well as you might think. Part 2 explores why casual games, in contrast, are a sustainable business, but not a differentiator for platforms (I added a follow-up here). Part 3 analyzes why Apple in particular seems hesitant to enable sustainable businesses on the app store._
+_This series of posts is about enabling sustainable businesses on the App Store. In [Part 1](http://stratechery.com/2013/papering-over-app-store-problems/), I discuss why Paper and other productivity apps may not be doing as well as you might think. [Part 2](http://stratechery.com/2013/casual-gaming-is-a-sustainable-business-but-not-a-platform-differentiator/) explores why casual games, in contrast, are a sustainable business, but not a differentiator for platforms (I added a follow-up [here](http://stratechery.com/2013/additional-notes-on-casual-games/)). [Part 3](http://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store/) analyzes why Apple in particular seems hesitant to enable sustainable businesses on the app store._
 
 I love apps, especially productivity apps. If games are all about user input, with minimal app output, and consumption apps about app output, with minimal user input, productivity apps are about _both_. You put something into an app, and the app returns something back to you, better.
 
-Think about Photoshop, or Excel: you put in data, and the data is returned to you, transformed. Same thing with a text-editing app, or a calculator, or a mileage tracker. Productivity apps add value, and the more you use them, the more valuable they become.
+Think about Photoshop, or Excel: you put in data, and the data is returned to you, transformed. Same thing with a text-editing app, or a calculator, or a mileage tracker. Productivity apps add value, and the more you use them, [the more valuable they become](http://stratechery.com/2013/adobes-subscription-model-why-platform-owners-should-care/).
 
-Unfortunately, productivity apps are a terrible match for app store economics. The app store favors:
+Unfortunately, productivity apps are [a terrible match](http://stratechery.com/2013/papering-over-app-store-problems/) for app store economics. The app store favors:
 
 * Simple, inexpensive apps that are downloaded by a _lot_ of people
 * Free front-ends for for-pay or advertising-based services
-* Games with repetitive mechanics that can monetize existing users through in-app purchases
+* Games with repetitive mechanics that can [monetize existing users](http://stratechery.com/2013/additional-notes-on-casual-games/) through in-app purchases
 
 The solutions for enabling sustainable productivity apps are actually pretty obvious – just look at how productivity apps make money elsewhere:
 
@@ -26,7 +26,7 @@ Apple makes money on hardware. It’s in their interest that said hardware be so
 
 That is why, for example, iOS updates are free, and OS X updates nearly so. Both cost hundreds of millions of dollars to develop, but they only exist to sell more hardware, not to make money in and of themselves.
 
-This is standard strategy, especially in technology. Look at Google: the vast majority of their services are free because they want to drive usage in order to capture signals and serve ads. Microsoft, which has felt the pain of Google commoditizing services and Apple commoditizing OS updates, did the same thing to hardware makers: Windows supported everything under the sun because the increased competition would drive down the cost of hardware, leaving all of the profit to Microsoft.
+This is [standard strategy](http://www.joelonsoftware.com/articles/StrategyLetterV.html), especially in technology. Look at Google: the vast majority of their services are free because they want to drive usage in order to [capture signals and serve ads](http://stratechery.com/2013/yahoo-tumblr-and-the-signal-to-ads-cycle/). Microsoft, which has felt the pain of Google commoditizing services and Apple commoditizing OS updates, did the same thing to hardware makers: Windows supported everything under the sun because the increased competition would drive down the cost of hardware, leaving all of the profit to Microsoft.
 
 In the case of apps, the current app store, full of a wide variety of inexpensive apps, is perfect from Apple’s perspective. It’s a reason to buy Apple hardware, and that’s all that matters. Anything that on the surface makes the store less desirable for hardware buyers – such as more expensive apps – is not in Apple’s interest.
 
@@ -36,9 +36,9 @@ Scott Forstall started at NeXT. He was a major contributor to NeXTStep, and then
 
 Forstall proved himself, again and again, to be a huge proponent of 3rd-party developers. And he’s gone.
 
-I get why Forstall had to go, but to be clear, it was a massive loss, especially for apps.1 There certainly remain many, many people at Apple that care deeply about apps, but the policy changes I and others are calling for will be decided at the top.
+I get why Forstall had to go, but to be clear, it was a massive loss, especially for apps.[1](#fn1-407 "I’ll write more about this in the context of iOS 7 soon") There certainly remain many, many people at Apple that care deeply about apps, but the policy changes I and others are calling for will be decided at the top.
 
-In Forstall’s absence, who in the leadership team is making the case? I haven’t seen any evidence that anyone else in that Monday morning meeting prioritizes developer issues.
+In Forstall’s absence, who in the leadership team is making the case? I haven’t seen any evidence that anyone else in [that Monday morning meeting](http://money.cnn.com/galleries/2008/fortune/0803/gallery.jobsqna.fortune/9.html) prioritizes developer issues.
 
 #### Apple has been burned by productivity apps before
 
@@ -46,7 +46,7 @@ As I just noted, the great thing about productivity apps is that they add value,
 
 The trouble for Apple – or any platform provider – is apps that cross that line from nice-to-have to completely irreplaceable. It’s at that point a user’s loyalty shifts from platform to app, and there are no greater examples than the aforementioned Photoshop and Microsoft Office.
 
-Last week I transcribed significant portions of the Steve Jobs keynote at Macworld Boston. In that keynote, he described how Apple was dependent on Adobe for many of its sales, and, more famously, introduces Apple’s “partnership” with Microsoft.
+Last week I transcribed [significant portions of the Steve Jobs keynote](http://stratechery.com/2013/steve-jobs-at-macworld-boston-in-1997/) at Macworld Boston. In that keynote, he described how Apple was dependent on Adobe for many of its sales, and, more famously, introduces Apple’s “partnership” with Microsoft.
 
 Jobs’ closing speech, where he said that “We have to let go of this notion that for Apple to win Microsoft has to lose,” is well-known and still cited; however, I think the full quote is more telling (emphasis mine):
 
@@ -60,19 +60,19 @@ Jobs’ closing speech, where he said that “We have to let go of this notion t
 
 The emphasis brings home the point: Jobs’ statement was completely driven by Apple’s desperate state and the fact that Apple’s potential users cared _more_ about Photoshop and Office than they did the Mac. For Jobs especially, it must have been humiliating.
 
-I had a unique vantage point into how Apple looks at this time in its history due to my time spent on the Apple University team, and something that struck me was the powerful impact Apple’s near-death experience had on all those involved. That , and the fact Apple lost nearly a billion dollars in 1996, came up unprompted again and again. For those that were there, it _still_ fundamentally shapes how they view the world and how they make decisions.
+I had a unique vantage point into how Apple looks at this time in its history due to my time spent on the [Apple University team](http://appleinsider.com/articles/11/10/06/apple_university_revealed_as_plan_to_teach_executives_to_think_like_steve_jobs), and something that struck me was the powerful impact Apple’s near-death experience had on all those involved. That , and the fact Apple lost nearly a billion dollars in 1996, came up unprompted again and again. For those that were there, it _still_ fundamentally shapes how they view the world and how they make decisions.
 
-To be clear, this has tremendous value: there is nothing like near-death to realize you have nothing to lose – a great recipe to avoiding disruption. In fact, one of my concerns for Apple is what will happen when all of the old guard is gone, leaving those who have only known success.
+To be clear, this has tremendous value: there is nothing like near-death [to realize](http://www.youtube.com/watch?v=UF8uR6Z6KLc) you have nothing to lose – a great recipe to avoiding disruption. In fact, one of my concerns for Apple is what will happen when all of the old guard is gone, leaving those who have only known success.
 
 But there have been downsides to this paranoia. Apple’s inefficient use of its cash is the most famous, but I think developer hostility is an aftereffect as well. I would go so far as to argue that that Boston keynote was at the root of Jobs’ opposition to _any_ 3rd-party apps on the iPhone, much less app store policies that enable sustainable businesses. Never again would Apple be held hostage to an app that was bigger than Apple.
 
-To be fair, Cook has already reversed Jobs’ position on cash. However, the enthusiasm with which he promoted $10 billion paid to developers – which I believe is mostly driven by in-app purchases in casual games – suggests he doesn’t appreciate there is a problem with the app store.
+To be fair, Cook has already reversed Jobs’ position on cash. However, the enthusiasm with which he promoted $10 billion paid to developers – which I believe is [mostly driven by in-app purchases in casual games](http://stratechery.com/2013/casual-gaming-is-a-sustainable-business-but-not-a-platform-differentiator/) – suggests he doesn’t appreciate there is a problem with the app store.
 
 Then again, who is to say it’s a problem? I’ve already pointed out that cheap apps align with Apple’s business model.
 
 And that’s fine, as long as the iPhone is dominant in other areas. But is it?
 
-To bring back my favorite chart, the mobile hierarchy of needs:
+To bring back my favorite chart, the [mobile hierarchy of needs](http://stratechery.com/2013/mobiles-hierarchy-of-needs/):
 
 When the iPhone launched, it was, as Jobs said, five years ahead when it came to hardware and the OS. However, that was six years ago; today it’s apps that are the biggest reason to buy an iOS device (and services the biggest reason not to).
 
@@ -82,20 +82,20 @@ While pondering this article, I was struck by this tweet from Aaron Levie:
 
 > Incumbents get disrupted because the very moats a company builds up to be successful in one era become a liability in the next.
 > 
-> — Aaron Levie (@levie) June 27, 2013
+> — Aaron Levie (@levie) [June 27, 2013](https://twitter.com/levie/status/350077536685924352?ref_src=twsrc%5Etfw)
 
-Three years ago, I wrote an academic paper on Apple and the Innovator’s Dilemma, and argued that Apple’s narrow focus on the end-user shielded them from disruption:
+Three years ago, I wrote an academic paper on [Apple and the Innovator’s Dilemma](http://stratechery.com/2010/apple-innovators-dilemma/), and argued that Apple’s narrow focus on the end-user shielded them from disruption:
 
 > Apple’s focus on user experience as a differentiator has significant strategic implications as well, particularly in the context of the Innovator’s Dilemma: namely, it is impossible for a user experience to be too good. Competitors can only hope to match or surpass the original product when it comes to the user experience; the original product will never overshoot (has anyone turned to an “inferior” product because the better one was too enjoyable?). There is no better example than the original Macintosh, which maintained relevance only because of a superior user experience. It was only when Windows 95 was “good enough” that the Macintosh’s plummet began in earnest. This in some respects completely exempts Apple from the product trajectory trap, at least when it comes to their prime differentiation.
 
-Indeed, it seems that Apple simply isn’t very interested in moats. They do what they think is right by the user, strategy nerds like me be damned. This kills them on Wall Street, but perhaps is the only possible route to avoiding stasis, and ultimately, disruption.
+Indeed, it seems that Apple simply isn’t very interested in moats. They do what they think is right by the user, strategy nerds like me be damned. This [kills them on Wall Street](http://stratechery.com/2013/apple-the-black-swan/), but perhaps is the only possible route to avoiding stasis, and ultimately, disruption.
 
 This is why Apple is so fascinating.
 
 _This is a three-part series on enabling sustainable businesses on the app store._
 
-* _Part 1: Papering Over App Store Problems_
-* _Part 2: Casual gaming is sustainable, but not a differentiator_ & Additional Notes on Casual Games
-* _Part 3: Why doesn’t Apple enable sustainable businesses on the app store?_
+* _Part 1: [Papering Over App Store Problems](http://stratechery.com/2013/papering-over-app-store-problems/)_
+* _Part 2: [Casual gaming is sustainable, but not a differentiator](http://stratechery.com/2013/casual-gaming-is-a-sustainable-business-but-not-a-platform-differentiator/)_ & [Additional Notes on Casual Games](http://stratechery.com/2013/additional-notes-on-casual-games/)
+* _Part 3: [Why doesn’t Apple enable sustainable businesses on the app store?](http://stratechery.com/2013/why-doesnt-apple-enable-sustainable-businesses-on-the-app-store)_
 
-1. I’ll write more about this in the context of iOS 7 soon ↩
+1. I’ll write more about this in the context of iOS 7 soon [↩](#rf1-407 "Return to footnote 1.")

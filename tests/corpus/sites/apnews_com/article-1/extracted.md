@@ -1,8 +1,8 @@
-PRAIA, Cape Verde (AP) — Two patients with hantavirus and one suspected of infection were evacuated Wednesday from a cruise ship at the center of a deadly outbreak, the U.N. health agency said. The ship then departed Cape Verde with nearly 150 people on board — isolated in their cabins — and headed to Spain’s Canary Islands.
+PRAIA, Cape Verde (AP) — Two patients with hantavirus and one suspected of infection were evacuated Wednesday from [a cruise ship](https://apnews.com/article/hantavirus-ship-cape-verde-mv-hondius-footage-c6b3db5ab10fefbd9ece0b036e47188b) at the center of a [deadly outbreak](https://apnews.com/article/what-to-know-hantavirus-cruise-ship-366c781ff168656ff47ae9796965daaa), the U.N. health agency said. The ship then departed Cape Verde with nearly 150 people on board — isolated in their cabins — and headed to Spain’s Canary Islands.
 
 Associated Press footage showed health workers in protective gear evacuating three patients. Two arrived at Amsterdam’s airport Wednesday evening and were taken to separate hospitals.
 
-Three people have died, and one body remained on the ship, the World Health Organization said. Of eight recorded cases, five were confirmed by laboratory testing.
+Three people have died, and one body remained on the ship, the [World Health Organization](https://apnews.com/hub/world-health-organization) said. Of eight [recorded cases](https://apnews.com/article/hantavirus-outbreak-cruise-ship-timeline-a04e0f8097d068a00fe94bf19f840240), five were confirmed by laboratory testing.
 
 Hantavirus usually spreads by inhaling contaminated rodent droppings and can spread person-to-person, though that is rare, according to the WHO, whose top epidemic expert said the risk to the public is low.
 
@@ -34,7 +34,7 @@ Two Dutch infectious diseases experts were joining the ship, Van Kerkhove said. 
 
 The hantavirus incubation period can be one to six weeks, or more, she said.
 
-The ship’s itinerary included stops across the South Atlantic, including mainland Antarctica and the remote islands of South Georgia, Nightingale Island, Tristan da Cunha, St. Helena and Ascension.
+The ship’s itinerary included stops across the South Atlantic, including mainland [Antarctica](https://apnews.com/article/antarctica-tourism-hantavirus-biosecurity-a618a3e522603bf34706a0a1f3ea20fc) and the remote islands of South Georgia, Nightingale Island, Tristan da Cunha, St. Helena and Ascension.
 
 ## Officials rush to determine passenger’s travel after leaving ship
 

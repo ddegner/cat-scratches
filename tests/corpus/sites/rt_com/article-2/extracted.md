@@ -12,7 +12,7 @@ Two _“right-wing extremist criminal organizations”_ – ‘Jung & Stark’ (
 
 A total of 36 suspects, many of them teenagers and young adults, are being investigated for alleged membership in a criminal organization, according to the Federal Public Prosecutor General. Eight of them are also suspected of inflicting dangerous bodily harm. However, no arrests have been made so far.
 
-**READ MORE:** AfD supporters’ gun rights secretly curbed by German state – media
+[**READ MORE:** AfD supporters’ gun rights secretly curbed by German state – media](/news/639182-saxony-afd-gun-ban-report/)
 
 According to the German authorities, the two groups have existed since at least mid-2024 and have relied on social media platforms and online chat groups for recruitment and coordination.
 
@@ -26,6 +26,6 @@ Moscow has repeatedly warned of resurgent neo-Nazism in Germany, citing Berlin�
 
 In an article ahead of the 81st anniversary of the victory over Nazi Germany, Russian Security Council deputy chairman and former president, Dmitry Medvedev, wrote that the process of ridding German society and Europe of Nazi ideology was never completed.
 
-Please check our commenting policy. If you have questions or suggestions feel free to send them to feedback@rttv.ru.
+Please check our [commenting policy](https://www.rt.com/comment-posting-rules/). If you have questions or suggestions feel free to send them to [feedback@rttv.ru](mailto:feedback@rttv.ru).
 
-More
+[More](#)

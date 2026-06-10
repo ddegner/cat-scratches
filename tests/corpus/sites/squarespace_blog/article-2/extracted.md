@@ -1,26 +1,26 @@
-Making It Know
+[Making It](/blog) [Know](/blog/category/know)
 
-Back
+[Back](/blog/category/know)
 
 # How to Set Up a Client Payment System
 
 By Sarah MacDonald
 
-Imagine you’re preparing for tax season and searching for an accountant. You find one that fits your needs but learn they only accept payment via check. It might mean you decide to find someone else with more payment options. This is what’s on the line for business owners if you don’t offer flexible payment methods. 
+Imagine you’re preparing for tax season and [searching for an accountant.](https://www.squarespace.com/blog/how-to-market-professional-services-business) You find one that fits your needs but learn they only accept payment via check. It might mean you decide to find someone else with more payment options. This is what’s on the line for business owners if you don’t offer flexible payment methods. 
 
-A streamlined online client payment system is essential in today’s business landscape. They make for a smoother experience, stronger revenue, and more repeat buyers and clients.
+A streamlined online [client payment system](https://www.squarespace.com/blog/take-payments-on-squarespace) is essential in today’s business landscape. They make for a smoother experience, stronger revenue, and more repeat buyers and clients.
 
 This guide explains what a client payment system is, how to set one up, and some important things to keep in mind when launching it.
 
-Start With a Website Trial
+[Start With a Website Trial](/templates)
 
 ## What is a client payment system?
 
 A client payment system facilitates payments for goods or services online. For example, if a customer wants to buy a print of your photograph, you would offer them a payment portal to make that purchase. 
 
-Client payment systems are used in a number of different business scenarios beyond the selling of physical or digital products. For example, freelancers and creatives may offer different online payments for their work, like ongoing invoices for longer term projects, or one-off payments for quick projects. Your business may also require that you send payments to distributors or suppliers. It’s all part of the same payment ecosystem.
+Client payment systems are used in a number of different business scenarios beyond the selling of physical or digital products. For example, [freelancers and creatives](https://www.squarespace.com/blog/freelance-payment-invoice) may offer different online payments for their work, like ongoing invoices for longer term projects, or one-off payments for quick projects. Your business may also require that you send payments to distributors or suppliers. It’s all part of the same payment ecosystem.
 
-For small businesses, an efficient, secure payment pathway is important. It speaks to your professionalism—that managing your cashflow, getting paid or paying clients on time, and providing a seamless checkout experience is top of mind. 
+For small businesses, an efficient, secure payment pathway is important. It speaks to your professionalism—that [managing your cashflow](https://www.squarespace.com/blog/what-is-cash-flow), getting paid or paying clients on time, and providing a [seamless checkout experience](https://www.squarespace.com/blog/checkout-page-design) is top of mind. 
 
 ## Key components of an online payment system
 
@@ -39,13 +39,13 @@ There are multiple ways payments can be made, depending on the business’ and c
 Payment methods include: 
 
 * **Debit cards:** A debit card takes money directly out of a bank account upon payment. Payment confirmation is immediate. 
- 
-* **Credit cards:** Similar to a debit card, a credit card payment is applied immediately to a card, with the expectation by the card issuer that a customer pays it partially or in full on their next month’s statement. Credit cards account for 31% of online purchases in the US, making them one of the most popular payment methods.
- 
-* **Digital wallets:** A digital wallet is software that has payment details available to use immediately. Think of Apple Pay or Google Pay. These apps allow users to put in their credit cards, debit cards, even gift cards. Digital wallets are a popular option among consumers, particularly Gen Z and young millennials, and globally it’s the primary way payments are made online.
- 
+    
+* **Credit cards:** Similar to a debit card, a credit card payment is applied immediately to a card, with the expectation by the card issuer that a customer pays it partially or in full on their next month’s statement. [Credit cards account for 31% of online purchases in the US](https://capitaloneshopping.com/research/most-popular-online-payment-methods/?utm_source=chatgpt.com), making them one of the most popular payment methods.
+    
+* **Digital wallets:** A digital wallet is software that has payment details available to use immediately. Think of Apple Pay or Google Pay. These apps allow users to put in their credit cards, debit cards, even gift cards. Digital wallets are a popular option among consumers, particularly [Gen Z and young millennials](https://www.paymentsdive.com/news/us-digital-wallet-use-projected-to-grow-by-2030/816718/), and globally it’s [the primary way payments are made online](https://capitaloneshopping.com/research/most-popular-online-payment-methods/?utm_source=chatgpt.com).
+    
 * **Buy now, pay later (BNPL):** Services like Klarna or Afterpay/Clearpay let customers split purchases into smaller installments instead of paying the full amount upfront. The BNPL provider pays the merchant immediately and then collects payments from the customer over time, sometimes charging fees or interest if payments are missed or extended.
- 
+    
 * **Direct debit:** This is an automatic transaction from a bank account, where funds are authorized to be moved from one account to another account without a debit card. An ACH payment is an example of direct debit. 
 
 ### Payment frequency
@@ -53,7 +53,7 @@ Payment methods include: 
 Beyond collecting different types of payment methods, payment systems also allow for you to set the payment frequency. 
 
 * **One-time payment:** Customers or clients pay for goods or services only once.
- 
+    
 * **Recurring payment:** Payments are made at regular intervals such as weekly, biweekly, monthly or annually.
 
 ### Security features
@@ -63,9 +63,9 @@ For the most part, security features are baked into the payment system you choos
 Your online payment system should offer the following:
 
 * Encryption of financial information 
- 
+    
 * Transaction risk monitoring
- 
+    
 * Industry standard security controls
 
 By implementing an online payment system with secure features and processing, you’re letting customers and clients know you take their financial data seriously. 
@@ -76,17 +76,17 @@ The primary ways businesses collect payment online are through invoicing and che
 
 ### Invoicing
 
-An invoice is sent after a rate or price has been agreed on. Think of creatives like illustrators, writers, artists, or photographers or professional service providers such as accountants or financial advisors. Entrepreneurs or small business owners often discuss a project or retainer with a client and then send an invoice on completion of the service. 
+An [invoice](https://www.squarespace.com/blog/client-invoice-best-practices) is sent after a rate or price has been agreed on. Think of creatives like illustrators, writers, artists, or photographers or professional service providers such as accountants or financial advisors. Entrepreneurs or small business owners often discuss a project or retainer with a client and then send an invoice on completion of the service. 
 
-Whether you send a one-off invoice or a recurring one, automated invoice tools can help your submission process stay on track. If you’re offering online payment options, you’ll need to connect to a payment solution like Squarespace Payments to send invoices.
+Whether you send a one-off invoice or a recurring one, [automated invoice](https://www.squarespace.com/blog/create-invoices-on-squarespace) tools can help your submission process stay on track. If you’re offering online payment options, you’ll need to [connect to a payment solution](https://support.squarespace.com/hc/en-us/articles/235161188-Connect-a-payment-processor) like Squarespace Payments to send invoices.
 
 ### Checkout
 
 Online checkout works the same way as one in a brick-and-mortar store. Built for a website or an app, checkout allows customers to add goods or services to a cart, input their payment details (or, if saved, have them populate), and pay immediately. 
 
-Creating a checkout flow requires that you connect to a payment solution, like Squarespace Payments. Once you have Squarespace Payments, you can also send Pay Links via email, text, or QR code, and add Tap to Pay for in-person payments.
+Creating a checkout flow requires that you connect to a payment solution, like Squarespace Payments. Once you have Squarespace Payments, you can also send [Pay Links](https://support.squarespace.com/hc/en-us/articles/40399291492621-Create-and-manage-Pay-Links) via email, text, or QR code, and add [Tap to Pay](https://www.squarespace.com/blog/squarespace-tap-to-pay-on-iphone) for in-person payments.
 
-Try Squarespace
+[Try Squarespace](/templates)
 
 ## Step-by-step: How to set up a client payment system
 
@@ -94,7 +94,7 @@ Now let’s break down exactly how to set up a client payment system. This is a 
 
 ### Define payment structure
 
-Before you select any online payment system, you must first decide how much your goods or services will be priced at, when you’ll charge clients, payment models (i.e. subscriptions) and your expectation around payment date.
+Before you select any online payment system, you must first decide how much your goods or services will be priced at, when you’ll charge clients, payment models (i.e. [subscriptions](https://www.squarespace.com/blog/how-to-start-a-subscription-business)) and your expectation around payment date.
 
 Defining your payment structure from the outset will help you keep clear expectations with clients and hopefully lessen any future challenges such as late or missed payments. 
 
@@ -102,53 +102,53 @@ Defining your payment structure from the outset will help you keep clear expecta
 
 Next, decide what payment processor to use. Since there are a few ways to send or receive online payments, it’s important that you pick the processor that best suits your business needs. 
 
-Squarespace Payments is an all-in-one payment solution that fully integrates into an online storefront with a centralized dashboard. It’s secure, with encrypted data, and includes the majority of payment methods available to global users and clients, including credit, debit, ACH, and digital wallets, and Buy Now Pay Later (BNPL) solutions.
+[Squarespace Payments](https://www.squarespace.com/payments) is an all-in-one payment solution that fully integrates into an online storefront with a centralized dashboard. It’s secure, with encrypted data, and includes the majority of payment methods available to global users and clients, including credit, debit, ACH, and digital wallets, and Buy Now Pay Later (BNPL) solutions.
 
 Squarespace Payments can also connect to invoicing tools that can send invoices to clients that are professionally branded and automated for ease. Clients on retainer can receive their invoices automatically without follow-ups. Invoicing manages and tracks all payments, keeping them organized.
 
 To sign up for Squarespace Payments:
 
 1. Open the Payments panel.
- 
+    
 2. Under Squarespace Payments, click Turn on Squarespace Payments.
- 
+    
 3. Follow the prompts and enter all required information.
- 
+    
 4. Click Agree & Submit.
 
-Other options available to use on Squarespace include Stripe, PayPal, and Square.
+Other [options available to use on Squarespace](https://www.squarespace.com/blog/how-to-choose-a-payment-solution) include Stripe, PayPal, and Square.
 
 ### Set up payment methods
 
 Clients appreciate the flexibility of having diverse payment methods beyond simply credit or debit cards. Allow them to select from a full menu of payment options by enabling payment methods like Buy Now Pay Later solutions or digital wallets. 
 
-Learn more about alternative payment methods and how to enable them
+[Learn more about alternative payment methods and how to enable them](https://www.squarespace.com/blog/alternative-payment-methods)
 
 ### Test and launch 
 
 If you’ve set up Squarespace Payments, you can test your payment platform. To do this, you’ll need to enter Test Mode, where you can complete the checkout process using fake credit card details.
 
 1. Open the Settings panel, scroll down, and switch the Test mode toggle on.
- 
+    
 2. Go to your store page, or the page where you have a digital product or donation block. 
- 
+    
 3. Proceed to checkout. 
- 
+    
 4. Confirm that the test mode banner appears.
- 
+    
 5. Complete the checkout fields. Enter a fake payment details, e.g. card number: 4242 4242 4242 4242; expiration date: any future date; CVC: any 3 numbers
- 
+    
 6. Follow the prompts to complete checkout. 
- 
+    
 7. You’ll get a confirmation email for your order or donation.
- 
+    
 8. Delete the test order. 
- 
+    
 9. Disable test mode.
 
-See our full guide to running test orders.
+See our full guide to [running test orders](https://support.squarespace.com/hc/en-us/articles/205811368-Run-test-orders).
 
-After you’ve tested payments, it’s time to launch. Monitor sales and customer behavior for a few weeks to see where optimization and conversions to sales can improve. Do abandoned cart emails work? Would a discount code help? Are there ways to make the checkout experience more user-friendly?
+After you’ve tested payments, it’s time to launch. Monitor sales and customer behavior for a few weeks to see where optimization and conversions to sales can improve. Do [abandoned cart emails](https://www.squarespace.com/email-marketing) work? Would a [discount code](https://www.squarespace.com/blog/discount-strategies-for-your-website) help? Are there ways to make the checkout experience more user-friendly?
 
 ## Common challenges with solutions to client payments
 
@@ -156,16 +156,16 @@ Even after a smooth payment set-up, challenges may still arise. There are soluti
 
 Some of those challenges include: 
 
-* **Late or missed invoice payments****:** If your invoices are delayed or you’re still waiting on payment, try automating invoices and followup emails, set clear terms while discussing the project with the client, or require deposits before the final project date. 
- 
+* [**Late or missed invoice payments**](https://www.squarespace.com/blog/payment-policy-small-business)**:** If your invoices are delayed or you’re still waiting on payment, try [automating invoices](https://www.squarespace.com/blog/scheduling-invoicing-generator) and followup emails, [set clear terms](https://www.squarespace.com/blog/how-to-write-a-proposal-for-client-projects) while discussing the project with the client, or [require deposits](https://www.squarespace.com/blog/create-client-contracts-proposals-and-estimates) before the final project date. 
+    
 * **Fees and pricing transparency:** Sometimes there are additional fees required for payment. For example, you may need to add tax to your invoice for client work. Be transparent about these fees or build them into the overall pricing so they don’t come as a surprise to clients.
- 
-* **International clients and currency issues:** Without clarity around international payments, customers may be confused on how to send or receive payment locally, or find hidden fees costing them more or paying them less. For client work, offer payment with local methods such as iDEAL (Netherlands) and SEPA (European Union). 
+    
+* **International clients and currency issues:** Without clarity around international payments, customers may be confused on how to send or receive payment locally, or find hidden fees costing them more or paying them less. For client work, offer payment with local methods such as [iDEAL](https://www.squarespace.com/blog/product-updates-march-2026) (Netherlands) and [SEPA](https://support.squarespace.com/hc/en-us/articles/41605579105805-Accept-SEPA-with-Squarespace-Payments) (European Union). 
 
-If you’re concerned about scams and fraudulent transactions, you can also review our guide to protecting yourself against common tactics and preventing financial loss. 
+If you’re concerned about scams and fraudulent transactions, you can also review [our guide to protecting yourself against common tactics](https://support.squarespace.com/hc/en-us/articles/43041541040909-Identify-and-prevent-common-scams) and preventing financial loss. 
 
-Get Started
+[Get Started](/templates)
 
 Posted on 01 May 2026
 
-payments Squarespace Payments small business ecommerce
+[payments](/blog/tag/payments) [Squarespace Payments](/blog/tag/Squarespace+Payments) [small business](/blog/tag/small+business) [ecommerce](/blog/tag/ecommerce)

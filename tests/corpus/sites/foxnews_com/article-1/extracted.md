@@ -1,16 +1,20 @@
-China has ordered companies to disregard U.S. sanctions targeting Iranian oil, forcing a direct test of Washington’s ability to enforce its crackdown on Iran. 
+[close](#)
+
+NEWYou can now listen to Fox News articles!
+
+[China](https://www.foxnews.com/category/world/world-regions/china) has ordered companies to disregard U.S. sanctions targeting Iranian oil, forcing a direct test of Washington’s ability to enforce its crackdown on Iran. 
 
 A new directive, issued through China’s Commerce Ministry Sunday, invokes a 2021 "blocking statute" that prohibits firms from complying with foreign sanctions deemed illegitimate. The order applies to several Chinese refiners accused by the United States of purchasing Iranian crude, including major independent processors known as "teapot" refineries.
 
 The move represents a shift from years of opaque workarounds to more explicit state-backed resistance, as Beijing signals it will not cooperate with U.S. efforts to cut off a key source of revenue for Iran.
 
-**US TARGETS CHINA REFINERY IN SWEEPING IRAN OIL CRACKDOWN, SANCTIONS ‘SHADOW FLEET’ TANKERS**
+[**US TARGETS CHINA REFINERY IN SWEEPING IRAN OIL CRACKDOWN, SANCTIONS ‘SHADOW FLEET’ TANKERS**](https://www.foxnews.com/world/us-targets-china-refinery-sweeping-iran-oil-crackdown-sanctions-shadow-fleet-tankers)
 
 "This is unprecedented. It’s a major escalation in terms of China’s response to U.S. economic statecraft. It is a measure of defiance by Beijing," said Max Meizlish, a senior research analyst at the Foundation for Defense of Democracies.
 
-The escalation comes as the Trump administration intensifies its sanctions campaign, targeting Chinese refiners and warning financial institutions they could face penalties for facilitating oil transactions between Iran and China.
+The escalation comes as the Trump administration [intensifies its sanctions campaign](https://www.foxnews.com/politics/trump-targets-iranian-oil-sanctions-increasing-pressure-islamic-republic-make-deal-nukes), targeting Chinese refiners and warning financial institutions they could face penalties for facilitating oil transactions between Iran and China.
 
-Treasury Secretary Scott Bessent has accused Beijing of effectively financing Iran’s military activity through its oil purchases, arguing that Chinese demand is sustaining Tehran’s economy.
+Treasury Secretary [Scott Bessent](https://www.foxnews.com/category/person/scott-bessent) has accused Beijing of effectively financing Iran’s military activity through its oil purchases, arguing that Chinese demand is sustaining Tehran’s economy.
 
 "China, let’s see them step up with some diplomacy and get the Iranians to open the strait," Bessent said in a Fox News interview Monday.
 
@@ -20,9 +24,9 @@ China remains the primary destination for Iranian crude, with much of the countr
 
 "It’s putting firms in China in the position where they either comply with the CCP order or the U.S. order and either way there could be consequences," Meizlish said.
 
-**TRUMP DELAYS XI MEETING AS IRAN CONFLICT LETS US STRONG-ARM CHINA’S OIL SUPPLY**
+[**TRUMP DELAYS XI MEETING AS IRAN CONFLICT LETS US STRONG-ARM CHINA’S OIL SUPPLY**](https://www.foxnews.com/politics/trump-delays-xi-meeting-iran-conflict-lets-us-strong-arm-chinas-oil-supply)
 
-The issue is expected to be a major point of contention at an upcoming meeting between President Donald Trump and Chinese leader Xi Jinping.
+The issue is expected to be a major point of contention at an upcoming meeting between President [Donald Trump](https://www.foxnews.com/category/person/donald-trump) and Chinese leader Xi Jinping.
 
 At the same time, diplomacy is accelerating. 
 
@@ -30,13 +34,13 @@ Iranian Foreign Minister Abbas Araghchi arrived in Beijing Wednesday for talks w
 
 Despite mounting sanctions and a U.S. naval blockade aimed at restricting Iran’s oil exports, shipments have continued through increasingly opaque maritime networks. Data from maritime intelligence firm Windward shows a surge in vessels operating without tracking signals, with the majority of ships in the Strait of Hormuz recently going "dark," making enforcement significantly more difficult.
 
-**IRAN SHIFTS 20M BARRELS THROUGH ‘DARK’ OFFSHORE OIL NETWORK BYPASSING US PORT BLOCKADE, FIRM SAYS**
+[**IRAN SHIFTS 20M BARRELS THROUGH ‘DARK’ OFFSHORE OIL NETWORK BYPASSING US PORT BLOCKADE, FIRM SAYS**](https://www.foxnews.com/world/iran-shifts-20m-barrels-through-dark-offshore-oil-network-bypassing-us-port-blockade-firm-says)
 
 In one recent snapshot, 146 of 167 vessels in the area were not transmitting location data, according to the report.
 
 Windward analysts also identified continued covert loading activity at Iran’s main export hub at Kharg Island, including large crude carriers operating without tracking signals despite heightened enforcement pressure.
 
-"I don’t expect this is going to necessarily change much by way of how China has helped facilitate Iranian sanctions evasion," Meizlish said.
+"I don’t expect this is going to necessarily change much by way of how China has helped facilitate [Iranian sanctions evasion](https://www.foxnews.com/politics/shadow-fleet-under-fire-irans-strait-shutdown-could-squeeze-russias-war-chest-chinas-oil-lifeline)," Meizlish said.
 
 Those flows have largely been sustained by demand from Chinese refiners, particularly smaller independent operators that often operate outside the U.S. financial system and are more insulated from sanctions pressure.
 
@@ -46,7 +50,7 @@ Beijing’s decision to formally instruct companies not to comply with U.S. sanc
 
 Analysts say the move could force multinational firms into a difficult position, weighing access to the Chinese market against the risk of being cut off from the U.S. financial system.
 
-**CLICK HERE TO DOWNLOAD THE FOX NEWS APP**
+[**CLICK HERE TO DOWNLOAD THE FOX NEWS APP**](https://foxnews.onelink.me/xLDS?pid=AppArticleLink&af_dp=foxnewsaf%3A%2F%2F&af_web_dp=https%3A%2F%2Fwww.foxnews.com%2Fapps-products)
 
 "There’s no more important enabler to Iran than China," Meizlish said.
 

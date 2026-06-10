@@ -8,7 +8,7 @@ Rating
 
 Comments
 
-Read comments
+[Read comments](#notes_section)
 
 In this colorful, crunchy-topped vegetable dish, roasted carrots and shallots are topped with puddles of gooey mozzarella, while herbs, olives and a big squirt of lemon at the end add just the right level of tang. Serve this as a light, meatless meal on its own, or as a vibrant side dish to a simple roast chicken or fish.
 
@@ -33,7 +33,7 @@ Yield:4 servings
 * 1 to 2tablespoons freshly squeezed lemon juice, plus more to taste
 * ⅓cup fresh basil, dill or mint, torn
 
-Ingredient Substitution Guide
+[Ingredient Substitution Guide](/article/ingredient-substitutions)
 
 ##### Nutritional analysis per serving (4 servings)
 
@@ -41,21 +41,23 @@ Ingredient Substitution Guide
 
 Note: The information shown is Edamam’s estimate based on available ingredients and preparation. It should not be considered a substitute for a professional nutritionist’s advice.
 
-Powered by
+[Powered by
+
+](https://www.edamam.com/website/wizard.jsp)
 
 ## Preparation
 
 1. Step 1
- 
- Heat oven to 425 degrees. Place carrots and shallots on a rimmed baking sheet. Season with salt and pepper, and toss with 2 tablespoons olive oil until well coated. Roast for 25 minutes, rotating pan halfway through. (The shallots will start to shrivel and brown at the edges, but they won’t be cooked through yet.)
- 
+    
+    Heat oven to 425 degrees. Place carrots and shallots on a rimmed baking sheet. Season with salt and pepper, and toss with 2 tablespoons olive oil until well coated. Roast for 25 minutes, rotating pan halfway through. (The shallots will start to shrivel and brown at the edges, but they won’t be cooked through yet.)
+    
 2. Step 2
- 
- In a small bowl, stir together bread crumbs, Parmesan, garlic, red-pepper flakes, remaining 3 tablespoons oil and a pinch of salt, tossing until well combined.
- 
+    
+    In a small bowl, stir together bread crumbs, Parmesan, garlic, red-pepper flakes, remaining 3 tablespoons oil and a pinch of salt, tossing until well combined.
+    
 3. Step 3
- 
- Sprinkle mozzarella and olives all over carrots and shallots, then top with the seasoned bread crumbs. Continue to roast until the vegetables are golden brown and tender, 12 to 15 minutes longer. Just before serving, drizzle lemon juice all over the top and garnish with herbs.
+    
+    Sprinkle mozzarella and olives all over carrots and shallots, then top with the seasoned bread crumbs. Continue to roast until the vegetables are golden brown and tender, 12 to 15 minutes longer. Just before serving, drizzle lemon juice all over the top and garnish with herbs.
 
 Private Notes
 
@@ -69,6 +71,8 @@ Leave a Private Comment on this recipe and see it here.
 
 Your rating
 
+1 star2 stars3 stars4 stars5 stars
+
 or to rate this recipe.
 
 Have you cooked this?
@@ -76,6 +80,10 @@ Have you cooked this?
 or to mark this recipe as cooked.
 
 ## Comments
+
+Add Comment
+
+PublicPrivate
 
 A new favorite! After making & enjoying it once, the 2nd time I used 4 oz. of mozzarella instead of the 6. Just right, I thought. Both times I used red onions instead of shallots--not a preference, just a supply issue. BUT MY MOST IMPORTANT RECOMMENDATION: Dot the casserole (on top of the cheese, last 15 mins.) with cherry tomatoes. It looks beautiful & rounds out the dish. Speaking of "dish," next time I'll use a baking dish instead of a sheet for a better presentation.
 
@@ -93,14 +101,14 @@ Private comments are only visible to you.
 
 ### Recipe Tags
 
-* Vegetables
-* Carrot
-* Mozzarella
-* Olive
-* Panko
-* Parmesan
-* Shallot
-* Side Dish
-* Vegetarian
+* [Vegetables](/tag/vegetables)
+* [Carrot](/tag/carrot)
+* [Mozzarella](/tag/mozzarella)
+* [Olive](/tag/olive)
+* [Panko](/tag/panko)
+* [Parmesan](/tag/parmesan)
+* [Shallot](/tag/shallot)
+* [Side Dish](/topics/side-dishes)
+* [Vegetarian](/topics/vegetarian)
 
 or to save this recipe.

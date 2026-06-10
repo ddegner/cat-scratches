@@ -12,17 +12,17 @@ I have an Archos 5 Internet tablet with Android. I have been using it to stream 
 
 Help?
 
-* windows-xp
-* android
-* file-sharing
+* [windows-xp](/questions/tagged/windows-xp "show questions tagged 'windows-xp'")
+* [android](/questions/tagged/android "show questions tagged 'android'")
+* [file-sharing](/questions/tagged/file-sharing "show questions tagged 'file-sharing'")
 
 Share a link to this question
 
-CC BY-SA 2.5
+[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/ "The current license for this post: CC BY-SA 2.5")
 
 Short permalink to this question
 
-Improve this question
+[Improve this question](/posts/123455/edit)
 
 Follow this question to receive notifications
 
@@ -32,7 +32,7 @@ Fred
 
 ## 2 Answers
 
-Sorted by: Reset to default
+Sorted by: [Reset to default](/questions/123455/how-can-i-access-shared-xp-files-over-wifi-with-an-archos-5-internet-tablet-with?answertab=scoredesc#tab-top)
 
 Highest score (default) Date modified (newest first) Date created (oldest first)
 
@@ -50,7 +50,7 @@ Show activity on this post.
 
 Have you updated the Archos or the machines?
 
-I dont know the Archos but looking at their FAQ
+I dont know the Archos but looking at their [FAQ](http://www.archos.com/support/support_tech/faqs/en/faq_Archos5.html?country=us&lang=en)
 
 I see this
 
@@ -65,17 +65,17 @@ Check the following:
 
 Share a link to this answer
 
-CC BY-SA 2.5
+[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/ "The current license for this post: CC BY-SA 2.5")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/123456/edit)
 
 Follow this answer to receive notifications
 
 answered Mar 24, 2010 at 3:59
 
-Tom Lorentz
+[Tom Lorentz](/users/31593/tom-lorentz)
 
 16622 bronze badges
 
@@ -97,11 +97,11 @@ All devices are up to date running the latest firmware, programs and drivers.
 
 Share a link to this answer
 
-CC BY-SA 2.5
+[CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/ "The current license for this post: CC BY-SA 2.5")
 
 Short permalink to this answer
 
-Improve this answer
+[Improve this answer](/posts/123510/edit)
 
 Follow this answer to receive notifications
 
@@ -109,4 +109,4 @@ answered Mar 24, 2010 at 11:42
 
 Fred
 
-## You must log in to answer this question.
+## You must [log in](/users/login?ssrc=question_page&returnurl=https%3a%2f%2fsuperuser.com%2fquestions%2f123455) to answer this question.

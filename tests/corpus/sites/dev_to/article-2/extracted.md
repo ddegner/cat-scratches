@@ -4,7 +4,7 @@
 > * `while(true)` + autonomous selection of 40 tools + 4-tier context compression
 > * A masterclass in prompt engineering and agent workflow design
 > * 2nd generation: humans lead, AI assists
-> 2. AutoBe—the opposite design
+> 2. [AutoBe](https://github.com/wrtnlabs/autobe)—the opposite design
 > * 4 ASTs x 4-stage compiler x self-correction loops
 > * Function Calling Harness: even small models produce backends on par with top-tier models
 > * 3rd generation: AI generates, compilers verify
@@ -13,7 +13,7 @@
 > * 0.95^400 ~ 0%—the shift to 3rd generation is an architecture problem, not a model performance problem
 > * AutoBE handles the initial build, Claude Code handles maintenance—coexistence, not replacement
 > 
-> **Recommended reading**: Function Calling Harness—a deep dive into the technique that turned 6.75% into 100%
+> **Recommended reading**: [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830)—a deep dive into the technique that turned 6.75% into 100%
 
 ## 1\. The Incident
 
@@ -37,7 +37,7 @@ This post is those reading notes.
 
 ## 2\. What is AutoBE
 
-AutoBe is an open-source AI agent that automatically generates backends. Say "build me a shopping mall backend," and it produces everything from requirements analysis to database design, API specification, E2E tests, and NestJS implementation code—all at once.
+[AutoBe](https://github.com/wrtnlabs/autobe) is an open-source AI agent that automatically generates backends. Say "build me a shopping mall backend," and it produces everything from requirements analysis to database design, API specification, E2E tests, and NestJS implementation code—all at once.
 
 Because Function Calling Harness and AI-native compilers uniformly guarantee the quality of generated output, even small models like `qwen3.5-35b-a3b` can produce backends on par with top-tier models—at a fraction of the cost.
 
@@ -61,25 +61,25 @@ Compiler validation
 
 Requirements
 
-`AutoBeAnalyze`—structured SRS
+[`AutoBeAnalyze`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/analyze/AutoBeAnalyze.ts)—structured SRS
 
 Structure validation
 
 DB Design
 
-`AutoBeDatabase`—DB schema AST
+[`AutoBeDatabase`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/database/AutoBeDatabase.ts)—DB schema AST
 
 Database Compiler
 
 API Design
 
-`AutoBeOpenApi`—OpenAPI v3.2 spec
+[`AutoBeOpenApi`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/openapi/AutoBeOpenApi.ts)—OpenAPI v3.2 spec
 
 OpenAPI Compiler
 
 Testing
 
-`AutoBeTest`—30+ expression types
+[`AutoBeTest`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/test/AutoBeTest.ts)—30+ expression types
 
 Test Compiler
 
@@ -103,30 +103,30 @@ Free-form text generation cannot structurally meet this requirement.
 
 #### 2.2.1. Uncontrollable
 
-Can you enforce consistency through prompts? "Don't use varchar," "don't use `any` types," "don't create utility functions"—this is the pink elephant problem. Tell someone "don't think of a pink elephant," and the first thing they do is picture one. Tell an LLM "don't do X," and X lands at the center of attention, actually _increasing_ the probability of generating it. Natural language can only express constraints through prohibition, and **prohibition is structurally incomplete.** 
+Can you enforce consistency through prompts? "Don't use varchar," "don't use `any` types," "don't create utility functions"—this is the [pink elephant problem](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830). Tell someone "don't think of a pink elephant," and the first thing they do is picture one. Tell an LLM "don't do X," and X lands at the center of attention, actually _increasing_ the probability of generating it. Natural language can only express constraints through prohibition, and **prohibition is structurally incomplete.** 
 
 ```
 export namespace AutoBeDatabase {
- export interface IForeignField {
- name: string & SnakeCasePattern; // enforce snake_case naming
- type: "uuid";
- relation: IRelation;
- unique: boolean;
- nullable: boolean;
- }
- export interface IPlainField {
- name: string & SnakeCasePattern;
- type: // restrict type by spec, not by prohibition rule
- | "boolean"
- | "int"
- | "double"
- | "string"
- | "uri"
- | "uuid"
- | "datetime";
- description: string;
- nullable: boolean;
- }
+  export interface IForeignField {
+    name: string & SnakeCasePattern; // enforce snake_case naming
+    type: "uuid";
+    relation: IRelation;
+    unique: boolean;
+    nullable: boolean;
+  }
+  export interface IPlainField {
+    name: string & SnakeCasePattern;
+    type: // restrict type by spec, not by prohibition rule
+      | "boolean"
+      | "int"
+      | "double"
+      | "string"
+      | "uri"
+      | "uuid"
+      | "datetime";
+    description: string;
+    nullable: boolean;
+  }
 }
 ```
 
@@ -196,60 +196,60 @@ Function Calling fundamentally solves this compound problem. The form is fixed, 
 
 LLM output is a sample drawn from a probability distribution. Run the same model with the same prompt and you get different code every time—different variable names, different patterns, different error handling approaches. Swap the model and the differences grow larger. Claude leans functional, GPT leans class-based, Qwen has its own idioms. This variance is richness in creative writing, but a defect in backends.
 
-When the form is fixed, variance vanishes. The AST schema uniformly governs the model's "style," and the compiler verifies the result, so the model's personality has minimal impact on the final output. The benchmarks prove this:
+When the form is fixed, variance vanishes. The AST schema uniformly governs the model's "style," and the compiler verifies the result, so the model's personality has minimal impact on the final output. The [benchmarks](https://autobe.dev/benchmark) prove this:
 
 The backends generated by `qwen3.5-35b-a3b` (3B active) and `claude-sonnet-4.6` have nearly identical architecture, module structure, and naming conventions. Strong models converge in 1-2 iterations; weaker models converge in 3-4—but the destination is the same. **Different models, same result. Run it again, same result.** This is the consistency that backends demand, and Function Calling is the only approach that can structurally guarantee it.
 
 ### 2.3. Industry Consensus: "That Won't Work"
 
-But the forms the LLM must fill are far from simple. `AutoBeOpenApi.IJsonSchema`, which defines DTO types, is a recursive union type with 10 variants: 
+But the forms the LLM must fill are far from simple. [`AutoBeOpenApi.IJsonSchema`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/interface/AutoBeOpenApi.ts), which defines DTO types, is a recursive union type with 10 variants: 
 
 ```
 export type IJsonSchema =
- | IJsonSchema.IBoolean
- | IJsonSchema.IInteger
- | IJsonSchema.INumber
- | IJsonSchema.IString
- | IJsonSchema.IArray // items: IJsonSchema <- recursive
- | IJsonSchema.IObject // properties: Record<string, IJsonSchema> <- recursive
- | IJsonSchema.IReference
- | IJsonSchema.IOneOf // oneOf: IJsonSchema[] <- recursive
- | IJsonSchema.INull
- | IJsonSchema.IConstant;
+  | IJsonSchema.IBoolean
+  | IJsonSchema.IInteger
+  | IJsonSchema.INumber
+  | IJsonSchema.IString
+  | IJsonSchema.IArray      // items: IJsonSchema <- recursive
+  | IJsonSchema.IObject     // properties: Record<string, IJsonSchema> <- recursive
+  | IJsonSchema.IReference
+  | IJsonSchema.IOneOf      // oneOf: IJsonSchema[] <- recursive
+  | IJsonSchema.INull
+  | IJsonSchema.IConstant;
 ```
 
 Ten variants nested 3 levels deep yield 1,000 possible paths.
 
-The test stage is even more complex. `AutoBeTest.IExpression`, which represents E2E test logic, has **over 30 recursive variants**—programming-language-level complexity packed into a single Function Call: 
+The test stage is even more complex. [`AutoBeTest.IExpression`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/test/AutoBeTest.ts), which represents E2E test logic, has **over 30 recursive variants**—programming-language-level complexity packed into a single Function Call: 
 
 ```
 export type IExpression =
- | IBooleanLiteral | INumericLiteral | IStringLiteral // literals
- | IArrayLiteralExpression | IObjectLiteralExpression // compound literals
- | INullLiteral | IUndefinedKeyword // null/undefined
- | IIdentifier | IPropertyAccessExpression // accessors
- | IElementAccessExpression | ITypeOfExpression // access/operations
- | IPrefixUnaryExpression | IPostfixUnaryExpression // unary operations
- | IBinaryExpression // binary operations
- | IArrowFunction | ICallExpression | INewExpression // functions
- | IArrayFilterExpression | IArrayForEachExpression // array operations
- | IArrayMapExpression | IArrayRepeatExpression // array operations
- | IPickRandom | ISampleRandom | IBooleanRandom // random generation
- | IIntegerRandom | INumberRandom | IStringRandom // random generation
- | IPatternRandom | IFormatRandom | IKeywordRandom // random generation
- | IEqualPredicate | INotEqualPredicate // assertions
- | IConditionalPredicate | IErrorPredicate; // assertions
+  | IBooleanLiteral   | INumericLiteral    | IStringLiteral     // literals
+  | IArrayLiteralExpression  | IObjectLiteralExpression          // compound literals
+  | INullLiteral      | IUndefinedKeyword                       // null/undefined
+  | IIdentifier       | IPropertyAccessExpression               // accessors
+  | IElementAccessExpression | ITypeOfExpression                 // access/operations
+  | IPrefixUnaryExpression   | IPostfixUnaryExpression           // unary operations
+  | IBinaryExpression                                            // binary operations
+  | IArrowFunction    | ICallExpression    | INewExpression      // functions
+  | IArrayFilterExpression   | IArrayForEachExpression           // array operations
+  | IArrayMapExpression      | IArrayRepeatExpression            // array operations
+  | IPickRandom       | ISampleRandom      | IBooleanRandom     // random generation
+  | IIntegerRandom    | INumberRandom      | IStringRandom      // random generation
+  | IPatternRandom    | IFormatRandom      | IKeywordRandom     // random generation
+  | IEqualPredicate   | INotEqualPredicate                      // assertions
+  | IConditionalPredicate    | IErrorPredicate;                  // assertions
 ```
 
 This is the actual complexity of the form the LLM must accurately fill in a single Function Call.
 
-`qwen3-coder-next`'s first-attempt success rate on `IJsonSchema`: **6.75%**. The industry consensus is clear—NESTFUL (EMNLP 2025) measured GPT-4o's nested tool calling accuracy at 28%, and JSONSchemaBench (ICLR 2025) reported success rates of 3-41% on the hardest tier across 10,000 real-world schemas. BoundaryML went further, arguing that structured output actually degrades a model's reasoning ability. The consensus: **don't do Function Calling with complex schemas.**
+`qwen3-coder-next`'s first-attempt success rate on `IJsonSchema`: **6.75%**. The industry consensus is clear—[NESTFUL (EMNLP 2025)](https://arxiv.org/abs/2409.03797) measured GPT-4o's nested tool calling accuracy at 28%, and [JSONSchemaBench (ICLR 2025)](https://arxiv.org/abs/2501.10868) reported success rates of 3-41% on the hardest tier across 10,000 real-world schemas. BoundaryML went further, arguing that structured output actually [degrades a model's reasoning ability](https://boundaryml.com/blog/structured-outputs-create-false-confidence). The consensus: **don't do Function Calling with complex schemas.**
 
 We couldn't give up. Without structured output, mechanical verification is impossible; without verification, feedback loops are impossible; without feedback loops, guarantees are impossible.
 
-So we built the Function Calling Harness. Typia's 3-tier infrastructure is at its core:
+So we built the [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830). [Typia](https://github.com/samchon/typia)'s 3-tier infrastructure is at its core:
 
-All three tiers are auto-generated by Typia's compiler from TypeScript type definitions. Developers only need to define TypeScript types—the Function Calling schema, `parse()` recovery logic, `validate()` checker, and `LlmJson.stringify()` feedback generator all derive from the same type. **A single type governs schema, parsing, validation, and feedback simultaneously.**
+All three tiers are auto-generated by [Typia](https://github.com/samchon/typia)'s compiler from TypeScript type definitions. Developers only need to define TypeScript types—the Function Calling schema, `parse()` recovery logic, `validate()` checker, and `LlmJson.stringify()` feedback generator all derive from the same type. **A single type governs schema, parsing, validation, and feedback simultaneously.**
 
 #### 2.3.1. `parse()` — Recovering Broken JSON
 
@@ -264,54 +264,54 @@ const func: ILlmFunction = app.functions[0];
 
 // LLM sometimes returns malformed JSON with wrong types
 const llmOutput = dedent`
- > LLM sometimes returns some prefix text with markdown JSON code block.
+  > LLM sometimes returns some prefix text with markdown JSON code block.
 
- I'd be happy to help you with your order! 😊
+  I'd be happy to help you with your order! 😊
 
- \`\`\`json
- {
- "order": {
- "payment": "{\\"type\\":\\"card\\",\\"cardNumber\\":\\"1234-5678", // unclosed string & bracket
- "product": {
- name: "Laptop", // unquoted key
- price: "1299.99", // wrong type (string instead of number)
- quantity: 2, // trailing comma
- },
- "customer": {
- // incomplete keyword + unclosed brackets
- "name": "John Doe",
- "email": "john@example.com",
- vip: tru
- \`\`\` `;
+  \`\`\`json
+  {
+    "order": {
+      "payment": "{\\"type\\":\\"card\\",\\"cardNumber\\":\\"1234-5678", // unclosed string & bracket
+      "product": {
+        name: "Laptop", // unquoted key
+        price: "1299.99", // wrong type (string instead of number)
+        quantity: 2, // trailing comma
+      },
+      "customer": {
+        // incomplete keyword + unclosed brackets
+        "name": "John Doe",
+        "email": "john@example.com",
+        vip: tru
+  \`\`\` `;
 
 const result = func.parse(llmOutput);
 if (result.success) console.log(result);
 
 interface IOrder {
- payment: IPayment;
- product: {
- name: string;
- price: number & tags.Minimum<0>;
- quantity: number & tags.Type<"uint32">;
- };
- customer: {
- name: string;
- email: string & tags.Format<"email">;
- vip: boolean;
- };
+  payment: IPayment;
+  product: {
+    name: string;
+    price: number & tags.Minimum<0>;
+    quantity: number & tags.Type<"uint32">;
+  };
+  customer: {
+    name: string;
+    email: string & tags.Format<"email">;
+    vip: boolean;
+  };
 }
 
 type IPayment =
- | { type: "card"; cardNumber: string }
- | { type: "bank"; accountNumber: string };
+  | { type: "card"; cardNumber: string }
+  | { type: "bank"; accountNumber: string };
 
 declare class OrderService {
- /**
- * Create a new order.
- *
- * @param props Order properties
- */
- createOrder(props: { order: IOrder }): { id: string };
+  /**
+   * Create a new order.
+   *
+   * @param props Order properties
+   */
+  createOrder(props: { order: IOrder }): { id: string };
 }
 ```
 
@@ -331,22 +331,22 @@ Even after parsing, the values themselves can be wrong. Negative prices, non-ema
 
 ```
 {
- "order": {
- "payment": {
- "type": "card",
- "cardNumber": 12345678 // ❌ [{"path":"$input.order.payment.cardNumber","expected":"string"}]
- },
- "product": {
- "name": "Laptop",
- "price": -100, // ❌ [{"path":"$input.order.product.price","expected":"number & Minimum<0>"}]
- "quantity": 2.5 // ❌ [{"path":"$input.order.product.quantity","expected":"number & Type<\"uint32\">"}]
- },
- "customer": {
- "name": "John Doe",
- "email": "invalid-email", // ❌ [{"path":"$input.order.customer.email","expected":"string & Format<\"email\">"}]
- "vip": "yes" // ❌ [{"path":"$input.order.customer.vip","expected":"boolean"}]
- }
- }
+  "order": {
+    "payment": {
+      "type": "card",
+      "cardNumber": 12345678 // ❌ [{"path":"$input.order.payment.cardNumber","expected":"string"}]
+    },
+    "product": {
+      "name": "Laptop",
+      "price": -100, // ❌ [{"path":"$input.order.product.price","expected":"number & Minimum<0>"}]
+      "quantity": 2.5 // ❌ [{"path":"$input.order.product.quantity","expected":"number & Type<\"uint32\">"}]
+    },
+    "customer": {
+      "name": "John Doe",
+      "email": "invalid-email", // ❌ [{"path":"$input.order.customer.email","expected":"string & Format<\"email\">"}]
+      "vip": "yes" // ❌ [{"path":"$input.order.customer.vip","expected":"boolean"}]
+    }
+  }
 }
 ```
 
@@ -378,7 +378,7 @@ So we deliberately—with small models, in a simple pipeline, with minimal AI in
 
 ### 3.2. Breaking 100% and Rebuilding
 
-We had previously achieved 100% compilation + runtime success rate. Then we deliberately broke it to rebuild at a higher level of quality.
+[We had previously achieved 100% compilation + runtime success rate](https://dev.to/samchon/autobe-we-built-an-ai-that-writes-full-backend-apps-then-broke-its-100-success-rate-on-purpose-5757). Then we deliberately broke it to rebuild at a higher level of quality.
 
 #### 3.2.1. Divide and Conquer
 
@@ -513,11 +513,11 @@ The 1,730-line `while(true)` loop in `query.ts`:
 
 ```
 while(true) {
- Phase 1: Context preparation (token counting, compression)
- Phase 2: API streaming (tool call detection)
- Phase 3: Recovery (7 continue points)
- Phase 4: Tool execution (concurrency control)
- Phase 5: Continue/exit decision
+    Phase 1: Context preparation (token counting, compression)
+    Phase 2: API streaming (tool call detection)
+    Phase 3: Recovery (7 continue points)
+    Phase 4: Tool execution (concurrency control)
+    Phase 5: Continue/exit decision
 }
 ```
 
@@ -579,14 +579,14 @@ The exact opposite. 42 specialized AI agents execute in a hardcoded order. Just 
 
 ```
 orchestrateRealize()
- |-- orchestrateRealizeCollector (DB query functions)
- | |-- Plan -> Write -> Validate
- | +-- On failure -> CorrectCasting / CorrectOverall
- |-- orchestrateRealizeTransformer (result transformation functions)
- |-- orchestrateRealizeAuthorizationWrite (auth logic)
- |-- orchestrateRealizeOperation (business logic)
- | +-- Correction loop: TypeScript compile -> diagnostics -> regenerate
- +-- compileRealizeFiles (final validation)
+  |-- orchestrateRealizeCollector (DB query functions)
+  |   |-- Plan -> Write -> Validate
+  |   +-- On failure -> CorrectCasting / CorrectOverall
+  |-- orchestrateRealizeTransformer (result transformation functions)
+  |-- orchestrateRealizeAuthorizationWrite (auth logic)
+  |-- orchestrateRealizeOperation (business logic)
+  |   +-- Correction loop: TypeScript compile -> diagnostics -> regenerate
+  +-- compileRealizeFiles (final validation)
 ```
 
 What runs in parallel, how many at a time, what happens on failure—it's all determined in code. Predictable, but inflexible.
@@ -636,7 +636,7 @@ Even in the system prompt, static and dynamic parts are separated with `SYSTEM_P
 
 ```
 const [staticPart, dynamicPart] = systemPrompt.split(
- SYSTEM_PROMPT_DYNAMIC_BOUNDARY
+  SYSTEM_PROMPT_DYNAMIC_BOUNDARY
 )
 // staticPart -> cache_control: { scope: 'global' } (cross-user cache)
 // dynamicPart -> cache_control: { scope: 'session' }
@@ -651,12 +651,12 @@ AutoBE doesn't compress—it **transforms**. 48 History Transformers assemble **
 ```
 // History Transformer for Realize Write
 const histories = [
- { type: "systemMessage", text: REALIZE_OPERATION_WRITE,
- _cache: { type: "ephemeral" } }, // system prompt (cached)
- { type: "userMessage", text: formatDatabaseSchemas(state),
- _cache: { type: "ephemeral" } }, // only relevant DB schemas (cached)
- { type: "userMessage", text: formatOperation(operation) },
- { type: "userMessage", text: formatCollectors(collectors) },
+  { type: "systemMessage", text: REALIZE_OPERATION_WRITE,
+    _cache: { type: "ephemeral" } },           // system prompt (cached)
+  { type: "userMessage", text: formatDatabaseSchemas(state),
+    _cache: { type: "ephemeral" } },           // only relevant DB schemas (cached)
+  { type: "userMessage", text: formatOperation(operation) },
+  { type: "userMessage", text: formatCollectors(collectors) },
 ];
 // 180KB full context -> 8KB precise context (95% reduction)
 ```
@@ -762,9 +762,9 @@ Worker results arrive as XML:
 
 ```
 <task-notification>
- <task-id>agent-a1b2c3</task-id>
- <status>completed</status>
- <result>Agent's final text response</result>
+  <task-id>agent-a1b2c3</task-id>
+  <status>completed</status>
+  <result>Agent's final text response</result>
 </task-notification>
 ```
 
@@ -777,7 +777,7 @@ Patterns explicitly forbidden in the prompt:
 ```
 // Bad: "Based on your findings, fix the auth bug"
 // Good: "Fix the null pointer in src/auth/validate.ts:42.
-// The user field on Session is undefined when sessions expire."
+//   The user field on Session is undefined when sessions expire."
 ```
 
 "The prompt given to workers must be self-contained." This is the same insight behind AutoBE's History Transformers, independently arrived at via a different path.
@@ -923,8 +923,8 @@ The most surprising discovery in the source. When the user is idle, Claude Code 
 ```
 // Copy-on-write: copy original to overlay, redirect all writes to overlay
 if (!writtenPathsRef.current.has(rel)) {
- await copyFile(join(cwd, rel), join(overlayPath, rel))
- writtenPathsRef.current.add(rel)
+  await copyFile(join(cwd, rel), join(overlayPath, rel))
+  writtenPathsRef.current.add(rel)
 }
 ```
 
@@ -936,7 +936,7 @@ When summarizing conversations, the LLM first organizes its thoughts inside an `
 
 ```
 formattedSummary = formattedSummary.replace(
- /<analysis>[\s\S]*?<\/analysis>/, ''
+  /<analysis>[\s\S]*?<\/analysis>/, ''
 )
 ```
 
@@ -994,6 +994,6 @@ Refine your prompts, design sophisticated workflows, hand agents their tools—0
 
 For backends, that mechanism was a compiler. But domains where deterministic verification is possible exist everywhere—circuit design has DRC/LVS, structural engineering has FEM solvers, drug design has molecular simulators, smart contracts have formal verifiers. The pattern where an LLM fills in a structure and a domain-specific verifier guarantees consistency **works anywhere**.
 
-Three things are needed: a **form** the LLM can fill (Function Calling Schema), a **dedicated compiler** to validate the form, and a **feedback loop** that automatically corrects failures. Just as we turned 6.75% into 100% with Function Calling Harness, the same breakthrough is possible in your domain.
+Three things are needed: a **form** the LLM can fill (Function Calling Schema), a **dedicated compiler** to validate the form, and a **feedback loop** that automatically corrects failures. Just as we turned 6.75% into 100% with [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830), the same breakthrough is possible in your domain.
 
 **0 to 80 is solved by the model. 80 to 100 is solved by the harness.** The person who builds that harness in your domain is you.

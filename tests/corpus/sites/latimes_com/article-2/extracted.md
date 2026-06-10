@@ -8,11 +8,11 @@ Inside, they circled aimlessly around full parking lots, scanning for empty spot
 
 Near the summit of Half Dome, on the infamous steel cables hikers use to ascend the final stretch of bare granite, another traffic jam formed, trapping people hundreds of feet in the air, according to social media posts.
 
-Even before the summer rush, California’s most visited national park is seeing big crowds — the most people in a decade, according to National Park System data.
+Even before the summer rush, California’s most visited national park is seeing big crowds — the most people in a decade, according to [National Park System data](https://irma.nps.gov/Stats/SSRSReports/Park%20Specific%20Reports/Monthly%20Public%20Use?Park=YOSE).
 
 Critics of the free-for-all are blaming the influx on the Trump administration for abandoning a reservation requirement that, for the last few years, has helped control the number of visitors and preserve a sense of natural tranquility.
 
-California’s nine national parks drew a record 12 million visitors in 2025, up more than 800,000 from the previous record set in 2019. Yosemite accounted for more than a quarter of those visits.
+California’s nine national parks drew [a record 12 million visitors in 2025](https://www.latimes.com/california/story/2026-03-14/california-national-parks-set-attendance-record-despite-controversy), up more than 800,000 from the previous record set in 2019. Yosemite accounted for more than a quarter of those visits.
 
 This year, the pace continues, with more than half a million visits to Yosemite so far. In March, the park recorded 236,000 visits, up more than 45% from the same month a year earlier.
 
@@ -34,13 +34,13 @@ Since then, the reservation system has been tweaked repeatedly as administrators
 
 In February, the Trump administration, which had already slashed the national park system’s staff by about 25%, scrapped the reservation system and replaced it with “targeted management” of crowds.
 
-“We are committed to visitor access, safety, and resource protection, and will continue active traffic management strategies to ensure a great visitor experience,” Yosemite Supt. Ray McPadden said at the time. “While reservation systems are one valuable management tool, our data demonstrates that a season-wide reservation requirement is not the most effective approach for the coming season.”
+“We are committed to visitor access, safety, and resource protection, and will continue active traffic management strategies to ensure a great visitor experience,” [Yosemite Supt. Ray McPadden said at the time](https://www.nps.gov/yose/planyourvisit/reservations.htm). “While reservation systems are one valuable management tool, our data demonstrates that a season-wide reservation requirement is not the most effective approach for the coming season.”
 
 But the new approach is already getting harsh reviews, and the busy season hasn’t even begun.
 
 During “Firefall” in February — an annual phenomenon when sunlight lands on the water cascading from Horsetail Fall, making it glow orange and red, like molten lava — the crowds were reportedly nightmarish.
 
-“I spent over an hour stuck in traffic leaving the park, and exiting felt more like leaving a major sporting event than it did visiting a national park,” Mark Rose, a senior program manager for the National Parks Conservation Assn., a nonprofit devoted to protecting the park system, wrote in a blog post.
+“I spent over an hour stuck in traffic leaving the park, and exiting felt more like leaving a major sporting event than it did visiting a national park,” Mark Rose, a senior program manager for the National Parks Conservation Assn., a nonprofit devoted to protecting the park system, wrote in a [blog post](https://www.npca.org/articles/11375-what-to-expect-when-visiting-parks-in-summer-2026).
 
 “I saw an ambulance stuck in standstill traffic announcing over a megaphone for pedestrians and vehicles to move out of the way,” Rose wrote. “The views were incredible, but I don’t think I’d ever go back without a reservation system in place.”
 
@@ -60,6 +60,6 @@ Another visitor, Richard Smekal, posted about the conga line of climbers who pac
 
 “After I got down, I turned around and took the second photo,” he wrote. “The line was a continuous stream of people, barely moving — basically at a standstill.”
 
-The cables can be deadly, especially in thunderstorms, when they become a slippery lightning rod. Being stuck there in a human traffic jam is a nightmare many experienced hikers and climbers would do anything to avoid.
+The cables can be [deadly, especially in thunderstorms](https://www.latimes.com/california/story/2024-08-08/after-young-woman-falls-to-her-death-half-dome-risks-on-everyones-mind), when they become a slippery lightning rod. Being stuck there in a human traffic jam is a nightmare many experienced hikers and climbers would do anything to avoid.
 
 A spokesperson for Yosemite did not respond to requests for comment.

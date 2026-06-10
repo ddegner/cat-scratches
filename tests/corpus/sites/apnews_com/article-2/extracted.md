@@ -1,6 +1,6 @@
-WASHINGTON (AP) — The U.S. military fired on an Iranian oil tanker Wednesday as President Donald Trump sought to pressure Tehran into reaching a deal to end the war. The Islamic Republic said it was reviewing the latest American proposals.
+WASHINGTON (AP) — The U.S. military fired on an Iranian oil tanker Wednesday as President Donald Trump sought to pressure Tehran into reaching a deal to end [the war](https://apnews.com/hub/iran). The Islamic Republic said it was reviewing the latest American proposals.
 
-A fighter jet shot out the rudder of the tanker in the Gulf of Oman as it tried to breach the American blockade of Iran’s ports, U.S. Central Command said in a social media post.
+A fighter jet shot out the rudder of the tanker in [the Gulf of Oman](https://apnews.com/hub/gulf-of-oman) as it tried to breach the American blockade of Iran’s ports, U.S. Central Command said in a social media post.
 
 The attack occurred as Iran and the U.S. are officially in a ceasefire. Trump threatened Tehran with a new wave of bombing if a deal is not reached that includes opening the critical Strait of Hormuz.
 
@@ -36,11 +36,11 @@ A shaky ceasefire between the U.S. and Tehran has largely held since April 8. Pa
 
 ## Trump suspends short-lived effort to force open safe passage
 
-Trump sought to increase pressure on Tehran the day after he suspended a short-lived U.S. effort to force open a safe passage for commercial ships through the strait. The waterway was a vital passage for oil and gas supplies, fertilizer and other petroleum products before the war.
+Trump sought to increase pressure on Tehran the day after he suspended a short-lived U.S. effort to force open a safe passage for commercial ships through the strait. The waterway was a vital passage for oil and gas supplies, fertilizer and [other petroleum products](https://apnews.com/article/iran-war-oil-consumer-products-petroleum-cdbcc14cca17d7db49b34e016adebac1) before the war.
 
 Only two American-flagged merchant ships are known to have passed through the U.S.-guarded route after it opened Monday. The U.S. military said it sank six Iranian small boats threatening civilian ships.
 
-Iran’s effective closure of the strait has sent fuel prices skyrocketing, rattled the global economy and put enormous economic pressure on countries, including major powers such as China.
+Iran’s effective closure of the strait has sent fuel prices skyrocketing, [rattled the global economy](https://apnews.com/article/oil-retail-iran-war-trump-519540133710a6e2309266a64bfb4c04) and put enormous economic pressure on countries, including major powers such as China.
 
 AP AUDIO: US and Iran appear to move closer to ending their war as Trump threatens more bombing
 
@@ -48,7 +48,7 @@ AP Washington correspondent Sagar Meghani reports President Trump is issuing a n
 
 China’s foreign minister called for a comprehensive ceasefire Wednesday after meeting in Beijing with Iran’s top envoy. Wang Yi said his country was “deeply distressed” by the conflict, which began Feb. 28 when the U.S. and Israel launched strikes against Iran.
 
-China’s close economic and political ties to Tehran give it a unique position of influence. The Trump administration is pressing China to use that relationship to urge the Islamic Republic to open the strait.
+China’s close economic and political ties to Tehran give it a [unique position of influence](https://apnews.com/article/china-iran-us-war-behind-scenes-diplomacy-64ffed10e021be660b3fb97f6f8647e9). The Trump administration is [pressing China](https://apnews.com/article/trump-xi-iran-rubio-hormuz-b8fd7a1f890b4bb88b47b52ebad04dde) to use that relationship to urge the Islamic Republic to open the strait.
 
 ## Iranian envoy visits
 
@@ -56,7 +56,7 @@ China’s close economic and political ties to Tehran give it a unique position 
 
 Iranian Foreign Minister Abbas Araghchi’s visit to China came ahead of a planned trip by Trump to Beijing.
 
-Trump is scheduled to attend a high-profile summit on May 14-15 with Chinese President Xi Jinping. Trump was the last U.S. president to visit China in 2017.
+Trump is scheduled to attend [a high-profile summit](https://apnews.com/article/trump-china-trip-iran-war-401c4c33a01b2acce72e96eb8058f8cc) on May 14-15 with Chinese President Xi Jinping. Trump was the last U.S. president to [visit China in 2017](https://apnews.com/article/15d8116042e14acbb86fecd69dc9fd1e).
 
 “We believe that a comprehensive ceasefire is urgently needed, that a resumption of hostilities is not acceptable,” Wang said in a video of the meeting.
 
@@ -80,7 +80,7 @@ Oil prices and shipping will not likely return to normal until the risk of attac
 
 Hapag-Lloyd, one of the world’s largest shipping companies, said in a statement that the strait’s shutdown is costing it around $60 million per week, with rising fuel and insurance costs hitting particularly hard. The company said alternate routes to other harbors or over land are limited.
 
-The spot price of Brent crude oil, the international standard, fell to around $100 per barrel Wednesday, easing significantly from big price jumps earlier in the week. Crude sold for roughly $70 a barrel before the war began.
+The spot price of Brent crude oil, the international standard, fell to around $100 per barrel Wednesday, easing significantly from [big price jumps earlier in the week](https://apnews.com/article/stocks-markets-rates-oil-iran-f49473018bee5fb6f2af85495fa045f8). Crude sold for roughly $70 a barrel before the war began.
 
 \_\_\_
 

@@ -2,11 +2,11 @@
 * The tool was prone to hallucinations, comparing Charli D'Amelio to blueberries and a dog training video to origami.
 * Going forward, the feature will focus on identifying products in videos, a TikTok spokesperson said.
 
-Did TikTok just have its "glue pizza" moment?
+Did TikTok just have its ["glue pizza" moment](https://www.businessinsider.com/google-ai-glue-pizza-i-tried-it-2024-5)?
 
 The company is pulling back on a new artificial intelligence feature it was testing that went haywire, adding wildly inaccurate AI-generated text summaries to videos from users like Charli D'Amelio, Shakira, and Saturday Night Live.
 
-These "AI overviews" were designed to provide additional context for a video, recommend similar products to what's on-screen, and generally explain what was happening. While the tool did a good job summarizing some posts, for others, it hallucinated more than Bryan Johnson did during his livestream mushroom trip.
+These "AI overviews" were designed to provide additional context for a video, recommend similar products to what's on-screen, and generally explain what was happening. While the tool did a good job summarizing some posts, for others, it hallucinated more than Bryan Johnson did during his [livestream mushroom trip](https://www.businessinsider.com/bryan-johnson-trip-on-mushrooms-five-hours-live-2025-12).
 
 Here are a few chaotic examples of AI overviews this reporter saw on the app in the past week:
 
@@ -22,10 +22,10 @@ Now, following user feedback, TikTok is pulling back on the test, a company spok
 
 The tool, which has been testing for a few months, was available to a limited set of users in the US and a few other markets, the spokesperson said, describing it as an experiment.
 
-TikTok declined to share which models it used to power its AI overviews, but an in-app description of the feature says it relied on either TikTok's own AI tech or third-party products.
+TikTok declined to share which models it used to power its AI overviews, but an in-app description of the feature says it relied on either TikTok's own [AI tech](https://www.businessinsider.com/social-giants-build-ai-future-creators-less-power-2026-3) or third-party products.
 
-Seeing hallucinatory AI summaries show up in my feed this week felt like a throwback to when ChatGPT and other early AI products regularly made stuff up.
+Seeing [hallucinatory AI](https://www.businessinsider.com/ai-hallucinations-court-filings-eve-dudley-debosier-2026-4) summaries show up in my feed this week felt like a throwback to when ChatGPT and other early AI products regularly made stuff up.
 
 When Google released its version of AI overviews in 2024, the feature confidently proclaimed that a dog had played in the NHL, for example. It told my coworker Katie Notopoulos to add glue to her pizza to keep the cheese from sliding off.
 
-While AI tools are getting better at answering some questions — a recent analysis by the AI firm Oumi found Google's AI overviews were accurate about 90% of the time — it felt oddly comforting to see that a technology that doomsdayers predict will wipe out white-collar jobs and take over many facets of our lives can still fail in silly and surprising ways.
+While AI tools are getting better at answering some questions — a recent analysis by the AI firm Oumi found Google's AI overviews were accurate about 90% of the time — it felt oddly comforting to see that a technology that doomsdayers predict will [wipe out white-collar jobs](https://www.businessinsider.com/ai-is-putting-pure-managers-at-layoff-risk-2026-5) and take over many facets of our lives can still fail in silly and surprising ways.

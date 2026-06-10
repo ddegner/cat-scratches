@@ -1,8 +1,8 @@
-Releases
+[Releases](https://www.whitehouse.gov/releases/)
 
 The White House
 
-One year ago today, President Donald J. Trump returned to office with a resounding mandate to restore prosperity, secure the border, rebuild American strength, and put the American people first. In just 365 days, President Trump has delivered truly transformative results with the most accomplished first year of any presidential term in modern history.
+One year ago today, President Donald J. Trump [returned to office](https://www.whitehouse.gov/remarks/2025/01/the-inaugural-address/) with a resounding mandate to restore prosperity, secure the border, rebuild American strength, and put the American people first. In just 365 days, President Trump has delivered truly transformative results with the most accomplished first year of any presidential term in modern history.
 
 From negative net migration for the first time in 50 years to the largest homicide drop on record, trillions in reshored investments, peace deals ending multiple wars, record energy production, and massive bureaucracy cuts, President Trump has put America First with urgency — and he’s just getting started.
 

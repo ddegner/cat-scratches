@@ -1,8 +1,12 @@
+[
+
 # Home
 
-cysulspooks
+](/?error=invalid_post)
 
-7h
+[cysulspooks](/@cysulspooks)
+
+[7h](/@cysulspooks/post/DX_wLwekWQd)
 
 Date cancelled:
 
@@ -12,9 +16,9 @@ they dont like haunted houses or horror movies
 
 1
 
-covie\_93
+[covie\_93](/@covie_93)
 
-18h
+[18h](/@covie_93/post/DX-lA27jPpN)
 
 The same Republicans who cut funding for childhood cancer research want to give trump $1 billion for a ballroom.
 
@@ -26,9 +30,9 @@ The same Republicans who cut funding for childhood cancer research want to give 
 
 80
 
-alexlenburner
+[alexlenburner](/@alexlenburner)
 
-18h
+[18h](/@alexlenburner/post/DX-qDH4kf17)
 
 One Finals matchup no one anticipated:
 
@@ -38,19 +42,23 @@ Detroit vs. Thunder
 
 2
 
-idontbeatgames
+[idontbeatgames](/@idontbeatgames)
+
+[
 
 Daredevil Watch Party
 
-18h
+](/search?q=Daredevil%20Watch%20Party&serp_type=tags&tag_id=18486029098030695)
+
+[18h](/@idontbeatgames/post/DX-l3CXILuJ)
 
 Alright Daredevil fans, lets do this one last time for the season.
 
 49
 
-danzibooks
+[danzibooks](/@danzibooks)
 
-21h
+[21h](/@danzibooks/post/DX-QcumDgSS)
 
 Wow, today has been quite... active on here.
 
@@ -58,4 +66,4 @@ Wow, today has been quite... active on here.
 
 Log in or sign up for ThreadsSee what people are talking about and join the conversation.
 
-Log in with username instead
+[Log in with username instead](/login?show_choice_screen=false)

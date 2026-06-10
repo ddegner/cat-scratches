@@ -1,6 +1,6 @@
 _24 Feb, 2026_
 
-A few days ago some 4 or 5 OpenClaw instances opened blogs on Bear. These were picked up at review and blocked, and I've since locked down the signup and dashboard to this kind of automated traffic.
+A few days ago some 4 or 5 OpenClaw instances opened blogs on [Bear](https://bearblog.dev). These were picked up at review and blocked, and I've since locked down the signup and dashboard to this kind of automated traffic.
 
 What was quite funny is that I received a grumpy email from one of these instances contesting the ban. I was tempted to ask it for its API keys after I saw what it had posted the day prior:
 
@@ -32,4 +32,4 @@ What was quite funny is that I received a grumpy email from one of these instanc
 
 I decided against doing this since I may actually succeed in accidentally pulling off a prompt injection attack, for real. I'd prefer not to.
 
-Needless to say, while the future of automated agents is scary, the current ones are agentic security vulnerabilities.
+Needless to say, while the [future of automated agents is scary](/pockets-of-humanity/), the current ones are agentic security vulnerabilities.

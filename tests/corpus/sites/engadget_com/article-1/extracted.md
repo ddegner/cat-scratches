@@ -1,6 +1,8 @@
+By [Kris Holt](/author/kris-holt/) May 5, 2026 2:39 pm EST
+
 Google
 
-Google is continuing to revamp its smart home app and the latest change includes an update to the camera experience. Among other things, the company says that it has refreshed the user interface of Google Home to allow for faster navigation and smoother scrubbing through videos, with the aim of giving you a look at the broader picture of what your cameras pick up.
+Google is continuing to revamp its smart home app and the latest change includes an update to the camera experience. Among other things, the company says that it has [refreshed the user interface](https://www.googlenestcommunity.com/t5/Blog/Enhanced-Camera-Experience-in-the-Google-Home-App/ba-p/802595) of Google Home to allow for faster navigation and smoother scrubbing through videos, with the aim of giving you a look at the broader picture of what your cameras pick up.
 
 For instance, you'll be able to filter and sort events by factors such as "Person seen," "Package seen," "Glass break heard". Thumbnail previews are now animated and focus on subjects to make it easier for you to see at a glance what your camera picked up. The player window will remain visible while you scroll too.
 
@@ -10,6 +12,6 @@ In addition, Google has updated its familiar face detection tools. You'll be abl
 
 There are also new camera controls, such as a handy option to skip back or forward through event recordings in 10-second chunks. You can swipe to switch between the timeline and events, resize the video player by pulling down on the control bar and close the camera view by swiping down.
 
-As you might expect, many of these features are powered by Gemini. On a related note, Google has updated Gemini for Home. Folks who have signed up for the early access program are using a version that's powered by Gemini 3.1. As such, according to Google, the updated voice assistant can now better handle multi-step commands. This means you "can now combine different tasks, such as adding new items and updating existing lists in one breath."
+As you might expect, many of these features are powered by Gemini. On a related note, Google has updated [Gemini for Home](https://www.engadget.com/home/smart-home/google-now-lets-you-have-full-conversations-with-gemini-for-home-160000511.html). Folks who have signed up for the early access program are using a version that's powered by Gemini 3.1. As such, [according to Google](https://www.googlenestcommunity.com/t5/Blog/Google-Home-Update-Spring-2026-Home-sweet-home-is-now-more-helpful/ba-p/802246), the updated voice assistant can now better handle multi-step commands. This means you "can now combine different tasks, such as adding new items and updating existing lists in one breath."
 
 The company added that Gemini 3.1 has a better handle on identifying similar list names to help prevent it from creating duplicates, while you can expect easier alarm and calendar management thanks to improvements to how Gemini deals with recurring all-day events. Google said it has "also resolved issues with mixing up AM/PM when setting an alarm," which seems like a pretty basic function to have fully squared away.

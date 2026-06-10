@@ -1,4 +1,4 @@
-_The Ignorant Art Historian is a series by the art critic Hal Foster, in which he tries to “demystify the viewing of art a little, not to deskill it exactly, but to suggest that anyone can do it.” You can read his introduction to the series here and the first installment here. The next two entries will appear later this month._ 
+_The Ignorant Art Historian is a series by the art critic Hal Foster, in which he tries to “demystify the viewing of art a little, not to deskill it exactly, but to suggest that anyone can do it.” You can read his introduction to the series [here](https://www.theparisreview.org/blog/2026/04/24/the-ignorant-art-historian/) and the first installment [here](https://www.theparisreview.org/blog/2026/04/28/the-ignorant-art-historian-view-of-notre-dame/). The next two entries will appear later this month._ 
 
 Almost everyone passes right by this Monet at the Met. Unlike the paintings of his iconic _Haystack_ or _Rouen Cathedral_ series, examples of which are nearby, this bluish-white blur is easy to overlook. You have to wait on this picture, attend to it, in order for it to appear at all.
 

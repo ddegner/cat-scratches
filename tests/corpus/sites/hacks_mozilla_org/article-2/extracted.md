@@ -1,6 +1,6 @@
-In January, we introduced our Nightly package for RPM-based Linux distributions. Today, we are thrilled to announce it is now available for Firefox Beta!
+In January, we introduced our [Nightly package](https://blog.nightly.mozilla.org/2026/01/19/introducing-mozillas-firefox-nightly-rpm-package-for-rpm-based-linux-distributions/) for RPM-based Linux distributions. Today, we are thrilled to announce it is now available for Firefox Beta!
 
-Firefox Beta is great for testing your sites in a version of Firefox that will reach regular users in the coming weeks. If you find any issues, please file them on Bugzilla.
+Firefox Beta is great for testing your sites in a version of Firefox that will reach regular users in the coming weeks. If you find any issues, please file them on [Bugzilla](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&blocked=213920&product=Release%20Engineering&component=Release%20Automation).
 
 Switching to Mozilla’s RPM repository allows Firefox Beta to be installed and updated like any other application, using your favorite package manager. It also provides a number of improvements:
 
@@ -30,10 +30,8 @@ sudo zypper refresh
 sudo zypper install firefox-beta
 ```
 
-#### For other RPM based distributions (RHEL, CentOS, Rocky Linux, older Fedora versions)
-
 ```bash
-sudo tee /etc/yum.repos.d/mozilla.repo > /dev/null << EOF
+sudo tee /etc/yum.repos.d/mozilla.repo >  /dev/null << EOF
 [mozilla]
 name=Mozilla Packages
 baseurl=https://packages.mozilla.org/rpm/firefox
@@ -60,7 +58,7 @@ The _firefox-beta_ package will not conflict with your distribution’s Firefox 
 
 #### Adding language packs
 
-If your distribution language is set to a supported language, language packs for it should automatically be installed. You can also install them manually with the following command (replace `fr` with the language code of your choice):
+If your distribution language is set to a [supported language](https://www.firefox.com/download/all/desktop-beta/linux64/), language packs for it should automatically be installed. You can also install them manually with the following command (replace `fr` with the language code of your choice):
 
 ```bash
 sudo dnf install firefox-beta-l10n-fr
@@ -72,8 +70,9 @@ You can list the available languages with the following command:
 dnf search firefox-beta-l10n
 ```
 
-Don’t hesitate to report any problem you encounter to help us make your experience better.
+
+Don’t hesitate to [report any problem you encounter](https://bugzilla.mozilla.org/enter_bug.cgi?format=__default__&blocked=213920&product=Release Engineering&component=Release Automation) to help us make your experience better.
 
 ## About Bastien Orivel
 
-More articles by Bastien Orivel…
+[More articles by Bastien Orivel…](https://hacks.mozilla.org/author/borivel/)

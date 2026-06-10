@@ -4,7 +4,7 @@
 
 Ted Turner, the brash media mogul who created CNN and revolutionized how Americans watched television, and who wielded his media empire and wealth to pursue liberal global causes and land conservation, has died. He was 87.
 
-Turner died Wednesday, according to his family.
+Turner died Wednesday, according to [his family](https://www.tedturner.com/ted-turner-legacy/).
 
 In 2018, he revealed he had been diagnosed with Lewy body dementia, a neurodegenerative disease, which had been progressing in recent years.
 
@@ -24,7 +24,7 @@ Turner believed that “over-the-air networks would decline as audiences turned 
 
 Within two years, CNN had more than 9 million subscribers. By the 2000s, Turner’s once far-flung idea for an around-the-clock news service had become so successful that it had attracted imitators such as MSNBC (now called MS NOW) and Fox News.
 
-“We not only became profitable, but also changed the nature of news — from watching something that happened to watching it as it happened,” Turner said of CNN in 2004. “If we needed more money for \[broadcasting from\] Kosovo or Baghdad, we’d find it. If we had to bust the budget, we busted the budget. We put journalism first, and that’s how we built CNN into something the world wanted to watch.”
+“We not only became profitable, but also changed the nature of news — from watching something that happened to watching it as it happened,” Turner [said of CNN in 2004](https://washingtonmonthly.com/magazine/julyaugust-2004/my-beef-with-big-media/). “If we needed more money for \[broadcasting from\] Kosovo or Baghdad, we’d find it. If we had to bust the budget, we busted the budget. We put journalism first, and that’s how we built CNN into something the world wanted to watch.”
 
 Fox Corp. Chairman Emeritus Rupert Murdoch, who was both a rival and friend of Turner’s, said his “vision for 24-hour cable news transformed the media industry and gave viewers everywhere a front seat to witness history unfold. His impact as a trailblazer has left an indelible mark on our cultural landscape.”
 
@@ -46,7 +46,7 @@ He inherited the business at the age of 24 after his father died by suicide. By 
 
 While growing the business, Turner also pursued his passion for competitive sailing, which is how he met his first wife, Judy Nye, in college. It’s also how their marriage ended. Turner intentionally hit his wife’s boat during a 1963 race to keep her from passing him, and the pair, who had two children, split immediately afterward.
 
-It was to be the first of three divorces. . “My problem is I love every woman I meet,” Turner said. He would go on to win the America’s Cup in 1977 while expanding his father’s company into a modern multimedia conglomerate.
+It was to be the first of three divorces. . “My problem is I love every woman I meet,” [Turner said](https://www.newyorker.com/magazine/2001/04/23/the-lost-tycoon). He would go on to win the America’s Cup in 1977 while expanding his father’s company into a modern multimedia conglomerate.
 
 Leveraging the billboard business, Turner started buying local radio stations across the South in the late 1960s. In 1970, he bought the Channel 17 television station in Atlanta, competing with local network affiliates by airing old movies whose rights were affordable and picking up programming dropped by the less nimble competition. He didn’t like putting news on prime time back then — too negative — and soon picked up broadcast rights for the Braves, Hawks and other local sports.
 
@@ -62,13 +62,13 @@ Still hungry for more, Turner finally turned his attention to news programming. 
 
 There were some lean early years. But the nascent channel fended off an attempt by ABC to create a competitor, and critics could see the value of an ever-present news channel, even if quality was a little thin at times.
 
-“Non-viewers of CNN are missing a lot. There are so many reasons to watch,” Los Angeles Times critic Howard Rosenberg wrote in 1986, hailing the six-year-old channel as an “institution.” “It’s not _always_ good, but it’s always _there_.”
+“Non-viewers of CNN are missing a lot. There are so many reasons to watch,” Los Angeles Times critic Howard Rosenberg [wrote in 1986](https://www.latimes.com/archives/la-xpm-1986-05-05-ca-3473-story.html), hailing the six-year-old channel as an “institution.” “It’s not _always_ good, but it’s always _there_.”
 
 In 1986, CNN was the only broadcaster running live coverage when the Challenger shuttle liftoff ended in disaster. In 1991, the network gave Americans a live and uninterrupted look at the invasion of Iraq. American officials held news conferences knowing that Iraqi leader Saddam Hussein was watching them on CNN.
 
 Americans had seen images of war before, but not broadcast nonstop into their homes.
 
-“CNN seeks to be a stethoscope attached to the hypothetical heart of the war, and to present us with its hypothetical pulse,” the French theorist Jean Baudrillard wrote, critiquing the conflict as a media spectacle. Media scholars began to wonder whether a “CNN effect” was influencing government policy. Officials found that they now had to respond much more quickly to crises unfolding on live television.
+“CNN seeks to be a stethoscope attached to the hypothetical heart of the war, and to present us with its hypothetical pulse,” the French theorist Jean Baudrillard wrote, critiquing the conflict as a media spectacle. Media scholars began to wonder whether a “[CNN effect](https://go.gale.com/ps/anonymous?id=GALE%7CA18328925&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=10678654&p=AONE&sw=w)” was influencing government policy. Officials found that they now had to respond much more quickly to crises unfolding on live television.
 
 Turner was not adversarial to communist countries of the era and even tried his own version of the Olympics, called the Goodwill Games, a bit of private-sector peace-craft that brought the Soviet Union and the U.S. out of their respective Olympic boycotts and back into direct competition in the 1980s. All on television, of course.
 
@@ -82,7 +82,7 @@ In 1991, a year marked by the collapse of the Soviet Union, the first U.S. war a
 
 Time’s honorific was also a nice bit of corporate synergy. The magazine’s parent company, Time Warner, owned about 20% of Turner Broadcasting System stock.
 
-Turner launched the Cartoon Network in 1992, which helped introduce his then-newly acquired Hanna-Barbera characters — including Fred Flintstone, Yogi Bear and Scooby-Doo — to a new generation of viewers.
+Turner launched the [Cartoon Network in 1992](https://www.latimes.com/archives/la-xpm-1992-05-11-ca-1181-story.html), which helped introduce his then-newly acquired Hanna-Barbera characters — including Fred Flintstone, Yogi Bear and Scooby-Doo — to a new generation of viewers.
 
 Adversaries thought that Turner’s ventures could be reckless and impulsive. Far-seeing accomplishments in national broadcasting and the creation of CNN were also paired with several expensive misadventures, including a failed attempt to buy CBS.
 
@@ -94,7 +94,7 @@ In 1996, Turner Broadcasting merged with Time Warner to form the world’s large
 
 CNN Worldwide Chairman Mark Thompson added: “He was and always will be the presiding spirit of CNN. Ted is the giant on whose shoulders we stand.”
 
-Turner resigned from the AOL Time Warner board in 2003, and in 2007, announced he had sold his company shares. In his later days, one of his best-known ventures was his Ted’s Montana Grill restaurant chain. His philanthropy and land conservation efforts and protection of the American bison became guide posts during his retirement years.
+Turner resigned [from the AOL Time Warner board](https://www.latimes.com/archives/la-xpm-2003-jan-30-fi-turner30-story.html) in 2003, and in 2007, announced he had sold [his company shares](https://www.latimes.com/archives/la-xpm-2003-feb-15-fi-moturner15-story.html). In his later days, one of his best-known ventures was his Ted’s Montana Grill restaurant chain. His philanthropy and land conservation efforts and protection of the American bison became guide posts during his retirement years.
 
 While CNN maintains influence in the U.S. and abroad, its TV ratings have declined in recent years — a casualty of changing consumer behavior, the rise of social media, derision from President Trump — and several ownership changes.
 

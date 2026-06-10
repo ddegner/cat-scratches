@@ -16,6 +16,8 @@ A journalist-founded digital media company exploring the ways technology is shap
 
 Following
 
+by Jason, Sam, Joseph, Emanuel
+
 ## Welcome to the social web.
 
 Bringing back the blogosphere
@@ -56,6 +58,8 @@ Copied!
 A journalist-founded digital media company exploring the ways technology is shaping—and is shaped by—our world.
 
 Following
+
+by Jason, Sam, Joseph, Emanuel
 
 ### Platformer
 
@@ -115,9 +119,9 @@ Go deeper, with native analytics
 
 **Powerful growth insights to drive decision making.** You’ve always been able to use web analytics tools in Ghost, but now we’ve built data collection and reporting directly into the core platform.
 
-Thanks to a new analytics database and a deep partnership with our friends at Tinybird, you have more power than ever before to explore your data.
+Thanks to a new analytics database and a deep partnership with our friends at [Tinybird](https://tbrd.co/ghost), you have more power than ever before to explore your data.
 
-Powered by +
+[Powered by +](https://tbrd.co/ghost)
 
 ### Understand what’s working, across every channel
 
@@ -147,37 +151,55 @@ Find out which posts make people upgrade to paid.
 
 ## New tools to create, engage, and earn.
 
+[
+
 ### Payment methods
 
 Accept paid subscriptions with credit cards, Apple Pay, Google Pay, CashApp, iDEAL, Bancontact, and more.
+
+](https://ghost.org/changelog/additional-payment-methods-beta/)[
 
 ### Contextual content
 
 Choose which readers see what content, so you have fine grained control of sponsorships, ads, and special offers.
 
+](https://ghost.org/changelog/custom-content-for-every-subscriber/)[
+
 ### Tips & donations
 
 Give people a simple way to support your work with one-time payments, no membership required.
+
+](https://ghost.org/changelog/tips-donations/)[
 
 ### Branded newsletters
 
 Stand out in a crowded inbox with your own custom email template that looks as good as your website.
 
+](https://ghost.org/changelog/newsletter-design/)[
+
 ### Custom fonts
 
 Native support for custom typography and even more control over your brand.
+
+](https://ghost.org/changelog/custom-fonts/)[
 
 ### Upgraded comments
 
 Now with threaded replies, new sorting options, and improved moderation controls.
 
+](https://ghost.org/changelog/upgraded-comments/)[
+
 ### Internationalization
 
 Support for publishing in over 60 different languages, so your subscribers feel right at home.
 
+](https://ghost.org/changelog/internationalization/)[
+
 ### Spam protection
 
 Control who can sign up on your site, so you can keep bad actors and automated spam at bay.
+
+](https://ghost.org/changelog/signup-spam-protection/)
 
 ## For 12 years, we’ve been building open technology to make independent media sustainable.
 
@@ -193,4 +215,4 @@ These successful media businesses follow a simple model that's been around for a
 
 After more than a decade of clickbait undermining media credibility, subscription-based publishers are discovering a simple truth: Producing high quality content that readers genuinely value is a far better business than chasing low quality page views for diminishing ad revenue.
 
-Continue reading our 6.0 update →
+[Continue reading our 6.0 update →](https://ghost.org/changelog/6/)

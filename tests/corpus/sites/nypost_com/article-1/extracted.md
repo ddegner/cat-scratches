@@ -1,4 +1,4 @@
-A former teacher swapped the classroom to earn up to $100,000 a year as a professional cuddler — and only works three hours a day.
+A former teacher swapped the classroom to earn up to $100,000 a year as a [professional cuddler](https://nypost.com/2025/01/06/lifestyle/cuddling-salon-for-lonely-people-is-so-popular-theres-a-waitlist-and-a-warning-about-sex/) — and only works three hours a day.
 
 Ella Love, 51, from New York, ditched her teaching profession after 13 years because it became “stressful” and “overwhelming”.
 
@@ -12,11 +12,11 @@ Ella said, “My average client is a middle-aged man with a well-paying job — 
 
 “They’ve grown apart, there are communication problems, and they feel completely disconnected. They come to me because they still want to stay in their marriage — they just need touch and someone to talk to.
 
-“People think they’re just paying for a hug, but that’s not what happens. The touch activates suppressed emotions.
+“People think they’re just paying for a hug, but that’s not what happens. The touch activates [suppressed emotions](https://nypost.com/2026/05/06/lifestyle/psychologist-reveals-5-ways-parents-sabotage-a-childs-mental-health/).
 
 “They suddenly start remembering things, opening up, telling me things they’ve never said out loud before. It becomes a very intense therapeutic experience.”
 
-The former art teacher discovered professional cuddling in 2017 after becoming overwhelmed in a stressful New York school.
+The former art teacher discovered professional cuddling in 2017 after becoming overwhelmed in a stressful [New York school](https://nypost.com/2026/05/05/us-news/zohran-mamdanis-mayoral-control-of-nyc-schools-in-jeopardy-as-state-budget-talks-drag-on/).
 
 She said, “I teach in urban public schools where the majority are students of color and we had a lot of systemic problems in America.
 
@@ -26,7 +26,7 @@ Ella was earning $80,000 a year as a teacher, working at least eight hours a day
 
 She said, “I was looking for something with a completely different energy, something calming and centering. I wasn’t thinking this would become my career.
 
-“I just wanted something that would help regulate my nervous system alongside teaching.”
+“I just wanted something that would help regulate my [nervous system](https://nypost.com/2026/04/29/health/biohacker-reveals-his-free-favorite-tricks-for-calming-anxiety/) alongside teaching.”
 
 But after taking an online course and trying it part-time, she quickly realized she had found her calling.
 
@@ -50,9 +50,9 @@ She said, “It varies a lot. Some people come for an hour, others for 90 minute
 
 She says her earnings can reach $100,000 in a strong year, though average closer to $60,000. Beyond the money, she says the work is deeply emotional, and sometimes complicated.
 
-But she makes it clear it is not “a romantic relationship”.
+But she makes it clear it is not “a [romantic](https://nypost.com/2025/11/20/health/how-a-little-romance-can-actually-heal-your-wounds-faster/) relationship”.
 
-Ella also works with clients who struggle with physical interaction, including some on the autism spectrum.
+Ella also works with clients who struggle with physical interaction, including some on the [autism spectrum](https://nypost.com/2026/04/30/health/new-autism-therapy-may-improve-communication-skills-in-kids/).
 
 She said, “For some people, this is the first time they’ve experienced safe, consensual touch. They might struggle with eye contact or connection, and this gives them a space to learn that. It is a safe environment where people can practice.”
 
@@ -62,7 +62,7 @@ She said, “Most people don’t tell anyone they come to see me. There’s stil
 
 The job has also made her own love life more complicated.
 
-She said, “It takes a very confident and trusting partner to date me.
+She said, “It takes a very confident and trusting partner to [date](https://nypost.com/2026/01/30/lifestyle/modern-dating-is-missing-the-mark-for-womennew-study-reveals-why/) me.
 
 “Some of my relationships have worked, but it can bring up jealousy because the work is so intimate and emotional.
 

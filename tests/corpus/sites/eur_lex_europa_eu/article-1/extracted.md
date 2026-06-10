@@ -1,18 +1,18 @@
 This document is an excerpt from the EUR-Lex website
 
-1. EUROPA
-2. EUR-Lex home
+1. [EUROPA](https://europa.eu/european-union/index_en)
+2. [EUR-Lex home](./../../../homepage.html "EUR-Lex home")
 3. Regulation - 2016/679 - EN - gdpr - EUR-Lex
 
-* Help
+* [Help](./../../../content/help.html "Help")
 
-  Search tips
+  [Search tips](# "Search tips")
 
-Need more search options? Use the Advanced search
+Need more search options? Use the [Advanced search](./../../../advanced-search-form.html "Advanced search")
 
 Document 32016R0679
 
-* Help
+* [Help](./../../../content/help.html "Help")
 
 ​
 
@@ -25,115 +25,121 @@ Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 Apr
 _OJ L 119, 4.5.2016, pp. 1–88 (BG, ES, CS, DA, DE, ET, EL, EN, FR, GA, HR, IT, LV, LT, HU, MT, NL, PL, PT, RO, SK, SL, FI, SV) 
 _
 
-In force: This act has been changed. **Current consolidated version: 04/05/2016**
+In force: This act has been changed. **Current consolidated version: [04/05/2016](./../../../legal-content/EN/AUTO/?uri=CELEX:02016R0679-20160504)**
 
-ELI: http://data.europa.eu/eli/reg/2016/679/oj
+ELI: [http://data.europa.eu/eli/reg/2016/679/oj](http://data.europa.eu/eli/reg/2016/679/oj "Gives access to this document through its ELI URI.")
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/?uri=CELEX:32016R0679 "български")
+* [ES](./../../../legal-content/ES/TXT/?uri=CELEX:32016R0679 "Español")
+* [CS](./../../../legal-content/CS/TXT/?uri=CELEX:32016R0679 "Čeština")
+* [DA](./../../../legal-content/DA/TXT/?uri=CELEX:32016R0679 "Dansk")
+* [DE](./../../../legal-content/DE/TXT/?uri=CELEX:32016R0679 "Deutsch")
+* [ET](./../../../legal-content/ET/TXT/?uri=CELEX:32016R0679 "Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/?uri=CELEX:32016R0679 "Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/?uri=CELEX:32016R0679 "English")
+* [FR](./../../../legal-content/FR/TXT/?uri=CELEX:32016R0679 "Français")
+* [GA](./../../../legal-content/GA/TXT/?uri=CELEX:32016R0679 "Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/?uri=CELEX:32016R0679 "Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/?uri=CELEX:32016R0679 "Italiano")
+* [LV](./../../../legal-content/LV/TXT/?uri=CELEX:32016R0679 "Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/?uri=CELEX:32016R0679 "Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/?uri=CELEX:32016R0679 "Magyar")
+* [MT](./../../../legal-content/MT/TXT/?uri=CELEX:32016R0679 "Malti")
+* [NL](./../../../legal-content/NL/TXT/?uri=CELEX:32016R0679 "Nederlands")
+* [PL](./../../../legal-content/PL/TXT/?uri=CELEX:32016R0679 "Polski")
+* [PT](./../../../legal-content/PT/TXT/?uri=CELEX:32016R0679 "Português")
+* [RO](./../../../legal-content/RO/TXT/?uri=CELEX:32016R0679 "Română")
+* [SK](./../../../legal-content/SK/TXT/?uri=CELEX:32016R0679 "Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/?uri=CELEX:32016R0679 "Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/?uri=CELEX:32016R0679 "Suomi")
+* [SV](./../../../legal-content/SV/TXT/?uri=CELEX:32016R0679 "Svenska")
 
   HTML
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/HTML/?uri=CELEX:32016R0679 "HTML български")
+* [ES](./../../../legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679 "HTML Español")
+* [CS](./../../../legal-content/CS/TXT/HTML/?uri=CELEX:32016R0679 "HTML Čeština")
+* [DA](./../../../legal-content/DA/TXT/HTML/?uri=CELEX:32016R0679 "HTML Dansk")
+* [DE](./../../../legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679 "HTML Deutsch")
+* [ET](./../../../legal-content/ET/TXT/HTML/?uri=CELEX:32016R0679 "HTML Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/HTML/?uri=CELEX:32016R0679 "HTML Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679 "HTML English")
+* [FR](./../../../legal-content/FR/TXT/HTML/?uri=CELEX:32016R0679 "HTML Français")
+* [GA](./../../../legal-content/GA/TXT/HTML/?uri=CELEX:32016R0679 "HTML Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/HTML/?uri=CELEX:32016R0679 "HTML Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679 "HTML Italiano")
+* [LV](./../../../legal-content/LV/TXT/HTML/?uri=CELEX:32016R0679 "HTML Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/HTML/?uri=CELEX:32016R0679 "HTML Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/HTML/?uri=CELEX:32016R0679 "HTML Magyar")
+* [MT](./../../../legal-content/MT/TXT/HTML/?uri=CELEX:32016R0679 "HTML Malti")
+* [NL](./../../../legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679 "HTML Nederlands")
+* [PL](./../../../legal-content/PL/TXT/HTML/?uri=CELEX:32016R0679 "HTML Polski")
+* [PT](./../../../legal-content/PT/TXT/HTML/?uri=CELEX:32016R0679 "HTML Português")
+* [RO](./../../../legal-content/RO/TXT/HTML/?uri=CELEX:32016R0679 "HTML Română")
+* [SK](./../../../legal-content/SK/TXT/HTML/?uri=CELEX:32016R0679 "HTML Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/HTML/?uri=CELEX:32016R0679 "HTML Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/HTML/?uri=CELEX:32016R0679 "HTML Suomi")
+* [SV](./../../../legal-content/SV/TXT/HTML/?uri=CELEX:32016R0679 "HTML Svenska")
 
   PDF
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/PDF/?uri=CELEX:32016R0679 "PDF български")
+* [ES](./../../../legal-content/ES/TXT/PDF/?uri=CELEX:32016R0679 "PDF Español")
+* [CS](./../../../legal-content/CS/TXT/PDF/?uri=CELEX:32016R0679 "PDF Čeština")
+* [DA](./../../../legal-content/DA/TXT/PDF/?uri=CELEX:32016R0679 "PDF Dansk")
+* [DE](./../../../legal-content/DE/TXT/PDF/?uri=CELEX:32016R0679 "PDF Deutsch")
+* [ET](./../../../legal-content/ET/TXT/PDF/?uri=CELEX:32016R0679 "PDF Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/PDF/?uri=CELEX:32016R0679 "PDF Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/PDF/?uri=CELEX:32016R0679 "PDF English")
+* [FR](./../../../legal-content/FR/TXT/PDF/?uri=CELEX:32016R0679 "PDF Français")
+* [GA](./../../../legal-content/GA/TXT/PDF/?uri=CELEX:32016R0679 "PDF Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/PDF/?uri=CELEX:32016R0679 "PDF Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/PDF/?uri=CELEX:32016R0679 "PDF Italiano")
+* [LV](./../../../legal-content/LV/TXT/PDF/?uri=CELEX:32016R0679 "PDF Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/PDF/?uri=CELEX:32016R0679 "PDF Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/PDF/?uri=CELEX:32016R0679 "PDF Magyar")
+* [MT](./../../../legal-content/MT/TXT/PDF/?uri=CELEX:32016R0679 "PDF Malti")
+* [NL](./../../../legal-content/NL/TXT/PDF/?uri=CELEX:32016R0679 "PDF Nederlands")
+* [PL](./../../../legal-content/PL/TXT/PDF/?uri=CELEX:32016R0679 "PDF Polski")
+* [PT](./../../../legal-content/PT/TXT/PDF/?uri=CELEX:32016R0679 "PDF Português")
+* [RO](./../../../legal-content/RO/TXT/PDF/?uri=CELEX:32016R0679 "PDF Română")
+* [SK](./../../../legal-content/SK/TXT/PDF/?uri=CELEX:32016R0679 "PDF Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/PDF/?uri=CELEX:32016R0679 "PDF Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/PDF/?uri=CELEX:32016R0679 "PDF Suomi")
+* [SV](./../../../legal-content/SV/TXT/PDF/?uri=CELEX:32016R0679 "PDF Svenska")
 
   Official Journal
 
-*   BG
-*   ES
-*   CS
-*   DA
-*   DE
-*   ET
-*   EL
-*   EN
-*   FR
-*   GA
-*   HR
-*   IT
-*   LV
-*   LT
-*   HU
-*   MT
-*   NL
-*   PL
-*   PT
-*   RO
-*   SK
-*   SL
-*   FI
-*   SV
+*   [BG](./../../../legal-content/BG/TXT/?uri=OJ:L:2016:119:TOC "OJ български")
+*   [ES](./../../../legal-content/ES/TXT/?uri=OJ:L:2016:119:TOC "OJ Español")
+*   [CS](./../../../legal-content/CS/TXT/?uri=OJ:L:2016:119:TOC "OJ Čeština")
+*   [DA](./../../../legal-content/DA/TXT/?uri=OJ:L:2016:119:TOC "OJ Dansk")
+*   [DE](./../../../legal-content/DE/TXT/?uri=OJ:L:2016:119:TOC "OJ Deutsch")
+*   [ET](./../../../legal-content/ET/TXT/?uri=OJ:L:2016:119:TOC "OJ Eesti keel")
+*   [EL](./../../../legal-content/EL/TXT/?uri=OJ:L:2016:119:TOC "OJ Ελληνικά")
+*   [EN](./../../../legal-content/EN/TXT/?uri=OJ:L:2016:119:TOC "OJ English")
+*   [FR](./../../../legal-content/FR/TXT/?uri=OJ:L:2016:119:TOC "OJ Français")
+*   [GA](./../../../legal-content/GA/TXT/?uri=OJ:L:2016:119:TOC "OJ Gaeilge")
+*   [HR](./../../../legal-content/HR/TXT/?uri=OJ:L:2016:119:TOC "OJ Hrvatski")
+*   [IT](./../../../legal-content/IT/TXT/?uri=OJ:L:2016:119:TOC "OJ Italiano")
+*   [LV](./../../../legal-content/LV/TXT/?uri=OJ:L:2016:119:TOC "OJ Latviešu valoda")
+*   [LT](./../../../legal-content/LT/TXT/?uri=OJ:L:2016:119:TOC "OJ Lietuvių kalba")
+*   [HU](./../../../legal-content/HU/TXT/?uri=OJ:L:2016:119:TOC "OJ Magyar")
+*   [MT](./../../../legal-content/MT/TXT/?uri=OJ:L:2016:119:TOC "OJ Malti")
+*   [NL](./../../../legal-content/NL/TXT/?uri=OJ:L:2016:119:TOC "OJ Nederlands")
+*   [PL](./../../../legal-content/PL/TXT/?uri=OJ:L:2016:119:TOC "OJ Polski")
+*   [PT](./../../../legal-content/PT/TXT/?uri=OJ:L:2016:119:TOC "OJ Português")
+*   [RO](./../../../legal-content/RO/TXT/?uri=OJ:L:2016:119:TOC "OJ Română")
+*   [SK](./../../../legal-content/SK/TXT/?uri=OJ:L:2016:119:TOC "OJ Slovenčina")
+*   [SL](./../../../legal-content/SL/TXT/?uri=OJ:L:2016:119:TOC "OJ Slovenščina")
+*   [FI](./../../../legal-content/FI/TXT/?uri=OJ:L:2016:119:TOC "OJ Suomi")
+*   [SV](./../../../legal-content/SV/TXT/?uri=OJ:L:2016:119:TOC "OJ Svenska")
+
+English (en) Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
+
+Please choose Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
+
+Please choose Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
 
 4.5.2016   
 
@@ -142,8 +148,6 @@ EN
 Official Journal of the European Union
 
 L 119/1
-
----
 
 REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
 
@@ -161,11 +165,11 @@ Having regard to the proposal from the European Commission,
 
 After transmission of the draft legislative act to the national parliaments,
 
-Having regard to the opinion of the European Economic and Social Committee (1),
+Having regard to the opinion of the European Economic and Social Committee [(1)](#ntr1-L_2016119EN.01000101-E0001),
 
-Having regard to the opinion of the Committee of the Regions (2),
+Having regard to the opinion of the Committee of the Regions [(2)](#ntr2-L_2016119EN.01000101-E0002),
 
-Acting in accordance with the ordinary legislative procedure (3),
+Acting in accordance with the ordinary legislative procedure [(3)](#ntr3-L_2016119EN.01000101-E0003),
 
 Whereas:
 
@@ -179,7 +183,7 @@ The principles of, and rules on the protection of natural persons with regard to
 
 (3)
 
-Directive 95/46/EC of the European Parliament and of the Council (4) seeks to harmonise the protection of fundamental rights and freedoms of natural persons in respect of processing activities and to ensure the free flow of personal data between Member States.
+Directive 95/46/EC of the European Parliament and of the Council [(4)](#ntr4-L_2016119EN.01000101-E0004) seeks to harmonise the protection of fundamental rights and freedoms of natural persons in respect of processing activities and to ensure the free flow of personal data between Member States.
 
 (4)
 
@@ -219,7 +223,7 @@ Article 16(2) TFEU mandates the European Parliament and the Council to lay down 
 
 (13)
 
-In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States as well as effective cooperation between the supervisory authorities of different Member States. The proper functioning of the internal market requires that the free movement of personal data within the Union is not restricted or prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data. To take account of the specific situation of micro, small and medium-sized enterprises, this Regulation includes a derogation for organisations with fewer than 250 employees with regard to record-keeping. In addition, the Union institutions and bodies, and Member States and their supervisory authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC (5).
+In order to ensure a consistent level of protection for natural persons throughout the Union and to prevent divergences hampering the free movement of personal data within the internal market, a Regulation is necessary to provide legal certainty and transparency for economic operators, including micro, small and medium-sized enterprises, and to provide natural persons in all Member States with the same level of legally enforceable rights and obligations and responsibilities for controllers and processors, to ensure consistent monitoring of the processing of personal data, and equivalent sanctions in all Member States as well as effective cooperation between the supervisory authorities of different Member States. The proper functioning of the internal market requires that the free movement of personal data within the Union is not restricted or prohibited for reasons connected with the protection of natural persons with regard to the processing of personal data. To take account of the specific situation of micro, small and medium-sized enterprises, this Regulation includes a derogation for organisations with fewer than 250 employees with regard to record-keeping. In addition, the Union institutions and bodies, and Member States and their supervisory authorities, are encouraged to take account of the specific needs of micro, small and medium-sized enterprises in the application of this Regulation. The notion of micro, small and medium-sized enterprises should draw from Article 2 of the Annex to Commission Recommendation 2003/361/EC [(5)](#ntr5-L_2016119EN.01000101-E0005).
 
 (14)
 
@@ -235,7 +239,7 @@ This Regulation does not apply to issues of protection of fundamental rights and
 
 (17)
 
-Regulation (EC) No 45/2001 of the European Parliament and of the Council (6) applies to the processing of personal data by the Union institutions, bodies, offices and agencies. Regulation (EC) No 45/2001 and other Union legal acts applicable to such processing of personal data should be adapted to the principles and rules established in this Regulation and applied in the light of this Regulation. In order to provide a strong and coherent data protection framework in the Union, the necessary adaptations of Regulation (EC) No 45/2001 should follow after the adoption of this Regulation, in order to allow application at the same time as this Regulation.
+Regulation (EC) No 45/2001 of the European Parliament and of the Council [(6)](#ntr6-L_2016119EN.01000101-E0006) applies to the processing of personal data by the Union institutions, bodies, offices and agencies. Regulation (EC) No 45/2001 and other Union legal acts applicable to such processing of personal data should be adapted to the principles and rules established in this Regulation and applied in the light of this Regulation. In order to provide a strong and coherent data protection framework in the Union, the necessary adaptations of Regulation (EC) No 45/2001 should follow after the adoption of this Regulation, in order to allow application at the same time as this Regulation.
 
 (18)
 
@@ -243,7 +247,7 @@ This Regulation does not apply to the processing of personal data by a natural p
 
 (19)
 
-The protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security and the free movement of such data, is the subject of a specific Union legal act. This Regulation should not, therefore, apply to processing activities for those purposes. However, personal data processed by public authorities under this Regulation should, when used for those purposes, be governed by a more specific Union legal act, namely Directive (EU) 2016/680 of the European Parliament and of the Council (7). Member States may entrust competent authorities within the meaning of Directive (EU) 2016/680 with tasks which are not necessarily carried out for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and prevention of threats to public security, so that the processing of personal data for those other purposes, in so far as it is within the scope of Union law, falls within the scope of this Regulation.
+The protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security and the free movement of such data, is the subject of a specific Union legal act. This Regulation should not, therefore, apply to processing activities for those purposes. However, personal data processed by public authorities under this Regulation should, when used for those purposes, be governed by a more specific Union legal act, namely Directive (EU) 2016/680 of the European Parliament and of the Council [(7)](#ntr7-L_2016119EN.01000101-E0007). Member States may entrust competent authorities within the meaning of Directive (EU) 2016/680 with tasks which are not necessarily carried out for the purposes of the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and prevention of threats to public security, so that the processing of personal data for those other purposes, in so far as it is within the scope of Union law, falls within the scope of this Regulation.
 
 With regard to the processing of personal data by those competent authorities for purposes falling within scope of this Regulation, Member States should be able to maintain or introduce more specific provisions to adapt the application of the rules of this Regulation. Such provisions may determine more precisely specific requirements for the processing of personal data by those competent authorities for those other purposes, taking into account the constitutional, organisational and administrative structure of the respective Member State. When the processing of personal data by private bodies falls within the scope of this Regulation, this Regulation should provide for the possibility for Member States under specific conditions to restrict by law certain obligations and rights when such a restriction constitutes a necessary and proportionate measure in a democratic society to safeguard specific important interests including public security and the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, including the safeguarding against and the prevention of threats to public security. This is relevant for instance in the framework of anti-money laundering or the activities of forensic laboratories.
 
@@ -253,7 +257,7 @@ While this Regulation applies, inter alia, to the activities of courts and other
 
 (21)
 
-This Regulation is without prejudice to the application of Directive 2000/31/EC of the European Parliament and of the Council (8), in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive. That Directive seeks to contribute to the proper functioning of the internal market by ensuring the free movement of information society services between Member States.
+This Regulation is without prejudice to the application of Directive 2000/31/EC of the European Parliament and of the Council [(8)](#ntr8-L_2016119EN.01000101-E0008), in particular of the liability rules of intermediary service providers in Articles 12 to 15 of that Directive. That Directive seeks to contribute to the proper functioning of the internal market by ensuring the free movement of information society services between Member States.
 
 (22)
 
@@ -309,7 +313,7 @@ Genetic data should be defined as personal data relating to the inherited or acq
 
 (35)
 
-Personal data concerning health should include all data pertaining to the health status of a data subject which reveal information relating to the past, current or future physical or mental health status of the data subject. This includes information about the natural person collected in the course of the registration for, or the provision of, health care services as referred to in Directive 2011/24/EU of the European Parliament and of the Council (9) to that natural person; a number, symbol or particular assigned to a natural person to uniquely identify the natural person for health purposes; information derived from the testing or examination of a body part or bodily substance, including from genetic data and biological samples; and any information on, for example, a disease, disability, disease risk, medical history, clinical treatment or the physiological or biomedical state of the data subject independent of its source, for example from a physician or other health professional, a hospital, a medical device or an in vitro diagnostic test.
+Personal data concerning health should include all data pertaining to the health status of a data subject which reveal information relating to the past, current or future physical or mental health status of the data subject. This includes information about the natural person collected in the course of the registration for, or the provision of, health care services as referred to in Directive 2011/24/EU of the European Parliament and of the Council [(9)](#ntr9-L_2016119EN.01000101-E0009) to that natural person; a number, symbol or particular assigned to a natural person to uniquely identify the natural person for health purposes; information derived from the testing or examination of a body part or bodily substance, including from genetic data and biological samples; and any information on, for example, a disease, disability, disease risk, medical history, clinical treatment or the physiological or biomedical state of the data subject independent of its source, for example from a physician or other health professional, a hospital, a medical device or an in vitro diagnostic test.
 
 (36)
 
@@ -337,7 +341,7 @@ Where this Regulation refers to a legal basis or a legislative measure, this doe
 
 (42)
 
-Where processing is based on the data subject's consent, the controller should be able to demonstrate that the data subject has given consent to the processing operation. In particular in the context of a written declaration on another matter, safeguards should ensure that the data subject is aware of the fact that and the extent to which consent is given. In accordance with Council Directive 93/13/EEC (10) a declaration of consent pre-formulated by the controller should be provided in an intelligible and easily accessible form, using clear and plain language and it should not contain unfair terms. For consent to be informed, the data subject should be aware at least of the identity of the controller and the purposes of the processing for which the personal data are intended. Consent should not be regarded as freely given if the data subject has no genuine or free choice or is unable to refuse or withdraw consent without detriment.
+Where processing is based on the data subject's consent, the controller should be able to demonstrate that the data subject has given consent to the processing operation. In particular in the context of a written declaration on another matter, safeguards should ensure that the data subject is aware of the fact that and the extent to which consent is given. In accordance with Council Directive 93/13/EEC [(10)](#ntr10-L_2016119EN.01000101-E0010) a declaration of consent pre-formulated by the controller should be provided in an intelligible and easily accessible form, using clear and plain language and it should not contain unfair terms. For consent to be informed, the data subject should be aware at least of the identity of the controller and the purposes of the processing for which the personal data are intended. Consent should not be regarded as freely given if the data subject has no genuine or free choice or is unable to refuse or withdraw consent without detriment.
 
 (43)
 
@@ -387,7 +391,7 @@ Special categories of personal data which merit higher protection should be proc
 
 (54)
 
-The processing of special categories of personal data may be necessary for reasons of public interest in the areas of public health without consent of the data subject. Such processing should be subject to suitable and specific measures so as to protect the rights and freedoms of natural persons. In that context, ‘public health’ should be interpreted as defined in Regulation (EC) No 1338/2008 of the European Parliament and of the Council (11), namely all elements related to health, namely health status, including morbidity and disability, the determinants having an effect on that health status, health care needs, resources allocated to health care, the provision of, and universal access to, health care as well as health care expenditure and financing, and the causes of mortality. Such processing of data concerning health for reasons of public interest should not result in personal data being processed for other purposes by third parties such as employers or insurance and banking companies.
+The processing of special categories of personal data may be necessary for reasons of public interest in the areas of public health without consent of the data subject. Such processing should be subject to suitable and specific measures so as to protect the rights and freedoms of natural persons. In that context, ‘public health’ should be interpreted as defined in Regulation (EC) No 1338/2008 of the European Parliament and of the Council [(11)](#ntr11-L_2016119EN.01000101-E0011), namely all elements related to health, namely health status, including morbidity and disability, the determinants having an effect on that health status, health care needs, resources allocated to health care, the provision of, and universal access to, health care as well as health care expenditure and financing, and the causes of mortality. Such processing of data concerning health for reasons of public interest should not result in personal data being processed for other purposes by third parties such as employers or insurance and banking companies.
 
 (55)
 
@@ -597,7 +601,7 @@ Apart from the international commitments the third country or international orga
 
 (106)
 
-The Commission should monitor the functioning of decisions on the level of protection in a third country, a territory or specified sector within a third country, or an international organisation, and monitor the functioning of decisions adopted on the basis of Article 25(6) or Article 26(4) of Directive 95/46/EC. In its adequacy decisions, the Commission should provide for a periodic review mechanism of their functioning. That periodic review should be conducted in consultation with the third country or international organisation in question and take into account all relevant developments in the third country or international organisation. For the purposes of monitoring and of carrying out the periodic reviews, the Commission should take into consideration the views and findings of the European Parliament and of the Council as well as of other relevant bodies and sources. The Commission should evaluate, within a reasonable time, the functioning of the latter decisions and report any relevant findings to the Committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council (12) as established under this Regulation, to the European Parliament and to the Council.
+The Commission should monitor the functioning of decisions on the level of protection in a third country, a territory or specified sector within a third country, or an international organisation, and monitor the functioning of decisions adopted on the basis of Article 25(6) or Article 26(4) of Directive 95/46/EC. In its adequacy decisions, the Commission should provide for a periodic review mechanism of their functioning. That periodic review should be conducted in consultation with the third country or international organisation in question and take into account all relevant developments in the third country or international organisation. For the purposes of monitoring and of carrying out the periodic reviews, the Commission should take into consideration the views and findings of the European Parliament and of the Council as well as of other relevant bodies and sources. The Commission should evaluate, within a reasonable time, the functioning of the latter decisions and report any relevant findings to the Committee within the meaning of Regulation (EU) No 182/2011 of the European Parliament and of the Council [(12)](#ntr12-L_2016119EN.01000101-E0012) as established under this Regulation, to the European Parliament and to the Council.
 
 (107)
 
@@ -763,7 +767,7 @@ The controller or processor should compensate any damage which a person may suff
 
 (147)
 
-Where specific rules on jurisdiction are contained in this Regulation, in particular as regards proceedings seeking a judicial remedy including compensation, against a controller or processor, general jurisdiction rules such as those of Regulation (EU) No 1215/2012 of the European Parliament and of the Council (13) should not prejudice the application of such specific rules.
+Where specific rules on jurisdiction are contained in this Regulation, in particular as regards proceedings seeking a judicial remedy including compensation, against a controller or processor, general jurisdiction rules such as those of Regulation (EU) No 1215/2012 of the European Parliament and of the Council [(13)](#ntr13-L_2016119EN.01000101-E0013) should not prejudice the application of such specific rules.
 
 (148)
 
@@ -791,7 +795,7 @@ Member States law should reconcile the rules governing freedom of expression and
 
 (154)
 
-This Regulation allows the principle of public access to official documents to be taken into account when applying this Regulation. Public access to official documents may be considered to be in the public interest. Personal data in documents held by a public authority or a public body should be able to be publicly disclosed by that authority or body if the disclosure is provided for by Union or Member State law to which the public authority or public body is subject. Such laws should reconcile public access to official documents and the reuse of public sector information with the right to the protection of personal data and may therefore provide for the necessary reconciliation with the right to the protection of personal data pursuant to this Regulation. The reference to public authorities and bodies should in that context include all authorities or other bodies covered by Member State law on public access to documents. Directive 2003/98/EC of the European Parliament and of the Council (14) leaves intact and in no way affects the level of protection of natural persons with regard to the processing of personal data under the provisions of Union and Member State law, and in particular does not alter the obligations and rights set out in this Regulation. In particular, that Directive should not apply to documents to which access is excluded or restricted by virtue of the access regimes on the grounds of protection of personal data, and parts of documents accessible by virtue of those regimes which contain personal data the re-use of which has been provided for by law as being incompatible with the law concerning the protection of natural persons with regard to the processing of personal data.
+This Regulation allows the principle of public access to official documents to be taken into account when applying this Regulation. Public access to official documents may be considered to be in the public interest. Personal data in documents held by a public authority or a public body should be able to be publicly disclosed by that authority or body if the disclosure is provided for by Union or Member State law to which the public authority or public body is subject. Such laws should reconcile public access to official documents and the reuse of public sector information with the right to the protection of personal data and may therefore provide for the necessary reconciliation with the right to the protection of personal data pursuant to this Regulation. The reference to public authorities and bodies should in that context include all authorities or other bodies covered by Member State law on public access to documents. Directive 2003/98/EC of the European Parliament and of the Council [(14)](#ntr14-L_2016119EN.01000101-E0014) leaves intact and in no way affects the level of protection of natural persons with regard to the processing of personal data under the provisions of Union and Member State law, and in particular does not alter the obligations and rights set out in this Regulation. In particular, that Directive should not apply to documents to which access is excluded or restricted by virtue of the access regimes on the grounds of protection of personal data, and parts of documents accessible by virtue of those regimes which contain personal data the re-use of which has been provided for by law as being incompatible with the law concerning the protection of natural persons with regard to the processing of personal data.
 
 (155)
 
@@ -819,7 +823,7 @@ Where personal data are processed for historical research purposes, this Regulat
 
 (161)
 
-For the purpose of consenting to the participation in scientific research activities in clinical trials, the relevant provisions of Regulation (EU) No 536/2014 of the European Parliament and of the Council (15) should apply.
+For the purpose of consenting to the participation in scientific research activities in clinical trials, the relevant provisions of Regulation (EU) No 536/2014 of the European Parliament and of the Council [(15)](#ntr15-L_2016119EN.01000101-E0015) should apply.
 
 (162)
 
@@ -827,7 +831,7 @@ Where personal data are processed for statistical purposes, this Regulation shou
 
 (163)
 
-The confidential information which the Union and national statistical authorities collect for the production of official European and official national statistics should be protected. European statistics should be developed, produced and disseminated in accordance with the statistical principles as set out in Article 338(2) TFEU, while national statistics should also comply with Member State law. Regulation (EC) No 223/2009 of the European Parliament and of the Council (16) provides further specifications on statistical confidentiality for European statistics.
+The confidential information which the Union and national statistical authorities collect for the production of official European and official national statistics should be protected. European statistics should be developed, produced and disseminated in accordance with the statistical principles as set out in Article 338(2) TFEU, while national statistics should also comply with Member State law. Regulation (EC) No 223/2009 of the European Parliament and of the Council [(16)](#ntr16-L_2016119EN.01000101-E0016) provides further specifications on statistical confidentiality for European statistics.
 
 (164)
 
@@ -863,11 +867,11 @@ Directive 95/46/EC should be repealed by this Regulation. Processing already und
 
 (172)
 
-The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 and delivered an opinion on 7 March 2012 (17).
+The European Data Protection Supervisor was consulted in accordance with Article 28(2) of Regulation (EC) No 45/2001 and delivered an opinion on 7 March 2012 [(17)](#ntr17-L_2016119EN.01000101-E0017).
 
 (173)
 
-This Regulation should apply to all matters concerning the protection of fundamental rights and freedoms vis-à-vis the processing of personal data which are not subject to specific obligations with the same objective set out in Directive 2002/58/EC of the European Parliament and of the Council (18), including the obligations on the controller and the rights of natural persons. In order to clarify the relationship between this Regulation and Directive 2002/58/EC, that Directive should be amended accordingly. Once this Regulation is adopted, Directive 2002/58/EC should be reviewed in particular in order to ensure consistency with this Regulation,
+This Regulation should apply to all matters concerning the protection of fundamental rights and freedoms vis-à-vis the processing of personal data which are not subject to specific obligations with the same objective set out in Directive 2002/58/EC of the European Parliament and of the Council [(18)](#ntr18-L_2016119EN.01000101-E0018), including the obligations on the controller and the rights of natural persons. In order to clarify the relationship between this Regulation and Directive 2002/58/EC, that Directive should be amended accordingly. Once this Regulation is adopted, Directive 2002/58/EC should be reviewed in particular in order to ensure consistency with this Regulation,
 
 HAVE ADOPTED THIS REGULATION:
 
@@ -1063,7 +1067,7 @@ processing of personal data which takes place in the context of the activities o
 
 (25)
 
-‘information society service’ means a service as defined in point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council (19);
+‘information society service’ means a service as defined in point (b) of Article 1(1) of Directive (EU) 2015/1535 of the European Parliament and of the Council [(19)](#ntr19-L_2016119EN.01000101-E0019);
 
 (26)
 
@@ -2333,7 +2337,7 @@ the supervisory authority which is competent pursuant to Article 55 or 56;
 
 (b)
 
-the national accreditation body named in accordance with Regulation (EC) No 765/2008 of the European Parliament and of the Council (20) in accordance with EN-ISO/IEC 17065/2012 and with the additional requirements established by the supervisory authority which is competent pursuant to Article 55 or 56.
+the national accreditation body named in accordance with Regulation (EC) No 765/2008 of the European Parliament and of the Council [(20)](#ntr20-L_2016119EN.01000101-E0020) in accordance with EN-ISO/IEC 17065/2012 and with the additional requirements established by the supervisory authority which is competent pursuant to Article 55 or 56.
 
 2.   Certification bodies referred to in paragraph 1 shall be accredited in accordance with that paragraph only where they have:
 
@@ -3395,7 +3399,7 @@ Confidentiality
 
 1.   The discussions of the Board shall be confidential where the Board deems it necessary, as provided for in its rules of procedure.
 
-2.   Access to documents submitted to members of the Board, experts and representatives of third parties shall be governed by Regulation (EC) No 1049/2001 of the European Parliament and of the Council (21).
+2.   Access to documents submitted to members of the Board, experts and representatives of third parties shall be governed by Regulation (EC) No 1049/2001 of the European Parliament and of the Council [(21)](#ntr21-L_2016119EN.01000101-E0021).
 
 CHAPTER VIII
 
@@ -3737,50 +3741,46 @@ The President
 
 J.A. HENNIS-PLASSCHAERT
 
----
+[(1)](#ntc1-L_2016119EN.01000101-E0001)   [OJ C 229, 31.7.2012, p. 90](./../../../legal-content/EN/AUTO/?uri=OJ:C:2012:229:TOC).
 
-(1)   OJ C 229, 31.7.2012, p. 90.
+[(2)](#ntc2-L_2016119EN.01000101-E0002)   [OJ C 391, 18.12.2012, p. 127](./../../../legal-content/EN/AUTO/?uri=OJ:C:2012:391:TOC).
 
-(2)   OJ C 391, 18.12.2012, p. 127.
+[(3)](#ntc3-L_2016119EN.01000101-E0003)  Position of the European Parliament of 12 March 2014 (not yet published in the Official Journal) and position of the Council at first reading of 8 April 2016 (not yet published in the Official Journal). Position of the European Parliament of 14 April 2016.
 
-(3)  Position of the European Parliament of 12 March 2014 (not yet published in the Official Journal) and position of the Council at first reading of 8 April 2016 (not yet published in the Official Journal). Position of the European Parliament of 14 April 2016.
+[(4)](#ntc4-L_2016119EN.01000101-E0004)  Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data ([OJ L 281, 23.11.1995, p. 31](./../../../legal-content/EN/AUTO/?uri=OJ:L:1995:281:TOC)).
 
-(4)  Directive 95/46/EC of the European Parliament and of the Council of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data (OJ L 281, 23.11.1995, p. 31).
+[(5)](#ntc5-L_2016119EN.01000101-E0005)  Commission Recommendation of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (C(2003) 1422) ([OJ L 124, 20.5.2003, p. 36](./../../../legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC)).
 
-(5)  Commission Recommendation of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (C(2003) 1422) (OJ L 124, 20.5.2003, p. 36).
+[(6)](#ntc6-L_2016119EN.01000101-E0006)  Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data ([OJ L 8, 12.1.2001, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2001:008:TOC)).
 
-(6)  Regulation (EC) No 45/2001 of the European Parliament and of the Council of 18 December 2000 on the protection of individuals with regard to the processing of personal data by the Community institutions and bodies and on the free movement of such data (OJ L 8, 12.1.2001, p. 1).
+[(7)](#ntc7-L_2016119EN.01000101-E0007)  Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and the free movement of such data and repealing Council Framework Decision 2008/977/JHA (see page 89 of this Official Journal).
 
-(7)  Directive (EU) 2016/680 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data by competent authorities for the purposes of prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties, and the free movement of such data and repealing Council Framework Decision 2008/977/JHA (see page 89 of this Official Journal).
+[(8)](#ntc8-L_2016119EN.01000101-E0008)  Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market (‘Directive on electronic commerce’) ([OJ L 178, 17.7.2000, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2000:178:TOC)).
 
-(8)  Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market (‘Directive on electronic commerce’) (OJ L 178, 17.7.2000, p. 1).
+[(9)](#ntc9-L_2016119EN.01000101-E0009)  Directive 2011/24/EU of the European Parliament and of the Council of 9 March 2011 on the application of patients' rights in cross-border healthcare ([OJ L 88, 4.4.2011, p. 45](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:088:TOC)).
 
-(9)  Directive 2011/24/EU of the European Parliament and of the Council of 9 March 2011 on the application of patients' rights in cross-border healthcare (OJ L 88, 4.4.2011, p. 45).
+[(10)](#ntc10-L_2016119EN.01000101-E0010)  Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts ([OJ L 95, 21.4.1993, p. 29](./../../../legal-content/EN/AUTO/?uri=OJ:L:1993:095:TOC)).
 
-(10)  Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts (OJ L 95, 21.4.1993, p. 29).
+[(11)](#ntc11-L_2016119EN.01000101-E0011)  Regulation (EC) No 1338/2008 of the European Parliament and of the Council of 16 December 2008 on Community statistics on public health and health and safety at work ([OJ L 354, 31.12.2008, p. 70](./../../../legal-content/EN/AUTO/?uri=OJ:L:2008:354:TOC)).
 
-(11)  Regulation (EC) No 1338/2008 of the European Parliament and of the Council of 16 December 2008 on Community statistics on public health and health and safety at work (OJ L 354, 31.12.2008, p. 70).
+[(12)](#ntc12-L_2016119EN.01000101-E0012)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission's exercise of implementing powers ([OJ L 55, 28.2.2011, p. 13](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:055:TOC)).
 
-(12)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission's exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).
+[(13)](#ntc13-L_2016119EN.01000101-E0013)  Regulation (EU) No 1215/2012 of the European Parliament and of the Council of 12 December 2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters ([OJ L 351, 20.12.2012, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2012:351:TOC)).
 
-(13)  Regulation (EU) No 1215/2012 of the European Parliament and of the Council of 12 December 2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters (OJ L 351, 20.12.2012, p. 1).
+[(14)](#ntc14-L_2016119EN.01000101-E0014)  Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information ([OJ L 345, 31.12.2003, p. 90](./../../../legal-content/EN/AUTO/?uri=OJ:L:2003:345:TOC)).
 
-(14)  Directive 2003/98/EC of the European Parliament and of the Council of 17 November 2003 on the re-use of public sector information (OJ L 345, 31.12.2003, p. 90).
+[(15)](#ntc15-L_2016119EN.01000101-E0015)  Regulation (EU) No 536/2014 of the European Parliament and of the Council of 16 April 2014 on clinical trials on medicinal products for human use, and repealing Directive 2001/20/EC ([OJ L 158, 27.5.2014, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2014:158:TOC)).
 
-(15)  Regulation (EU) No 536/2014 of the European Parliament and of the Council of 16 April 2014 on clinical trials on medicinal products for human use, and repealing Directive 2001/20/EC (OJ L 158, 27.5.2014, p. 1).
+[(16)](#ntc16-L_2016119EN.01000101-E0016)  Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities ([OJ L 87, 31.3.2009, p. 164](./../../../legal-content/EN/AUTO/?uri=OJ:L:2009:087:TOC)).
 
-(16)  Regulation (EC) No 223/2009 of the European Parliament and of the Council of 11 March 2009 on European statistics and repealing Regulation (EC, Euratom) No 1101/2008 of the European Parliament and of the Council on the transmission of data subject to statistical confidentiality to the Statistical Office of the European Communities, Council Regulation (EC) No 322/97 on Community Statistics, and Council Decision 89/382/EEC, Euratom establishing a Committee on the Statistical Programmes of the European Communities (OJ L 87, 31.3.2009, p. 164).
+[(17)](#ntc17-L_2016119EN.01000101-E0017)   [OJ C 192, 30.6.2012, p. 7](./../../../legal-content/EN/AUTO/?uri=OJ:C:2012:192:TOC).
 
-(17)   OJ C 192, 30.6.2012, p. 7.
+[(18)](#ntc18-L_2016119EN.01000101-E0018)  Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) ([OJ L 201, 31.7.2002, p. 37](./../../../legal-content/EN/AUTO/?uri=OJ:L:2002:201:TOC)).
 
-(18)  Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (OJ L 201, 31.7.2002, p. 37).
+[(19)](#ntc19-L_2016119EN.01000101-E0019)  Directive (EU) 2015/1535 of the European Parliament and of the Council of 9 September 2015 laying down a procedure for the provision of information in the field of technical regulations and of rules on Information Society services ([OJ L 241, 17.9.2015, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2015:241:TOC)).
 
-(19)  Directive (EU) 2015/1535 of the European Parliament and of the Council of 9 September 2015 laying down a procedure for the provision of information in the field of technical regulations and of rules on Information Society services (OJ L 241, 17.9.2015, p. 1).
+[(20)](#ntc20-L_2016119EN.01000101-E0020)  Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and market surveillance relating to the marketing of products and repealing Regulation (EEC) No 339/93 ([OJ L 218, 13.8.2008, p. 30](./../../../legal-content/EN/AUTO/?uri=OJ:L:2008:218:TOC)).
 
-(20)  Regulation (EC) No 765/2008 of the European Parliament and of the Council of 9 July 2008 setting out the requirements for accreditation and market surveillance relating to the marketing of products and repealing Regulation (EEC) No 339/93 (OJ L 218, 13.8.2008, p. 30).
+[(21)](#ntc21-L_2016119EN.01000101-E0021)  Regulation (EC) No 1049/2001 of the European Parliament and of the Council of 30 May 2001 regarding public access to European Parliament, Council and Commission documents ([OJ L 145, 31.5.2001, p. 43](./../../../legal-content/EN/AUTO/?uri=OJ:L:2001:145:TOC)).
 
-(21)  Regulation (EC) No 1049/2001 of the European Parliament and of the Council of 30 May 2001 regarding public access to European Parliament, Council and Commission documents (OJ L 145, 31.5.2001, p. 43).
-
----
-
-Top
+[Top](#document1)

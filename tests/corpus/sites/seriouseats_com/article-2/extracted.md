@@ -28,41 +28,41 @@ Keep Screen Awake
 For the Potatoes and Pork:
 
 * 2 pounds (900 g) skinless, boneless pork belly, cut into 2-inch chunks
- 
+    
 * 1 white onion (8 ounces; 226 g), peeled and halved
- 
+    
 * 5 medium cloves garlic
- 
-* 5 cups homemade chicken stock or store-bought low-sodium chicken broth
- 
+    
+* 5 cups [homemade chicken stock](https://www.seriouseats.com/best-rich-easy-white-chicken-stock-recipe) or store-bought low-sodium chicken broth
+    
 * Kosher salt
- 
+    
 * 3 pounds (1370 g) russet potatoes (about 6 potatoes), peeled and cut into 1-inch chunks
 
 For the Sauce:
 
 * 1 (14.5-ounce; 411 g) can fire-roasted tomatoes
- 
+    
 * 3 medium cloves garlic
- 
+    
 * 2 guajillo chiles (about 12 g), stemmed and seeded, and torn into pieces
- 
+    
 * 1 teaspoon ground cumin
- 
+    
 * 1 teaspoon dried oregano
- 
+    
 * 1/2 teaspoon whole black peppercorns
- 
+    
 * Cilantro leaves, for garnish
- 
+    
 * Thinly sliced scallions, for garnish
 
 1. In a large stock pot or Dutch oven, combine pork belly, onion, garlic, stock, and 2 teaspoons salt. Bring to a boil over medium heat, reduce heat to maintain a simmer, and cook, covered, until pork belly can be easily pierced by a fork, about 1 1/2 hours. Add the potatoes and continue to simmer, stirring occasionally, until fork-tender, about 20 minutes.
- 
+    
 2. Using a spider skimmer or slotted spoon, transfer pork and potatoes to a large bowl. Discard onion and garlic. Skim fat from the broth using a ladle or spoon (or pour through a fat separator and let it sit for 3 minutes to allow fat to float to the top). Reserve 3/4 cup (200 ml) of the broth, and reserve the remaining broth or for another use. Whip pot clean and set aside. Place pork on a cutting board and finely chop; return to bowl.
- 
+    
 3. **For the Sauce:** In a blender jar, combine tomatoes, garlic, guajillos, cumin, oregano, and black peppercorns. Add the reserved 3/4 cup (200 ml) cooking liquid to the blender. Submerge the dried chiles in the liquid and let sit until chiles are slightly softened, about 5 minutes. Blend, starting at the lowest speed and gradually increasing to high, until smooth, about 1 minute. Season with salt to taste.
- 
+    
 4. Pour sauce into the now-empty pot, then stir in pork and potatoes. Cook over medium-low heat until warmed through. Stir the stew to help combine ingredients: The more aggressively you stir, the creamier the dish will be (the final consistency is a matter of personal preference), but the sauce should at least be thick enough to coat the potatoes and pork. Adjust consistency with extra water or broth, if desired. Season to taste with salt. Serve, topping with cilantro and green onion.
 
 ### Special Equipment
@@ -74,11 +74,11 @@ Make Ahead and Storage
 
 Leftover papas guisadas can be refrigerated in an airtight container for up to 4 days or frozen for up to 3 months. 
 
-* The Latest
-* Recipes
-* Mexican
-* Recipes By Ingredients
-* Recipes by World Cuisine
+* [The Latest](https://www.seriouseats.com/latest-5117998)
+* [Recipes](https://www.seriouseats.com/all-recipes-5117985)
+* [Mexican](https://www.seriouseats.com/mexican-recipes-5117189)
+* [Recipes By Ingredients](https://www.seriouseats.com/recipes-by-ingredient-recipes-5117749)
+* [Recipes by World Cuisine](https://www.seriouseats.com/recipes-by-world-cuisine-5117277)
 
 Nutrition Facts (per serving)
 

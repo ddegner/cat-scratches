@@ -1,8 +1,12 @@
+by [Kate Tsurkan](/author/kate-tsurkan/)
+
 May 5, 2026 2:11 PM11 min read
 
 Culture Minister Tetyana Berezhna in Kyiv, Ukraine on April 21, 2026. (Elena Kalinichenko/The Kyiv Independent)
 
-Culture
+[Culture](/tag/culture/)
+
+by [Kate Tsurkan](/author/kate-tsurkan/)
 
 Since Russia launched its full-scale invasion of Ukraine, the country's culture has finally received the attention it had previously lacked.
 
@@ -16,7 +20,7 @@ _This interview has been edited for length and clarity._
 
 **The Kyiv Independent: I'd like to begin our conversation by asking about your background. I understand you previously worked at the Economy Ministry. Could you tell me about your transition to the Culture Ministry and how your background influences your current role?**
 
-**Tetyana Berezhna:** I joined the government in 2022 when I was invited to serve as deputy economy minister working under Yulia Svyrydenko during her tenure as first vice prime minister and economy minister. After three years in this role, I was invited by Yulia, now the prime minister, to work as the culture minister.
+**Tetyana Berezhna:** I joined the government in 2022 when I was invited to serve as deputy economy minister working under [Yulia Svyrydenko](https://kyivindependent.com/if-it-were-a-bad-deal-i-wouldnt-have-signed-it-ukraines-economy-minister-on-negotiating-us-minerals-deal-in-exclusive-interview-06-2025/) during her tenure as first vice prime minister and economy minister. After three years in this role, I was invited by Yulia, now the prime minister, to work as the culture minister.
 
 During my time at the Economy Ministry, I was responsible for the human capital dimension and also served as ambassador and commissioner general at the 2025 Expo in Japan. This project, centered on cultural diplomacy, was closely aligned with the work I do now at the Culture Ministry. It was my first significant government experience connected to cultural policy, and it was a great success, which led to my being invited to my current role.
 
@@ -42,7 +46,7 @@ This program is designed to create thousands of hours of Ukrainian content in va
 
 **The Kyiv Independent: I know that cultural preservation is a big initiative for you and your team. Could you tell me more about the Ukrainian Cultural Heritage Fund?**
 
-**Tetyana Berezhna:** We recognize that culture always requires resources, and this sector has historically been underfunded by the Ukrainian government. However, in 2026, we received a 45% increase in funding compared to 2025. Still, we know that the state budget alone cannot address all of the cultural losses we've experienced (during the full-scale war). According to the World Bank, these losses total around $4 billion. Many cultural heritage sites across Ukraine were either damaged or outright destroyed during the full-scale invasion.
+**Tetyana Berezhna:** We recognize that culture always requires resources, and this sector has historically been underfunded by the Ukrainian government. However, in 2026, we received a 45% increase in funding compared to 2025. Still, we know that the state budget alone cannot address all of the cultural losses we've experienced (during the full-scale war). According to the World Bank, these losses total around $4 billion. Many [cultural heritage sites](https://kyivindependent.com/tag/ukraines-cultural-heritage/) across Ukraine were either damaged or outright destroyed during the full-scale invasion.
 
 To address this, Ukraine established the Ukrainian Cultural Heritage Fund to gather commitments and funding from our international partners to help restore and rebuild Ukraine's cultural heritage. This idea was conceived at the beginning of 2025. Although I was not yet working at the Ministry of Culture at that time, my predecessor, Mykola Tochytskyi, organized a conference in Uzhhorod that helped launch the fund.
 
@@ -58,13 +62,13 @@ We hope that once we can show the first "before and after" results, even more su
 
 **The Kyiv Independent: Ukraine recently sanctioned five members of the Russian pavilion for the upcoming Venice Art Biennale. I understand the Culture Ministry has been actively working to persuade the Biennale to prevent Russia's return. Are you seeing any encouraging developments on that front, or is there still significant progress to be made?**
 
-**Tetyana Berezhna:** Italy's Culture Minister, Alessandro Giuli, who is a great friend and supporter of Ukraine, who attended the conference in Lviv and has been helping us restore cultural heritage sites, explained that the Venice Biennale is a non-governmental institution, and as a state, Italy cannot directly influence its decisions. This is the challenge.
+**Tetyana Berezhna:** Italy's Culture Minister, Alessandro Giuli, who is a great friend and supporter of Ukraine, who attended the conference in Lviv and has been helping us restore cultural heritage sites, explained that [the Venice Biennale](https://kyivindependent.com/with-the-prestigious-art-festival-days-away-venice-biennales-jury-resigns-in-protest/) is a non-governmental institution, and as a state, Italy cannot directly influence its decisions. This is the challenge.
 
-We're pursuing several approaches (to stop Russia from participating). Glenn Micallef, the European Commissioner for Innovation, Research, Culture, Education, and Youth, and EU Commission Executive Vice-President Henna Virkkunen also stated that if Russia participates in the Biennale, the European Commission will withhold its 2 million-euro ($2.3 million) funding. Both Italy and the European Commission treat the Biennale as an independent entity, so their support is not guaranteed if Russia is involved.
+We're [pursuing several approaches](https://kyivindependent.com/ahead-of-venice-biennale-ukraine-pushing-eu-to-impose-visa-bans-on-russian-pavilion-members/) (to stop Russia from participating). Glenn Micallef, the European Commissioner for Innovation, Research, Culture, Education, and Youth, and EU Commission Executive Vice-President Henna Virkkunen also stated that if Russia participates in the Biennale, the European Commission will withhold its 2 million-euro ($2.3 million) funding. Both Italy and the European Commission treat the Biennale as an independent entity, so their support is not guaranteed if Russia is involved.
 
-Recently, we achieved an important milestone you just mentioned: the President of Ukraine signed a decree imposing sanctions on five individuals linked to the Russian pavilion. These are Ukrainian sanctions, but we are also working with our European partners to ensure these measures are aligned at the EU level.
+Recently, we achieved an important milestone you just mentioned: the President of Ukraine signed [a decree imposing sanctions](https://kyivindependent.com/ahead-of-venice-biennale-ukraine-sanctions-several-members-of-russian-pavilion/) on five individuals linked to the Russian pavilion. These are Ukrainian sanctions, but we are also working with our European partners to ensure these measures are aligned at the EU level.
 
-The overall situation is quite cynical. The organizers of the Russian pavilion and the Venice Biennale kept Russia's participation secret until the start of 2026 and tried to mitigate the impact of sanctions by changing how they presented their work. Instead of a live performance in the pavilion, they plan to show a recording on the wall featuring so-called indigenous people of the Russian Federation, including two from temporarily occupied Crimea. This makes the situation even more problematic.
+The overall situation is quite cynical. The [organizers of the Russian pavilion](https://kyivindependent.com/venice-biennale-welcomes-back-kremlin-soft-power-to-this-years-art-program/) and the Venice Biennale kept Russia's participation secret until the start of 2026 and tried to mitigate the impact of sanctions by changing how they presented their work. Instead of a live performance in the pavilion, they plan to show a recording on the wall featuring so-called indigenous people of the Russian Federation, including two from temporarily occupied Crimea. This makes the situation even more problematic.
 
 I'm very grateful for the support of our European partners. For example, Agnese Lāce, Latvia's culture minister, issued a statement on Russia's participation that 23 other countries have signed. We're in daily contact with her and with the culture ministers from Poland, Estonia, and Lithuania to coordinate efforts to prevent Russia's participation. Time is short — we have less than a month left — but we're determined to keep pushing forward.
 
@@ -74,7 +78,7 @@ I'm very grateful for the support of our European partners. For example, Agnese 
 
 Speaking of the Venice Biennale, it's not just about Russia's presence — Ukraine has its own pavilion as well. We have an outstanding pavilion called Security Guarantees, curated by Zhanna Kadyrova and Leonid Marushchak. The exhibition features the evocative sculpture Origami Deer from Pokrovsk, a powerful symbol of fragility, security, and the transformation of art in times of war.
 
-This will further highlight Ukrainian culture on the international stage. Literature is also an important field. We have worked with Bohdana Laiuk, our deputy culture minister, to increase the number of books translated (into multiple languages) through our Translate Ukraine program. This year, we will have over 100 new translations across 33 countries and 30 languages, including Lebanon, Egypt, Brazil, and India.
+This will further highlight Ukrainian culture on the international stage. Literature is also an important field. We have worked with Bohdana Laiuk, our deputy culture minister, to increase the [number of books translated](https://kyivindependent.com/tag/ukrainian-book-industry/) (into multiple languages) through our Translate Ukraine program. This year, we will have over 100 new translations across 33 countries and 30 languages, including Lebanon, Egypt, Brazil, and India.
 
 I understand this is all that we do at the state level, but we also believe in various grassroots actions by artists and non-governmental organizations. For example, at the Venice Biennale, there will also be an independent exhibition curated by others, outside the framework of the official Ukrainian pavilion, and we absolutely encourage these efforts.
 

@@ -1,6 +1,6 @@
 Sept. 17, 2020, 8:14 AM EDT / Updated Sept. 17, 2020, 8:15 AM EDT
 
-President Donald Trump said he expects to get a report Thursday about Oracle’s bid for the Chinese-owned video-sharing app TikTok and admitted there is no legal path to letting the U.S. Treasury get a cut of the deal — a proposition experts had criticized as unprecedented and possibly illegal.
+President Donald Trump said he expects to get a report Thursday about [Oracle’s bid for the Chinese-owned video-sharing app TikTok](https://apnews.com/880948bbfd3da8c35c84a0d9556375a6) and admitted there is no legal path to letting the U.S. Treasury get a cut of the deal — a proposition experts had criticized as unprecedented and possibly illegal.
 
 “I’m not prepared to sign off on anything. I have to see the deal,” Trump told White House reporters Wednesday evening about Oracle’s interest in TikTok.
 
@@ -10,7 +10,7 @@ Some in the U.S. have raised concerns about the deal, fearing that ByteDance, th
 
 The president previously said that he would ban TikTok if it wasn’t sold to an American company. In an Aug. 6 order, Trump said TikTok “reportedly censors content that the Chinese Communist Party deems politically sensitive,” is potentially a source for disinformation campaigns and “threatens to allow the Chinese Communist Party access to Americans’ personal and proprietary information.”
 
-TikTok will partner with Oracle in US, not Microsoft
+[TikTok will partner with Oracle in US, not Microsoft](https://www.today.com/video/tiktok-will-partner-with-oracle-in-us-not-microsoft-91666501638)
 
 00:29
 

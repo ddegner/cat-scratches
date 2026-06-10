@@ -1,8 +1,8 @@
 * ChatGPT users in the United States can buy from Etsy merchants (and, soon, from Shopify merchants) in the chat using checkout powered by Stripe. 
- 
+    
 * Stripe releases the Agentic Commerce Protocol, an open standard codeveloped with OpenAI, to help businesses grow in the era of agentic commerce. 
 
-SAN FRANCISCO—Stripe, the programmable financial services company, today announced that it is helping OpenAI launch a new commerce experience called Instant Checkout in ChatGPT. Starting today, ChatGPT users in the US can buy goods from US-based Etsy businesses—and, coming soon, over a million Shopify merchants, like Glossier, Vuori, Spanx, and SKIMS—directly in the chat. This milestone in the evolution of AI-enabled commerce is powered by the Agentic Commerce Protocol (ACP), a new, merchant-friendly open standard codeveloped by Stripe and OpenAI, informed by Stripe’s 15 years of experience building commerce infrastructure for the world's fastest-growing businesses.
+SAN FRANCISCO—Stripe, the programmable financial services company, today announced that it is helping OpenAI launch a new commerce experience called Instant Checkout in ChatGPT. Starting today, ChatGPT users in the US can buy goods from US-based Etsy businesses—and, coming soon, over a million Shopify merchants, like Glossier, Vuori, Spanx, and SKIMS—directly in the chat. This milestone in the evolution of AI-enabled commerce is powered by the [Agentic Commerce Protocol](https://www.agenticcommerce.dev/) (ACP), a new, merchant-friendly open standard codeveloped by Stripe and OpenAI, informed by Stripe’s 15 years of experience building commerce infrastructure for the world's fastest-growing businesses.
 
 As more people use AI tools in their everyday lives, interfaces like ChatGPT are quickly becoming a new kind of storefront. Merchants can now turn AI-driven discovery into a sale.
 
@@ -22,8 +22,8 @@ To support this shift, businesses must expose their products, pricing, and check
 
 That’s why Stripe and OpenAI have created ACP. It creates a shared language between businesses and AI agents. With a single integration, merchants will be able to start selling through AI agents while retaining full control over what’s sold, how their brand shows up, and how orders are fulfilled. ACP provides the standardization needed for businesses to participate in agentic commerce while preserving customer relationships and their existing systems. ACP is an open standard: businesses not processing with Stripe can still adopt it with their existing payment providers, and it works across AI agents.
 
-Stripe and OpenAI have partnered since 2023, when OpenAI began using Stripe Billing and Stripe Checkout for ChatGPT Plus subscriptions, detecting fraud with Stripe Radar, and using Link for fast and easy checkout. With today’s announcement, Stripe is now helping OpenAI pioneer an entirely new revenue model for commerce through ChatGPT. Over time, Stripe and OpenAI will expand access to more businesses and consumers across more geographies.
+Stripe and OpenAI have [partnered](https://stripe.com/newsroom/news/stripe-and-openai) since 2023, when OpenAI began using Stripe Billing and Stripe Checkout for ChatGPT Plus subscriptions, detecting fraud with Stripe Radar, and using Link for fast and easy checkout. With today’s announcement, Stripe is now helping OpenAI pioneer an entirely new revenue model for commerce through ChatGPT. Over time, Stripe and OpenAI will expand access to more businesses and consumers across more geographies.
 
 Every company in the Forbes AI 50 that is accepting online payments is doing so with Stripe today. Most of them are also using Stripe for checkout, billing, fraud prevention, tax handling, and more. Over the last year, Stripe has been launching broadly available infrastructure—like the agent toolkit and Stripe MCP—to give businesses the building blocks to create new commerce experiences and business models in the AI era.
 
-Learn more on the Agentic Commerce Protocol website.
+Learn more on the Agentic Commerce Protocol [website](https://www.agenticcommerce.dev/).

@@ -26,7 +26,7 @@ He found broken trees littering the mountainside and hurled into the water, and 
 
 Alaska is especially vulnerable to megatsunamis because of its steep mountains, narrow fjords and frequent earthquakes.
 
-Now new research published in Science suggests glacier melt driven by climate change is making such collapses far worse.
+Now new research published in [Science](http://doi.org/10.1126/science.aec3187) suggests glacier melt driven by climate change is making such collapses far worse.
 
 The team combined field work, seismic and satellite data to reconstruct a domino chain of events and trace the height of the wave.
 

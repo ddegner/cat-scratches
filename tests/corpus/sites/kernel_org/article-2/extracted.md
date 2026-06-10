@@ -1,14 +1,14 @@
 English
 
-* Chinese (Simplified)
-* Chinese (Traditional)
-* Italian
+* [Chinese (Simplified)](../translations/zh_CN/admin-guide/README.html)
+* [Chinese (Traditional)](../translations/zh_TW/admin-guide/README.html)
+* [Italian](../translations/it_IT/admin-guide/README.html)
 
-# Linux kernel release 6.x <http://kernel.org/\>¶
+# Linux kernel release 6.x <[http://kernel.org/](http://kernel.org/)\>[¶](#linux-kernel-release-6-x-http-kernel-org "Permalink to this heading")
 
 These are the release notes for Linux version 6. Read them carefully, as they tell you what this is all about, explain how to install the kernel, and what to do if something goes wrong.
 
-## What is Linux?¶
+## What is Linux?[¶](#what-is-linux "Permalink to this heading")
 
 > Linux is a clone of the operating system Unix, written from scratch by Linus Torvalds with assistance from a loosely-knit team of hackers across the Net. It aims towards POSIX and Single UNIX Specification compliance.
 > 
@@ -16,20 +16,20 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > 
 > It is distributed under the GNU General Public License v2 - see the accompanying COPYING file for more details.
 
-## On what hardware does it run?¶
+## On what hardware does it run?[¶](#on-what-hardware-does-it-run "Permalink to this heading")
 
 > Although originally developed first for 32-bit x86-based PCs (386 or higher), today Linux also runs on (at least) the Compaq Alpha AXP, Sun SPARC and UltraSPARC, Motorola 68000, PowerPC, PowerPC64, ARM, Hitachi SuperH, Cell, IBM S/390, MIPS, HP PA-RISC, Intel IA-64, DEC VAX, AMD x86-64 Xtensa, and ARC architectures.
 > 
 > Linux is easily portable to most general-purpose 32- or 64-bit architectures as long as they have a paged memory management unit (PMMU) and a port of the GNU C compiler (gcc) (part of The GNU Compiler Collection, GCC). Linux has also been ported to a number of architectures without a PMMU, although functionality is then obviously somewhat limited. Linux has also been ported to itself. You can now run the kernel as a userspace application - this is called UserMode Linux (UML).
 
-## Documentation¶
+## Documentation[¶](#documentation "Permalink to this heading")
 
 > * There is a lot of documentation available both in electronic form on the Internet and in books, both Linux-specific and pertaining to general UNIX questions. I’d recommend looking into the documentation subdirectories on any Linux FTP site for the LDP (Linux Documentation Project) books. This README is not meant to be documentation on the system: there are much better sources available.
 > 
-> * There are various README files in the Documentation/ subdirectory: these typically contain kernel-specific installation notes for some drivers for example. Please read the Documentation/process/changes.rst file, as it contains information about the problems which may result from upgrading your kernel.
+> * There are various README files in the Documentation/ subdirectory: these typically contain kernel-specific installation notes for some drivers for example. Please read the [Documentation/process/changes.rst](../process/changes.html#changes) file, as it contains information about the problems which may result from upgrading your kernel.
 > 
 
-## Installing the kernel source¶
+## Installing the kernel source[¶](#installing-the-kernel-source "Permalink to this heading")
 
 > * If you install the full sources, put the kernel tarball in a directory where you have permissions (e.g. your home directory) and unpack it:
 > 
@@ -45,7 +45,7 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > 
 > Replace “x” for all versions bigger than the version “x” of your current source tree, **in\_order**, and you should be ok. You may want to remove the backup files (some-file-name~ or some-file-name.orig), and make sure that there are no failed patches (some-file-name# or some-file-name.rej). If there are, either you or I have made a mistake.
 > 
-> Unlike patches for the 6.x kernels, patches for the 6.x.y kernels (also known as the -stable kernels) are not incremental but instead apply directly to the base 6.x kernel. For example, if your base kernel is 6.0 and you want to apply the 6.0.3 patch, you must not first apply the 6.0.1 and 6.0.2 patches. Similarly, if you are running kernel version 6.0.2 and want to jump to 6.0.3, you must first reverse the 6.0.2 patch (that is, patch -R) **before** applying the 6.0.3 patch. You can read more on this in Documentation/process/applying-patches.rst.
+> Unlike patches for the 6.x kernels, patches for the 6.x.y kernels (also known as the -stable kernels) are not incremental but instead apply directly to the base 6.x kernel. For example, if your base kernel is 6.0 and you want to apply the 6.0.3 patch, you must not first apply the 6.0.1 and 6.0.2 patches. Similarly, if you are running kernel version 6.0.2 and want to jump to 6.0.3, you must first reverse the 6.0.2 patch (that is, patch -R) **before** applying the 6.0.3 patch. You can read more on this in [Documentation/process/applying-patches.rst](../process/applying-patches.html#applying-patches).
 > 
 > Alternatively, the script patch-kernel can be used to automate this process. It determines the current kernel version and applies any patches found:
 > 
@@ -61,11 +61,11 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > You should now have the sources correctly installed.
 > 
 
-## Software requirements¶
+## Software requirements[¶](#software-requirements "Permalink to this heading")
 
-> Compiling and running the 6.x kernels requires up-to-date versions of various software packages. Consult Documentation/process/changes.rst for the minimum version numbers required and how to get updates for these packages. Beware that using excessively old versions of these packages can cause indirect errors that are very difficult to track down, so don’t assume that you can just update packages when obvious problems arise during build or operation.
+> Compiling and running the 6.x kernels requires up-to-date versions of various software packages. Consult [Documentation/process/changes.rst](../process/changes.html#changes) for the minimum version numbers required and how to get updates for these packages. Beware that using excessively old versions of these packages can cause indirect errors that are very difficult to track down, so don’t assume that you can just update packages when obvious problems arise during build or operation.
 
-## Build directory for the kernel¶
+## Build directory for the kernel[¶](#build-directory-for-the-kernel "Permalink to this heading")
 
 > When compiling the kernel, all output files will per default be stored together with the kernel source code. Using the option `make O=output/dir` allows you to specify an alternate place for the output files (including .config). Example:
 > 
@@ -81,7 +81,7 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > 
 > Please note: If the `O=output/dir` option is used, then it must be used for all invocations of make.
 
-## Configuring the kernel¶
+## Configuring the kernel[¶](#configuring-the-kernel "Permalink to this heading")
 
 > > Do not skip this step even if you are only upgrading one minor version. New configuration options are added in each release, and odd problems will turn up if the configuration files are not set up as expected. If you want to carry your existing configuration to a new version with minimal work, use `make oldconfig`, which will only ask you for the answers to new questions.
 > 
@@ -164,7 +164,7 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > 
 > "make tinyconfig" Configure the tiniest possible kernel.
 > 
-> You can find more information on using the Linux kernel config tools in Configuration targets and editors.
+> You can find more information on using the Linux kernel config tools in [Configuration targets and editors](../kbuild/kconfig.html).
 > 
 > * NOTES on `make config`:
 > 
@@ -172,13 +172,13 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > > 
 > > * A kernel with math-emulation compiled in will still use the coprocessor if one is present: the math emulation will just never get used in that case. The kernel will be slightly larger, but will work on different machines regardless of whether they have a math coprocessor or not.
 > > 
-> > * The “kernel hacking” configuration details usually result in a bigger or slower kernel (or both), and can even make the kernel less stable by configuring some routines to actively try to break bad code to find kernel problems (`kmalloc()`). Thus you should probably answer ‘n’ to the questions for “development”, “experimental”, or “debugging” features.
+> > * The “kernel hacking” configuration details usually result in a bigger or slower kernel (or both), and can even make the kernel less stable by configuring some routines to actively try to break bad code to find kernel problems ([`kmalloc()`](../core-api/mm-api.html#c.kmalloc "kmalloc")). Thus you should probably answer ‘n’ to the questions for “development”, “experimental”, or “debugging” features.
 > > 
 > 
 
-## Compiling the kernel¶
+## Compiling the kernel[¶](#compiling-the-kernel "Permalink to this heading")
 
-> * Make sure you have at least gcc 8.1 available. For more information, refer to Documentation/process/changes.rst.
+> * Make sure you have at least gcc 8.1 available. For more information, refer to [Documentation/process/changes.rst](../process/changes.html#changes).
 > 
 > * Do a `make` to create a compressed kernel image. It is also possible to do `make install` if you have lilo installed or if your distribution has an install script recognised by the kernel’s installer. Most popular distributions will have a recognized install script. You may want to check your distribution’s setup first.
 > 
@@ -200,14 +200,14 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > 
 > * In order to boot your new kernel, you’ll need to copy the kernel image (e.g. .../linux/arch/x86/boot/bzImage after compilation) to the place where your regular bootable kernel is found.
 > 
-> * Booting a kernel directly from a storage device without the assistance of a bootloader such as LILO or GRUB, is no longer supported in BIOS (non-EFI systems). On UEFI/EFI systems, however, you can use EFISTUB which allows the motherboard to boot directly to the kernel. On modern workstations and desktops, it’s generally recommended to use a bootloader as difficulties can arise with multiple kernels and secure boot. For more details on EFISTUB, see “The EFI Boot Stub”.
+> * Booting a kernel directly from a storage device without the assistance of a bootloader such as LILO or GRUB, is no longer supported in BIOS (non-EFI systems). On UEFI/EFI systems, however, you can use EFISTUB which allows the motherboard to boot directly to the kernel. On modern workstations and desktops, it’s generally recommended to use a bootloader as difficulties can arise with multiple kernels and secure boot. For more details on EFISTUB, see “[The EFI Boot Stub](efi-stub.html)”.
 > 
 > * It’s important to note that as of 2016 LILO (LInux LOader) is no longer in active development, though as it was extremely popular, it often comes up in documentation. Popular alternatives include GRUB2, rEFInd, Syslinux, systemd-boot, or EFISTUB. For various reasons, it’s not recommended to use software that’s no longer in active development.
 > 
 > * Chances are your distribution includes an install script and running `make install` will be all that’s needed. Should that not be the case you’ll have to identify your bootloader and reference its documentation or configure your EFI.
 > 
 
-## Legacy LILO Instructions¶
+## Legacy LILO Instructions[¶](#legacy-lilo-instructions "Permalink to this heading")
 
 > * If you use LILO the kernel images are specified in the file /etc/lilo.conf. The kernel image file is usually /vmlinuz, /boot/vmlinuz, /bzImage or /boot/bzImage. To use the new kernel, save a copy of the old image and copy the new image over the old one. Then, you MUST RERUN LILO to update the loading map! If you don’t, you won’t be able to boot the new kernel image.
 > 
@@ -220,8 +220,8 @@ These are the release notes for Linux version 6. Read them carefully, as they te
 > * Reboot with the new kernel and enjoy.
 > 
 
-## If something goes wrong¶
+## If something goes wrong[¶](#if-something-goes-wrong "Permalink to this heading")
 
-If you have problems that seem to be due to kernel bugs, please follow the instructions at ‘Reporting issues’.
+If you have problems that seem to be due to kernel bugs, please follow the instructions at ‘[Reporting issues](reporting-issues.html)’.
 
-Hints on understanding kernel bug reports are in ‘Bug hunting’. More on debugging the kernel with gdb is in ‘Debugging kernel and modules via gdb’ and ‘Using kgdb, kdb and the kernel debugger internals’.
+Hints on understanding kernel bug reports are in ‘[Bug hunting](bug-hunting.html)’. More on debugging the kernel with gdb is in ‘[Debugging kernel and modules via gdb](../process/debugging/gdb-kernel-debugging.html)’ and ‘[Using kgdb, kdb and the kernel debugger internals](../process/debugging/kgdb.html)’.

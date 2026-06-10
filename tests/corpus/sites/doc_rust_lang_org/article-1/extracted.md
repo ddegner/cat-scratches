@@ -44,9 +44,9 @@ In other words, there are two important points in time here:
 
 At this point, the relationship between scopes and when variables are valid is similar to that in other programming languages. Now we’ll build on top of this understanding by introducing the `String` type.
 
-To illustrate the rules of ownership, we need a data type that is more complex than those we covered in the “Data Types” section of Chapter 3. The types covered previously are of a known size, can be stored on the stack and popped off the stack when their scope is over, and can be quickly and trivially copied to make a new, independent instance if another part of code needs to use the same value in a different scope. But we want to look at data that is stored on the heap and explore how Rust knows when to clean up that data, and the `String` type is a great example.
+To illustrate the rules of ownership, we need a data type that is more complex than those we covered in the [“Data Types”](ch03-02-data-types.html#data-types) section of Chapter 3. The types covered previously are of a known size, can be stored on the stack and popped off the stack when their scope is over, and can be quickly and trivially copied to make a new, independent instance if another part of code needs to use the same value in a different scope. But we want to look at data that is stored on the heap and explore how Rust knows when to clean up that data, and the `String` type is a great example.
 
-We’ll concentrate on the parts of `String` that relate to ownership. These aspects also apply to other complex data types, whether they are provided by the standard library or created by you. We’ll discuss non-ownership aspects of `String` in Chapter 8.
+We’ll concentrate on the parts of `String` that relate to ownership. These aspects also apply to other complex data types, whether they are provided by the standard library or created by you. We’ll discuss non-ownership aspects of `String` in [Chapter 8](ch08-02-strings.html).
 
 We’ve already seen string literals, where a string value is hardcoded into our program. String literals are convenient, but they aren’t suitable for every situation in which we may want to use text. One reason is that they’re immutable. Another is that not every string value can be known when we write our code: For example, what if we want to take user input and store it? It is for these situations that Rust has the `String` type. This type manages data allocated on the heap and as such is able to store an amount of text that is unknown to us at compile time. You can create a `String` from a string literal using the `from` function, like so:
 
@@ -57,17 +57,17 @@ let s = String::from("hello");
 }
 ```
 
-The double colon `::` operator allows us to namespace this particular `from` function under the `String` type rather than using some sort of name like `string_from`. We’ll discuss this syntax more in the “Methods” section of Chapter 5, and when we talk about namespacing with modules in “Paths for Referring to an Item in the Module Tree” in Chapter 7.
+The double colon `::` operator allows us to namespace this particular `from` function under the `String` type rather than using some sort of name like `string_from`. We’ll discuss this syntax more in the [“Methods”](ch05-03-method-syntax.html#methods) section of Chapter 5, and when we talk about namespacing with modules in [“Paths for Referring to an Item in the Module Tree”](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html) in Chapter 7.
 
 This kind of string _can_ be mutated:
 
 ```rust
 fn main() {
- let mut s = String::from("hello");
+    let mut s = String::from("hello");
 
- s.push_str(", world!"); // push_str() appends a literal to a String
+    s.push_str(", world!"); // push_str() appends a literal to a String
 
- println!("{s}"); // this will print `hello, world!`
+    println!("{s}"); // this will print `hello, world!`
 }
 ```
 
@@ -88,12 +88,12 @@ Rust takes a different path: The memory is automatically returned once the varia
 
 ```rust
 fn main() {
- {
- let s = String::from("hello"); // s is valid from this point forward
+    {
+        let s = String::from("hello"); // s is valid from this point forward
 
- // do stuff with s
- } // this scope is now over, and s is no
- // longer valid
+        // do stuff with s
+    }                                  // this scope is now over, and s is no
+                                       // longer valid
 }
 ```
 
@@ -111,8 +111,8 @@ Now let’s look at the `String` version:
 
 ```rust
 fn main() {
- let s1 = String::from("hello");
- let s2 = s1;
+    let s1 = String::from("hello");
+    let s2 = s1;
 }
 ```
 
@@ -132,10 +132,10 @@ To ensure memory safety, after the line `let s2 = s1;`, Rust considers `s1` as n
 
 ```rust
 fn main() {
- let s1 = String::from("hello");
- let s2 = s1;
+    let s1 = String::from("hello");
+    let s2 = s1;
 
- println!("{s1}, world!");
+    println!("{s1}, world!");
 }
 ```
 
@@ -143,23 +143,23 @@ You’ll get an error like this because Rust prevents you from using the invalid
 
 ```console
 $ cargo run
- Compiling ownership v0.1.0 (file:///projects/ownership)
+   Compiling ownership v0.1.0 (file:///projects/ownership)
 error[E0382]: borrow of moved value: `s1`
  --> src/main.rs:5:16
- |
-2 | let s1 = String::from("hello");
- | -- move occurs because `s1` has type `String`, which does not implement the `Copy` trait
-3 | let s2 = s1;
- | -- value moved here
+  |
+2 |     let s1 = String::from("hello");
+  |         -- move occurs because `s1` has type `String`, which does not implement the `Copy` trait
+3 |     let s2 = s1;
+  |              -- value moved here
 4 |
-5 | println!("{s1}, world!");
- | ^^ value borrowed here after move
- |
- = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+5 |     println!("{s1}, world!");
+  |                ^^ value borrowed here after move
+  |
+  = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
 help: consider cloning the value if the performance cost is acceptable
- |
-3 | let s2 = s1.clone();
- | ++++++++
+  |
+3 |     let s2 = s1.clone();
+  |                ++++++++
 
 For more information about this error, try `rustc --explain E0382`.
 error: could not compile `ownership` (bin "ownership") due to 1 previous error
@@ -175,10 +175,10 @@ The inverse of this is true for the relationship between scoping, ownership, and
 
 ```rust
 fn main() {
- let mut s = String::from("hello");
- s = String::from("ahoy");
+    let mut s = String::from("hello");
+    s = String::from("ahoy");
 
- println!("{s}, world!");
+    println!("{s}, world!");
 }
 ```
 
@@ -192,10 +192,10 @@ Here’s an example of the `clone` method in action:
 
 ```rust
 fn main() {
- let s1 = String::from("hello");
- let s2 = s1.clone();
+    let s1 = String::from("hello");
+    let s2 = s1.clone();
 
- println!("s1 = {s1}, s2 = {s2}");
+    println!("s1 = {s1}, s2 = {s2}");
 }
 ```
 
@@ -207,10 +207,10 @@ There’s another wrinkle we haven’t talked about yet. This code using integer
 
 ```rust
 fn main() {
- let x = 5;
- let y = x;
+    let x = 5;
+    let y = x;
 
- println!("x = {x}, y = {y}");
+    println!("x = {x}, y = {y}");
 }
 ```
 
@@ -218,9 +218,9 @@ But this code seems to contradict what we just learned: We don’t have a call t
 
 The reason is that types such as integers that have a known size at compile time are stored entirely on the stack, so copies of the actual values are quick to make. That means there’s no reason we would want to prevent `x` from being valid after we create the variable `y`. In other words, there’s no difference between deep and shallow copying here, so calling `clone` wouldn’t do anything different from the usual shallow copying, and we can leave it out.
 
-Rust has a special annotation called the `Copy` trait that we can place on types that are stored on the stack, as integers are (we’ll talk more about traits in Chapter 10). If a type implements the `Copy` trait, variables that use it do not move, but rather are trivially copied, making them still valid after assignment to another variable.
+Rust has a special annotation called the `Copy` trait that we can place on types that are stored on the stack, as integers are (we’ll talk more about traits in [Chapter 10](ch10-02-traits.html)). If a type implements the `Copy` trait, variables that use it do not move, but rather are trivially copied, making them still valid after assignment to another variable.
 
-Rust won’t let us annotate a type with `Copy` if the type, or any of its parts, has implemented the `Drop` trait. If the type needs something special to happen when the value goes out of scope and we add the `Copy` annotation to that type, we’ll get a compile-time error. To learn about how to add the `Copy` annotation to your type to implement the trait, see “Derivable Traits” in Appendix C.
+Rust won’t let us annotate a type with `Copy` if the type, or any of its parts, has implemented the `Drop` trait. If the type needs something special to happen when the value goes out of scope and we add the `Copy` annotation to that type, we’ll get a compile-time error. To learn about how to add the `Copy` annotation to your type to implement the trait, see [“Derivable Traits”](appendix-03-derivable-traits.html) in Appendix C.
 
 So, what types implement the `Copy` trait? You can check the documentation for the given type to be sure, but as a general rule, any group of simple scalar values can implement `Copy`, and nothing that requires allocation or is some form of resource can implement `Copy`. Here are some of the types that implement `Copy`:
 

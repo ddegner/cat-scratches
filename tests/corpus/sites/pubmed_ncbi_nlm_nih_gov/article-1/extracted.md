@@ -2,20 +2,20 @@ Adeno-associated viruses (AAVs) are commonly used as vectors for the delivery of
 
 **Keywords:** AAV intact viral capsid protein screening; adeno-associated virus; cell and gene therapy; good manufacturing practices; hydrophilic interaction liquid chromatography−mass spectrometry; rapid identity testing.
 
-PubMed Disclaimer
+[PubMed Disclaimer](/disclaimer/)
 
 The authors declare the following competing financial interest(s): S.G.M. and R.O.S. are employees of Patheon Viral Vector Services. J.B. received funding from Patheon Viral Vector Services to undertake this research. J.S. was employed under the collaborative research engagement between Patheon Viral Vector Services and NIBRT.
 
-See this image and copyright information in PMC
+[See this image and copyright information in PMC](#)
 
 * ### Full Text Sources
- 
- * American Chemical Society
- * Europe PMC
- * PubMed Central
+    
+    * [American Chemical Society](https://doi.org/10.1021/acs.jproteome.3c00513)
+    * [Europe PMC](https://europepmc.org/abstract/MED/38123456)
+    * [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/38123456/)
 * ### Other Literature Sources
- 
- * The Lens - Patent Citations Database
+    
+    * [The Lens - Patent Citations Database](https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38123456)
 * ### Miscellaneous
- 
- * NCI CPTAC Assay Portal
+    
+    * [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1532)

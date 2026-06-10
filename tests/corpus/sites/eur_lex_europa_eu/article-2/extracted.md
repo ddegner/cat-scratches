@@ -1,18 +1,18 @@
 This document is an excerpt from the EUR-Lex website
 
-1. EUROPA
-2. EUR-Lex home
+1. [EUROPA](https://europa.eu/european-union/index_en)
+2. [EUR-Lex home](./../../../homepage.html "EUR-Lex home")
 3. Regulation - 2022/2065 - EN - DSA - EUR-Lex
 
-* Help
+* [Help](./../../../content/help.html "Help")
 
-  Search tips
+  [Search tips](# "Search tips")
 
-Need more search options? Use the Advanced search
+Need more search options? Use the [Advanced search](./../../../advanced-search-form.html "Advanced search")
 
 Document 32022R2065
 
-* Help
+* [Help](./../../../content/help.html "Help")
 
 ​
 
@@ -29,113 +29,119 @@ _
 
 In force
 
-ELI: http://data.europa.eu/eli/reg/2022/2065/oj
+ELI: [http://data.europa.eu/eli/reg/2022/2065/oj](http://data.europa.eu/eli/reg/2022/2065/oj "Gives access to this document through its ELI URI.")
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/?uri=CELEX:32022R2065 "български")
+* [ES](./../../../legal-content/ES/TXT/?uri=CELEX:32022R2065 "Español")
+* [CS](./../../../legal-content/CS/TXT/?uri=CELEX:32022R2065 "Čeština")
+* [DA](./../../../legal-content/DA/TXT/?uri=CELEX:32022R2065 "Dansk")
+* [DE](./../../../legal-content/DE/TXT/?uri=CELEX:32022R2065 "Deutsch")
+* [ET](./../../../legal-content/ET/TXT/?uri=CELEX:32022R2065 "Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/?uri=CELEX:32022R2065 "Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/?uri=CELEX:32022R2065 "English")
+* [FR](./../../../legal-content/FR/TXT/?uri=CELEX:32022R2065 "Français")
+* [GA](./../../../legal-content/GA/TXT/?uri=CELEX:32022R2065 "Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/?uri=CELEX:32022R2065 "Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/?uri=CELEX:32022R2065 "Italiano")
+* [LV](./../../../legal-content/LV/TXT/?uri=CELEX:32022R2065 "Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/?uri=CELEX:32022R2065 "Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/?uri=CELEX:32022R2065 "Magyar")
+* [MT](./../../../legal-content/MT/TXT/?uri=CELEX:32022R2065 "Malti")
+* [NL](./../../../legal-content/NL/TXT/?uri=CELEX:32022R2065 "Nederlands")
+* [PL](./../../../legal-content/PL/TXT/?uri=CELEX:32022R2065 "Polski")
+* [PT](./../../../legal-content/PT/TXT/?uri=CELEX:32022R2065 "Português")
+* [RO](./../../../legal-content/RO/TXT/?uri=CELEX:32022R2065 "Română")
+* [SK](./../../../legal-content/SK/TXT/?uri=CELEX:32022R2065 "Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/?uri=CELEX:32022R2065 "Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/?uri=CELEX:32022R2065 "Suomi")
+* [SV](./../../../legal-content/SV/TXT/?uri=CELEX:32022R2065 "Svenska")
 
   HTML
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/HTML/?uri=CELEX:32022R2065 "HTML български")
+* [ES](./../../../legal-content/ES/TXT/HTML/?uri=CELEX:32022R2065 "HTML Español")
+* [CS](./../../../legal-content/CS/TXT/HTML/?uri=CELEX:32022R2065 "HTML Čeština")
+* [DA](./../../../legal-content/DA/TXT/HTML/?uri=CELEX:32022R2065 "HTML Dansk")
+* [DE](./../../../legal-content/DE/TXT/HTML/?uri=CELEX:32022R2065 "HTML Deutsch")
+* [ET](./../../../legal-content/ET/TXT/HTML/?uri=CELEX:32022R2065 "HTML Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/HTML/?uri=CELEX:32022R2065 "HTML Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/HTML/?uri=CELEX:32022R2065 "HTML English")
+* [FR](./../../../legal-content/FR/TXT/HTML/?uri=CELEX:32022R2065 "HTML Français")
+* [GA](./../../../legal-content/GA/TXT/HTML/?uri=CELEX:32022R2065 "HTML Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/HTML/?uri=CELEX:32022R2065 "HTML Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/HTML/?uri=CELEX:32022R2065 "HTML Italiano")
+* [LV](./../../../legal-content/LV/TXT/HTML/?uri=CELEX:32022R2065 "HTML Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/HTML/?uri=CELEX:32022R2065 "HTML Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/HTML/?uri=CELEX:32022R2065 "HTML Magyar")
+* [MT](./../../../legal-content/MT/TXT/HTML/?uri=CELEX:32022R2065 "HTML Malti")
+* [NL](./../../../legal-content/NL/TXT/HTML/?uri=CELEX:32022R2065 "HTML Nederlands")
+* [PL](./../../../legal-content/PL/TXT/HTML/?uri=CELEX:32022R2065 "HTML Polski")
+* [PT](./../../../legal-content/PT/TXT/HTML/?uri=CELEX:32022R2065 "HTML Português")
+* [RO](./../../../legal-content/RO/TXT/HTML/?uri=CELEX:32022R2065 "HTML Română")
+* [SK](./../../../legal-content/SK/TXT/HTML/?uri=CELEX:32022R2065 "HTML Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/HTML/?uri=CELEX:32022R2065 "HTML Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/HTML/?uri=CELEX:32022R2065 "HTML Suomi")
+* [SV](./../../../legal-content/SV/TXT/HTML/?uri=CELEX:32022R2065 "HTML Svenska")
 
   PDF
 
-* BG
-* ES
-* CS
-* DA
-* DE
-* ET
-* EL
-* EN
-* FR
-* GA
-* HR
-* IT
-* LV
-* LT
-* HU
-* MT
-* NL
-* PL
-* PT
-* RO
-* SK
-* SL
-* FI
-* SV
+* [BG](./../../../legal-content/BG/TXT/PDF/?uri=CELEX:32022R2065 "PDF български")
+* [ES](./../../../legal-content/ES/TXT/PDF/?uri=CELEX:32022R2065 "PDF Español")
+* [CS](./../../../legal-content/CS/TXT/PDF/?uri=CELEX:32022R2065 "PDF Čeština")
+* [DA](./../../../legal-content/DA/TXT/PDF/?uri=CELEX:32022R2065 "PDF Dansk")
+* [DE](./../../../legal-content/DE/TXT/PDF/?uri=CELEX:32022R2065 "PDF Deutsch")
+* [ET](./../../../legal-content/ET/TXT/PDF/?uri=CELEX:32022R2065 "PDF Eesti keel")
+* [EL](./../../../legal-content/EL/TXT/PDF/?uri=CELEX:32022R2065 "PDF Ελληνικά")
+* [EN](./../../../legal-content/EN/TXT/PDF/?uri=CELEX:32022R2065 "PDF English")
+* [FR](./../../../legal-content/FR/TXT/PDF/?uri=CELEX:32022R2065 "PDF Français")
+* [GA](./../../../legal-content/GA/TXT/PDF/?uri=CELEX:32022R2065 "PDF Gaeilge")
+* [HR](./../../../legal-content/HR/TXT/PDF/?uri=CELEX:32022R2065 "PDF Hrvatski")
+* [IT](./../../../legal-content/IT/TXT/PDF/?uri=CELEX:32022R2065 "PDF Italiano")
+* [LV](./../../../legal-content/LV/TXT/PDF/?uri=CELEX:32022R2065 "PDF Latviešu valoda")
+* [LT](./../../../legal-content/LT/TXT/PDF/?uri=CELEX:32022R2065 "PDF Lietuvių kalba")
+* [HU](./../../../legal-content/HU/TXT/PDF/?uri=CELEX:32022R2065 "PDF Magyar")
+* [MT](./../../../legal-content/MT/TXT/PDF/?uri=CELEX:32022R2065 "PDF Malti")
+* [NL](./../../../legal-content/NL/TXT/PDF/?uri=CELEX:32022R2065 "PDF Nederlands")
+* [PL](./../../../legal-content/PL/TXT/PDF/?uri=CELEX:32022R2065 "PDF Polski")
+* [PT](./../../../legal-content/PT/TXT/PDF/?uri=CELEX:32022R2065 "PDF Português")
+* [RO](./../../../legal-content/RO/TXT/PDF/?uri=CELEX:32022R2065 "PDF Română")
+* [SK](./../../../legal-content/SK/TXT/PDF/?uri=CELEX:32022R2065 "PDF Slovenčina")
+* [SL](./../../../legal-content/SL/TXT/PDF/?uri=CELEX:32022R2065 "PDF Slovenščina")
+* [FI](./../../../legal-content/FI/TXT/PDF/?uri=CELEX:32022R2065 "PDF Suomi")
+* [SV](./../../../legal-content/SV/TXT/PDF/?uri=CELEX:32022R2065 "PDF Svenska")
 
   Official Journal
 
-*   BG
-*   ES
-*   CS
-*   DA
-*   DE
-*   ET
-*   EL
-*   EN
-*   FR
-*   GA
-*   HR
-*   IT
-*   LV
-*   LT
-*   HU
-*   MT
-*   NL
-*   PL
-*   PT
-*   RO
-*   SK
-*   SL
-*   FI
-*   SV
+*   [BG](./../../../legal-content/BG/TXT/?uri=OJ:L:2022:277:TOC "OJ български")
+*   [ES](./../../../legal-content/ES/TXT/?uri=OJ:L:2022:277:TOC "OJ Español")
+*   [CS](./../../../legal-content/CS/TXT/?uri=OJ:L:2022:277:TOC "OJ Čeština")
+*   [DA](./../../../legal-content/DA/TXT/?uri=OJ:L:2022:277:TOC "OJ Dansk")
+*   [DE](./../../../legal-content/DE/TXT/?uri=OJ:L:2022:277:TOC "OJ Deutsch")
+*   [ET](./../../../legal-content/ET/TXT/?uri=OJ:L:2022:277:TOC "OJ Eesti keel")
+*   [EL](./../../../legal-content/EL/TXT/?uri=OJ:L:2022:277:TOC "OJ Ελληνικά")
+*   [EN](./../../../legal-content/EN/TXT/?uri=OJ:L:2022:277:TOC "OJ English")
+*   [FR](./../../../legal-content/FR/TXT/?uri=OJ:L:2022:277:TOC "OJ Français")
+*   [GA](./../../../legal-content/GA/TXT/?uri=OJ:L:2022:277:TOC "OJ Gaeilge")
+*   [HR](./../../../legal-content/HR/TXT/?uri=OJ:L:2022:277:TOC "OJ Hrvatski")
+*   [IT](./../../../legal-content/IT/TXT/?uri=OJ:L:2022:277:TOC "OJ Italiano")
+*   [LV](./../../../legal-content/LV/TXT/?uri=OJ:L:2022:277:TOC "OJ Latviešu valoda")
+*   [LT](./../../../legal-content/LT/TXT/?uri=OJ:L:2022:277:TOC "OJ Lietuvių kalba")
+*   [HU](./../../../legal-content/HU/TXT/?uri=OJ:L:2022:277:TOC "OJ Magyar")
+*   [MT](./../../../legal-content/MT/TXT/?uri=OJ:L:2022:277:TOC "OJ Malti")
+*   [NL](./../../../legal-content/NL/TXT/?uri=OJ:L:2022:277:TOC "OJ Nederlands")
+*   [PL](./../../../legal-content/PL/TXT/?uri=OJ:L:2022:277:TOC "OJ Polski")
+*   [PT](./../../../legal-content/PT/TXT/?uri=OJ:L:2022:277:TOC "OJ Português")
+*   [RO](./../../../legal-content/RO/TXT/?uri=OJ:L:2022:277:TOC "OJ Română")
+*   [SK](./../../../legal-content/SK/TXT/?uri=OJ:L:2022:277:TOC "OJ Slovenčina")
+*   [SL](./../../../legal-content/SL/TXT/?uri=OJ:L:2022:277:TOC "OJ Slovenščina")
+*   [FI](./../../../legal-content/FI/TXT/?uri=OJ:L:2022:277:TOC "OJ Suomi")
+*   [SV](./../../../legal-content/SV/TXT/?uri=OJ:L:2022:277:TOC "OJ Svenska")
+
+English (en) Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
+
+Please choose Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
+
+Please choose Bulgarian (bg) Spanish (es) Czech (cs) Danish (da) German (de) Estonian (et) Greek (el) English (en) French (fr) Irish (ga) Croatian (hr) Italian (it) Latvian (lv) Lithuanian (lt) Hungarian (hu) Maltese (mt) Dutch (nl) Polish (pl) Portuguese (pt) Romanian (ro) Slovak (sk) Slovenian (sl) Finnish (fi) Swedish (sv)
 
 27.10.2022   
 
@@ -144,8 +150,6 @@ EN
 Official Journal of the European Union
 
 L 277/1
-
----
 
 REGULATION (EU) 2022/2065 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
 
@@ -163,17 +167,17 @@ Having regard to the proposal from the European Commission,
 
 After transmission of the draft legislative act to the national parliaments,
 
-Having regard to the opinion of the European Economic and Social Committee (1),
+Having regard to the opinion of the European Economic and Social Committee [(1)](#ntr1-L_2022277EN.01000101-E0001),
 
-Having regard to the opinion of the Committee of the Regions (2),
+Having regard to the opinion of the Committee of the Regions [(2)](#ntr2-L_2022277EN.01000101-E0002),
 
-Acting in accordance with the ordinary legislative procedure (3),
+Acting in accordance with the ordinary legislative procedure [(3)](#ntr3-L_2022277EN.01000101-E0003),
 
 Whereas:
 
 (1)
 
-Information society services and especially intermediary services have become an important part of the Union’s economy and the daily life of Union citizens. Twenty years after the adoption of the existing legal framework applicable to such services laid down in Directive 2000/31/EC of the European Parliament and of the Council (4), new and innovative business models and services, such as online social networks and online platforms allowing consumers to conclude distance contracts with traders, have allowed business users and consumers to impart and access information and engage in transactions in novel ways. A majority of Union citizens now uses those services on a daily basis. However, the digital transformation and increased use of those services has also resulted in new risks and challenges for individual recipients of the relevant service, companies and society as a whole.
+Information society services and especially intermediary services have become an important part of the Union’s economy and the daily life of Union citizens. Twenty years after the adoption of the existing legal framework applicable to such services laid down in Directive 2000/31/EC of the European Parliament and of the Council [(4)](#ntr4-L_2022277EN.01000101-E0004), new and innovative business models and services, such as online social networks and online platforms allowing consumers to conclude distance contracts with traders, have allowed business users and consumers to impart and access information and engage in transactions in novel ways. A majority of Union citizens now uses those services on a daily basis. However, the digital transformation and increased use of those services has also resulted in new risks and challenges for individual recipients of the relevant service, companies and society as a whole.
 
 (2)
 
@@ -189,7 +193,7 @@ Therefore, in order to safeguard and improve the functioning of the internal mar
 
 (5)
 
-This Regulation should apply to providers of certain information society services as defined in Directive (EU) 2015/1535 of the European Parliament and of the Council (5), that is, any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient. Specifically, this Regulation should apply to providers of intermediary services, and in particular intermediary services consisting of services known as ‘mere conduit’, ‘caching’ and ‘hosting’ services, given that the exponential growth of the use made of those services, mainly for legitimate and socially beneficial purposes of all kinds, has also increased their role in the intermediation and spread of unlawful or otherwise harmful information and activities.
+This Regulation should apply to providers of certain information society services as defined in Directive (EU) 2015/1535 of the European Parliament and of the Council [(5)](#ntr5-L_2022277EN.01000101-E0005), that is, any service normally provided for remuneration, at a distance, by electronic means and at the individual request of a recipient. Specifically, this Regulation should apply to providers of intermediary services, and in particular intermediary services consisting of services known as ‘mere conduit’, ‘caching’ and ‘hosting’ services, given that the exponential growth of the use made of those services, mainly for legitimate and socially beneficial purposes of all kinds, has also increased their role in the intermediation and spread of unlawful or otherwise harmful information and activities.
 
 (6)
 
@@ -201,7 +205,7 @@ In order to ensure the effectiveness of the rules laid down in this Regulation a
 
 (8)
 
-Such a substantial connection to the Union should be considered to exist where the service provider has an establishment in the Union or, in the absence of such an establishment, where the number of recipients of the service in one or more Member States is significant in relation to the population thereof, or on the basis of the targeting of activities towards one or more Member States. The targeting of activities towards one or more Member States can be determined on the basis of all relevant circumstances, including factors such as the use of a language or a currency generally used in that Member State, or the possibility of ordering products or services, or the use of a relevant top-level domain. The targeting of activities towards a Member State could also be derived from the availability of an application in the relevant national application store, from the provision of local advertising or advertising in a language used in that Member State, or from the handling of customer relations such as by providing customer service in a language generally used in that Member State. A substantial connection should also be assumed where a service provider directs its activities to one or more Member States within the meaning of Article 17(1), point (c), of Regulation (EU) No 1215/2012 of the European Parliament and of the Council (6). In contrast, mere technical accessibility of a website from the Union cannot, on that ground alone, be considered as establishing a substantial connection to the Union.
+Such a substantial connection to the Union should be considered to exist where the service provider has an establishment in the Union or, in the absence of such an establishment, where the number of recipients of the service in one or more Member States is significant in relation to the population thereof, or on the basis of the targeting of activities towards one or more Member States. The targeting of activities towards one or more Member States can be determined on the basis of all relevant circumstances, including factors such as the use of a language or a currency generally used in that Member State, or the possibility of ordering products or services, or the use of a relevant top-level domain. The targeting of activities towards a Member State could also be derived from the availability of an application in the relevant national application store, from the provision of local advertising or advertising in a language used in that Member State, or from the handling of customer relations such as by providing customer service in a language generally used in that Member State. A substantial connection should also be assumed where a service provider directs its activities to one or more Member States within the meaning of Article 17(1), point (c), of Regulation (EU) No 1215/2012 of the European Parliament and of the Council [(6)](#ntr6-L_2022277EN.01000101-E0006). In contrast, mere technical accessibility of a website from the Union cannot, on that ground alone, be considered as establishing a substantial connection to the Union.
 
 (9)
 
@@ -209,15 +213,15 @@ This Regulation fully harmonises the rules applicable to intermediary services i
 
 (10)
 
-This Regulation should be without prejudice to other acts of Union law regulating the provision of information society services in general, regulating other aspects of the provision of intermediary services in the internal market or specifying and complementing the harmonised rules set out in this Regulation, such as Directive 2010/13/EU of the European Parliament and of the Council (7) including the provisions thereof regarding video-sharing platforms, Regulations (EU) 2019/1148 (8), (EU) 2019/1150 (9), (EU) 2021/784 (10) and (EU) 2021/1232 (11) of the European Parliament and of the Council and Directive 2002/58/EC of the European Parliament and of the Council (12), and provisions of Union law set out in a Regulation on European Production and Preservation Orders for electronic evidence in criminal matters and in a Directive laying down harmonised rules on the appointment of legal representatives for the purpose of gathering evidence in criminal proceedings.
+This Regulation should be without prejudice to other acts of Union law regulating the provision of information society services in general, regulating other aspects of the provision of intermediary services in the internal market or specifying and complementing the harmonised rules set out in this Regulation, such as Directive 2010/13/EU of the European Parliament and of the Council [(7)](#ntr7-L_2022277EN.01000101-E0007) including the provisions thereof regarding video-sharing platforms, Regulations (EU) 2019/1148 [(8)](#ntr8-L_2022277EN.01000101-E0008), (EU) 2019/1150 [(9)](#ntr9-L_2022277EN.01000101-E0009), (EU) 2021/784 [(10)](#ntr10-L_2022277EN.01000101-E0010) and (EU) 2021/1232 [(11)](#ntr11-L_2022277EN.01000101-E0011) of the European Parliament and of the Council and Directive 2002/58/EC of the European Parliament and of the Council [(12)](#ntr12-L_2022277EN.01000101-E0012), and provisions of Union law set out in a Regulation on European Production and Preservation Orders for electronic evidence in criminal matters and in a Directive laying down harmonised rules on the appointment of legal representatives for the purpose of gathering evidence in criminal proceedings.
 
-Similarly, for reasons of clarity, this Regulation should be without prejudice to Union law on consumer protection, in particular Regulations (EU) 2017/2394 (13) and (EU) 2019/1020 (14) of the European Parliament and of the Council, Directives 2001/95/EC (15), 2005/29/EC (16), 2011/83/EU (17) and 2013/11/EU (18) of the European Parliament and of the Council, and Council Directive 93/13/EEC (19), and on the protection of personal data, in particular Regulation (EU) 2016/679 of the European Parliament and of the Council (20).
+Similarly, for reasons of clarity, this Regulation should be without prejudice to Union law on consumer protection, in particular Regulations (EU) 2017/2394 [(13)](#ntr13-L_2022277EN.01000101-E0013) and (EU) 2019/1020 [(14)](#ntr14-L_2022277EN.01000101-E0014) of the European Parliament and of the Council, Directives 2001/95/EC [(15)](#ntr15-L_2022277EN.01000101-E0015), 2005/29/EC [(16)](#ntr16-L_2022277EN.01000101-E0016), 2011/83/EU [(17)](#ntr17-L_2022277EN.01000101-E0017) and 2013/11/EU [(18)](#ntr18-L_2022277EN.01000101-E0018) of the European Parliament and of the Council, and Council Directive 93/13/EEC [(19)](#ntr19-L_2022277EN.01000101-E0019), and on the protection of personal data, in particular Regulation (EU) 2016/679 of the European Parliament and of the Council [(20)](#ntr20-L_2022277EN.01000101-E0020).
 
 This Regulation should also be without prejudice to Union rules on private international law, in particular rules regarding jurisdiction and the recognition and enforcement of judgments in civil and commercial matters, as Regulation (EU) No 1215/2012, and rules on the law applicable to contractual and non-contractual obligations. The protection of individuals with regard to the processing of personal data is governed solely by the rules of Union law on that subject, in particular Regulation (EU) 2016/679 and Directive 2002/58/EC. This Regulation should also be without prejudice to Union law on working conditions and Union law in the field of judicial cooperation in civil and criminal matters. However, to the extent that those Union legal acts pursue the same objectives as those laid down in this Regulation, the rules of this Regulation should apply in respect of issues that are not addressed or not fully addressed by those other legal acts as well as issues on which those other legal acts leave Member States the possibility of adopting certain measures at national level.
 
 (11)
 
-It should be clarified that this Regulation is without prejudice to Union law on copyright and related rights, including Directives 2001/29/EC (21), 2004/48/EC (22) and (EU) 2019/790 (23) of the European Parliament and of the Council, which establish specific rules and procedures that should remain unaffected.
+It should be clarified that this Regulation is without prejudice to Union law on copyright and related rights, including Directives 2001/29/EC [(21)](#ntr21-L_2022277EN.01000101-E0021), 2004/48/EC [(22)](#ntr22-L_2022277EN.01000101-E0022) and (EU) 2019/790 [(23)](#ntr23-L_2022277EN.01000101-E0023) of the European Parliament and of the Council, which establish specific rules and procedures that should remain unaffected.
 
 (12)
 
@@ -231,7 +235,7 @@ Moreover, cloud computing services and web-hosting services, when serving as inf
 
 (14)
 
-The concept of ‘dissemination to the public’, as used in this Regulation, should entail the making available of information to a potentially unlimited number of persons, meaning making the information easily accessible to recipients of the service in general without further action by the recipient of the service providing the information being required, irrespective of whether those persons actually access the information in question. Accordingly, where access to information requires registration or admittance to a group of recipients of the service, that information should be considered to be disseminated to the public only where recipients of the service seeking to access the information are automatically registered or admitted without a human decision or selection of whom to grant access. Interpersonal communication services, as defined in Directive (EU) 2018/1972 of the European Parliament and of the Council (24), such as emails or private messaging services, fall outside the scope of the definition of online platforms as they are used for interpersonal communication between a finite number of persons determined by the sender of the communication. However, the obligations set out in this Regulation for providers of online platforms may apply to services that allow the making available of information to a potentially unlimited number of recipients, not determined by the sender of the communication, such as through public groups or open channels. Information should be considered disseminated to the public within the meaning of this Regulation only where that dissemination occurs upon the direct request by the recipient of the service that provided the information.
+The concept of ‘dissemination to the public’, as used in this Regulation, should entail the making available of information to a potentially unlimited number of persons, meaning making the information easily accessible to recipients of the service in general without further action by the recipient of the service providing the information being required, irrespective of whether those persons actually access the information in question. Accordingly, where access to information requires registration or admittance to a group of recipients of the service, that information should be considered to be disseminated to the public only where recipients of the service seeking to access the information are automatically registered or admitted without a human decision or selection of whom to grant access. Interpersonal communication services, as defined in Directive (EU) 2018/1972 of the European Parliament and of the Council [(24)](#ntr24-L_2022277EN.01000101-E0024), such as emails or private messaging services, fall outside the scope of the definition of online platforms as they are used for interpersonal communication between a finite number of persons determined by the sender of the communication. However, the obligations set out in this Regulation for providers of online platforms may apply to services that allow the making available of information to a potentially unlimited number of recipients, not determined by the sender of the communication, such as through public groups or open channels. Information should be considered disseminated to the public within the meaning of this Regulation only where that dissemination occurs upon the direct request by the recipient of the service that provided the information.
 
 (15)
 
@@ -373,7 +377,7 @@ Given their special role and reach, it is appropriate to impose on very large on
 
 (49)
 
-To ensure an adequate level of transparency and accountability, providers of intermediary services should make publicly available an annual report in a machine-readable format, in accordance with the harmonised requirements contained in this Regulation, on the content moderation in which they engage, including the measures taken as a result of the application and enforcement of their terms and conditions. However, in order to avoid disproportionate burdens, those transparency reporting obligations should not apply to providers that are micro or small enterprises as defined in Commission Recommendation 2003/361/EC (25) and which are not very large online platforms within the meaning of this Regulation.
+To ensure an adequate level of transparency and accountability, providers of intermediary services should make publicly available an annual report in a machine-readable format, in accordance with the harmonised requirements contained in this Regulation, on the content moderation in which they engage, including the measures taken as a result of the application and enforcement of their terms and conditions. However, in order to avoid disproportionate burdens, those transparency reporting obligations should not apply to providers that are micro or small enterprises as defined in Commission Recommendation 2003/361/EC [(25)](#ntr25-L_2022277EN.01000101-E0025) and which are not very large online platforms within the meaning of this Regulation.
 
 (50)
 
@@ -389,7 +393,7 @@ The rules on such notice and action mechanisms should be harmonised at Union lev
 
 (53)
 
-The notice and action mechanisms should allow for the submission of notices which are sufficiently precise and adequately substantiated to enable the provider of hosting services concerned to take an informed and diligent decision, compatible with the freedom of expression and of information, in respect of the content to which the notice relates, in particular whether or not that content is to be considered illegal content and is to be removed or access thereto is to be disabled. Those mechanisms should be such as to facilitate the provision of notices that contain an explanation of the reasons why the individual or the entity submitting a notice considers that content to be illegal content, and a clear indication of the location of that content. Where a notice contains sufficient information to enable a diligent provider of hosting services to identify, without a detailed legal examination, that it is clear that the content is illegal, the notice should be considered to give rise to actual knowledge or awareness of illegality. Except for the submission of notices relating to offences referred to in Articles 3 to 7 of Directive 2011/93/EU of the European Parliament and of the Council (26), those mechanisms should ask the individual or the entity submitting a notice to disclose its identity in order to avoid misuse.
+The notice and action mechanisms should allow for the submission of notices which are sufficiently precise and adequately substantiated to enable the provider of hosting services concerned to take an informed and diligent decision, compatible with the freedom of expression and of information, in respect of the content to which the notice relates, in particular whether or not that content is to be considered illegal content and is to be removed or access thereto is to be disabled. Those mechanisms should be such as to facilitate the provision of notices that contain an explanation of the reasons why the individual or the entity submitting a notice considers that content to be illegal content, and a clear indication of the location of that content. Where a notice contains sufficient information to enable a diligent provider of hosting services to identify, without a detailed legal examination, that it is clear that the content is illegal, the notice should be considered to give rise to actual knowledge or awareness of illegality. Except for the submission of notices relating to offences referred to in Articles 3 to 7 of Directive 2011/93/EU of the European Parliament and of the Council [(26)](#ntr26-L_2022277EN.01000101-E0026), those mechanisms should ask the individual or the entity submitting a notice to disclose its identity in order to avoid misuse.
 
 (54)
 
@@ -401,7 +405,7 @@ Restriction of visibility may consist in demotion in ranking or in recommender s
 
 (56)
 
-A provider of hosting services may in some instances become aware, such as through a notice by a notifying party or through its own voluntary measures, of information relating to certain activity of a recipient of the service, such as the provision of certain types of illegal content, that reasonably justify, having regard to all relevant circumstances of which the provider of hosting services is aware, the suspicion that that recipient may have committed, may be committing or is likely to commit a criminal offence involving a threat to the life or safety of person or persons, such as offences specified in Directive 2011/36/EU of the European Parliament and of the Council (27), Directive 2011/93/EU or Directive (EU) 2017/541 of the European Parliament and of the Council (28). For example, specific items of content could give rise to a suspicion of a threat to the public, such as incitement to terrorism within the meaning of Article 21 of Directive (EU) 2017/541. In such instances, the provider of hosting services should inform without delay the competent law enforcement authorities of such suspicion. The provider of hosting services should provide all relevant information available to it, including, where relevant, the content in question and, if available, the time when the content was published, including the designated time zone, an explanation of its suspicion and the information necessary to locate and identify the relevant recipient of the service. This Regulation does not provide the legal basis for profiling of recipients of the services with a view to the possible identification of criminal offences by providers of hosting services. Providers of hosting services should also respect other applicable rules of Union or national law for the protection of the rights and freedoms of individuals when informing law enforcement authorities.
+A provider of hosting services may in some instances become aware, such as through a notice by a notifying party or through its own voluntary measures, of information relating to certain activity of a recipient of the service, such as the provision of certain types of illegal content, that reasonably justify, having regard to all relevant circumstances of which the provider of hosting services is aware, the suspicion that that recipient may have committed, may be committing or is likely to commit a criminal offence involving a threat to the life or safety of person or persons, such as offences specified in Directive 2011/36/EU of the European Parliament and of the Council [(27)](#ntr27-L_2022277EN.01000101-E0027), Directive 2011/93/EU or Directive (EU) 2017/541 of the European Parliament and of the Council [(28)](#ntr28-L_2022277EN.01000101-E0028). For example, specific items of content could give rise to a suspicion of a threat to the public, such as incitement to terrorism within the meaning of Article 21 of Directive (EU) 2017/541. In such instances, the provider of hosting services should inform without delay the competent law enforcement authorities of such suspicion. The provider of hosting services should provide all relevant information available to it, including, where relevant, the content in question and, if available, the time when the content was published, including the designated time zone, an explanation of its suspicion and the information necessary to locate and identify the relevant recipient of the service. This Regulation does not provide the legal basis for profiling of recipients of the services with a view to the possible identification of criminal offences by providers of hosting services. Providers of hosting services should also respect other applicable rules of Union or national law for the protection of the rights and freedoms of individuals when informing law enforcement authorities.
 
 (57)
 
@@ -427,7 +431,7 @@ Action against illegal content can be taken more quickly and reliably where prov
 
 Trusted flaggers should publish easily comprehensible and detailed reports on notices submitted in accordance with this Regulation. Those reports should indicate information such as the number of notices categorised by the provider of hosting services, the type of content, and the action taken by the provider. Given that trusted flaggers have demonstrated expertise and competence, the processing of notices submitted by trusted flaggers can be expected to be less burdensome and therefore faster compared to notices submitted by other recipients of the service. However, the average time taken to process may still vary depending on factors including the type of illegal content, the quality of notices, and the actual technical procedures put in place for the submission of such notices.
 
-For example, while the Code of conduct on countering illegal hate speech online of 2016 sets a benchmark for the participating companies with respect to the time needed to process valid notifications for removal of illegal hate speech, other types of illegal content may take considerably different timelines for processing, depending on the specific facts and circumstances and types of illegal content at stake. In order to avoid abuses of the trusted flagger status, it should be possible to suspend such status when a Digital Services Coordinator of establishment opened an investigation based on legitimate reasons. The rules of this Regulation on trusted flaggers should not be understood to prevent providers of online platforms from giving similar treatment to notices submitted by entities or individuals that have not been awarded trusted flagger status under this Regulation, from otherwise cooperating with other entities, in accordance with the applicable law, including this Regulation and Regulation (EU) 2016/794 of the European Parliament and of the Council (29). The rules of this Regulation should not prevent the providers of online platforms from making use of such trusted flagger or similar mechanisms to take quick and reliable action against content that is incompatible with their terms and conditions, in particular against content that is harmful for vulnerable recipients of the service, such as minors.
+For example, while the Code of conduct on countering illegal hate speech online of 2016 sets a benchmark for the participating companies with respect to the time needed to process valid notifications for removal of illegal hate speech, other types of illegal content may take considerably different timelines for processing, depending on the specific facts and circumstances and types of illegal content at stake. In order to avoid abuses of the trusted flagger status, it should be possible to suspend such status when a Digital Services Coordinator of establishment opened an investigation based on legitimate reasons. The rules of this Regulation on trusted flaggers should not be understood to prevent providers of online platforms from giving similar treatment to notices submitted by entities or individuals that have not been awarded trusted flagger status under this Regulation, from otherwise cooperating with other entities, in accordance with the applicable law, including this Regulation and Regulation (EU) 2016/794 of the European Parliament and of the Council [(29)](#ntr29-L_2022277EN.01000101-E0029). The rules of this Regulation should not prevent the providers of online platforms from making use of such trusted flagger or similar mechanisms to take quick and reliable action against content that is incompatible with their terms and conditions, in particular against content that is harmful for vulnerable recipients of the service, such as minors.
 
 (63)
 
@@ -473,7 +477,7 @@ The protection of minors is an important policy objective of the Union. An onlin
 
 In order to contribute to a safe, trustworthy and transparent online environment for consumers, as well as for other interested parties such as competing traders and holders of intellectual property rights, and to deter traders from selling products or services in violation of the applicable rules, online platforms allowing consumers to conclude distance contracts with traders should ensure that such traders are traceable. The trader should therefore be required to provide certain essential information to the providers of online platforms allowing consumers to conclude distance contracts with traders, including for purposes of promoting messages on or offering products. That requirement should also be applicable to traders that promote messages on products or services on behalf of brands, based on underlying agreements. Those providers of online platforms should store all information in a secure manner for the duration of their contractual relationship with the trader and 6 months thereafter, to allow any claims to be filed against the trader or orders related to the trader to be complied with.
 
-This obligation is necessary and proportionate, so that the information can be accessed, in accordance with the applicable law, including on the protection of personal data, by public authorities and private parties with a legitimate interest, including through the orders to provide information referred to in this Regulation. This obligation leaves unaffected potential obligations to preserve certain content for longer periods of time, on the basis of other Union law or national laws, in compliance with Union law. Without prejudice to the definition provided for in this Regulation, any trader, irrespective of whether it is a natural or legal person, identified on the basis of Article 6a(1), point (b), of Directive 2011/83/EU and Article 7(4), point (f), of Directive 2005/29/EC should be traceable when offering a product or service through an online platform. Directive 2000/31/EC obliges all information society services providers to render easily, directly and permanently accessible to the recipients of the service and competent authorities certain information allowing the identification of all providers. The traceability requirements for providers of online platforms allowing consumers to conclude distance contracts with traders set out in this Regulation do not affect the application of Council Directive (EU) 2021/514 (30), which pursues other legitimate public interest objectives.
+This obligation is necessary and proportionate, so that the information can be accessed, in accordance with the applicable law, including on the protection of personal data, by public authorities and private parties with a legitimate interest, including through the orders to provide information referred to in this Regulation. This obligation leaves unaffected potential obligations to preserve certain content for longer periods of time, on the basis of other Union law or national laws, in compliance with Union law. Without prejudice to the definition provided for in this Regulation, any trader, irrespective of whether it is a natural or legal person, identified on the basis of Article 6a(1), point (b), of Directive 2011/83/EU and Article 7(4), point (f), of Directive 2005/29/EC should be traceable when offering a product or service through an online platform. Directive 2000/31/EC obliges all information society services providers to render easily, directly and permanently accessible to the recipients of the service and competent authorities certain information allowing the identification of all providers. The traceability requirements for providers of online platforms allowing consumers to conclude distance contracts with traders set out in this Regulation do not affect the application of Council Directive (EU) 2021/514 [(30)](#ntr30-L_2022277EN.01000101-E0030), which pursues other legitimate public interest objectives.
 
 (73)
 
@@ -481,7 +485,7 @@ To ensure an efficient and adequate application of that obligation, without impo
 
 (74)
 
-Providers of online platforms allowing consumers to conclude distance contracts with traders should design and organise their online interface in a way that enables traders to comply with their obligations under relevant Union law, in particular the requirements set out in Articles 6 and 8 of Directive 2011/83/EU, Article 7 of Directive 2005/29/EC, Articles 5 and 6 of Directive 2000/31/EC and Article 3 of Directive 98/6/EC of the European Parliament and of the Council (31). For that purpose, the providers of online platforms concerned should make best efforts to assess whether the traders using their services have uploaded complete information on their online interfaces, in line with relevant applicable Union law. The providers of online platforms should ensure that products or services are not offered as long as such information is not complete. This should not amount to an obligation for the providers of online platforms concerned to generally monitor the products or services offered by traders through their services nor a general fact-finding obligation, in particular to assess the accuracy of the information provided by traders. The online interfaces should be user-friendly and easily accessible for traders and consumers. Additionally and after allowing the offering of the product or service by the trader, the providers of online platforms concerned should make reasonable efforts to randomly check whether the products or services offered have been identified as being illegal in any official, freely accessible and machine-readable online databases or online interfaces available in a Member State or in the Union. The Commission should also encourage traceability of products through technology solutions such as digitally signed Quick Response codes (or ‘QR codes’) or non-fungible tokens. The Commission should promote the development of standards and, in the absence of them, of market led solutions which can be acceptable to the parties concerned.
+Providers of online platforms allowing consumers to conclude distance contracts with traders should design and organise their online interface in a way that enables traders to comply with their obligations under relevant Union law, in particular the requirements set out in Articles 6 and 8 of Directive 2011/83/EU, Article 7 of Directive 2005/29/EC, Articles 5 and 6 of Directive 2000/31/EC and Article 3 of Directive 98/6/EC of the European Parliament and of the Council [(31)](#ntr31-L_2022277EN.01000101-E0031). For that purpose, the providers of online platforms concerned should make best efforts to assess whether the traders using their services have uploaded complete information on their online interfaces, in line with relevant applicable Union law. The providers of online platforms should ensure that products or services are not offered as long as such information is not complete. This should not amount to an obligation for the providers of online platforms concerned to generally monitor the products or services offered by traders through their services nor a general fact-finding obligation, in particular to assess the accuracy of the information provided by traders. The online interfaces should be user-friendly and easily accessible for traders and consumers. Additionally and after allowing the offering of the product or service by the trader, the providers of online platforms concerned should make reasonable efforts to randomly check whether the products or services offered have been identified as being illegal in any official, freely accessible and machine-readable online databases or online interfaces available in a Member State or in the Union. The Commission should also encourage traceability of products through technology solutions such as digitally signed Quick Response codes (or ‘QR codes’) or non-fungible tokens. The Commission should promote the development of standards and, in the absence of them, of market led solutions which can be acceptable to the parties concerned.
 
 (75)
 
@@ -575,7 +579,7 @@ In order to appropriately monitor and assess the compliance of very large online
 
 (97)
 
-This Regulation therefore provides a framework for compelling access to data from very large online platforms and very large online search engines to vetted researchers affiliated to a research organisation within the meaning of Article 2 of Directive (EU) 2019/790, which may include, for the purpose of this Regulation, civil society organisations that are conducting scientific research with the primary goal of supporting their public interest mission. All requests for access to data under that framework should be proportionate and appropriately protect the rights and legitimate interests, including the protection of personal data, trade secrets and other confidential information, of the very large online platform or of the very large online search engine and any other parties concerned, including the recipients of the service. However, to ensure that the objective of this Regulation is achieved, consideration of the commercial interests of providers should not lead to a refusal to provide access to data necessary for the specific research objective pursuant to a request under this Regulation. In this regard, whilst without prejudice to Directive (EU) 2016/943 of the European Parliament and of the Council (32), providers should ensure appropriate access for researchers, including, where necessary, by taking technical protections such as through data vaults. Data access requests could cover, for example, the number of views or, where relevant, other types of access to content by recipients of the service prior to its removal by the providers of very large online platforms or of very large online search engines.
+This Regulation therefore provides a framework for compelling access to data from very large online platforms and very large online search engines to vetted researchers affiliated to a research organisation within the meaning of Article 2 of Directive (EU) 2019/790, which may include, for the purpose of this Regulation, civil society organisations that are conducting scientific research with the primary goal of supporting their public interest mission. All requests for access to data under that framework should be proportionate and appropriately protect the rights and legitimate interests, including the protection of personal data, trade secrets and other confidential information, of the very large online platform or of the very large online search engine and any other parties concerned, including the recipients of the service. However, to ensure that the objective of this Regulation is achieved, consideration of the commercial interests of providers should not lead to a refusal to provide access to data necessary for the specific research objective pursuant to a request under this Regulation. In this regard, whilst without prejudice to Directive (EU) 2016/943 of the European Parliament and of the Council [(32)](#ntr32-L_2022277EN.01000101-E0032), providers should ensure appropriate access for researchers, including, where necessary, by taking technical protections such as through data vaults. Data access requests could cover, for example, the number of views or, where relevant, other types of access to content by recipients of the service prior to its removal by the providers of very large online platforms or of very large online search engines.
 
 (98)
 
@@ -785,7 +789,7 @@ The effective enforcement and monitoring of this Regulation requires a seamless 
 
 (149)
 
-Without prejudice to the rights of recipients of services to turn to a representative in accordance with the Directive (EU) 2020/1828 of the European Parliament and of the Council (33) or to any other type of representation under national law, recipients of the services should also have the right to mandate a legal person or a public body to exercise their rights provided for in this Regulation. Such rights may include the rights related to the submission of notices, the challenging of the decisions taken by providers of intermediary services, and the lodging of complaints against the providers for infringing this Regulation. Certain bodies, organisations and associations have particular expertise and competence in detecting and flagging erroneous or unjustified content moderation decisions, and their complaints on behalf of recipients of the service may have a positive impact on freedom of expression and of information in general, therefore, providers of online platforms should treat those complaints without undue delay.
+Without prejudice to the rights of recipients of services to turn to a representative in accordance with the Directive (EU) 2020/1828 of the European Parliament and of the Council [(33)](#ntr33-L_2022277EN.01000101-E0033) or to any other type of representation under national law, recipients of the services should also have the right to mandate a legal person or a public body to exercise their rights provided for in this Regulation. Such rights may include the rights related to the submission of notices, the challenging of the decisions taken by providers of intermediary services, and the lodging of complaints against the providers for infringing this Regulation. Certain bodies, organisations and associations have particular expertise and competence in detecting and flagging erroneous or unjustified content moderation decisions, and their complaints on behalf of recipients of the service may have a positive impact on freedom of expression and of information in general, therefore, providers of online platforms should treat those complaints without undue delay.
 
 (150)
 
@@ -793,11 +797,11 @@ In the interest of effectiveness and efficiency, the Commission should carry out
 
 (151)
 
-In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission to lay down templates concerning the form, content and other details of reports on content moderation, to establish the amount of the annual supervisory fee charged on providers of very large online platforms and of very large online search engines, to lay down the practical arrangements for the proceedings, the hearings and the negotiated disclosure of information carried out in the context of supervision, investigation, enforcement and monitoring in respect of providers of very large online platforms and of very large online search engines, as well as to lay down the practical and operational arrangements for the functioning of the information sharing system and its interoperability with other relevant systems. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council (34).
+In order to ensure uniform conditions for the implementation of this Regulation, implementing powers should be conferred on the Commission to lay down templates concerning the form, content and other details of reports on content moderation, to establish the amount of the annual supervisory fee charged on providers of very large online platforms and of very large online search engines, to lay down the practical arrangements for the proceedings, the hearings and the negotiated disclosure of information carried out in the context of supervision, investigation, enforcement and monitoring in respect of providers of very large online platforms and of very large online search engines, as well as to lay down the practical and operational arrangements for the functioning of the information sharing system and its interoperability with other relevant systems. Those powers should be exercised in accordance with Regulation (EU) No 182/2011 of the European Parliament and of the Council [(34)](#ntr34-L_2022277EN.01000101-E0034).
 
 (152)
 
-In order to fulfil the objectives of this Regulation, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission to supplement this Regulation, in respect of criteria for the identification of very large online platforms and of very large online search engines, the procedural steps, methodologies and reporting templates for the audits, the technical specifications for access requests and the detailed methodology and procedures for setting the supervisory fee. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making (35). In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States' experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.
+In order to fulfil the objectives of this Regulation, the power to adopt acts in accordance with Article 290 TFEU should be delegated to the Commission to supplement this Regulation, in respect of criteria for the identification of very large online platforms and of very large online search engines, the procedural steps, methodologies and reporting templates for the audits, the technical specifications for access requests and the detailed methodology and procedures for setting the supervisory fee. It is of particular importance that the Commission carry out appropriate consultations during its preparatory work, including at expert level, and that those consultations be conducted in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making [(35)](#ntr35-L_2022277EN.01000101-E0035). In particular, to ensure equal participation in the preparation of delegated acts, the European Parliament and the Council receive all documents at the same time as Member States' experts, and their experts systematically have access to meetings of Commission expert groups dealing with the preparation of delegated acts.
 
 (153)
 
@@ -813,7 +817,7 @@ Since the objectives of this Regulation, namely to contribute to the proper func
 
 (156)
 
-The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 of the European Parliament and of the Council (36) and delivered an opinion on 10 February 2021 (37),
+The European Data Protection Supervisor was consulted in accordance with Article 42(1) of Regulation (EU) 2018/1725 of the European Parliament and of the Council [(36)](#ntr36-L_2022277EN.01000101-E0036) and delivered an opinion on 10 February 2021 [(37)](#ntr37-L_2022277EN.01000101-E0037),
 
 HAVE ADOPTED THIS REGULATION:
 
@@ -1005,7 +1009,7 @@ a ‘hosting’ service, consisting of the storage of information provided by, a
 
 (v)
 
-‘persons with disabilities’ means ‘persons with disabilities’ as referred to in Article 3, point (1), of Directive (EU) 2019/882 of the European Parliament and of the Council (38);
+‘persons with disabilities’ means ‘persons with disabilities’ as referred to in Article 3, point (1), of Directive (EU) 2019/882 of the European Parliament and of the Council [(38)](#ntr38-L_2022277EN.01000101-E0038);
 
 (w)
 
@@ -1013,7 +1017,7 @@ a ‘hosting’ service, consisting of the storage of information provided by, a
 
 (x)
 
-‘turnover’ means the amount derived by an undertaking within the meaning of Article 5(1) of Council Regulation (EC) No 139/2004 (39).
+‘turnover’ means the amount derived by an undertaking within the meaning of Article 5(1) of Council Regulation (EC) No 139/2004 [(39)](#ntr39-L_2022277EN.01000101-E0039).
 
 CHAPTER II
 
@@ -1739,7 +1743,7 @@ the name, address, telephone number and email address of the trader;
 
 (b)
 
-a copy of the identification document of the trader or any other electronic identification as defined by Article 3 of Regulation (EU) No 910/2014 of the European Parliament and of the Council (40);
+a copy of the identification document of the trader or any other electronic identification as defined by Article 3 of Regulation (EU) No 910/2014 of the European Parliament and of the Council [(40)](#ntr40-L_2022277EN.01000101-E0040);
 
 (c)
 
@@ -2381,7 +2385,7 @@ the annual supervisory fee is proportionate to the number of average monthly act
 
 the overall amount of the annual supervisory fee charged on a given provider of very large online platform or very large search engine does not, in any case, exceed 0,05 % of its worldwide annual net income in the preceding financial year.
 
-6.   The individual annual supervisory fees charged pursuant to paragraph 1 of this Article shall constitute external assigned revenue in accordance with Article 21(5) of Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council (41).
+6.   The individual annual supervisory fees charged pursuant to paragraph 1 of this Article shall constitute external assigned revenue in accordance with Article 21(5) of Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council [(41)](#ntr41-L_2022277EN.01000101-E0041).
 
 7.   The Commission shall report annually to the European Parliament and to the Council on the overall amount of the costs incurred for the fulfilment of the tasks under this Regulation and the total amount of the individual annual supervisory fees charged in the preceding year.
 
@@ -3401,7 +3405,7 @@ In Annex I to Directive (EU) 2020/1828, the following point is added:
 
 ‘(68)
 
-Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market for Digital Services and amending Directive 2000/31/EC (Digital Services Act) (OJ L 277, 27.10.2022, p. 1).’.
+Regulation (EU) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market for Digital Services and amending Directive 2000/31/EC (Digital Services Act) ([OJ L 277, 27.10.2022, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2022:277:TOC)).’.
 
 Article 91
 
@@ -3489,90 +3493,86 @@ The President
 
 M. BEK
 
----
+[(1)](#ntc1-L_2022277EN.01000101-E0001)   [OJ C 286, 16.7.2021, p. 70](./../../../legal-content/EN/AUTO/?uri=OJ:C:2021:286:TOC).
 
-(1)   OJ C 286, 16.7.2021, p. 70.
+[(2)](#ntc2-L_2022277EN.01000101-E0002)   [OJ C 440, 29.10.2021, p. 67](./../../../legal-content/EN/AUTO/?uri=OJ:C:2021:440:TOC).
 
-(2)   OJ C 440, 29.10.2021, p. 67.
+[(3)](#ntc3-L_2022277EN.01000101-E0003)  Position of the European Parliament of 5 July 2022 (not yet published in the Official Journal) and decision of the Council of 4 October 2022.
 
-(3)  Position of the European Parliament of 5 July 2022 (not yet published in the Official Journal) and decision of the Council of 4 October 2022.
+[(4)](#ntc4-L_2022277EN.01000101-E0004)  Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market ('Directive on electronic commerce') ([OJ L 178, 17.7.2000, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2000:178:TOC)).
 
-(4)  Directive 2000/31/EC of the European Parliament and of the Council of 8 June 2000 on certain legal aspects of information society services, in particular electronic commerce, in the Internal Market ('Directive on electronic commerce') (OJ L 178, 17.7.2000, p. 1).
+[(5)](#ntc5-L_2022277EN.01000101-E0005)  Directive (EU) 2015/1535 of the European Parliament and of the Council of 9 September 2015 laying down a procedure for the provision of information in the field of technical regulations and of rules on Information Society services ([OJ L 241, 17.9.2015, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2015:241:TOC)).
 
-(5)  Directive (EU) 2015/1535 of the European Parliament and of the Council of 9 September 2015 laying down a procedure for the provision of information in the field of technical regulations and of rules on Information Society services (OJ L 241, 17.9.2015, p. 1).
+[(6)](#ntc6-L_2022277EN.01000101-E0006)  Regulation (EU) No 1215/2012 of the European Parliament and of the Council of 12 December 2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters ([OJ L 351, 20.12.2012, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2012:351:TOC)).
 
-(6)  Regulation (EU) No 1215/2012 of the European Parliament and of the Council of 12 December 2012 on jurisdiction and the recognition and enforcement of judgments in civil and commercial matters (OJ L 351, 20.12.2012, p. 1).
+[(7)](#ntc7-L_2022277EN.01000101-E0007)  Directive 2010/13/EU of the European Parliament and of the Council of 10 March 2010 on the coordination of certain provisions laid down by law, regulation or administrative action in Member States concerning the provision of audiovisual media services (Audiovisual Media Services Directive) ([OJ L 95, 15.4.2010, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2010:095:TOC)).
 
-(7)  Directive 2010/13/EU of the European Parliament and of the Council of 10 March 2010 on the coordination of certain provisions laid down by law, regulation or administrative action in Member States concerning the provision of audiovisual media services (Audiovisual Media Services Directive) (OJ L 95, 15.4.2010, p. 1).
+[(8)](#ntc8-L_2022277EN.01000101-E0008)  Regulation (EU) 2019/1148 of the European Parliament and of the Council of 20 June 2019 on the marketing and use of explosives precursors, amending Regulation (EC) No 1907/2006 and repealing Regulation (EU) No 98/2013 ([OJ L 186, 11.7.2019, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2019:186:TOC)).
 
-(8)  Regulation (EU) 2019/1148 of the European Parliament and of the Council of 20 June 2019 on the marketing and use of explosives precursors, amending Regulation (EC) No 1907/2006 and repealing Regulation (EU) No 98/2013 (OJ L 186, 11.7.2019, p. 1).
+[(9)](#ntc9-L_2022277EN.01000101-E0009)  Regulation (EU) 2019/1150 of the European Parliament and of the Council of 20 June 2019 on promoting fairness and transparency for business users of online intermediation services ([OJ L 186, 11.7.2019, p. 57](./../../../legal-content/EN/AUTO/?uri=OJ:L:2019:186:TOC)).
 
-(9)  Regulation (EU) 2019/1150 of the European Parliament and of the Council of 20 June 2019 on promoting fairness and transparency for business users of online intermediation services (OJ L 186, 11.7.2019, p. 57).
+[(10)](#ntc10-L_2022277EN.01000101-E0010)  Regulation (EU) 2021/784 of the European Parliament and of the Council of 29 April 2021 on addressing the dissemination of the terrorist content online ([OJ L 172, 17.5.2021, p. 79](./../../../legal-content/EN/AUTO/?uri=OJ:L:2021:172:TOC)).
 
-(10)  Regulation (EU) 2021/784 of the European Parliament and of the Council of 29 April 2021 on addressing the dissemination of the terrorist content online (OJ L 172, 17.5.2021, p. 79).
+[(11)](#ntc11-L_2022277EN.01000101-E0011)  Regulation (EU) 2021/1232 of the European Parliament and of the Council of 14 July 2021 on temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse ([OJ L 274, 30.7.2021, p. 41](./../../../legal-content/EN/AUTO/?uri=OJ:L:2021:274:TOC)).
 
-(11)  Regulation (EU) 2021/1232 of the European Parliament and of the Council of 14 July 2021 on temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse (OJ L 274, 30.7.2021, p. 41).
+[(12)](#ntc12-L_2022277EN.01000101-E0012)  Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) ([OJ L 201, 31.7.2002, p. 37](./../../../legal-content/EN/AUTO/?uri=OJ:L:2002:201:TOC)).
 
-(12)  Directive 2002/58/EC of the European Parliament and of the Council of 12 July 2002 concerning the processing of personal data and the protection of privacy in the electronic communications sector (Directive on privacy and electronic communications) (OJ L 201, 31.7.2002, p. 37).
+[(13)](#ntc13-L_2022277EN.01000101-E0013)  Regulation (EU) 2017/2394 of the European Parliament and of the Council of 12 December 2017 on cooperation between national authorities responsible for the enforcement of consumer protection laws and repealing Regulation (EC) No 2006/2004 ([OJ L 345, 27.12.2017, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2017:345:TOC)).
 
-(13)  Regulation (EU) 2017/2394 of the European Parliament and of the Council of 12 December 2017 on cooperation between national authorities responsible for the enforcement of consumer protection laws and repealing Regulation (EC) No 2006/2004 (OJ L 345, 27.12.2017, p. 1).
+[(14)](#ntc14-L_2022277EN.01000101-E0014)  Regulation (EU) 2019/1020 of the European Parliament and of the Council of 20 June 2019 on market surveillance and compliance of products and amending Directive 2004/42/EC and Regulations (EC) No 765/2008 and (EU) No 305/2011 ([OJ L 169, 25.6.2019, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2019:169:TOC)).
 
-(14)  Regulation (EU) 2019/1020 of the European Parliament and of the Council of 20 June 2019 on market surveillance and compliance of products and amending Directive 2004/42/EC and Regulations (EC) No 765/2008 and (EU) No 305/2011 (OJ L 169, 25.6.2019, p. 1).
+[(15)](#ntc15-L_2022277EN.01000101-E0015)  Directive 2001/95/EC of the European Parliament and of the Council of 3 December 2001 on general product safety ([OJ L 11, 15.1.2002, p. 4](./../../../legal-content/EN/AUTO/?uri=OJ:L:2002:011:TOC)).
 
-(15)  Directive 2001/95/EC of the European Parliament and of the Council of 3 December 2001 on general product safety (OJ L 11, 15.1.2002, p. 4).
+[(16)](#ntc16-L_2022277EN.01000101-E0016)  Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market and amending Council Directive 84/450/EEC, Directives 97/7/EC, 98/27/EC and 2002/65/EC of the European Parliament and of the Council and Regulation (EC) No 2006/2004 of the European Parliament and of the Council (‘Unfair Commercial Practices Directive’) ([OJ L 149, 11.6.2005, p. 22](./../../../legal-content/EN/AUTO/?uri=OJ:L:2005:149:TOC)).
 
-(16)  Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market and amending Council Directive 84/450/EEC, Directives 97/7/EC, 98/27/EC and 2002/65/EC of the European Parliament and of the Council and Regulation (EC) No 2006/2004 of the European Parliament and of the Council (‘Unfair Commercial Practices Directive’) (OJ L 149, 11.6.2005, p. 22).
+[(17)](#ntc17-L_2022277EN.01000101-E0017)  Directive 2011/83/EU of the European Parliament and of the Council of 25 October 2011 on consumer rights, amending Council Directive 93/13/EEC and Directive 1999/44/EC of the European Parliament and of the Council and repealing Council Directive 85/577/EEC and Directive 97/7/EC of the European Parliament and of the Council ([OJ L 304, 22.11.2011, p. 64](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:304:TOC)).
 
-(17)  Directive 2011/83/EU of the European Parliament and of the Council of 25 October 2011 on consumer rights, amending Council Directive 93/13/EEC and Directive 1999/44/EC of the European Parliament and of the Council and repealing Council Directive 85/577/EEC and Directive 97/7/EC of the European Parliament and of the Council (OJ L 304, 22.11.2011, p. 64).
+[(18)](#ntc18-L_2022277EN.01000101-E0018)  Directive 2013/11/EU of the European Parliament and of the Council of 21 May 2013 on alternative dispute resolution for consumer disputes and amending Regulation (EC) No 2006/2004 and Directive 2009/22/EC ([OJ L 165, 18.6.2013, p. 63](./../../../legal-content/EN/AUTO/?uri=OJ:L:2013:165:TOC)).
 
-(18)  Directive 2013/11/EU of the European Parliament and of the Council of 21 May 2013 on alternative dispute resolution for consumer disputes and amending Regulation (EC) No 2006/2004 and Directive 2009/22/EC (OJ L 165, 18.6.2013, p. 63).
+[(19)](#ntc19-L_2022277EN.01000101-E0019)  Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts ([OJ L 95, 21.4.1993, p. 29](./../../../legal-content/EN/AUTO/?uri=OJ:L:1993:095:TOC)).
 
-(19)  Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts (OJ L 95, 21.4.1993, p. 29).
+[(20)](#ntc20-L_2022277EN.01000101-E0020)  Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) ([OJ L 119, 4.5.2016, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2016:119:TOC)).
 
-(20)  Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation) (OJ L 119, 4.5.2016, p. 1).
+[(21)](#ntc21-L_2022277EN.01000101-E0021)  Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonisation of certain aspects of copyright and related rights in the information society ([OJ L 167, 22.6.2001, p. 10](./../../../legal-content/EN/AUTO/?uri=OJ:L:2001:167:TOC)).
 
-(21)  Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonisation of certain aspects of copyright and related rights in the information society (OJ L 167, 22.6.2001, p. 10).
+[(22)](#ntc22-L_2022277EN.01000101-E0022)  Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights ([OJ L 157, 30.4.2004, p. 45](./../../../legal-content/EN/AUTO/?uri=OJ:L:2004:157:TOC)).
 
-(22)  Directive 2004/48/EC of the European Parliament and of the Council of 29 April 2004 on the enforcement of intellectual property rights (OJ L 157, 30.4.2004, p. 45).
+[(23)](#ntc23-L_2022277EN.01000101-E0023)  Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC ([OJ L 130, 17.5.2019, p. 92](./../../../legal-content/EN/AUTO/?uri=OJ:L:2019:130:TOC)).
 
-(23)  Directive (EU) 2019/790 of the European Parliament and of the Council of 17 April 2019 on copyright and related rights in the Digital Single Market and amending Directives 96/9/EC and 2001/29/EC (OJ L 130, 17.5.2019, p. 92).
+[(24)](#ntc24-L_2022277EN.01000101-E0024)  Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code ([OJ L 321, 17.12.2018, p. 36](./../../../legal-content/EN/AUTO/?uri=OJ:L:2018:321:TOC)).
 
-(24)  Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018 establishing the European Electronic Communications Code (OJ L 321, 17.12.2018, p. 36).
+[(25)](#ntc25-L_2022277EN.01000101-E0025)  Commission Recommendation 2003/361/EC of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises ([OJ L 124, 20.5.2003, p. 36](./../../../legal-content/EN/AUTO/?uri=OJ:L:2003:124:TOC)).
 
-(25)  Commission Recommendation 2003/361/EC of 6 May 2003 concerning the definition of micro, small and medium-sized enterprises (OJ L 124, 20.5.2003, p. 36).
+[(26)](#ntc26-L_2022277EN.01000101-E0026)  Directive 2011/93/EU of the European Parliament and of the Council of 13 December 2011 on combating the sexual abuse and sexual exploitation of children and child pornography, and replacing Council Framework Decision 2004/68/JHA ([OJ L 335, 17.12.2011, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:335:TOC)).
 
-(26)  Directive 2011/93/EU of the European Parliament and of the Council of 13 December 2011 on combating the sexual abuse and sexual exploitation of children and child pornography, and replacing Council Framework Decision 2004/68/JHA (OJ L 335, 17.12.2011, p. 1).
+[(27)](#ntc27-L_2022277EN.01000101-E0027)  Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA ([OJ L 101, 15.4.2011, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:101:TOC)).
 
-(27)  Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011, p. 1).
+[(28)](#ntc28-L_2022277EN.01000101-E0028)  Directive (EU) 2017/541 of the European Parliament and of the Council of 15 March 2017 on combating terrorism and replacing Council Framework Decision 2002/475/JHA and amending Council Decision 2005/671/JHA ([OJ L 88, 31.3.2017, p. 6](./../../../legal-content/EN/AUTO/?uri=OJ:L:2017:088:TOC)).
 
-(28)  Directive (EU) 2017/541 of the European Parliament and of the Council of 15 March 2017 on combating terrorism and replacing Council Framework Decision 2002/475/JHA and amending Council Decision 2005/671/JHA (OJ L 88, 31.3.2017, p. 6).
+[(29)](#ntc29-L_2022277EN.01000101-E0029)  Regulation (EU) 2016/794 of the European Parliament and of the Council of 11 May 2016 on the European Union Agency for Law Enforcement Cooperation (Europol) and replacing and repealing Council Decisions 2009/371/JHA, 2009/934/JHA, 2009/935/JHA, 2009/936/JHA and 2009/968/JHA ([OJ L 135, 24.5.2016, p. 53](./../../../legal-content/EN/AUTO/?uri=OJ:L:2016:135:TOC)).
 
-(29)  Regulation (EU) 2016/794 of the European Parliament and of the Council of 11 May 2016 on the European Union Agency for Law Enforcement Cooperation (Europol) and replacing and repealing Council Decisions 2009/371/JHA, 2009/934/JHA, 2009/935/JHA, 2009/936/JHA and 2009/968/JHA (OJ L 135, 24.5.2016, p. 53).
+[(30)](#ntc30-L_2022277EN.01000101-E0030)  Council Directive (EU) 2021/514 of 22 March 2021 amending Directive 2011/16/EU on administrative cooperation in the field of taxation ([OJ L 104, 25.3.2021, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2021:104:TOC)).
 
-(30)  Council Directive (EU) 2021/514 of 22 March 2021 amending Directive 2011/16/EU on administrative cooperation in the field of taxation (OJ L 104, 25.3.2021, p. 1).
+[(31)](#ntc31-L_2022277EN.01000101-E0031)  Directive 98/6/EC of the European Parliament and of the Council of 16 February 1998 on consumer protection in the indication of the prices of products offered to consumers ([OJ L 80, 18.3.1998, p. 27](./../../../legal-content/EN/AUTO/?uri=OJ:L:1998:080:TOC)).
 
-(31)  Directive 98/6/EC of the European Parliament and of the Council of 16 February 1998 on consumer protection in the indication of the prices of products offered to consumers (OJ L 80, 18.3.1998, p. 27).
+[(32)](#ntc32-L_2022277EN.01000101-E0032)  Directive (EU) 2016/943 of the European Parliament and of the Council of 8 June 2016 on the protection of undisclosed know-how and business information (trade secrets) against their unlawful acquisition, use and disclosure ([OJ L 157, 15.6.2016, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2016:157:TOC)).
 
-(32)  Directive (EU) 2016/943 of the European Parliament and of the Council of 8 June 2016 on the protection of undisclosed know-how and business information (trade secrets) against their unlawful acquisition, use and disclosure (OJ L 157, 15.6.2016, p. 1).
+[(33)](#ntc33-L_2022277EN.01000101-E0033)  Directive (EU) 2020/1828 of the European Parliament and of the Council of 25 November 2020 on representative actions for the protection of the collective interests of consumers and repealing Directive 2009/22/EC ([OJ L 409, 4.12.2020, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2020:409:TOC)).
 
-(33)  Directive (EU) 2020/1828 of the European Parliament and of the Council of 25 November 2020 on representative actions for the protection of the collective interests of consumers and repealing Directive 2009/22/EC (OJ L 409, 4.12.2020, p. 1).
+[(34)](#ntc34-L_2022277EN.01000101-E0034)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission’s exercise of implementing powers ([OJ L 55, 28.2.2011, p. 13](./../../../legal-content/EN/AUTO/?uri=OJ:L:2011:055:TOC)).
 
-(34)  Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 February 2011 laying down the rules and general principles concerning mechanisms for control by Member States of the Commission’s exercise of implementing powers (OJ L 55, 28.2.2011, p. 13).
+[(35)](#ntc35-L_2022277EN.01000101-E0035)   [OJ L 123, 12.5.2016, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2016:123:TOC).
 
-(35)   OJ L 123, 12.5.2016, p. 1.
+[(36)](#ntc36-L_2022277EN.01000101-E0036)  Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC ([OJ L 295, 21.11.2018, p. 39](./../../../legal-content/EN/AUTO/?uri=OJ:L:2018:295:TOC)).
 
-(36)  Regulation (EU) 2018/1725 of the European Parliament and of the Council of 23 October 2018 on the protection of natural persons with regard to the processing of personal data by the Union institutions, bodies, offices and agencies and on the free movement of such data, and repealing Regulation (EC) No 45/2001 and Decision No 1247/2002/EC (OJ L 295, 21.11.2018, p. 39).
+[(37)](#ntc37-L_2022277EN.01000101-E0037)   [OJ C 149, 27.4.2021, p. 3](./../../../legal-content/EN/AUTO/?uri=OJ:C:2021:149:TOC).
 
-(37)   OJ C 149, 27.4.2021, p. 3.
+[(38)](#ntc38-L_2022277EN.01000101-E0038)  Directive (EU) 2019/882 of the European Parliament and of the Council of 17 April 2019 on the accessibility requirements for products and services ([OJ L 151, 7.6.2019, p. 70](./../../../legal-content/EN/AUTO/?uri=OJ:L:2019:151:TOC)).
 
-(38)  Directive (EU) 2019/882 of the European Parliament and of the Council of 17 April 2019 on the accessibility requirements for products and services (OJ L 151, 7.6.2019, p. 70).
+[(39)](#ntc39-L_2022277EN.01000101-E0039)  Council Regulation (EC) No 139/2004 of 20 January 2004 on the control of concentrations between undertakings ([OJ L 24, 29.1.2004, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2004:024:TOC)).
 
-(39)  Council Regulation (EC) No 139/2004 of 20 January 2004 on the control of concentrations between undertakings (OJ L 24, 29.1.2004, p. 1).
+[(40)](#ntc40-L_2022277EN.01000101-E0040)  Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC ([OJ L 257, 28.8.2014, p. 73](./../../../legal-content/EN/AUTO/?uri=OJ:L:2014:257:TOC)).
 
-(40)  Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC (OJ L 257, 28.8.2014, p. 73).
+[(41)](#ntc41-L_2022277EN.01000101-E0041)  Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 ([OJ L 193, 30.7.2018, p. 1](./../../../legal-content/EN/AUTO/?uri=OJ:L:2018:193:TOC)).
 
-(41)  Regulation (EU, Euratom) 2018/1046 of the European Parliament and of the Council of 18 July 2018 on the financial rules applicable to the general budget of the Union, amending Regulations (EU) No 1296/2013, (EU) No 1301/2013, (EU) No 1303/2013, (EU) No 1304/2013, (EU) No 1309/2013, (EU) No 1316/2013, (EU) No 223/2014, (EU) No 283/2014, and Decision No 541/2014/EU and repealing Regulation (EU, Euratom) No 966/2012 (OJ L 193, 30.7.2018, p. 1).
-
----
-
-Top
+[Top](#document1)

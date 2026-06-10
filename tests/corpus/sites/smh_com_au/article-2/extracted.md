@@ -2,15 +2,15 @@ May 7, 2026 — 5:00am
 
 You have reached your maximum number of saved items.
 
-Remove items from your saved list to add more.
+Remove items from your [saved list](/goodfood/saved) to add more.
 
 It is rare outside a federal election for the fortunes of all political leaders, their parties and the non-aligned to be broken, restored or enhanced in the space of a few days.
 
-Yet this next week **–** with the Farrer byelection on Saturday, the federal budget on Tuesday and the opposition leader’s budget-in-reply speech next Thursday **–** will be critical in determining which politicians, parties or movements will emerge in decent enough shape to make the distance.
+Yet this next week **–** with the [Farrer byelection](/politics/federal/fugitive-farley-ducks-tv-cameras-in-farrer-as-taylor-takes-firm-line-against-one-nation-20260506-p5zu63.html) on Saturday, the federal budget on Tuesday and the opposition leader’s budget-in-reply speech next Thursday **–** will be critical in determining which politicians, parties or movements will emerge in decent enough shape to make the distance.
 
 At a time when the national mood has seldom been bleaker, the government is unveiling, one veil at a time, what is being framed as a blockbuster budget. Whether voters are mollified, infuriated or alienated will be determined not only by the contents of the document that Jim Chalmers will deliver, which has Anthony Albanese’s fingerprints all over it, but by how convincingly the government explains the broken promises, how responsible it is and how many concessions it will be forced to make after the grievance industries of the far-right and far-left mobilise.
 
-Labor’s job, under the most difficult circumstances in decades, was not made easier by Reserve Bank governor Michele Bullock announcing the latest rate rise, despite getting an early outline of the budget. Bullock held true to her promise/threat to kill inflation even if it leads to recession. She insisted she was still fighting home-grown inflation pressures – which the latest CPI figures actually showed had subsided – not those caused by Donald Trump’s war. In the process she undermined the government’s arguments its budget was economically responsible.
+Labor’s job, under the most difficult circumstances in decades, was not made easier by Reserve Bank governor Michele Bullock announcing [the latest rate rise](/national/interest-rates-hiked-for-third-straight-time-20260505-p5zu2e.html), despite getting an early outline of the budget. Bullock held true to her promise/threat to kill inflation even if it leads to recession. She insisted she was still fighting home-grown inflation pressures – which the latest CPI figures actually showed had subsided – not those caused by Donald Trump’s war. In the process she undermined the government’s arguments its budget was economically responsible.
 
 Bullock effectively told all governments, federal and state, to stop diluting the intent of rate rises by putting more money in people’s pockets, while acknowledging that the consequences of Trump’s war could soon force everyone, including the RBA, into a complete U-turn. Which also sounded like a good reason to sit pat rather than put a chokehold on the economy.
 
@@ -46,21 +46,21 @@ To have any chance of making it to that point, Taylor has to deliver a budget re
 
 **Niki Savva is a regular columnist for _The Age_ and _The Sydney Morning Herald_. Her most recent book, _Earthquake,_ details the inside story of the 2025 election.**
 
-**_The Opinion newsletter is a weekly wrap of views that will challenge, champion and inform your own._** **_Sign up here_****_._**
+**_The Opinion newsletter is a weekly wrap of views that will challenge, champion and inform your own._** [**_Sign up here_**](/newsletter-signup?newsletter=opinion&utm_source=EditorialArticle&utm_medium=ArticleText&utm_campaign=Newsletters)**_._**
 
 You have reached your maximum number of saved items.
 
-Remove items from your saved list to add more.
+Remove items from your [saved list](/goodfood/saved) to add more.
 
-License this article
+[License this article](https://rightsportal.copyright.com.au/pages/republicationpage.aspx?author=Niki%20Savva&publication=SMH&publicationdate=2026-05-06T19%3A00%3A00Z&publisher=fxj&title=Thanks%20to%20Trump%2C%20the%20national%20mood%20has%20seldom%20been%20bleaker.%20Over%20to%20you%2C%20Chalmers&url=https%3A%2F%2Fwww.smh.com.au%2Fpolitics%2Ffederal%2Fthanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html)
 
 More:
 
-* Political leadership
-* Federal budget
-* Jim Chalmers
-* Middle East at war
-* Trump diplomacy
-* Liberal Party
-* One Nation
-* Opinion
+* [Political leadership](/topic/political-leadership-jdb)
+* [Federal budget](/topic/federal-budget-5x3)
+* [Jim Chalmers](/topic/james-edward-chalmers-1n0b)
+* [Middle East at war](/topic/middle-east-at-war-6h0o)
+* [Trump diplomacy](/topic/trump-diplomacy-1m2u)
+* [Liberal Party](/topic/liberal-party-5yx)
+* [One Nation](/topic/one-nation-607)
+* [Opinion](/topic/opinion-1ql)

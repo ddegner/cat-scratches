@@ -2,7 +2,7 @@
 
 In the UK, sorry is not simply an apology, it's a cultural reflex – a five-letter pressure valve used to soften requests, smooth over awkwardness, fill conversational gaps and avoid the national horror of seeming rude. It is perhaps no coincidence that such famously polite characters as Paddington and Mary Poppins are British.
 
-Brits say the word on average nine times per day – more than 3,000 times a year. But for visitors, the puzzle is not how often they hear it, it is working out what sorry actually means. Because in Britain, sorry can mean regret. It can also mean excuse me, move over, I disagree, hurry up, you're blocking the aisle, I didn't hear you or I am trying very hard to not sound annoyed.
+Brits say the word on average [nine times per day](https://www.theguardian.com/lifeandstyle/2025/jul/11/sorry-babbel-but-british-people-say-sorry-more-than-nine-times-a-day) – more than 3,000 times a year. But for visitors, the puzzle is not how often they hear it, it is working out what sorry actually means. Because in Britain, sorry can mean regret. It can also mean excuse me, move over, I disagree, hurry up, you're blocking the aisle, I didn't hear you or I am trying very hard to not sound annoyed.
 
 While these uses are not unique to the UK, the frequency, tone and the tiny social calculations often are. Britain is often known as a conflict-avoidant society, and sorry has become one of its most versatile tools – a way to manage space, soften disagreement, avoid confrontation and enforce rules without appearing openly impolite.
 
@@ -62,11 +62,11 @@ This is the pre-emptive apology: a small cushion placed before a disagreement la
 
 **More like this:**
 
-• How not to embarrass yourself in a British pub
+• [How not to embarrass yourself in a British pub](https://www.bbc.com/travel/article/20260407-how-to-not-embarrass-yourself-in-a-british-pub)
 
-• You can sleep over at Oxford's colleges - here's what it's really like
+• [You can sleep over at Oxford's colleges - here's what it's really like](https://www.bbc.com/travel/article/20260216-what-its-like-to-stay-in-an-oxford-college)
 
-• The tiny slice of 'America' in England
+• [The tiny slice of 'America' in England](https://www.bbc.com/travel/article/20260206-the-tiny-slice-of-america-in-england)
 
 It allows the speaker to challenge, contradict or correct while signalling they're not trying to start a fight – even when they are absolutely about to. Depending on the tone, it can sound conciliatory, mildly exasperated or one step short of saying "Sorry, but I'm not sorry." For visitors, the trick is to listen to what comes after the "but". In Britain, that's usually where the real message begins.  
 
@@ -79,3 +79,9 @@ It allows the speaker to challenge, contradict or correct while signalling they'
 The blood runs cold at the thought of queue-jumping in Britain. Here, the queue is sacred territory – like Westminster Abbey or Wimbledon – and a politely interjected "sorry…" acts as an etiquette reminder that everyone must adhere to the rules instead of hustling for territory. In this scenario, sorry is code for "get to the back", "don't push in", "keep your distance" or "queue jump if you dare".
 
 In the pub, the same phrase can mean "just behind you", "I think I was next" or "please don't pretend you didn't see me waiting". It's a correction dressed up as courtesy – which is often the most British correction of all.
+
+_\--_ 
+
+_If you liked this story,_  _– a handpicked selection of features, videos and can't-miss news, delivered to your inbox twice a week._ 
+
+_For more Travel stories from the BBC, follow us on_ [_Facebook_](https://www.facebook.com/BBCTravel/) _and_ [_Instagram_](https://www.instagram.com/bbc_travel/)_._

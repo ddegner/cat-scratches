@@ -12,13 +12,26 @@ The CEO also admitted that Arm is yet to assemble the supply chain to deliver $2
 
 ## MORE CONTEXT
 
-* ### Classic ASCII game NetHack debuts version 5.0 just 11 years after last major release
- 
-* ### Arm wrestles away 25% share of server market thanks to Nvidia's home-grown CPUs
- 
-* ### Meta Arms itself to the teeth by signing for 'tens of millions' of AWS Graviton cores
- 
-* ### AWS ponders selling its home-grown chips by the rack-load, has almost sold out AI capacity
+* [
+    
+    ### Classic ASCII game NetHack debuts version 5.0 just 11 years after last major release
+    
+    ](/on-prem/2026/05/05/classic-ascii-game-nethack-debuts-version-50/5223743)
+* [
+    
+    ### Arm wrestles away 25% share of server market thanks to Nvidia's home-grown CPUs
+    
+    ](/on-prem/2025/09/11/intel-outside-as-arms-data-center-cpu-share-grows-to-25/352359)
+* [
+    
+    ### Meta Arms itself to the teeth by signing for 'tens of millions' of AWS Graviton cores
+    
+    ](/on-prem/2026/04/24/meta-to-use-millions-of-aws-graviton-cores/5227355)
+* [
+    
+    ### AWS ponders selling its home-grown chips by the rack-load, has almost sold out AI capacity
+    
+    ](/on-prem/2026/04/10/aws-ponders-selling-its-home-grown-chips-by-the-rack-load/5221021)
 
 Haas theorized one reason for customer interest is that they see AI agents running on dedicated processor cores and Arm’s AGI chips have 136 of them. He thinks datacenter operators will therefore run racks full of Arm CPUs alongside racks full of GPUs.
 

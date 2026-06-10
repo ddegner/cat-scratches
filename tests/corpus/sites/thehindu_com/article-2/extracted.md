@@ -1,4 +1,4 @@
-It has been difficult to get an interview with Arvind Kejriwal. Not only is it a question of time, Kejriwal is also wary of “mainstream” media, a fact that he admits when we finally meet. After a postponement, the interview is set for 9:00 pm, and when we get to his current residence at 5 Ferozeshah Road, Kejriwal has just returned from a long day of campaigning for what is being seen as a make-or-break election for both him and his party.
+It has been difficult to get an interview with [Arvind Kejriwal](https://frontline.thehindu.com/politics/delhi-elections-aap-arvind-kejriwal-corruption-allegations-party-workers-bjp/article68889385.ece). Not only is it a question of time, Kejriwal is also wary of “mainstream” media, a fact that he admits when we finally meet. After a postponement, the interview is set for 9:00 pm, and when we get to his current residence at 5 Ferozeshah Road, Kejriwal has just returned from a long day of campaigning for what is being seen as a make-or-break election for both him and his party.
 
 But Kejriwal himself does not display any such anxiety. He enters the drawing room with a smile and a slight spring in his step, visibly tired but upbeat.
 
@@ -6,7 +6,7 @@ As we talk, his social media team calls every now and then, relating tweets that
 
 In the freewheeling conversation that follows, Kejriwal says that he is confident of winning Delhi a third time. According to him, people will vote his government back in because of its “kaam ki rajneeti” (politics of delivery). He adds: “Delhi is the only State with 24x7 free electricity. Have you seen government schools like ours? Or mohalla clinics?”
 
-When asked about the corruption charges against him, he says that if they were true, the Aam Aadmi Party would not have to resort to crowdfunding. The frequent run-ins with the Lieutenant Governor (L-G) do not appear to faze him—“we will manage”—nor do the multiple cases against him and his party members, but when he talks of his plans to counter the BJP, Kejriwal’s voice takes on an edge. Excerpts:
+When asked about the corruption charges against him, he says that if they were true, the [Aam Aadmi Party](https://frontline.thehindu.com/politics/aap-delhi-chief-minister-arvind-kejriwal-sunita-kejriwal-autowallahs-anti-incumbency-assembly-election/article68977213.ece) would not have to resort to crowdfunding. The frequent run-ins with the Lieutenant Governor (L-G) do not appear to faze him—“we will manage”—nor do the multiple cases against him and his party members, but when he talks of his plans to counter the BJP, Kejriwal’s voice takes on an edge. Excerpts:
 
 It has been more than a decade since you entered politics and since the AAP burst on to the Delhi political scene. What motivated you to give up a lucrative job and plunge into the uncertain world of activism and then politics?
 
@@ -16,7 +16,7 @@ How did your wife, Sunita, and your parents react to the decision? How are they 
 
 Sunita and my parents have always been my biggest pillars of support. They’ve stood by me through every challenge. Last year was particularly hard for them when I was jailed for five months in a completely fake case. It was heartbreaking for them, especially when even my medicines were stopped, something no family should have to worry about. I have immense admiration for Sunita’s strength and resilience in those difficult times. She not only managed the household but also took on a huge responsibility—coordinating with party leaders and volunteers and even stepping out to make public appearances on my behalf. Her courage and determination kept our entire team motivated. My family’s unwavering support gives me the strength to continue this fight for the people.
 
-**Also Read | Delhi electoral roll faces unprecedented scrutiny amid 510,000 last-minute registration surge**
+**Also Read | [Delhi electoral roll faces unprecedented scrutiny amid 510,000 last-minute registration surge](https://frontline.thehindu.com/news/delhi-election-commission-investigates-mass-voter-registration-2025/article69081398.ece)**
 
 Tell us a bit about your childhood and family. Can your activism or decision to join politics be traced to any incidents from your early years?
 
@@ -48,7 +48,7 @@ Our commitment to honesty has been central to achieving transformational changes
 
 We’ve also been pioneers in tackling corruption at the systemic level. We introduced doorstep delivery of government services so that people do not have to run around and face middlemen. We even shut down RTOs \[regional transport offices\], which had become notorious centres of corruption. These initiatives demonstrate that honest governance isn’t just an ideal—it can deliver real, tangible benefits to the people.
 
-**Also Read | Arvind Kejriwal faces toughest battle yet for New Delhi constituency**
+**Also Read | [Arvind Kejriwal faces toughest battle yet for New Delhi constituency](https://frontline.thehindu.com/politics/arvind-kejriwal-delhi-assembly-election-aap-bjp-congress-narendra-modi-amit-shah-br-ambedkar-parvesh-varma/article69053056.ece)**
 
 Your early AAP colleagues are your bitter critics today. Why did you fall out? Would your fight be easier today if they had remained with you?
 
@@ -76,7 +76,7 @@ If my government is giving grants and support to people of all religions, and if
 
 Religion and faith are an intrinsic part of our society, and it is the responsibility of a government to respect and support the spiritual needs of its people, irrespective of their beliefs. These initiatives are about inclusivity and ensuring that every community feels cared for and represented. Governance, in my view, is about serving people in all aspects of their lives, including their spiritual and cultural needs.
 
-**Also Read | Is AAP changing its political tactics?** 
+**Also Read | [Is AAP changing its political tactics?](https://frontline.thehindu.com/columns/delhi-elections-2025-aap-shifts-strategy-religious-politics-welfare-schemes/article69053911.ece)** 
 
 You have said this is the toughest election the AAP has faced in Delhi. How do you rate your chances of victory? After 10 years in power, why will the people vote for you again?
 
@@ -106,7 +106,7 @@ Modiji is the Prime Minister of the country, so it cannot be a Modi vs Kejriwal 
 
 For the people of Delhi, the choice is clear: it’s between Kejriwal, who has a track record of delivering results, and a party that relies on “gaali-galauj” \[abuses\] instead of presenting a vision for the city. I trust the voters of Delhi to make the right decision.
 
-**Also Read | Trickle-up economics and AAP’s ‘Delhi Model’**
+**Also Read | [Trickle-up economics and AAP’s ‘Delhi Model’](https://frontline.thehindu.com/books/trickle-up-economics-aap-2025-assembly-election-arvind-kejriwal-atishi-the-delhi-model-jasmine-shah-excerpt/article69049858.ece)**
 
 The RSS is reportedly using its massive cadre base to reach out to your traditional voter base in the slums and migrant worker colonies. Can the AAP counter this?
 

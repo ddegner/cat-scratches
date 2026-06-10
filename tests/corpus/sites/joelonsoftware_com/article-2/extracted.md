@@ -1,4 +1,4 @@
-* Rock star developer, News
+* [Rock star developer](https://www.joelonsoftware.com/category/reading-lists/rock-star-developer/), [News](https://www.joelonsoftware.com/category/news/)
 
 When great thinkers think about problems, they start to see patterns. They look at the problem of people sending each other word-processor files, and then they look at the problem of people sending each other spreadsheets, and they realize that there’s a general pattern: sending files. That’s one level of abstraction already. Then they go up one more level: people _send_ files, but web browsers also “_send_” requests for web pages. And when you think about it, calling a method on an object is like sending a message to an object! It’s the same thing again! Those are all _sending_ operations, so our clever thinker invents a new, higher, broader abstraction called _messaging_, but now it’s getting _really_ vague and nobody really knows what they’re talking about any more. Blah.
 
@@ -14,17 +14,17 @@ The Architecture Astronauts will say things like: “Can you imagine a program l
 
 Another common thing Architecture Astronauts like to do is invent some new architecture and claim it solves something. Java, XML, Soap, XmlRpc, Hailstorm, .NET, Jini, oh lord I can’t keep up. And that’s just in the last 12 months!
 
-I’m not saying there’s anything wrong with these architectures… by no means. They are quite good architectures. What bugs me is the stupendous amount of millennial _hype_ that surrounds them. Remember the Microsoft Dot Net white paper? 
+I’m not saying there’s anything wrong with these architectures… by no means. They are quite good architectures. What bugs me is the stupendous amount of millennial _hype_ that surrounds them. Remember the Microsoft Dot Net [white paper](http://www.microsoft.com/business/vision/netwhitepaper.asp)? 
 
 > The next generation of the Windows desktop platform, Windows.NET supports productivity, creativity, management, entertainment and much more, and is designed to put users in control of their digital lives.
 
-That was about 9 months ago. Last month, we got Microsoft Hailstorm. That white paper says:
+That was about 9 months ago. Last month, we got Microsoft Hailstorm. [That white paper](http://www.microsoft.com/net/hailstorm.asp) says:
 
 > People are not in control of the technology that surrounds them….HailStorm makes the technology in your life work together on your behalf and under your control.
 
 Oh, good, so now the high tech halogen light in my apartment will stop blinking randomly.
 
-Microsoft is not alone. Here’s a quote from a Sun Jini whitepaper:
+Microsoft is not alone. Here’s a quote from a [Sun Jini whitepaper](http://www.sun.com/jini/whitepapers/whyjininow.html):
 
 > These three facts (you are the new sys admin, computers are nowhere, the one computer is everywhere) should combine to improve the world of using computers as computers — by making the boundaries of computers disappear, by making the computer be everywhere, and by making the details of working with the computer as simple as putting a DVD into your home theater system.
 

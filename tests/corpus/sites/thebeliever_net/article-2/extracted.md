@@ -1,8 +1,12 @@
-Logger
+[Logger](https://www.thebeliever.net/logger/)
 
 # Are-Bure-Boke
 
+[
+
 ###### by Ratik Asokan
+
+](https://www.thebeliever.net/contributor/ratik-asokan/)
 
 ###### December 18th, 2015
 
@@ -48,12 +52,12 @@ And this mixture—the familiarly human and the pervasively chaotic—best captu
 
 _Shomei Tomatsu,_ Protest
 
-Experiments in Japanese Art and Photography will run at the Japan Society until January 10th.
+[Experiments in Japanese Art and Photography will run at the Japan Society until January 10th.](http://www.japansociety.org/page/programs/gallery/for-a-new-world-to-come)
 
 ##### contributor
 
 ##### contributor
 
-## Ratik Asokan is a freelance writer based in New York. He writes about literature, film, and photography. You can read all his work here.
+## Ratik Asokan is a freelance writer based in New York. He writes about literature, film, and photography. You can read all his work [here](http://rasokan15.wix.com/writer).
 
-More by Ratik Asokan
+[More by Ratik Asokan](https://www.thebeliever.net/contributor/ratik-asokan/)

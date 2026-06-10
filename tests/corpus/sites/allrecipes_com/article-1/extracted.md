@@ -1,10 +1,12 @@
-4,922
+[4,922
 
-4,922
+](#)[4,922
 
-4,922
+](#)[4,922
 
-4,922
+](#)[4,922
+
+](#)
 
 Prep Time:
 
@@ -48,7 +50,7 @@ Bake in a preheated 350 degrees F (175 degrees C) oven — the chocolate chip co
 
 ## Test Kitchen Tips
 
-“Everyone needs a good chocolate chip cookie recipe,” says culinary producer Nicole McLaughlin (a.k.a. NicoleMcMom). Here are a few of her expert tips and tricks for making perfect chocolate chip cookies every time: 
+“Everyone needs a good chocolate chip cookie recipe,” says culinary producer Nicole McLaughlin (a.k.a. [NicoleMcMom](https://www.allrecipes.com/cook/28183721/)). Here are a few of her expert tips and tricks for making perfect chocolate chip cookies every time: 
 
 * Beating the butter and sugar is the most important part of the chocolate chip cookie-making process, according to Nicole. It takes a lot longer than you might think: She recommends beating the ingredients together for about four minutes.
 * Nicole suggests chilling the dough before baking to prevent spreading. This is essential if you want a cookie that’s still a little gooey in the middle, she says. 
@@ -58,7 +60,7 @@ Bake in a preheated 350 degrees F (175 degrees C) oven — the chocolate chip co
 
 Store the cooled chocolate chip cookies in an airtight container at room temperature for up to a week. If you want to go the extra mile, throw a piece of white bread into the container — it'll absorb the dry air and keep the cookies soft for longer.
 
-**Learn more**: How to Store Cookies So They Stay Fresh
+**Learn more**: [How to Store Cookies So They Stay Fresh](https://www.allrecipes.com/article/how-to-store-cookies/)
 
 ## Can You Freeze Chocolate Chip Cookies?
 
@@ -67,11 +69,11 @@ Yes! You can freeze baked chocolate chip cookies and chocolate chip cookie dough
 * **To freeze baked cookies**: Allow the baked cookies to cool completely. Arrange them in a single layer on a baking sheet, cover, and freeze for about three hours or up to overnight. Transfer the now-frozen cookies to a resealable plastic freezer bag or freezer-safe container. Wrap in at least one layer of aluminum foil for extra protection. Freeze for up to two months.
 * **To freeze cookie dough**: Drop balls of dough onto a parchment-lined baking sheet. Cover and freeze for about three hours or up to overnight. Transfer the frozen cookie dough balls to a resealable plastic freezer bag or freezer-safe container. Wrap in at least one layer of aluminum foil for extra protection. Freeze for up to two months.
 
-**Learn more**: How to Freeze Cookies and Cookie Dough for Easy Baking
+**Learn more**: [How to Freeze Cookies and Cookie Dough for Easy Baking](https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/)
 
 ## Allrecipes Community Tips and Praise
 
-"My go-to recipe," says Andrea Howard. "I sometimes add oatmeal, nuts, raisins, etc. but they are also fantastic without. Crunchy and chewy in every bite!"
+"My go-to recipe," says [Andrea Howard](https://www.allrecipes.com/cook/26282421). "I sometimes add oatmeal, nuts, raisins, etc. but they are also fantastic without. Crunchy and chewy in every bite!"
 
 "This is hands down the best chocolate chip cookie recipe!" raves Baybos the baker man. "So good that we want to quadruple the recipe and freeze a few batches."
 
@@ -92,45 +94,45 @@ Oops! Something went wrong. Our team is working on it.
 This recipe was developed at its original yield. Ingredient amounts are automatically adjusted, but cooking times and steps remain unchanged. Note that not all recipes scale perfectly. Original recipe (1X) yields 48 servings
 
 * 1 cup butter, softened
- 
+    
 * 1 cup white sugar
- 
+    
 * 1 cup packed brown sugar
- 
+    
 * 2 large eggs
- 
+    
 * 2 teaspoons vanilla extract
- 
+    
 * 1 teaspoon baking soda
- 
+    
 * 2 teaspoons hot water
- 
+    
 * ½ teaspoon salt
- 
+    
 * 3 cups all-purpose flour
- 
+    
 * 2 cups semisweet chocolate chips
- 
+    
 * 1 cup chopped walnuts
 
 ## Directions
 
 1. Gather your ingredients, making sure your butter is softened, and your eggs are room temperature.
- 
+    
 2. Preheat the oven to 350 degrees F (175 degrees C). Beat butter, white sugar, and brown sugar together in a large bowl with an electric mixer until smooth and creamy.
- 
+    
 3. Beat in eggs, one at a time, then stir in vanilla.
- 
+    
 4. Dissolve baking soda in hot water; add to batter along with salt and mix until combined.
- 
+    
 5. Stir in flour, chocolate chips, and walnuts until a soft dough forms.
- 
+    
 6. Drop rounded spoonfuls of cookie dough 2 inches apart onto ungreased baking sheets.
- 
+    
 7. Bake in the preheated oven until edges are lightly browned, about 10 minutes.
- 
+    
 8. Cool on the baking sheets briefly before transferring to a wire rack to cool completely.
- 
+    
 9. Store in an airtight container or serve immediately and enjoy!
 
 40,218 home cooks made it!

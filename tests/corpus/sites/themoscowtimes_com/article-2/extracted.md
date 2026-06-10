@@ -14,4 +14,4 @@ _3\. The offer is valid through December 31, 2019_
 
 Enjoy Pinch as we do!
 
-For more info please check www.moscowliving.org
+For more info please check [www.moscowliving.org](https://www.moscowliving.org/post/pinch-year-round-favourite "www.moscowliving.org")

@@ -1,6 +1,6 @@
 President tells Iran to accept deal to end war or face new wave of bombing at ‘much higher level and intensity’
 
-The US military fired on an Iranian-flagged oil tanker on Wednesday, shortly after Donald Trump issued a fresh ultimatum to Tehran, telling it to accept a deal to end the war or face a new wave of US bombing “at a much higher level and intensity than it was before”.
+The US military fired on an Iranian-flagged oil tanker on Wednesday, shortly after [Donald Trump](https://www.theguardian.com/us-news/donaldtrump) issued a fresh ultimatum to Tehran, telling it to accept a deal to end the war or face a new wave of US bombing “at a much higher level and intensity than it was before”.
 
 The US fighter fired several rounds and “disabled the tanker’s rudder” as it attempted to breach the US’s blockade of Iranian ports, US Central Command said in a social media post.
 
@@ -20,7 +20,7 @@ Earlier on Wednesday, Axios reported that Washington and Tehran were close to ag
 
 The US-based news outlet reported that the US expected Iran to respond to several key points in the next 48 hours and that while nothing had yet been agreed, this was the closest the parties had been to a deal.
 
-Officials in Pakistan told the Guardian that an initial framework could possibly be agreed within 48 hours but that nothing was certain and that talks remained “difficult”.
+Officials in [Pakistan](https://www.theguardian.com/world/pakistan) told the Guardian that an initial framework could possibly be agreed within 48 hours but that nothing was certain and that talks remained “difficult”.
 
 Late on Tuesday, Trump had abruptly ordered an indefinite pause to a naval effort to guide stranded commercial ships through the strait of Hormuz.
 
@@ -34,7 +34,7 @@ Trump, who is due to visit Beijing next week, has often threatened in recent wee
 
 Analysts suggested the US president may be seeking something that could be portrayed as a breakthrough before arriving in Beijing. China called on Monday for a comprehensive ceasefire in the Iran war.
 
-Beijing has close economic and political ties to Tehran but has failed to exert significant leverage over the radical Islamist Iranian regime since the war began. The Trump administration may want China to exploit that relationship to convince Iran to open the strait.
+Beijing has close economic and political ties to Tehran but has failed to exert significant leverage over the radical Islamist Iranian regime since the war began. The [Trump administration](https://www.theguardian.com/us-news/trump-administration) may want China to exploit that relationship to convince Iran to open the strait.
 
 Trump’s trip will be his first visit to China during his second term and the first by a US president since his previous visit, in 2017.
 
@@ -60,7 +60,7 @@ Later on Wednesday, Trump said in an interview with PBS he was optimistic about 
 
 Trump insisted that under any deal Tehran would “export” its highly enriched uranium – necessary for making a nuclear weapon – to the US, a demand that experts say Iran cannot accept.
 
-The Iran war, which began with an Israeli strike that killed Ali Khamenei, Iran’s supreme leader, appears to have reached a stalemate. Iran is taking huge economic losses, which may escalate if it begins to run out of storage capacity for its oil, while Trump is under pressure domestically and internationally as fuel prices surge in the US and globally.
+The Iran war, which began with an Israeli strike that killed [Ali Khamenei](https://www.theguardian.com/world/ayatollah-ali-khamenei), Iran’s supreme leader, appears to have reached a stalemate. Iran is taking huge economic losses, which may escalate if it begins to run out of storage capacity for its oil, while Trump is under pressure domestically and internationally as fuel prices surge in the US and globally.
 
 US officials have insisted the ceasefire in the Middle East is holding, though there was an increase in violence on Monday, with Iranian missiles and drones striking the UAE for the first time in weeks, and reported clashes in the strait of Hormuz.
 

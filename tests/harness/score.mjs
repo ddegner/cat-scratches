@@ -26,6 +26,14 @@ const STOP = new Set(
     .split(/\s+/),
 );
 
+// Markdown link targets are presentation, not content: expected.md baselines
+// are written without them, so strip `(url)` from links/images and bare
+// autolinks on BOTH sides before comparing, keeping only the visible text.
+const stripLinkTargets = (s) =>
+  (s || "")
+    .replace(/(!?\[[^\]]*\])\([^)]*\)/g, "$1")
+    .replace(/<https?:\/\/[^>\s]+>/g, " ");
+
 const tokens = (s) =>
   (s || "")
     .toLowerCase()
@@ -67,8 +75,8 @@ for (const site of manifest.sites) {
         if (ann.quality === "fixture-broken") continue;
       } catch {}
     }
-    const extracted = readFileSync(extP, "utf8");
-    const expected = readFileSync(expP, "utf8");
+    const extracted = stripLinkTargets(readFileSync(extP, "utf8"));
+    const expected = stripLinkTargets(readFileSync(expP, "utf8"));
     const et = tokens(extracted);
     const xt = tokens(expected);
     const ets = new Set(et);

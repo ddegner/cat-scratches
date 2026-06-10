@@ -8,7 +8,7 @@ Multiple sources who spoke on the condition of anonymity to discuss the confiden
 
 The _Herald_ is not suggesting the existence of an investigation indicates any wrongdoing by Minns or any other Labor figure, only that the commission has been examining the allegations.
 
-It comes after a former member of Labor’s head office, David Latham, last year alleged Minns asked him how to bank thousands of dollars in undeclared cash donations he said were handed over at the fundraiser on September 12, 2014.
+It comes after [a former member of Labor’s head office, David Latham](/politics/nsw/release-it-all-premier-fumes-at-resurfacing-of-donation-allegations-20251125-p5nid7.html), last year alleged Minns asked him how to bank thousands of dollars in undeclared cash donations he said were handed over at the fundraiser on September 12, 2014.
 
 The premier vehemently denied the conversation took place, or any wrongdoing, when the allegation was made.
 
@@ -26,7 +26,7 @@ The allegations were first raised during the ICAC’s 2019 probe into the $100,0
 
 The inquiry’s public hearings heard former Labor MP Ernest Wong and Labor figure Jonathan Yee – who were both subject to adverse findings in relation to the broader investigation – were involved in concealing the source of about $10,000 in donations to Minns’ campaign.
 
-However, the Minns fundraiser was not pursued by the corruption watchdog. Scott Robertson, the counsel assisting the ICAC, said at the time that his questions were not targeted at Minns’ conduct, but to “shed light on the conduct” of Wong, Yee and others.
+However, [the Minns fundraiser was not pursued by the corruption watchdog](https://www.smh.com.au/national/nsw/icac-inquiry-not-targeting-labor-mp-chris-minns-watchdog-says-20191002-p52x2u.html). Scott Robertson, the counsel assisting the ICAC, said at the time that his questions were not targeted at Minns’ conduct, but to “shed light on the conduct” of Wong, Yee and others.
 
 In a letter to the committee in February this year, Paul Lakatos SC, a commissioner at the ICAC, said after reviewing the material the watchdog had decided not to investigate.
 
@@ -40,7 +40,7 @@ However, in his affidavit, obtained by the _Herald_, David Latham alleged he rec
 
 Latham said he suggested Minns ask NSW Labor’s then-executive officer and now party secretary Dominic Ofner. He alleged that Minns replied he would instead speak to Jamie Clements, Labor’s then-general secretary and the premier’s best friend.
 
-Despite declarations listing it as raising less than $6000 from 10 donors – which took place when Minns was seeking to enter parliament – a Chinese-language newspaper at the time reported the attendance at the event was much larger. The article, first reported by the ABC, states about 200 people were at the event.
+Despite declarations listing it as raising less than $6000 from 10 donors – which took place when Minns was seeking to enter parliament – a Chinese-language newspaper at the time reported the attendance at the event was much larger. The article, [first reported](https://www.abc.net.au/news/2026-01-08/labor-fundraiser-reportedly-bigger-than-official-records-suggest/106206142) by the ABC, states about 200 people were at the event.
 
 It includes a photograph of Minns flanked by dignitaries, including his long-time factional ally Chris Bowen, his predecessor in the seat of Kogarah and long-time political ally Cherie Burton, and Wong.
 
@@ -54,18 +54,20 @@ In a statement, the premier’s spokeswoman linked the Electoral Commission’s 
 
 “Is this really surprising given all the times Mark Latham has publicly suggested the NSW Electoral Commission is corrupt, part of a conspiracy and a protection racket?” she said.
 
+**_Start the day with a summary of the day’s most important and interesting stories, analysis and insights. [Sign up for our Morning Edition newsletter](https://www.smh.com.au/newsletter-signup?newsletter=am&utm_source=EditorialArticle&utm_medium=ArticleText&utm_campaign=Newsletters)._**
+
 You have reached your maximum number of saved items.
 
-Remove items from your saved list to add more.
+Remove items from your [saved list](/goodfood/saved) to add more.
 
-License this article
+[License this article](https://rightsportal.copyright.com.au/pages/republicationpage.aspx?author=Michael%20McGowan&publication=SMH&publicationdate=2026-05-06T19%3A00%3A00Z&publisher=fxj&title=Election%20watchdog%20investigates%20premier%E2%80%99s%20alleged%20links%20to%20decade-old%20donations%20scandal&url=https%3A%2F%2Fwww.smh.com.au%2Fpolitics%2Fnsw%2Felection-watchdog-investigates-premier-s-alleged-links-to-decade-old-donations-scandal-20260504-p5ztna.html)
 
 More:
 
-* Political donations
-* ALP
-* NSW State Parliament
-* ICAC
-* Huang Xiangmo
-* Chris Minns
-* Ernest Wong
+* [Political donations](/topic/political-donations-1mmh)
+* [ALP](/topic/australian-labor-party-5uo)
+* [NSW State Parliament](/topic/nsw-state-parliament-jdq)
+* [ICAC](/topic/independent-commission-against-corruption-1lwm)
+* [Huang Xiangmo](/topic/huang-xiangmo-1mxi)
+* [Chris Minns](/topic/christopher-john-minns-1mzz)
+* [Ernest Wong](/topic/ernest-kwok-chung-wong-1n9u)

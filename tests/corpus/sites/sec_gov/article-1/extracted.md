@@ -170,8 +170,6 @@ DOCUMENTS INCORPORATED BY REFERENCE
 
 Portions of the Registrant’s definitive proxy statement relating to its 2025 annual meeting of shareholders are incorporated by reference into Part III of this Annual Report on Form 10-K where indicated. The Registrant’s definitive proxy statement will be filed with the U.S. Securities and Exchange Commission within 120 days after the end of the fiscal year to which this report relates.
 
----
-
 Apple Inc.
 
 Form 10-K
@@ -182,153 +180,151 @@ TABLE OF CONTENTS
 
 Page
 
-Part I
+[Part I](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_10)
 
-Item 1.
+[Item 1.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_13)
 
-Business
+[Business](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_13)
 
-1
+[1](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_13)
 
-Item 1A.
+[Item 1A.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_52)
 
-Risk Factors
+[Risk Factors](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_52)
 
-5
+[5](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_52)
 
-Item 1B.
+[Item 1B.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_70)
 
-Unresolved Staff Comments
+[Unresolved Staff Comments](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_70)
 
-17
+[17](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_70)
 
-Item 1C.
+[Item 1C.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_73)
 
-Cybersecurity
+[Cybersecurity](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_73)
 
-17
+[17](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_73)
 
-Item 2.
+[Item 2.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_76)
 
-Properties
+[Properties](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_76)
 
-18
+[18](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_76)
 
-Item 3.
+[Item 3.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_79)
 
-Legal Proceedings
+[Legal Proceedings](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_79)
 
-18
+[18](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_79)
 
-Item 4.
+[Item 4.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_82)
 
-Mine Safety Disclosures
+[Mine Safety Disclosures](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_82)
 
-18
+[18](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_82)
 
-Part II
+[Part II](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_85)
 
-Item 5.
+[Item 5.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_88)
 
-Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities
+[Market for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_88)
 
-19
+[19](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_88)
 
-Item 6.
+[Item 6.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_91)
 
-\[Reserved\]
+[\[Reserved\]](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_91)
 
-20
+[20](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_91)
 
-Item 7.
+[Item 7.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_94)
 
-Management’s Discussion and Analysis of Financial Condition and Results of Operations
+[Management’s Discussion and Analysis of Financial Condition and Results of Operations](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_94)
 
-21
+[21](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_94)
 
-Item 7A.
+[Item 7A.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_166)
 
-Quantitative and Qualitative Disclosures About Market Risk
+[Quantitative and Qualitative Disclosures About Market Risk](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_166)
 
-27
+[27](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_166)
 
-Item 8.
+[Item 8.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_169)
 
-Financial Statements and Supplementary Data
+[Financial Statements and Supplementary Data](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_169)
 
-28
+[28](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_169)
 
-Item 9.
+[Item 9.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_238)
 
-Changes in and Disagreements with Accountants on Accounting and Financial Disclosure
+[Changes in and Disagreements with Accountants on Accounting and Financial Disclosure](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_238)
 
-51
+[51](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_238)
 
-Item 9A.
+[Item 9A.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_241)
 
-Controls and Procedures
+[Controls and Procedures](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_241)
 
-51
+[51](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_241)
 
-Item 9B.
+[Item 9B.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_244)
 
-Other Information
+[Other Information](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_244)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_244)
 
-Item 9C.
+[Item 9C.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_253)
 
-Disclosure Regarding Foreign Jurisdictions that Prevent Inspections
+[Disclosure Regarding Foreign Jurisdictions that Prevent Inspections](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_253)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_253)
 
-Part III
+[Part III](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_256)
 
-Item 10.
+[Item 10.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_259)
 
-Directors, Executive Officers and Corporate Governance
+[Directors, Executive Officers and Corporate Governance](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_259)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_259)
 
-Item 11.
+[Item 11.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_262)
 
-Executive Compensation
+[Executive Compensation](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_262)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_262)
 
-Item 12.
+[Item 12](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_265).
 
-Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters
+[Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_265)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_265)
 
-Item 13.
+[Item 13](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_268).
 
-Certain Relationships and Related Transactions, and Director Independence
+[Certain Relationships and Related Transactions, and Director Independence](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_268)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_268)
 
-Item 14.
+[Item 14.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_271)
 
-Principal Accountant Fees and Services
+[Principal Accountant Fees and Services](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_271)
 
-52
+[52](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_271)
 
-Part IV
+[Part IV](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_274)
 
-Item 15.
+[Item 15.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_277)
 
-Exhibit and Financial Statement Schedules
+[Exhibit and Financial Statement Schedules](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_277)
 
-53
+[53](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_277)
 
-Item 16.
+[Item 16.](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_280)
 
-Form 10-K Summary
+[Form 10-K Summary](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_280)
 
-56
-
----
+[56](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_280)
 
 This Annual Report on Form 10-K (“Form 10-K”) contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995, that involve risks and uncertainties. Many of the forward-looking statements are located in Part I, Item 1 of this Form 10-K under the heading “Business” and Part II, Item 7 of this Form 10-K under the heading “Management’s Discussion and Analysis of Financial Condition and Results of Operations.” Forward-looking statements provide current expectations of future events based on certain assumptions and include any statement that does not directly relate to any historical or current fact. For example, statements in this Form 10-K regarding the potential future impact of macroeconomic conditions on the Company’s business and results of operations are forward-looking statements. Forward-looking statements can also be identified by words such as “future,” “anticipates,” “believes,” “estimates,” “expects,” “intends,” “plans,” “predicts,” “will,” “would,” “could,” “can,” “may,” and similar terms. Forward-looking statements are not guarantees of future performance and the Company’s actual results may differ significantly from the results discussed in the forward-looking statements. Factors that might cause such differences include, but are not limited to, those discussed in Part I, Item 1A of this Form 10-K under the heading “Risk Factors.” The Company assumes no obligation to revise or update any forward-looking statements for any reason, except as required by law.
 
@@ -366,11 +362,7 @@ Accessories includes Apple-branded and third-party accessories.
 
 Apple Inc. | 2024 Form 10-K | 1
 
----
-
 Services
-
-Advertising
 
 The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms.
 
@@ -406,8 +398,6 @@ The markets for the Company’s products and services are highly competitive, an
 
 Apple Inc. | 2024 Form 10-K | 2
 
----
-
 The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation.
 
 The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications. The Company faces significant competition as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer.
@@ -433,8 +423,6 @@ The Company regularly files patent, design, copyright and trademark applications
 In addition to Company-owned intellectual property, many of the Company’s products and services are designed to include intellectual property owned by third parties. It may be necessary in the future to seek or renew licenses relating to various aspects of the Company’s products, processes and services. While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all.
 
 Apple Inc. | 2024 Form 10-K | 3
-
----
 
 Business Seasonality and Product Introductions
 
@@ -470,8 +458,6 @@ The Company is committed to protecting its team members everywhere it operates. 
 
 Apple Inc. | 2024 Form 10-K | 4
 
----
-
 Available Information
 
 The Company’s Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to reports filed pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), are filed with the U.S. Securities and Exchange Commission (the “SEC”). Such reports and other information filed by the Company with the SEC are available free of charge at investor.apple.com/investor-relations/sec-filings/default.aspx when such reports are available on the SEC’s website. The Company periodically provides certain information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, information on environmental, social and governance matters, and details related to the Company’s annual meeting of shareholders. The information contained on the websites referenced in this Form 10-K is not incorporated by reference into this filing. Further, the Company’s references to website URLs are intended to be inactive textual references only.
@@ -498,8 +484,6 @@ Adverse economic conditions can also lead to increased credit and collectibility
 
 Apple Inc. | 2024 Form 10-K | 5
 
----
-
 The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.
 
 Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners.
@@ -515,8 +499,6 @@ The Company’s operations are also subject to the risks of industrial accidents
 Following any interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise.
 
 Apple Inc. | 2024 Form 10-K | 6
-
----
 
 Global markets for the Company’s products and services are highly competitive and subject to rapid technological change, and the Company may be unable to compete effectively in these markets.
 
@@ -542,8 +524,6 @@ Due to the highly volatile and competitive nature of the markets and industries 
 
 Apple Inc. | 2024 Form 10-K | 7
 
----
-
 The Company depends on component and product manufacturing and logistical services provided by outsourcing partners, many of which are located outside of the U.S.
 
 Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations. The Company has also outsourced much of its transportation and logistics management. While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions. Although arrangements with these partners may contain provisions for product defect expense reimbursement, the Company generally remains responsible to the consumer for warranty and out-of-warranty service in the event of product defects and experiences unanticipated product defect liabilities from time to time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company’s business, reputation, results of operations and financial condition.
@@ -562,8 +542,6 @@ The Company’s new products often utilize custom components available from only
 
 Apple Inc. | 2024 Form 10-K | 8
 
----
-
 The Company’s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company’s business and result in harm to the Company’s reputation.
 
 The Company offers complex hardware and software products and services that can be affected by design and manufacturing defects. Sophisticated operating system software and applications, such as those offered by the Company, often have issues that can unexpectedly interfere with the intended operation of hardware or software products and services. Defects can also exist in components and products the Company purchases from third parties. Component defects could make the Company’s products unsafe and create a risk of environmental or property damage and personal injury. These risks may increase as the Company’s products are introduced into specialized applications, including health. In addition, the Company’s service offerings can have quality issues and from time to time experience outages, service slowdowns or errors. As a result, from time to time the Company’s services have not performed as anticipated and may not meet customer expectations. The introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks, including exposing users to harmful, inaccurate or other negative content and experiences. There can be no assurance the Company will be able to detect and fix all issues and defects in the hardware, software and services it offers. Failure to do so can result in widespread technical and performance issues affecting the Company’s products and services. Errors, bugs and vulnerabilities can be exploited by third parties, compromising the safety and security of a user’s device. In addition, the Company can be exposed to product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses, including litigation costs and regulatory fines. Quality problems can adversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, delay in new product and service introductions and lost sales.
@@ -579,8 +557,6 @@ The Company relies on access to third-party intellectual property, which may not
 The Company’s products and services are designed to include intellectual property owned by third parties, which requires licenses from those third parties. In addition, because of technological changes in the industries in which the Company currently competes or in the future may compete, current extensive patent coverage and the rapid rate of issuance of new patents, the Company’s products and services can unknowingly infringe existing patents or intellectual property rights of others. From time to time, the Company has been notified that it may be infringing certain patents or other intellectual property rights of third parties. Based on experience and industry practice, the Company believes licenses to such third-party intellectual property can generally be obtained on commercially reasonable terms. However, there can be no assurance the necessary licenses can be obtained on commercially reasonable terms or at all. Failure to obtain the right to use third-party intellectual property, or to use such intellectual property on commercially reasonable terms, can require the Company to modify certain products, services or features or preclude the Company from selling certain products or services, or otherwise have a material adverse impact on the Company’s business, results of operations and financial condition.
 
 Apple Inc. | 2024 Form 10-K | 9
-
----
 
 The Company’s future performance depends in part on support from third-party software developers.
 
@@ -603,8 +579,6 @@ The Company also produces its own digital content, which can be costly to produc
 Some third-party digital content providers require the Company to provide digital rights management and other security solutions. If requirements change, the Company may have to develop or license new technology to provide these solutions. There can be no assurance the Company will be able to develop or license such solutions at a reasonable cost and in a timely manner.
 
 Apple Inc. | 2024 Form 10-K | 10
-
----
 
 The Company’s success depends largely on the talents and efforts of its team members, the continued service and availability of highly skilled employees, including key personnel, and the Company’s ability to nurture its distinctive and inclusive culture.
 
@@ -632,8 +606,6 @@ The Company’s business also requires it to share confidential information with
 
 Apple Inc. | 2024 Form 10-K | 11
 
----
-
 The Company experiences malicious attacks and other attempts to gain unauthorized access to its systems on a regular basis. These attacks seek to compromise the confidentiality, integrity or availability of confidential information or disrupt normal business operations, and can, among other things, impair the Company’s ability to attract and retain customers for its products and services, impact the Company’s stock price, materially damage commercial relationships, and expose the Company to litigation or government investigations, which can result in penalties, fines or judgments against the Company. Globally, attacks are expected to continue accelerating in both frequency and sophistication with increasing use by actors of tools and techniques that are designed to circumvent controls, avoid detection, and remove or obfuscate forensic evidence, all of which hinders the Company’s ability to identify, investigate and recover from incidents. In addition, attacks against the Company and its customers can escalate during periods of geopolitical tensions or conflict.
 
 Although malicious attacks perpetrated to gain access to confidential information, including personal information, affect many companies across various industries, the Company is at a relatively greater risk of being targeted because of its high profile and the value of the confidential information it creates, owns, manages, stores and processes.
@@ -651,8 +623,6 @@ The Company’s retail stores are subject to numerous risks and uncertainties.
 The Company’s retail operations are subject to many factors that pose risks and uncertainties and could adversely impact the Company’s business, results of operations and financial condition, including macroeconomic factors that could have an adverse effect on general retail activity. Other factors include the Company’s ability to: manage costs associated with retail store construction and operation; manage relationships with existing retail partners; manage costs associated with fluctuations in the value of retail inventory; and obtain and renew leases in quality retail locations at a reasonable cost.
 
 Apple Inc. | 2024 Form 10-K | 12
-
----
 
 Legal and Regulatory Compliance Risks
 
@@ -676,8 +646,6 @@ Compliance with these laws and regulations is onerous and expensive. New and cha
 
 Apple Inc. | 2024 Form 10-K | 13
 
----
-
 Regulatory changes and other actions that materially adversely affect the Company’s business may be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, the Company is subject to changing regulations relating to the export and import of its products. Although the Company has programs, policies and procedures in place that are designed to satisfy regulatory requirements, there can be no assurance that such policies and procedures will be effective in preventing a violation or a claim of a violation. As a result, the Company’s products could be banned, delayed or prohibited from importation, which could materially adversely affect the Company’s business, reputation, results of operations and financial condition.
 
 Expectations relating to environmental, social and governance considerations and related reporting obligations expose the Company to potential liabilities, increased costs, reputational harm, and other adverse effects on the Company’s business.
@@ -695,8 +663,6 @@ The Company is also currently subject to antitrust investigations and litigation
 Further, the Company has commercial relationships with other companies in the technology industry that are or may become subject to investigations and litigation that, if resolved against those other companies, could materially adversely affect the Company’s commercial relationships with those business partners and materially adversely affect the Company’s business, results of operations and financial condition. For example, the Company earns revenue from licensing arrangements with Google LLC and other companies to offer their search services on the Company’s platforms and applications, and certain of these arrangements are currently subject to government investigations and legal proceedings.
 
 Apple Inc. | 2024 Form 10-K | 14
-
----
 
 There can be no assurance the Company’s business will not be materially adversely affected, individually or in the aggregate, by the outcomes of such investigations, litigation or changes to laws and regulations in the future. Changes to the Company’s business practices to comply with new laws and regulations or in connection with other legal proceedings can negatively impact the reputation of the Company’s products for privacy and security and otherwise adversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, and lost sales.
 
@@ -719,8 +685,6 @@ The Company’s profit margins vary across its products, services, geographic se
 The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. Further, the Company generates a significant portion of its net sales from a single product and a decline in demand for that product could significantly impact quarterly net sales. The Company could also be subject to unexpected developments, such as lower-than-anticipated demand for the Company’s products or services, issues with new product or service introductions, information technology system failures or network disruptions, or failure of one of the Company’s logistics, supply or manufacturing partners.
 
 Apple Inc. | 2024 Form 10-K | 15
-
----
 
 The Company’s financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies.
 
@@ -746,8 +710,6 @@ The Company is subject to taxes in the U.S. and numerous foreign jurisdictions, 
 
 Apple Inc. | 2024 Form 10-K | 16
 
----
-
 The Company is also subject to the examination of its tax returns and other tax matters by the U.S. Internal Revenue Service and other tax authorities and governmental bodies. The Company regularly assesses the likelihood of an adverse outcome resulting from these examinations to determine the adequacy of its provision for taxes. There can be no assurance as to the outcome of these examinations. If the Company’s effective tax rates were to increase, or if the ultimate determination of the Company’s taxes owed is for an amount in excess of amounts previously accrued, the Company’s business, results of operations and financial condition could be materially adversely affected.
 
 General Risks
@@ -771,8 +733,6 @@ The Audit Committee assists the Board in the oversight and monitoring of cyberse
 For a discussion of the Company’s cybersecurity-related risks, see Item 1A of this Form 10-K under the heading “Risk Factors.”
 
 Apple Inc. | 2024 Form 10-K | 17
-
----
 
 Item 2.    Properties
 
@@ -801,8 +761,6 @@ Item 4.    Mine Safety Disclosures
 Not applicable.
 
 Apple Inc. | 2024 Form 10-K | 18
-
----
 
 PART II
 
@@ -883,8 +841,6 @@ $
 (1)As of September 28, 2024, the Company was authorized by the Board to purchase up to $110 billion of the Company’s common stock under a share repurchase program announced on May 2, 2024, of which $20.9 billion had been utilized. During the fourth quarter of 2024, the Company also utilized the final $4.1 billion under its previous repurchase program, which was authorized in May 2023. The programs do not obligate the Company to acquire a minimum amount of shares. Under the programs, shares may be repurchased in privately negotiated or open market transactions, including under plans complying with Rule 10b5-1 under the Exchange Act.
 
 Apple Inc. | 2024 Form 10-K | 19
-
----
 
 Company Stock Performance
 
@@ -984,8 +940,6 @@ Item 6.    \[Reserved\]
 
 Apple Inc. | 2024 Form 10-K | 20
 
----
-
 Item 7.    Management’s Discussion and Analysis of Financial Condition and Results of Operations
 
 The following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This Item generally discusses 2024 and 2023 items and year-to-year comparisons between 2024 and 2023. Discussions of 2022 items and year-to-year comparisons between 2023 and 2022 are not included, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended September 30, 2023.
@@ -1035,8 +989,6 @@ Macroeconomic Conditions
 Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s results of operations and financial condition.
 
 Apple Inc. | 2024 Form 10-K | 21
-
----
 
 Segment Operating Performance
 
@@ -1181,8 +1133,6 @@ Rest of Asia Pacific
 Rest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024.
 
 Apple Inc. | 2024 Form 10-K | 22
-
----
 
 Products and Services Performance
 
@@ -1329,8 +1279,6 @@ Services
 Services net sales increased during 2024 compared to 2023 due primarily to higher net sales from advertising, the App Store® and cloud services.
 
 Apple Inc. | 2024 Form 10-K | 23
-
----
 
 Gross Margin
 
@@ -1568,8 +1516,6 @@ Selling, general and administrative expense increased $1.2 billion during 2024 c
 
 Apple Inc. | 2024 Form 10-K | 24
 
----
-
 Provision for Income Taxes
 
 Provision for income taxes, effective tax rate and statutory federal income tax rate for 2024, 2023 and 2022 were as follows (dollars in millions):
@@ -1656,8 +1602,6 @@ As of September 28, 2024, the balance of the deemed repatriation tax payable im
 
 Apple Inc. | 2024 Form 10-K | 25
 
----
-
 State Aid Decision Tax Payable
 
 As of September 28, 2024, the Company had an obligation to pay €14.2 billion or $15.8 billion to Ireland in connection with the State Aid Decision, all of which was expected to be paid within 12 months. The funds necessary to settle the obligation were held in escrow as of September 28, 2024, and restricted from general use.
@@ -1691,8 +1635,6 @@ Legal and Other Contingencies
 The Company is subject to various legal proceedings and claims that arise in the ordinary course of business, the outcomes of which are inherently uncertain. The Company records a liability when it is probable that a loss has been incurred and the amount is reasonably estimable, the determination of which requires significant judgment. Resolution of legal matters in a manner inconsistent with management’s expectations could have a material impact on the Company’s financial condition and operating results.
 
 Apple Inc. | 2024 Form 10-K | 26
-
----
 
 Item 7A.    Quantitative and Qualitative Disclosures About Market Risk
 
@@ -1754,47 +1696,43 @@ The Company applied a value-at-risk (“VAR”) model to its foreign currency de
 
 Apple Inc. | 2024 Form 10-K | 27
 
----
-
 Item 8.    Financial Statements and Supplementary Data
 
 Index to Consolidated Financial Statements
 
 Page
 
-Consolidated Statements of Operations for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Operations for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_175)
 
-29
+[29](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_175)
 
-Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_178)
 
-30
+[30](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_178)
 
-Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023
+[Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_181)
 
-31
+[31](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_181)
 
-Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_184)
 
-32
+[32](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_184)
 
-Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_187)
 
-33
+[33](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_187)
 
-Notes to Consolidated Financial Statements
+[Notes to Consolidated Financial Statements](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_190)
 
-34
+[34](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_190)
 
-Reports of Independent Registered Public Accounting Firm
+[Reports of Independent Registered Public Accounting Firm](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_235)
 
-48
+[48](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_235)
 
 All financial statement schedules have been omitted, since the required information is not applicable or is not present in amounts sufficient to require submission of the schedule, or because the information required is included in the consolidated financial statements and accompanying notes.
 
 Apple Inc. | 2024 Form 10-K | 28
-
----
 
 Apple Inc.
 
@@ -2003,8 +1941,6 @@ See accompanying Notes to Consolidated Financial Statements.
 
 Apple Inc. | 2024 Form 10-K | 29
 
----
-
 Apple Inc.
 
 CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
@@ -2123,8 +2059,6 @@ $
 See accompanying Notes to Consolidated Financial Statements.
 
 Apple Inc. | 2024 Form 10-K | 30
-
----
 
 Apple Inc.
 
@@ -2336,8 +2270,6 @@ See accompanying Notes to Consolidated Financial Statements.
 
 Apple Inc. | 2024 Form 10-K | 31
 
----
-
 Apple Inc.
 
 CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
@@ -2518,8 +2450,6 @@ $
 See accompanying Notes to Consolidated Financial Statements.
 
 Apple Inc. | 2024 Form 10-K | 32
-
----
 
 Apple Inc.
 
@@ -2804,8 +2734,6 @@ See accompanying Notes to Consolidated Financial Statements.
 
 Apple Inc. | 2024 Form 10-K | 33
 
----
-
 Apple Inc.
 
 Notes to Consolidated Financial Statements
@@ -2855,8 +2783,6 @@ Leases
 The Company combines and accounts for lease and nonlease components as a single lease component for leases of corporate, data center and retail facilities.
 
 Apple Inc. | 2024 Form 10-K | 34
-
----
 
 Note 2 – Revenue
 
@@ -2945,8 +2871,6 @@ $
 Total net sales include $7.7 billion of revenue recognized in 2024 that was included in deferred revenue as of September 30, 2023, $8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September 24, 2022, and $7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September 25, 2021.
 
 Apple Inc. | 2024 Form 10-K | 35
-
----
 
 The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2024, 2023 and 2022, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales.
 
@@ -3324,8 +3248,6 @@ $
 
 Apple Inc. | 2024 Form 10-K | 36
 
----
-
 2023
 
 Adjusted 
@@ -3630,8 +3552,6 @@ To protect gross margins from fluctuations in foreign exchange rates, the Compan
 
 Apple Inc. | 2024 Form 10-K | 37
 
----
-
 To protect the Company’s foreign currency–denominated term debt or marketable securities from fluctuations in foreign exchange rates, the Company may use forwards, cross-currency swaps or other instruments. The Company designates these instruments as either cash flow or fair value hedges. As of September 28, 2024, the maximum length of time over which the Company is hedging its exposure to the variability in future cash flows for term debt–related foreign currency transactions is 18 years.
 
 The Company may also use derivative instruments that are not designated as accounting hedges to protect gross margins from certain fluctuations in foreign exchange rates, as well as to offset a portion of the foreign currency gains and losses generated by the remeasurement of certain assets and liabilities denominated in non-functional currencies.
@@ -3719,8 +3639,6 @@ Vendor Non-Trade Receivables
 The Company has non-trade receivables from certain of its manufacturing vendors resulting from the sale of components to these vendors who manufacture subassemblies or assemble final products for the Company. The Company purchases these components directly from suppliers. The Company does not reflect the sale of these components in products net sales. Rather, the Company recognizes any gain on these sales as a reduction of products cost of sales when the related final products are sold by the Company. As of September 28, 2024, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 44% and 23%. As of September 30, 2023, the Company had two vendors that individually represented 10% or more of total vendor non-trade receivables, which accounted for 48% and 23%.
 
 Apple Inc. | 2024 Form 10-K | 38
-
----
 
 Note 5 – Property, Plant and Equipment
 
@@ -3881,8 +3799,6 @@ On August 30, 2016, the Commission announced its decision that Ireland granted s
 From time to time, the Company requested approval from the Irish Minister for Finance to reduce the recovery amount for certain taxes paid to other countries. As of September 28, 2024, the adjusted recovery amount of €12.7 billion plus interest of €1.2 billion was held in escrow and restricted from general use. The total balance of the escrow, including net unrealized investment gains, was €14.2 billion or $15.8 billion as of September 28, 2024, of which $2.6 billion was classified as cash and cash equivalents and $13.2 billion was classified as current marketable securities in the Consolidated Balance Sheet. Refer to the Cash, Cash Equivalents and Marketable Securities section of Note 4, “Financial Instruments” for more information.
 
 Apple Inc. | 2024 Form 10-K | 39
-
----
 
 The Company and Ireland appealed the State Aid Decision to the General Court of the Court of Justice of the European Union (the “General Court”). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the Commission appealed the General Court’s decision to the European Court of Justice (the “ECJ”) and a hearing was held on May 23, 2023. On September 10, 2024, the ECJ announced that it had set aside the 2020 judgment of the General Court and confirmed the Commission’s 2016 State Aid Decision. As a result, during the fourth quarter of 2024 the Company recorded a one-time income tax charge of $10.2 billion, net, which represents $15.8 billion payable to Ireland via release of the escrow, partially offset by a U.S. foreign tax credit of $4.8 billion and a decrease in unrecognized tax benefits of $823 million.
 
@@ -4096,8 +4012,6 @@ Effective tax rate
 
 Apple Inc. | 2024 Form 10-K | 40
 
----
-
 Deferred Tax Assets and Liabilities
 
 As of September 28, 2024 and September 30, 2023, the significant components of the Company’s deferred tax assets and liabilities were (in millions):
@@ -4306,8 +4220,6 @@ The Company is subject to taxation and files income tax returns in the U.S. fede
 
 Apple Inc. | 2024 Form 10-K | 41
 
----
-
 Note 8 – Leases
 
 The Company has lease arrangements for certain equipment and facilities, including corporate, data center, manufacturing and retail space. These leases typically have original terms not exceeding 10 years and generally contain multiyear renewal options, some of which are reasonably certain of exercise.
@@ -4499,8 +4411,6 @@ The weighted-average remaining lease term related to the Company’s lease liabi
 As of September 28, 2024, the Company had $849 million of fixed payment obligations under additional leases, primarily for corporate facilities and retail space, that had not yet commenced. These leases will commence between 2025 and 2026, with lease terms ranging from less than 1 year to 21 years.
 
 Apple Inc. | 2024 Form 10-K | 42
-
----
 
 Note 9 – Debt
 
@@ -4694,8 +4604,6 @@ $
 
 Apple Inc. | 2024 Form 10-K | 43
 
----
-
 As of September 28, 2024 and September 30, 2023, the fair value of the Company’s Notes, based on Level 2 inputs, was $88.4 billion and $90.8 billion, respectively.
 
 Note 10 – Shareholders’ Equity
@@ -4757,8 +4665,6 @@ The Apple Inc. 2022 Employee Stock Plan (the “2022 Plan”) is a shareholder-a
 The Apple Inc. 2014 Employee Stock Plan, as amended and restated (the “2014 Plan”), is a shareholder-approved plan that provided for broad-based equity grants to employees, including executive officers. The 2014 Plan permitted the granting of the same types of equity awards with substantially the same terms as the 2022 Plan. The 2014 Plan also permitted the granting of cash bonus awards. In the third quarter of 2022, the Company terminated the authority to grant new awards under the 2014 Plan.
 
 Apple Inc. | 2024 Form 10-K | 44
-
----
 
 Restricted Stock Units
 
@@ -4972,8 +4878,6 @@ $
 
 Apple Inc. | 2024 Form 10-K | 45
 
----
-
 Contingencies
 
 The Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that have not been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not at least a reasonable possibility the Company may have incurred a material loss, or a material loss greater than a recorded accrual, concerning loss contingencies for asserted legal and other claims.
@@ -4993,8 +4897,6 @@ The Company manages its business primarily on a geographic basis. The Company’
 The Company evaluates the performance of its reportable segments based on net sales and operating income. Net sales for geographic segments are generally based on the location of customers and sales through the Company’s retail stores located in those geographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and operating expenses directly attributable to the segment. The information provided to the Company’s chief operating decision maker for purposes of making decisions and assessing segment performance excludes asset information.
 
 Apple Inc. | 2024 Form 10-K | 46
-
----
 
 The following table shows information by reportable segment for 2024, 2023 and 2022 (in millions):
 
@@ -5304,8 +5206,6 @@ $
 
 Apple Inc. | 2024 Form 10-K | 47
 
----
-
 Report of Independent Registered Public Accounting Firm
 
 To the Shareholders and the Board of Directors of Apple Inc.
@@ -5336,8 +5236,6 @@ Auditing management’s evaluation of whether an uncertain tax position is more 
 
 Apple Inc. | 2024 Form 10-K | 48
 
----
-
 How We Addressed the 
 Matter in Our Audit
 
@@ -5351,11 +5249,7 @@ We have served as the Company’s auditor since 2009.
 
 San Jose, California
 
-November 1, 2024
-
 Apple Inc. | 2024 Form 10-K | 49
-
----
 
 Report of Independent Registered Public Accounting Firm
 
@@ -5385,11 +5279,7 @@ Because of its inherent limitations, internal control over financial reporting m
 
 San Jose, California
 
-November 1, 2024
-
 Apple Inc. | 2024 Form 10-K | 50
-
----
 
 Item 9.    Changes in and Disagreements with Accountants on Accounting and Financial Disclosure
 
@@ -5422,8 +5312,6 @@ Changes in Internal Control over Financial Reporting
 There were no changes in the Company’s internal control over financial reporting during the fourth quarter of 2024, which were identified in connection with management’s evaluation required by paragraph (d) of Rules 13a-15 and 15d-15 under the Exchange Act, that have materially affected, or are reasonably likely to materially affect, the Company’s internal control over financial reporting.
 
 Apple Inc. | 2024 Form 10-K | 51
-
----
 
 Item 9B.    Other Information
 
@@ -5463,8 +5351,6 @@ The information required by this Item will be included in the 2025 Proxy Stateme
 
 Apple Inc. | 2024 Form 10-K | 52
 
----
-
 PART IV
 
 Item 15.    Exhibit and Financial Statement Schedules
@@ -5477,33 +5363,33 @@ Index to Consolidated Financial Statements
 
 Page
 
-Consolidated Statements of Operations for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Operations for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_175)
 
-29
+[29](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_175)
 
-Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Comprehensive Income for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_178)
 
-30
+[30](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_178)
 
-Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023
+[Consolidated Balance Sheets as of September 28, 2024 and September 30, 2023](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_181)
 
-31
+[31](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_181)
 
-Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Shareholders’ Equity for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_184)
 
-32
+[32](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_184)
 
-Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022
+[Consolidated Statements of Cash Flows for the years ended September 28, 2024, September 30, 2023 and September 24, 2022](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_187)
 
-33
+[33](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_187)
 
-Notes to Consolidated Financial Statements
+[Notes to Consolidated Financial Statements](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_190)
 
-34
+[34](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_190)
 
-Reports of Independent Registered Public Accounting Firm\*
+[Reports of Independent Registered Public Accounting Firm\*](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_235)
 
-48
+[48](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_235)
 
 \*Ernst & Young LLP, PCAOB Firm ID No. 00042.
 
@@ -5528,7 +5414,7 @@ Period End Date
 
 3.1
 
-Restated Articles of Incorporation of the Registrant filed on August 3, 2020.
+[Restated Articles of Incorporation of the Registrant filed on August 3, 2020.](https://www.sec.gov/Archives/edgar/data/320193/000119312520213158/d49399dex31.htm)
 
 8-K
 
@@ -5538,7 +5424,7 @@ Restated Articles of Incorporation of the Registrant filed on August 3, 2020.
 
 3.2
 
-Amended and Restated Bylaws of the Registrant effective as of August 20, 2024.
+[Amended and Restated Bylaws of the Registrant effective as of August 20, 2024.](https://www.sec.gov/Archives/edgar/data/320193/000114036124038403/ny20033611x2_ex3-2.htm)
 
 8-K
 
@@ -5548,11 +5434,11 @@ Amended and Restated Bylaws of the Registrant effective as of August 20, 2024.
 
 4.1\*\*
 
-Description of Securities of the Registrant.
+[Description of Securities of the Registrant.](a10-kexhibit4109282024.htm)
 
 4.2
 
-Indenture, dated as of April 29, 2013, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.
+[Indenture, dated as of April 29, 2013, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.](https://www.sec.gov/Archives/edgar/data/320193/000119312513179942/d527270dex41.htm)
 
 S-3
 
@@ -5562,7 +5448,7 @@ S-3
 
 4.3
 
-Officer’s Certificate of the Registrant, dated as of May 3, 2013, including forms of global notes representing the Floating Rate Notes due 2016, Floating Rate Notes due 2018, 0.45% Notes due 2016, 1.00% Notes due 2018, 2.40% Notes due 2023 and 3.85% Notes due 2043.
+[Officer’s Certificate of the Registrant, dated as of May 3, 2013, including forms of global notes representing the Floating Rate Notes due 2016, Floating Rate Notes due 2018, 0.45% Notes due 2016, 1.00% Notes due 2018, 2.40% Notes due 2023 and 3.85% Notes due 2043.](https://www.sec.gov/Archives/edgar/data/320193/000119312513199324/d529124dex41.htm)
 
 8-K
 
@@ -5572,7 +5458,7 @@ Officer’s Certificate of the Registrant, dated as of May 3, 2013, including fo
 
 4.4
 
-Officer’s Certificate of the Registrant, dated as of May 6, 2014, including forms of global notes representing the Floating Rate Notes due 2017, Floating Rate Notes due 2019, 1.05% Notes due 2017, 2.10% Notes due 2019, 2.85% Notes due 2021, 3.45% Notes due 2024 and 4.45% Notes due 2044.
+[Officer’s Certificate of the Registrant, dated as of May 6, 2014, including forms of global notes representing the Floating Rate Notes due 2017, Floating Rate Notes due 2019, 1.05% Notes due 2017, 2.10% Notes due 2019, 2.85% Notes due 2021, 3.45% Notes due 2024 and 4.45% Notes due 2044.](https://www.sec.gov/Archives/edgar/data/320193/000119312514184969/d721207dex41.htm)
 
 8-K
 
@@ -5582,7 +5468,7 @@ Officer’s Certificate of the Registrant, dated as of May 6, 2014, including fo
 
 4.5
 
-Officer’s Certificate of the Registrant, dated as of November 10, 2014, including forms of global notes representing the 1.000% Notes due 2022 and 1.625% Notes due 2026.
+[Officer’s Certificate of the Registrant, dated as of November 10, 2014, including forms of global notes representing the 1.000% Notes due 2022 and 1.625% Notes due 2026.](https://www.sec.gov/Archives/edgar/data/320193/000119312514406296/d816414dex41.htm)
 
 8-K
 
@@ -5592,7 +5478,7 @@ Officer’s Certificate of the Registrant, dated as of November 10, 2014, includ
 
 4.6
 
-Officer’s Certificate of the Registrant, dated as of February 9, 2015, including forms of global notes representing the Floating Rate Notes due 2020, 1.55% Notes due 2020, 2.15% Notes due 2022, 2.50% Notes due 2025 and 3.45% Notes due 2045.
+[Officer’s Certificate of the Registrant, dated as of February 9, 2015, including forms of global notes representing the Floating Rate Notes due 2020, 1.55% Notes due 2020, 2.15% Notes due 2022, 2.50% Notes due 2025 and 3.45% Notes due 2045.](https://www.sec.gov/Archives/edgar/data/320193/000119312515039270/d868302dex41.htm)
 
 8-K
 
@@ -5602,7 +5488,7 @@ Officer’s Certificate of the Registrant, dated as of February 9, 2015, includi
 
 4.7
 
-Officer’s Certificate of the Registrant, dated as of May 13, 2015, including forms of global notes representing the Floating Rate Notes due 2017, Floating Rate Notes due 2020, 0.900% Notes due 2017, 2.000% Notes due 2020, 2.700% Notes due 2022, 3.200% Notes due 2025, and 4.375% Notes due 2045.
+[Officer’s Certificate of the Registrant, dated as of May 13, 2015, including forms of global notes representing the Floating Rate Notes due 2017, Floating Rate Notes due 2020, 0.900% Notes due 2017, 2.000% Notes due 2020, 2.700% Notes due 2022, 3.200% Notes due 2025, and 4.375% Notes due 2045.](https://www.sec.gov/Archives/edgar/data/320193/000119312515186064/d923398dex41.htm)
 
 8-K
 
@@ -5612,7 +5498,7 @@ Officer’s Certificate of the Registrant, dated as of May 13, 2015, including f
 
 4.8
 
-Officer’s Certificate of the Registrant, dated as of July 31, 2015, including forms of global notes representing the 3.05% Notes due 2029 and 3.60% Notes due 2042.
+[Officer’s Certificate of the Registrant, dated as of July 31, 2015, including forms of global notes representing the 3.05% Notes due 2029 and 3.60% Notes due 2042.](https://www.sec.gov/Archives/edgar/data/320193/000119312515273023/d12789dex41.htm)
 
 8-K
 
@@ -5622,7 +5508,7 @@ Officer’s Certificate of the Registrant, dated as of July 31, 2015, including 
 
 4.9
 
-Officer’s Certificate of the Registrant, dated as of September 17, 2015, including forms of global notes representing the 1.375% Notes due 2024 and 2.000% Notes due 2027.
+[Officer’s Certificate of the Registrant, dated as of September 17, 2015, including forms of global notes representing the 1.375% Notes due 2024 and 2.000% Notes due 2027.](https://www.sec.gov/Archives/edgar/data/320193/000119312515322466/d31615dex41.htm)
 
 8-K
 
@@ -5631,8 +5517,6 @@ Officer’s Certificate of the Registrant, dated as of September 17, 2015, inclu
 9/17/15
 
 Apple Inc. | 2024 Form 10-K | 53
-
----
 
 Incorporated by Reference
 
@@ -5649,7 +5533,7 @@ Period End Date
 
 4.10
 
-Officer’s Certificate of the Registrant, dated as of February 23, 2016, including forms of global notes representing the Floating Rate Notes due 2019, Floating Rate Notes due 2021, 1.300% Notes due 2018, 1.700% Notes due 2019, 2.250% Notes due 2021, 2.850% Notes due 2023, 3.250% Notes due 2026, 4.500% Notes due 2036 and 4.650% Notes due 2046.
+[Officer’s Certificate of the Registrant, dated as of February 23, 2016, including forms of global notes representing the Floating Rate Notes due 2019, Floating Rate Notes due 2021, 1.300% Notes due 2018, 1.700% Notes due 2019, 2.250% Notes due 2021, 2.850% Notes due 2023, 3.250% Notes due 2026, 4.500% Notes due 2036 and 4.650% Notes due 2046.](https://www.sec.gov/Archives/edgar/data/320193/000119312516473562/d143184dex41.htm)
 
 8-K
 
@@ -5659,7 +5543,7 @@ Officer’s Certificate of the Registrant, dated as of February 23, 2016, includ
 
 4.11
 
-Supplement No. 1 to the Officer’s Certificate of the Registrant, dated as of March 24, 2016.
+[Supplement No. 1 to the Officer’s Certificate of the Registrant, dated as of March 24, 2016.](https://www.sec.gov/Archives/edgar/data/320193/000119312516516891/d161597dex41.htm)
 
 8-K
 
@@ -5669,7 +5553,7 @@ Supplement No. 1 to the Officer’s Certificate of the Registrant, dated as of M
 
 4.12
 
-Officer’s Certificate of the Registrant, dated as of August 4, 2016, including forms of global notes representing the Floating Rate Notes due 2019, 1.100% Notes due 2019, 1.550% Notes due 2021, 2.450% Notes due 2026 and 3.850% Notes due 2046.
+[Officer’s Certificate of the Registrant, dated as of August 4, 2016, including forms of global notes representing the Floating Rate Notes due 2019, 1.100% Notes due 2019, 1.550% Notes due 2021, 2.450% Notes due 2026 and 3.850% Notes due 2046.](https://www.sec.gov/Archives/edgar/data/320193/000119312516672044/d234980dex41.htm)
 
 8-K
 
@@ -5679,7 +5563,7 @@ Officer’s Certificate of the Registrant, dated as of August 4, 2016, including
 
 4.13
 
-Officer’s Certificate of the Registrant, dated as of February 9, 2017, including forms of global notes representing the Floating Rate Notes due 2019, Floating Rate Notes due 2020, Floating Rate Notes due 2022, 1.550% Notes due 2019, 1.900% Notes due 2020, 2.500% Notes due 2022, 3.000% Notes due 2024, 3.350% Notes due 2027 and 4.250% Notes due 2047.
+[Officer’s Certificate of the Registrant, dated as of February 9, 2017, including forms of global notes representing the Floating Rate Notes due 2019, Floating Rate Notes due 2020, Floating Rate Notes due 2022, 1.550% Notes due 2019, 1.900% Notes due 2020, 2.500% Notes due 2022, 3.000% Notes due 2024, 3.350% Notes due 2027 and 4.250% Notes due 2047.](https://www.sec.gov/Archives/edgar/data/320193/000119312517036283/d340350dex41.htm)
 
 8-K
 
@@ -5689,7 +5573,7 @@ Officer’s Certificate of the Registrant, dated as of February 9, 2017, includi
 
 4.14
 
-Officer’s Certificate of the Registrant, dated as of May 11, 2017, including forms of global notes representing the Floating Rate Notes due 2020, Floating Rate Notes due 2022, 1.800% Notes due 2020, 2.300% Notes due 2022, 2.850% Notes due 2024 and 3.200% Notes due 2027.
+[Officer’s Certificate of the Registrant, dated as of May 11, 2017, including forms of global notes representing the Floating Rate Notes due 2020, Floating Rate Notes due 2022, 1.800% Notes due 2020, 2.300% Notes due 2022, 2.850% Notes due 2024 and 3.200% Notes due 2027.](https://www.sec.gov/Archives/edgar/data/320193/000119312517167400/d388721dex41.htm)
 
 8-K
 
@@ -5699,7 +5583,7 @@ Officer’s Certificate of the Registrant, dated as of May 11, 2017, including f
 
 4.15
 
-Officer’s Certificate of the Registrant, dated as of May 24, 2017, including forms of global notes representing the 0.875% Notes due 2025 and 1.375% Notes due 2029.
+[Officer’s Certificate of the Registrant, dated as of May 24, 2017, including forms of global notes representing the 0.875% Notes due 2025 and 1.375% Notes due 2029.](https://www.sec.gov/Archives/edgar/data/320193/000119312517181867/d583637dex41.htm)
 
 8-K
 
@@ -5709,7 +5593,7 @@ Officer’s Certificate of the Registrant, dated as of May 24, 2017, including f
 
 4.16
 
-Officer’s Certificate of the Registrant, dated as of June 20, 2017, including form of global note representing the 3.000% Notes due 2027.
+[Officer’s Certificate of the Registrant, dated as of June 20, 2017, including form of global note representing the 3.000% Notes due 2027.](https://www.sec.gov/Archives/edgar/data/320193/000119312517208226/d413980dex41.htm)
 
 8-K
 
@@ -5719,7 +5603,7 @@ Officer’s Certificate of the Registrant, dated as of June 20, 2017, including 
 
 4.17
 
-Officer’s Certificate of the Registrant, dated as of September 12, 2017, including forms of global notes representing the 1.500% Notes due 2019, 2.100% Notes due 2022, 2.900% Notes due 2027 and 3.750% Notes due 2047.
+[Officer’s Certificate of the Registrant, dated as of September 12, 2017, including forms of global notes representing the 1.500% Notes due 2019, 2.100% Notes due 2022, 2.900% Notes due 2027 and 3.750% Notes due 2047.](https://www.sec.gov/Archives/edgar/data/320193/000119312517282809/d434478dex41.htm)
 
 8-K
 
@@ -5729,7 +5613,7 @@ Officer’s Certificate of the Registrant, dated as of September 12, 2017, inclu
 
 4.18
 
-Officer’s Certificate of the Registrant, dated as of November 13, 2017, including forms of global notes representing the 1.800% Notes due 2019, 2.000% Notes due 2020, 2.400% Notes due 2023, 2.750% Notes due 2025, 3.000% Notes due 2027 and 3.750% Notes due 2047.
+[Officer’s Certificate of the Registrant, dated as of November 13, 2017, including forms of global notes representing the 1.800% Notes due 2019, 2.000% Notes due 2020, 2.400% Notes due 2023, 2.750% Notes due 2025, 3.000% Notes due 2027 and 3.750% Notes due 2047.](https://www.sec.gov/Archives/edgar/data/320193/000119312517341015/d478060dex41.htm)
 
 8-K
 
@@ -5739,7 +5623,7 @@ Officer’s Certificate of the Registrant, dated as of November 13, 2017, includ
 
 4.19
 
-Indenture, dated as of November 5, 2018, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.
+[Indenture, dated as of November 5, 2018, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.](https://www.sec.gov/Archives/edgar/data/320193/000119312518317844/d644900dex41.htm)
 
 S-3
 
@@ -5749,7 +5633,7 @@ S-3
 
 4.20
 
-Officer’s Certificate of the Registrant, dated as of September 11, 2019, including forms of global notes representing the 1.700% Notes due 2022, 1.800% Notes due 2024, 2.050% Notes due 2026, 2.200% Notes due 2029 and 2.950% Notes due 2049.
+[Officer’s Certificate of the Registrant, dated as of September 11, 2019, including forms of global notes representing the 1.700% Notes due 2022, 1.800% Notes due 2024, 2.050% Notes due 2026, 2.200% Notes due 2029 and 2.950% Notes due 2049.](https://www.sec.gov/Archives/edgar/data/320193/000119312519242975/d777124dex41.htm)
 
 8-K
 
@@ -5759,7 +5643,7 @@ Officer’s Certificate of the Registrant, dated as of September 11, 2019, inclu
 
 4.21
 
-Officer’s Certificate of the Registrant, dated as of November 15, 2019, including forms of global notes representing the 0.000% Notes due 2025 and 0.500% Notes due 2031.
+[Officer’s Certificate of the Registrant, dated as of November 15, 2019, including forms of global notes representing the 0.000% Notes due 2025 and 0.500% Notes due 2031.](https://www.sec.gov/Archives/edgar/data/320193/000119312519292676/d828969dex41.htm)
 
 8-K
 
@@ -5769,7 +5653,7 @@ Officer’s Certificate of the Registrant, dated as of November 15, 2019, includ
 
 4.22
 
-Officer’s Certificate of the Registrant, dated as of May 11, 2020, including forms of global notes representing the 0.750% Notes due 2023, 1.125% Notes due 2025, 1.650% Notes due 2030 and 2.650% Notes due 2050.
+[Officer’s Certificate of the Registrant, dated as of May 11, 2020, including forms of global notes representing the 0.750% Notes due 2023, 1.125% Notes due 2025, 1.650% Notes due 2030 and 2.650% Notes due 2050.](https://www.sec.gov/Archives/edgar/data/320193/000119312520139112/d926511dex41.htm)
 
 8-K
 
@@ -5779,7 +5663,7 @@ Officer’s Certificate of the Registrant, dated as of May 11, 2020, including f
 
 4.23
 
-Officer’s Certificate of the Registrant, dated as of August 20, 2020, including forms of global notes representing the 0.550% Notes due 2025, 1.25% Notes due 2030, 2.400% Notes due 2050 and 2.550% Notes due 2060.
+[Officer’s Certificate of the Registrant, dated as of August 20, 2020, including forms of global notes representing the 0.550% Notes due 2025, 1.25% Notes due 2030, 2.400% Notes due 2050 and 2.550% Notes due 2060.](https://www.sec.gov/Archives/edgar/data/320193/000119312520225672/d937363dex41.htm)
 
 8-K
 
@@ -5789,7 +5673,7 @@ Officer’s Certificate of the Registrant, dated as of August 20, 2020, includin
 
 4.24
 
-Officer’s Certificate of the Registrant, dated as of February 8, 2021, including forms of global notes representing the 0.700% Notes due 2026, 1.200% Notes due 2028, 1.650% Notes due 2031, 2.375% Notes due 2041, 2.650% Notes due 2051 and 2.800% Notes due 2061.
+[Officer’s Certificate of the Registrant, dated as of February 8, 2021, including forms of global notes representing the 0.700% Notes due 2026, 1.200% Notes due 2028, 1.650% Notes due 2031, 2.375% Notes due 2041, 2.650% Notes due 2051 and 2.800% Notes due 2061.](https://www.sec.gov/Archives/edgar/data/320193/000119312521032394/d70217dex41.htm)
 
 8-K
 
@@ -5799,7 +5683,7 @@ Officer’s Certificate of the Registrant, dated as of February 8, 2021, includ
 
 4.25
 
-Officer’s Certificate of the Registrant, dated as of August 5, 2021, including forms of global notes representing the 1.400% Notes due 2028, 1.700% Notes due 2031, 2.700% Notes due 2051 and 2.850% Notes due 2061.
+[Officer’s Certificate of the Registrant, dated as of August 5, 2021, including forms of global notes representing the 1.400% Notes due 2028, 1.700% Notes due 2031, 2.700% Notes due 2051 and 2.850% Notes due 2061.](https://www.sec.gov/Archives/edgar/data/320193/000119312521237787/d199884dex41.htm)
 
 8-K
 
@@ -5809,7 +5693,7 @@ Officer’s Certificate of the Registrant, dated as of August 5, 2021, including
 
 4.26
 
-Indenture, dated as of October 28, 2021, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.
+[Indenture, dated as of October 28, 2021, between the Registrant and The Bank of New York Mellon Trust Company, N.A., as Trustee.](https://www.sec.gov/Archives/edgar/data/0000320193/000119312521312274/d192862ds3asr.htm)
 
 S-3
 
@@ -5819,7 +5703,7 @@ S-3
 
 4.27
 
-Officer’s Certificate of the Registrant, dated as of August 8, 2022, including forms of global notes representing the 3.250% Notes due 2029, 3.350% Notes due 2032, 3.950% Notes due 2052 and 4.100% Notes due 2062.
+[Officer’s Certificate of the Registrant, dated as of August 8, 2022, including forms of global notes representing the 3.250% Notes due 2029, 3.350% Notes due 2032, 3.950% Notes due 2052 and 4.100% Notes due 2062.](https://www.sec.gov/Archives/edgar/data/0000320193/000119312522214914/d297151dex41.htm)
 
 8-K
 
@@ -5828,8 +5712,6 @@ Officer’s Certificate of the Registrant, dated as of August 8, 2022, including
 8/8/22
 
 Apple Inc. | 2024 Form 10-K | 54
-
----
 
 Incorporated by Reference
 
@@ -5846,7 +5728,7 @@ Period End Date
 
 4.28
 
-Officer’s Certificate of the Registrant, dated as of May 10, 2023, including forms of global notes representing the 4.421% Notes due 2026, 4.000% Notes due 2028, 4.150% Notes due 2030, 4.300% Notes due 2033 and 4.850% Notes due 2053.
+[Officer’s Certificate of the Registrant, dated as of May 10, 2023, including forms of global notes representing the 4.421% Notes due 2026, 4.000% Notes due 2028, 4.150% Notes due 2030, 4.300% Notes due 2033 and 4.850% Notes due 2053.](https://www.sec.gov/Archives/edgar/data/320193/000114036123023909/ny20007635x4_ex4-1.htm)
 
 8-K
 
@@ -5856,7 +5738,7 @@ Officer’s Certificate of the Registrant, dated as of May 10, 2023, including f
 
 4.29\*
 
-Apple Inc. Deferred Compensation Plan.
+[Apple Inc. Deferred Compensation Plan.](https://www.sec.gov/Archives/edgar/data/320193/000119312518256354/d609898dex41.htm)
 
 S-8
 
@@ -5866,7 +5748,7 @@ S-8
 
 10.1\*
 
-Apple Inc. Employee Stock Purchase Plan, as amended and restated as of March 10, 2015.
+[Apple Inc. Employee Stock Purchase Plan, as amended and restated as of March 10, 2015.](https://www.sec.gov/Archives/edgar/data/320193/000110465915019336/a15-5624_1ex10d1.htm)
 
 8-K
 
@@ -5876,7 +5758,7 @@ Apple Inc. Employee Stock Purchase Plan, as amended and restated as of March 10,
 
 10.2\*
 
-Form of Indemnification Agreement between the Registrant and each director and executive officer of the Registrant.
+[Form of Indemnification Agreement between the Registrant and each director and executive officer of the Registrant.](https://www.sec.gov/Archives/edgar/data/320193/000119312509153165/dex102.htm)
 
 10-Q
 
@@ -5886,7 +5768,7 @@ Form of Indemnification Agreement between the Registrant and each director and e
 
 10.3\*
 
-Apple Inc. Non-Employee Director Stock Plan, as amended November 9, 2021.
+[Apple Inc. Non-Employee Director Stock Plan, as amended November 9, 2021.](https://www.sec.gov/Archives/edgar/data/320193/000032019322000007/a10-qexhibit10112252021.htm)
 
 10-Q
 
@@ -5896,7 +5778,7 @@ Apple Inc. Non-Employee Director Stock Plan, as amended November 9, 2021.
 
 10.4\*
 
-Apple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, 2017.
+[Apple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, 2017.](https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-kexhibit1082017.htm)
 
 10-K
 
@@ -5906,7 +5788,7 @@ Apple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, 20
 
 10.5\*
 
-Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 26, 2017.
+[Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 26, 2017.](https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-kexhibit10202017.htm)
 
 10-K
 
@@ -5916,7 +5798,7 @@ Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff
 
 10.6\*
 
-Form of Restricted Stock Unit Award Agreement under Non-Employee Director Stock Plan effective as of February 13, 2018.
+[Form of Restricted Stock Unit Award Agreement under Non-Employee Director Stock Plan effective as of February 13, 2018.](https://www.sec.gov/Archives/edgar/data/320193/000032019318000070/a10-qexhibit1023312018.htm)
 
 10-Q
 
@@ -5926,7 +5808,7 @@ Form of Restricted Stock Unit Award Agreement under Non-Employee Director Stock 
 
 10.7\*
 
-Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of August 21, 2018.
+[Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of August 21, 2018.](https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-kexhibit10172018.htm)
 
 10-K
 
@@ -5936,7 +5818,7 @@ Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff
 
 10.8\*
 
-Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 29, 2019.
+[Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 29, 2019.](https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-kexhibit10152019.htm)
 
 10-K
 
@@ -5946,7 +5828,7 @@ Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff
 
 10.9\*
 
-Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020.
+[Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020.](https://www.sec.gov/Archives/edgar/data/0000320193/000032019320000096/a10-kexhibit10169262020.htm)
 
 10-K
 
@@ -5956,7 +5838,7 @@ Form of Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan eff
 
 10.10\*
 
-Form of Performance Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020.
+[Form of Performance Award Agreement under 2014 Employee Stock Plan effective as of August 18, 2020.](https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/a10-kexhibit10179262020.htm)
 
 10-K
 
@@ -5966,7 +5848,7 @@ Form of Performance Award Agreement under 2014 Employee Stock Plan effective as 
 
 10.11\*
 
-Form of CEO Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 27, 2020.
+[Form of CEO Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan effective as of September 27, 2020.](https://www.sec.gov/Archives/edgar/data/320193/000032019321000010/a10-qexhibit10112262020.htm)
 
 10-Q
 
@@ -5976,7 +5858,7 @@ Form of CEO Restricted Stock Unit Award Agreement under 2014 Employee Stock Plan
 
 10.12\*
 
-Form of CEO Performance Award Agreement under 2014 Employee Stock Plan effective as of September 27, 2020.
+[Form of CEO Performance Award Agreement under 2014 Employee Stock Plan effective as of September 27, 2020.](https://www.sec.gov/Archives/edgar/data/320193/000032019321000010/a10-qexhibit10212262020.htm)
 
 10-Q
 
@@ -5986,7 +5868,7 @@ Form of CEO Performance Award Agreement under 2014 Employee Stock Plan effective
 
 10.13\*
 
-Apple Inc. 2022 Employee Stock Plan.
+[Apple Inc. 2022 Employee Stock Plan.](https://www.sec.gov/Archives/edgar/data/320193/000119312522066169/d294699dex101.htm)
 
 8-K
 
@@ -5996,7 +5878,7 @@ Apple Inc. 2022 Employee Stock Plan.
 
 10.14\*
 
-Form of Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of March 4, 2022.
+[Form of Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of March 4, 2022.](https://www.sec.gov/Archives/edgar/data/0000320193/000119312522066169/d294699dex102.htm)
 
 8-K
 
@@ -6006,7 +5888,7 @@ Form of Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan eff
 
 10.15\*
 
-Form of Performance Award Agreement under 2022 Employee Stock Plan effective as of March 4, 2022.
+[Form of Performance Award Agreement under 2022 Employee Stock Plan effective as of March 4, 2022.](https://www.sec.gov/Archives/edgar/data/0000320193/000119312522066169/d294699dex103.htm)
 
 8-K
 
@@ -6016,7 +5898,7 @@ Form of Performance Award Agreement under 2022 Employee Stock Plan effective as 
 
 10.16\*
 
-Apple Inc. Executive Cash Incentive Plan.
+[Apple Inc. Executive Cash Incentive Plan.](https://www.sec.gov/Archives/edgar/data/0000320193/000119312522225365/d366128dex101.htm)
 
 8-K
 
@@ -6026,7 +5908,7 @@ Apple Inc. Executive Cash Incentive Plan.
 
 10.17\*
 
-Form of CEO Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 25, 2022.
+[Form of CEO Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 25, 2022.](https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/a10-qexhibit10112312022.htm)
 
 10-Q
 
@@ -6036,7 +5918,7 @@ Form of CEO Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan
 
 10.18\*
 
-Form of CEO Performance Award Agreement under 2022 Employee Stock Plan effective as of September 25, 2022.
+[Form of CEO Performance Award Agreement under 2022 Employee Stock Plan effective as of September 25, 2022.](https://www.sec.gov/Archives/edgar/data/320193/000032019323000006/a10-qexhibit10212312022.htm)
 
 10-Q
 
@@ -6046,55 +5928,53 @@ Form of CEO Performance Award Agreement under 2022 Employee Stock Plan effective
 
 10.19\*, \*\*
 
-Form of Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.
+[Form of Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.](a10-kexhibit10199282024.htm)
 
 10.20\*, \*\*
 
-Form of Performance Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.
+[Form of Performance Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.](a10-kexhibit10209282024.htm)
 
 10.21\*, \*\*
 
-Form of CEO Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.
+[Form of CEO Restricted Stock Unit Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.](a10-kexhibit10219282024.htm)
 
 10.22\*, \*\*
 
-Form of CEO Performance Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.
+[Form of CEO Performance Award Agreement under 2022 Employee Stock Plan effective as of September 29, 2024.](a10-kexhibit10229282024.htm)
 
 19.1\*\*
 
-Insider Trading Policy
+[I](a10-kexhibit1919282024.htm)[nsider Trading](a10-kexhibit1919282024.htm) [Policy](a10-kexhibit1919282024.htm)
 
 21.1\*\*
 
-Subsidiaries of the Registrant.
+[Subsidiaries of the Registrant.](a10-kexhibit21109282024.htm)
 
 23.1\*\*
 
-Consent of Independent Registered Public Accounting Firm.
+[Consent of Independent Registered Public Accounting Firm.](a10-kexhibit23109282024.htm)
 
 24.1\*\*
 
-Power of Attorney (included on the Signatures page of this Annual Report on Form 10-K).
+[Power of Attorney (included on the Signatures page of this Annual Report on Form 10-K).](#i7bfbfbe54b9647b1b4ba4ff4e0aba09d_286)
 
 31.1\*\*
 
-Rule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.
+[Rule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.](a10-kexhibit31109282024.htm)
 
 31.2\*\*
 
-Rule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer.
+[Rule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer.](a10-kexhibit31209282024.htm)
 
 32.1\*\*\*
 
-Section 1350 Certifications of Chief Executive Officer and Chief Financial Officer.
+[Section 1350 Certifications of Chief Executive Officer and Chief Financial Officer.](a10-kexhibit32109282024.htm)
 
 97.1\*, \*\*
 
-Rule 10D-1 Recovery Policy
+[Rule 10D-1 Reco](a10-kexhibit97109282024.htm)[very Pol](a10-kexhibit97109282024.htm)[icy](a10-kexhibit97109282024.htm)
 
 Apple Inc. | 2024 Form 10-K | 55
-
----
 
 Incorporated by Reference
 
@@ -6131,8 +6011,6 @@ None.
 
 Apple Inc. | 2024 Form 10-K | 56
 
----
-
 SIGNATURES
 
 Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the Registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
@@ -6167,16 +6045,12 @@ Date
 Chief Executive Officer and Director 
 (Principal Executive Officer)
 
-November 1, 2024
-
 TIMOTHY D. COOK
 
 /s/ Luca Maestri
 
 Senior Vice President, Chief Financial Officer 
 (Principal Financial Officer)
-
-November 1, 2024
 
 LUCA MAESTRI
 
@@ -6185,15 +6059,11 @@ LUCA MAESTRI
 Senior Director of Corporate Accounting 
 (Principal Accounting Officer)
 
-November 1, 2024
-
 CHRIS KONDO
 
 /s/ Wanda Austin
 
 Director
-
-November 1, 2024
 
 WANDA AUSTIN
 
@@ -6201,15 +6071,11 @@ WANDA AUSTIN
 
 Director
 
-November 1, 2024
-
 ALEX GORSKY
 
 /s/ Andrea Jung
 
 Director
-
-November 1, 2024
 
 ANDREA JUNG
 
@@ -6217,15 +6083,11 @@ ANDREA JUNG
 
 Director and Chair of the Board
 
-November 1, 2024
-
 ARTHUR D. LEVINSON
 
 /s/ Monica Lozano
 
 Director
-
-November 1, 2024
 
 MONICA LOZANO
 
@@ -6233,15 +6095,11 @@ MONICA LOZANO
 
 Director
 
-November 1, 2024
-
 RONALD D. SUGAR
 
 /s/ Susan L. Wagner
 
 Director
-
-November 1, 2024
 
 SUSAN L. WAGNER
 

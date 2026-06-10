@@ -7,14 +7,14 @@ First things first: Bear isn't going anywhere. No sudden shutdowns, no surprise 
 ## The promises
 
 1. Bear won't shut down. Period. I've seen too many great platforms disappear overnight, leaving their communities scrambling. This is made worse when the platform is your personal garden and online neighbourhood. That won't happen here. Bear is built to last.
- 
+    
 2. Bear won't sell. I'm not building this to flip it to the highest bidder. No VC funding, no external pressures, no "exit strategy." Bear is independent and will stay that way.
- 
+    
 3. Bear won't show ads. Your blog is your space. No flashy banners will suddenly appear one day, and no sponsored content. Just your words, your way.
 
 ## Built to last
 
-Bear isn't just a weekend project—it's built with longevity in mind. The codebase is intentionally simple and maintainable. The infrastructure is robust and redundant. Everything is backed up religiously (and then backed up again, just to be sure).
+Bear isn't just a weekend project—it's [built with longevity in mind](https://herman.bearblog.dev/building-software-to-last-forever). The codebase is intentionally simple and maintainable. The infrastructure is robust and redundant. Everything is backed up religiously (and then backed up again, just to be sure).
 
 I'm not just thinking about next week or next month. I'm thinking about Bear being around in 10, 20, 50 years. That means making smart technical choices now that won't paint Bear into a corner later.
 

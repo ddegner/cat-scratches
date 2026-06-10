@@ -8,15 +8,15 @@ Issued on: 07/05/2026 - 03:33Modified: 07/05/2026 - 13:24
 
 By:
 
-FRANCE 24
+[FRANCE 24](/en/author/france-24/ "FRANCE 24")
 
-Millions of Britons vote Thursday in local elections set to heap more pressure on beleaguered Labour Prime Minister Keir Starmer and showcase the rise of hard-right and left-wing populists.
+Millions of Britons vote Thursday in [local elections](https://www.france24.com/en/tv-shows/the-debate/20260506-starmer-s-last-stand-the-uk-local-elections) set to heap more pressure on beleaguered Labour Prime Minister [Keir Starmer](https://www.france24.com/en/tag/keir-starmer/) and showcase the rise of hard-right and left-wing populists.
 
-Voters across Scotland, England and Wales head to the ballot box in Starmer's biggest electoral test since his July 2024 general election landslide victory ended 14 years of Conservative rule.
+Voters across [Scotland](https://www.france24.com/en/tag/scotland/), [England](https://www.france24.com/en/tag/england/) and [Wales](https://www.france24.com/en/tag/wales/) head to the ballot box in Starmer's biggest electoral test since his July 2024 general election landslide victory ended 14 years of Conservative rule.
 
 Opinion polls predict grim results for Labour, which could amplify calls for Starmer, 63, to resign or finally face a long-rumoured party leadership challenge.
 
-Nigel Farage's anti-immigrant Reform UK and the left-wing Greens, led by self-described eco-populist Zack Polanski, are expected to be the main beneficiaries of widespread disillusionment.
+[Nigel Farage](https://www.france24.com/en/tag/nigel-farage/)'s [anti-immigrant Reform UK](https://www.france24.com/en/tv-shows/focus/20251126-british-voters-divided-over-immigration-as-reform-uk-soars-in-the-polls) and the left-wing Greens, led by self-described eco-populist Zack Polanski, are expected to be the main beneficiaries of widespread disillusionment.
 
 "It's a huge barometer for how the country is feeling about this political establishment," said Melanie Garson, associate professor of politics at University College London.
 
@@ -27,11 +27,11 @@ Polls open at 7:00am (06:00 GMT) and close at 10:00pm. Some results are expected
 Around 5,000 local council seats, out of 16,000, are up for grabs across England, while in Wales and Scotland voters will elect new devolved parliaments.
 
 Looking ahead to the UK's local elections with British politics expert Colm Murphy
-Starmer swept to power two years ago following 14 years of largely chaotic Conservative rule defined by austerity, Brexit and the tanking of the economy under former prime minister Liz Truss.
+Starmer swept to power two years ago following 14 years of largely chaotic Conservative rule defined by austerity, [Brexit](https://www.france24.com/en/tag/brexit/) and the tanking of the economy under former prime minister [Liz Truss](https://www.france24.com/en/tag/liz-truss/).
 
-But critics say he has swerved from one policy misstep to another, and he has been embroiled in a scandal over sacked US envoy Peter Mandelson, a former friend of late sex offender Jeffrey Epstein.
+But critics say he has swerved from one policy misstep to another, and he has been embroiled in a [scandal over sacked US envoy Peter Mandelson](https://www.france24.com/en/europe/20260427-british-mps-vote-on-whether-to-probe-pm-starmer-over-mandelson-hire), a former friend of late sex offender [Jeffrey Epstein](https://www.france24.com/en/tag/jeffrey-epstein/).
 
-Read moreStarmer says unaware of security lapse when appointing Mandelson UK envoy
+Read more[Starmer says unaware of security lapse when appointing Mandelson UK envoy](https://www.france24.com/en/europe/20260422-starmer-faces-rising-pressure-over-us-envoy-appointment-after-new-testimony)
 
 Starmer has also failed to fulfil his main promise of spurring economic growth, with impatient Britons still suffering a cost-of-living crisis, including from high energy prices.
 
@@ -55,7 +55,7 @@ YouGov has predicted Reform could even force Labour into third place there.
 
 "The message is clear: if you want real change, you'd better vote for it, and we go into tomorrow feeling pretty optimistic about our prospects," Farage said.
 
-Labour also looks set for big losses in London as the Greens pick up disaffected left-wingers in urban areas with a pro-Gaza message.
+Labour also looks set for big losses in [London](https://www.france24.com/en/tag/london/) as the Greens pick up disaffected left-wingers in urban areas with a pro-Gaza message.
 
 Pollster Robert Hayward has predicted the UK's ruling party could lose about 1,850 of the roughly 2,550 local authority seats it is defending.
 
@@ -75,10 +75,10 @@ _(FRANCE 24 with AFP)_
 
 Keywords for this article
 
-* UK
-* Keir Starmer
-* Labour Party
-* elections
-* Nigel Farage
-* Peter Mandelson
-* Reform UK
+* [UK](/en/tag/united-kingdom/ "UK")
+* [Keir Starmer](/en/tag/keir-starmer/ "Keir Starmer")
+* [Labour Party](/en/tag/labour-party/ "Labour Party")
+* [elections](/en/tag/elections/ "elections")
+* [Nigel Farage](/en/tag/nigel-farage/ "Nigel Farage")
+* [Peter Mandelson](/en/tag/peter-mandelson/ "Peter Mandelson")
+* [Reform UK](/en/tag/reform-uk/ "Reform UK")

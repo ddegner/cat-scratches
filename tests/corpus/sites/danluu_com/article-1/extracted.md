@@ -1,10 +1,10 @@
-If I ask myself a question like "I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?", of course the answer is that I trust my local Best Buy1 more than Amazon, which is notorious for selling counterfeit SD cards. And if I ask who do I trust more, my local reputable electronics shop (Memory Express, B&H Photo, etc.), I trust my local reputable electronics shop more. Not only are they less likely to sell me a counterfeit than Best Buy, in the event that they do sell me a counterfeit, the service is likely to be better.
+If I ask myself a question like "I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?", of course the answer is that I trust my local Best Buy[1](#fn:C) more than Amazon, which is notorious for selling counterfeit SD cards. And if I ask who do I trust more, my local reputable electronics shop (Memory Express, B&H Photo, etc.), I trust my local reputable electronics shop more. Not only are they [less likely to](https://www.pentaxforums.com/forums/22-pentax-camera-field-accessories/53884-counterfeit-sandisk-extreme-iii-sdhc-best-buy.html) [sell me a counterfeit than Best Buy](https://www.dpreview.com/forums/thread/2308411), in the event that they do sell me a counterfeit, the service is likely to be better.
 
-Similarly, let's say I ask myself a question like, "on which platform do I get a higher rate of scams, spam, fraudulent content, etc., \[smaller platform\] or \[larger platform\]"? Generally the answer is \[larger platform\]. Of course, there are more total small platforms out there and they're higher variance, so I could deliberately use a smaller platform that's worse, but I'm choosing good options instead of bad options, in every size class, the smaller platform is generally better. For example, with Signal vs. WhatsApp, I've literally never received a spam Signal message, whereas I get spam WhatsApp messages somewhat regularly. Or if I compare places I might read tech content on, if I compare tiny forums no one's heard of to lobste.rs, lobste.rs has a very slightly higher rate (rate as in fraction of messages I see, not absolute message volume) of bad content because it's zero on the private forums and very low but non-zero on lobste.rs. And then if I compare lobste.rs to a somewhat larger platform, like Hacker News or mastodon.social, those have (again very slightly) higher rates of scam/spam/fraudulent content. And then if I compare that to mid-sized social media platforms, like reddit, reddit has a significantly higher and noticeable rate of bad content. And then if I can compare reddit to the huge platforms like YouTube, Facebook, Google search results, these larger platforms have an even higher rate of scams/spam/fraudulent content. And, as with the SD card example, the odds of getting decent support go down as the platform size goes up as well. In the event of an incorrect suspension or ban from the platform, the odds of an account getting reinstated get worse as the platform gets larger.
+Similarly, let's say I ask myself a question like, "on which platform do I get a higher rate of scams, spam, fraudulent content, etc., \[smaller platform\] or \[larger platform\]"? Generally the answer is \[larger platform\]. Of course, there are more total small platforms out there and they're higher variance, so I could deliberately use a smaller platform that's worse, but I'm choosing good options instead of bad options, in every size class, the smaller platform is generally better. For example, with Signal vs. WhatsApp, I've literally never received a spam Signal message, whereas I get spam WhatsApp messages somewhat regularly. Or if I compare places I might read tech content on, if I compare tiny forums no one's heard of to lobste.rs, lobste.rs has a very slightly higher rate (rate as in fraction of messages I see, not absolute message volume) of bad content because it's zero on the private forums and very low but non-zero on lobste.rs. And then if I compare lobste.rs to a somewhat larger platform, like Hacker News or mastodon.social, those have (again very slightly) higher rates of scam/spam/fraudulent content. And then if I compare that to mid-sized social media platforms, like reddit, reddit has a significantly higher and noticeable rate of bad content. And then if I can compare reddit to the huge platforms like YouTube, Facebook, [Google search results](/seo-spam/), these larger platforms have an even higher rate of scams/spam/fraudulent content. And, as with the SD card example, the odds of getting decent support go down as the platform size goes up as well. In the event of an incorrect suspension or ban from the platform, the odds of an account getting reinstated get worse as the platform gets larger.
 
-I don't think it's controversial to say that in general, a lot of things get worse as platforms get bigger. For example, when I ran a Twitter poll to see what people I'm loosely connected to think, only 2.6% thought that huge company platforms have the best moderation and spam/fraud filtering. For reference, in one poll, 9% of Americans said that vaccines implant a microchip and and 12% said the moon landing was fake. These are different populations but it seems random Americans are more likely to say that the moon landing was faked than tech people are likely to say that the largest companies have the best anti-fraud/anti-spam/moderation.
+I don't think it's controversial to say that in general, a lot of things get worse as platforms get bigger. For example, when I ran [a Twitter poll to see what people I'm loosely connected to think](https://twitter.com/danluu/status/1570604630350106624), only 2.6% thought that huge company platforms have the best moderation and spam/fraud filtering. [For reference, in one poll, 9% of Americans said that vaccines implant a microchip and and 12% said the moon landing was fake](https://carsey.unh.edu/publication/conspiracy-vs-science-a-survey-of-us-public-beliefs). These are different populations but it seems random Americans are more likely to say that the moon landing was faked than tech people are likely to say that the largest companies have the best anti-fraud/anti-spam/moderation.
 
-However, over the past five years, I've noticed an increasingly large number of people make the opposite claim, that only large companies can do decent moderation, spam filtering, fraud (and counterfeit) detection, etc. We looked at one example of this when we examined search results, where a Google engineer said
+However, over the past five years, I've noticed an increasingly large number of people make the opposite claim, that only large companies can do decent moderation, spam filtering, fraud (and counterfeit) detection, etc. We looked at one example of this [when we examined search results](/seo-spam/), where a Google engineer said
 
 > Somebody tried argue that if the search space were more competitive, with lots of little providers instead of like three big ones, then somehow it would be \*more\* resistant to ML-based SEO abuse.
 > 
@@ -14,17 +14,17 @@ And a thought leader responded
 
 > like 95% of the time, when someone claims that some small, independent company can do something hard better than the market leader can, it’s just cope. economies of scale work pretty well!
 
-But when we looked at the actual results, it turned out that, of the search engines we looked at, Mr 0.0001% Market Share was the most resistant to SEO abuse (and fairly good), Mr 0.001% was a bit resistant to SEO abuse, and Google and Bing were just flooded with SEO abuse, frequently funneling people directly to various kinds of scams. Something similar happens with email, where I commonly hear that it's impossible to manage your own email due to the spam burden, but people do it all the time and often have similar or better results than Gmail, with the main problem being interacting with big company mail servers which incorrectly ban their little email server.
+[But when we looked at the actual results, it turned out that, of the search engines we looked at, Mr 0.0001% Market Share was the most resistant to SEO abuse (and fairly good), Mr 0.001% was a bit resistant to SEO abuse, and Google and Bing were just flooded with SEO abuse, frequently funneling people directly to various kinds of scams](/seo-spam/). Something similar happens with email, where I commonly hear that it's impossible to manage your own email due to the spam burden, [but people do it all the time and often have similar or better results than Gmail](https://mastodon.social/@danluu/111736581992007404), with the main problem being interacting with big company mail servers which incorrectly ban their little email server.
 
-I started seeing a lot of comments claiming that you need scale to do moderation, anti-spam, anti-fraud, etc., around the time Zuckerberg, in response to Elizabeth Warren calling for the breakup of big tech companies, claimed that breaking up tech companies would make content moderation issues substantially worse, saying:
+I started seeing a lot of comments claiming that you need scale to do moderation, anti-spam, anti-fraud, etc., around the time [Zuckerberg, in response to Elizabeth Warren calling for the breakup of big tech companies, claimed that breaking up tech companies would make content moderation issues substantially worse, saying](https://twitter.com/danluu/status/1179449106877431808):
 
 > It’s just that breaking up these companies, whether it’s Facebook or Google or Amazon, is not actually going to solve the issues,” Zuckerberg said “And, you know, it doesn’t make election interference less likely. It makes it more likely because now the companies can’t coordinate and work together. It doesn’t make any of the hate speech or issues like that less likely. It makes it more likely because now ... all the processes that we’re putting in place and investing in, now we’re more fragmented
 > 
 > It’s why Twitter can’t do as good of a job as we can. I mean, they face, qualitatively, the same types of issues. But they can’t put in the investment. Our investment on safety is bigger than the whole revenue of their company. \[laughter\] And yeah, we’re operating on a bigger scale, but it’s not like they face qualitatively different questions. They have all the same types of issues that we do."
 
-The argument is that you need a lot of resources to do good moderation and smaller companies, Twitter sized companies (worth ~$30B at the time), can't marshal the necessary resources to do good moderation. I found this statement quite funny at the time because, pre-Twitter acquisition, I saw a much higher rate of obvious scam content on Facebook than on Twitter. For example, when I clicked through Facebook ads during holiday shopping season, most were scams and, while Twitter had its share of scam ads, it wasn't really in the same league as Facebook. And it's not just me — Arturo Bejar, who designed an early version of Facebook's reporting system and headed up some major trust and safety efforts noticed something similar (see footnote for details)2.
+The argument is that you need a lot of resources to do good moderation and smaller companies, Twitter sized companies (worth ~$30B at the time), can't marshal the necessary resources to do good moderation. I found this statement quite funny at the time because, pre-Twitter acquisition, I saw a much higher rate of obvious scam content on Facebook than on Twitter. [For example, when I clicked through Facebook ads during holiday shopping season, most were scams](https://twitter.com/danluu/status/1584615878800576512) and, while Twitter had its share of scam ads, it wasn't really in the same league as Facebook. And it's not just me — Arturo Bejar, who designed an early version of Facebook's reporting system and headed up some major trust and safety efforts noticed something similar (see footnote for details)[2](#fn:B).
 
-Zuckerberg seems to like the line of reasoning mentioned above, though, as he's made similar arguments elsewhere, such as here, in a statement the same year that Meta's internal docs made the case that they were exposing 100k minors a day to sexual abuse imagery:
+Zuckerberg seems to like the line of reasoning mentioned above, though, as he's made similar arguments elsewhere, [such as here](https://stratechery.com/2021/an-interview-with-mark-zuckerberg-about-the-metaverse/), in a statement the same year that Meta's internal docs made the case that they were exposing 100k minors a day to sexual abuse imagery:
 
 > To some degree when I was getting started in my dorm room, we obviously couldn’t have had 10,000 people or 40,000 people doing content moderation then and the AI capacity at that point just didn’t exist to go proactively find a lot of harmful content. At some point along the way, it started to become possible to do more of that as we became a bigger business
 
@@ -36,33 +36,33 @@ The rhetorical sleight of hand here is the assumption that Facebook needed 10k o
 
 The argument is now, for many critical decisions, it is only computers that can make most of the decisions and the lack of accountability seems to ultimately a feature, not a bug.
 
-But unfortunately for Zuckerberg's argument3, there are at least three major issues in play here where diseconomies of scale dominate. One is that, given material that nearly everyone can agree is bad (such as bitcoin scams, spam for fake pharmaceutical products, fake weather forecasts, adults sending photos of their genitals to children), etc., large platforms do worse than small ones. The second is that, for the user, errors are much more costly and less fixable as companies get bigger because support generally becomes worse. The third is that, as platforms scale up, a larger fraction of users will strongly disagree about what should be allowed on the platform.
+But unfortunately for Zuckerberg's argument[3](#fn:F), there are at least three major issues in play here where diseconomies of scale dominate. One is that, given material that nearly everyone can agree is bad (such as bitcoin scams, spam for fake pharmaceutical products, [fake weather forecasts](/seo-spam/), adults sending photos of their genitals to children), etc., large platforms do worse than small ones. The second is that, for the user, errors are much more costly and less fixable as companies get bigger because support generally becomes worse. [The third is that, as platforms scale up, a larger fraction of users will strongly disagree about what should be allowed on the platform](/impossible-agree/).
 
-With respect to the first, while it's true that big companies have more resources, the cocktail party idea that they'll have the best moderation because they have the most resources is countered by the equally simplistic idea that they'll have the worst moderation because they're the juiciest targets or that they'll have the worst moderation because they'll have worst fragmentation due to the standard diseconomies of scale that occur when you scale up organizations and problem domains. Whether or not the company having more resources or these other factors dominate is too complex to resolve theoretically, but can observe the result empirically. At least at the level of resources that big companies choose to devote to moderation, spam, etc., having the larger target and other problems associated with scale dominate.
+With respect to the first, while it's true that big companies have more resources, the [cocktail party idea](/cocktail-ideas/) that they'll have the best moderation because they have the most resources is countered by the equally simplistic idea that they'll have the worst moderation because they're the juiciest targets or that they'll have the worst moderation because they'll have worst fragmentation due to the standard diseconomies of scale that occur when you scale up organizations and problem domains. Whether or not the company having more resources or these other factors dominate is too complex to resolve theoretically, but can observe the result empirically. At least at [the level of resources that big companies choose to devote to moderation, spam, etc.](https://mastodon.social/@danluu/109919312448235105), having the larger target and other problems associated with scale dominate.
 
-While it's true that these companies are wildly profitable and could devote enough resources to significantly reduce this problem, they have chosen not to do this. For example, in the last year before I wrote this sentence, Meta's last-year profit before tax (through December 2023) was $47B. If Meta had a version of the internal vision statement of a power company a friend mine worked for ("Reliable energy, at low cost, for generations.") and operated like that power company did, trying to create a good experience for the user instead of maximizing profit plus creating the metaverse, they could've spent the $50B they spent on the metaverse on moderation platforms and technology and then spent $30k/yr (which would result in a very good income in most countries where moderators are hired today, allowing them to have their pick of who to hire) on 1.6 million additional full-time staffers for things like escalations and support, on the order of one additional moderator or support staffer per few thousand users (and of course diseconomies of scale apply to managing this many people). I'm not saying that Meta or Google should do this, just that whenever someone at big tech company says something like "these systems have to be fully automated because no one could afford to operate manual systems at our scale", what's really being said is more along the lines of "we would not be able to generate as many billions a year in profit if we hired enough competent people to manually review cases our system should flag as ambiguous, so we settle for what we can get without compromising profits".4 One can defend that choice, but it is a choice.
+While it's true that these companies are wildly profitable and could devote enough resources to significantly reduce this problem, they have chosen not to do this. For example, in the last year before I wrote this sentence, Meta's last-year profit before tax (through December 2023) was $47B. If Meta had a version of the internal vision statement of a power company a friend mine worked for ("Reliable energy, at low cost, for generations.") and operated like that power company did, trying to create a good experience for the user instead of maximizing profit plus creating the metaverse, they could've spent the $50B they spent on the metaverse on moderation platforms and technology and then spent $30k/yr (which would result in a very good income in most countries where moderators are hired today, allowing them to have their pick of who to hire) on 1.6 million additional full-time staffers for things like escalations and support, on the order of one additional moderator or support staffer per few thousand users (and of course diseconomies of scale apply to managing this many people). I'm not saying that Meta or Google should do this, just that whenever someone at big tech company says [something like](https://news.ycombinator.com/item?id=38614042) "these systems have to be fully automated because no one could afford to operate manual systems at our scale", what's really being said is more along the lines of "we would not be able to generate as many billions a year in profit if we hired enough competent people to manually review cases our system should flag as ambiguous, so we settle for what we can get without compromising profits".[4](#fn:S) One can defend that choice, but it is a choice.
 
-And likewise for claims about advantages of economies of scale. There are areas where economies of scale legitimately make the experience better for users. For example, when we looked at why it's so hard to buy things that work well, we noted that Amazon's economies of scale have enabled them to build out their own package delivery service that is, while flawed, still more reliable than is otherwise available (and this has only improved since they added the ability for users to rate each delivery, which no other major package delivery service has). Similarly, Apple's scale and vertical integration has allowed them to build one of the all-time great performance teams (as measured by normalized performance relative to competitors of the same era), not only wiping the floor with the competition on benchmarks, but also providing a better experience in ways that no one really measured until recently, like device latency. For a more mundane example of economies of scale, crackers and other food that ships well are cheaper on Amazon than in my local grocery store. It's easy to name ways in which economies of scale benefit the user, but this doesn't mean that we should assume that economies of scale dominate diseconomies of scale in all areas. Although it's beyond the scope of this post, if we're going to talk about whether or not users are better off if companies are larger or smaller, we should look at what gets better when companies get bigger and what gets worse, not just assume that everything will get better just because some things get better (or vice versa).
+And likewise for claims about advantages of economies of scale. There are areas where economies of scale legitimately make the experience better for users. For example, when we looked at [why it's so hard to buy things that work well](/nothing-works/), we noted that Amazon's economies of scale have enabled them to build out their own package delivery service that is, while flawed, still more reliable than is otherwise available (and this has only improved since they added the ability for users to rate each delivery, which no other major package delivery service has). Similarly, Apple's scale and vertical integration has allowed them to [build one of the all-time great performance teams](https://mastodon.social/@danluu/111064942895424216) (as measured by normalized performance relative to competitors of the same era), not only wiping the floor with the competition on benchmarks, but also providing a better experience in ways that no one really measured until recently, like [device latency](/input-lag/). For a more mundane example of economies of scale, crackers and other food that ships well are cheaper on Amazon than in my local grocery store. It's easy to name ways in which economies of scale benefit the user, but this doesn't mean that we should assume that economies of scale dominate diseconomies of scale in all areas. Although it's beyond the scope of this post, if we're going to talk about whether or not users are better off if companies are larger or smaller, we should look at what gets better when companies get bigger and what gets worse, not just assume that everything will get better just because some things get better (or vice versa).
 
-Coming back to the argument that huge companies have the most resources to spend on moderation, spam, anti-fraud, etc., vs. the reality that they choose to spend those resources elsewhere, like dropping $50B on the Metaverse and not hiring 1.6 million moderators and support staff that they could afford to hire, it makes sense to look at how much effort is being expended. Meta's involvement in Myanmar makes for a nice case study because Erin Kissane wrote up a fairly detailed 40,000 word account of what happened. The entirety of what happened is a large and complicated issue (see appendix for more discussion) but, for the main topic of this post, the key components are that there was an issue that most people can generally agree should be among the highest priority moderation and support issues and that, despite repeated, extremely severe and urgent, warnings to Meta staff at various levels (engineers, directors, VPs, execs, etc.), almost no resources were dedicated to the issue while internal documents indicate that only a small fraction of agreed-upon bad content was caught by their systems (on the order of a few percent). I don't think this is unique to Meta and this matches my experience with other large tech companies, both as a user of their products and as an employee.
+Coming back to the argument that huge companies have the most resources to spend on moderation, spam, anti-fraud, etc., vs. the reality that they choose to spend those resources elsewhere, like dropping $50B on the Metaverse and not hiring 1.6 million moderators and support staff that they could afford to hire, it makes sense to look at how much effort is being expended. Meta's involvement in Myanmar makes for a nice case study because Erin Kissane wrote up a fairly detailed [40,000 word account of what happened](https://erinkissane.com/meta-in-myanmar-full-series). The entirety of what happened is a large and complicated issue ([see appendix for more discussion](#appendix-erin-kissane-on-meta-in-myanmar)) but, for the main topic of this post, the key components are that there was an issue that most people can generally agree should be among the highest priority moderation and support issues and that, despite repeated, extremely severe and urgent, warnings to Meta staff at various levels (engineers, directors, VPs, execs, etc.), almost no resources were dedicated to the issue while internal documents indicate that only a small fraction of agreed-upon bad content was caught by their systems (on the order of a few percent). I don't think this is unique to Meta and this matches my experience with other large tech companies, both as a user of their products and as an employee.
 
 To pick a smaller scale example, an acquaintance of mine had their Facebook account compromised and it's now being used for bitcoin scams. The person's name is Samantha K. and some scammer is doing enough scamming that they didn't even bother reading her name properly and have been generating very obviously faked photos where someone holds up a sign and explains how "Kamantha" has helped them make tens or hundreds of thousands of dollars. This is a fairly common move for "hackers" to make and someone else I'm connected to on FB reported that this happened to their account and they haven't been able to recover the old account or even get it banned despite the constant stream of obvious scams being posted by the account.
 
-By comparison, on lobste.rs, I've never seen a scam like this and Peter Bhat Harkins, the head mod says that they've never had one that he knows of. On Mastodon, I think I might've seen one once in my feed, replies, or mentions. Of course, Mastodon is big enough that you can find some scams if you go looking for them, but the per-message and per-user rates are low enough that you shouldn't encounter them as a normal user. On Twitter (before the acquisition) or reddit, moderately frequently, perhaps an average of once every few weeks in my normal feed. On Facebook, I see things like this all the time; I get obvious scam consumer good sites every shopping season, and the bitcoin scams, both from ads as well as account takeovers, are year-round. Many people have noted that they don't bother reporting these kinds of scams anymore because they've observed that Facebook doesn't take action on their reports. Meanwhile, Reuven Lerner was banned from running Facebook ads on their courses about Python and Pandas, seemingly because Facebook systems "thought" that Reuven was advertising something to do with animal trading (as opposed to programming). This is the fidelity of moderation and spam control that Zuckerberg says cannot be matched by any smaller company. By the way, I don't mean to pick on Meta in particular; if you'd like examples with a slightly different flavor, you can see the appendix of Google examples for a hundred examples of automated systems going awry at Google.
+By comparison, on lobste.rs, I've never seen a scam like this and Peter Bhat Harkins, the head mod says that they've never had one that he knows of. On Mastodon, I think I might've seen one once in my feed, replies, or mentions. Of course, Mastodon is big enough that you can find some scams if you go looking for them, but the per-message and per-user rates are low enough that you shouldn't encounter them as a normal user. On Twitter (before the acquisition) or reddit, moderately frequently, perhaps an average of once every few weeks in my normal feed. On Facebook, I see things like this [all the time; I get obvious scam consumer good sites every shopping season, and the bitcoin scams, both from ads as well as account takeovers, are year-round](https://twitter.com/danluu/status/1584615878800576512). [Many people have noted that they don't bother reporting these kinds of scams anymore because they've observed that Facebook doesn't take action on their reports](https://news.ycombinator.com/item?id=38613594). [Meanwhile, Reuven Lerner was banned from running Facebook ads on their courses about Python and Pandas](https://lerner.co.il/2023/10/19/im-banned-for-life-from-advertising-on-meta-because-i-teach-python/), seemingly because Facebook systems "thought" that Reuven was advertising [something to do with animal trading](https://news.ycombinator.com/item?id=37941905) (as opposed to programming). This is the fidelity of moderation and spam control that Zuckerberg says cannot be matched by any smaller company. By the way, I don't mean to pick on Meta in particular; if you'd like examples with a slightly different flavor, you can [see the appendix of Google examples](#google) for a hundred examples of automated systems going awry at Google.
 
 A reason this comes back to being an empirical question is that all of this talk about how economies of scale allows huge companies to bring more resources to bear on the problem on matters if the company chooses to deploy those resources. There's no theoretical force that makes companies deploy resources in these areas, so we can't reason theoretically. But we can observe that the resources deployed aren't sufficient to match the problems, even in cases where people would generally agree that the problem should very obviously be high priority, such as with Meta in Myanmar. Of course, when it comes to issues where the priority is less obvious, resources are also not deployed there.
 
 On the second issue, support, it's a meme among tech folks that the only way to get support as a user of one of the big platforms is to make a viral social media post or know someone on the inside. This compounds the issue of bad moderation, scam detection, anti-fraud, etc., since those issues could be mitigated if support was good.
 
-Normal support channels are a joke, where you either get a generic form letter rejection, or a kafkaesque nightmare followed by a form letter rejection. For example, when Adrian Black was banned from YouTube for impersonating Adrian Black (to be clear, he was banned for impersonating himself, not someone else with the same name), after appealing, he got a response that read
+Normal support channels are a joke, where you either get a generic form letter rejection, or a kafkaesque nightmare followed by a form letter rejection. For example, when [Adrian Black was banned from YouTube for impersonating Adrian Black](https://twitter.com/craig1black/status/1645649300167495681) (to be clear, he was banned for impersonating himself, not someone else with the same name), after appealing, he got a response that read
 
 > unfortunately, there's not more we can do on our end. your account suspension & appeal were very carefully reviewed & the decision is final
 
-In another Google support story, Simon Weber got the runaround from Google support when he was trying to get information he needed to pay his taxes
+[In another Google support story, Simon Weber got the runaround from Google support when he was trying to get information he needed to pay his taxes](https://twitter.com/danluu/status/1308215389344600066)
 
 > accounting data exports for extensions have been broken for me (and I think all extension merchants?) since April 2018 \[this was written on Sept 2020\]. I had to get the NY attorney general to write them a letter before they would actually respond to my support requests so that I could properly file my taxes
 
-There was also the time YouTube kept demonetizing PointCrow's video of eating water with chopsticks (he repeatedly dips chopsticks into water and then drinks the water, very slowly eating a bowl of water).
+There was also the time [YouTube kept demonetizing PointCrow's video of eating water with chopsticks (he repeatedly dips chopsticks into water and then drinks the water, very slowly eating a bowl of water)](https://twitter.com/PointCrow/status/1587084876741689345).
 
 Despite responding with things like
 
@@ -72,13 +72,13 @@ He would get demonetized again and appeals would start with the standard support
 
 > We have reviewed your appeal ... We reviewed your content carefully, and have confirmed that it violates our violent or graphic content policy ... it's our job to make sure that YouTube is a safe place for all
 
-These are high-profile examples, but of course having a low profile doesn't stop you from getting banned and getting the same basically canned response, like this HN user who was banned for selling a vacuum in FB marketplace. After a number of appeals, he was told
+These are high-profile examples, but of course having a low profile doesn't stop you from getting banned and getting the same basically canned response, like [this HN user who was banned for selling a vacuum in FB marketplace](https://news.ycombinator.com/item?id=38882891). After a number of appeals, he was told
 
 > Unfortunately, your account cannot be reinstated due to violating community guidelines. The review is final
 
-When paid support is optional, people often say you won't have these problems if you pay for support, but people who use Google One paid support or Facebook and Instagram's paid creator support generally report that the paid support is no better than the free support. Products that effectively have paid support built-in aren't necessarily better, either. I know people who've gotten the same kind of runaround you get from free Google support with Google Cloud, even when they're working for companies that have 8 or 9 figure a year Google Cloud spend. In one of many examples, the user was seeing that Google must've been dropping packets and Google support kept insisting that the drops were happening in the customer's datacenter despite packet traces showing that this could not possibly be the case. The last I heard, they gave up on that one, but sometimes when an issue is a total showstopper, someone will call up a buddy of theirs at Google to get support because the standard support is often completely ineffective. And this isn't unique to Google — at another cloud vendor, a former colleague of mine was in the room for a conversation where a very senior engineer was asked to look into an issue where a customer was complaining that they were seeing 100% of packets get dropped for a few seconds at a time, multiple times an hour. The engineer responded with something like "it's the cloud, they should deal with it", before being told they couldn't ignore the issue as usual because the issue was coming from \[VIP customer\] and it was interrupting \[one of the world's largest televised sporting events\]. That one got fixed, but, odds are, you aren't that important, even if you're paying hundreds of millions a year.
+When paid support is optional, people often say you won't have these problems if you pay for support, but [people who use Google One paid support or Facebook and Instagram's paid creator support generally report that the paid support is no better than the free support](https://www.youtube.com/watch?v=SMFCLpUuhqY). Products that effectively have paid support built-in aren't necessarily better, either. I know people who've gotten the same kind of runaround you get from free Google support with Google Cloud, even when they're working for companies that have 8 or 9 figure a year Google Cloud spend. In one of many examples, the user was seeing that Google must've been dropping packets and Google support kept insisting that the drops were happening in the customer's datacenter despite packet traces showing that this could not possibly be the case. The last I heard, they gave up on that one, but sometimes when an issue is a total showstopper, someone will call up a buddy of theirs at Google to get support because the standard support is often completely ineffective. And this isn't unique to Google — at another cloud vendor, a former colleague of mine was in the room for a conversation where a very senior engineer was asked to look into an issue where a customer was complaining that they were seeing 100% of packets get dropped for a few seconds at a time, multiple times an hour. The engineer responded with something like "it's the cloud, they should deal with it", before being told they couldn't ignore the issue as usual because the issue was coming from \[VIP customer\] and it was interrupting \[one of the world's largest televised sporting events\]. That one got fixed, but, odds are, you aren't that important, even if you're paying hundreds of millions a year.
 
-And of course this kind of support isn't unique to cloud vendors. For example, there was this time Stripe held $400k from a customer for over a month without explanation, and every request to support got a response that was as ridiculous as the ones we just looked at. The user availed themself of the only reliable Stripe support mechanism, posting to HN and hoping to hit #1 on the front page, which worked, although many commenters said made the usual comments like "Flagged because we are seeing a lot of these on HN, and they seem to be attempts to fraudulently manipulate customer support, rather than genuine stories", with multiple people suggesting or insinuating that the user is doing something illicit or fraudulent, but it turned out that it was an error on Stripe's end, compounded by Stripe's big company support. At one point, the user notes
+And of course this kind of support isn't unique to cloud vendors. For example, there [was this time Stripe held $400k from a customer for over a month without explanation](https://news.ycombinator.com/item?id=34233011), and every request to support got a response that was as ridiculous as the ones we just looked at. The user availed themself of the only reliable Stripe support mechanism, posting to HN and hoping to hit #1 on the front page, which worked, although many commenters said made the usual comments like "Flagged because we are seeing a lot of these on HN, and they seem to be attempts to fraudulently manipulate customer support, rather than genuine stories", with multiple people suggesting or insinuating that the user is doing something illicit or fraudulent, but it turned out that it was an error on Stripe's end, compounded by Stripe's big company support. At one point, the user notes
 
 > While I was writing my HN post I was also on chat with Stripe for over an hour. No new information. They were basically trying to shut down the chat with me until I sent them the HN story and showed that it was getting some traction. Then they started working on my issue again and trying to communicate with more people
 
@@ -88,27 +88,27 @@ Although, in principle, as companies become larger, they could leverage their ec
 
 > a lot of that was outsourced to overseas which resulted in much slower response time. Here stateside we had a lot of metrics in place to fast response. Typically your app would get reviewed the same day. Not sure what it's like now but the managers were incompetent back then even so
 
-And a former FB support person notes:
+[And a former FB support person notes](https://twitter.com/RMac18/status/1382366931307565057):
 
 > The big problem here is the division of labor. Those who spend the most time in the queues have the least input as to policy. Analysts are able to raise issues to QAs who can then raise them to Facebook FTEs. It can take months for issues to be addressed, if they are addressed at all. The worst part is that doing the common sense thing and implementing the spirit of the policy, rather than the letter, can have a negative effect on your quality score. I often think about how there were several months during my tenure when most photographs of mutilated animals were allowed on a platform without a warning screen due to a carelessly worded policy "clarification" and there was nothing we could do about it.
 
 If you've ever wondered why your support person is responding nonsensically, sometimes it's the obvious reason that support has been outsourced to someone making $1/hr (when I looked up the standard rates for one country that a lot of support is outsourced to, a fairly standard rate works out to about $1/hr) who doesn't really speak your language and is reading from a flowchart without understanding anything about the system they're giving support for, but another, less obvious, reason is that the support person may be penalized and eventually fired if they take actions that make sense instead of following the nonsensical flowchart that's in front of them.
 
-Coming back to the "they seem to be attempts to fraudulently manipulate customer support, rather than genuine stories" comment, this is a sentiment I've commonly seen expressed by engineers at companies that mete out arbitrary and capricious bans. I'm sympathetic to how people get here. As I noted before I joined Twitter, commenting on public information
+Coming back to the "they seem to be attempts to fraudulently manipulate customer support, rather than genuine stories" comment, this is a sentiment I've commonly seen expressed by engineers at companies that mete out arbitrary and capricious bans. I'm sympathetic to how people get here. [As I noted before I joined Twitter, commenting on public information](https://twitter.com/danluu/status/964562384558927872)
 
 > Turns out twitter is removing ~1M bots/day. Twitter only has ~300M MAU, making the error tolerance v. low. This seems like a really hard problem ... Gmail's spam filter gives me maybe 1 false positive per 1k correctly classified ham ... Regularly wiping the same fraction of real users in a service would be \[bad\].
 
 It is actually true that, if you, an engineer, dig into the support queue at some giant company and look at people appealing bans, almost all of the appeals should be denied. But, my experience from having talked to engineers working on things like anti-fraud systems is that many, and perhaps most, round "almost all" to "all", which is both quantitatively and qualitatively different. Having engineers who work on these systems believe that "all" and not "almost all" of their decisions are correct results in bad experiences for users.
 
-For example, there's a social media company that's famous for incorrectly banning users (at least 10% of people I know have lost an account due to incorrect bans and, if I search for a random person I don't know, there's a good chance I get multiple accounts for them, with some recent one that has a profile that reads "used to be @\[some old account\]", with no forward from the old account to the new one because they're now banned). When I ran into a senior engineer from the team that works on this stuff, I asked him why so many legitimate users get banned and he told me something like "that's not a problem, the real problem is that we don't ban enough accounts. Everyone who's banned deserves it, it's not worth listening to appeals or thinking about them". Of course it's true that most content on every public platform is bad content, spam, etc., so if you have any sort of signal at all on whether or not something is bad content, when you look at it, it's likely to be bad content. But this doesn't mean the converse, that almost no users are banned incorrectly, is true. And if senior people on the team that classifies which content is bad have the attitude that we shouldn't worry about false positives because almost all flagged content is bad, we'll end up with a system that has a large number of false positives. I later asked around to see what had ever been done to reduce false positives in the fraud detection systems and found out that there was no systematic attempt at tracking false positives at all, no way to count cases where employees filed internal tickets to override bad bans, etc.; At the meta level, there was some mechanism to decrease the false negative rate (e.g., someone sees bad content that isn't being caught then adds something to catch more bad content) but, without any sort of tracking of false positives, there was effectively no mechanism to decrease the false positive rate. It's no surprise that this meta system resulted in over 10% of people I know getting incorrect suspensions or bans. And, as Patrick McKenzie says, the optimal rate of false positives isn't zero. But when you have engineers who have the attitude that they've done enough legwork that false positives are impossible, it's basically guaranteed that the false positive rate is higher than optimal. When you combine this with normal big company levels of support, it's a recipe for kafkaesque user experiences.
+For example, there's a social media company that's famous for incorrectly banning users (at least 10% of people I know have lost an account due to incorrect bans and, if I search for a random person I don't know, there's a good chance I get multiple accounts for them, with some recent one that has a profile that reads "used to be @\[some old account\]", with no forward from the old account to the new one because they're now banned). When I ran into a senior engineer from the team that works on this stuff, I asked him why so many legitimate users get banned and he told me something like "that's not a problem, the real problem is that we don't ban enough accounts. Everyone who's banned deserves it, it's not worth listening to appeals or thinking about them". Of course it's true that [most content on every public platform is bad content, spam, etc.](https://twitter.com/danluu/status/964562384558927872), so if you have any sort of signal at all on whether or not something is bad content, when you look at it, it's likely to be bad content. But this doesn't mean the converse, that almost no users are banned incorrectly, is true. And if senior people on the team that classifies which content is bad have the attitude that we shouldn't worry about false positives because almost all flagged content is bad, we'll end up with a system that has a large number of false positives. I later asked around to see what had ever been done to reduce false positives in the fraud detection systems and found out that there was no systematic attempt at tracking false positives at all, no way to count cases where employees filed internal tickets to override bad bans, etc.; At the meta level, there was some mechanism to decrease the false negative rate (e.g., someone sees bad content that isn't being caught then adds something to catch more bad content) but, without any sort of tracking of false positives, there was effectively no mechanism to decrease the false positive rate. It's no surprise that this meta system resulted in over 10% of people I know getting incorrect suspensions or bans. And, as Patrick McKenzie says, the optimal rate of false positives isn't zero. But when you have engineers who have the attitude that they've done enough legwork that false positives are impossible, it's basically guaranteed that the false positive rate is higher than optimal. When you combine this with normal big company levels of support, it's a recipe for kafkaesque user experiences.
 
-Another time, I commented on how an announced change in Uber's moderation policy seemed likely to result in false positive bans. An Uber TL immediately took me to task, saying that I was making unwarranted assumptions on how banning works, that Uber engineers go to great lengths to make sure that there are no false positive bans, there's extensive to review to make sure that bans are valid and, in fact, the false positive banning I was concerned about could never happen. And then I got effectively banned due to a false positive in a fraud detection system. I was remind of that incident when Uber incorrectly banned a driver who had to take them to court to even get information on why he was banned, at which point Uber finally actually looked into it (instead of just responding to appeals with fake messages claiming they'd looked into it). Afterwards, Uber responded to a press inquiry with
+Another time, I commented on how an announced change in Uber's moderation policy seemed likely to result in false positive bans. An Uber TL immediately took me to task, saying that I was making unwarranted assumptions on how banning works, that Uber engineers go to great lengths to make sure that there are no false positive bans, there's extensive to review to make sure that bans are valid and, in fact, the false positive banning I was concerned about could never happen. And then I got effectively banned due to a false positive in a fraud detection system. [I was remind of that incident when Uber incorrectly banned a driver who had to take them to court to even get information on why he was banned, at which point Uber finally actually looked into it (instead of just responding to appeals with fake messages claiming they'd looked into it)](https://www.theguardian.com/technology/2023/apr/16/stop-or-ill-fire-you-the-driver-who-defied-ubers-automated-hr). Afterwards, Uber responded to a press inquiry with
 
 > We are disappointed that the court did not recognize the robust processes we have in place, including meaningful human review, when making a decision to deactivate a driver’s account due to suspected fraud
 
-Of course, in that driver's case, there was no robust process for review, nor was there a robust appeals process for my case. When I contacted support, they didn't really read my message and made some change that broke my account even worse than before. Luckily, I have enough Twitter followers that some Uber engineers saw my tweet about the issue and got me unbanned, but that's not an option that's available to most people, leading to weird stuff like this Facebook ad targeted at Google employees, from someone desperately seeking help with their Google account.
+Of course, in that driver's case, there was no robust process for review, nor was there a robust appeals process for my case. When I contacted support, they didn't really read my message and made some change that broke my account even worse than before. Luckily, I have enough Twitter followers that some Uber engineers saw my tweet about the issue and got me unbanned, but that's not an option that's available to most people, leading to weird stuff like [this Facebook ad targeted at Google employees, from someone desperately seeking help with their Google account](/customer-service/#dentist).
 
-And even when you know someone on the inside, it's not always easy to get the issue fixed because even if the company's effectiveness doesn't increase as the company gets bigger, the complexity of the systems does increase. A nice example of this is Gergely Orosz's story about when the manager of the payments team left Uber and then got banned from Uber due to some an inscrutable ML anti-fraud algorithm deciding that the former manager of the payments team was committing payments fraud. It took six months of trying to get the problem fixed to mitigate the issue. And, by the way, they never managed to understand what happened and fix the underlying issue; instead, they added the former manager of the payments team to a special whitelist, not fixing the issue for any other user and, presumably, severely reducing or perhaps even entirely removing payment fraud protections for the former manager's account.
+And even when you know someone on the inside, it's not always easy to get the issue fixed because even if the company's effectiveness doesn't increase as the company gets bigger, the complexity of the systems does increase. A nice example of this is [Gergely Orosz's story about when the manager of the payments team left Uber and then got banned from Uber due to some an inscrutable ML anti-fraud algorithm deciding that the former manager of the payments team was committing payments fraud](https://twitter.com/GergelyOrosz/status/1469968831372312578). It took six months of trying to get the problem fixed to mitigate the issue. And, by the way, they never managed to understand what happened and fix the underlying issue; instead, they added the former manager of the payments team to a special whitelist, not fixing the issue for any other user and, presumably, severely reducing or perhaps even entirely removing payment fraud protections for the former manager's account.
 
 No doubt they would've fixed the underlying issue if it were easy to, but as companies scale up, they produce both technical and non-technical bureaucracy that makes systems opaque even to employees.
 
@@ -116,13 +116,13 @@ Another example of that is, at a company that has a ranked social feed, the idea
 
 A few months later, the trick went viral again and people were generally referred to the last investigation when they asked if it was real, except that one person actually tried the trick and reported that it worked. They wrote a slack message about how the trick did work for them, but almost no one noticed that the one person who tried reproducing the trick found that it worked. Later, when the trick would go viral again, people would point to the discussions about how people thought the trick didn't work, with this message noting that it appears to work (almost certainly not by the mechanism that users think, and instead just because having a long list of filters causes something to time out, or something similar) basically got lost because there's too much information to read all of it.
 
-In my social circles, many people have read James Scott's Seeing Like a State, which is subtitled How Certain Schemes to Improve the Human World Have Failed. A key concept from the book is "legibility", what a state can see, and how this distorts what states do. One could easily write a highly analogous book, Seeing like a Tech Company about what's illegible to companies that scale up, at least as companies are run today. A simple example of this is that, in many video games, including ones made by game studios that are part of a $3T company, it's easy to get someone suspended or banned by having a bunch of people report the account for bad behavior. What's legible to the game company is the rate of reports and what's not legible is the player's actual behavior (it could be legible, but the company chooses not to have enough people or skilled enough people examine actual behavior); and many people have reported similar bannings with social media companies. When it comes to things like anti-fraud systems, what's legible to the company tends to be fairly illegible to humans, even humans working on the anti-fraud systems themselves.
+In my social circles, many people have read James Scott's Seeing Like a State, which is subtitled How Certain Schemes to Improve the Human World Have Failed. A key concept from the book is "legibility", what a state can see, and how this distorts what states do. One could easily write a highly analogous book, Seeing like a Tech Company about what's illegible to companies that scale up, at least as companies are run today. A simple example of this is that, in many video games, including ones made by game studios that are part of a $3T company, it's easy to get someone suspended or banned by having a bunch of people report the account for bad behavior. What's legible to the game company is the rate of reports and what's not legible is the player's actual behavior (it could be legible, but the company chooses not to have enough people or skilled enough people examine actual behavior); [and many people have reported similar bannings with social media companies](https://news.ycombinator.com/item?id=31581510). When it comes to things like anti-fraud systems, what's legible to the company tends to be fairly illegible to humans, even humans working on the anti-fraud systems themselves.
 
 Although he wasn't specifically talking about an anti-fraud system, in a Special Master's System, Eugene Zarashaw, a director a Facebook made this comment which illustrates the illegibility of Facebook's own systems:
 
 > It would take multiple teams on the ad side to track down exactly the — where the data flows. I would be surprised if there’s even a single person that can answer that narrow question conclusively
 
-Facebook was unfairly and mostly ignorantly raked over the coals for this statement (we'll discuss that in an appendix), but it is generally true that it's difficult to understand how a system the size of Facebook works.
+Facebook was unfairly and mostly ignorantly raked over the coals for this statement ([we'll discuss that in an appendix](#appendix-how-much-should-we-trust-journalists-summaries-of-leaked-documents)), but it is generally true that it's difficult to understand how a system the size of Facebook works.
 
 In principle, companies could augment the legibility of their inscrutable systems by having decently paid support people look into things that might be edge-case issues with severe consequences, where the system is "misunderstanding" what's happening but, in practice, companies pay these support people extremely poorly and hire people who really don't understand what's going on, and then give them instructions which ensure that they generally do not succeed at resolving legibility issues.
 
@@ -134,15 +134,15 @@ For example, in response to someone noting that FB Ad Manager claims you can run
 
 And explained that you can't expect slice & dice queries to work for something like the 18-34 demographic in the U.S. at "FB scale". There's a meme at Google that's used ironically in cases like this, where people will say "I can't count that low". Here's the former PM of FB ads saying, non-ironically, "FB can't count that low" for numbers like 100M. Not only does FB not care about any individual user (unless they're famous), this PM claims they can't be bothered to care that groups of 100M people are tracked accurately.
 
-Coming back to the consequences of poor support, a common response to hearing about people getting incorrectly banned from one of these huge services is "Good! Why would you want to use Uber/Amazon/whatever anyway? They're terrible and no one should use them". I disagree with this line of reasoning. For one thing, why should you decide for that person whether or not they should use a service or what's good for them? For another (and this this is a large enough topic that it should be its own post, so I'll just mention it briefly and link to this lengthier comment from @whitequark) most services that people write off as unnecessary conveniences that you should just do without are actually serious accessibility issues for quite a few people (in absolute, not necessarily, percentage, terms). When we're talking about small businesses, those people can often switch to another business, but with things like Uber and Amazon, there are sometimes zero or one alternatives that offer similar convenience and when there's one, getting banned due to some random system misfiring can happen with the other service as well. For example, in response to many people commenting on how you should just issue a chargeback and get banned from DoorDash when they don't deliver, a disabled user responds:
+Coming back to the consequences of poor support, a common response to hearing about people getting incorrectly banned from one of these huge services is "Good! Why would you want to use Uber/Amazon/whatever anyway? They're terrible and no one should use them". I disagree with this line of reasoning. For one thing, [why should you decide for that person whether or not they should use a service or what's good for them?](https://twitter.com/danluu/status/891508449414197248) For another (and this this is a large enough topic that it should be its own post, so I'll just mention it briefly [and link to this lengthier comment from @whitequark](https://mastodon.social/@whitequark/111280549888138665)) most services that people write off as unnecessary conveniences that you should just do without are actually serious accessibility issues for quite a few people (in absolute, not necessarily, percentage, terms). When we're talking about small businesses, those people can often switch to another business, but with things like Uber and Amazon, there are sometimes zero or one alternatives that offer similar convenience and when there's one, getting banned due to some random system misfiring can happen with the other service as well. [For example, in response to many people commenting on how you should just issue a chargeback and get banned from DoorDash when they don't deliver, a disabled user responds](https://www.reddit.com/r/mildlyinfuriating/comments/186redy/doordash_denied_refund_for_wrong_order_delivered/):
 
 > I'm disabled. Don't have a driver's license or a car. There isn't a bus stop near my apartment, I actually take paratransit to get to work, but I have to plan that a day ahead. Uber pulls the same shit, so I have to cycle through Uber, Door dash, and GrubHub based on who has coupons and hasn't stolen my money lately. Not everyone can just go pick something up.
 
-Also, when talking about this class of issue, involvement is often not voluntary, such as in the case of this Fujitsu bug that incorrectly put people in prison.
+Also, when talking about this class of issue, involvement is often not voluntary, [such as in the case of this Fujitsu bug that incorrectly put people in prison](https://news.ycombinator.com/item?id=39059307).
 
-On the third issue, the impossibility of getting people to agree on what constitutes spam, fraud, and other disallowed content, we discussed that in detail here. We saw that, even in a trivial case with a single, uncontroversial, simple, rule, people can't agree on what's allowed. And, as you add more rules or add topics that are controversial or scale up the number of people, it becomes even harder to agree on what should be allowed.
+On the third issue, the impossibility of getting people to agree on what constitutes spam, fraud, and other disallowed content, [we discussed that in detail here](/impossible-agree/). We saw that, even in a trivial case with a single, uncontroversial, simple, rule, people can't agree on what's allowed. And, as you add more rules or add topics that are controversial or scale up the number of people, it becomes even harder to agree on what should be allowed.
 
-To recap, we looked at three areas where diseconomies of scale make moderation, support, anti-fraud, and anti-spam worse as companies get bigger. The first was that, even in cases where there's broad agreement that something is bad, such as fraud/scam/phishing websites and search, the largest companies with the most sophisticated machine learning can't actually keep up with a single (albeit very skilled) person working on a small search engine. The returns to scammers are much higher if they take on the biggest platforms, resulting in the anti-spam/anti-fraud/etc. problem being extremely non-linearly hard.
+To recap, we looked at three areas where diseconomies of scale make moderation, support, anti-fraud, and anti-spam worse as companies get bigger. The first was that, even in cases where there's broad agreement that something is bad, such as fraud/scam/phishing websites and search, [the largest companies with the most sophisticated machine learning can't actually keep up with a single (albeit very skilled) person working on a small search engine](/seo-spam/). The returns to scammers are much higher if they take on the biggest platforms, resulting in the anti-spam/anti-fraud/etc. problem being extremely non-linearly hard.
 
 To get an idea of the difference in scale, HN "hellbans" spammers and people who post some kinds of vitriolic comments. Most spammers don't seem to realize they're hellbanned and will keep posting for a while, so if you browse the "newest" (submissions) page while logged in, you'll see a steady stream of automatically killed stories from these hellbanned users. While there are quite a few of them, the percentage is generally well under half. When we looked at a "mid-sized" big tech company like Twitter circa 2017, based on the public numbers, if spam bots were hellbanned instead of removed, spam is so much more prevalent that all you'd see if you were able to see it. And, as big companies go, 2017-Twitter isn't that big. As we also noted, the former PM of FB ads targeting explained that numbers as low as 100M are in the "I can't count that low" range, too small to care about; to him, basically a rounding error. The non-linear difference in difficulty is much worse for a company like FB or Google. The non-linearity of the difficulty of this problems is, apparently, more than a match for whatever ML or AI techniques Zuckerberg and other tech execs want to brag about.
 
@@ -150,25 +150,25 @@ In testimony in front of Congress, you'll see execs defend the effectiveness of 
 
 The second area we looked at was support, which tends to get worse as companies get larger. At a high level, it's fair to say that companies don't care to provide decent support (with Amazon being somewhat of an exception here, especially with AWS, but even on the consumer side). Inside the system, there are individuals who care, but if you look at the fraction of resources expended on support vs. growth or even fun/prestige projects, support is an afterthought. Back when deepmind was training a StarCraft AI, it's plausible that Alphabet was spending more money playing Starcraft than on support agents (and, if not, just throw in one or two more big AI training projects and you'll be there, especially if you include the amortized cost of developing custom hardware, etc.).
 
-It's easy to see how little big companies care. All you have to do is contact support and get connected to someone who's paid $1/hr to respond to you in a language they barely know, attempting to help solve a problem they don't understand by walking through some flowchart, or appeal an issue and get told "after careful review, we have determined that you have \[done the opposite of what you actually did\]". In some cases, you don't even need to get that far, like when following Instagram's support instructions results in an infinite loop that takes you back where you started and the "click here if this wasn't you link returns a 404". I've run into an infinite loop like this once, with Verizon, and it persisted for at least six months. I didn't check after that, but I'd bet on it persisting for years. If you had an onboarding or sign-up page that had an issue like this, that would be considered a serious bug that people should prioritize because that impacts growth. But for something like account loss due to scammers taking over accounts, that might get fixed after months or years. Or maybe not.
+It's easy to see how little big companies care. All you have to do is contact support and get connected to someone who's paid $1/hr to respond to you in a language they barely know, attempting to help solve a problem they don't understand by walking through some flowchart, or appeal an issue and get told "after careful review, we have determined that you have \[done the opposite of what you actually did\]". In some cases, you don't even need to get that far, like when [following Instagram's support instructions results in an infinite loop that takes you back where you started](https://mastodon.social/@alexjsp/109760284680279691) and the ["click here if this wasn't you link returns a 404"](https://news.ycombinator.com/item?id=34549132). I've run into an infinite loop like this once, with Verizon, and it persisted for at least six months. I didn't check after that, but I'd bet on it persisting for years. If you had an onboarding or sign-up page that had an issue like this, that would be considered a serious bug that people should prioritize because that impacts growth. But for something like account loss due to scammers taking over accounts, that might get fixed after months or years. Or maybe not.
 
 If you ever talk to people who work in support at a company that really cares about support, it's immediately obvious that they operate completely different from typical big tech company support, in terms of process as well as culture. Another way you can tell that big companies don't care about support is how often big company employees and execs who've never looked into how support is done or could be done will tell you that it's impossible to do better.
 
-When you talk to people who work on support at companies that do actually care about this, it's apparent that it can be done much better. While I was writing this post, I actually did support at a company that does support decently well (for a tech company, adjusted for size, I'd say they're well above 99%-ile), including going through the training and onboarding process for support folks. Executing anything well at scale is non-trivial, so I don't mean to downplay how good their support org is, but the most striking thing to me was how much of the effectiveness of the org naturally followed from caring about providing a good support experience for the user. A full discussion of what that means is too long to include here, so we'll look at this in more detail another time, but one example is that, when we look at how big company support responds, it's often designed to discourage the user from responding ("this review is final") or to justify, putatively to the user, that the company is doing an adequate job ("this was not a purely automated process and each appeal was reviewed by humans in a robust process that ... "). This company's training instructs you to do the opposite of the standard big company "please go away"-style and "we did a great job and have a robust process, therefore complaints are invalid"-style responses. For every anti-pattern you commonly see in support, the training tells you to do the opposite and discusses why the anti-pattern results in a bad user experience. Moreover, the culture has deeply absorbed these ideas (or rather, these ideas come out of the culture) and there are processes for ensuring that people really know what it means to provide good support and follow through on it, support folks have ways to directly talk to the developers who are implementing the product, etc.
+When you talk to people who work on support at companies that do actually care about this, it's apparent that it can be done much better. While I was writing this post, I actually did support at a company that does support decently well (for a tech company, adjusted for size, I'd say they're well above [99%-ile](/p95-skill/)), including going through the training and onboarding process for support folks. [Executing anything well at scale is non-trivial](/sounds-easy/), so I don't mean to downplay how good their support org is, but the most striking thing to me was how much of the effectiveness of the org naturally followed from caring about providing a good support experience for the user. A full discussion of what that means is too long to include here, so we'll look at this in more detail another time, but one example is that, when we look at how big company support responds, it's often designed to discourage the user from responding ("this review is final") or to justify, putatively to the user, that the company is doing an adequate job ("this was not a purely automated process and each appeal was reviewed by humans in a robust process that ... "). This company's training instructs you to do the opposite of the standard big company "please go away"-style and "we did a great job and have a robust process, therefore complaints are invalid"-style responses. For every anti-pattern you commonly see in support, the training tells you to do the opposite and discusses why the anti-pattern results in a bad user experience. Moreover, the culture has deeply absorbed these ideas (or rather, these ideas come out of the culture) and there are processes for ensuring that people really know what it means to provide good support and follow through on it, support folks have ways to directly talk to the developers who are implementing the product, etc.
 
 If people cared about doing good support, they could talk to people who work in support orgs that are good at helping users or even try working in one before explaining how it's impossible to do better, but this generally isn't done. Their company's support org leadership could do this as well, or do what I did and actually directly work in a support role in an effective support org, but this doesn't happen. If you're a cynic, this all makes sense. In the same way that cynics advise junior employees "big company HR isn't there to help you; their job is to protect the company", a cynic can credibly argue "big company support isn't there to help the user; their job is to protect the company", so of course big companies don't try to understand how companies that are good at supporting users do support because that's not what big company support is for.
 
 The third area we looked at was how it's impossible for people to agree on how a platform should operate and how people's biases mean that people don't understand how difficult a problem this is. For Americans, a prominent case of this are the left and right wing conspiracy theories that pop up every time some bug pseudo-randomly causes any kind of service disruption or banning.
 
-In a tweet, Ryan Greeberg joked:
+[In a tweet, Ryan Greeberg joked](https://twitter.com/greenberg/status/872115047769788418):
 
 > Come work at Twitter, where your bugs TODAY can become conspiracy theories of TOMORROW!
 
-In my social circles, people like to make fun of all of the absurd right-wing conspiracy theories that get passed around after some bug causes people to incorrectly get banned, causes the site not to load, etc., or even when some new ML feature correctly takes down a huge network of scam/spam bots, which also happens to reduce the follower count of some users. But of course this isn't unique to the right, and left-wing thought leaders and politicians come up with their own conspiracy theories as well.
+In my social circles, people like to make fun of all of the absurd right-wing conspiracy theories that get passed around after some bug causes people to incorrectly get banned, causes the site not to load, etc., or even when some new ML feature correctly takes down a huge network of scam/spam bots, which also happens to reduce the follower count of some users. But of course this isn't unique to the right, and left-wing thought leaders and [politicians come up with their own conspiracy theories as well](https://twitter.com/altluu/status/1588573465359319041/).
 
-Putting all three of these together, worse detection of issues, worse support, and a harder time reaching agreement on policies, we end with the situation we noted at the start where, in a poll of my Twitter followers, people who mostly work in tech and are generally fairly technically savvy, only 2.6% of people thought that the biggest companies were the best at moderation and spam/fraud filtering, so it might seem a bit silly to spend so much time belaboring the point. When you sample the U.S population at large, a larger fraction of people say they believe in conspiracy theories like vaccines putting a microchip in you or that we never landed on the moon, and I don't spend my time explaining why vaccines do not actually put a microchip in you or why it's reasonable to think that we landed on the moon. One reason that would perhaps be reasonable is that I've been watching the "only big companies can handle these issues" rhetoric with concern as it catches on among non-technical people, like regulators, lawmakers, and high-ranking government advisors, who often listen to and then regurgitate nonsense. Maybe next time you run into a lay person who tells you that only the largest companies could possibly handle these issues, you can politely point out that there's very strong consensus the other way among tech folks5.
+Putting all three of these together, worse detection of issues, worse support, and a harder time reaching agreement on policies, we end with the situation we noted at the start where, in a poll of my Twitter followers, people who mostly work in tech and are generally fairly technically savvy, only [2.6% of people thought that the biggest companies were the best at moderation and spam/fraud filtering](https://twitter.com/danluu/status/1570604630350106624), so it might seem a bit silly to spend so much time belaboring the point. When you sample the U.S population at large, a larger fraction of people say they believe in conspiracy theories like vaccines putting a microchip in you or that we never landed on the moon, and I don't spend my time explaining why vaccines do not actually put a microchip in you or why it's reasonable to think that we landed on the moon. One reason that would perhaps be reasonable is that I've been watching the "only big companies can handle these issues" rhetoric with concern as it catches on among non-technical people, like regulators, lawmakers, and [high-ranking government advisors, who often listen to and then regurgitate nonsense](https://twitter.com/altluu/status/1484718002046070784). Maybe next time you run into a lay person who tells you that only the largest companies could possibly handle these issues, you can politely point out that there's very strong consensus the other way among tech folks[5](#fn:A).
 
-**If you're a founder or early-stage startup looking for an auth solution, PropelAuth is targeting your use case**. Although they can handle other use cases, they're currently specifically trying to make life easier for pre-launch startups that haven't invested in an auth solution yet. Disclaimer: I'm an investor
+**[If you're a founder or early-stage startup looking for an auth solution, PropelAuth is targeting your use case](https://www.propelauth.com/?utm_source=danluu.com)**. Although they can handle other use cases, they're currently specifically trying to make life easier for pre-launch startups that haven't invested in an auth solution yet. Disclaimer: I'm an investor
 
 _Thanks to Gary Bernhardt, Peter Bhat Harkins, Laurence Tratt, Dan Gackle, Sophia Wisdom, David Turner, Yossi Kreinin, Justin Blank, Ben Cox, Horace He, @borzhemsky, Kevin Burke, Bert Muthalaly, Sasuke, anonymous, Zach Manson, Joachim Schipper, Tony D'Souza, and @GL1zdA for comments/corrections/discussion._
 
@@ -178,15 +178,15 @@ This post has focused on the disadvantages of bigness, but we can also flip this
 
 As mentioned, the best experiences I've had on platforms are a side effect of doing things that don't scale. One thing that can work well is to have a single person, with a single vision, handling the entire site or, when that's too big, a key feature of the site.
 
-I'm on a number of small discords that have good discussion and essentially zero scams, spam, etc. The strategy for this is simple; the owner of the channel reads every message and bans and scammers or spammers who show up. When you get to a bigger site, like lobste.rs, or even bigger like HN, that's too large for someone to read every message (well, this could be done for lobste.rs, but considering that it's a spare-time pursuit for the owner and the volume of messages, it's not reasonable to expect them to read every message in a short timeframe), but there's still a single person who provides the vision for what should happen, even if the sites are large enough that it's not reasonable to literally read every message. The "no vehicles in the park" problem doesn't apply here because a person decides what the policies should be. You might not like those policies, but you're welcome to find another small forum or start your own (and this is actually how lobste.rs got started — under HN's previous moderation regime, which was known for banning people who disagreed with them, Joshua Stein was banned for publicly disagreeing with an HN policy, so Joshua created lobsters (and then eventually handed it off to Peter Bhat Harkins).
+I'm on a number of small discords that have good discussion and essentially zero scams, spam, etc. The strategy for this is simple; the owner of the channel reads every message and bans and scammers or spammers who show up. When you get to a bigger site, like lobste.rs, or even bigger like HN, that's too large for someone to read every message (well, this could be done for lobste.rs, but considering that it's a spare-time pursuit for the owner and the volume of messages, it's not reasonable to expect them to read every message in a short timeframe), but there's still a single person who provides the vision for what should happen, even if the sites are large enough that it's not reasonable to literally read every message. The "no vehicles in the park" problem doesn't apply here because a person decides what the policies should be. You might not like those policies, but you're welcome to find another small forum or start your own (and this is actually how lobste.rs got started — under [HN's previous moderation regime, which was known for banning people who disagreed](https://news.ycombinator.com/item?id=4108008) with them, [Joshua Stein was banned for publicly disagreeing with an HN policy](https://jcs.org/2012/06/13/hellbanned_from_hacker_news), so Joshua created lobsters (and then eventually handed it off to Peter Bhat Harkins).
 
-There's also this story about craigslist in the early days, as it was just getting big enough to have a serious scam and spam problem
+[There's also this story about craigslist in the early days, as it was just getting big enough to have a serious scam and spam problem](https://metatalk.metafilter.com/20206/WWIC)
 
 > ... we were stuck at SFO for something like four hours and getting to spend half a workday sitting next to Craig Newmark was pretty awesome.
 > 
 > I'd heard Craig say in interviews that he was basically just "head of customer service" for Craigslist but I always thought that was a throwaway self-deprecating joke. Like if you ran into Larry Page at Google and he claimed to just be the janitor or guy that picks out the free cereal at Google instead of the cofounder. But sitting next to him, I got a whole new appreciation for what he does. He was going through emails in his inbox, then responding to questions in the craigslist forums, and hopping onto his cellphone about once every ten minutes. Calls were quick and to the point "Hi, this is Craig Newmark from craigslist.org. We are having problems with a customer of your ISP and would like to discuss how we can remedy their bad behavior in our real estate forums". He was literally chasing down forum spammers one by one, sometimes taking five minutes per problem, sometimes it seemed to take half an hour to get spammers dealt with. He was totally engrossed in his work, looking up IP addresses, answering questions best he could, and doing the kind of thankless work I'd never seen anyone else do with so much enthusiasm. By the time we got on our flight he had to shut down and it felt like his giant pile of work got slightly smaller but he was looking forward to attacking it again when we landed.
 
-At some point, if sites grow, they get big enough that a person can't really own every feature and every moderation action on the site, but sites can still get significant value out of having a single person own something that people would normally think is automated. A famous example of this is how the Digg "algorithm" was basically one person:
+At some point, if sites grow, they get big enough that a person can't really own every feature and every moderation action on the site, but sites can still get significant value out of having a single person own something that people would normally think is automated. A famous example of this is how [the Digg "algorithm" was basically one person](https://news.ycombinator.com/item?id=36217321):
 
 > What made Digg work really was one guy who was a machine. He would vet all the stories, infiltrate all the SEO networks, and basically keep subverting them to keep the Digg front-page usable. Digg had an algorithm, but it was basically just a simple algorithm that helped this one dude 10x his productivity and keep the quality up.
 > 
@@ -202,13 +202,13 @@ At some point, if sites grow, they get big enough that a person can't really own
 > 
 > Who I am referring to was named Amar (his name is common enough I don't think I'm outing him). He was the SEO whisperer and "algorithm." He was literally like a spy. He would infiltrate the awful groups trying to game the front page and trick them into giving him enough info that he could identify their campaigns early, and kill them. All the while pretending to be an SEO loser like them.
 
-Etsy supposedly used the same strategy as well.
+[Etsy supposedly used the same strategy as well](https://mastodon.social/@ajroach42@retro.social/110499388858867441).
 
-Another class of advantage that small sites have over large ones is that the small site usually doesn't care about being large and can do things that you wouldn't do if you wanted to grow. For example, consider these two comments made in the midst of a large flamewar on HN
+Another class of advantage that small sites have over large ones is that the small site usually doesn't care about being large and can do things that you wouldn't do if you wanted to grow. For example, consider these two comments made in [the midst of a large flamewar on HN](https://news.ycombinator.com/item?id=39223766)
 
 > My wife spent years on Twitter embroiled in a very long running and bitter political / rights issue. She was always thoughtful, insightful etc. She'd spend 10 minutes rewording a single tweet to make sure it got the real point across in a way that wasn't inflammatory, and that had a good chance of being persuasive. With 5k followers, I think her most popular tweets might get a few hundred likes. The one time she got drunk and angry, she got thousands of supportive reactions, and her followers increased by a large % overnight. And that scared her. She saw the way "the crowd" was pushing her. Rewarding her for the smell of blood in the water.
 > 
-> I've turned off both the flags and flamewar detector on this article now, in keeping with the first rule of HN moderation, which is (I'm repeating myself but it's probably worth repeating) that we moderate HN less, not more, when YC or a YC-funded startup is part of a story ... Normally we would never late a ragestorm like this stay on the front page—there's zero intellectual curiosity here, as the comments demonstrate. This kind of thing is obviously off topic for HN: https://news.ycombinator.com/newsguidelines.html. If it weren't, the site would consist of little else. Equally obvious is that this is why HN users are flagging the story. They're not doing anything different than they normally would.
+> I've turned off both the flags and flamewar detector on this article now, in keeping with the first rule of HN moderation, which is (I'm repeating myself but it's probably worth repeating) that we moderate HN less, not more, when YC or a YC-funded startup is part of a story ... Normally we would never late a ragestorm like this stay on the front page—there's zero intellectual curiosity here, as the comments demonstrate. This kind of thing is obviously off topic for HN: [https://news.ycombinator.com/newsguidelines.html](https://news.ycombinator.com/newsguidelines.html). If it weren't, the site would consist of little else. Equally obvious is that this is why HN users are flagging the story. They're not doing anything different than they normally would.
 
 For a social media site, low-quality high-engagement flamebait is one of the main pillars that drive growth. HN, which cares more about discussion quality than growth, tries to detect and suppress these (with exceptions like criticism of HN itself, of YC companies like Stripe, etc., to ensure a lack of bias). Any social media site that aims to grow does the opposite; they implement a ranked feed that puts the content that is most enraging and most engaging in front of the people its algorithms predict will be the most enraged and engaged by it. For example, let's say you're in a country with very high racial/religious/factonal tensions, with regular calls for violence, etc. What's the most engaging content? Well, that would be content calling for the death of your enemies, so you get things a livestream of someone calling for the death of the other faction and then grabbing someone and beating them shown to a lot of people. After all, what's more engaging than a beatdown of your sworn enemy? A theme of Broken Code is that someone will find some harmful content they want to suppress, but then get overruled because that would reduce engagement and growth. HN has no such goal, so it has no problem suppressing or eliminating content that HN deems to be harmful.
 
@@ -224,13 +224,13 @@ If you actually try to spam, it's extremely easy to do so on large platforms and
 
 The theoretical reason here is one that would be significant if large companies were even remotely close to doing the kind of job they could do with the resources they have, but we're not even close to being there.
 
-To avoid belaboring the point in this already very long document, I've only listed a couple of examples here, but I find this pattern to hold true of almost every counterargument I've heard on this topic. If you actually look into it a bit, these theoretical arguments are classic cocktail party ideas that have little to no connection to reality.
+To avoid belaboring the point in this already very long document, I've only listed a couple of examples here, but I find this pattern to hold true of almost every counterargument I've heard on this topic. If you actually look into it a bit, these theoretical arguments are classic [cocktail party ideas that have little to no connection to reality](/cocktail-ideas/).
 
 A meta point here is that you absolutely cannot trust vaguely plausible sounding arguments from people on this since they virtually all of them fall apart when examined in practice. It seems quite reasonable to think that a business the size of reddit would have more sophisticated anti-spam systems than HN, which has a single person who both writes the code for the anti-spam systems and does the moderation. But the most naive and simplistic tricks you might use to put content on the front page work on reddit and don't work on HN. I'm not saying you can't defeat HN's system, but doing so would take a little bit of thought, which is not the case for reddit and Facebook. And likewise for support, where once you start talking to people about how to run a support org that's good for users, you immediately see that the most obvious things have not been seriously tried by big tech companies.
 
 ## Appendix: How much should we trust journalists' summaries of leaked documents?
 
-Overall, very little. As we discussed when we looked at the Cruise pedestrian accident report, almost every time I read a journalist's take on something (with rare exceptions like Zeynep), the journalist has a spin they're trying to put on the story and the impression you get from reading the story is quite different from the impression you get if you look at the raw source; it's fairly common that there's so much spin that the story says the opposite of what the source docs say. That's one issue.
+Overall, very little. As we discussed [when we looked at the Cruise pedestrian accident report](/cruise-report/), almost every time I read a journalist's take on something (with rare exceptions like Zeynep), the journalist has a spin they're trying to put on the story and the impression you get from reading the story is quite different from the impression you get if you look at the raw source; [it's fairly common that there's so much spin that the story says the opposite of what the source docs say](/gender-gap/). That's one issue.
 
 The full topic here is big enough that it deserves its own document, so we'll just look at two examples. The first is one we briefly looked at, when Eugene Zarashaw, a director at Facebook, testified in a Special Master’s Hearing. He said
 
@@ -244,7 +244,7 @@ For most people with relevant technical knowledge, who understand the kind of sy
 
 Despite this lengthy disclaimer, there are a few reasons that I feel comfortable citing Jeff Horwitz's Broken Code as well as a few stories that cover similar ground. The first is that, if you delete all of the references to these accounts, the points in this doc don't really change, just like they wouldn't change if you delete 50% of the user stories mentioned here. The second is that, at least for me, the most key part is the attitudes on display and not the specific numbers. I've seen similar attitudes in companies I've worked for and heard about them inside companies where I'm well connected via my friends and I could substitute similar stories from my friends, but it's nice to be able to use already-public sources instead of using anonymized stories from my friends, so the quotes about attitude are really just a stand-in for other stories which I can verify. The third reason is a bit too subtle to describe here, so we'll look at that when I expand this disclaimer into a standalone document.
 
-**If you're looking for work, Freshpaint is hiring (US remote) in engineering, sales, and recruiting**. Disclaimer: I may be biased since I'm an investor, but they seem to have found product-market fit and are rapidly growing.
+**[If you're looking for work, Freshpaint is hiring (US remote) in engineering, sales, and recruiting](https://jobs.ashbyhq.com/freshpaint/bfe56523-bff4-4ca3-936b-0ba15fb4e572?utm_source=dl)**. Disclaimer: I may be biased since I'm an investor, but they seem to have found product-market fit and are rapidly growing.
 
 ## Appendix: Erin Kissane on Meta in Myanmar
 
@@ -256,7 +256,7 @@ Erin starts with
 > 
 > From far away, I think Meta’s role in the Rohingya crisis can feel blurry and debatable—it was content moderation fuckups, right? In a country they weren’t paying much attention to? Unethical and probably negligent, but come on, what tech company isn’t, at some point?
 
-As discussed above, I have not looked into the details enough to determine if the claim that Facebook played a "determining role" in genocide are correct, but at a meta-level (no pun intended), it seems plausible. Every comment I've seen that aims to be a direction refutation of Erin's position is actually pre-refuted by Erin in Erin's text, so it appears that very few people who are publicly commenting who disagree with Erin read the articles before commenting (or they've read them and failed to understand what Erin is saying) and, instead, are disagreeing based on something other than the actual content. It reminds me a bit of the responses to David Jackson's proof of the four color theorem. Some people thought it was, finally, a proof, and others thought it wasn't.. Something I found interesting at the time was that the people who thought it wasn't a proof had read the paper and thought it seemed flawed, whereas the people who thought it was a proof were going off of signals like David's track record or the prestige of his institution. At the time, without having read the paper myself, I guessed (with low confidence) that the proof was incorrect based on the meta-heuristic that thoughts from people who read the paper were stronger evidence than things like prestige. Similarly, I would guess that Erin's summary is at least roughly accurate and that Erin's endorsement of the UN HRC fact-finding mission is correct, although I have lower confidence in this than in my guess about the proof because making a positive claim like this is harder than finding a flaw and the area is one where evaluating a claim is significantly trickier.
+As discussed above, I have not looked into the details enough to determine if the claim that Facebook played a "determining role" in genocide are correct, but at a meta-level (no pun intended), it seems plausible. Every comment I've seen that aims to be a direction refutation of Erin's position is actually pre-refuted by Erin in Erin's text, so it appears that very few people who are publicly commenting who disagree with Erin read the articles before commenting (or they've read them and failed to understand what Erin is saying) and, instead, are disagreeing based on something other than the actual content. [It reminds me a bit of the responses to David Jackson's proof of the four color theorem. Some people thought it was, finally, a proof, and others thought it wasn't.](https://twitter.com/danluu/status/1605675278822703104). Something I found interesting at the time was that the people who thought it wasn't a proof had read the paper and thought it seemed flawed, whereas the people who thought it was a proof were going off of signals like David's track record or the prestige of his institution. At the time, without having read the paper myself, I guessed (with low confidence) that the proof was incorrect based on the meta-heuristic that thoughts from people who read the paper were stronger evidence than things like prestige. Similarly, I would guess that Erin's summary is at least roughly accurate and that Erin's endorsement of the UN HRC fact-finding mission is correct, although I have lower confidence in this than in my guess about the proof because making a positive claim like this is harder than finding a flaw and the area is one where evaluating a claim is significantly trickier.
 
 Unlike with Broken Code, the source documents are available here and it would be possible to retrace Erin's steps, but since there's quite a bit of source material and the claims that would need additional reading and analysis to really be convinced and those claims don't play a determining role in the correctness of this document, I'll leave that for somebody else.
 
@@ -294,7 +294,7 @@ The details make this sound worse than a small excerpt, so I recommend reading t
 
 > As the Burmese civil society people in the private Facebook group finally learn, Facebook has a single Burmese-speaking moderator—a contractor based in Dublin—to review everything that comes in. The Burmese-language reporting tool is, as Htaike Htaike Aung and Victoire Rio put it in their timeline, “a road to nowhere."
 
-Since this was 2014, it's not fair to say that Meta could've spent the $50B metaverse dollars and hired 1.6 million moderators, but in 2014, it was still the 4th largest tech company in the world, worth $217B, with a net profit of $3B/yr, Meta would've "only" been able to afford something like 100k moderators and support staff if paid at a globally very generous loaded cost of $30k/yr (e.g., Jacobin notes that Meta's Kenyan moderators are paid $2/hr and don't get benefits). Myanmar's share of the global population was 0.7% and, let's say that you consider a developing genocide to be low priority and don't think that additional resources should be deployed to prevent or stop it and want to allocate a standard moderation share, then we have "only" have capacity for 700 generously paid moderation and support staff for Myanmar.
+Since this was 2014, it's not fair to say that Meta could've spent the $50B metaverse dollars and hired 1.6 million moderators, but in 2014, it was still the 4th largest tech company in the world, worth $217B, with a net profit of $3B/yr, Meta would've "only" been able to afford something like 100k moderators and support staff if paid at a globally very generous loaded cost of $30k/yr (e.g., [Jacobin notes that Meta's Kenyan moderators are paid $2/hr](https://jacobin.com/2023/06/meta-is-trying-and-failing-to-crush-unions-in-kenya) and don't get benefits). Myanmar's share of the global population was 0.7% and, let's say that you consider a developing genocide to be low priority and don't think that additional resources should be deployed to prevent or stop it and want to allocate a standard moderation share, then we have "only" have capacity for 700 generously paid moderation and support staff for Myanmar.
 
 On the other side of the fence, there actually were 700 people:
 
@@ -322,9 +322,9 @@ To be clear, I'm not saying that Facebook has a significantly worse rate of catc
 
 ## Appendix: elsewhere
 
-* Anna Lowenhaupt Tsing's On Nonscalability: The Living World Is Not Amenable to Precision-Nested Scales
-* Glen Weyl on radical solutions to the concentration of corporate power
-* Zvi's collection of Quotes from Moral Mazes
+* Anna Lowenhaupt Tsing's [On Nonscalability: The Living World Is Not Amenable to Precision-Nested Scales](https://asletaiwan.org/wp-content/uploads/2021/10/On-nonscalability.pdf)
+* [Glen Weyl on radical solutions to the concentration of corporate power](https://www.econtalk.org/glen-weyl-on-antitrust-capitalism-and-radical-reform)
+* [Zvi's collection of Quotes from Moral Mazes](https://thezvi.wordpress.com/2019/05/30/quotes-from-moral-mazes/)
 
 ## Appendix: Moderation and filtering fails
 
@@ -354,846 +354,846 @@ Anyway, below, in a few cases, I've mentioned when commenters blame the user eve
 
 ### Google
 
-* "I had to get the NY attorney general to write them a letter before they would actually respond to my support requests so that I could properly file my taxes"
-* Google photo search for gorilla returns photos of black people, fixed after Twitter thread about this goes viral; 3 years later, there are stories in the press about how Google fixed this by blocking search results for the terms "gorilla", "chimp", "chimpanzee", and "monkey" and has not unblocked the terms
- * On 2024-01-06, I tried uploading a photo of a gorilla and searching for gorilla, which returned no results both immediately after the upload as well as a few weeks later, so this still appears to be blocked?
-* Google suspends a YouTuber for impersonating themselves; on appeal YouTube says "unfortunate, there's not more we can do on our end. your account suspension & appeal were very carefully reviewed & the decision is final ... we really appreciate your understanding".
- * Channel restored after viral Twitter thread makes it to the front page of HN.
-* Two different users report having their account locked out after moving; no recovery of account
-* Google closed the accounts of everyone who bought a phone and then sold it to a particular person who was buying phones, resulting in emails to their email address getting bounced, inability to auth to anything using Google sign-in, etc.; at least one user whose account was a recovery account for someone who bought and sold a phone also had their accounted closed; Dans Deals wrote this up and people's accounts were reinstated after the story went viral
-* Google Cloud reduces quota for user, causing an incident, and then won't increase it again
- * User tries to find out what's going on and has this discussion:
- * **GCP support**: You exceeded the rate limit
- * **User**: We did 5000/10min. The quota was approved at 18k/min
- * **GCP support**: That's not the rate limit
- * **User**: What's the rate limit
- * **GCP support**: Not sure have to check with that team
- * So it seems like GCP added some kind of internal rate limiting that's stricter than the user's approved quota?
- * A commenter responds with "if you don’t buy support from GCP _you have no support_." and other users note that paying for support can also give you no support
-* Google accepts fake DMCA takedown requests even in cases that are very obviously fake
- * An official Google comment on this is the standard response that there are robust processes for this "We have robust tools and processes in place to fight fraudulent takedown attempts, and we use a combination of automated and human review to detect signals of abuse – including tactics that are well-known to us like backdating. We provide extensive transparency and submit notices to Lumen about removal requests to hold requesters accountable. Sites can file counter notifications for us to re-review if they believe content has been removed from our results in error. We track networks of abuse and apply extra scrutiny to removal requests where appropriate, and we’ve taken legal action to fight bad actors abusing the DMCA"
-* Small business app creator has everything shut down pending "verification" of Google Pay
- * Support did nothing and GCP refused to look into it until this story hit #1 on HN, at which point someone looked into it and fixed it
-* Lobbying group representing Google, Apple, etc., is able to insert the language they want directly into a right to repair bill, excluding many devices from the actual right to repair.
- * "“We had every environmental group walking supporting this bill,” Fahy told Grist. “What hurt this bill is Big Tech was opposed to it.”"
-* File containing a single line with "1" in it restricted on Google Drive due to copyright infringement; appeal denied
- * HN readers play around and find that files containing just "0" also get flagged for copyright violation
- * issue fixed after viral Twitter thread
+* ["I had to get the NY attorney general to write them a letter before they would actually respond to my support requests so that I could properly file my taxes"](https://twitter.com/danluu/status/1308215389344600066)
+* [Google photo search for gorilla returns photos of black people](https://www.theverge.com/2018/1/12/16882408/google-racist-gorillas-photo-recognition-algorithm-ai), fixed after Twitter thread about this goes viral; 3 years later, there are stories in the press about how Google fixed this by blocking search results for the terms "gorilla", "chimp", "chimpanzee", and "monkey" and has not unblocked the terms
+    * On 2024-01-06, I tried uploading a photo of a gorilla and searching for gorilla, which returned no results both immediately after the upload as well as a few weeks later, so this still appears to be blocked?
+* [Google suspends a YouTuber for impersonating themselves](https://news.ycombinator.com/item?id=35521345); on appeal YouTube says "unfortunate, there's not more we can do on our end. your account suspension & appeal were very carefully reviewed & the decision is final ... we really appreciate your understanding".
+    * Channel restored after viral Twitter thread makes it to the front page of HN.
+* [Two different users report having their account locked out after moving; no recovery of account](https://twitter.com/danluu/status/800777306612449280)
+* [Google closed the accounts of everyone who bought a phone and then sold it to a particular person who was buying phones, resulting in emails to their email address getting bounced, inability to auth to anything using Google sign-in, etc.](https://twitter.com/danluu/status/799102941923667968); at least one user whose account was a recovery account for someone who bought and sold a phone also had their accounted closed; Dans Deals wrote this up and people's accounts were reinstated after the story went viral
+* [Google Cloud reduces quota for user, causing an incident, and then won't increase it again](https://nitter.net/JustJake/status/1667478906591666176)
+    * User tries to find out what's going on and has this discussion:
+        * **GCP support**: You exceeded the rate limit
+        * **User**: We did 5000/10min. The quota was approved at 18k/min
+        * **GCP support**: That's not the rate limit
+        * **User**: What's the rate limit
+        * **GCP support**: Not sure have to check with that team
+    * So it seems like GCP added some kind of internal rate limiting that's stricter than the user's approved quota?
+    * A commenter responds with "if you don’t buy support from GCP _you have no support_." and other users note that paying for support can also give you no support
+* [Google accepts fake DMCA takedown requests even in cases that are very obviously fake](https://taxpolicy.org.uk/2024/02/17/the-invisible-campaign-to-censor-the-internet/)
+    * An official Google comment on this is the standard response that there are robust processes for this "We have robust tools and processes in place to fight fraudulent takedown attempts, and we use a combination of automated and human review to detect signals of abuse – including tactics that are well-known to us like backdating. We provide extensive transparency and submit notices to Lumen about removal requests to hold requesters accountable. Sites can file counter notifications for us to re-review if they believe content has been removed from our results in error. We track networks of abuse and apply extra scrutiny to removal requests where appropriate, and we’ve taken legal action to fight bad actors abusing the DMCA"
+* [Small business app creator has everything shut down pending "verification" of Google Pay](https://news.ycombinator.com/item?id=33737577)
+    * Support did nothing and GCP refused to look into it until this story hit #1 on HN, at which point someone looked into it and fixed it
+* [Lobbying group representing Google, Apple, etc., is able to insert the language they want directly into a right to repair bill](https://grist.org/technology/right-to-repair-new-york-hochul-big-tech-lobbying-law/), excluding many devices from the actual right to repair.
+    * "“We had every environmental group walking supporting this bill,” Fahy told Grist. “What hurt this bill is Big Tech was opposed to it.”"
+* [File containing a single line with "1" in it restricted on Google Drive due to copyright infringement; appeal denied](https://nitter.net/emilyldolson/status/1485434187968614411)
+    * HN readers play around and find that files containing just "0" also get flagged for copyright violation
+    * [issue fixed after viral Twitter thread](https://news.ycombinator.com/item?id=30060405)
 * In 2016, Fark has ads disabled when a photograph of a clothed adult posted in 2010 is incorrectly flagged as child porn; appeals process takes 5 weeks
- * Fark notes that they had similar problems in 2013 because an image was flagged as showing too much skin
-* Pixel 6 freezes when calling emergency services
- * a user notes that they reported the issue almost 4 years before this complaint on an earlier Pixel and the issue was "escalated" but was still an issue ~8 months before the previous complaint
- * A Google official account responded that the freeze was due to Microsoft Teams, but the user notes they've never used or even installed Microsoft Teams (there was an actual issue where Teams would block emergency calls, but that was not this user's issue)
-* Account locked and information sent to SFPD after father takes images of son's groin to send to doctor, causing an SFPD investigation; SFPD cleared the father of any wrongdoing, but Google "stands by its decision", doesn't unlock the account
- * Google spokesperson says "We follow US law in defining what constitutes CSAM and use a combination of hash matching technology and artificial intelligence to identify it and remove it from our platforms," 
- 
-* Google cloud suspends corporate account, causing outage; there was a billing bug and the owner of the account paid and was assured that their account wouldn't be suspended due to the bug, but that was false and the account got suspended anyway
- * HN commenter suggests that "engineers that lack business experience" reach out to their account managers once they have significant spend; multiple people respond and say that they've done this and it didn't help at all
-* Company locked out of their own domain on Google Workspaces; support refused to fix this
-* Google cloud account suspended because someone stole the CC numbers for the corporate card and made a fraudulent adwords charge
-* Journalist's YouTube account incorrectly demonetized
- * fixed after 7 months of appealing and a viral Twitter thread
-* Ads account suspended; an educated guess is that some ML fraud signals plus using a Brex card led to the suspension
- * card works when paying for many other Google services
-* Person's credit card stops working with Google accounts after using it to pay on multiple accounts
- * guessed to be due to an incorrect anti-fraud check
-* Ads account suspended for "suspicious payments" even though the same card is used for many other Google payments, which are not suspended
- * after multiple appeals that fail, the former Google employee talks to internal contacts to get escalations, which also fail and the ads account stays suspended
-* Google Play account banned for no known reason
- * the link Google provides to file the appeal can't be access with a banned account
- * the user had two apps using one API, so it counted as two separate violations at once, so the account was banned for "multiple violations"
-* Google ads account for a small non-profit banned due to "unpaid balance"
- * Balance reads $0.00 but appealing ban fails
-* Google ads account banned after account automatically switched to Japanese and then payment is made with an American card
-* Google sheet with public election information incorrectly removed for "phishing"
- * restored after viral HN thread
-* User account disabled and photos, etc., lost with no information on why and no information for why the appeal was rejected
- * ex-Google engineer unable to escalate to anyone who can restore account 
- 
-* 10-year old YouTube channel with 120M views scheduled for deletion due copyright claims (no information provided to channel creator about what the copyright infringement was)
- * channel eventually saved after Twitter thread went viral
-* FairEmail and Netguard app developer removes apps after giving up on fight with Google over whether or not FairEmail is Spyware
- * app later restored sometime after viral HN thread
-* App banned from Play store because a button says "Report User" and not "Report"
-* User gets banned from GCP for running the code on Google's own GCP tutorials
-* Youtube comment anti-spam considered insufficient, so a user creates their own YT anti spam
-* Search for product reviews generally returns SEO linkfarm spam and not useful results
- * See also, my post on the same topic
-* Google account with thousands of dollars of apps banned from Google with no information on what happened and appeals rejected
- * account eventually restored after viral Twitter thread
-* Linux Experiments Youtube Channel deleted with no reason given
- * channel restored shortly after viral Twitter and HN threads
-* Warranty replacement Google Pixel 7 Pro is carrier locked to the wrong carrier and, even though user is in Australia, the phone is locked to a U.S. carrier
- * User has gone to Google support 8 times over 1 month and Google support has incorrectly told user 8 times that the phone is unlocked, so user has had no usable phone for 1 month; the carrier the phone is locked to agrees that the phone is incorrectly carrier locked, but they can't do anything about it since the original purchaser of the phone would have to call the carrier, but apparently the warranty replacement is a locked, used, phone
- * Possibly due to the reddit thread, Google support agrees to swap user's phone, but support continues to insist that the phone is not carrier locked
-* Malware uses Google OAuth to hijack accounts
- * Google claims they've mitigated this for all accounts that were compromised, which could be true
-* GCP account suspended for no discernable reason after years of use
- * Support was useless, but since the user used to work at Google, they emailed a former co-worker who sent an internal email, which caused the issue to get fixed immediately
-* Obviously fake Google reviews for movie not removed for quite some time (obviously fake because many reviews copy+paste the exact same text)
-* Google doesn't detect obviously fake restaurant reviews
- * I've noticed this as well locally — a new restaurant will have 100+ 5 star reviews, almost all of which look extremely fake; these reviews generally don't get removed, even years later
-* Owner and developer at SaaS app studio 7 out of 100 apps (that use the same code) start getting rejected from app store
- * The claimed reason is that the apps allow user generated content (UGC) and therefore need a way to block and report the content, but the apps already have this
- * The developer keeps emailing support, explaining that they already have this and support keeps responding with nonsense like "We confirm that your app ... does not contain functionality to report objectionable content ... For more information or a refresher, we strongly recommend that you review our e-learning course on UGC before resubmission."
- * All attempts to escalate were also rejected, e.g., "Can you escalate this?" was responded to with "Unfortunately, we do not handle this kind of concern. You may continue to communicate with the appropriate team for further assistance in resolving your issue. Please understand that I am not part of the review team so I'm not able to give further information about your concern. I again apologize for the inconvenience." and then "As much as I'd like to help, I'm not able to assist you further. If you don't have any other concerns, I will now have to end our chat to assist other developers. I apologize and thank you for understanding. Have a great day. Bye!"
- * Multiple developers suggest that instead of interacting with Google support as if anyone actually pays attention or cares, you should re-submit your app with some token change, such as incrementing an internal build number; because Google's review process is nonsense, even serious concerns can be bypassed this way. The idea is that it's a mistake to think that the content of their messages makes any sense at all and that you're dealing with anything resembling a rational entity (see also.
-* Google groups is a massive source of USENET spam
-* Google groups is a massive source of USENET spam
-* Google groups is a massive source of USENET spam
-* Google groups is a massive source of email spam; a Google employee put information about this into a ticket, which did not fix the issue, nor does setting "can't add me to groups"
-* Google locks user out by ignoring authenticated phone number change and only sending auth text to old number
+    * Fark notes that they had similar problems in 2013 because an image was flagged as showing too much skin
+* [Pixel 6 freezes when calling emergency services](https://news.ycombinator.com/item?id=32713375)
+    * [a user notes that they reported the issue almost 4 years before this complaint on an earlier Pixel and the issue was "escalated" but was still an issue ~8 months before the previous complaint](https://www.reddit.com/r/GooglePixel/comments/rfld6m/pixel_prevented_me_from_calling_emergency/)
+    * [A Google official account responded that the freeze was due to Microsoft Teams, but the user notes they've never used or even installed Microsoft Teams (there was an actual issue where Teams would block emergency calls, but that was not this user's issue)](https://www.reddit.com/r/GooglePixel/comments/r4xz1f/comment/hnrvsr1/?utm_source=share&utm_medium=web2x&context=3)
+* [Account locked and information sent to SFPD after father takes images of son's groin to send to doctor, causing an SFPD investigation; SFPD cleared the father of any wrongdoing, but Google "stands by its decision", doesn't unlock the account](https://news.ycombinator.com/item?id=32560361)
+    * Google spokesperson says "We follow US law in defining what constitutes CSAM and use a combination of hash matching technology and artificial intelligence to identify it and remove it from our platforms," 
+        
+* [Google cloud suspends corporate account, causing outage; there was a billing bug and the owner of the account paid and was assured that their account wouldn't be suspended due to the bug, but that was false and the account got suspended anyway](https://news.ycombinator.com/item?id=32547912)
+    * [HN commenter suggests that "engineers that lack business experience" reach out to their account managers once they have significant spend; multiple people respond and say that they've done this and it didn't help at all](https://news.ycombinator.com/item?id=32551587)
+* [Company locked out of their own domain on Google Workspaces; support refused to fix this](https://news.ycombinator.com/item?id=33737793)
+* [Google cloud account suspended because someone stole the CC numbers for the corporate card and made a fraudulent adwords charge](https://news.ycombinator.com/item?id=32548808)
+* [Journalist's YouTube account incorrectly demonetized](https://nitter.net/FordFischer/status/1136334778670518273)
+    * fixed after 7 months of appealing and a viral Twitter thread
+* [Ads account suspended; an educated guess is that some ML fraud signals plus using a Brex card led to the suspension](https://news.ycombinator.com/item?id=32237445)
+    * card works when paying for many other Google services
+* [Person's credit card stops working with Google accounts after using it to pay on multiple accounts](https://news.ycombinator.com/item?id=32238158)
+    * guessed to be due to an incorrect anti-fraud check
+* [Ads account suspended for "suspicious payments" even though the same card is used for many other Google payments, which are not suspended](https://news.ycombinator.com/item?id=32238092)
+    * after multiple appeals that fail, the former Google employee talks to internal contacts to get escalations, which also fail and the ads account stays suspended
+* [Google Play account banned for no known reason](https://news.ycombinator.com/item?id=32239118)
+    * the link Google provides to file the appeal can't be access with a banned account
+    * the user had two apps using one API, so it counted as two separate violations at once, so the account was banned for "multiple violations"
+* [Google ads account for a small non-profit banned due to "unpaid balance"](https://news.ycombinator.com/item?id=32238717)
+    * Balance reads $0.00 but appealing ban fails
+* [Google ads account banned after account automatically switched to Japanese and then payment is made with an American card](https://news.ycombinator.com/item?id=32238041)
+* [Google sheet with public election information incorrectly removed for "phishing"](https://news.ycombinator.com/item?id=32084980)
+    * restored after viral HN thread
+* [User account disabled and photos, etc., lost with no information on why and no information for why the appeal was rejected](https://nitter.net/miguelytob/status/1315749803041619981)
+    * ex-Google engineer unable to escalate to anyone who can restore account 
+        
+* [10-year old YouTube channel with 120M views scheduled for deletion due copyright claims (no information provided to channel creator about what the copyright infringement was)](https://nitter.net/GarethEvansYT/status/1308795658162319361)
+    * channel eventually saved after Twitter thread went viral
+* [FairEmail and Netguard app developer removes apps after giving up on fight with Google over whether or not FairEmail is Spyware](https://news.ycombinator.com/item?id=31432334)
+    * app later restored sometime after viral HN thread
+* [App banned from Play store because a button says "Report User" and not "Report"](https://nitter.net/hermux/status/1371383715381805061)
+* [User gets banned from GCP for running the code on Google's own GCP tutorials](https://news.ycombinator.com/item?id=33739658)
+* [Youtube comment anti-spam considered insufficient](https://news.ycombinator.com/item?id=30912187), so a user creates their own YT anti spam
+* [Search for product reviews generally returns SEO linkfarm spam and not useful results](https://nitter.net/garybernhardt/status/1336428596265504768)
+    * See also, [my post on the same topic](/seo-spam/)
+* [Google account with thousands of dollars of apps banned from Google with no information on what happened and appeals rejected](https://nitter.net/garybernhardt/status/1359925407819198473)
+    * account eventually restored after viral Twitter thread
+* [Linux Experiments Youtube Channel deleted with no reason given](https://news.ycombinator.com/item?id=28443244)
+    * [channel restored shortly after viral Twitter and HN threads](https://news.ycombinator.com/item?id=28448329)
+* [Warranty replacement Google Pixel 7 Pro is carrier locked to the wrong carrier and, even though user is in Australia, the phone is locked to a U.S. carrier](https://www.reddit.com/r/GooglePixel/comments/18wtcq6/pixel_7_pro_warranty_replacement_returned_with/)
+    * User has gone to Google support 8 times over 1 month and Google support has incorrectly told user 8 times that the phone is unlocked, so user has had no usable phone for 1 month; the carrier the phone is locked to agrees that the phone is incorrectly carrier locked, but they can't do anything about it since the original purchaser of the phone would have to call the carrier, but apparently the warranty replacement is a locked, used, phone
+    * Possibly due to the reddit thread, Google support agrees to swap user's phone, but support continues to insist that the phone is not carrier locked
+* [Malware uses Google OAuth to hijack accounts](https://news.ycombinator.com/item?id=38806650)
+    * Google claims they've mitigated this for all accounts that were compromised, which could be true
+* [GCP account suspended for no discernable reason after years of use](https://news.ycombinator.com/item?id=33737772)
+    * Support was useless, but since the user used to work at Google, they emailed a former co-worker who sent an internal email, which caused the issue to get fixed immediately
+* [Obviously fake Google reviews for movie not removed for quite some time](https://www.reddit.com/r/OutOfTheLoop/comments/18tz779/whats_going_on_with_the_google_reviews_for/) (obviously fake because many reviews copy+paste the exact same text)
+* [Google doesn't detect obviously fake restaurant reviews](https://news.ycombinator.com/item?id=38772187)
+    * I've noticed this as well locally — a new restaurant will have 100+ 5 star reviews, almost all of which look extremely fake; these reviews generally don't get removed, even years later
+* [Owner and developer at SaaS app studio 7 out of 100 apps (that use the same code) start getting rejected from app store](https://danfitdegree.hashnode.dev/nothing-has-ever-angered-me-more-than-the-google-play-team)
+    * The claimed reason is that the apps allow user generated content (UGC) and therefore need a way to block and report the content, but the apps already have this
+    * The developer keeps emailing support, explaining that they already have this and support keeps responding with nonsense like "We confirm that your app ... does not contain functionality to report objectionable content ... For more information or a refresher, we strongly recommend that you review our e-learning course on UGC before resubmission."
+    * All attempts to escalate were also rejected, e.g., "Can you escalate this?" was responded to with "Unfortunately, we do not handle this kind of concern. You may continue to communicate with the appropriate team for further assistance in resolving your issue. Please understand that I am not part of the review team so I'm not able to give further information about your concern. I again apologize for the inconvenience." and then "As much as I'd like to help, I'm not able to assist you further. If you don't have any other concerns, I will now have to end our chat to assist other developers. I apologize and thank you for understanding. Have a great day. Bye!"
+    * [Multiple developers suggest that instead of interacting with Google support as if anyone actually pays attention or cares, you should re-submit your app with some token change, such as incrementing an internal build number](https://news.ycombinator.com/item?id=33632886); because Google's review process is nonsense, even serious concerns can be bypassed this way. The idea is that it's a mistake to think that the content of their messages makes any sense at all and that you're dealing with anything resembling a rational entity ([see also](https://news.ycombinator.com/item?id=33636755).
+* [Google groups is a massive source of USENET spam](https://news.ycombinator.com/item?id=38649931)
+* [Google groups is a massive source of USENET spam](https://news.ycombinator.com/item?id=38649772)
+* [Google groups is a massive source of USENET spam](https://news.ycombinator.com/item?id=38649630)
+* [Google groups is a massive source of email spam; a Google employee put information about this into a ticket, which did not fix the issue, nor does setting "can't add me to groups"](https://news.ycombinator.com/item?id=38650333)
+* [Google locks user out by ignoring authenticated phone number change and only sending auth text to old number](https://mas.to/@kissane/111575585854309686)
 * I had an issue related to the above, where I was once locked out of Google accounts while traveling because I only took my code generator and left my 2FA tokens at home; this was in the relatively early days of 2FA tokens and I added the tokens to reduce the odds that I would be locked out, because the documentation indicated that I would need any of my 2FA methods to be available to not get locked out; in fact, this is false, and Google will sometimes only let you authenticate with specific methods, so adding more methods actually increases the chances you'll get locked out if your concern is that you may lose a method and then lose access to your account
-* Google allows user to pay for plan with unlimited storage, cancels unlimited storage plan, and then deletes user's data
- * Many HN commenters on the story tell the user they should've had other backups, apparently not reading the story, which notes that the user concurrently had a government agency take all of their hard drives
-* Google closes company's Google Cloud account over 3 cent billing error, plus some other stories
-* YouTube doesn't take down obvious scam ads when reported, responding with "We decided not to take this ad down. We found that the ad doesn’t go against Google’s policies"
-* YouTube doesn't take down obvious scam ads
-* Incorrect YouTube copyright takedown
-* YouTube copyright claim for sound of typing on keyboard; fixed after Twitter thread goes viral
-* Another YouTube copyright claim for sound of typing on keyboard; again fixed after Twitter thread goes viral
-* User puts free music they made on YouTube, allowing other people to remix it; someone takes YouTube ownership of the music, fixed after user, one of the biggest YouTubers of all time, creates a video complaining about this
-* Developer's app removed from app store for no discernible reason (allegedly for "user privacy") and then restored for no discernable reason
-* YouTube copyright claim for white noise
-* YouTube refuses to take down obvious scam ad
-* YouTube refuses to take down scam ads for fake medical treatments
-* YouTube refuses to take down scam ads
-* Google doesn't take down obvious scam ads with fake download buttons
- * Mitigated on user's site by hiring a firm to block these ads post-auction?
-* YouTube refuses to take down fraudulent ad after reporting
-* Personally reporting scam ads to an employee at Google who works in the area causes ads to get taken down for a day or two, but they return shortly afterwards
-* Google refuses to take down obvious scam ads after reporting
-* Google refuses to take down obvious scam ad, responding with "We decided not to take this ad down. We found that the ad doesn’t go against Google’s policies, which prohibit certain content and practices that we believe to be harmful to users and the overall online ecosystem."
-* YouTube refuses to take down obvious real estate scam ad using Wayne Gretzky, saying the ad doesn't violate any policy
-* Straighforward SEO spam clone of competitor's website takes their traffic away
-* User had negotiated limit of 300 concurrently BigQuery queries and then Google decided to reduce this to 100 because Google rolled out a feature that Google PMs and/or engineers believed was worth 3x in concurrent queries; user notes that this feature doesn't help them and that their query limit is now too low; talking to support apparently didn't work
-* User keeps having their tiny GCP instance shut down because Google incorrectly and nonsensically detects crypto mining on their tiny instance
-* User has limit on IPs imposed on them and the standard process for requesting IPs returned "Based on your service usage history you are not eligible for quota increase at this time"; all attempts to fix this via support failed
-* Google Maps gives bad directions to hikers who get lost
-* Search and rescue teams warn people against use of Google Maps
-* Google's suggested American and British pronunciations of numpy
-* CEO of Google personally makes sure that a recruiter who accidentally violated Google's wage fixing agreement with Apple is fired and the apologies to CEO of Apple for the error
-* Developer's app rejected from app store and developer given the runaround for months
- * They keep getting support people telling them that their app doesn't do X, so they send instructions on how to see that the app does do X; their analytics show that support never even attempted to run the instructions and just kept telling them that their app didn't do X
-* One of many examples of Google not fixing Maps errors when reported, resulting in people putting up a sign telling users to ignore Google Maps directions
- * Some more examples here
-* SEO spam of obituaries creates cottage industry of obituary pirates
-* Malware app stays up in app store for months after app is reported to be malware
- * The app now seems to be gone, but archive.org indicates that the app was up for at least six months after this person noted that they reported this malware which owned their parents
-* User reports Google's accessible audio captchas only let you do 2-3 before banning you and making you do image-based captchas, making Google sites and services inaccessible to some blind people
-* User gets impossible versions of Google's ReCaptcha, making all sites that use ReCaptcha inaccessible; user is unable to cancel paid services that are behind ReCaptcha and is forced to issue chargebacks to stop payment to now-impossible to access services
-* User can't download India-specific apps while in India because Google only lets you change region once a year
-* 3 year old YouTube channel with 24k subs, 100 videos, and 400 streams deleted, allegedly for saying "Don't hold your own \[bitcoin\] keys", which was apparently flagged as promoting illegal activity
- * YouTube responds with "we've forwarded this info to the relevant team and confirmed that the channel will remain suspended for Harmful or dangerous content policies" and links to a document; the user asks what content of theirs violates the policies and why, if the document says that you get 3 strikes your channel is terminated, the account was banned without getting 3 strikes; this question gets no response
-* Snow closure of highway causes Google Maps to route people to unplowed forest service road with 10 feet of snow
-* Google play rejects developer's app for nonsense reasons, so they keep resubmitting it until the app doesn't get rejected
-* Washed out highways due to flooding causes Google Maps to route people through forest service roads that are in even worse condition
-* Google routes people onto forest service roads that need an offroad vehicle to drive; users note that they've reported this, which does nothing
-* Google captchas assume you know what various American things are regardless of where you are in the world
-* Google AMP allows phishing campaigns to show up with trusted URLs
- * People warned Google engineers that this would happen and that there were other issues with AMP, but the response from Google was that if you think that AMP is causing you problems, you're wrong and the benefit you've received from AMP is larger than the problems it's causing you
-* User reports that chrome extension, after getting acquired, appears to steal credit card numbers and reviews indicate that it now injects ads and sometimes (often?) doesn't work
- * 6 months ago, user tried to get the extension taken down, but this seems to have failed (the Firefox extension is also still available)
-* User has their Google account banned after updating their credit card to replace expiring credit card with new credit card (both credit cards were from the same issuer, had the same billing address, etc.)
-* Reporting a spam youtube comment does nothing
-* BBC reports bad ads to Google and Google claims to have fixed the issue with an ML system, but follow-up searches from the BBC indicate that the issue isn't fixed at all
-* User signs up for AdSense and sells thousands of dollars of ads that Google then doesn't allow the user to cash out
- * This is a common story that I've seen hundreds of times. Unsurprisingly, multiple people respond and say the same thing happened to them and that there's no recourse when this happens.
-* User has their Google account (Gmail) account locked for no discernable reason; account recovery process and all appeals do nothing
- * For unknown reasons, after two years, the account recovery process works and the account is recovered
-* User has their Google Pay account locked for "fraud"; there's a form you're supposed to fill out to get them to investigate, which did nothing three times
- * User had their phone through googlefi, email through Gmail, DNS via Google, etc., all of which stopped working
- * A couple years later, their accounts started working again for no discernable reason
-* User gets locked out of Gmail despite having correct password and access to the recovery email (Gmail tells user their login was suspicious and refuses to let them log in)
- * I've had this happen to me as well when I had my correct password as well as a 2fa device; luckily, things started working again later
-* User can't get data out of Google after Google adds limit on how much data account can have
-* User notes that they're only able to get support from Google because they used to work there and know people who can bypass the normal support process
-* Google takes down developer's Android app, saying that it's a clone of an iOS app; app was making $10k/mo
- * Developer finds out that the app Google thinks they're cloning is their own iOS app
- * Developer is able to get unbanned, but revenue never recovers an settles down to $1k/mo. Developer stops developing Android apps
-* User finds that if they use "site:" "wrong", Google puts them into CAPTCHA hell
- * Another user notes that this happens to them with other query query modifiers
-* Reporting malware Chrome extensions doesn't get them taken down, although some do end up getting taken down after a blog post on this goes viral
-* User accidentally gains admin privileges to many different companies Google Cloud account and can't raise any kind of support ticket to get anyone to look at the problem
- * Multiple people respond and tell stories about how bad Google's paid support is compared to AWS support
-* 15 year ol Gmail account lost with no recovery possible
- * Someone who helps many people with recovery says "they've all basically hit the brick wall of Google suggesting that at their scale, nothing can be done about such 'edge' cases"
-* Google account lost despite having proper auth because Google deems login attempts too suspicious
-* Google account lost despite having proper auth and access to backup account because Google deems login attempts too suspicious
-* Google account lost despite having proper auth because Google deems login to be too suspicious
-* Google account lost despite having proper auth and TOTP because Google deems login to be too suspicious
-* Google account lost despite proper auth because Google deems login to be too suspicious
- * Person notes that they can log in when they travel back to the city they used to live in, but they can't log in where they moved to
-* Google account lost despite proper auth for no known reason
- * Account login restored for no known reason a few months later
-* User tries to log into Gmail account and gets ~20 consecutive security challenges, after which Gmail returns "You cannot log in at this time", so their account appears to be lost
-* Google changes terms of service and reduces user's quota from 2TB to 15GB, user is unable to find any way to talk to a human about this and is forced to pay for a more expensive plan to not lose their data
- * YouTube account with single video and no comments banned for seemingly no reason, support requests do nothing
-* Huge YouTube channel shut down
- * Someone defends this as the correct action because "Their account got session jacked and taken over by a crypto scamming farm. Google was in the right to shut down the account until it could get resolved."
- * Someone who is actually familiar with what's going on notes that this is nonsense, "Their account was shut down days _after_ the crypto scam issue was resolved. They discussed it on the WAN show from the week before last."
-* Many users run into serious problems after Google decides to impose 5M file limit on Google Drive without warning
- * Google support replies with "I reviewed your case here on our end including the interactions with the previous representatives. This case has already been endorsed to one of our account specialists. What they found out is that the error is working as intended"
- * On HN, the top comment is a Google engineer responding to say "I don't personally think that there are reasonable use-cases for human users with 5 million files. There may be some specialist software that produces data sets that a human might want to back up to Google Drive, but that software is unlikely to run happily on drive streamed files so even those would be unlikely to be stored directly on Drive." and a multiple people agree, despite the issue itself being full of people describing how they're running into issues
- * Someone notes that Google Drive advertises storage tiers up to 30TB, so 5M files would be 6MB at 30TB, not really a weird edge case of someone generating a bunch of tiny files or anything like that
- * Another user responds their home directory contains almost 5M files
- * The top HN reply to the #2 comment is a second Google engineer saying that Google Drive isn't for files (and that it's for things like Google Docs) and that people shouldn't be using it to store files
- * Someone notes that Google's own page for drive advertises it as a "File Sharing Platform"; this doesn't appear to have changed since, as of this writing, the big above-the-fold blurb on Google's own page about drive is that you can "Store, share, and collaborate on files and folders from your mobile device, tablet, or computer". Unsurprisingly, users indicate that they think Google Drive is for files
- * In low ranked HN comments, multiple people express surprise that Google didn't bother to contact the users who would be impacted by this change before making it
- * This Google engineering attitude of "this is how we imagine users use our product, and if you're using it differently, even if that's how the product is marketing, you're using it wrong" was a very common attitude when I worked at Google and I see that it hasn't changed.
-* Chrome on Android puts tabloid stories and other spam next to frequently used domains/links
-* Google pays Apple to not compete on search
-* Google search has been full of scam ads for years
-* r/blender repeatedly warns people over many months to not trust results for blender since top hit is malware.
-* Rampant nutritional supplement scam advertising on Google
-* Top search result for local restaurant is a scam restaurant
-* User reports massive about obvious phishing and spam content makes it through Gmail's spamfilter, such as an ad that either steals your payment info or gets you to buy super overpriced gold
-* High-ranking / top Google results for many pieces of software is malware that pays for a high ranking ad slot
- * Reporting this malware doesn't seem effective and the same malware ads can persist for very long periods of time unless someone contacts a Google engineer or makes a viral thread about the ad
-* Top result for zoom installer is an ad that tries to get you to install badware
-* User sees a huge number of scam ads on YouTube
-* User sees a huge number of scam ads on YouTube
-* User's list of wedding vendors they're using to organize a wedding tagged as phishing and user is warned for violating Google Drive's phishing policy
- * User tried to get more information but found no way to do so
-* Corp security notes that it's very easy to send phishing emails to employees of corporation by passing it through Google Groups
-* Google account lost because 2FA recovery process doesn't work
- * User lost their Google Authenticator 2FA when their phone broke. They have their backup recovery codes, but this only lets them log into their account (and uses up a code forever when logging in); after logging in, this does not enable them to change their 2FA, so each login is a countdown to losing their account
- * In the HN comments, some people walk them through the steps to change their 2FA when using backup codes, which works for other users but not this user — user believes that some kind of anti-fraud system is suspicious the user is fraudulent, which limits what kind of 2FA enables changing 2FA, requiring the original and now lost 2FA to change 2FA, making the recovery codes useless; in standard internet comment style, some people keep telling the user that this works and the user should simply do the steps that work, even though the user has explained multiple times that this does not work for them
- * Someone suggests buying Google One support, but someone else notes that Google One support appears to be very poor even though it's paid support, and people have noted on many other threads that even cloud support can be useless when spending millions, tens of millions, or hundreds of millions a year, so the idea that you'll get support from Google because you pay for is isn't always correct
- * Multiple people have reported the exact same issue and many people report that their mitigation to this is to score the 2FA secrets in their password manager; they know that this means that a computer and/or password manager compromise defeats their 2FA, but they feel that's better than randomly losing their account because the 2FA backup codes can simply not work if Google decides that they're too suspicious
- * Someone suggests setting multiple Yubikeys to prevent this issue. That sounds logical, but I've done this and I can report that it does not prevent this issue — I added multiple 2FA tokens in order to reduce the chance that losing 2FA tokens would cause me to get locked out; at one point, Google became suspicious of one of the 2FA I used to log in almost every time and required me to present another 2FA token, making my idea of having multiple 2FA tokens reduce the risk of a lockout actually backfire since, if Google becomes suspicious of the wrong 2FA tokens, losing any one out of N 2FA tokens could cause my account to become lost
-* User loses Gmail account after Google system decides the phone numbers they've been using for verification "cannot be used for verification"
- * Another user looks into it and finds that Google's official support suggestion is to create another account, so the anti-fraud false positive means that this person lost their Gmail account
-* User locked out of account after password change; user is sure they're using the correct password because they're using a password manager
- * As with the above cases, the password reset flow doesn't work; after five weeks of trying daily, doing the exact same steps as each other time worked, so the account was only lost for five weeks and not forever
-* User complaints that their Google accounts have been moderately broken for 10 years due to forced Google+ migration in 2013 that left their account in a bad state
-* User locked out of Google after changing password
- * Google asks the user to enter the new and old password, which the user does, but this doesn't enable logging in
- * Google sometimes asks the user to scan a QR code from a logged in account, but the user can't do this because they can't log in
- * User changed password to main and recovery accounts at the same time, so they're locked out of both accounts
- * For no discernable reason, repeatedly trying to get into the recovery account eventually worked, which allowed them to eventually get back into their main account
-* User gets locked out of Gmail account when Gmail starts asking for 10+ year old password as well as current password to log in
- * User finds a suggestion on an old support forum to not try to log in for 40+ days and then try, at which point the user is only asked for their current password and can log in
- * This is clearly not a universal solution as there are examples of people who try re-logging in every year to lost accounts, which usually doesn't work, but this apparently sometimes works?
- * Someone posts the standard reply about how you shouldn't expect to get support unless you pay for Google One, apparently ignoring how every time someone posts this, people respond to note that Google One support rarely fixes problems like these
-* User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires access to recovery email address, which has lapsed
- * A comment blaming the user from someone who apparently didn't read the post
-* User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires an old phone number which is no longer active
- * This turned out to be another case where waiting a long time and then trying to log in worked
-* User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires an old phone number which is no longer active
- * In this case, waiting a long time and then trying to log in didn't work and the account seems permanently lost
-* User loses Gmail account because Gmail suddenly refuses to allow access the correct password; user has the recovery email as well, but that doesn't help
- * After three years of trying to log in every few months, logging in worked for no discernable reason, so the account was only lost for three years
-* Google gives away user's Google Voice number, which they were using daily and had purchased credits on that were also lost
- * Someone who apparently didn't read the post suggests to the user they shouldn't have let the number be inactive for 6 months or they should've "made the number permanent'
- * Support refuses to refund user for credits and user can't get a new Google Voice number because the old one is still somehow linked to them and is considered a source of spam
-* User loses Gmail account when recovery account token doesn't work
-* User loses Gmail account when credentials stop working for no discernible reason
-* User has an issue with Google and talks to support; support tells user to issue a chargeback, which results in user's account getting banned and user losing 15 years of account history
-* User is in the middle of getting locked out of Google accounts and makes a viral post to try to get a human at Google to look at the issue
-* John Carmack complains about having "a ridiculous time" with Google Cloud, only getting his issue resolved because he complained on Twitter an is one of the most famous programmers on the planet, decided to move to another provider after the second time this happened
-* Developer documents years of incorrect Google Play Store policy violations and how to work around them
- * Someone claiming to have worked on the Google Play Store team says: "a lot of that was outsourced to overseas which resulted in much slower response time. Here stateside we had a lot of metrics in place to fast response. Typically your app would get reviewed the same day. Not sure what it's like now but the managers were incompetent back then even so."
-* Developer notes that they sometimes get updates rejected from Google Play store and have even had their existing app get delisted, but that the algorithm for this is so poor that you can make meaningless changes, which has worked for getting them relisted every time so far
-* Developer banned from Google Play, but they win the appeal
- * However, the Name / Namespace (com.company.project) continues to be blocked, so they'd have to refactor the app and change the product and company name to continue using Google Play
-* Developer describes their process of interacting with the Google Chrome Webstore, which involves so much kafkaesque nonsense that they have semi-automated handling of the nonsense they know they'll encounter
-* Developer has comical, sub-ChatGPT level interactions with "Chrome Web Store Developer Support" (see link for multiple examples)
-* User complains about repeated nonsense video demonetization and age limiting , such as this I ate water with chopsticks getting a strike against it for "We reviewed your content carefully, and have confirmed that it violates our violent or graphic content policy", with a follow-up of "your video was rated \[sic\] limited by ML then mistakenly confirmed by a manual reviewer as limited .... we've talked to the team to ensure it doesn't happen again", but of course this keeps happening, which is why the user is complaining (the complaint comes after the video was restricted again and the appeal was denied twice, despite the previous comment about how YouTube would ensure this doesn't happen again).
-* User has YouTube video incorrectly taken down for violating community guidelines, but it gets restored after they and another big YouTuber both write viral Twitter threads about the incorrect takedown
-* User notes that Gmail's spam filtering appears to be getting worse
- * I remember this one because, when this user complained about it, I noticed that I was getting multiple spam emails per day (with plenty of false positives when I checked my spam folder as well)
- * This complaint from a user was also memorable to me since I was getting the exact same spam as this user
-* User notes that Google (?) consistently sends you the wrong way into a highway offramp
-* User's video on the history of megaman speedruns becomes age restricted, which also mostly demonetizes it?
- * User appeals, and 45 minutes later, they get a response saying "after careful review, we've confirmed that the age restriction on your video won't be lifted" (video is 78 minutes long)
- * User then quotes YouTube's own guidelines to show that their video doesn't appear to violate the guidelines
- * User tweets about this, and then YouTube replies saying they lifted the age restriction, but the video stopped getting recommended, so the video was still not making money (this user makes a living off YouTube videos)
- * 8 days later, the video is officially age restricted again, and they say that the previous reversal was an error
- * User then makes a video about this and tweets about the video, which then goes viral.
- * YouTube then responds after the tweet about getting the runraround goes viral, with "really sorry again that this was such a confusing / back and forth experience 😞. we’ve shared your video with the right people & if helpful, keep sharing more w/ our community outreach team on that same email too!!"
+* [Google allows user to pay for plan with unlimited storage, cancels unlimited storage plan, and then deletes user's data](https://www.techdirt.com/2023/12/12/google-promises-unlimited-cloud-storage-then-cancels-plan-then-tells-journalist-his-lifes-work-will-be-deleted-without-enough-time-to-transfer-the-data/)
+    * Many HN commenters on the story tell the user they should've had other backups, apparently not reading the story, which notes that the user concurrently had a government agency take all of their hard drives
+* [Google closes company's Google Cloud account over 3 cent billing error, plus some other stories](https://news.ycombinator.com/item?id=38628019)
+* [YouTube doesn't take down obvious scam ads when reported, responding with "We decided not to take this ad down. We found that the ad doesn’t go against Google’s policies"](https://old.reddit.com/r/youtube/comments/18gjiqy/youtube_doesnt_want_to_take_down_scam_ads/)
+* [YouTube doesn't take down obvious scam ads](https://old.reddit.com/r/youtube/comments/18gjiqy/youtube_doesnt_want_to_take_down_scam_ads/kd1bb0c/)
+* [Incorrect YouTube copyright takedown](https://www.reddit.com/r/ContraPoints/comments/wqzvp1/my_matt_walsh_video_was_taken_down_due_to/)
+* [YouTube copyright claim for sound of typing on keyboard](https://news.ycombinator.com/item?id=27999813); fixed after Twitter thread goes viral
+* [Another YouTube copyright claim for sound of typing on keyboard](https://news.ycombinator.com/item?id=29816310); again fixed after Twitter thread goes viral
+* [User puts free music they made on YouTube, allowing other people to remix it; someone takes YouTube ownership of the music](https://news.ycombinator.com/item?id=29816310), fixed after user, one of the biggest YouTubers of all time, creates a video complaining about this
+* [Developer's app removed from app store for no discernible reason (allegedly for "user privacy") and then restored for no discernable reason](https://news.ycombinator.com/item?id=33633339)
+* [YouTube copyright claim for white noise](https://news.ycombinator.com/item?id=28000791)
+* [YouTube refuses to take down obvious scam ad](https://news.ycombinator.com/item?id=38611919)
+* [YouTube refuses to take down scam ads for fake medical treatments](https://news.ycombinator.com/item?id=38612261)
+* [YouTube refuses to take down scam ads](https://news.ycombinator.com/item?id=38611664)
+* [Google doesn't take down obvious scam ads with fake download buttons](https://news.ycombinator.com/item?id=38614652)
+    * Mitigated on user's site by hiring a firm to block these ads post-auction?
+* [YouTube refuses to take down fraudulent ad after reporting](https://news.ycombinator.com/item?id=38612630)
+* [Personally reporting scam ads to an employee at Google who works in the area causes ads to get taken down for a day or two, but they return shortly afterwards](https://news.ycombinator.com/item?id=38614011)
+* [Google refuses to take down obvious scam ads after reporting](https://news.ycombinator.com/item?id=38612058)
+* [Google refuses to take down obvious scam ad, responding with "We decided not to take this ad down. We found that the ad doesn’t go against Google’s policies, which prohibit certain content and practices that we believe to be harmful to users and the overall online ecosystem."](https://news.ycombinator.com/item?id=38614409)
+* [YouTube refuses to take down obvious real estate scam ad using Wayne Gretzky](https://news.ycombinator.com/item?id=38611919), saying the ad doesn't violate any policy
+* [Straighforward SEO spam clone of competitor's website takes their traffic away](https://mastodon.social/@gamingonlinux/111482420414024520)
+* [User had negotiated limit of 300 concurrently BigQuery queries and then Google decided to reduce this to 100 because Google rolled out a feature that Google PMs and/or engineers believed was worth 3x in concurrent queries; user notes that this feature doesn't help them and that their query limit is now too low; talking to support apparently didn't work](https://news.ycombinator.com/item?id=36273159)
+* [User keeps having their tiny GCP instance shut down because Google incorrectly and nonsensically detects crypto mining on their tiny instance](https://news.ycombinator.com/item?id=36273877)
+* [User has limit on IPs imposed on them and the standard process for requesting IPs returned "Based on your service usage history you are not eligible for quota increase at this time"; all attempts to fix this via support failed](https://news.ycombinator.com/item?id=36276292)
+* [Google Maps gives bad directions to hikers who get lost](https://www.reddit.com/r/vancouver/comments/17ud65f/hikers_getting_lost_on_the_north_shore_using/)
+* [Search and rescue teams warn people against use of Google Maps](https://www.reddit.com/r/vancouver/comments/17op12f/search_and_rescue_team_warns_against_google_maps/)
+* [Google's suggested American and British pronunciations of numpy](https://mastodon.social/@danluu/109679379784923986)
+* [CEO of Google personally makes sure that a recruiter who accidentally violated Google's wage fixing agreement with Apple is fired and the apologies to CEO of Apple for the error](https://twitter.com/danluu/status/1172676081628766208)
+* [Developer's app rejected from app store and developer given the runaround for months](https://news.ycombinator.com/item?id=33635273)
+    * They keep getting support people telling them that their app doesn't do X, so they send instructions on how to see that the app does do X; their analytics show that support never even attempted to run the instructions and just kept telling them that their app didn't do X
+* [One of many examples of Google not fixing Maps errors when reported, resulting in people putting up a sign telling users to ignore Google Maps directions](https://twitter.com/danluu/status/1147202351398133760)
+    * [Some more examples here](https://twitter.com/danluu/status/1147236977885904896)
+* [SEO spam of obituaries creates cottage industry of obituary pirates](https://news.ycombinator.com/item?id=38145054)
+* [Malware app stays up in app store for months after app is reported to be malware](https://news.ycombinator.com/item?id=33636097)
+    * The app now seems to be gone, but archive.org indicates that the app was up for at least six months after this person noted that they reported this malware which owned their parents
+* [User reports Google's accessible audio captchas only let you do 2-3 before banning you and making you do image-based captchas, making Google sites and services inaccessible to some blind people](https://twitter.com/danluu/status/1285408780688080896)
+* [User gets impossible versions of Google's ReCaptcha, making all sites that use ReCaptcha inaccessible; user is unable to cancel paid services that are behind ReCaptcha and is forced to issue chargebacks to stop payment to now-impossible to access services](https://mastodon.social/@varx@infosec.exchange/111349057429167617)
+* [User can't download India-specific apps while in India because Google only lets you change region once a year](https://news.ycombinator.com/item?id=38038713)
+* [3 year old YouTube channel with 24k subs, 100 videos, and 400 streams deleted, allegedly for saying "Don't hold your own \[bitcoin\] keys"](https://nitter.net/Plamen__Andonov/status/1687524213786103815), which was apparently flagged as promoting illegal activity
+    * YouTube responds with "we've forwarded this info to the relevant team and confirmed that the channel will remain suspended for Harmful or dangerous content policies" and links to a document; the user asks what content of theirs violates the policies and why, if the document says that you get 3 strikes your channel is terminated, the account was banned without getting 3 strikes; this question gets no response
+* [Snow closure of highway causes Google Maps to route people to unplowed forest service road with 10 feet of snow](https://www.reddit.com/r/tahoe/comments/11b02ic/google_maps_is_basically_telling_you_to_take/)
+* [Google play rejects developer's app for nonsense reasons, so they keep resubmitting it until the app doesn't get rejected](https://news.ycombinator.com/item?id=33636404)
+* [Washed out highways due to flooding causes Google Maps to route people through forest service roads that are in even worse condition](https://www.reddit.com/r/vancouver/comments/qv7jh3/forest_service_roads_access_between_lillooet_and/)
+* [Google routes people onto forest service roads that need an offroad vehicle to drive](https://www.reddit.com/r/Kamloops/comments/13tcsyp/google_maps_has_problems_here/); users note that they've reported this, which does nothing
+* [Google captchas assume you know what various American things are regardless of where you are in the world](https://news.ycombinator.com/item?id=38150657)
+* [Google AMP allows phishing campaigns to show up with trusted URLs](https://cofense.com/blog/google-amp-the-newest-of-evasive-phishing-tactic/)
+    * People warned Google engineers that this would happen and that there were other issues with AMP, but [the response from Google was that if you think that AMP is causing you problems, you're wrong and the benefit you've received from AMP is larger than the problems it's causing you](https://twitter.com/danluu/status/891508449414197248)
+* [User reports that chrome extension, after getting acquired, appears to steal credit card numbers](https://news.ycombinator.com/item?id=36733735) and reviews indicate that it now injects ads and sometimes (often?) doesn't work
+    * 6 months ago, user tried to get the extension taken down, but this seems to have failed (the Firefox extension is also still available)
+* [User has their Google account banned after updating their credit card to replace expiring credit card with new credit card](https://news.ycombinator.com/item?id=36406015) (both credit cards were from the same issuer, had the same billing address, etc.)
+* [Reporting a spam youtube comment does nothing](https://news.ycombinator.com/item?id=32211417)
+* [BBC reports bad ads to Google and Google claims to have fixed the issue with an ML system, but follow-up searches from the BBC indicate that the issue isn't fixed at all](https://www.bbc.com/news/technology-56886957)
+* [User signs up for AdSense and sells thousands of dollars of ads that Google then doesn't allow the user to cash out](https://news.ycombinator.com/item?id=36405519)
+    * This is a common story that I've seen hundreds of times. Unsurprisingly, multiple people respond and say the same thing happened to them and that there's no recourse when this happens.
+* [User has their Google account (Gmail) account locked for no discernable reason; account recovery process and all appeals do nothing](https://news.ycombinator.com/item?id=36335975)
+    * For unknown reasons, after two years, the account recovery process works and the account is recovered
+* [User has their Google Pay account locked for "fraud"; there's a form you're supposed to fill out to get them to investigate, which did nothing three times](https://news.ycombinator.com/item?id=36336256)
+    * User had their phone through googlefi, email through Gmail, DNS via Google, etc., all of which stopped working
+    * A couple years later, their accounts started working again for no discernable reason
+* [User gets locked out of Gmail despite having correct password and access to the recovery email (Gmail tells user their login was suspicious and refuses to let them log in)](https://news.ycombinator.com/item?id=36336239)
+    * I've had this happen to me as well when I had my correct password as well as a 2fa device; luckily, things started working again later
+* [User can't get data out of Google after Google adds limit on how much data account can have](https://news.ycombinator.com/item?id=36337103)
+* [User notes that they're only able to get support from Google because they used to work there and know people who can bypass the normal support process](https://mastodon.social/@HalvarFlake/110531473438621147)
+* [Google takes down developer's Android app, saying that it's a clone of an iOS app; app was making $10k/mo](https://news.ycombinator.com/item?id=36255243)
+    * Developer finds out that the app Google thinks they're cloning is their own iOS app
+    * Developer is able to get unbanned, but revenue never recovers an settles down to $1k/mo. Developer stops developing Android apps
+* [User finds that if they use "site:" "wrong", Google puts them into CAPTCHA hell](https://news.ycombinator.com/item?id=36195901)
+    * [Another user notes that this happens to them with other query query modifiers](https://news.ycombinator.com/item?id=36197882)
+* [Reporting malware Chrome extensions doesn't get them taken down](https://palant.info/2023/05/31/more-malicious-extensions-in-chrome-web-store/), although some do end up getting taken down after a blog post on this goes viral
+* [User accidentally gains admin privileges to many different companies Google Cloud account and can't raise any kind of support ticket to get anyone to look at the problem](https://news.ycombinator.com/item?id=36124415)
+    * [Multiple people respond and tell stories about how bad Google's paid support is compared to AWS support](https://news.ycombinator.com/item?id=36125825)
+* [15 year ol Gmail account lost with no recovery possible](https://lauren.vortex.com/2023/05/17/google-account-recovery-failure-sad)
+    * Someone who helps many people with recovery says "they've all basically hit the brick wall of Google suggesting that at their scale, nothing can be done about such 'edge' cases"
+* [Google account lost despite having proper auth because Google deems login attempts too suspicious](https://news.ycombinator.com/item?id=36025239)
+* [Google account lost despite having proper auth and access to backup account because Google deems login attempts too suspicious](https://news.ycombinator.com/item?id=36027316)
+* [Google account lost despite having proper auth because Google deems login to be too suspicious](https://news.ycombinator.com/item?id=36026759)
+* [Google account lost despite having proper auth and TOTP because Google deems login to be too suspicious](https://news.ycombinator.com/item?id=36027151)
+* [Google account lost despite proper auth because Google deems login to be too suspicious](https://news.ycombinator.com/item?id=36030983)
+    * Person notes that they can log in when they travel back to the city they used to live in, but they can't log in where they moved to
+* [Google account lost despite proper auth for no known reason](https://news.ycombinator.com/item?id=36026380)
+    * Account login restored for no known reason a few months later
+* [User tries to log into Gmail account and gets ~20 consecutive security challenges](https://news.ycombinator.com/item?id=35749825), after which Gmail returns "You cannot log in at this time", so their account appears to be lost
+* [Google changes terms of service and reduces user's quota from 2TB to 15GB](https://www.reddit.com/r/AskReddit/comments/12rt24x/comment/jgya3dn/), user is unable to find any way to talk to a human about this and is forced to pay for a more expensive plan to not lose their data
+    * [YouTube account with single video and no comments banned for seemingly no reason](https://news.ycombinator.com/item?id=35521606), support requests do nothing
+* [Huge YouTube channel shut down](https://news.ycombinator.com/item?id=35521586)
+    * Someone defends this as the correct action because "Their account got session jacked and taken over by a crypto scamming farm. Google was in the right to shut down the account until it could get resolved."
+        * Someone who is actually familiar with what's going on notes that this is nonsense, "Their account was shut down days _after_ the crypto scam issue was resolved. They discussed it on the WAN show from the week before last."
+* [Many users run into serious problems after Google decides to impose 5M file limit on Google Drive without warning](https://issuetracker.google.com/issues/268606830?pli=1)
+    * Google support replies with "I reviewed your case here on our end including the interactions with the previous representatives. This case has already been endorsed to one of our account specialists. What they found out is that the error is working as intended"
+    * [On HN, the top comment is a Google engineer responding to say](https://news.ycombinator.com/item?id=35331890) "I don't personally think that there are reasonable use-cases for human users with 5 million files. There may be some specialist software that produces data sets that a human might want to back up to Google Drive, but that software is unlikely to run happily on drive streamed files so even those would be unlikely to be stored directly on Drive." and a multiple people agree, despite the issue itself being full of people describing how they're running into issues
+        * [Someone notes that Google Drive advertises storage tiers up to 30TB](https://news.ycombinator.com/item?id=35396184), so 5M files would be 6MB at 30TB, not really a weird edge case of someone generating a bunch of tiny files or anything like that
+        * [Another user responds their home directory contains almost 5M files](https://news.ycombinator.com/item?id=35397520)
+    * [The top HN reply to the #2 comment is a second Google engineer saying that Google Drive isn't for files (and that it's for things like Google Docs) and that people shouldn't be using it to store files](https://news.ycombinator.com/item?id=35329135)
+        * [Someone notes that Google's own page for drive advertises it as a "File Sharing Platform"](https://news.ycombinator.com/item?id=35329135); this doesn't appear to have changed since, as of this writing, the big above-the-fold blurb on Google's own page about drive is that you can "Store, share, and collaborate on files and folders from your mobile device, tablet, or computer". Unsurprisingly, [users indicate that they think Google Drive is for files](https://news.ycombinator.com/item?id=35334560)
+    * [In low ranked HN comments, multiple people express surprise that Google didn't bother to contact the users who would be impacted by this change before making it](https://news.ycombinator.com/item?id=35329654)
+    * This Google engineering attitude of "this is how we imagine users use our product, and if you're using it differently, even if that's how the product is marketing, you're using it wrong" was a very common attitude when I worked at Google and I see that it hasn't changed.
+* [Chrome on Android puts tabloid stories and other spam next to frequently used domains/links](https://news.ycombinator.com †/item?id=35324218)
+* [Google pays Apple to not compete on search](https://news.ycombinator.com/item?id=34849083)
+* [Google search has been full of scam ads for years](https://news.ycombinator.com/item?id=34916922)
+* [r/blender repeatedly warns people over many months to not trust results for blender since top hit is malware](https://news.ycombinator.com/item?id=34917701).
+* [Rampant nutritional supplement scam advertising on Google](https://news.ycombinator.com/item?id=34918052)
+* [Top search result for local restaurant is a scam restaurant](https://nitter.net/doctorow/status/1628948906657878016)
+* [User reports massive about obvious phishing and spam content makes it through Gmail's spamfilter](https://twitter.com/altluu/status/1461097423883972608), such as an ad that either steals your payment info or gets you to buy super overpriced gold
+* [High-ranking / top Google results for many pieces of software is malware that pays for a high ranking ad slot](https://news.ycombinator.com/item?id=35060972)
+    * [Reporting this malware doesn't seem effective](https://news.ycombinator.com/item?id=35061544) and [the same malware ads can persist for very long periods of time](https://news.ycombinator.com/item?id=35061707) unless someone contacts a Google engineer or makes a viral thread about the ad
+* [Top result for zoom installer is an ad that tries to get you to install badware](https://news.ycombinator.com/item?id=35061704)
+* [User sees a huge number of scam ads on YouTube](https://news.ycombinator.com/item?id=35061831)
+* [User sees a huge number of scam ads on YouTube](https://news.ycombinator.com/item?id=35067385)
+* [User's list of wedding vendors they're using to organize a wedding tagged as phishing](https://news.ycombinator.com/item?id=35036142) and user is warned for violating Google Drive's phishing policy
+    * User tried to get more information but found no way to do so
+* [Corp security notes that it's very easy to send phishing emails to employees of corporation by passing it through Google Groups](https://fleetdm.com/securing/tales-from-fleet-security-google-groups-scams)
+* [Google account lost because 2FA recovery process doesn't work](https://news.ycombinator.com/item?id=34441697)
+    * User lost their Google Authenticator 2FA when their phone broke. They have their backup recovery codes, but this only lets them log into their account (and uses up a code forever when logging in); after logging in, this does not enable them to change their 2FA, so each login is a countdown to losing their account
+    * In the HN comments, some people walk them through the steps to change their 2FA when using backup codes, which works for other users but not this user — user believes that some kind of anti-fraud system is suspicious the user is fraudulent, which limits what kind of 2FA enables changing 2FA, requiring the original and now lost 2FA to change 2FA, making the recovery codes useless; in standard internet comment style, some people keep telling the user that this works and the user should simply do the steps that work, even though the user has explained multiple times that this does not work for them
+    * Someone suggests buying Google One support, but [someone else notes that Google One support appears to be very poor even though it's paid support](https://news.ycombinator.com/item?id=34444274), and people have noted on many other threads that even cloud support can be useless when spending millions, tens of millions, or hundreds of millions a year, so the idea that you'll get support from Google because you pay for is isn't always correct
+    * Multiple people have reported the exact same issue and many people report that their mitigation to this is to score the 2FA secrets in their password manager; they know that this means that a computer and/or password manager compromise defeats their 2FA, but they feel that's better than randomly losing their account because the 2FA backup codes can simply not work if Google decides that they're too suspicious
+        * [Someone suggests setting multiple Yubikeys to prevent this issue](https://news.ycombinator.com/item?id=34443300). That sounds logical, but I've done this and I can report that it does not prevent this issue — I added multiple 2FA tokens in order to reduce the chance that losing 2FA tokens would cause me to get locked out; at one point, Google became suspicious of one of the 2FA I used to log in almost every time and required me to present another 2FA token, making my idea of having multiple 2FA tokens reduce the risk of a lockout actually backfire since, if Google becomes suspicious of the wrong 2FA tokens, losing any one out of N 2FA tokens could cause my account to become lost
+* [User loses Gmail account after Google system decides the phone numbers they've been using for verification "cannot be used for verification"](https://news.ycombinator.com/item?id=33692942)
+    * [Another user looks into it and finds that Google's official support suggestion is to create another account](https://news.ycombinator.com/item?id=33693183), so the anti-fraud false positive means that this person lost their Gmail account
+* [User locked out of account after password change](https://news.ycombinator.com/item?id=34443237); user is sure they're using the correct password because they're using a password manager
+    * As with the above cases, the password reset flow doesn't work; after five weeks of trying daily, doing the exact same steps as each other time worked, so the account was only lost for five weeks and not forever
+* [User complaints that their Google accounts have been moderately broken for 10 years due to forced Google+ migration in 2013 that left their account in a bad state](https://news.ycombinator.com/item?id=34443249)
+* [User locked out of Google after changing password](https://news.ycombinator.com/item?id=34116361)
+    * Google asks the user to enter the new and old password, which the user does, but this doesn't enable logging in
+    * Google sometimes asks the user to scan a QR code from a logged in account, but the user can't do this because they can't log in
+    * User changed password to main and recovery accounts at the same time, so they're locked out of both accounts
+    * For no discernable reason, repeatedly trying to get into the recovery account eventually worked, which allowed them to eventually get back into their main account
+* [User gets locked out of Gmail account when Gmail starts asking for 10+ year old password as well as current password to log in](https://news.ycombinator.com/item?id=34119045)
+    * User finds a suggestion on an old support forum to not try to log in for 40+ days and then try, at which point the user is only asked for their current password and can log in
+        * This is clearly not a universal solution as there are examples of people who try re-logging in every year to lost accounts, which usually doesn't work, but this apparently sometimes works?
+    * [Someone posts the standard reply about how you shouldn't expect to get support unless you pay for Google One](https://news.ycombinator.com/item?id=34118359), apparently ignoring how every time someone posts this, people respond to note that Google One support rarely fixes problems like these
+* [User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires access to recovery email address, which has lapsed](https://news.ycombinator.com/item?id=31681221)
+    * [A comment blaming the user from someone who apparently didn't read the post](https://news.ycombinator.com/item?id=31681512)
+* [User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires an old phone number which is no longer active](https://news.ycombinator.com/item?id=34116750)
+    * This turned out to be another case where waiting a long time and then trying to log in worked
+* [User loses Gmail account because Gmail suddenly refuses to allow access with only the correct password and requires an old phone number which is no longer active](https://news.ycombinator.com/item?id=34118527)
+    * In this case, waiting a long time and then trying to log in didn't work and the account seems permanently lost
+* [User loses Gmail account because Gmail suddenly refuses to allow access the correct password](https://news.ycombinator.com/item?id=34116894); user has the recovery email as well, but that doesn't help
+    * After three years of trying to log in every few months, logging in worked for no discernable reason, so the account was only lost for three years
+* [Google gives away user's Google Voice number, which they were using daily and had purchased credits on that were also lost](https://news.ycombinator.com/item?id=34117206)
+    * [Someone who apparently didn't read the post suggests to the user they shouldn't have let the number be inactive for 6 months or they should've "made the number permanent'](https://news.ycombinator.com/item?id=34117467)
+    * Support refuses to refund user for credits and user can't get a new Google Voice number because the old one is still somehow linked to them and is considered a source of spam
+* [User loses Gmail account when recovery account token doesn't work](https://news.ycombinator.com/item?id=34116640)
+* [User loses Gmail account when credentials stop working for no discernible reason](https://news.ycombinator.com/item?id=34134130)
+* [User has an issue with Google and talks to support; support tells user to issue a chargeback, which results in user's account getting banned and user losing 15 years of account history](https://old.reddit.com/r/tifu/comments/zndbku/tifu_by_accidentally_buying_two_google_pixels_and/)
+* [User is in the middle of getting locked out of Google accounts and makes a viral post to try to get a human at Google to look at the issue](https://news.ycombinator.com/item?id=33963269)
+* [John Carmack complains about having "a ridiculous time" with Google Cloud, only getting his issue resolved because he complained on Twitter an is one of the most famous programmers on the planet](https://nitter.net/id_aa_carmack/status/1598391619673358342), decided to move to another provider after the second time this happened
+* [Developer documents years of incorrect Google Play Store policy violations and how to work around them](https://news.ycombinator.com/item?id=33361311)
+    * [Someone claiming to have worked on the Google Play Store team says](https://news.ycombinator.com/item?id=33362178): "a lot of that was outsourced to overseas which resulted in much slower response time. Here stateside we had a lot of metrics in place to fast response. Typically your app would get reviewed the same day. Not sure what it's like now but the managers were incompetent back then even so."
+* [Developer notes that they sometimes get updates rejected from Google Play store and have even had their existing app get delisted, but that the algorithm for this is so poor that you can make meaningless changes, which has worked for getting them relisted every time so far](https://news.ycombinator.com/item?id=33363079)
+* [Developer banned from Google Play, but they win the appeal](https://news.ycombinator.com/item?id=33361774)
+    * However, the Name / Namespace (com.company.project) continues to be blocked, so they'd have to refactor the app and change the product and company name to continue using Google Play
+* [Developer describes their process of interacting with the Google Chrome Webstore](https://news.ycombinator.com/item?id=33361789), which involves so much kafkaesque nonsense that they have semi-automated handling of the nonsense they know they'll encounter
+* [Developer has comical, sub-ChatGPT level interactions with "Chrome Web Store Developer Support"](https://news.ycombinator.com/item?id=33362453) (see link for multiple examples)
+* [User complains about repeated nonsense video demonetization and age limiting](https://twitter.com/PointCrow/status/1587084876741689345) , such as this [I ate water with chopsticks](https://www.youtube.com/watch?v=I0QFtxRgkYw) getting a strike against it for "We reviewed your content carefully, and have confirmed that it violates our violent or graphic content policy", with a follow-up of "your video was rated \[sic\] limited by ML then mistakenly confirmed by a manual reviewer as limited .... we've talked to the team to ensure it doesn't happen again", but of course this keeps happening, which is why the user is complaining (the complaint comes after the video was restricted again and the appeal was denied twice, despite the previous comment about how YouTube would ensure this doesn't happen again).
+* [User has YouTube video incorrectly taken down for violating community guidelines](https://twitter.com/TheGoodDeath/status/1580949485877764096#m), but it gets restored after they and [another big YouTuber both write viral Twitter threads about the incorrect takedown](https://twitter.com/ContraPoints/status/1581072538016174082#m)
+* [User notes that Gmail's spam filtering appears to be getting worse](twitter.comhillelogram/status/1586740840986296322)
+    * I remember this one because, when this user complained about it, I noticed that I was getting multiple spam emails per day (with plenty of false positives when I checked my spam folder as well)
+    * [This complaint from a user was also memorable to me since I was getting the exact same spam as this user](https://twitter.com/ryanoneill/status/1586808096264839168)
+* [User notes that Google (?) consistently sends you the wrong way into a highway offramp](https://www.reddit.com/r/IdiotsInCars/comments/18zelw9/comment/kgmrpyf/)
+* [User's video on the history of megaman speedruns becomes age restricted, which also mostly demonetizes it?](https://twitter.com/summoningsalt/status/1575920487171252225?s=46&t=o85YJpDSpmrZZIh_S0W1dQ)
+    * User appeals, and 45 minutes later, they get a response saying "after careful review, we've confirmed that the age restriction on your video won't be lifted" (video is 78 minutes long)
+        * User then quotes YouTube's own guidelines to show that their video doesn't appear to violate the guidelines
+    * User tweets about this, and then YouTube replies saying they lifted the age restriction, but the video stopped getting recommended, so the video was still not making money (this user makes a living off YouTube videos)
+    * 8 days later, the video is officially age restricted again, and they say that the previous reversal was an error
+    * User then makes a video about this and tweets about the video, which then goes viral.
+    * YouTube then responds after the tweet about getting the runraround goes viral, with "really sorry again that this was such a confusing / back and forth experience 😞. we’ve shared your video with the right people & if helpful, keep sharing more w/ our community outreach team on that same email too!!"
 * When Jamie Brandon was organizing a database conference, Gmail spamfiltered the majority of emails he sent out about it
- * ~700 people signed up to be notified when tickets were available, but even though they explicitly signed up to get notified, Gmail still spamfiltered Jamie's email
-* Author publishes a book about their victimization and sex crimes; Google then puts a photo of someone else in an automatically generated profile for the author
- * "After spending weeks sending feedback and trying to get help from Google support, they finally deleted the woman’s photo, but then promptly replaced it with another Andrea Vassell who is a pastor in New York. She, the pastor in New York, wrote to me that she has been 'attacked' because people believe she is me."
- * That the person was a pastor of a church also caused problems for some people mentioned in the book; author again tries to get the photo removed, which eventually works, but is then replaced by the photo of a man who'd been fired for threatening the author, and then months later, the pastor's photo showed up again as the author
- * Author appears to be non-technical and found HN and is writing a desperate plea for someone to do something about it
- * A Google employee whose profile reads "Google's public liaison of Search, helping people better understand search & Google better hear public feedback", responds with "I'll share more about how you can better get this feedback to us ... \[explanation of knowledge panels\] ... Normally people just don't like the image we show, so we have a mechanism for them to upload a preferred image. That's very easy to use. But in your case, I understand your reasons for not wanting to have an image used at all. I believe if you had filed feedback explaining that, the image would have been removed."
- * Author is dumbfounded given her lengthy explanation of how much feedback she has already provided and responds with "Are you suggesting that I did not send feedback through the appropriate channels? I have dozens of email exchanges with Google, some of which have multiple people copied on them, and I have screenshots of me sending feedback through your feedback link located within the knowledge panel. (And I explained my situation to them with more detail than I have explained here.). In April and May, I received email responses from Google employees who work for the knowledge panel support team. After they changed the photo twice to images of the wrong women instead of deleting them, I continued complaining and they suggested I contact legal removals. When I contacted legal, I received automated responses to contact the knowledge support team. So I was bounced around. They then began ignoring me and I started receiving automated responses from everyone. Even though I was being ignored, on any given day, I would wake up and find a different photo presented alongside my book. I also reached out to you, Danny Sullivan, _directly_"
-* Famous sci-fi author spends years trying to get Google to stop putting photos of other people in their "knowledge panel"
- * This seems to currently be fixed, and it only took between five years and a decade to fix it.
-* User notes that knowledge panel for them is misleading or wrong, and that attempts to claim the knowledge panel to fix this have failed
-* Google knowledge panel for person incorrectly states that they are "also known as The Sadist ... a Bulgarian rapist and serial killer who murdered five people... "
- * Fixed after a story about this makes it to #1 on HN
-* User notes that Google's knowledge panels about business often contain incorrect information even when the website for the business has correct information
-* Company reaches out to candidate about a job, eventually giving them an offer. The offer acceptance reply in email is marked as spam by everyone at the company
- * On looking in the spam folder, one user at the company (me) finds that 19 out of 20 "spam" emails are actually not spam. Other users check and find a huge amount of important email is being classified as spam.
- * Google support responds with what appears to be an automated message which reads "Hi Dan. Our team is working on this issue. Meanwhile, we suggest creating a filter by selecting 'Never send it to spam' to stop mail from being marked as spam", apparently suggesting that everyone with a corp gmail account disable spam filtering entirely by creating a filter that disables the spam filter
- * One person responds and says they actually did this because they were getting so much important email classified as spam
-* "Obvious to humans" spam gets through Gmail's spam filter all the time while also classifying "ham" as "spam"
+    * ~700 people signed up to be notified when tickets were available, but even though they explicitly signed up to get notified, Gmail still spamfiltered Jamie's email
+* [Author publishes a book about their victimization and sex crimes; Google then puts a photo of someone else in an automatically generated profile for the author](https://news.ycombinator.com/item?id=28216733)
+    * "After spending weeks sending feedback and trying to get help from Google support, they finally deleted the woman’s photo, but then promptly replaced it with another Andrea Vassell who is a pastor in New York. She, the pastor in New York, wrote to me that she has been 'attacked' because people believe she is me."
+    * That the person was a pastor of a church also caused problems for some people mentioned in the book; author again tries to get the photo removed, which eventually works, but is then replaced by the photo of a man who'd been fired for threatening the author, and then months later, the pastor's photo showed up again as the author
+    * Author appears to be non-technical and found HN and is writing a desperate plea for someone to do something about it
+    * A Google employee whose profile reads "Google's public liaison of Search, helping people better understand search & Google better hear public feedback", responds with "I'll share more about how you can better get this feedback to us ... \[explanation of knowledge panels\] ... Normally people just don't like the image we show, so we have a mechanism for them to upload a preferred image. That's very easy to use. But in your case, I understand your reasons for not wanting to have an image used at all. I believe if you had filed feedback explaining that, the image would have been removed."
+    * Author is dumbfounded given her lengthy explanation of how much feedback she has already provided and responds with "Are you suggesting that I did not send feedback through the appropriate channels? I have dozens of email exchanges with Google, some of which have multiple people copied on them, and I have screenshots of me sending feedback through your feedback link located within the knowledge panel. (And I explained my situation to them with more detail than I have explained here.). In April and May, I received email responses from Google employees who work for the knowledge panel support team. After they changed the photo twice to images of the wrong women instead of deleting them, I continued complaining and they suggested I contact legal removals. When I contacted legal, I received automated responses to contact the knowledge support team. So I was bounced around. They then began ignoring me and I started receiving automated responses from everyone. Even though I was being ignored, on any given day, I would wake up and find a different photo presented alongside my book. I also reached out to you, Danny Sullivan, _directly_"
+* [Famous sci-fi author spends years trying to get Google to stop putting photos of other people in their "knowledge panel"](https://www.gregegan.net/ESSAYS/GOOGLE/Google.html)
+    * This seems to currently be fixed, and it only took between five years and a decade to fix it.
+* [User notes that knowledge panel for them is misleading or wrong](https://farside.link/nitter/hacks4pancakes/status/1337208086910668800), and that attempts to claim the knowledge panel to fix this have failed
+* [Google knowledge panel for person incorrectly states that they are "also known as The Sadist ... a Bulgarian rapist and serial killer who murdered five people... "](https://hristo-georgiev.com/google-turned-me-into-a-serial-killer)
+    * Fixed after a story about this makes it to #1 on HN
+* [User notes that Google's knowledge panels about business often contain incorrect information even when the website for the business has correct information](https://news.ycombinator.com/item?id=27623387)
+* [Company reaches out to candidate about a job, eventually giving them an offer. The offer acceptance reply in email is marked as spam by everyone at the company](https://twitter.com/danluu/status/1514019521123663873)
+    * On looking in the spam folder, one user at the company (me) finds that 19 out of 20 "spam" emails are actually not spam. Other users check and find a huge amount of important email is being classified as spam.
+    * Google support responds with what appears to be an automated message which reads "Hi Dan. Our team is working on this issue. Meanwhile, we suggest creating a filter by selecting 'Never send it to spam' to stop mail from being marked as spam", apparently suggesting that everyone with a corp gmail account disable spam filtering entirely by creating a filter that disables the spam filter
+        * One person responds and says they actually did this because they were getting so much important email classified as spam
+* ["Obvious to humans" spam gets through Gmail's spam filter all the time while also classifying "ham" as "spam"](https://mastodon.social/@danluu/109919293479394809)
 * I emailed a local window film installer and their response to me, which quotes my entire email, went straight to spam 
 
 ### Facebook (Meta)
 
-* Journalist's account deleted and only restored after Twitter thread on deletion goes viral
-* Facebook moderator notes there's no real feedback or escalation path between what moderators see and the people who set FB moderation policy
-* User banned from WhatsApp with no reason given
- * appeal resulted in a generic template response
-* Instagram user can no longer interact with account
- * would like to remove account, but can't because login fails
-* Multiple users report they created a FB account so they can see and manage FB ads; accounts banned and can no longer manage ads
-* User banned after FB account hacked
- * account restored after viral HN story
+* [Journalist's account deleted and only restored after Twitter thread on deletion goes viral](https://nitter.net/FordFischer/status/1302391363456176128)
+* [Facebook moderator notes there's no real feedback or escalation path between what moderators see and the people who set FB moderation policy](https://nitter.net/RMac18/status/1382366931307565057)
+* [User banned from WhatsApp with no reason given](https://news.ycombinator.com/item?id=31707349)
+    * appeal resulted in a generic template response
+* [Instagram user can no longer interact with account](https://news.ycombinator.com/item?id=31707349)
+    * would like to remove account, but can't because login fails
+* [Multiple users report they created a FB account so they can see and manage FB ads; accounts banned and can no longer manage ads](https://news.ycombinator.com/item?id=31708987)
+* [User banned after FB account hacked](https://news.ycombinator.com/item?id=31577325)
+    * account restored after viral HN story
 * On a local FB group, user posts "Looking for some tech advice (admins delete if not allowed)... my Instagram account was hacked and I have lost all access to that account. The guy is still posting as me daily and communicating to others as me in messages (its a bitcoin scam). Does anyone know how I can communicate with Instagram directly? There does not appear to be any way to contact them and all the instructions I've followed lead me nowhere bc I have completely lost access to that account! 😫 Thank you!"
- * Someone suggests Instagram's instructions for this, https://help.instagram.com/368191326593075, but user replies and says that these didn't work because "I did all that but unfortunately the hacker was in my email and and verified all the changes before I noticed"
- * I replied and suggested searching linkedin for a connection to an employee, since the only things that work are internal escalation or going viral
-* Facebook incorrectly reports a user to DigitalOcean for phishing for a blog post they wrote
- * DigitalOcean sends them an automated message saying that their droplet (machine/VM) will be suspending if they don't delete the offending post within 24 hours
- * user appeals and appeal goes through; unclear if it would've gone through without the viral HN thread about this
-* User banned from FB marketplace for "violating community guidelines" after posting an ad for a vacuum
- * user appeals multiple times and each appeal is denied, ending with "Unfortunately, your account cannot be reinstated due to violating community guidelines. The review is final"
-* Reporting post advocating for violence against a person does nothing
-* Reporting post where one user tells another user to kill themselves does nothing
-* Murdered person is flooded with racist comments; friends report these, which does nothing
-* 40000 word series of articles by Erin Kissane that I'm not going to attempt to summarize
-* Facebook doesn't take down obvious scam ads after reporting them
-* User stops reporting obvious scam ads to Facebook because they never remove them, always saying that the ad didn't breach any standards
-* Takeover of dead person's Facebook account to run scams
+    * Someone suggests Instagram's instructions for this, [https://help.instagram.com/368191326593075](https://help.instagram.com/368191326593075), but user replies and says that these didn't work because "I did all that but unfortunately the hacker was in my email and and verified all the changes before I noticed"
+    * I replied and suggested searching linkedin for a connection to an employee, since the only things that work are internal escalation or going viral
+* [Facebook incorrectly reports a user to DigitalOcean for phishing for a blog post they wrote](https://social.lol/@robb/111704215593992932)
+    * DigitalOcean sends them an automated message saying that their droplet (machine/VM) will be suspending if they don't delete the offending post within 24 hours
+    * user appeals and appeal goes through; unclear if it would've gone through without the viral HN thread about this
+* [User banned from FB marketplace for "violating community guidelines" after posting an ad for a vacuum](https://news.ycombinator.com/item?id=38882891)
+    * user appeals multiple times and each appeal is denied, ending with "Unfortunately, your account cannot be reinstated due to violating community guidelines. The review is final"
+* [Reporting post advocating for violence against a person does nothing](https://news.ycombinator.com/item?id=38881698)
+* [Reporting post where one user tells another user to kill themselves does nothing](https://news.ycombinator.com/item?id=38881730)
+* [Murdered person is flooded with racist comments; friends report these, which does nothing](https://news.ycombinator.com/item?id=38882156)
+* [40000 word series of articles by Erin Kissane that I'm not going to attempt to summarize](https://erinkissane.com/meta-in-myanmar-full-series)
+* [Facebook doesn't take down obvious scam ads after reporting them](https://news.ycombinator.com/item?id=38613594)
+* [User stops reporting obvious scam ads to Facebook because they never remove them](https://news.ycombinator.com/item?id=38613594), always saying that the ad didn't breach any standards
+* [Takeover of dead person's Facebook account to run scams](https://www.reddit.com/r/mildlyinfuriating/comments/18etniq/someone_hacked_my_late_aunts_facebook_and_fake/)
 * See "Kamantha" story in body of post
-* Facebook refuses to do anything about account that was taken over and constantly posts scams
-* Facebook refuses to do anything about fake page for business
-* Reporting scammer on facebook does nothing
-* Paying for "creator" level of support on Facebook / insta appears to be worthless
- * Reviews is that support is sort of nice, in that you get connected to a human being who isn't reading off a script, but also useless. At one point Jonny Keeley had a video didn't upload and support's recommendation was to try editing the video again and uploading it again. Keeley asked support why that would fix it and the answer was basically, there's no particular reason to think that it might fix it, but it might also just work to re-upload the video. Another time, Keeley got "hacked" and went to support. Support once again responded quickly, but all they did was send him a bunch of links that he thinks are publicly available. Keeley was hoping that support would fix the issue, but instead they appear to have given him information he could've googled.
-* Zuckerberg rejected proposals to improve teen mental health from other FB execs
- * article notes that "that a lack of investment in well-being initiatives meant Meta lacked 'a roadmap of work that demonstrates we care about well-being.'"
-* Malicious Google ad from Google-verified advertiser; ad only removed after major publication writes a story about it
- * A user notes that something that amplifies the effectiveness of this attack is that Google allows advertisers to show fake domains, which is necessary for them to do tracking as they currently do it and not show some weird tracking domain
-* User gets lifetime ban from running ads because they ran ads for courses teaching people to use pandas (the python library)
- * User hits appeal button on form and is immediately banned for life. Someone notes that the appeal button is a trap and you should never hit the appeal button???. Apparently you should fill out some kind of form that you won't be able to fill out if you hit the appeal button and are immediately banned?
-* User notes pervasive scam ads
-* You can deactivate anyone's WhatsApp account by sending an email asking for it to be deactivated
- * This is sort of the opposite of all those scam FB accounts where reporting that the account is scamming does nothing
-* User has innocuous Threads message removed for "violating Community guidelines", and then asks why there's so much spam that doesn't get removed but their message gets remove
-* User has Threads message removed with message saying that it violates community guidelines; message is a reply to themselves that reads "(Also, please don't respond to this with some 'well, on the taxpayer funding front, I think they have a point...' stuff. If you can read an article that highlights efforts to push people like me out of society and your takeaway is 'Huh, I think those people have a point!' then I'd much rather you not comment at all. I "
- * Like many others, user notes that they've repeatedly reported messages that do actually violate community guidelines and these messages don't get removed
-* Rampant fraud on Instagram, Facebook, and WhatsApp
-* Meta moderation in Kenya
-* Facebook removes post showing art, electronics, and wheelchair mods is "hate speech"
- * No support action does anything, but the post is restored after the story about this goes viral
-* User notes that stories that vaguely resemble holding a gun to one's head, such as holding a hair dryer to one's head, get flagged
-* User reports threads desktop isn't usable for them for 6 weeks and then suddenly starts working again; logging in on most browsers give them an infinite loop
-* Dead link due to Mastodon migration, but comment about FB spam which used to be accessible in https://mastodon.social/@jefftk@mastodon.mit.edu/109826480309020697
-* User banned from Facebook's 2FA system (including WhatsApp, Insta, etc., causing business Insta page to get deleted) due to flaw in password recovery system
- * Despite having 2FA enabled, someone was able to take over this person's FB account. On appealing this, user is told "We've determined that you are ineligible to use Facebook"
- * User also used FB login for DMV and is no longer able to log into DMV
- * New accounts the user creates are linked to the old account and banned. Someone comments, "lol so they can identify/verify that but somehow fail to fingerprint login from Vietnam and account hijacking."
- * As usual, multiple people have the standard response that it's the user's fault for using a big platform and that no one should use these platforms, with comments like "It's common sense and obvious, yet whenever it gets mentioned, the messenger gets dunked on for victim blaming or whatever ... Somehow, this is a controversial opinion on HN" (there are many more such comments; I just linked a couple)
- * The author, who already noted in the post that his industry is dependent on Instagram asks "Please educate me on how to get the potential clients to switch platforms that they use to view pictures?" and didn't get a response; presumably, as is standard, none of these commenters read the post, although perhaps some of them just think that no one should work in these industries and anyone who does so should go flip burgers or something
-* User's account banned after it was somehow compromised from a foreign IP
- * User gets the standard comment about how FB couldn't possibly review cases like this due to its scale
-* User effectively banned from Facebook due to broken password recovery process, which requires getting total strangers to vouch that you're a real person, presumably due to some bad ML.
- * Afterwards, some scammer created a fake profile of the person, so there's now a fake version of the person around on FB and not a real one
-* User effectively banned from FB due to bad "suspicious activity" detection despite having 2FA on and having access to their password and 2FA
-* User repeatedly has account suspended for no discernable reason
-* User effectively banned from FB until a friend of theirs starts a jos a job there, at which point their friend opens an internal ticket to get them unbanned
-* User banned from FB after account hacked
-* User banned from FB after account hacked
- * See comments for many other examples
-* User banned from facebook after account hacked
- * Luckily for the user, this made the front page of HN and was highly ranked, causing some FB engineers to reach out and then fix the issue
- * Of course the HN post has the standard comments; one commenter suggests that people with the standard comments actually read the article before commenting, for once: "Anyone saying 'Good riddance! Go enjoy your life without Facebook!' is missing the point. Please read this bit from the article:"Thing is I’m a Mum of two who has just moved to a new area. Facebook groups have offered me support and community, and Mums I’ve met in local playgrounds have added me as a friend so we can use messenger to plan playdates. Without these apps sadly my little social life becomes a lot lonelier, and harder."
- * Undeterred, commenters respond to this comment with things like "this might actually have been a blessing in disguise--just the encouragement she needed to let go and move on from this harmful platform."
-* People who don't know employees at FB who can help them complain on Google Maps about their Facebook's anti-fraud systems
-* User banned from Facebook after posting about 12V system on Nissan Leaf in Nissan Leaf FB group
- * The post was (presumably automatically) determined to have violated "community standards", requiring identify verification to not be banned
- * "OK, I upload my driving licence. And it won't accept the upload. I try JPEG, PNG, different sizes, different browsers, different computers. Nothing seems to stick and after a certain number of attempts it says I have to wait a week to try again. After as couple of rounds of this the expiry deadline passes and my account is gone."
-* Person notes that their wife and most of their wife's friends have lost their FB accounts at least once
-* Person notes that girlfriend's mother's account was taken over and reporting the account as being taken over does nothing
- * The person, a programmer, finds it odd that taking over an account and changing the password, email, profile photo, full name, etc., all in quick succession doesn't trigger any kind of anti-fraud check
-* User reports that you can get FB accounts banned by getting people in groups dedicated to mass reporting accounts to all report an account you want to get banned
+* [Facebook refuses to do anything about account that was taken over and constantly posts scams](https://www.reddit.com/r/mildlyinfuriating/comments/18etniq/comment/kcq1vj0/)
+* [Facebook refuses to do anything about fake page for business](https://www.reddit.com/r/mildlyinfuriating/comments/18etniq/comment/kcqiuqy/)
+* [Reporting scammer on facebook does nothing](https://news.ycombinator.com/item?id=38269276)
+* [Paying for "creator" level of support on Facebook / insta appears to be worthless](https://www.youtube.com/watch?v=SMFCLpUuhqY)
+    * Reviews is that support is sort of nice, in that you get connected to a human being who isn't reading off a script, but also useless. At one point Jonny Keeley had a video didn't upload and support's recommendation was to try editing the video again and uploading it again. Keeley asked support why that would fix it and the answer was basically, there's no particular reason to think that it might fix it, but it might also just work to re-upload the video. Another time, Keeley got "hacked" and went to support. Support once again responded quickly, but all they did was send him a bunch of links that he thinks are publicly available. Keeley was hoping that support would fix the issue, but instead they appear to have given him information he could've googled.
+* [Zuckerberg rejected proposals to improve teen mental health from other FB execs](https://www.cnn.com/2023/11/08/tech/meta-facebook-instagram-teen-safety/index.html)
+    * article notes that "that a lack of investment in well-being initiatives meant Meta lacked 'a roadmap of work that demonstrates we care about well-being.'"
+* [Malicious Google ad from Google-verified advertiser](https://news.ycombinator.com/item?id=37938866); ad only removed after major publication writes a story about it
+    * A user notes that something that amplifies the effectiveness of this attack is that Google allows advertisers to show fake domains, which is necessary for them to do tracking as they currently do it and not show some weird tracking domain
+* [User gets lifetime ban from running ads because they ran ads for courses teaching people to use pandas (the python library)](https://lerner.co.il/2023/10/19/im-banned-for-life-from-advertising-on-meta-because-i-teach-python/)
+    * User hits appeal button on form and is immediately banned for life. [Someone notes that the appeal button is a trap and you should never hit the appeal button???](https://news.ycombinator.com/item?id=37949763). Apparently you should [fill out some kind of form that you won't be able to fill out if you hit the appeal button and are immediately banned](https://news.ycombinator.com/item?id=37254898)?
+* [User notes pervasive scam ads](https://news.ycombinator.com/item?id=37944695)
+* [You can deactivate anyone's WhatsApp account by sending an email asking for it to be deactivated](https://nitter.net/JakeMooreUK/status/1680962682726363136)
+    * This is sort of the opposite of all those scam FB accounts where reporting that the account is scamming does nothing
+* [User has innocuous Threads message removed for "violating Community guidelines"](https://www.threads.net/@chancerydaily/post/CuxYO8IR8Ea?igshid=NTc4MTIwNjQ2YQ%3D%3D), and then asks why there's so much spam that doesn't get removed but their message gets remove
+* [User has Threads message removed with message saying that it violates community guidelines; message is a reply to themselves that reads "(Also, please don't respond to this with some 'well, on the taxpayer funding front, I think they have a point...' stuff. If you can read an article that highlights efforts to push people like me out of society and your takeaway is 'Huh, I think those people have a point!' then I'd much rather you not comment at all. I "](https://www.threads.net/@parkermolloy/post/CuxTZD0vy52?igshid=NTc4MTIwNjQ2YQ%3D%3D)
+    * Like many others, user notes that they've repeatedly reported messages that do actually violate community guidelines and these messages don't get removed
+* [Rampant fraud on Instagram, Facebook, and WhatsApp](https://news.ycombinator.com/item?id=36359508)
+* [Meta moderation in Kenya](https://jacobin.com/2023/06/meta-is-trying-and-failing-to-crush-unions-in-kenya)
+* [Facebook removes post showing art, electronics, and wheelchair mods is "hate speech"](https://blog.adafruit.com/2023/05/13/facebook-claiming-people-showing-art-electronics-wheelchair-modifications-is-hate-speech-our-video-show-and-tell-removed-from-facebook/)
+    * No support action does anything, but the post is restored after the story about this goes viral
+* [User notes that stories that vaguely resemble holding a gun to one's head, such as holding a hair dryer to one's head, get flagged](https://news.ycombinator.com/item?id=35936225)
+* [User reports threads desktop isn't usable for them for 6 weeks and then suddenly starts working again](https://www.threads.net/@soozkempner/post/C2PKuDUIhzL); logging in on most browsers give them an infinite loop
+* Dead link due to Mastodon migration, but comment about FB spam which used to be accessible in [https://mastodon.social/@jefftk@mastodon.mit.edu/109826480309020697](https://mastodon.social/@jefftk@mastodon.mit.edu/109826480309020697)
+* [User banned from Facebook's 2FA system (including WhatsApp, Insta, etc., causing business Insta page to get deleted) due to flaw in password recovery system](https://news.ycombinator.com/item?id=34803157)
+    * Despite having 2FA enabled, someone was able to take over this person's FB account. On appealing this, user is told "We've determined that you are ineligible to use Facebook"
+    * User also used FB login for DMV and is no longer able to log into DMV
+    * New accounts the user creates are linked to the old account and banned. Someone comments, "[lol so they can identify/verify that but somehow fail to fingerprint login from Vietnam and account hijacking.](https://news.ycombinator.com/item?id=34804934)"
+    * As usual, multiple people have [the standard response](https://news.ycombinator.com/item?id=34808158) that it's [the user's fault for using a big platform](https://news.ycombinator.com/item?id=34803698) and that no one should use these platforms, with comments like "It's common sense and obvious, yet whenever it gets mentioned, the messenger gets dunked on for victim blaming or whatever ... Somehow, this is a controversial opinion on HN" (there are many more such comments; I just linked a couple)
+        * The author, who already noted in the post that his industry is dependent on Instagram asks "Please educate me on how to get the potential clients to switch platforms that they use to view pictures?" and didn't get a response; presumably, as is standard, none of these commenters read the post, although perhaps some of them just think that no one should work in these industries and anyone who does so should go flip burgers or something
+* [User's account banned after it was somehow compromised from a foreign IP](https://news.ycombinator.com/item?id=34803491)
+    * [User gets the standard comment about how FB couldn't possibly review cases like this due to its scale](https://news.ycombinator.com/item?id=34803620)
+* [User effectively banned from Facebook due to broken password recovery process](https://news.ycombinator.com/item?id=34807319), which requires getting total strangers to vouch that you're a real person, presumably due to some bad ML.
+    * Afterwards, some scammer created a fake profile of the person, so there's now a fake version of the person around on FB and not a real one
+* [User effectively banned from FB due to bad "suspicious activity" detection](https://news.ycombinator.com/item?id=34804049) despite having 2FA on and having access to their password and 2FA
+* [User repeatedly has account suspended for no discernable reason](https://news.ycombinator.com/item?id=34803729)
+* [User effectively banned from FB until a friend of theirs starts a jos a job there, at which point their friend opens an internal ticket to get them unbanned](https://news.ycombinator.com/item?id=34805537)
+* [User banned from FB after account hacked](https://www.nj.com/news/2022/09/womans-facebook-was-hacked-and-disabled-her-instagram-too-why-is-meta-doing-to-fix-it.html)
+* [User banned from FB after account hacked](https://perfectionhangover.com/facebook-disabled-deactivated-my-account/)
+    * See comments for many other examples
+* [User banned from facebook after account hacked](https://emilycordes.com/facebook/)
+    * Luckily for the user, this made the front page of HN and was highly ranked, causing some FB engineers to reach out and then fix the issue
+    * Of course the HN post has the standard comments; one commenter suggests that people with the standard comments actually read the article before commenting, for once: "Anyone saying 'Good riddance! Go enjoy your life without Facebook!' is missing the point. Please read this bit from the article:"Thing is I’m a Mum of two who has just moved to a new area. Facebook groups have offered me support and community, and Mums I’ve met in local playgrounds have added me as a friend so we can use messenger to plan playdates. Without these apps sadly my little social life becomes a lot lonelier, and harder."
+        * [Undeterred, commenters respond to this comment with things like](https://news.ycombinator.com/item?id=31579665) "this might actually have been a blessing in disguise--just the encouragement she needed to let go and move on from this harmful platform."
+* [People who don't know employees at FB who can help them complain on Google Maps about their Facebook's anti-fraud systems](https://www.google.com/maps/reviews/@37.485073,-122.1482824,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNSd3N2YnVnRRAB!2m1!1s0x0:0x64979e438bf4e3a5?hl=en-US&entry=ttu)
+* [User banned from Facebook after posting about 12V system on Nissan Leaf in Nissan Leaf FB group](https://news.ycombinator.com/item?id=31579437)
+    * The post was (presumably automatically) determined to have violated "community standards", requiring identify verification to not be banned
+    * "OK, I upload my driving licence. And it won't accept the upload. I try JPEG, PNG, different sizes, different browsers, different computers. Nothing seems to stick and after a certain number of attempts it says I have to wait a week to try again. After as couple of rounds of this the expiry deadline passes and my account is gone."
+* [Person notes that their wife and most of their wife's friends have lost their FB accounts at least once](https://news.ycombinator.com/item?id=31577975)
+* [Person notes that girlfriend's mother's account was taken over and reporting the account as being taken over does nothing](https://news.ycombinator.com/item?id=31578591)
+    * The person, a programmer, finds it odd that taking over an account and changing the password, email, profile photo, full name, etc., all in quick succession doesn't trigger any kind of anti-fraud check
+* [User reports that you can get FB accounts banned by getting people in groups dedicated to mass reporting accounts to all report an account you want to get banned](https://news.ycombinator.com/item?id=31581510)
 * Someone wrote a spammy reply to a "tweet" of mine on Threads that was trending (they replied with a link to their substack and nothing else). I reported it and, of course, nothing happened. I guess I neeed to join one of the mass reporting groups to ask a bunch of people to report the spam.
-* User is locked out of account and told they need to upload photo ID, which does nothing
- * Six months later, user gets to know a Facebook employee, who gets them unbanned
-* User has Facebook account banned and can't get it unbanned
- * User tried to contact FB employees on linkedin, which failed
- * User then used instagram to meet FB employees and sleep with them, resulting in the account getting unbanned
-* User is effectively banned from instagram because they logged in from a new device and can't confirm a no-longer active email
-* User gets FB account stolen, apparently bypassing 2FA check the user thought would protect them
- * White male, father of 3 FB account replace by young Asian female account, apparently not at all suspicious to FB anti-fraud systems
-* User finds that someone is impersonating them on Instagram; reporting this does nothing
-* User has ad account hacked; all attempts to contact support get no response or a useless auto-response or a useless webpage
-* User reports that there are multiple fake accounts impersonating them and family members and that reporting these accounts does nothing
-* Relatively early post-IPO Facebook engineer has account banned from Facebook and of course no standard appeal process works
- * User reports that their engineering friends inside the company are also unable to escalate the issue, so their account as well as ads money and Oculus games are lost
-* Sophisticated/technical user gets Instagram account stolen despite using strong random password, password manager, and 2FA
- * Crypto people had been trying to buy the account for 6 months and then the account was compromised
- * Following Instagram's official instructions for what to do literally results in an infinite loop of instructions
- * Instagram claims that they'll send you an email from `security@mail.instagram.com` if you change the email on your account, but this didn't happen; user looked at their Fastmail logs and believes that their email was not compromised
- * User was able to regain their Insta account after the story hit the front page of HN
- * Multiple people note that there are services that claim to be able to get you a desired Insta handle for $10k to $50k; it's commonly believed that this is done via compromised Facebook employees. Since there is (in general) no way to appeal or report these things, whatever it is that these services do is generally final unless you're famous, well connected in tech, or can make a story go viral about you
-* Desirable Instagram handle is stolen
- * The first two times this happened, user was able to talk to a contact inside Facebook to fix it, but they lost their contact to Facebook so the handle was eventually stolen and appears to be gone forever
-* User tries to recover their mother's hacked Instagram account and finds that the recovery process docs are an infinite loop
- * They also find that the "click here if this login wasn't you" e-mail anti-fraud link when someone tries to log in as you is a 404
- * They also find that if an account without 2FA on gets compromised and the attacker turns on 2FA, this disables all old recovery mechanisms.
-* User logs in and is asked for email 2FA
- * Email never arrives, isn't in spam folder, etc.
- * User asks for another code, which returns the error "Select a valid choice. 0 is not one of the available choices."
- * Subsequent requests for codes fail. User tries to contact support and gets a pop-up which says "If you’re unable to get the security code, you need to use the Instagram app to secure your account", but the user doesn't have the Instagram app installed, so their account is lost forever
-* Instagram takes username from user to give it to a more famous user, a common story
-* User with password, 2FA, registered pgp key (!?) gets locked of account due to some kind of anti-fraud system triggering; FB claims that only a passport scan will unlock the account, which the user apparently hasn't tried
-* User finds that it's not possible to move Duo 2FA and loses account forever
- * According to the user, FB has auth steps to handle this case, which involves sending in ID docs, which the user tries annually. These steps do nothing
-* User with Pixel phone can't use bluetooth for months because Google releases an update that breaks bluetooth (presumably only for some and not all devices) and doesn't bother to fix it for months
-* I tried clicking on some Facebook ads (I normally don't look at or click on them) leading up to Black Friday and most ads were actually scams
-* User reports fake FB profile (profile uses images from a famous dead person) and gets banned after reporting the profile a lot; user believes they were banned for reporting this profile too many times
-* User makes FB post about a deepfake phishing attack, which then attracts about 1 spam comment per minute that they have to manually delete because FB's systems don't handle this correctly
-* FB Ad Manager product claims reach of 101M people in the U.S. aged 18-34, but U.S. census has the total population being 76M, a difference of 25M assuming all people in the U.S. in that age group can be reached via FB ads
- * Former PM of the ads targeting team says that this is expected and totally fine because FB can't be expected to slice and dice numbers as small as tens or hundreds of millions accurately. "Think at FB scale".
-* User gets banned from FB for a week for posting sexual content when they posted an image of a pokemon
+* [User is locked out of account and told they need to upload photo ID, which does nothing](https://news.ycombinator.com/item?id=31577718)
+    * Six months later, user gets to know a Facebook employee, who gets them unbanned
+* [User has Facebook account banned and can't get it unbanned](https://www.newsweek.com/onlyfans-star-slept-meta-employees-instagram-unbanned-1708744)
+    * User tried to contact FB employees on linkedin, which failed
+    * User then used instagram to meet FB employees and sleep with them, resulting in the account getting unbanned
+* [User is effectively banned from instagram because they logged in from a new device and can't confirm a no-longer active email](https://news.ycombinator.com/item?id=31581475)
+* [User gets FB account stolen, apparently bypassing 2FA check the user thought would protect them](https://news.ycombinator.com/item?id=31578789)
+    * White male, father of 3 FB account replace by young Asian female account, apparently not at all suspicious to FB anti-fraud systems
+* [User finds that someone is impersonating them on Instagram](https://news.ycombinator.com/item?id=31583954); reporting this does nothing
+* [User has ad account hacked; all attempts to contact support get no response or a useless auto-response or a useless webpage](https://news.ycombinator.com/item?id=31577818)
+* [User reports that there are multiple fake accounts impersonating them and family members](https://news.ycombinator.com/item?id=31578197) and that reporting these accounts does nothing
+* [Relatively early post-IPO Facebook engineer has account banned from Facebook](https://news.ycombinator.com/item?id=31631585) and of course no standard appeal process works
+    * User reports that their engineering friends inside the company are also unable to escalate the issue, so their account as well as ads money and Oculus games are lost
+* [Sophisticated/technical user gets Instagram account stolen despite using strong random password, password manager, and 2FA](https://mastodon.social/@skolima/109762138275850929/)
+    * Crypto people had been trying to buy the account for 6 months and then the account was compromised
+    * [Following Instagram's official instructions for what to do literally results in an infinite loop of instructions](https://mastodon.social/@alexjsp/109760284680279691)
+    * Instagram claims that they'll send you an email from `security@mail.instagram.com` if you change the email on your account, but this didn't happen; user looked at their Fastmail logs and believes that their email was not compromised
+    * User was able to regain their Insta account after the story hit the front page of HN
+    * Multiple people note that there are services that claim to be able to get you a desired Insta handle for $10k to $50k; it's commonly believed that this is done via compromised Facebook employees. Since there is (in general) no way to appeal or report these things, whatever it is that these services do is generally final unless you're famous, well connected in tech, or can make a story go viral about you
+* [Desirable Instagram handle is stolen](https://social.coop/@jordancox/109762988866327497)
+    * The first two times this happened, user was able to talk to a contact inside Facebook to fix it, but they lost their contact to Facebook so the handle was eventually stolen and appears to be gone forever
+* [User tries to recover their mother's hacked Instagram account and finds that the recovery process docs are an infinite loop](https://news.ycombinator.com/item?id=34549132)
+    * They also find that the "click here if this login wasn't you" e-mail anti-fraud link when someone tries to log in as you is a 404
+    * They also find that if an account without 2FA on gets compromised and the attacker turns on 2FA, this disables all old recovery mechanisms.
+* [User logs in and is asked for email 2FA](https://news.ycombinator.com/item?id=34553081)
+    * Email never arrives, isn't in spam folder, etc.
+    * User asks for another code, which returns the error "Select a valid choice. 0 is not one of the available choices."
+    * Subsequent requests for codes fail. User tries to contact support and gets a pop-up which says "If you’re unable to get the security code, you need to use the Instagram app to secure your account", but the user doesn't have the Instagram app installed, so their account is lost forever
+* [Instagram takes username from user to give it to a more famous user](https://fashionweekdaily.com/instagram-handle-sussexroyal-controversy/), a common story
+* [User with password, 2FA, registered pgp key (!?) gets locked of account due to some kind of anti-fraud system triggering](https://news.ycombinator.com/item?id=34549196); FB claims that only a passport scan will unlock the account, which the user apparently hasn't tried
+* [User finds that it's not possible to move Duo 2FA and loses account forever](https://news.ycombinator.com/item?id=34443330)
+    * According to the user, FB has auth steps to handle this case, which involves sending in ID docs, which the user tries annually. These steps do nothing
+* [User with Pixel phone can't use bluetooth for months because Google releases an update that breaks bluetooth (presumably only for some and not all devices) and doesn't bother to fix it for months](https://news.ycombinator.com/item?id=39145302)
+* [I tried clicking on some Facebook ads (I normally don't look at or click on them) leading up to Black Friday and most ads were actually scams](https://twitter.com/danluu/status/1584615878800576512)
+* [User reports fake FB profile (profile uses images from a famous dead person)](https://news.ycombinator.com/item?id=33280491) and gets banned after reporting the profile a lot; user believes they were banned for reporting this profile too many times
+* [User makes FB post about a deepfake phishing attack](https://www.facebook.com/jefftk/posts/pfbid0gytpKikevTKLat5sE4En6BsRsGxpoaF3oR5joPFZXwgKuq2GrSLEbnV9xK24LScFl?comment_id=512928177058808&reply_comment_id=1306228043460821), which then attracts about 1 spam comment per minute that they have to manually delete because FB's systems don't handle this correctly
+* [FB Ad Manager product claims reach of 101M people in the U.S. aged 18-34, but U.S. census has the total population being 76M, a difference of 25M assuming all people in the U.S. in that age group can be reached via FB ads](https://twitter.com/danluu/status/905456556979965953)
+    * Former PM of the ads targeting team says that this is expected and totally fine because FB can't be expected to slice and dice numbers as small as tens or hundreds of millions accurately. "Think at FB scale".
+* [User gets banned from FB for a week for posting sexual content when they posted an image of a pokemon](https://www.reddit.com/r/mildlyinfuriating/comments/rwm50a/i_was_given_a_week_facebook_ban_over_sandshrew/)
 * For maybe five years or so, I would regularly get spam in my feed where a scammer would sell fake sneakers and then tag a bunch of people, tagging someone I'm FB friends with, causing me to get this spam into my feed
- * This exact scam doesn't show up in my feed all the time anymore, but tag spam like this still sometimes shows up
-* Instagram takes down account posting public jet flight information when billionaire asks the to
+    * This exact scam doesn't show up in my feed all the time anymore, but tag spam like this still sometimes shows up
+* [Instagram takes down account posting public jet flight information when billionaire asks the to](https://twitter.com/Jxck_Sweeney/status/1766191047590420685)
 
 ### Amazon
 
-* Author notes that 100% of the copies of their book sold on Amazon are counterfeits (100% because Amazon never buys real books because counterfeiters always have inventory)
- * Author spent months trying to get Amazon to take action on this; no effect
- * Author believes that most high-sale volume technical books on Amazon are impacted and says that other authors have noticed the same thing
-* Top USB drive listings on Amazon are scams
-* Amazon retail website asks user to change password; Amazon retail account and AWS stop working
- * never restored
-* Magic card scam on Amazon
- * many customers report that "rare" cards were removed from packs bought from Amazon
-* Counterfeit books sold on Amazon
- * seller of non-counterfeit books reported to Amazon various times over the years without effect
-* User notes that Amazon is more careful about counterfeits in Australia than in the U.S. due to regulatory action, and that Valve only issued refunds in some cases due to Australian regulatory action
-* User notes that Amazon sells counterfeit Kindle books
-* Author notes that Amazon sells counterfeit copies of their book
-* Boardgame publisher reports counterfeit copies of their game on Amazon, which they have not been able to get Amazon to remove
- * I saw this on a FB group I'm on since the publisher is running a PR blitz to get people to report the fake copies on Amazon in order to get Amazon to stop selling counterfeits
-* Amazon resells returned, damaged, merchandise
- * This is so common that authors warn each other that this happens and so that other authors know that to leave a note in the book telling the user what happened when authors return damaged author's copies of books
-* Amazon ships "new" book with notes scribbled on pages and exercises done; on asking for replacement, user gets a 2nd book "new" in similar condition
-* Top-selling Amazon fuses dangerously doesn't blow at well above rated current
-* Amazon sells used items as new
-* Amazon sells used items as new
-* Amazon sells used items as new
-* Amazon sells used items as new
-* Amazon sells used item as new; book has toilet paper inside
-* Amazon sells used item as new; book has toilet paper inside
-* Amazon ships HDDs in oversized box with no padding
-* Amazon sells used or damaged items as new
-* Amazon sells used microwave full of food detritus as new
-* Amazon sells used pressure cooker with shopping bag and food smell as new
-* Amazon sells used vacuum cleaner as new, complete with home address and telephone number of the person who returned the vacuum
-* Amazon ships incorrect product to user buying a new item, apparently due to someone returned in different item
-* Amazon sells incomplete used item as new
-* Amazon sells used items as new
-* Amazon sells used item as new, complete with invoice for sale 13 years ago, with name and address of previous owner
-* Amazon selling low quality, counterfeit, engine oil filters
-* Amazon sells supplements with unlabeled or mislabeled ingredients
- * Someone notes that Amazon used to require certification for supplements, but the person who was driving this left Amazon and it appears that no one has picked it up
-* Amazon sells counterfeit shampoo that burns user's scalp
- * User wrote a review, which was deleted by Amazon
-* Amazon sells damaged, used, items as new
-* Amazon sells counterfeit supplement
- * User wrote a review noting this, which Amazon deleted
-* Amazon sells box full of trash as new lego set
-* Amazon sells used item with a refurbished sticker on it as new
-* User has National Geographic subscription that can't be cancelled through the web interface, so they talk to Amazon support to cancel it; Amazon support cancels their Amazon Prime subscription instead
-* Amazon sells used, damaged, item as new
-* Amazon sells used item with Kohl's sticker on it as new
-* Amazon sells nearly empty boardgame box as new, presumed to be returned item with game removed
-* Amazon sells counterfeit board game
-* User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice
-* User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice
-* User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice
-* User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice
-* Amazon sells counterfeit SD cards; user compares to reference SD card bought at brick and mortar store
- * A commenter notes that counterfeit SD cards are so common on Amazon that r/photography has a blanket recommendation against buying SD cards on Amazon
-* User leave a review noting that product is a scam/fake an review is rejected
-* Counterfeit lens filter on Amazon; multiple users note that they never buy camera gear (which includes things like SD cards) from Amazon because they've received too many counterfeits
-* Amazon sells used, dirty, CPU as new CPU; CPU is marked "NOT FOR RESALE" (NFR)
- * it's not known why this CPU is marked NFR; a commenter speculates that it was a review copy of a CPU, in which case it would be relatively likely to be a highly-binned copy that's better than what you'd normally get. On the other hand, it could also be an early engineering sample with all sorts of bugs or other issues; when I worked for a CPU company, we would buy Intel CPUs to test them and engineering samples would not only have a variety of bugs that only manifested in certain circumstances, they would sometimes have instructions that did completely different things that could be reasonable behavior, except that Intel had changed the specified behavior before release, so the CPU would just do the wrong thing, resulting in crashes on real software (this happened with the first CPU we were able to get that had the `MWAIT` instruction, an engineering sample that was apparently from before Intel had finalized the current behavior of `MWAIT`).
-* Amazon doesn't refund user after they receive empty box instead of $2100 item, but there's a viral story about this, so maybe Amazon will fix this
-* Amazon refuses to refund user after sending them an old, used, camera lens instead of high-end new lens
- * On the photography forum where this is posted, users note that you should never by camera lenses or other high-end gear from Amazon if you don't want to risk being scammed
-* Amazon doesn't refund user after sending them a low-end used camera lends instead of the ordered high-end lens
- * Users on this photography forum (a different one than the above) note that this happens frequently enough that you should never order camera lenses from Amazon
-* Amazon refuses to refund user who got an empty box instead of a $7000 camera until story goes viral and Amazon gets a lot of bad press
- * Based on the shipping weight, Amazon clearly shipped something light or an empty box and not a camera
-* User gets constant stream of unwanted Amazon packages
- 
- * In response to a news story, Amazon says "The case in question has been addressed, and corrective action is being taken to stop the packages", but the user reports that nothing has changed
-* Amazon sells user used AirPods, which later causes a problem when they want to use the 1-year warranty because Apple shows an in-service date 2 months before the user bought the item
- 
- * To fix this, Apple requests that the user get some evidence from Amazon that the particular serial number was associated with their purchase and Amazon refuses to do this; people recommend that, to fix this, the user do the "standard" Amazon scam of buying a new item and returning a used item to swap a broken used item for a new item
-* User receives old, used, HD from Amazon instead of new HD
- 
-* Mechanic warns people not to buy car parts on Amazon because counterfeits are so frequent
- 
- * They note that you can get counterfeits in various places, but the rate is highest from Amazon and it's often a safety issue; they're current dealing with a customer who had counterfeit brake pads
- * Many other mechanics reply and report similar issues, e.g., someone bought a water pump from Amazon that exploded after 5 months that they believe is fake
-* User stops buying household products from Amazon because counterfeit rate is too high
- 
-* User gets counterfeit card game from Amazon
- 
-* User gets counterfeit board game from Amazon
- 
-* Amazon sells counterfeit gun parts and accessories
- 
-* Amazon sells so many counterfeits that board game maker runs a marketing campaign to ask people to stop buying their game on Amazon
- 
- * They spent months trying to get Amazon to go after counterfeits without making progress until the marketing campaign; two days after they started it, Amazon contacted them to try to deal with the issue
-* Searching for items in many categories trivially finds huge number of fraudulent or counterfeit items
- 
-* User gets counterfeit hair product that burns scalp
- 
-* User receives used book from Amazon and their friend tells them that it's normal to buy books and return them in the return window, which their friend does all the time
- 
-* Amazon driver mishears automated response from Eufy doorbell, causing Amazon to shut down user's smarthome (user was able to get smarthome and account back after one week)
- 
- * Video footage allegedly shows that the doorbell said "excuse me, can I help you", which lead to an Amazon executive personally accusing this user of racism; when account was unlocked, the user wasn't informed (except that things started working again)
- * In the comments to the article, someone says that it's impossible that Amazon would do this, with comments like "None of this makes any sense and is probably 100% false.", as if huge companies can't do things that don't make any sense, but Amazon's official response to a journalist reaching our for comment confirms that the something like the events happened; if it was 100% false, it would be very strange for Amazon to respond thusly instead of responding with a denial or not responding
-* Youtuber who made a video about the above has their Amazon Associates account deleted after video goes viral
- 
-* Amazon account gets locked out; support refuses to acknowledge there's an issue until user calls back many times and then tells user to abandon the account and make another one
- 
-* User has Amazon account closed because they sometimes send gifts to friends back home in Belarus
- 
-* User gets counterfeit item from Amazon; they contact support with detailed photos showing that the item is counterfeit and support replies with "the information we have indicates that the product you received was authentic"
- 
-* User gets the wrong GPU from Amazon, twice; luckily for them, the second time, Amazon sent a higher end GPU than was purchased, so the user is getting a free upgrade
- 
-* Technical book publisher fails to get counterfeits removed from Amazon
- 
- * Amazon announced a new system designed to deal with this, but people continue to report rampant technical book counterfeiting on Amazon, so the system does not appear to have worked
-* ChatGPT clone of author's book only removed after Washington Post story on problem
- 
-* Searching for children's books on Amazon returns AI generated nonsense
- 
-* Amazon takes down legitimate cookbook; author notes "They won't tell us why. They won't tell us how to fix whatever tripped the algorithm. They won't seem to let us appeal. Reaching a human at Amazon is a Kafkaesque experience that we haven't yet managed to do."
- 
- * When I checked later, not restored despite viral Mastodon thread and highly upvoted/ranked front-page HN article
- * Multiple people give the standard response of asking why booksellers bother to use Amazon, seemingly unaware (???) that Amazon has a lot of marketshare and authors can get a lot more reach and revenue on Amazon than on other platforms (when they're not arbitrarily banned) (the author of the book replies and says this as well, but one doesn't need to be an author to know this)
-* Amazon basically steals $250 from customer, appeal does nothing, as usual
- 
-* Amazon delivers package directly to food waste / compost bin and declines to provide any compensation
- 
- * User notes that they had a nice call with Amazon support and that they hope this doesn't happen again. From my experience with trying to get Amazon to stop shipping packages via Intelcom and Purolator, I suspect this user will have this problem happen again — I've heard that you can get them to not deliver using certain mechanisms, but you have to repeatedly contact support until someone actually puts this onto your file, as opposed to just saying that they'll do it and then not doing it, which is what's happened the two times I've contacted support about this
-* User receives fake GPU from Amazon, after an attempt to buy from the official Amazon.com msi store
- 
-* Amazon Fresh order comes with bottle of urine
- 
-* Amazon sells many obviously fake 16 TB physically tiny SSD drives for $100
- 
- * The author sent a list of fakes to Amazon and a few disappeared. The author isn't sure if the listings that disappeared were actually removed by Amazon or if it's just churn in the listings
- * An HN commenter searches and also finds many fakes, which have good reviews that are obviously for a different product; someone notes that they've tried reporting these kinds of obvious fakes where someone takes a legitimate product with good reviews and then swaps in a scam product but that this does nothing
- * Multiple people note that they've tried leaving 1\* reviews for fake products and had these reviews rejected by Amazon for not meeting the review policy guidelines
- * Some time after this story made the front page of HN, this class of fakes got cleaned up. However, other fakes that are mentioned in the HN comments (see item directly below this) did not get cleaned up; maybe someone can write an article about how these other items are fake to get these other things cleaned up as well
-* User notes that bestselling item on Amazon is a fake item and that they tried to leave a review to this effect, but the review was rejected
- 
- * I looked up the item and it's still a bestselling item. There are some reviews which indicate that it's a fake item, but this fake item seems to have been on sale for years
-* Amazon sells Android TV boxes that are actually malware
- 
- * It appears that these devices have been on sale on Amazon at least since 2017; I clicked the search query in the link of the above post and it still returns many matching devices in 2014
-* Amazon scammer causes user to get arrested and charged for fraud, which causes user to lose their job
- 
- * The user also notes "In Canada, a criminal record is not a record of conviction, it’s a record of charges and that’s why I can’t work now. Potential employers never find out what the nature of it is, they just find out that I have a criminal arrest record."
- * For more information on how the scam works, see this talk by Nina Kollars
-* An Amazon seller story
- 
- * It's unclear exactly what's going on here since some parts of the seller's story appear to be false? Some parts are quite plausible and really terrible if true
-* Illegal weapon a bestselling item on Amazon, although this does get removed after it's reported
- 
-* Fake Amazon listings with titles and descriptions like "I'm sorry but I cannot fulfill this request it goes against OpenAI use policy. My purpose is to provide helpful and respectful information to users"
- 
- * The most obvious cases seem to have been cleaned up after a story about this hit #1 on HN
- * Someone noted that the seller's page is still up (which is still true today) and if you scroll around for listings, other ones with slightly different text, like "I'm sorry I cannot complete this task there isn't enough information provided. Please provide more context or information so I can assist you better " are still up
- * These listings are total nonsense, such as the above, which has a photo of a cat and also says "Exceptional Read/Write Speeds: With exceptional read/write speeds of up to 560MB and 530MB "
- * I checked out other items from this seller, and they have a silicone neck support "bowl" that also says "Note: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.", so it seems that someone at Amazon took down the listings that HN commenters called out (the HN thread on this is full of HN commenters pointing out ridiculous listing and those individual listings being taken down), but there's no systematic removal of nonsense listings, of which there are many
+* [Author notes that 100% of the copies of their book sold on Amazon are counterfeits (100% because Amazon never buys real books because counterfeiters always have inventory)](https://nitter.net/fchollet/status/1550930876183166976)
+    * Author spent months trying to get Amazon to take action on this; no effect
+    * Author believes that most high-sale volume technical books on Amazon are impacted and says that other authors have noticed the same thing
+* [Top USB drive listings on Amazon are scams](https://kurtisknodel.com/blog?post=amazon)
+* [Amazon retail website asks user to change password; Amazon retail account and AWS stop working](https://news.ycombinator.com/item?id=32289842)
+    * never restored
+* [Magic card scam on Amazon](https://www.reddit.com/r/magicTCG/comments/omj8jh/amazon_customers_beware/)
+    * [many customers report that "rare" cards were removed from packs bought from Amazon](https://www.reddit.com/r/mtgfinance/comments/omjagl/after_watching_the_video_from_uebisquid_i_got/)
+* [Counterfeit books sold on Amazon](https://nitter.net/fchollet/status/1550930876183166976)
+    * seller of non-counterfeit books reported to Amazon various times over the years without effect
+* [User notes that Amazon is more careful about counterfeits in Australia than in the U.S. due to regulatory action, and that Valve only issued refunds in some cases due to Australian regulatory action](https://news.ycombinator.com/item?id=32211102)
+* [User notes that Amazon sells counterfeit Kindle books](https://news.ycombinator.com/item?id=32210999)
+* [Author notes that Amazon sells counterfeit copies of their book](https://news.ycombinator.com/item?id=32214971)
+* [Boardgame publisher reports counterfeit copies of their game on Amazon, which they have not been able to get Amazon to remove](https://wonderbowgames.com/en-uk/blogs/news/counterfeit-copies-of-kelp)
+    * I saw this on a FB group I'm on since the publisher is running a PR blitz to get people to report the fake copies on Amazon in order to get Amazon to stop selling counterfeits
+* [Amazon resells returned, damaged, merchandise](https://nitter.net/joabaldwin/status/1741145625809559933)
+    * This is so common that authors warn each other that this happens and so that other authors know that to leave a note in the book telling the user what happened when authors return damaged author's copies of books
+* [Amazon ships "new" book with notes scribbled on pages and exercises done; on asking for replacement, user gets a 2nd book "new" in similar condition](https://news.ycombinator.com/item?id=38819176)
+* [Top-selling Amazon fuses dangerously doesn't blow at well above rated current](https://www.youtube.com/watch?v=B90_SNNbcoU&themeRefresh=1)
+* [Amazon sells used items as new](https://news.ycombinator.com/item?id=38820664)
+* [Amazon sells used items as new](https://news.ycombinator.com/item?id=38819094)
+* [Amazon sells used items as new](https://news.ycombinator.com/item?id=38819234)
+* [Amazon sells used items as new](https://news.ycombinator.com/item?id=38819528)
+* [Amazon sells used item as new; book has toilet paper inside](https://news.ycombinator.com/item?id=38819432)
+* [Amazon sells used item as new; book has toilet paper inside](https://news.ycombinator.com/item?id=38819839)
+* [Amazon ships HDDs in oversized box with no padding](https://news.ycombinator.com/item?id=38821489)
+* [Amazon sells used or damaged items as new](https://news.ycombinator.com/item?id=38821770)
+* [Amazon sells used microwave full of food detritus as new](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/brand_new_300_microwave_from_amazon_came_full_of/)
+* [Amazon sells used pressure cooker with shopping bag and food smell as new](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/comment/kflvmby/)
+* [Amazon sells used vacuum cleaner as new, complete with home address and telephone number of the person who returned the vacuum](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/comment/kfm4psd/)
+* [Amazon ships incorrect product to user buying a new item, apparently due to someone returned in different item](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/comment/kfnvuf2/)
+* [Amazon sells incomplete used item as new](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/comment/kfra5de/)
+* [Amazon sells used items as new](https://www.reddit.com/r/mildlyinfuriating/comments/18upi9k/comment/kfluk9m/)
+* [Amazon sells used item as new, complete with invoice for sale 13 years ago, with name and address of previous owner](​​https://www.reddit.com/r/mildlyinteresting/comments/18uq0rg/this_book_sold_to_me_as_new_from_amazon_had_an/)
+* [Amazon selling low quality, counterfeit, engine oil filters](https://news.ycombinator.com/item?id=38817916)
+* [Amazon sells supplements with unlabeled or mislabeled ingredients](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amazoncom-inc-662503-12202023)
+    * [Someone notes that Amazon used to require certification for supplements, but the person who was driving this left Amazon and it appears that no one has picked it up](https://news.ycombinator.com/item?id=38795981)
+* [Amazon sells counterfeit shampoo that burns user's scalp](https://news.ycombinator.com/item?id=38794482)
+    * User wrote a review, which was deleted by Amazon
+* [Amazon sells damaged, used, items as new](https://news.ycombinator.com/item?id=38795941)
+* [Amazon sells counterfeit supplement](https://news.ycombinator.com/item?id=38795469)
+    * User wrote a review noting this, which Amazon deleted
+* [Amazon sells box full of trash as new lego set](https://www.reddit.com/r/lego/comments/18qomuv/amazon_set_filled_with_trash/)
+* [Amazon sells used item with a refurbished sticker on it as new](https://www.reddit.com/r/Wellthatsucks/comments/18or8h3/didnt_order_a_refurbished/)
+* [User has National Geographic subscription that can't be cancelled through the web interface, so they talk to Amazon support to cancel it; Amazon support cancels their Amazon Prime subscription instead](https://www.reddit.com/r/Wellthatsucks/comments/18or8h3/comment/kekcvmm/)
+* [Amazon sells used, damaged, item as new](https://www.reddit.com/r/Wellthatsucks/comments/18or8h3/comment/kejdhoe/)
+* [Amazon sells used item with Kohl's sticker on it as new](https://www.reddit.com/r/Wellthatsucks/comments/18or8h3/comment/kejp9p3/)
+* [Amazon sells nearly empty boardgame box as new, presumed to be returned item with game removed](https://boardgamegeek.com/thread/3209950/scam-amazon-testament-returned-item-onsold-new)
+* [Amazon sells counterfeit board game](https://www.facebook.com/groups/132851767828/permalink/10161153164112829/)
+* [User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice](https://news.ycombinator.com/item?id=38691752)
+* [User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice](https://news.ycombinator.com/item?id=38691794)
+* [User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice](https://news.ycombinator.com/item?id=38691812)
+* [User writes review noting that product tries to buy fake reviews; Amazon deletes their review as being bought because it mentioned this practice](https://news.ycombinator.com/item?id=38696003)
+* [Amazon sells counterfeit SD cards; user compares to reference SD card bought at brick and mortar store](https://www.reddit.com/r/hardware/comments/sd10h1/counterfeit_sd_cards/)
+    * A commenter notes that counterfeit SD cards are so common on Amazon that r/photography has a blanket recommendation against buying SD cards on Amazon
+* [User leave a review noting that product is a scam/fake an review is rejected](https://www.fredmiranda.com/forum/topic/1772750/1&year=2022#16137759)
+* [Counterfeit lens filter on Amazon](https://www.fredmiranda.com/forum/topic/1619442/0); multiple users note that they never buy camera gear (which includes things like SD cards) from Amazon because they've received too many counterfeits
+* [Amazon sells used, dirty, CPU as new CPU](https://www.reddit.com/r/pcmasterrace/comments/191v2mg/comment/kgy40ar/); CPU is marked "NOT FOR RESALE" (NFR)
+    * it's not known why this CPU is marked NFR; a commenter speculates that it was a review copy of a CPU, in which case it would be relatively likely to be [a highly-binned copy that's better than what you'd normally get](/why-benchmark/). On the other hand, it could also be an early engineering sample with all sorts of bugs or other issues; when I worked for a CPU company, we would buy Intel CPUs to test them and engineering samples would not only have a variety of bugs that only manifested in certain circumstances, they would sometimes have instructions that did completely different things that could be reasonable behavior, except that Intel had changed the specified behavior before release, so the CPU would just do the wrong thing, resulting in crashes on real software (this happened with the first CPU we were able to get that had the `MWAIT` instruction, an engineering sample that was apparently from before Intel had finalized the current behavior of `MWAIT`).
+* [Amazon doesn't refund user after they receive empty box instead of $2100 item, but there's a viral story about this, so maybe Amazon will fix this](https://www.cbc.ca/news/gopublic/amazon-returns-watch-missing-1.7046767)
+* [Amazon refuses to refund user after sending them an old, used, camera lens instead of high-end new lens](https://www.reddit.com/r/SonyAlpha/comments/beoecq/update_amazon_sent_me_the_wrong_lens_and_is/)
+    * On the photography forum where this is posted, users note that you should never by camera lenses or other high-end gear from Amazon if you don't want to risk being scammed
+* [Amazon doesn't refund user after sending them a low-end used camera lends instead of the ordered high-end lens](https://www.reddit.com/r/photography/comments/rx50ny/psa_watch_out_when_buying_used_lens_from_amazon/)
+    * Users on this photography forum (a different one than the above) note that this happens frequently enough that you should never order camera lenses from Amazon
+* [Amazon refuses to refund user who got an empty box instead of a $7000 camera](https://petapixel.com/2021/05/26/couple-buys-7000-camera-from-amazon-gets-empty-boxes-instead/) until story goes viral and Amazon gets a lot of bad press
+    * Based on the shipping weight, Amazon clearly shipped something light or an empty box and not a camera
+* [User gets constant stream of unwanted Amazon packages](https://www.cbc.ca/news/canada/british-columbia/amazon-shoe-packages-1.6926200)
+    
+    * In response to a news story, Amazon says "The case in question has been addressed, and corrective action is being taken to stop the packages", but the user reports that nothing has changed
+* [Amazon sells user used AirPods, which later causes a problem when they want to use the 1-year warranty because Apple shows an in-service date 2 months before the user bought the item](https://www.reddit.com/r/onguardforthee/comments/18alquj/comment/kbypxid/)
+    
+    * To fix this, Apple requests that the user get some evidence from Amazon that the particular serial number was associated with their purchase and Amazon refuses to do this; people recommend that, to fix this, the user do the "standard" Amazon scam of buying a new item and returning a used item to swap a broken used item for a new item
+* [User receives old, used, HD from Amazon instead of new HD](https://www.reddit.com/r/onguardforthee/comments/18alquj/comment/kbyzh9t/)
+    
+* [Mechanic warns people not to buy car parts on Amazon because counterfeits are so frequent](https://www.reddit.com/r/Justrolledintotheshop/comments/17sgdc0/psa_stop_buying_car_parts_on_amazon/)
+    
+    * They note that you can get counterfeits in various places, but the rate is highest from Amazon and it's often a safety issue; they're current dealing with a customer who had counterfeit brake pads
+    * Many other mechanics reply and report similar issues, e.g., someone bought a water pump from Amazon that exploded after 5 months that they believe is fake
+* [User stops buying household products from Amazon because counterfeit rate is too high](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/ysk_that_amazon_has_a_serious_problem_with/)
+    
+* [User gets counterfeit card game from Amazon](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/comment/g2r9srl/)
+    
+* [User gets counterfeit board game from Amazon](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/comment/g2rtfex/)
+    
+* [Amazon sells counterfeit gun parts and accessories](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/comment/g2sexe6/)
+    
+* [Amazon sells so many counterfeits that board game maker runs a marketing campaign to ask people to stop buying their game on Amazon](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/comment/g2tfkpa/)
+    
+    * They spent months trying to get Amazon to go after counterfeits without making progress until the marketing campaign; two days after they started it, Amazon contacted them to try to deal with the issue
+* [Searching for items in many categories trivially finds huge number of fraudulent or counterfeit items](https://themarkup.org/show-your-work/2020/06/18/how-we-investigated-banned-items-on-amazon-com)
+    
+* [User gets counterfeit hair product that burns scalp](https://www.reddit.com/r/YouShouldKnow/comments/ifytxk/comment/g2r4l2r/)
+    
+* [User receives used book from Amazon and their friend tells them that it's normal to buy books and return them in the return window, which their friend does all the time](https://www.reddit.com/r/books/comments/1976o66/found_out_my_friend_returns_books_right_after/)
+    
+* [Amazon driver mishears automated response from Eufy doorbell](https://forums.macrumors.com/threads/amazon-shuts-down-customers-smart-home.2392704/), causing Amazon to shut down user's smarthome (user was able to get smarthome and account back after one week)
+    
+    * Video footage allegedly shows that the doorbell said "excuse me, can I help you", which lead to an Amazon executive personally accusing this user of racism; when account was unlocked, the user wasn't informed (except that things started working again)
+    * In the comments to the article, someone says that it's impossible that Amazon would do this, with comments like "None of this makes any sense and is probably 100% false.", as if huge companies can't do things that don't make any sense, but Amazon's official response to a journalist reaching our for comment confirms that the something like the events happened; if it was 100% false, it would be very strange for Amazon to respond thusly instead of responding with a denial or not responding
+* [Youtuber who made a video about the above has their Amazon Associates account deleted after video goes viral](https://www.youtube.com/watch?v=Kcohq313q00)
+    
+* [Amazon account gets locked out](https://news.ycombinator.com/item?id=36766149); support refuses to acknowledge there's an issue until user calls back many times and then tells user to abandon the account and make another one
+    
+* [User has Amazon account closed because they sometimes send gifts to friends back home in Belarus](https://news.ycombinator.com/item?id=36447510)
+    
+* [User gets counterfeit item from Amazon](https://news.ycombinator.com/item?id=36447380); they contact support with detailed photos showing that the item is counterfeit and support replies with "the information we have indicates that the product you received was authentic"
+    
+* [User gets the wrong GPU from Amazon, twice](https://www.reddit.com/r/pcmasterrace/comments/1996od8/update_amazon_sent_the_wrong_gpu_twice_but_the/); luckily for them, the second time, Amazon sent a higher end GPU than was purchased, so the user is getting a free upgrade
+    
+* [Technical book publisher fails to get counterfeits removed from Amazon](https://www.inc.com/sonya-mann/amazon-counterfeits-no-starch.html)
+    
+    * Amazon announced a new system designed to deal with this, but people continue to report rampant technical book counterfeiting on Amazon, so the system does not appear to have worked
+* [ChatGPT clone of author's book only removed after Washington Post story on problem](https://news.ycombinator.com/item?id=35919753)
+    
+* [Searching for children's books on Amazon returns AI generated nonsense](https://news.ycombinator.com/item?id=35922209)
+    
+* [Amazon takes down legitimate cookbook](https://wandering.shop/@youseeatortoise/111782434593735690); author notes "They won't tell us why. They won't tell us how to fix whatever tripped the algorithm. They won't seem to let us appeal. Reaching a human at Amazon is a Kafkaesque experience that we haven't yet managed to do."
+    
+    * When I checked later, not restored despite viral Mastodon thread and highly upvoted/ranked front-page HN article
+    * [Multiple](https://news.ycombinator.com/item?id=39066608) [people](https://news.ycombinator.com/item?id=39068983) give the standard response of asking why booksellers bother to use Amazon, seemingly unaware (???) that Amazon has a lot of marketshare and authors can get a lot more reach and revenue on Amazon than on other platforms (when they're not arbitrarily banned) (the author of the book replies and says this as well, but one doesn't need to be an author to know this)
+* [Amazon basically steals $250 from customer](https://news.ycombinator.com/item?id=35521641), appeal does nothing, as usual
+    
+* [Amazon delivers package directly to food waste / compost bin and declines to provide any compensation](https://www.reddit.com/r/Wellthatsucks/comments/19csery/good_ole_amazon/)
+    
+    * User notes that they had a nice call with Amazon support and that they hope this doesn't happen again. From my experience with trying to get Amazon to stop shipping packages via Intelcom and Purolator, I suspect this user will have this problem happen again — I've heard that you can get them to not deliver using certain mechanisms, but you have to repeatedly contact support until someone actually puts this onto your file, as opposed to just saying that they'll do it and then not doing it, which is what's happened the two times I've contacted support about this
+* [User receives fake GPU from Amazon](https://www.reddit.com/r/pcmasterrace/comments/11q8mjw/i_got_a_4090_but_its_showing_up_as_a_3070ti_fresh/), after an attempt to buy from the official Amazon.com msi store
+    
+* [Amazon Fresh order comes with bottle of urine](https://www.reddit.com/r/Wellthatsucks/comments/10l5ndf/not_sure_if_this_is_the_right_subreddit_but_a/)
+    
+* [Amazon sells many obviously fake 16 TB physically tiny SSD drives for $100](https://www.howtogeek.com/142496/why-the-heck-is-amazon-selling-these-fake-16-terabyte-portable-hard-drives/)
+    
+    * The author sent a list of fakes to Amazon and a few disappeared. The author isn't sure if the listings that disappeared were actually removed by Amazon or if it's just churn in the listings
+    * [An HN commenter searches and also finds many fakes](https://news.ycombinator.com/item?id=34410697), which have good reviews that are obviously for a different product; someone notes that they've tried reporting these kinds of obvious fakes where someone takes a legitimate product with good reviews and then swaps in a scam product but that this does nothing
+    * [Multiple people note that they've tried leaving 1\* reviews for fake products and had these reviews rejected by Amazon for not meeting the review policy guidelines](https://news.ycombinator.com/item?id=34409945)
+    * Some time after this story made the front page of HN, this class of fakes got cleaned up. However, other fakes that are mentioned in the HN comments (see item directly below this) did not get cleaned up; maybe someone can write an article about how these other items are fake to get these other things cleaned up as well
+* [User notes that bestselling item on Amazon is a fake item](https://news.ycombinator.com/item?id=34410117) and that they tried to leave a review to this effect, but the review was rejected
+    
+    * I looked up the item and it's still a bestselling item. There are some reviews which indicate that it's a fake item, but this fake item seems to have been on sale for years
+* [Amazon sells Android TV boxes that are actually malware](https://github.com/DesktopECHO/T95-H616-Malware)
+    
+    * It appears that these devices have been on sale on Amazon at least since 2017; I clicked the search query in the link of the above post and it still returns many matching devices in 2014
+* [Amazon scammer causes user to get arrested and charged for fraud](https://krebsonsecurity.com/2024/01/canadian-man-stuck-in-triangle-of-e-commerce-fraud/), which causes user to lose their job
+    
+    * The user also notes "In Canada, a criminal record is not a record of conviction, it’s a record of charges and that’s why I can’t work now. Potential employers never find out what the nature of it is, they just find out that I have a criminal arrest record."
+    * [For more information on how the scam works, see this talk by Nina Kollars](https://www.youtube.com/watch?v=2IT2oAzTcvU)
+* [An Amazon seller story](https://news.ycombinator.com/item?id=33839191)
+    
+    * It's unclear exactly what's going on here since [some parts of the seller's story appear to be false](https://news.ycombinator.com/item?id=33841910)? Some parts are quite plausible and really terrible if true
+* [Illegal weapon a bestselling item on Amazon](https://www.cbc.ca/news/canada/toronto/prohibited-weapons-found-on-amazon-1.7079582), although this does get removed after it's reported
+    
+* [Fake Amazon listings with titles and descriptions like "I'm sorry but I cannot fulfill this request it goes against OpenAI use policy. My purpose is to provide helpful and respectful information to users"](https://web.archive.org/web/20240112193755/https://www.amazon.com/fulfill-request-respectful-information-users-Brown/dp/B0CM82FJL2)
+    
+    * The most obvious cases seem to have been cleaned up after a story about this hit #1 on HN
+    * [Someone noted that the seller's page is still up](https://www.amazon.com/s?k=FOPEAS) (which is still true today) and if you scroll around for listings, other ones with slightly different text, like ["I'm sorry I cannot complete this task there isn't enough information provided. Please provide more context or information so I can assist you better "](https://web.archive.org/web/20240112231322/https://www.amazon.com/complete-information-provided-provide-context/dp/B0C5X1GXPH) are still up
+        * These listings are total nonsense, such as the above, which has a photo of a cat and also says "Exceptional Read/Write Speeds: With exceptional read/write speeds of up to 560MB and 530MB "
+    * I checked out other items from this seller, and they have a silicone neck support "bowl" that also says "Note: Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.", so it seems that someone at Amazon took down the listings that HN commenters called out (the HN thread on this is full of HN commenters pointing out ridiculous listing and those individual listings being taken down), but there's no systematic removal of nonsense listings, of which there are many
 * I tried to buy 3M 616 litho tape from Amazon (in Canada) and every listing had a knock-off product that copy+pasted the description of 3M 616 into the description
- 
- * It's possible the knock-off stuff is as good, but it seems sketchy (and an illegal trademark violation) to use 3M's product description for your own knock-off product; at least some reviews indicate that expected to get 3M 616 and got a knock-off instead
+    
+    * It's possible the knock-off stuff is as good, but it seems sketchy (and an illegal trademark violation) to use 3M's product description for your own knock-off product; at least some reviews indicate that expected to get 3M 616 and got a knock-off instead
 * When searching for replacement Kidde smoke detectors on amazon.ca, all of the one I found are not Canadian versions, meaning they're not approved by SA, cUL, ULC or cETL. It's possible this doesn't matter, but in the event of a fire and an insurance claim, I wouldn't want to have a non-approved smoke detector
- 
-* Amazon store selling 5 year old tires as new (tires age over time and 5 year old tires should not be sold as new)
+    
+* [Amazon store selling 5 year old tires as new (tires age over time and 5 year old tires should not be sold as new)](https://www.reddit.com/r/TyreReviews/comments/1atu9el/comment/kr3jse2/)
 
 ### Microsoft
 
 This includes GitHub, LinkedIn, Activision, etc.
 
-* Microsoft AI generated news articles put person's photo into a story about a different person's sexual misconduct trial
- * Other incorrect AI generated stories include Joe Biden falling asleep during a moment of silence for Maui wildfire victims, a conspiracy theory about Democrats being behind the recent covid surge, and a story about San Francisco Supervisor Dean Preston resigning after criticism by Elon Musk; these seem to be a side effect of laying off human editors and replacing them with AI
- * Other results include an obituary for a former NBA player who died at age 42, titled "Brandon Hunter useless at 42" and AI generated poll attached to a Guardian article on a deceased 21-year old woman, "What do you think is the reason behind the woman’s death" with the options "murder, accident, or suicide"
-* User banned from GitHub for no discernable reason
- * User happens to be co-founder of GitHub, so this goes viral when they tweet about it, causing them to get unbanned; GitHub's COO responds with "You're 100% unsuspended now. I'm working with our Trust & Safety team to understand what went wrong with our automations and I'm incredibly sorry for the trouble."
-* Gary Bernhardt, a paying user of GitHub files a Privacy / PII Github support request
- * ignored for 51 days, until Gary creates a viral Twitter thread
-* LinkedIn user banned after finding illegal business on LinkedIn and reporting it
- * seems like the illegal business used their accounts to mass report the user
-* LinkedIn user banned for looking at too many profiles
- * appeal rejected by customer service
- * this also happened to me when I was recruiting and looking at profiles and I also got nonsens responses from customer service, although my account wasn't permanently banned
-* Azure kills entire company's prod subscription because Azure assigned them a shared IP that another customer used in an attack
-* GitHub spam is out of control
-* Outlook / Hotmail repeatedly incorrectly blocks the same mail servers; this can apparently be fixed by:
- * Visit https://olcsupport.office.com/ and submitting the complaint; Wait for the auto-reply, followed by the "Nothing was detected" email; replying with "Escalate" in the body, which then causes the server to get unblocked again in a day
-* User reports that, every December, users on the service get email rejected by Microsoft, which needs to be manually escalated every year
-* User running mail server on same IP for 10+ years, with no one else using IP, repeatedly has Microsoft block mail from the IP address, requiring manual escalation to fix each time
-* Whitelisting a server doesn't necessary allow it to receive email if Microsoft decides to block it; a Microsoft employee thinks this should work, but it apparently doesn't work
-* Microsoft arbitrarily blocks email from user's server; after escalation, they fix it, but only for hotmail and live.com, not Office 365
-* OpenAI decides user needs to do 80 CAPTCHAs in a row to log in
- * In response to this, someone sent me: "Another friend of mine also had terrible issues even signing up for openai -- they told him he could only use his phone number to sign up for a maximum of 3 accounts, and he tried telling them that in fact he had only ever used it to sign up for 1 account and got back the same answer again and again (as if they use their own stuff for support) ... he said he kept trying to emphasize the word THREE with caps for the bot/human on the other end" \[but this didn't work\]
-* User reports software on GitHub that has malware installer three times and GitHub does nothing
-* I used linkedin for recruiting, which involved (manually) looking at people's profiles and was threatened with a ban for looking at too many profiles
- * The message says you should contact support "if you think this was in error", but this returns a response that's either fully automated or might as well be and appears to do nothing
-* Gary Bernhardt spends 5 days trying to get Azure to take down phishing sites, which did nothing
- * Gary has 40k Twitter followers, so he tweeted about it, which got the issue fixed after a couple of days. Gary says "No wonder the world is so full of scams if this is the level of effort it takes to get Microsoft to take down a single phishing site hosted on their infrastructure".
-* Spammer spams GitHub repos with garbage issues and PRs for months
- * After I made this viral Mastodon thread about this which also made it to the front page of HN, one of the two accounts was suspended, but when I checked significantly later, the other was still around and spamming
- * I did not report this account because I reported a blatant troll account (which I know was banned from Twitter and lobsters for trolling) and got no action, and I've seen many other people indicate that they find GitHub reporting to be useless, which seems to have been the case here; one person noted that, before my viral thread, they had already blocked the account from a repo they're a maintainer and didn't bother to report because of GitHub's bad reporting flow
-* Microsoft incorrectly marks many blogs as spam, banning them from Bing as well as DuckDuckGo
- * Fixed sometime after a post about this went viral
-* GitHub Copilot emits GPL code
-* Windows puts conspiracy theory articles and other SEO spam into search menu
-* Microsoft bans people using prompt injections on BingGPT
-* User finds way to impersonate signed commits from any user because GitHub uses regexes instead of a real parser and has a bug in their regex
- * Bug report is initially closed as "being able to impersonate your own account is not an issue", by someone who apparently didn't understand the issue
- * After the user pings the issue a couple more times, the issue is eventually re-opened and fixed after a couple months, so this is at least better than the other GitHub cases we've seen, where someone has to make a viral Twitter thread to get the issue fixed
- * In the HN comments for the story, someone notes that GitHub is quick to close security issues that they don't seem to have looked closely at
-* User is banned from GitHub after authorizing a shady provider with a login
- * Of course this has the standard comments blaming the user, but people note that the "log in with GitHub" prompt and the "grant this service to act on your behalf" prompt look almost identical; even so, people keep responding with comments like "dont bother wasting anymore resources to protect the stupids"
-* Activision's RICOCHET anti-cheat software is famous for having a high false positive rate, banning people from games they paid for (this also bans people from playing "offline" in single-player mode)
- * User had their game crash 8 times in a row due to common problems (many people reported crashes with the version that crashed for this user), which apparently triggered some kind of false positive in anti-cheat software
- * Support goes well beyond what most companies respond with, and responds with "Any specifics regarding the ban will not be released in order to help maintain the integrity and security of the game, this is company policy that will not be changing."
- * Since this software is famous for being inaccurate and having a high false positive rate, there are a huge number of accounts of false bans, such as this one. In order to avoid doubling the length of this post, I won't list these
-* Relatively rare case of user figuring out why they were incorrectly banned by Activision and getting their account restored
- * Of course support was useless as always and trying to get help online just resulted in getting a lot of comments blaming the user for cheating
- * User was banned because, after Activision and Blizzard were merged, their Blizzard username (which contains the substring "erotica") became illegal, causing them to be banned by Activision's systems. But, unlike a suspension for an illegal username in Blizzard's system, Activition's system doesn't tell you that have an illegal username and just bans you
- * Luckily, the user was able to find a single reddit post by someone who had a similar issue and that post had a link that lets you log into the account system even if you're banned, which then lets you change your username
- * Three days after making that change, the user was unbanned
-* User who bought Activision game to play in single-player campaign mode only banned for cheating after trying to launch/play game on Linux through Wine/Proton
- * Support gave user the runaround and eventually stopped responding, so user appears to be permanently banned
-* Anti-"cheat" software bans users before they can even try playing the game
- * Someone speculates that it could be due to buying refurbished hardware, since Activision bans based on hardware serial numbers and some people were banned because they bought SSDs from banned machines
-* Anti-"cheat" software bans user from Bungie (Activision) game for no discernable reason; user speculates it might be because AutoHotkey to script Windows (for out of game activities)
-* Minecraft user banned for 7 days for making sign that says Nigel on their mom's realm (server, basically?); other users report that creating or typing something with the substring "nig" is dangerous 
- * See also, offensive words in Minecraft
-* Microsoft Edge incorrectly blocks a page as being suspicious
- * Developer tries to appeal, but is told that they need to send a link to a URL for the support person to look at, which is impossible because it's an API server that has no pages. Support does not reply to this.
-* User banned from WoW for beating someone playing with 60 accounts, who submits 60 false reports against user; people report this kind of issue in Overwatch as well, where mass reporting someone is an easy way to get Blizzard to suspend or ban their account
-* User suspends user from WoW for not renaming their pet from its default name of "Gorilla", which was deemed to be offensive
+* [Microsoft AI generated news articles put person's photo into a story about a different person's sexual misconduct trial](https://www.threads.net/@doniecnn/post/C2IPHSFuNHJ/?igshid=NTc4MTIwNjQ2YQ%3D%3D)
+    * [Other incorrect AI generated stories include Joe Biden falling asleep during a moment of silence for Maui wildfire victims, a conspiracy theory about Democrats being behind the recent covid surge](https://www.cnn.com/2023/11/02/tech/microsoft-ai-news/index.html), and a story about San Francisco Supervisor Dean Preston resigning after criticism by Elon Musk; these seem to be a side effect of laying off human editors and replacing them with AI
+    * Other results include an obituary for a former NBA player who died at age 42, titled "Brandon Hunter useless at 42" and AI generated poll attached to a Guardian article on a deceased 21-year old woman, "What do you think is the reason behind the woman’s death" with the options "murder, accident, or suicide"
+* [User banned from GitHub for no discernable reason](https://twitter.com/defunkt/status/1754610843361362360)
+    * User happens to be co-founder of GitHub, so this goes viral when they tweet about it, causing them to get unbanned; GitHub's COO responds with "You're 100% unsuspended now. I'm working with our Trust & Safety team to understand what went wrong with our automations and I'm incredibly sorry for the trouble."
+* [Gary Bernhardt, a paying user of GitHub files a Privacy / PII Github support request](https://nitter.net/garybernhardt/status/1327349023473242112)
+    * ignored for 51 days, until Gary creates a viral Twitter thread
+* [LinkedIn user banned after finding illegal business on LinkedIn and reporting it](https://news.ycombinator.com/item?id=31762904)
+    * seems like the illegal business used their accounts to mass report the user
+* [LinkedIn user banned for looking at too many profiles](https://news.ycombinator.com/item?id=31763503)
+    * appeal rejected by customer service
+    * this also happened to me when I was recruiting and looking at profiles and I also got nonsens responses from customer service, although my account wasn't permanently banned
+* [Azure kills entire company's prod subscription because Azure assigned them a shared IP that another customer used in an attack](https://news.ycombinator.com/item?id=38882186)
+* [GitHub spam is out of control](https://djanes.xyz/spam-on-github-is-getting-crazy-these-days/)
+* [Outlook / Hotmail repeatedly incorrectly blocks the same mail servers](https://news.ycombinator.com/item?id=38793607); this can apparently be fixed by:
+    * Visit [https://olcsupport.office.com/](https://olcsupport.office.com/) and submitting the complaint; Wait for the auto-reply, followed by the "Nothing was detected" email; replying with "Escalate" in the body, which then causes the server to get unblocked again in a day
+* [User reports that, every December, users on the service get email rejected by Microsoft, which needs to be manually escalated every year](https://news.ycombinator.com/item?id=38795329)
+* [User running mail server on same IP for 10+ years, with no one else using IP, repeatedly has Microsoft block mail from the IP address, requiring manual escalation to fix each time](https://news.ycombinator.com/item?id=38799729)
+* [Whitelisting a server doesn't necessary allow it to receive email if Microsoft decides to block it](https://news.ycombinator.com/item?id=38799753); a Microsoft employee thinks this should work, but it apparently doesn't work
+* [Microsoft arbitrarily blocks email from user's server; after escalation, they fix it, but only for hotmail and live.com, not Office 365](https://news.ycombinator.com/item?id=38792852)
+* [OpenAI decides user needs to do 80 CAPTCHAs in a row to log in](https://mastodon.social/@danluu/111349023730856070)
+    * In response to this, someone sent me: "Another friend of mine also had terrible issues even signing up for openai -- they told him he could only use his phone number to sign up for a maximum of 3 accounts, and he tried telling them that in fact he had only ever used it to sign up for 1 account and got back the same answer again and again (as if they use their own stuff for support) ... he said he kept trying to emphasize the word THREE with caps for the bot/human on the other end" \[but this didn't work\]
+* [User reports software on GitHub that has malware installer three times and GitHub does nothing](https://news.ycombinator.com/item?id=38147774)
+* [I used linkedin for recruiting, which involved (manually) looking at people's profiles and was threatened with a ban for looking at too many profiles](https://twitter.com/danluu/status/1486951948448251907)
+    * The message says you should contact support "if you think this was in error", but this returns a response that's either fully automated or might as well be and appears to do nothing
+* [Gary Bernhardt spends 5 days trying to get Azure to take down phishing sites](https://nitter.net/garybernhardt/status/1650947253773938688), which did nothing
+    * Gary has 40k Twitter followers, so he tweeted about it, which got the issue fixed after a couple of days. Gary says "No wonder the world is so full of scams if this is the level of effort it takes to get Microsoft to take down a single phishing site hosted on their infrastructure".
+* [Spammer spams GitHub repos with garbage issues and PRs for months](https://mastodon.social/@danluu/110335983520055904)
+    * After I made this viral Mastodon thread about this which also made it to the front page of HN, [one of the two accounts was suspended](https://mastodon.bawue.social/@ixs/110337628935185476), but when I checked significantly later, the other was still around and spamming
+        * I did not report this account because I reported a blatant troll account (which I know was banned from Twitter and lobsters for trolling) and got no action, and I've seen many other people indicate that they find GitHub reporting to be useless, which seems to have been the case here; [one person noted that, before my viral thread, they had already blocked the account from a repo they're a maintainer and didn't bother to report because of GitHub's bad reporting flow](https://mastodon.social/@networkexception@chaos.social/110337762885594243)
+* [Microsoft incorrectly marks many blogs as spam, banning them from Bing as well as DuckDuckGo](https://daverupert.com/2023/02/solved-the-case-of-the-bing-ban-theory/)
+    * Fixed sometime after a post about this went viral
+* [GitHub Copilot emits GPL code](https://news.ycombinator.com/item?id=35657982)
+* [Windows puts conspiracy theory articles and other SEO spam into search menu](https://www.tomshardware.com/news/windows-keeps-feeding-tabloid-news)
+* [Microsoft bans people using prompt injections on BingGPT](https://news.ycombinator.com/item?id=35156916)
+* [User finds way to impersonate signed commits from any user because GitHub uses regexes instead of a real parser and has a bug in their regex](https://iter.ca/post/gh-sig-pwn/)
+    * Bug report is initially closed as "being able to impersonate your own account is not an issue", by someone who apparently didn't understand the issue
+    * After the user pings the issue a couple more times, the issue is eventually re-opened and fixed after a couple months, so this is at least better than the other GitHub cases we've seen, where someone has to make a viral Twitter thread to get the issue fixed
+    * [In the HN comments for the story](https://news.ycombinator.com/item?id=39101099), someone notes that GitHub is quick to close security issues that they don't seem to have looked closely at
+* [User is banned from GitHub after authorizing a shady provider with a login](https://news.ycombinator.com/item?id=33917962)
+    * Of course this has the standard comments blaming the user, but [people note that the "log in with GitHub" prompt and the "grant this service to act on your behalf" prompt look almost identical](https://news.ycombinator.com/item?id=33921457); even so, people keep responding with comments like "dont bother wasting anymore resources to protect the stupids"
+* [Activision's RICOCHET anti-cheat software is famous for having a high false positive rate, banning people from games they paid for](https://blog.mikeswanson.com/post/702753924034297856/activisions-faulty-anti-cheat-software) (this also bans people from playing "offline" in single-player mode)
+    * User had their game crash 8 times in a row due to common problems (many people reported crashes with the version that crashed for this user), which apparently triggered some kind of false positive in anti-cheat software
+    * Support goes well beyond what most companies respond with, and responds with "Any specifics regarding the ban will not be released in order to help maintain the integrity and security of the game, this is company policy that will not be changing."
+    * Since this software is famous for being inaccurate and having a high false positive rate, [there are a huge number of accounts of false bans, such as this one](https://www.reddit.com/r/activision/comments/17pdw1k/i_thought_you_were_all_cheaters_complaining_but/). In order to avoid doubling the length of this post, I won't list these
+* [Relatively rare case of user figuring out why they were incorrectly banned by Activision and getting their account restored](https://news.ycombinator.com/item?id=33859751)
+    * Of course support was useless as always and trying to get help online just resulted in getting a lot of comments blaming the user for cheating
+    * User was banned because, after Activision and Blizzard were merged, their Blizzard username (which contains the substring "erotica") became illegal, causing them to be banned by Activision's systems. But, unlike a suspension for an illegal username in Blizzard's system, Activition's system doesn't tell you that have an illegal username and just bans you
+    * Luckily, the user was able to find a single reddit post by someone who had a similar issue and that post had a link that lets you log into the account system even if you're banned, which then lets you change your username
+    * Three days after making that change, the user was unbanned
+* [User who bought Activision game to play in single-player campaign mode only banned for cheating after trying to launch/play game on Linux through Wine/Proton](https://news.ycombinator.com/item?id=33860501)
+    * Support gave user the runaround and eventually stopped responding, so user appears to be permanently banned
+* [Anti-"cheat" software bans users before they can even try playing the game](https://news.ycombinator.com/item?id=33860849)
+    * Someone speculates that it could be due to buying refurbished hardware, since Activision bans based on hardware serial numbers and some people were banned because they bought SSDs from banned machines
+* [Anti-"cheat" software bans user from Bungie (Activision) game for no discernable reason](https://news.ycombinator.com/item?id=33862300); user speculates it might be because AutoHotkey to script Windows (for out of game activities)
+* [Minecraft user banned for 7 days for making sign that says Nigel on their mom's realm](https://www.reddit.com/r/Minecraft/comments/vz8myi/7_day_ban_all_for_typing_nigel_on_a_sign_several/) (server, basically?); other users report that creating or typing something with the substring "nig" is dangerous 
+    * See also, [offensive words in Minecraft](https://www.youtube.com/watch?v=elIwvFi83AM)
+* [Microsoft Edge incorrectly blocks a page as being suspicious](https://news.ycombinator.com/item?id=33038600)
+    * Developer tries to appeal, but is told that they need to send a link to a URL for the support person to look at, which is impossible because it's an API server that has no pages. Support does not reply to this.
+* [User banned from WoW for beating someone playing with 60 accounts, who submits 60 false reports against user](https://www.reddit.com/r/gaming/comments/3wx4qu/wow_player_banned_by_blizzard_after_killing_a/https://www.reddit.com/r/gaming/comments/3wx4qu/wow_player_banned_by_blizzard_after_killing_a/); people report this kind of issue in Overwatch as well, where mass reporting someone is an easy way to get Blizzard to suspend or ban their account
+* [User suspends user from WoW for not renaming their pet from its default name of "Gorilla", which was deemed to be offensive](https://www.reddit.com/r/Asmongold/comments/q6bgr4/player_banned_for_not_renaming_pet/)
 
 ### Stripe
 
-* Turns off account for a business that's been running since 2016 with basically the same customers. After a week of talking to tech support, the account is reactivated and then, shortly afterwards, 35% of client accounts get turned off. Account reactivated after story got 1k points on HN
-* Stripe holds $400k from account and support just gives developer the runaround for a month
- * Support asks for 2 receipts and then, after they're sent, asks for the same two receipts again, etc.
- * As usual, HN commenters blame the developer and make up reasons that the developer might be bad, e.g., people say that the developer might be committing fraud. From a quick skim, at least five people called the developer's story fake or said or implied that the developer was involved in some kind of shady activity
- * Shortly after the original story made HN, Stripe resolved the issues and unlocked the accounts, so the standard responses that the developer must be doing something fraudulent were wrong again; a detailed accounting of what happens makes it clear that nothing about Stripe's response, other than the initial locking for potential fraud, was remotely reasonable
- * The developer notes that Stripe support was trying to stonewall them until they pointed out that there was a high-ranking HN post about the issue: "Dec 30 \[over one month from the initial freezing of funds\]: While I was writing my HN post I was also on chat with Stripe for over an hour. No new information. They were basically trying to shut down the chat with me until I sent them the HN story and showed that it was getting some traction. Then they started working on my issue again and trying to communicate with more people. No resolution."
- * After the issue was resolved, the developer was able to get information from Stripe about why the account was locked; the reason was that the company had a spike in sales due to Black Friday. Until the issue hit the top of HN, the developer was not able to talk to any person at Stripe who was useful in any way
-* Developer at SaaS for martial arts academies in Europe notes that some new anti-fraud detection seems to be incorrectly suspending accounts; their academies have their own accounts and multiple got suspended
- * These stories are frequent enough that someone responds "Monthly HN Stripe customer support thread", to which the moderator of HN responds that it's more than monthly and HN will probably have to do something about this at some point, since having the HN front page be Stripe support on a regular basis is a bit much
- * Doing a search now, there are still plenty of support horror stories, but they typically don't get many votes and don't have Stripe staff drop in to fix the issue, so it seems that this support channel no longer works as well as it used to.
- * Multiple people point out issues in how Stripe handles SEPA DD and other users of Stripe note that they're impacted by this as well
- * Of course, this gets the usual responses that we need to see both sides of the story, maybe you're wrong and Stripe is right, etc.; the developer responds to one of these with an apology for their error
-* After account was approved and despite many tests using the Stripe test environment, on launch, it turns out that the account wasn't approved after all and payments couldn't go through. Some people say that you should send real test payments before launch, but someone notes that using real CC info for tests and not the Stripe test stuff is a violation of Stripe's terms
-* Stripe user notes that Stripe fraud detection completely fails on some trivial attacks, writes about it after seeing it hit them as well as many other Stripe users
- * Developer describes the support they received as "a joke" since they had to manually implement rules to block the clearly fraudulent charges
- * A stripe developer replies and says they'll look into it after two threads on this go viral
-* Shut down payments for job board; seems to have been re-activated after Twitter thread
-* Turned off company without warning; company moved to Parallel Economy
-* Wording of Stripe's renewal email causes users of service to think that you have to email the service to cancel; issue gets no action for a year, until Gary Bernhardt publicly tweets about it
-* User has Stripe account closed for no discernable reason
-* Stripe user has money taken out of their account
- * A Stripe employee responds with "we wouldn't do so without cause", implying that Stripe's error rate is 0%
-* Stripe arbitrarily shuts down user's business
- * Payments restored after story goes viral on HN
- * This happens so frequently that multiple people comment on how often this happens and how this seems to be the only way to get support from Stripe for some business-killing issues
-* Developer notes that Stripe fraud detection totally failed when people do scams via CashApp
- * Another developer replies and notes that it's weird that you can block prepaid cards but not CashApp when CashApp is used for so much scamming
-* Developer has payments frozen, initially because account was misclassified and put into the wrong risk category
- * Developer notes that suspension is particularly problematic because a "minimum fee commitment" with Stripe where they get a discount but also have a fee floor regardless of transaction volume; having payments suspending effectively increases their rate
- * After one week, their account was unfrozen, but then another department froze their account, " this time by a different Stripe risk team with even weirder demands: among other things, they wanted a 'working website' (our website works?) and 'contact information to appear on the website' (it's on every page?) It was as if Stripe had never heard of or talked to us before, and just like the other risk team, they asked questions but didn't respond to our emails."
- * This also got resolved, but new teams keep freezing their account, causing the developer to go through a similar process again each time
- * Fed up with this, the developer made an HN post which got enough upvotes that the Stripe employee who handles HN escalations saw the post
- * Of course, someone has the standard response that this must be be the user/developer's fault, it must be because the business is shady or high risk, one that typically gets banned from payment processors, but if that's the case, that makes this example even worse — why would Stripe negotiate a minimum fee agreement with a business they expect to ban and how come the business keeps getting unbanned each time after someone bans them
- * Also, multiple people report having or seeing similar experiences, "I find it totally believable after having to work through multiple internal risk teams to get my test accounts past automated flaggers", etc
-* Stripe suspends account and support doesn't respond when suer wants to know why
- * User notes that they can't even refund their users: "when I attempted to process a refund for a customer who had been injured & was unable to continue training, I get an error message stating I am unable to process refunds! Am I supposed to tell my customer that my payment process won't refund his money? FYI - The payment I am attempting to refund HAS NOT been paid out yet - the money is sitting in my stripe account - but they refuse to refund it or even dignify me with a response."
- * Many people comment on bad Stripe support has been for them, even this happy customer: "We’re using stripe and are overall happy. But their customer support is pretty bad. Lots of canned replies and ping-pong back and forth until you get someone to actually read your question"
-* Stripe account suspended due to a lien; after the lien is removed, Stripe doesn't unsuspend the account and the account is still frozen
- * Luckily, the son of the user is a programmer who knows someone at Stripe, so the issue gets fixed
-* Developer's Stripe account is suspended with a standard message seen in other Stripe issues, "Our systems recently identified charges that appear to be unauthorized by the customer, meaning that the owner of the card or bank account did not consent to these payments. This unfortunately means that we will no longer be able to accept payments ... "
- * Developer pressed some button to verify their identity, which resulted in "Thank you for completing our verification process. Unfortunately, after conducting a further review of your account, we’ve determined that we still won't be able to accept payments for xx moving forward". They then tried to contact support, which did nothing
- * After their HN post hits the front page, someone looks into it and it appears that the issue is fixed and the developer gets an email which reads "It looks like some activity on your account was misidentified as unauthorized, causing potential charge declines and the cancellation of your account. This was a mistake on our end, so we've gone ahead and re-enabled your account." The developer notes that having support not respond until you can get a front-page HN post is a poor support strategy for users and that they lost credit card renewals during the time the account was suspended
-* Developer has product launch derailed when Stripe suspends their account for no discernable reason; they try talking to support which doesn't work
- * What does work is posting a comment on a front-page HN thread about someone else's Stripe horror story, which becomes the top comment, which causes a Stripe employee to look at the issue and unsuspend the account
-* Stripe bans developer for having too many disputes when they've had one dispute, which was a $10 charge where they won on submitting evidence about the dispute to J.P. Morgan, the user's bank
- * The developer appeals and receives a message saying that they're "after further conducting a review of your account, we've determined that we still won't be able to accept payments ... going forward. Stripe can only support users with a low risk of customer disputes. After reviewing your submitted information and website, it does seem like your business presents a higher level of risk than we can currently support"
- * After the story hits #1 on HN, their account is unbanned, but then a day later, it's rebanned for a completely different reason!
-* Developer banned from Stripe; they aren't sure why, but wonder if it's because they're a Muslim charity
-* User, who appears to be a non-technical small business owner has their Stripe account suspended, which also disabled the "call for help" button or any other method of contacting support
- * After six weeks, they find HN and make a post on HN, which gets the attention of someone at Stripe, and they're able to get their information out of Stripe and move to another payment processor, though they mention that they lose 6 weeks of revenue and close with "please..do better. You're messing with people's livelihoods"
-* Developer notes that the only way they've been able to get Stripe issues resolved is by searching LinkedIn for connections at Stripe, because support just gives you the runaround
-* User (not using Stripe as a service, someone being charged by Stripe) gets fraudulently charged every month and issues a chargeback every month
- * To stop having to issue a chargeback each month, user is stuck in a support loop where Stripe tells them to contact the credit card company and the credit card company tells them to contact Stripe t
- * Stripe support also responds nonsensically sometimes, e.g., responding and asking if they need help resetting their password
-* Developer notes that Stripe's "radar" fraud detection product misses extremely simple fraudulent cases​​, such as "Is it a 100th charge coming from the same IP in Ukraine with a Canadian VISA", or "Same fake TLD for the email address, for a customer number 2235", so they use broad rules to reject fraudulent charges, but this also rejects many good charges and causes a loss of revenue
+* [Turns off account for a business that's been running since 2016 with basically the same customers](https://news.ycombinator.com/item?id=32854528). After a week of talking to tech support, the account is reactivated and then, shortly afterwards, 35% of client accounts get turned off. [Account reactivated after story got 1k points on HN](https://news.ycombinator.com/item?id=32858314)
+* [Stripe holds $400k from account and support just gives developer the runaround for a month](https://news.ycombinator.com/item?id=34189717)
+    * Support asks for 2 receipts and then, after they're sent, asks for the same two receipts again, etc.
+    * As usual, HN commenters blame the developer and make up reasons that the developer might be bad, e.g., people say that the developer might be committing fraud. From a quick skim, at least five people called the developer's story fake or said or implied that the developer was involved in some kind of shady activity
+    * [Shortly after the original story made HN, Stripe resolved the issues and unlocked the accounts](https://news.ycombinator.com/item?id=34233011), so the standard responses that the developer must be doing something fraudulent were wrong again; [a detailed accounting of what happens makes it clear that nothing about Stripe's response, other than the initial locking for potential fraud, was remotely reasonable](https://news.ycombinator.com/item?id=34233018)
+        * The developer notes that Stripe support was trying to stonewall them until they pointed out that there was a high-ranking HN post about the issue: "Dec 30 \[over one month from the initial freezing of funds\]: While I was writing my HN post I was also on chat with Stripe for over an hour. No new information. They were basically trying to shut down the chat with me until I sent them the HN story and showed that it was getting some traction. Then they started working on my issue again and trying to communicate with more people. No resolution."
+    * After the issue was resolved, the developer was able to get information from Stripe about why the account was locked; the reason was that the company had a spike in sales due to Black Friday. Until the issue hit the top of HN, the developer was not able to talk to any person at Stripe who was useful in any way
+* [Developer at SaaS for martial arts academies in Europe notes that some new anti-fraud detection seems to be incorrectly suspending accounts](https://news.ycombinator.com/item?id=33743750); their academies have their own accounts and multiple got suspended
+    * [These stories are frequent enough that someone responds "Monthly HN Stripe customer support thread"](https://news.ycombinator.com/item?id=33744053), to which the moderator of HN responds that it's more than monthly and HN will probably have to do something about this at some point, since having the HN front page be Stripe support on a regular basis is a bit much
+        * Doing a search now, there are still plenty of support horror stories, [but they typically don't get many votes and don't have Stripe staff drop in to fix the issue](https://news.ycombinator.com/item?id=38967685), so it seems that this support channel no longer works as well as it used to.
+    * [Multiple](https://news.ycombinator.com/item?id=33745033) [people](https://news.ycombinator.com/item?id=33744754) [point](https://news.ycombinator.com/item?id=33744614) out issues in how Stripe handles SEPA DD and [other users of Stripe note that they're impacted by this as well](https://news.ycombinator.com/item?id=33895486)
+    * [Of course, this gets the usual responses that we need to see both sides of the story, maybe you're wrong and Stripe is right, etc.](https://news.ycombinator.com/item?id=33744135); the developer responds to one of these with an apology for their error
+* [After account was approved and despite many tests using the Stripe test environment, on launch, it turns out that the account wasn't approved after all and payments couldn't go through](https://news.ycombinator.com/item?id=32855524). Some people say that you should send real test payments before launch, but [someone notes that using real CC info for tests and not the Stripe test stuff is a violation of Stripe's terms](https://news.ycombinator.com/item?id=32856098)
+* [Stripe user notes that Stripe fraud detection completely fails on some trivial attacks, writes about it after seeing it hit them as well as many other Stripe users](https://nitter.net/rameerez/status/1665680257788026880)
+    * [Developer describes the support they received as "a joke"](https://news.ycombinator.com/item?id=36197160) since they had to manually implement rules to block the clearly fraudulent charges
+    * A stripe developer replies and says they'll look into it after two threads on this go viral
+* [Shut down payments for job board; seems to have been re-activated after Twitter thread](https://nitter.net/adamwathan/status/1550092016242946049)
+* [Turned off company without warning; company moved to Parallel Economy](https://news.ycombinator.com/item?id=32855509)
+* [Wording of Stripe's renewal email causes users of service to think that you have to email the service to cancel](https://nitter.net/garybernhardt/status/1719862368887607659); issue gets no action for a year, until Gary Bernhardt publicly tweets about it
+* [User has Stripe account closed for no discernable reason](https://news.ycombinator.com/item?id=38182339)
+* [Stripe user has money taken out of their account](https://news.ycombinator.com/item?id=36904347)
+    * A Stripe employee responds with "we wouldn't do so without cause", implying that Stripe's error rate is 0%
+* [Stripe arbitrarily shuts down user's business](https://news.ycombinator.com/item?id=36403607)
+    * Payments restored after story goes viral on HN
+        * This happens so frequently that multiple people comment on how often this happens and how this seems to be the only way to get support from Stripe for some business-killing issues
+* [Developer notes that Stripe fraud detection totally failed when people do scams via CashApp](https://news.ycombinator.com/item?id=36198562)
+    * Another developer replies and notes that it's weird that you can block prepaid cards but not CashApp when CashApp is used for so much scamming
+* [Developer has payments frozen, initially because account was misclassified and put into the wrong risk category](https://news.ycombinator.com/item?id=35809687)
+    * Developer notes that suspension is particularly problematic because a "minimum fee commitment" with Stripe where they get a discount but also have a fee floor regardless of transaction volume; having payments suspending effectively increases their rate
+    * After one week, their account was unfrozen, but then another department froze their account, " this time by a different Stripe risk team with even weirder demands: among other things, they wanted a 'working website' (our website works?) and 'contact information to appear on the website' (it's on every page?) It was as if Stripe had never heard of or talked to us before, and just like the other risk team, they asked questions but didn't respond to our emails."
+    * This also got resolved, but new teams keep freezing their account, causing the developer to go through a similar process again each time
+    * Fed up with this, the developer made an HN post which got enough upvotes that the Stripe employee who handles HN escalations saw the post
+    * Of course, someone has the standard response that this must be be the user/developer's fault, it must be because the business is shady or high risk, one that typically gets banned from payment processors, but if that's the case, that makes this example even worse — why would Stripe negotiate a minimum fee agreement with a business they expect to ban and how come the business keeps getting unbanned each time after someone bans them
+        * Also, multiple people report having or seeing similar experiences, "I find it totally believable after having to work through multiple internal risk teams to get my test accounts past automated flaggers", etc
+* [Stripe suspends account and support doesn't respond when suer wants to know why](https://news.ycombinator.com/item?id=21030633)
+    * User notes that they can't even refund their users: "when I attempted to process a refund for a customer who had been injured & was unable to continue training, I get an error message stating I am unable to process refunds! Am I supposed to tell my customer that my payment process won't refund his money? FYI - The payment I am attempting to refund HAS NOT been paid out yet - the money is sitting in my stripe account - but they refuse to refund it or even dignify me with a response."
+    * [Many people comment on bad Stripe support has been for them, even this happy customer](https://news.ycombinator.com/item?id=21031171): "We’re using stripe and are overall happy. But their customer support is pretty bad. Lots of canned replies and ping-pong back and forth until you get someone to actually read your question"
+* [Stripe account suspended due to a lien; after the lien is removed, Stripe doesn't unsuspend the account and the account is still frozen](https://news.ycombinator.com/item?id=21030879)
+    * Luckily, the son of the user is a programmer who knows someone at Stripe, so the issue gets fixed
+* [Developer's Stripe account is suspended with a standard message seen in other Stripe issues, "Our systems recently identified charges that appear to be unauthorized by the customer, meaning that the owner of the card or bank account did not consent to these payments. This unfortunately means that we will no longer be able to accept payments ... "](https://news.ycombinator.com/item?id=28085706)
+    * Developer pressed some button to verify their identity, which resulted in "Thank you for completing our verification process. Unfortunately, after conducting a further review of your account, we’ve determined that we still won't be able to accept payments for xx moving forward". They then tried to contact support, which did nothing
+    * After their HN post hits the front page, someone looks into it and it appears that the issue is fixed and the developer gets an email which reads "It looks like some activity on your account was misidentified as unauthorized, causing potential charge declines and the cancellation of your account. This was a mistake on our end, so we've gone ahead and re-enabled your account." The developer notes that having support not respond until you can get a front-page HN post is a poor support strategy for users and that they lost credit card renewals during the time the account was suspended
+* [Developer has product launch derailed when Stripe suspends their account for no discernable reason](https://news.ycombinator.com/item?id=28088283); they try talking to support which doesn't work
+    * What does work is posting a comment on a front-page HN thread about someone else's Stripe horror story, which becomes the top comment, which causes a Stripe employee to look at the issue and unsuspend the account
+* [Stripe bans developer for having too many disputes when they've had one dispute, which was a $10 charge where they won on submitting evidence about the dispute to J.P. Morgan, the user's bank](https://justuseapp.com/page/stripe-ban)
+    * The developer appeals and receives a message saying that they're "after further conducting a review of your account, we've determined that we still won't be able to accept payments ... going forward. Stripe can only support users with a low risk of customer disputes. After reviewing your submitted information and website, it does seem like your business presents a higher level of risk than we can currently support"
+    * After the story hits #1 on HN, their account is unbanned, but then a day later, it's rebanned for a completely different reason!
+* [Developer banned from Stripe; they aren't sure why, but wonder if it's because they're a Muslim charity](https://tinyletter.com/blauvelt/letters/looking-forward-after-some-of-the-hardest-few-months-of-my-life)
+* [User, who appears to be a non-technical small business owner has their Stripe account suspended, which also disabled the "call for help" button or any other method of contacting support](https://news.ycombinator.com/item?id=28881026)
+    * After six weeks, they find HN and make a post on HN, which gets the attention of someone at Stripe, and they're able to get their information out of Stripe and move to another payment processor, though they mention that they lose 6 weeks of revenue and close with "please..do better. You're messing with people's livelihoods"
+* [Developer notes that the only way they've been able to get Stripe issues resolved is by searching LinkedIn for connections at Stripe, because support just gives you the runaround](https://news.ycombinator.com/item?id=33142462)
+* [User (not using Stripe as a service, someone being charged by Stripe) gets fraudulently charged every month and issues a chargeback every month](https://news.ycombinator.com/item?id=33139957)
+    * To stop having to issue a chargeback each month, user is stuck in a support loop where Stripe tells them to contact the credit card company and the credit card company tells them to contact Stripe t
+        * Stripe support also responds nonsensically sometimes, e.g., responding and asking if they need help resetting their password
+* [Developer notes that Stripe's "radar" fraud detection product misses extremely simple fraudulent cases](https://news.ycombinator.com/item?id=33140571)​​, such as "Is it a 100th charge coming from the same IP in Ukraine with a Canadian VISA", or "Same fake TLD for the email address, for a customer number 2235", so they use broad rules to reject fraudulent charges, but this also rejects many good charges and causes a loss of revenue
 
 ### Uber
 
 * Former manager of payments team banned from Uber due to incorrect fraud detection
- * engineer spends six months trying to get it fixed and it's eventually fixed via adding a whitelist that manually unbans the former manager of the payments team, but the underlying issue isn't fixed
-* UberEats driver has accounted deactivated for not delivering drugs
- * Driver originally contacted Uber support, who told them to contact the police. The police confirmed that the package contained crack cocaine
- * The next day, Uber support called the driver and asked what happened. After the driver explained, support told them they would report the package as having being delivered to the police
- * Shortly afterwards, driver's account was deactivated for not delivering the drugs
-* Despite very clear documentation that UberEats delivered the wrong order, Uber refuses to refund user
-* User has account put into a degraded state because user asked for too many refunds on bad or missing items
-* User has account put into a degraded state because user asked for refund on missing item
+    * engineer spends six months trying to get it fixed and it's eventually fixed via adding a whitelist that manually unbans the former manager of the payments team, but the underlying issue isn't fixed
+* [UberEats driver has accounted deactivated for not delivering drugs](https://www.reddit.com/r/UberEATS/comments/18xr6ah/account_deactivate_for_not_delivering_drugs/)
+    * Driver originally contacted Uber support, who told them to contact the police. The police confirmed that the package contained crack cocaine
+    * The next day, Uber support called the driver and asked what happened. After the driver explained, support told them they would report the package as having being delivered to the police
+    * Shortly afterwards, driver's account was deactivated for not delivering the drugs
+* [Despite very clear documentation that UberEats delivered the wrong order, Uber refuses to refund user](https://www.reddit.com/r/UberEATS/comments/18i8t6o/refusing_to_refund_customers/)
+* [User has account put into a degraded state because user asked for too many refunds on bad or missing items](https://www.reddit.com/r/UberEATS/comments/18i8t6o/comment/kdbxf10/)
+* [User has account put into a degraded state because user asked for refund on missing item](https://www.reddit.com/r/UberEATS/comments/18i8t6o/comment/kdcd041/)
 * I often wonder if the above will happen to me. My local grocery store delivers using DoorDash and, most of the time, at least one item is missing (I also often get items I didn't order that I don't want); either the grocery store or the driver (or both) seem to frequently accidentally co-mingle items for different customers, resulting in a very high rate of errors
-* Asking for refund on order with error puts account into degraded state
-* Uber refuses to refund item that didn't arrive on UberEats, until user threatens to send evidence of non-refund to UK regulatory agency, at which point Uber issues the refund
-* Uber refuses to refund user when Uber Eats driver clearly delivered the wrong item; item isn't even an Uber delivery (it's a DoorDash delivery)
+* [Asking for refund on order with error puts account into degraded state](https://www.reddit.com/r/UberEATS/comments/18i8t6o/comment/kdc5j9p/)
+* [Uber refuses to refund item that didn't arrive on UberEats, until user threatens to send evidence of non-refund to UK regulatory agency, at which point Uber issues the refund](https://www.reddit.com/r/UberEATS/comments/18i8t6o/comment/kdd9ops/)
+* [Uber refuses to refund user when Uber Eats driver clearly delivered the wrong item; item isn't even an Uber delivery (it's a DoorDash delivery)](https://www.reddit.com/r/UberEATS/comments/18hxjo2/uber_trying_to_steal_from_me/)
 * A friend of mine had an Uber stop in the wrong place (it was multiple blocks away and this person ordered an Uber to pick them up from a medical appointment because they're severely concussed, so much so that walking is extremely taxing for them); the driver refused to come to them, so they agreed to go to the driver. When they were halfway there, the driver canceled the order in a way that caused my friend to pay a cancellation fee
-* User receives a 6 pack instead of 12 pack from Uber Eats and customer service declines to refund the difference
- * In the comments, other people report having the same issue
-* Uber refuses to issue refund when stolen phone (?) $2000 in charges; user only gets money back via chargeback and presumably gets banned for life, as is standard when issuing chargebacks to big tech companies
-* UberEats refuses to issue refund when order is clearly delivered to wrong location (half a mile away)
-* Early in the pandemic, Uber said they would compensate drivers if they got covid, but they refuse to do this
- * After 6 months of having support deny their request, Uber gives them half of the compensation that was promised
-* UberEats punishes driver for "shop and pay" order when item is out of stock and cannot be purchased
-* Disabled user orders groceries from UberEats; when order is delivered to the wrong building, support won't have item actually delivered
-* User can't cancel UberEats order when restaurant doesn't make order, leaving order in limbo
- * The restaurant is closed and support responds saying that they can't do anything about it and the user needs to go to cancel in their app, but going to cancel in their app forwards them to chat with the support person who says that they need to go cancel in their app; after more discussion, support tells them that their order, which they know was never delivered, is not eligible for a refund
-* Uber maps routes driver down impossible route and a user indicates that reporting this issue does nothing
-* UberEats driver notes that reporting that someone stole an order from the restaurant is pointless because the order just gets sent back out to another driver anyway; contacting support is useless and costs you valuable time that you could be using to earn money
- * Another driver reports the same thing
-* Two people scammed Uber Eats out of $1M
-* Uber drivers at a local airport cancel ride if fare is under $100
-* Uber driver suddenly has account blocked
- * They find out that it's because a passenger reported an item lost; passenger later realizes they had the item all along and driver is unblocked, but driver was 2 hours from home and had to do the 2 hour drive home without being able to pick up fares
-* User reports that UberEats delivery had slugs in it and Uber does their now-standard move of not issuing a refund; they issue a refund after the post about this goes viral
-* User reports that UberEats driver spilled drink, with clear evidence of this and Uber refuses to refund until after a thread about it goes viral and the user complains on Twitter
-* Uber refuses to refund UberEats pizza delivery that never showed up; user indicates that they'd never contacted support before and had never asked for a refund before
-* Driver threatened with ban from Uber and is unable to get any kind of remotely reasonable response until his union, the App Drivers and Couriers Union worked with the Worker Info Exchange to go after Uber in court; "Just before the case came to court, Uber apologised and acknowledged it had made a mistake"
- * Uber's issues an official response of "We are disappointed that the court did not recognise the robust processes we have in place, including meaningful human review, when making a decision to deactivate a driver’s account due to suspected fraud."
-* User notes that Uber drivers often do scams and that Uber doesn't seem to prevent this
-* User notes that they frequently get scammed by Uber drivers, but Uber _usually_ refunds them when they report the scam to Uber
-* User notes that Uber drivers try to scam the ~1/20 times
-* User blocked from UberEats refunds after too many orders got screwed up and the user got too many refunds; user sent photos of the messed up orders, but Uber support doesn't care about what happened, just the size of and number of refunds
-* User's uber account blocked for no discernable reason
- * At the time, there was no way to contact support, but the user tries again after a few years, at which point there is a support form, but that still doesn't work User's wife is incorrectly banned from user. User worked at Uber for four years and knows that the only way to get this fixed is to escalate to employees they know because, as a former employee, they know how useless support is
-* User tries to get support for UberEATS not honoring a buy 1 get 1 free deal; support didn't help
-* Former Uber engineer notes that people randomly get banned for false positives
-* User had some Uber driver create an account with their email despite them never verifying the email with this new account; user tried to have their email removed, but support says they can't discuss anything about the account since they're not the account owner
-* User's wife banned from Uber for no discernible reason
-* User's Uber account gets into apparently unfixable unexpected state
+* [User receives a 6 pack instead of 12 pack from Uber Eats](https://www.reddit.com/r/mildlyinfuriating/comments/189juqi/paid_20_for_a_12_pk_and_received_a_6_pk_over_uber/) and customer service declines to refund the difference
+    * In the comments, other people report having the same issue
+* [Uber refuses to issue refund when stolen phone (?) $2000 in charges](https://www.reddit.com/r/mildlyinfuriating/comments/185hz9a/comment/kb1v3vv/); user only gets money back via chargeback and presumably gets banned for life, as is standard when issuing chargebacks to big tech companies
+* [UberEats refuses to issue refund when order is clearly delivered to wrong location (half a mile away)](https://www.reddit.com/r/UberEATS/comments/184no3q/how_uber_eats_stole_my_money/)
+* [Early in the pandemic, Uber said they would compensate drivers if they got covid, but they refuse to do this](https://www.reddit.com/r/UberEATS/comments/184no3q/comment/kaxk57x/)
+    * After 6 months of having support deny their request, Uber gives them half of the compensation that was promised
+* [UberEats punishes driver for "shop and pay" order when item is out of stock and cannot be purchased](https://www.reddit.com/r/UberEATS/comments/184t01x/uber_eats_punishing_shop_and_pay_drivers_when_an/)
+* [Disabled user orders groceries from UberEats; when order is delivered to the wrong building, support won't have item actually delivered](https://www.reddit.com/r/UberEATS/comments/184r0vn/why_i_will_never_order_from_uber_eats_and_why/)
+* [User can't cancel UberEats order when restaurant doesn't make order, leaving order in limbo](https://www.reddit.com/r/UberEATS/comments/184b0w7/cant_cancel_order_whats_going_on/)
+    * The restaurant is closed and support responds saying that they can't do anything about it and the user needs to go to cancel in their app, but going to cancel in their app forwards them to chat with the support person who says that they need to go cancel in their app; after more discussion, support tells them that their order, which they know was never delivered, is not eligible for a refund
+* [Uber maps routes driver down impossible route and a user indicates that reporting this issue does nothing](https://twitter.com/perrymetzger/status/1147589115245944833)
+* [UberEats driver notes that reporting that someone stole an order from the restaurant is pointless because the order just gets sent back out to another driver anyway](https://www.reddit.com/r/UberEATS/comments/17ip5na/comment/k6wcmk2/); contacting support is useless and costs you valuable time that you could be using to earn money
+    * Another driver reports the same thing
+* [Two people scammed Uber Eats out of $1M](https://news.ycombinator.com/item?id=37893601)
+* [Uber drivers at a local airport cancel ride if fare is under $100](https://news.ycombinator.com/item?id=37894450)
+* [Uber driver suddenly has account blocked](https://news.ycombinator.com/item?id=37070672)
+    * They find out that it's because a passenger reported an item lost; passenger later realizes they had the item all along and driver is unblocked, but driver was 2 hours from home and had to do the 2 hour drive home without being able to pick up fares
+* [User reports that UberEats delivery had slugs in it](https://www.reddit.com/r/UberEATS/comments/14u3dml/i_found_worms_in_my_food_and_ubereats_wont_offer/) and Uber does their now-standard move of not issuing a refund; they issue a refund after the post about this goes viral
+* [User reports that UberEats driver spilled drink, with clear evidence of this and Uber refuses to refund until after a thread about it goes viral and the user complains on Twitter](https://www.reddit.com/r/UberEATS/comments/14a62vk/uber_wont_refund_me_for_the_drinks_my_delivery/)
+* [Uber refuses to refund UberEats pizza delivery that never showed up](https://www.reddit.com/r/UberEATS/comments/14a62vk/comment/jobtkvz/); user indicates that they'd never contacted support before and had never asked for a refund before
+* [Driver threatened with ban from Uber](https://www.theguardian.com/technology/2023/apr/16/stop-or-ill-fire-you-the-driver-who-defied-ubers-automated-hr) and is unable to get any kind of remotely reasonable response until his union, the App Drivers and Couriers Union worked with the Worker Info Exchange to go after Uber in court; "Just before the case came to court, Uber apologised and acknowledged it had made a mistake"
+    * Uber's issues an official response of "We are disappointed that the court did not recognise the robust processes we have in place, including meaningful human review, when making a decision to deactivate a driver’s account due to suspected fraud."
+* [User notes that Uber drivers often do scams and that Uber doesn't seem to prevent this](https://news.ycombinator.com/item?id=35592403)
+* [User notes that they frequently get scammed by Uber drivers, but Uber _usually_ refunds them when they report the scam to Uber](https://news.ycombinator.com/item?id=35592349)
+* [User notes that Uber drivers try to scam the ~1/20 times](https://news.ycombinator.com/item?id=35592397)
+* [User blocked from UberEats refunds after too many orders got screwed up and the user got too many refunds](https://www.reddit.com/r/UberEATS/comments/zzia89/blocked_from_refunds_after_4_years/); user sent photos of the messed up orders, but Uber support doesn't care about what happened, just the size of and number of refunds
+* [User's uber account blocked for no discernable reason](https://news.ycombinator.com/item?id=34051876)
+    * At the time, there was no way to contact support, but the user tries again after a few years, at which point there is a support form, but that still doesn't work [User's wife is incorrectly banned from user. User worked at Uber for four years and knows that the only way to get this fixed is to escalate to employees they know because, as a former employee, they know how useless support is](https://news.ycombinator.com/item?id=34052099)
+* [User tries to get support for UberEATS not honoring a buy 1 get 1 free deal; support didn't help](https://news.ycombinator.com/item?id=34052126)
+* [Former Uber engineer notes that people randomly get banned for false positives](https://news.ycombinator.com/item?id=34052279)
+* [User had some Uber driver create an account with their email despite them never verifying the email with this new account](https://news.ycombinator.com/item?id=34052096); user tried to have their email removed, but support says they can't discuss anything about the account since they're not the account owner
+* [User's wife banned from Uber for no discernible reason](​​https://news.ycombinator.com/item?id=34052872)
+* [User's Uber account gets into apparently unfixable unexpected state](https://news.ycombinator.com/item?id=34052502)
 
 ### Cloudflare
 
-* Blind user reports that Cloudflare doesn't have audio captchas, making much of the web unusable
- * Person that handles Cloudflare captchas invites the user to solve an open research problem so that they're able to browse websites hosted on Cloudflare
-* Cloudflare suspends user's account with no warning or information
- * contacting CloudFlare results in the a response of "Your account violated our terms of service specifically fraud. The suspension is permanent and we will not be making changes on our end."
- * account restored after viral HN thread
-* User finds much of the internet unusable with Firefox due to Cloudflare CAPTCHA infinite loop (switching to Chrome allows them to browse the internet); user writes up a detailed account of the issue and their issue is auto-closed (and other people report the exact same experience)
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Same issue, different user
- * Similar issue, but with Brave instead of Firefox
- * Standard response of "why use the product if it does this bad thing?"
- * People point out that, as usual, this standard response is nonsense because, just for example, government websites that some people need to interact with sometimes use Cloudflare
- * After the story hits the front page of HN, a cloudflare exec replies and says people will look into it and then one person reports that the issue is fixed for them; I found tens of people who said that they reported the issue to Cloudflare, so I would guess that, overall, thousands of people reported the issue to cloudflare, which did nothing until someone wrote a post that hit the HN front page.
-* Cloudflare takes site down due to what appears to be incorrect malware detection
-* Cloudflare blocks transfer of domains in cases of incorrect fraud detection
-* Incorrect phishing detection results in huge phishing warning on website
-* Incorrect phishing detection results in URL being blocked
- * This was apparently triggered by a URL that hadn't existed for 10 years?
-* User can't access any site on cloudflare because cloudflare decided they're malicious
-* User can't access any site on cloudflare and some other hosts, they believe because another user on their ISP had malware on their computer
-* Cloudflare blocks some HN comments
- * Users do a bit of testing and find that the blocking is fairly arbitrary
-* User is blocked by Cloudflare and can no longer visit many (all?) sites that are behind Cloudflare when using Firefox
- * In the comments, on the order of 10 users note they've run into the same problem. The article is highly upvoted and a Cloudflare PM looks into it (resolution unknown)
-* RSS feeds blocked because Cloudflare detects RSS client isn't a browser with a real human directly operating it
-* User from Hong Kong finds that they often have to use a VPN to access sites on Cloudflare because Cloudflare thinks their IP is bad
-* User finds a large fraction of the internet unusable due to Cloudflare infinite browser check loop
-* User finds a large fraction of the internet unusable because Cloudflare has decided their IP is suspicious
- * User changes ISPs in order to be able to use the internet again ### TODO example in main body
-* Security researcher finds security flaw in Cloudflare
- * Researcher claims that afterwards, "Cloudflare literally lobbied the FTC to investigate me and question the legality of openly discussing security research"
-* Cloudflare ia haven for scammers and copyright thieves
+* [Blind user reports that Cloudflare doesn't have audio captchas, making much of the web unusable](https://twitter.com/danluu/status/1285408780688080896)
+    * Person that handles Cloudflare captchas invites the user to solve an open research problem so that they're able to browse websites hosted on Cloudflare
+* [Cloudflare suspends user's account with no warning or information](https://news.ycombinator.com/item?id=31573854)
+    * contacting CloudFlare results in the a response of "Your account violated our terms of service specifically fraud. The suspension is permanent and we will not be making changes on our end."
+    * account restored after viral HN thread
+* [User finds much of the internet unusable with Firefox due to Cloudflare CAPTCHA infinite loop](https://news.ycombinator.com/item?id=35742606) (switching to Chrome allows them to browse the internet); user writes up a detailed account of the issue and their issue is auto-closed (and other people report the exact same experience)
+    * [Same issue, different user](https://forum.gitlab.com/t/cant-open-the-signin-page-it-keeps-showing-checking-your-browser-before-accessing-gitlab-com/45857/21)
+    * [Same issue, different user](https://gitlab.com/librewolf-community/browser/linux/-/issues/244)
+        * [Same issue, different user](https://github.com/arkenfox/user.js/issues/1253)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35745141)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35745236)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35745456)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35744343)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35746506)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35750008)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35743309)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35748050)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35743306)
+    * [Same issue, different user](https://news.ycombinator.com/item?id=35775633)
+    * [Similar issue, but with Brave instead of Firefox](https://news.ycombinator.com/item?id=35745839)
+    * [Standard response of "why use the product if it does this bad thing?"](https://news.ycombinator.com/item?id=35743287)
+        * [People point out that, as usual, this standard response is nonsense because, just for example, government websites that some people need to interact with sometimes use Cloudflare](https://news.ycombinator.com/item?id=35743638)
+    * After the story hits the front page of HN, a cloudflare exec replies and says people will look into it and then one person reports that the issue is fixed for them; I found tens of people who said that they reported the issue to Cloudflare, so I would guess that, overall, thousands of people reported the issue to cloudflare, which did nothing until someone wrote a post that hit the HN front page.
+* [Cloudflare takes site down due to what appears to be incorrect malware detection](https://news.ycombinator.com/item?id=31575318)
+* [Cloudflare blocks transfer of domains in cases of incorrect fraud detection](https://news.ycombinator.com/item?id=31576353)
+* [Incorrect phishing detection results in huge phishing warning on website](https://news.ycombinator.com/item?id=38881712)
+* [Incorrect phishing detection results in URL being blocked](https://community.cloudflare.com/t/cloudflare-mistakenly-flagged-my-website-as-phishing-now-shows-a-warning-and-misinforms-my-users/384158)
+    * [This was apparently triggered by a URL that hadn't existed for 10 years?](https://news.ycombinator.com/item?id=38882074)
+* [User can't access any site on cloudflare because cloudflare decided they're malicious](https://news.ycombinator.com/item?id=38785565)
+* [User can't access any site on cloudflare and some other hosts, they believe because another user on their ISP had malware on their computer](https://news.ycombinator.com/item?id=38789602)
+* [Cloudflare blocks some HN comments](https://news.ycombinator.com/item?id=38986187)
+    * Users do a bit of testing and find that the blocking is fairly arbitrary
+* [User is blocked by Cloudflare and can no longer visit many (all?) sites that are behind Cloudflare when using Firefox](https://jrhawley.ca/2023/08/07/blocked-by-cloudflare)
+    * [In the comments, on the order of 10 users note they've run into the same problem](https://news.ycombinator.com/item?id=37049016). The article is highly upvoted and a Cloudflare PM looks into it (resolution unknown)
+* [RSS feeds blocked because Cloudflare detects RSS client isn't a browser with a real human directly operating it](https://news.ycombinator.com/item?id=35745454)
+* [User from Hong Kong finds that they often have to use a VPN to access sites on Cloudflare because Cloudflare thinks their IP is bad](https://news.ycombinator.com/item?id=35746090)
+* [User finds a large fraction of the internet unusable due to Cloudflare infinite browser check loop](https://news.ycombinator.com/item?id=35746284)
+* [User finds a large fraction of the internet unusable because Cloudflare has decided their IP is suspicious](https://www.ctrl.blog/entry/cloudflare-ip-blockade.html)
+    * [User changes ISPs in order to be able to use the internet again](https://news.ycombinator.com/item?id=32914809) ### TODO example in main body
+* [Security researcher finds security flaw in Cloudflare](https://farside.link/nitter/taviso/status/832744397800214528)
+    * [Researcher claims that afterwards, "Cloudflare literally lobbied the FTC to investigate me and question the legality of openly discussing security research"](https://farside.link/nitter//taviso/status/1566077115992133634)
+* [Cloudflare ia haven for scammers and copyright thieves](https://news.ycombinator.com/item?id=28792267)
 
 ### Shopify
 
-* Having a store located in Puerto Rico causes payouts to be suspended every 3-4 months to verify address
-* Kafkaesque support nightmare after payouts suspended
- * bizarre requirements, such as proving the bookstore has a license to sell the books they're selling
+* [Having a store located in Puerto Rico causes payouts to be suspended every 3-4 months to verify address](https://news.ycombinator.com/item?id=32042517)
+* [Kafkaesque support nightmare after payouts suspended](https://nitter.net/mattzollerseitz/status/1541994356521013248)
+    * bizarre requirements, such as proving the bookstore has a license to sell the books they're selling
 
 ### Twitter (X)
 
-I dropped most of the Twitter stories since there are so many after the acquisition that it seems silly to list them, but I've kept a few random ones.
+I dropped most of the Twitter stories since [there are so many after the acquisition that it seems silly to list them](https://news.ycombinator.com/item?id=39402876), but I've kept a few random ones.
 
-* Users report NSFW, pornographic, ads
-* Users report seeing bestiality, CP, gore, etc., when they don't want to see it
-* Scammers posting as customer service agents on Twitter/X
+* [Users report NSFW, pornographic, ads](https://www.reddit.com/r/Twitter/comments/18yksgu/anyone_else_getting_porn_ads/)
+* [Users report seeing bestiality, CP, gore, etc., when they don't want to see it](https://www.reddit.com/r/Twitter/comments/17n139b/twitters_beastility_problem/)
+* [Scammers posting as customer service agents on Twitter/X](https://news.ycombinator.com/item?id=38001523)
 
 ### Apple
 
-* Apple ML identifies user as three different people, depending on hairstyle
-* Long story about Apple removing an app from the app store
-* Rampant, easy to find, scam/spam apps on app store
- * A developer asks, how is it that so many legitimate apps get banned taken down from the app store for bad reasons when so much blatant spam gets through?
- * Lots of stories of legitimate apps getting autorejected immediately on submission, often requiring jumping through nonsensical hoops to get the app reinstated
-* Apple forces developer to remove app for being too similar to another one of their apps because they have localized versions of their apps for different geos; developer asks how come people with essentially identical apps can keep 400 basically identical apps up?
-* Searches for apps in various basic categories return scams and random puzzle games (in non-game categories)
-* User makes an app that lets you read HN; Apple store repeatedly rejects app for reasons that don't make sense given what the app does, but support fails to understand the explanation
- * Luckily, it's Apple and not Google and they eventually manage to get a human on the phone, who understands the verbal explanation
+* [Apple ML identifies user as three different people, depending on hairstyle](https://www.threads.net/@sineadbovell/post/C1nIp1TxD1_)
+* [Long story about Apple removing an app from the app store](https://mjtsai.com/blog/2016/10/10/apple-and-kapeli-respond/)
+* [Rampant, easy to find, scam/spam apps on app store](https://news.ycombinator.com/item?id=35677813)
+    * [A developer asks, how is it that so many legitimate apps get banned taken down from the app store for bad reasons when so much blatant spam gets through](https://news.ycombinator.com/item?id=35678623)?
+        * [Lots of stories of legitimate apps getting autorejected immediately on submission](https://news.ycombinator.com/item?id=35679233), often [requiring jumping through nonsensical hoops to get the app reinstated](https://news.ycombinator.com/item?id=35681602)
+* [Apple forces developer to remove app for being too similar to another one of their apps because they have localized versions of their apps for different geos](https://news.ycombinator.com/item?id=35679612); developer asks how come people with essentially identical apps can keep 400 basically identical apps up?
+* [Searches for apps in various basic categories return scams and random puzzle games (in non-game categories)](https://news.ycombinator.com/item?id=35680593)
+* [User makes an app that lets you read HN](https://news.ycombinator.com/item?id=33633324); Apple store repeatedly rejects app for reasons that don't make sense given what the app does, but support fails to understand the explanation
+    * Luckily, it's Apple and not Google and they eventually manage to get a human on the phone, who understands the verbal explanation
 
 ### DoorDash
 
-* Driver can't contact customer, so DoorDash support tells driver to dump food in parking lot
-* DoorDash driver says they'll only actually deliver the item if the user pays them $15 extra
+* [Driver can't contact customer, so DoorDash support tells driver to dump food in parking lot](https://www.reddit.com/r/Wellthatsucks/comments/18x6bbl/comment/kg2l3ha/)
+* [DoorDash driver says they'll only actually deliver the item if the user pays them $15 extra](https://www.reddit.com/r/mildlyinfuriating/comments/18htrrm/dasher_will_only_pick_up_my_food_if_i_send_them/)
 * The above is apparently not that uncommon scam as a friend of mine had this happen to them as well
-* DoorDash refuses refund for item that didn't arrive
- * Of course, people have the standard response of "why don't you stop using these crappy services?" (the link above this one is also full of these) and some responds, "Because I'm disabled. Don't have a driver's license or a car. There isn't a bus stop near my apartment, I actually take paratransit to get to work, but I have to plan that a day ahead. Uber pulls the same shit, so I have to cycle through Uber, Door dash, and GrubHub based on who has coupons and hasn't stolen my money lately. Not everyone can just go pick something up."
+* [DoorDash refuses refund for item that didn't arrive](https://www.reddit.com/r/mildlyinfuriating/comments/186redy/doordash_denied_refund_for_wrong_order_delivered/)
+    * Of course, people have the standard response of "why don't you stop using these crappy services?" (the link above this one is also full of these) and some responds, "Because I'm disabled. Don't have a driver's license or a car. There isn't a bus stop near my apartment, I actually take paratransit to get to work, but I have to plan that a day ahead. Uber pulls the same shit, so I have to cycle through Uber, Door dash, and GrubHub based on who has coupons and hasn't stolen my money lately. Not everyone can just go pick something up."
 * At one point, after I had a few bad deliveries in a row and gave a few drivers low ratings (I normally give people a high rating unless they don't even attempt to deliver to my door), I had a driver who took a really long time to deliver who, from watching the map, was just driving around. With my rating, I wrote a note that said that it appeared that, from the route, the driver was multi-apping, at which point DoorDash removed my ability to rate drivers, so I switched to Uber
 
 ### Walmart
 
-* Driver steals delivery order; Walmart support does nothing and user has to drive to Walmart store to get issue fixed, but this is actually possible, unlike with most tech companies
- * Walmart employee notes that delivery is subcontracted out, with no real feedback mechanism
-* Delivery doesn't arrive and user is unable to get refund
-* Walmart refuses to refund user when they're charged the wrong price
+* [Driver steals delivery order; Walmart support does nothing and user has to drive to Walmart store to get issue fixed](https://www.reddit.com/r/mildlyinfuriating/comments/18waqmr/comment/kfwksnc/), but this is actually possible, unlike with most tech companies
+    * [Walmart employee notes that delivery is subcontracted out, with no real feedback mechanism](https://www.reddit.com/r/mildlyinfuriating/comments/18waqmr/comment/kfx8npu/)
+* [Delivery doesn't arrive and user is unable to get refund](https://www.reddit.com/r/mildlyinfuriating/comments/18lj8nl/apparently_pizza_hut_now_uses_doordash_for/)
+* [Walmart refuses to refund user when they're charged the wrong price](https://www.reddit.com/r/campbellriver/comments/18a7l0a/walmart_just_charged_me_80_dollars_for_phone/)
 
 ### Airbnb
 
 I've seen a ton of these but, for some reason, it didn't occur to me to add them to my list, so I don't have a lot of examples even though I've probably seen three times as many of these as I've seen Uber horror stories.
 
-* AirBnB had cameras in the bathroom and bedroom and support refused to refund user
-* AirBnB refuses to issue refund of scam booking to stolen credit card; user has to issue chargeback and (as is standard) presumably gets their account banned for life
-* User finds cameras in AirBnB that cover sleeping areas and other private areas and AirBnB says they'll refund user as user books a hotel and then refuses to refund user
- * User is a tenacious lawyer and goes through arbitration to get a refund, which takes a large amount of effort and almost an entire year (dates in 1st level reddit link from above appear to be wrong if dates are correct in subsequent links)
+* [AirBnB had cameras in the bathroom and bedroom and support refused to refund user](https://www.reddit.com/r/mildlyinfuriating/comments/18v8wq7/comment/kfph732/)
+* [AirBnB refuses to issue refund of scam booking to stolen credit card](https://www.reddit.com/r/mildlyinfuriating/comments/185hz9a/my_credit_card_was_compromised_and_the_thief/); user has to issue chargeback and (as is standard) presumably gets their account banned for life
+* [User finds cameras in AirBnB that cover sleeping areas and other private areas and AirBnB says they'll refund user as user books a hotel and then refuses to refund user](https://news.ycombinator.com/item?id=37277016)
+    * User is a tenacious lawyer and goes through arbitration to get a refund, which takes a large amount of effort and almost an entire year (dates in 1st level reddit link from above appear to be wrong if dates are correct in subsequent links)
 
-## Appendix: Jeff Horwitz's Broken Code
+## Appendix: [Jeff Horwitz's Broken Code](https://www.amazon.com/Broken-Code-Facebook-Harmful-Secrets/dp/B0BW4WDNCT/?&_encoding=UTF8&tag=abroaview-20&linkCode=ur2&linkId=db543113619810998b5a2415c3d801e6&camp=1789&creative=9325)
 
-Below are a few relevant excerpts. This is intended to be analogous to Zvi Mowshowitz's Quotes from Moral Mazes, which gives you an idea of what's in the book but is definitely not a replacement for reading the book. If these quotes are interesting, I recommend reading the book!
+Below are a few relevant excerpts. This is intended to be analogous to [Zvi Mowshowitz's Quotes from Moral Mazes](https://thezvi.wordpress.com/2019/05/30/quotes-from-moral-mazes/), which gives you an idea of what's in the book but is definitely not a replacement for reading the book. If these quotes are interesting, I recommend reading [the book](https://www.amazon.com/Broken-Code-Facebook-Harmful-Secrets/dp/B0BW4WDNCT/?&_encoding=UTF8&tag=abroaview-20&linkCode=ur2&linkId=db543113619810998b5a2415c3d801e6&camp=1789&creative=9325)!
 
 > The former employees who agreed to speak to me said troubling things from the get-go. Facebook’s automated enforcement systems were flatly incapable of performing as billed. Efforts to engineer growth had inadvertently rewarded political zealotry. And the company knew far more about the negative effects of social media usage than it let on.
 > 
@@ -1991,61 +1991,61 @@ Below are a few relevant excerpts. This is intended to be analogous to Zvi Mowsh
 
 ## Appendix: non-statements
 
-I really like the "non-goals" section of design docs. I think the analogous non-statements section of a doc like this is much less valuable because the top-level non-statements can generally be inferred by reading this doc, whereas top-level non-goals often add information, but I figured I'd try this out anyway.
+I really like the "non-goals" section of design docs. I think the analogous non-statements section of a doc like this is much less valuable because [the top-level non-statements can generally be inferred by reading this doc](https://jakeseliger.com/2022/01/31/most-people-dont-read-carefully-or-for-comprehension/), whereas top-level non-goals often add information, but I figured I'd try this out anyway.
 
 * Facebook (or any other company named here, like Uber) is uniquely bad
- * As discussed, on the contrary, I think Facebook isn't very atypical, which is why
+    * As discussed, on the contrary, I think Facebook isn't very atypical, which is why
 * Zuckerberg (or any other person named) is uniquely bad
 * Big tech employees are bad people
 * No big tech company employees are working hard or trying hard
- * For some reason, a common response to any criticism of a tech company foible or failure is "people are working hard". This is almost never a response to a critique that nobody is working hard, and that is once again not the critique here
+    * For some reason, a common response to any criticism of a tech company foible or failure is "people are working hard". This is almost never a response to a critique that nobody is working hard, and that is once again not the critique here
 * Big tech companies should be broken up or otherwise have antitrust action taken against them
- * Maybe so, but this document doesn't make that case
+    * Maybe so, but this document doesn't make that case
 * Bigger companies in the same industry are strictly worse than smaller companies
- * Discussed above, but I'll mention it again here
+    * Discussed above, but I'll mention it again here
 * The general bigness vs. smallness tradeoff as discussed here applies strictly across all areas all industries
- * Also mentioned above, but mentioned again here. For example, the percentage of rides in which a taxi drier tries to scam the user seems much higher with traditional taxis than with Uber
+    * Also mentioned above, but mentioned again here. For example, the percentage of rides in which a taxi drier tries to scam the user seems much higher with traditional taxis than with Uber
 * It's easy to do moderation and support at scale
 * On average, large companies provide a worse experience for users
- * For example, I still use Amazon because it gives me the best overall experience. As noted above, cost and shipping are better with Amazon than with any other alternative. There are entire classes of items where most things I've bought are counterfeit, such as masks and respirators. When I bought these in January 2020, before these were something many people would buy, I got genuine 3M masks. Masks and filters were then hard to get for a while, and then when they became available again, the majority of 3M masks and filters I got were counterfeit (out of curiosity, I tried more than a few independent orders over the next few years). I try to avoid classes of items that have a high counterfeit rate (but a naive user who doesn't know to do this will buy a lot of low-quality counterfeits), and I know I'm rolling the dice every time I buy any expensive item (if I get a counterfeit or an empty box, Amazon might not accept the return or refund me unless I can make a viral post about the issue), and sometimes a class of item goes from being one where you can usually get good items to one where most items are counterfeit.
- * Many objections are, implicitly or explicitly, are about the average experience, but this is nonsensical when the discussion is about the experience in the tail; this is like the standard response you see when someone notes that a concurrency bug is a problem and someone else say it's fine because "it works for me", which doesn't make sense for bugs that occur in the tail.
+    * For example, I still use Amazon because it gives me the best overall experience. As noted above, cost and shipping are better with Amazon than with any other alternative. There are entire classes of items where most things I've bought are counterfeit, such as masks and respirators. When I bought these in January 2020, before these were something many people would buy, I got genuine 3M masks. Masks and filters were then hard to get for a while, and then when they became available again, the majority of 3M masks and filters I got were counterfeit (out of curiosity, I tried more than a few independent orders over the next few years). I try to avoid classes of items that have a high counterfeit rate (but a naive user who doesn't know to do this will buy a lot of low-quality counterfeits), and I know I'm rolling the dice every time I buy any expensive item (if I get a counterfeit or an empty box, Amazon might not accept the return or refund me unless I can make a viral post about the issue), and sometimes a class of item goes from being one where you can usually get good items to one where most items are counterfeit.
+    * Many objections are, implicitly or explicitly, are about the average experience, but this is nonsensical when the discussion is about the experience in the tail; this is like the standard response you see when someone notes that a concurrency bug is a problem and someone else say it's fine because "it works for me", which doesn't make sense for bugs that occur in the tail.
 
-1. when Costco was smaller, I would've put Costco here instead of Best Buy, but as they've gotten bigger, I've noticed that their quality has gone down. It's really striking how (relatively) frequently I find sealed items like cheese going bad long before their "best by" date or just totally broken items. This doesn't appear to have anything to do with any particular location since I moved almost annually for close to a decade and observed this decline across many different locations (because I was moving, at first, I thought that I got unlucky with where I'd moved to, but as I tried locations in various places, I realized that this wasn't specific to any location and it seems to have impacted stores in both the U.S. and Canada). \[return\]
-2. when the WSJ looked at leaked internal Meta documents, they found, among other things, that Meta estimated that 100k minors per day "received photos of adult genitalia or other sexually abusive content". Of course, smart contrarians will argue that this is totally normal, e.g., two of the first few comments on HN were about how there's nothing particularly wrong with this. Sure, it's bad for children to get harassed, but "it can happen on any street corner", "what's the base rate to compare against", etc.
- 
- Very loosely, if we're liberal, we might estimate that Meta had 2.5B DAU in early 2021 and 500M were minors, or if we're conservative, maybe we guess that 100M are minors. So, we might guess that Meta estimated something like 0.1% to 0.02% of minors on Meta platforms received photos of genitals or similar each day. Is this roughly the normal rate they would experience elsewhere? Compared to the real world, possibly, although I would be surprised if 0.1% of children are being exposed to people's genitals "on any street corner". Compared to a well moderated small forum, that seems highly implausible. The internet commenter reaction was the same reaction that Arturo Bejar, who designed Facebook's reporting system and worked in the area, had. He initially dismissed reports about this kind of thing because it didn't seem plausible that it could really be that bad, but he quickly changed his mind once he started looking into it:
- 
- > Joanna’s account became moderately successful, and that’s when things got a little dark. Most of her followers were enthused about a \[14-year old\] girl getting into car restoration, but some showed up with rank misogyny, like the guy who told Joanna she was getting attention “just because you have tits.”
- > 
- > “Please don’t talk about my underage tits,” Joanna Bejar shot back before reporting the comment to Instagram. A few days later, Instagram notified her that the platform had reviewed the man’s comment. It didn’t violate the platform’s community standards.
- > 
- > Bejar, who had designed the predecessor to the user-reporting system that had just shrugged off the sexual harassment of his daughter, told her the decision was a fluke. But a few months later, Joanna mentioned to Bejar that a kid from a high school in a neighboring town had sent her a picture of his penis via an Instagram direct message. Most of Joanna’s friends had already received similar pics, she told her dad, and they all just tried to ignore them.
- > 
- > Bejar was floored. The teens exposing themselves to girls who they had never met were creeps, but they presumably weren’t whipping out their dicks when they passed a girl in a school parking lot or in the aisle of a convenience store. Why had Instagram become a place where it was accepted that these boys occasionally would—or that young women like his daughter would have to shrug it off?
- 
- Much of the book, Broken Code, is about Bejar and others trying to get Meta to take problems like this seriously and making little progress and often having their progress undone (although, PR issues for FB seem to force FB's hand and drive some progress towards the end of the book):
- 
- > six months prior, a team had redesigned Facebook’s reporting system with the specific goal of reducing the number of completed user reports so that Facebook wouldn’t have to bother with them, freeing up resources that could otherwise be invested in training its artificial intelligence–driven content moderation systems. In a memo about efforts to keep the costs of hate speech moderation under control, a manager acknowledged that Facebook might have overdone its effort to stanch the flow of user reports: “We may have moved the needle too far,” he wrote, suggesting that perhaps the company might not want to suppress them so thoroughly.
- > 
- > The company would later say that it was trying to improve the quality of reports, not stifle them. But Bejar didn’t have to see that memo to recognize bad faith. The cheery blue button was enough. He put down his phone, stunned. This wasn’t how Facebook was supposed to work. How could the platform care about its users if it didn’t care enough to listen to what they found upsetting?
- > 
- > There was an arrogance here, an assumption that Facebook’s algorithms didn’t even need to hear about what users experienced to know what they wanted. And even if regular users couldn’t see that like Bejar could, they would end up getting the message. People like his daughter and her friends would report horrible things a few times before realizing that Facebook wasn’t interested. Then they would stop.
- 
- If you're interested in the topic, I'd recommend reading the whole book, but if you just want to get a flavor for the kinds of things the book discusses, I've put a few relevant quotes into an appendix. After reading the book, I can't say that I'm very sure the number is correct because I'd have to look at the data to be strongly convinced, but it does seem plausible. And as for why Facebook might expose children to more of this kind of thing than another platform, the book makes the case that this falls out of a combination of optimizing for engagement, "number go up", and neglecting "trust and safety" work
- 
- > Only a few hours of poking around Instagram and a handful of phone calls were necessary to see that something had gone very wrong—the sort of people leaving vile comments on teenagers’ posts weren’t lone wolves. They were part of a large-scale pedophilic community fed by Instagram’s recommendation systems.
- > 
- > Further reporting led to an initial three-thousand-word story headlined “Instagram Connects Vast Pedophile Network.” Co-written with Katherine Blunt, the story detailed how Instagram’s recommendation systems were helping to create a pedophilic community, matching users interested in underage sex content with each other and with accounts advertising “menus” of content for sale. Instagram’s search bar actively suggested terms associated with child sexual exploitation, and even glancing contact with accounts with names like Incest Toddlers was enough to trigger Instagram to begin pushing users to connect with them.
- 
- \[return\]
-3. but, fortunately for Zuckerberg, his target audience seems to have little understanding of the tech industry, so it doesn't really matter that Zuckerberg's argument isn't plausible. In a future post, \[we might look at incorrect reasoning from regulators and government officials but, for now, see this example of Gary Bernhardt where FB makes a claim that appears to be the opposite of correct to people who work in the area. \[return\]
-4. Another claim, rarer than "it would cost too much to provide real support", is "support can't be done because it's a social engineering attack vector". This isn't as immediately implausible because this calls to mind all of the cases where people had their SMS-2FA'd accounts owned by someone calling up a phone company and getting a phone number transferred, but I don't find it all that plausible since bank and brokerage accounts are, in general, much higher value than FB accounts and FB accounts are still compromised at a much higher rate, even for online-only accounts, accounts back before KYC requirements were in play, or whatever other reason people name as a reasonable-sounding reason for the difference. \[return\]
-5. Another reason, less reasonable, but the actual impetus for this post, is that when Zuckerberg made his comments that only the absolute largest companies in the world can handle issues like fraud and spam, it struck me as completely absurd and, because I enjoy absurdity, I started a doc where I recorded links I saw to large company spam, fraud, moderation, and support, failures, much like the list of Google knowledge card results I kept track of for a while. I didn't have a plan for what to do with that and just kept it going for years before I decided to publish the list, at which point I felt that I had to write something, since the bare list by itself isn't that interesting, so I started writing up summaries of each link (the original list was just a list of links), and here we are. When I sit down to write something, I generally have an idea of the approach I'm going to take, but I frequently end up changing my mind when I start looking at the data.
- 
- For example, since going from hardware to software, I've had this feeling that conventional software testing is fairly low ROI, so when I joined Twitter, I had this idea that I would look at the monetary impact of errors (e.g., serving up a 500 error to a user) and outages and use that to justify working on testing, in the same way that studies looking into the monetary impact of latency can often drive work on latency reduction. Unfortunately for my idea, I found that a naive analysis found a fairly low monetary impact and I immediately found a number of other projects that were high impact, so I wrote up a doc explaining that my findings were the opposite of what I needed to justify doing the work that I wanted to do, but I hoped to do a more in-depth follow-up that could overturn my original result, and then worked on projects that were supported by data.
- 
- This also frequently happens when I write things up here, such as this time I wanted to write up this really compelling sounding story, but, on digging into it, despite it being widely cited in tech circles, I found out that it wasn't true and there wasn't really any interesting there. It's qute often that when I look into something, I find that the angle of I was thinking of doesn't work. When I'm writing for work, I usually feel compelled to at least write up a short doc with evidence of the negative result but, for my personal blog, I don't really feel the same compulsion, so my drafts folder and home drive are littered with abandoned negative results.
- 
- However, in this case, on digging into the stories in the links and talking to people at various companies about how these systems work, the problem actually seemed worse than I realized before I looked into it, so it felt worth writing up even if I'm writing up something most people in tech know to be true.
- 
- \[return\]
+1. when Costco was smaller, I would've put Costco here instead of Best Buy, but as they've gotten bigger, I've noticed that their quality has gone down. It's really striking how (relatively) frequently I find sealed items like cheese going bad long before their "best by" date or just totally broken items. This doesn't appear to have anything to do with any particular location since I moved almost annually for close to a decade and observed this decline across many different locations (because I was moving, at first, I thought that I got unlucky with where I'd moved to, but as I tried locations in various places, I realized that this wasn't specific to any location and it seems to have impacted stores in both the U.S. and Canada). [\[return\]](#fnref:C)
+2. [when the WSJ looked at leaked internal Meta documents, they found, among other things, that Meta estimated that 100k minors per day "received photos of adult genitalia or other sexually abusive content"](https://archive.is/1lEoA). Of course, [smart contrarians](https://mastodon.social/@danluu/111042448496012974) will argue that this is totally normal, e.g., two of the first few comments on HN were about how there's nothing particularly wrong with this. Sure, it's bad for children to get harassed, but "it can happen on any street corner", "what's the base rate to compare against", etc.
+    
+    Very loosely, if we're liberal, we might estimate that Meta had 2.5B DAU in early 2021 and 500M were minors, or if we're conservative, maybe we guess that 100M are minors. So, we might guess that Meta estimated something like 0.1% to 0.02% of minors on Meta platforms received photos of genitals or similar each day. Is this roughly the normal rate they would experience elsewhere? Compared to the real world, possibly, although I would be surprised if 0.1% of children are being exposed to people's genitals "on any street corner". Compared to a well moderated small forum, that seems highly implausible. The internet commenter reaction was the same reaction that Arturo Bejar, who designed Facebook's reporting system and worked in the area, had. He initially dismissed reports about this kind of thing because it didn't seem plausible that it could really be that bad, but he quickly changed his mind once he started looking into it:
+    
+    > Joanna’s account became moderately successful, and that’s when things got a little dark. Most of her followers were enthused about a \[14-year old\] girl getting into car restoration, but some showed up with rank misogyny, like the guy who told Joanna she was getting attention “just because you have tits.”
+    > 
+    > “Please don’t talk about my underage tits,” Joanna Bejar shot back before reporting the comment to Instagram. A few days later, Instagram notified her that the platform had reviewed the man’s comment. It didn’t violate the platform’s community standards.
+    > 
+    > Bejar, who had designed the predecessor to the user-reporting system that had just shrugged off the sexual harassment of his daughter, told her the decision was a fluke. But a few months later, Joanna mentioned to Bejar that a kid from a high school in a neighboring town had sent her a picture of his penis via an Instagram direct message. Most of Joanna’s friends had already received similar pics, she told her dad, and they all just tried to ignore them.
+    > 
+    > Bejar was floored. The teens exposing themselves to girls who they had never met were creeps, but they presumably weren’t whipping out their dicks when they passed a girl in a school parking lot or in the aisle of a convenience store. Why had Instagram become a place where it was accepted that these boys occasionally would—or that young women like his daughter would have to shrug it off?
+    
+    Much of the book, Broken Code, is about Bejar and others trying to get Meta to take problems like this seriously and making little progress and often having their progress undone (although, PR issues for FB seem to force FB's hand and drive some progress towards the end of the book):
+    
+    > six months prior, a team had redesigned Facebook’s reporting system with the specific goal of reducing the number of completed user reports so that Facebook wouldn’t have to bother with them, freeing up resources that could otherwise be invested in training its artificial intelligence–driven content moderation systems. In a memo about efforts to keep the costs of hate speech moderation under control, a manager acknowledged that Facebook might have overdone its effort to stanch the flow of user reports: “We may have moved the needle too far,” he wrote, suggesting that perhaps the company might not want to suppress them so thoroughly.
+    > 
+    > The company would later say that it was trying to improve the quality of reports, not stifle them. But Bejar didn’t have to see that memo to recognize bad faith. The cheery blue button was enough. He put down his phone, stunned. This wasn’t how Facebook was supposed to work. How could the platform care about its users if it didn’t care enough to listen to what they found upsetting?
+    > 
+    > There was an arrogance here, an assumption that Facebook’s algorithms didn’t even need to hear about what users experienced to know what they wanted. And even if regular users couldn’t see that like Bejar could, they would end up getting the message. People like his daughter and her friends would report horrible things a few times before realizing that Facebook wasn’t interested. Then they would stop.
+    
+    If you're interested in the topic, I'd recommend reading the whole book, but if you just want to get a flavor for the kinds of things the book discusses, I've put a few relevant quotes into an appendix. After reading the book, I can't say that I'm very sure the number is correct because I'd have to look at the data to be strongly convinced, but it does seem plausible. And as for why Facebook might expose children to more of this kind of thing than another platform, the book makes the case that this falls out of a combination of optimizing for engagement, "number go up", and neglecting "trust and safety" work
+    
+    > Only a few hours of poking around Instagram and a handful of phone calls were necessary to see that something had gone very wrong—the sort of people leaving vile comments on teenagers’ posts weren’t lone wolves. They were part of a large-scale pedophilic community fed by Instagram’s recommendation systems.
+    > 
+    > Further reporting led to an initial three-thousand-word story headlined “Instagram Connects Vast Pedophile Network.” Co-written with Katherine Blunt, the story detailed how Instagram’s recommendation systems were helping to create a pedophilic community, matching users interested in underage sex content with each other and with accounts advertising “menus” of content for sale. Instagram’s search bar actively suggested terms associated with child sexual exploitation, and even glancing contact with accounts with names like Incest Toddlers was enough to trigger Instagram to begin pushing users to connect with them.
+    
+    [\[return\]](#fnref:B)
+3. but, fortunately for Zuckerberg, his target audience seems to have little understanding of the tech industry, so it doesn't really matter that Zuckerberg's argument isn't plausible. In a future post, \[we might look at [incorrect reasoning from regulators](https://twitter.com/danluu/status/1478329866185437184) and [government officials](https://twitter.com/altluu/status/1484718002046070784) but, for now, see [this example of Gary Bernhardt where FB makes a claim that appears to be the opposite of correct to people who work in the area](https://twitter.com/garybernhardt/status/1340064481271898115). [\[return\]](#fnref:F)
+4. Another claim, rarer than "it would cost too much to provide real support", is "support can't be done because it's a social engineering attack vector". This isn't as immediately implausible because this calls to mind all of the cases where people had their SMS-2FA'd accounts owned by someone calling up a phone company and getting a phone number transferred, but I don't find it all that plausible since bank and brokerage accounts are, in general, much higher value than FB accounts and FB accounts are still compromised at a much higher rate, even for online-only accounts, accounts back before KYC requirements were in play, or whatever other reason people name as a reasonable-sounding reason for the difference. [\[return\]](#fnref:S)
+5. Another reason, less reasonable, but the actual impetus for this post, is that when Zuckerberg made his comments that only the absolute largest companies in the world can handle issues like fraud and spam, it struck me as completely absurd and, because I enjoy absurdity, I started a doc where I recorded links I saw to large company spam, fraud, moderation, and support, failures, much like the [list of Google knowledge card results I kept track of for a while](/seo-spam/#appendix-google-knowledge-card-results). I didn't have a plan for what to do with that and just kept it going for years before I decided to publish the list, at which point I felt that I had to write something, since the bare list by itself isn't that interesting, so I started writing up summaries of each link (the original list was just a list of links), and here we are. When I sit down to write something, I generally have an idea of the approach I'm going to take, but I frequently end up changing my mind when I start looking at the data.
+    
+    For example, [since going from hardware to software, I've had this feeling that conventional software testing is fairly low ROI](/testing/), so when I joined Twitter, I had this idea that I would look at the monetary impact of errors (e.g., serving up a 500 error to a user) and outages and use that to justify working on testing, in the same way that studies looking into the monetary impact of latency can often drive work on latency reduction. Unfortunately for my idea, I found that a naive analysis found a fairly low monetary impact and I [immediately found](/metrics-analytics/) a [number of](/tracing-analytics/) other [projects that](/cgroup-throttling/) were [high impact](/latency-pitfalls/), so I wrote up a doc explaining that my findings were the opposite of what I needed to justify doing the work that I wanted to do, but I hoped to do a more in-depth follow-up that could overturn my original result, and then worked on projects that were supported by data.
+    
+    This also frequently happens when I write things up here, such as [this time I wanted to write up this really compelling sounding story, but, on digging into it, despite it being widely cited in tech circles, I found out that it wasn't true and there wasn't really any interesting there](https://www.patreon.com/posts/60185075). It's qute often that when I look into something, I find that the angle of I was thinking of doesn't work. When I'm writing for work, I usually feel compelled to at least write up a short doc with evidence of the negative result but, for my personal blog, I don't really feel the same compulsion, so my drafts folder and home drive are littered with abandoned negative results.
+    
+    However, in this case, on digging into the stories in the links and talking to people at various companies about how these systems work, the problem actually seemed worse than I realized before I looked into it, so it felt worth writing up even if I'm writing up something most people in tech know to be true.
+    
+    [\[return\]](#fnref:A)

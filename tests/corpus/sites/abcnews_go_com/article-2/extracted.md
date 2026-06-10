@@ -6,21 +6,33 @@ First responders attended to a woman in her 40s who was participating in the rac
 
 Cocodona 250 ultramarathon codirector Erika Snyder confirmed the death and declined to provide further details at the request of the runner's relatives.
 
-Ultramarathons can test the boundaries of human endurance, but deaths are very rare relative to the total number of participants in a sport that has in recent years grown in popularity around the world, with races hosted from Death Valley to the Himalayas.
+Ultramarathons can test the boundaries of human endurance, but deaths are very rare relative to the total number of participants in a sport that has in recent years grown in popularity around the world, with races hosted from [Death Valley](https://apnews.com/article/heat-death-valley-ultramarathon-bb343589c766b091667a22ca064761e2) to the Himalayas.
 
 The Cocodona is one of the toughest ultramarathons in the U.S., featuring a course that rises more than a mile (1.6 kilometers) in elevation — twice — while passing through Sedona from its start in Black Canyon City.
+
+[
 
 ## Iran live updates: Trump says no deadline for Iran to make a deal
 
 * May 6, 6:03 PM
 
+](https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582)
+
+[
+
 ## FDA withdraws publication of COVID, shingles vaccine research findings
 
 * May 5, 6:52 PM
 
+](https://abcnews.com/Health/fda-blocked-publication-covid-shingles-vaccine-research-findings/story?id=132687938)
+
+[
+
 ## Trump says US will guide ships out of Strait of Hormuz
 
 * May 3, 9:04 PM
+
+](https://abcnews.com/International/live-updates/iran-live-updates-rubio-dismisses-iran-peace-proposal/?id=132444768)
 
 This year's race started Monday before dawn, and the overall winner, Rachel Entrekin, finished Wednesday afternoon to a roaring crowd in Flagstaff while setting a course record.
 
@@ -28,23 +40,39 @@ Organizers say they're moving to a lottery registration system next year because
 
 Aid stations provide opportunities to eat, hydrate and adjust equipment, with a team of medical professional stationed across the course, Snyder said. Racers often nap on the ground along the way in a race that can last five days.
 
-In 2021, freezing rain and high winds were linked to the deaths of 21 runners at an ultramarathon through mountains in northwestern China.
+In 2021, freezing rain and high winds were linked to the [deaths of 21 runners](https://apnews.com/article/sports-asia-china-weather-sports-726b557bb4210b6f39ffe3f62d4957c9) at an ultramarathon through mountains in northwestern China.
+
+[
 
 ## Iran live updates: Trump says no deadline for Iran to make a deal
 
 * May 6, 6:03 PM
 
+](https://abcnews.com/International/live-updates/iran-live-updates-ukmto-reports-attacks-2-ships/?id=132626582)
+
+[
+
 ## Trump says US will guide ships out of Strait of Hormuz
 
 * May 3, 9:04 PM
+
+](https://abcnews.com/International/live-updates/iran-live-updates-rubio-dismisses-iran-peace-proposal/?id=132444768)
+
+[
 
 ## FDA withdraws publication of COVID, shingles vaccine research findings
 
 * May 5, 6:52 PM
 
+](https://abcnews.com/Health/fda-blocked-publication-covid-shingles-vaccine-research-findings/story?id=132687938)
+
+[
+
 ## Driver filmed speeding toward kid on bike before arrest
 
 * May 5, 3:29 PM
+
+](https://abcnews.com/US/driver-arrested-after-hit-kid-bike-police/story?id=132678195)
 
 ### ABC News Live
 

@@ -1,4 +1,4 @@
-Today was my unofficial return to cubicle-land and it was great! No really! Little did I know all I had to do was fall down a flight of stairs to be overjoyed with the normalcy of showing up to work on a Monday morning. I kid, of course, they’re really very nice to me even when I don’t show up bruised, achy and slinged, regaling them with the now-familiar saga of my drunken bar scrap. But, it was an especially delightfully un-manic Monday as the sharp pain in my right rib cage has finally subsided leaving me with a shoulder that really doesn’t hurt much at all, and also, I’ve gotten this two-hand typing thing mastered so let’s celebrate! Let us eat some cake.
+Today was my unofficial return to cubicle-land and it was great! No really! Little did I know all I had to do was fall down a flight of stairs to be overjoyed with the normalcy of showing up to work on a Monday morning. I kid, of course, they’re really very nice to me even when I don’t show up bruised, achy and slinged, regaling them with the now-familiar saga of [my drunken bar scrap](http://smittenkitchen.com/2006/11/excuses-excuses). But, it was an especially delightfully un-manic Monday as the sharp pain in my right rib cage has finally subsided leaving me with a shoulder that really doesn’t hurt much at all, and also, I’ve gotten this two-hand typing thing mastered so let’s celebrate! Let us eat some cake.
 
 Of course, there’s not a whole lot to say about my family’s sour cream cinnamon chocolate chip coffee cake except that a) It’s absolutely perfect in every possible way — soft, plushy bites of uber-moist goodness broken up by cinnamon-sugar crusted chocolate chips. b) Be careful biting into it as it might make you feel unintentionally wronged by every coffee cake that has crossed your palate before it. c) He hasn’t said it in so many words (except, notably, “If your mom isn’t making that coffee cake I’m not coming over for Yom Kippur.”) but I think it may be the real reason Alex married me.
 
@@ -11,7 +11,7 @@ And d) I’m not even offended.
 * **Servings:** 24
 * **Time:** 1 hour
 * **Source:** A family recipe
-* Print
+* [Print](#)
 
 There’s no coffee in this cake — by “coffee cake,” we mean something you’d serve with afternoon coffee — just lots and lots of sour cream. Yes I’ve made it with plain yogurt instead. I’ve even made it with low-fat yogurt. But mostly I make it as my grandmother and her sisters did, and am glad I did. Every time I make this, I’m convinced there’s too much cinnamon-sugar and chocolate chips on each layer and each time it comes out of the oven and we try it, I am so glad I didn’t touch the amounts. It’s perfect.
 

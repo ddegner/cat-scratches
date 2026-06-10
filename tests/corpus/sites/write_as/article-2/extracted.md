@@ -4,8 +4,8 @@ We're connected to (literally) an entire world of people on the internet, an ent
 
 That's what we believe, and that's why creating multiple blogs on Write.as is so easy. Each blog is a **lightweight identity**, independent and never linked to the others. You can also move posts freely between blogs, or turn them into anonymous articles. And as we add more community features, you'll be able to fully interact as each one of your blog identities.
 
-So to make this even more useful, today we're bumping up the blog limit for Pro users to **10 blogs**, with more to come as we hear about people hitting that limit (let us know how many you need if you do). Enjoy!
+So to make this even more useful, today we're bumping up the blog limit for [Pro](/pricing) users to **10 blogs**, with more to come as we hear about people hitting that limit ([let us know](/contact) how many you need if you do). Enjoy!
 
-**Update March 1, 2019**: the limit for Pro users is now **3 blogs**. Need more? Get additional blogs here.
+**Update March 1, 2019**: the limit for Pro users is now **3 blogs**. Need more? Get [additional blogs here](https://write.as/extend/extra-blog).
 
-**Update August 1, 2016**: Don't need 10 blogs? We've launched a smaller plan, too.
+**Update August 1, 2016**: Don't need 10 blogs? We've launched a [smaller plan](/blog/better-pricing-for-casual-users), too.

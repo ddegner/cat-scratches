@@ -1,3 +1,5 @@
+## Objectives
+
 This tutorial provides a walkthrough of the basics of the Kubernetes cluster orchestration system. Each module contains some background information on major Kubernetes features and concepts, and a tutorial for you to follow along.
 
 Using the tutorials, you can learn to:
@@ -13,27 +15,51 @@ With modern web services, users expect applications to be available 24/7, and de
 
 ## Kubernetes Basics Modules
 
+[
+
 ##### 1\. Create a Kubernetes cluster
+
+](/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/)
+
+[
 
 ##### 2\. Deploy an app
 
+](/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/)
+
+[
+
 ##### 3\. Explore your app
+
+](/docs/tutorials/kubernetes-basics/explore/explore-intro/)
+
+[
 
 ##### 4\. Expose your app publicly
 
+](/docs/tutorials/kubernetes-basics/expose/expose-intro/)
+
+[
+
 ##### 5\. Scale up your app
+
+](/docs/tutorials/kubernetes-basics/scale/scale-intro/)
+
+[
 
 ##### 6\. Update your app
 
+](/docs/tutorials/kubernetes-basics/update/update-intro/)
+
 ## What's next
 
-* See the Learning environment page to learn more about practice clusters and how you can run your own one.
-* Tutorial Using Minikube to Create a Cluster
+* See the [Learning environment](/docs/setup/learning-environment/) page to learn more about practice clusters and how you can run your own one.
+* Tutorial [Using Minikube to Create a Cluster](/docs/tutorials/kubernetes-basics/create-cluster/)
 
 ## Feedback
 
 Was this page helpful?
 
-Thanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on Stack Overflow. Open an issue in the GitHub Repository if you want to report a problem or suggest an improvement.
+Thanks for the feedback. If you have a specific, answerable question about how to use Kubernetes, ask it on [Stack Overflow](https://stackoverflow.com/questions/tagged/kubernetes). Open an issue in the [GitHub Repository](https://www.github.com/kubernetes/website/) if you want to [report a problem](https://github.com/kubernetes/website/issues/new?title=Issue%20with%20k8s.io) or [suggest an improvement](https://github.com/kubernetes/website/issues/new?title=Improvement%20for%20k8s.io).
 
-Last modified January 14, 2026 at 10:36 AM PST: Update links and descriptions for Learning environment setup (c677a535bd)
+Last modified January 14, 2026 at 10:36 AM PST: [Update links and descriptions for Learning environment setup (c677a535bd)](https://github.com/kubernetes/website/commit/c677a535bd366912dbfcf00f01207da3f77ca167)
