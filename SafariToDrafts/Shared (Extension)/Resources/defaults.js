@@ -23,7 +23,7 @@
 
   const TEMPLATE_TOKENS = {
     base: ['title', 'url', 'content', 'timestamp', 'tag'],
-    extraTime: ['date', 'time', 'datesort', 'timesort', 'year4', 'month0', 'day0', 'hour24', 'minute', 'dow3', 'gmtoffset']
+    extraTime: ['date', 'time', 'datesort', 'timesort', 'year4', 'year2', 'month0', 'month', 'monthname', 'day0', 'day', 'hour24', 'minute', 'dow3', 'gmtoffset']
   };
   TEMPLATE_TOKENS.all = [...TEMPLATE_TOKENS.base, ...TEMPLATE_TOKENS.extraTime];
 
@@ -911,8 +911,12 @@
     const timestampISO = now.toISOString();
     const defaultTag = outputFormat.defaultTag || '';
     const year4 = String(now.getFullYear());
+    const year2 = year4.slice(-2);
     const month0 = String(now.getMonth() + 1).padStart(2, '0');
+    const month = String(now.getMonth() + 1);
+    const monthname = now.toLocaleDateString('en-US', { month: 'long' });
     const day0 = String(now.getDate()).padStart(2, '0');
+    const day = String(now.getDate());
     const hour24 = String(now.getHours()).padStart(2, '0');
     const minute = String(now.getMinutes()).padStart(2, '0');
     const second = String(now.getSeconds()).padStart(2, '0');
@@ -928,8 +932,12 @@
       datesort: `${year4}${month0}${day0}`,
       timesort: `${hour24}${minute}${second}`,
       year4,
+      year2,
       month0,
+      month,
+      monthname,
       day0,
+      day,
       hour24,
       minute,
       dow3,

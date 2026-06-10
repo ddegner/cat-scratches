@@ -6,6 +6,7 @@ All notable changes to Cat Scratches will be documented in this file.
 
 ### Added
 - Added an Include links setting for captured body text after a Claude Fable 5 pass fixed several extraction bugs, including one that was stripping URL links; the setting defaults off so link text is kept without Markdown URLs while the template source URL remains available.
+- Added `{month}`, `{day}`, `{monthname}`, and `{year2}` template placeholders for more date-format options.
 
 ### Changed
 - Improved Reddit thread capture so the post body and real comments are kept while navigation, sorting controls, signup prompts, and footer chrome are removed.

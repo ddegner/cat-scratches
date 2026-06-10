@@ -16,8 +16,37 @@ const TURNDOWN_SRC = readFileSync(join(EXT, "turndown.js"), "utf8");
 const DEFAULTS_SRC = readFileSync(join(EXT, "defaults.js"), "utf8");
 const EXTRACTOR_SRC = readFileSync(join(EXT, "content-extractor.js"), "utf8");
 
-function createSandbox(html = "<!doctype html><title>T</title><main></main>", url = "https://example.test/") {
+function timezoneOffsetCompact(date) {
+  const offsetMinutes = -date.getTimezoneOffset();
+  const sign = offsetMinutes >= 0 ? "+" : "-";
+  const absolute = Math.abs(offsetMinutes);
+  const hours = String(Math.floor(absolute / 60)).padStart(2, "0");
+  const minutes = String(absolute % 60).padStart(2, "0");
+  return `${sign}${hours}${minutes}`;
+}
+
+function createSandbox(html = "<!doctype html><title>T</title><main></main>", url = "https://example.test/", options = {}) {
   const dom = new JSDOM(html, { url, pretendToBeVisual: true, virtualConsole: QUIET_VIRTUAL_CONSOLE });
+  const fixedNow = options.fixedNow;
+  const SandboxDate = fixedNow
+    ? class FixedDate extends Date {
+        constructor(...args) {
+          super(...(args.length ? args : [fixedNow.getTime()]));
+        }
+
+        static now() {
+          return fixedNow.getTime();
+        }
+
+        static parse(value) {
+          return Date.parse(value);
+        }
+
+        static UTC(...args) {
+          return Date.UTC(...args);
+        }
+      }
+    : Date;
   const sandbox = {
     window: dom.window,
     document: dom.window.document,
@@ -25,6 +54,7 @@ function createSandbox(html = "<!doctype html><title>T</title><main></main>", ur
     self: {},
     navigator: dom.window.navigator,
     location: dom.window.location,
+    Date: SandboxDate,
   };
   sandbox.globalThis = sandbox;
   vm.createContext(sandbox);
@@ -152,6 +182,85 @@ const filler = " filler text".repeat(40);
     migrated.contentExtraction.customSelectors.includes(defaults.contentExtraction.customSelectors[0]),
     "defaults are still refreshed during selector migration",
   );
+  dom.window.close();
+}
+
+{
+  const fixedNow = new Date(2026, 2, 4, 15, 6, 7);
+  const { dom, sandbox } = createSandbox(
+    "<!doctype html><title>T</title><main></main>",
+    "https://example.test/",
+    { fixedNow },
+  );
+  const settings = sandbox.getDefaultSettings();
+  settings.outputFormat.template = [
+    "{timestamp}",
+    "{date}",
+    "{time}",
+    "{datesort}",
+    "{timesort}",
+    "{year4}",
+    "{year2}",
+    "{month0}",
+    "{month}",
+    "{monthname}",
+    "{day0}",
+    "{day}",
+    "{hour24}",
+    "{minute}",
+    "{dow3}",
+    "{gmtoffset}",
+    "{unknown}",
+  ].join("|");
+
+  const formatted = sandbox.formatDraftContent("", "", "", settings);
+  assert.equal(
+    formatted,
+    [
+      fixedNow.toISOString(),
+      "2026-03-04",
+      "15:06:07",
+      "20260304",
+      "150607",
+      "2026",
+      "26",
+      "03",
+      "3",
+      "March",
+      "04",
+      "4",
+      "15",
+      "06",
+      "Wed",
+      timezoneOffsetCompact(fixedNow),
+      "{unknown}",
+    ].join("|"),
+    "date and time template tokens render expected fixed values",
+  );
+
+  for (const placeholder of [
+    "{date}",
+    "{time}",
+    "{datesort}",
+    "{timesort}",
+    "{year4}",
+    "{year2}",
+    "{month0}",
+    "{month}",
+    "{monthname}",
+    "{day0}",
+    "{day}",
+    "{hour24}",
+    "{minute}",
+    "{dow3}",
+    "{gmtoffset}",
+  ]) {
+    assert.ok(
+      sandbox.TEMPLATE_PLACEHOLDER_TAGS.extraTime.includes(placeholder),
+      `settings placeholder list exposes ${placeholder}`,
+    );
+  }
+
   dom.window.close();
 }
 
