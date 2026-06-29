@@ -4,37 +4,32 @@
 `Katzenkratzer`
 
 ## Subtitle (<= 30 chars)
-`Safari-Seiten an Drafts senden`
+`Safari-Text clippen`
 
 ## Promotional Text (<= 170 chars)
-`Artikeltexte aus Safari erfassen und direkt an Drafts oder das Teilen-Menü senden. Vorlagen, Tags und Extraktionsregeln in den Einstellungen der Erweiterung konfigurieren.`
+`Sauberen Websitetext aus Safari an Drafts, Notizen oder eine andere App senden. Artikeltext automatisch erfassen oder eine Auswahl clippen.`
 
 ## Description
-`Katzenkratzer bringt Webinhalte aus Safari in deinen Schreibworkflow.
+`Cat Scratches ist eine Safari-Erweiterung zum Senden von sauberem Websitetext an Drafts. Über das Teilen-Menü kannst du Text auch an Notizen, Mail, Nachrichten und andere Apps senden. Erfasse automatisch den Haupttext eines Artikels oder markiere Text, um eine Passage zu clippen.
 
 Funktionen:
-• Markierten Text oder ganze Seiten erfassen
-• Inhalte direkt an Drafts senden
-• Teilen-Menü als Alternative, wenn Drafts nicht verfügbar ist
-• Vorlagen, Tags, CSS-Selektoren und Filter anpassen
-• Einstellungen über iCloud auf allen Geräten synchronisieren
+• Seitentitel, Quell-URL und Text an Drafts senden
+• Clips über das Teilen-Menü in Notizen oder anderen Apps speichern
+• Inhalte als lesbares Markdown ausgeben
+• Vorlagen, Tags und Bereinigungsoptionen anpassen
 
 So funktioniert es:
-1. Aktiviere die Katzenkratzer-Erweiterung in Safari
-2. Öffne eine beliebige Webseite
-3. Starte Katzenkratzer über die Symbolleiste oder einen Tastaturkurzbefehl
-4. Schreibe in Drafts oder einer anderen App über das Teilen-Menü weiter
+1. Aktiviere die Cat-Scratches-Erweiterung in Safari
+2. Öffne eine Webseite in Safari
+3. Starte Cat Scratches
+4. Prüfe oder bearbeite den Clip in Drafts, Notizen oder einer anderen App
 
-Katzenkratzer ist für Autoren, Forscher und alle gedacht, die einen schnellen und sauberen Web-Clipping-Workflow wollen.
-
-Diese Erweiterung greift nur auf die aktuelle Webseite zu, wenn du sie auslöst. Kein Browserverlauf wird verfolgt, keine Daten werden gesammelt.`
+Cat Scratches liest eine Seite nur, wenn du die Erweiterung startest. Es verfolgt keinen Browserverlauf und sammelt keine Daten. Der Quellcode ist verfügbar unter https://github.com/ddegner/cat-scratches.`
 
 ## Keywords (<= 100 chars)
 `drafts,safari,erweiterung,web clipper,markdown,notizen,schreiben,recherche,produktivität,teilen`
 
 ## What's New
-`Dieses Update fügt deutsche Sprachunterstützung hinzu.
+`Klarere Beschreibung der Drafts- und Teilen-Menü-Unterstützung.
 
-- App- und Erweiterungsoberfläche vollständig lokalisiert
-- Erweiterungseinstellungen auf Deutsch verfügbar
-- Fehler- und Statusmeldungen übersetzt`
+Cat Scratches kann den Haupttext eines Artikels erfassen oder ausgewählten Text clippen und das Ergebnis an Drafts, Notizen, Mail, Nachrichten oder eine andere App senden.`

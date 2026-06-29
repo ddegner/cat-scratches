@@ -2,6 +2,12 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.3.2] - 2026-06-29
+
+### Changed
+- Refreshed App Store metadata so the listing explains article extraction, selected-text clipping, Drafts handoff, and Share Sheet support in plainer language.
+- Updated public release wording to mention Notes, Mail, Messages, and other Share Sheet destinations without changing the existing capture behavior.
+
 ## [2.3.1] - 2026-06-10
 
 ### Added

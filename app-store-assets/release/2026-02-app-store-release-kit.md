@@ -50,41 +50,35 @@
 `Cat Scratches`
 
 ### Subtitle (<= 30)
-`Clip Safari pages to Drafts`
+`Clip Safari text to Drafts`
 
 ### Promotional Text (<= 170)
-`Capture article text from Safari and send it to Drafts or the Share Sheet in one tap. Configure templates, tags, and extraction rules in extension settings.`
+`Send clean website text from Safari to Drafts, Notes, or another app. Extract the main article body, or select text to clip a passage.`
 
 ### Description
-`Cat Scratches helps you move web content from Safari into your writing workflow.
+`Cat Scratches is a Safari extension for sending clean website text to Drafts. It can also use the Share Sheet for Notes, Mail, Messages, and other apps. Automatically extract the main article body, or select text to clip a passage.
 
 Use it to:
-• Capture selected text or full pages
-• Send content directly to Drafts
-• Fall back to Share Sheet when Drafts isn’t available
-• Customize templates, tags, selectors, and filters
-• Keep extension settings synced across devices with iCloud
+• Send the page title, source URL, and text to Drafts
+• Save captures to Notes or other apps through the Share Sheet
+• Convert captures to readable Markdown
+• Choose templates, tags, and cleanup settings
 
 How it works:
 1. Enable the Cat Scratches Safari extension
-2. Open any page in Safari
-3. Run Cat Scratches from the menu bar or keyboard shortcut
-4. Continue writing in Drafts or another app via Share Sheet
+2. Open a webpage in Safari
+3. Run Cat Scratches
+4. Review or edit the capture in Drafts, Notes, or another app
 
-Cat Scratches is built for writers, researchers, and anyone who wants a fast, clean web clipping workflow.
-
-This extension only accesses the current webpage when you explicitly trigger it. It does not track browsing history or collect any data. Source code is available at https://github.com/ddegner/cat-scratches.`
+Cat Scratches only reads a page when you run the extension. It does not track browsing history or collect data. Source code is available at https://github.com/ddegner/cat-scratches.`
 
 ### Keywords (<= 100 chars)
 `drafts,safari extension,web clipper,markdown,notes,writer,research,productivity,share sheet`
 
-### What’s New (iOS 1.0)
-`First iOS release.
+### What’s New (iOS 2.3.2)
+`Clearer description of Drafts and Share Sheet support.
 
-- Added iPhone and iPad companion app for setup and status checks
-- Added direct path to Safari extension settings
-- Added customizable capture templates, tags, selectors, and filters
-- Added Share Sheet fallback when Drafts is unavailable`
+Cat Scratches can extract the main article body or clip selected text, then send the result to Drafts, Notes, Mail, Messages, or another app.`
 
 ### App Review Notes (iOS)
 `No account or sign-in required.
@@ -110,27 +104,29 @@ Expected behavior:
 ## macOS (update)
 
 ### Promotional Text
-`Cat Scratches for Safari now has a cleaner settings flow, stronger settings persistence, and improved handling for large captures sent to Drafts.`
+`Send clean website text from Safari to Drafts, Notes, or another app. Extract the main article body, or select text to clip a passage.`
 
 ### What’s New (macOS)
-`This update improves reliability and simplifies setup.
+`Clearer description of Drafts and Share Sheet support.
 
-- Streamlined settings and help flow in the app
-- Unified extension settings storage with iCloud + local fallback
-- Simplified extension settings with Basic/Advanced views and explicit save state
-- Improved migration for older saved settings and template formats
-- Lower requested extension permissions by removing host permissions`
+Cat Scratches can extract the main article body or clip selected text, then send the result to Drafts, Notes, Mail, Messages, or another app.`
 
 ### Description (if you want to refresh macOS listing)
-`Cat Scratches is a Safari companion that clips web content into Drafts in seconds.
+`Cat Scratches is a Safari extension for sending clean website text to Drafts. It can also use the Share Sheet for Notes, Mail, Messages, and other apps. Automatically extract the main article body, or select text to clip a passage.
 
-- Capture selected text or full pages
-- Keep formatting predictable with templates and tags
-- Fine-tune extraction with selectors and filters
-- Sync extension settings through iCloud
-- Fall back to Share Sheet when Drafts is unavailable
+Use it to:
+• Send the page title, source URL, and text to Drafts
+• Save captures to Notes or other apps through the Share Sheet
+• Convert captures to readable Markdown
+• Choose templates, tags, and cleanup settings
 
-This extension only accesses the current webpage when you explicitly trigger it. It does not track browsing history or collect any data. Source code is available at https://github.com/ddegner/cat-scratches.`
+How it works:
+1. Enable the Cat Scratches Safari extension
+2. Open a webpage in Safari
+3. Run Cat Scratches
+4. Review or edit the capture in Drafts, Notes, or another app
+
+Cat Scratches only reads a page when you run the extension. It does not track browsing history or collect data. Source code is available at https://github.com/ddegner/cat-scratches.`
 
 ### App Review Notes (macOS)
 `No account required.

@@ -1,7 +1,10 @@
 # Cat Scratches
 
 Cat Scratches is a Safari extension for sending clean website text to
-[Drafts](https://getdrafts.com). Automtically extract the main article body, or select text to clip a passage.
+[Drafts](https://getdrafts.com). Automatically extract the main article body, or
+select text to clip a passage. Captures open in Drafts with the page title and
+source URL attached, or use the Share Sheet to send them to Notes, Mail,
+Messages, and other apps.
 
 **Author:** David Degner  
 **Website:** [daviddegner.com](https://www.daviddegner.com)  
@@ -10,17 +13,16 @@ Cat Scratches is a Safari extension for sending clean website text to
 
 ## Current Release
 
-Version 2.3.0 improves full-page article capture. The default selectors, filters,
-and text cleanup rules were tuned against a broader story corpus so Drafts output
-keeps more of the real article body and less page chrome.
+Version 2.3.2 refreshes the App Store text so the listing explains the app in
+plain language. Cat Scratches sends clean Safari text to Drafts, or uses the
+Share Sheet for Notes, Mail, Messages, and other apps.
 
 Highlights:
 
-- Better removal of ads, video controls, newsletter prompts, related links,
-  sidebars, and other non-story blocks
-- Cleaner Markdown with fewer repeated sections and less navigation noise
-- Stronger fallback extraction for pages that do not expose a simple article root
-- Regression checks for article extraction and text cleanup behavior
+- Clearer App Store description and release notes
+- Plain-language wording for automatic article extraction and selected-text clips
+- Share Sheet wording that mentions Notes, Mail, Messages, and other apps
+- Version bump for a metadata-only App Store submission
 
 ## Features
 

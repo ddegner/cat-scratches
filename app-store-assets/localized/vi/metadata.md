@@ -4,37 +4,32 @@
 `Vết Mèo Cào`
 
 ## Subtitle (<= 30 chars)
-`Cắt trang Safari vào Drafts`
+`Cắt văn bản Safari`
 
 ## Promotional Text (<= 170 chars)
-`Trích xuất nội dung bài viết từ Safari và gửi thẳng đến Drafts hoặc Chia sẻ chỉ với một thao tác. Tuỳ chỉnh mẫu, thẻ và bộ lọc trích xuất trong cài đặt tiện ích.`
+`Gửi văn bản sạch từ Safari đến Drafts, Ghi chú hoặc ứng dụng khác. Tự lấy nội dung chính của bài viết hoặc chọn một đoạn để cắt.`
 
 ## Description
-`Vết Mèo Cào giúp bạn chuyển nội dung web từ Safari vào quy trình viết lách nhanh chóng.
+`Cat Scratches là tiện ích Safari để gửi văn bản web sạch đến Drafts. Bạn cũng có thể dùng Bảng chia sẻ để gửi đến Ghi chú, Mail, Tin nhắn và các ứng dụng khác. Tự trích xuất nội dung chính của bài viết hoặc chọn văn bản để cắt một đoạn.
 
-Tính năng:
-• Trích xuất văn bản đã chọn hoặc toàn bộ trang
-• Gửi nội dung trực tiếp đến Drafts
-• Sử dụng Chia sẻ khi Drafts không khả dụng
-• Tuỳ chỉnh mẫu, thẻ, bộ chọn CSS và bộ lọc
-• Đồng bộ cài đặt tiện ích qua iCloud
+Dùng để:
+• Gửi tiêu đề trang, URL nguồn và văn bản đến Drafts
+• Lưu nội dung vào Ghi chú hoặc ứng dụng khác qua Bảng chia sẻ
+• Chuyển nội dung thành Markdown dễ đọc
+• Chọn mẫu, thẻ và cài đặt dọn dẹp
 
 Cách sử dụng:
-1. Bật tiện ích Vết Mèo Cào trong Safari
-2. Mở bất kỳ trang web nào
-3. Kích hoạt Vết Mèo Cào từ thanh công cụ hoặc phím tắt
-4. Tiếp tục viết trong Drafts hoặc ứng dụng khác qua Chia sẻ
+1. Bật tiện ích Cat Scratches trong Safari
+2. Mở một trang web trong Safari
+3. Chạy Cat Scratches
+4. Xem lại hoặc chỉnh sửa nội dung trong Drafts, Ghi chú hoặc ứng dụng khác
 
-Vết Mèo Cào được xây dựng cho người viết, nghiên cứu sinh và bất kỳ ai muốn quy trình cắt nội dung web nhanh gọn.
-
-Tiện ích này chỉ truy cập trang web hiện tại khi bạn kích hoạt. Không theo dõi lịch sử duyệt web hay thu thập dữ liệu.`
+Cat Scratches chỉ đọc trang khi bạn chạy tiện ích. Ứng dụng không theo dõi lịch sử duyệt web và không thu thập dữ liệu. Mã nguồn có tại https://github.com/ddegner/cat-scratches.`
 
 ## Keywords (<= 100 chars)
 `drafts,safari,tiện ích,cắt web,markdown,ghi chú,nghiên cứu,năng suất,chia sẻ,trích xuất`
 
 ## What's New
-`Bản cập nhật này thêm hỗ trợ tiếng Việt.
+`Mô tả rõ hơn về hỗ trợ Drafts và Bảng chia sẻ.
 
-- Giao diện ứng dụng và tiện ích đã được bản địa hoá
-- Cài đặt tiện ích hiển thị bằng tiếng Việt
-- Thông báo lỗi và trạng thái được dịch đầy đủ`
+Cat Scratches có thể lấy nội dung chính của bài viết hoặc cắt văn bản đã chọn, rồi gửi đến Drafts, Ghi chú, Mail, Tin nhắn hoặc ứng dụng khác.`

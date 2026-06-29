@@ -4,37 +4,32 @@
 `Kattenkrabben`
 
 ## Subtitle (<= 30 chars)
-`Knip Safari-pagina's naar Drafts`
+`Safari-tekst knippen`
 
 ## Promotional Text (<= 170 chars)
-`Leg artikeltekst vast uit Safari en stuur het direct naar Drafts of het deelmenu. Pas sjablonen, tags en extractieregels aan in de instellingen van de extensie.`
+`Stuur schone Safari-tekst naar Drafts, Notities of een andere app. Haal de hoofdtekst van een artikel op of knip geselecteerde tekst.`
 
 ## Description
-`Kattenkrabben helpt je webinhoud snel van Safari naar je schrijfworkflow te verplaatsen.
+`Cat Scratches is een Safari-extensie om schone webtekst naar Drafts te sturen. Via het deelmenu kun je tekst ook naar Notities, Mail, Berichten en andere apps sturen. Haal automatisch de hoofdtekst van een artikel op of selecteer tekst om een passage te knippen.
 
-Functies:
-• Geselecteerde tekst of volledige pagina's vastleggen
-• Inhoud rechtstreeks naar Drafts sturen
-• Deelmenu gebruiken wanneer Drafts niet beschikbaar is
-• Sjablonen, tags, CSS-selectors en filters aanpassen
-• Instellingen synchroniseren via iCloud
+Gebruik het om:
+• Paginatitel, bron-URL en tekst naar Drafts te sturen
+• Clips via het deelmenu in Notities of andere apps op te slaan
+• Captures om te zetten naar leesbare Markdown
+• Sjablonen, tags en opschooninstellingen te kiezen
 
 Zo werkt het:
-1. Schakel de Kattenkrabben-extensie in Safari in
-2. Open een willekeurige webpagina
-3. Start Kattenkrabben vanuit de werkbalk of met een sneltoets
-4. Ga verder met schrijven in Drafts of een andere app via het deelmenu
+1. Schakel de Cat Scratches-extensie in Safari in
+2. Open een webpagina in Safari
+3. Start Cat Scratches
+4. Bekijk of bewerk de capture in Drafts, Notities of een andere app
 
-Kattenkrabben is gemaakt voor schrijvers, onderzoekers en iedereen die een snelle, nette workflow voor webcontent wil.
-
-Deze extensie heeft alleen toegang tot de huidige webpagina wanneer je het activeert. Er wordt geen browsegeschiedenis bijgehouden en er worden geen gegevens verzameld.`
+Cat Scratches leest een pagina alleen wanneer je de extensie start. Het volgt geen browsegeschiedenis en verzamelt geen gegevens. De broncode is beschikbaar op https://github.com/ddegner/cat-scratches.`
 
 ## Keywords (<= 100 chars)
 `drafts,safari,extensie,webclipper,markdown,notities,schrijven,onderzoek,productiviteit,delen`
 
 ## What's New
-`Deze update voegt Nederlandse taalondersteuning toe.
+`Duidelijkere beschrijving van Drafts- en deelmenu-ondersteuning.
 
-- App- en extensie-interface volledig gelokaliseerd
-- Extensie-instellingen beschikbaar in het Nederlands
-- Fout- en statusmeldingen vertaald`
+Cat Scratches kan de hoofdtekst van een artikel ophalen of geselecteerde tekst knippen en het resultaat naar Drafts, Notities, Mail, Berichten of een andere app sturen.`
