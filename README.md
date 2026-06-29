@@ -1,9 +1,7 @@
 # Cat Scratches
 
-Cat Scratches is a Safari extension for sending clean web captures to
-[Drafts](https://getdrafts.com). Select text to clip a passage, or run it with no
-selection to extract the main article body, convert it to Markdown, and open the
-result in Drafts with the source URL attached.
+Cat Scratches is a Safari extension for sending clean website text to
+[Drafts](https://getdrafts.com). Automtically extract the main article body, or select text to clip a passage.
 
 **Author:** David Degner  
 **Website:** [daviddegner.com](https://www.daviddegner.com)  
