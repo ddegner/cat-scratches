@@ -2,6 +2,16 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.4.0] - 2026-07-01
+
+### Added
+- Added a direct Ulysses destination that creates a new Markdown sheet via Ulysses' x-callback URL scheme.
+- When Ulysses is selected, the Default Tag field is sent as the target Ulysses group; comma-separated tags become a group path.
+- Refreshed App Store screenshots for the iOS and macOS listings.
+
+### Fixed
+- Surfaced Share Sheet failures to the user instead of only logging Web Share API errors to the page console.
+
 ## [2.3.2] - 2026-06-29
 
 ### Changed

@@ -755,7 +755,7 @@
 
   const DEFAULT_SETTINGS = {
     defaultsRevision: DEFAULTS_REVISION,
-    saveDestination: 'drafts', // 'drafts' or 'share' - set dynamically on install based on Drafts availability
+    saveDestination: 'drafts', // 'drafts', 'ulysses', or 'share' - set dynamically on install based on Drafts availability
     contentExtraction: {
       strategy: 'default',
       customSelectors: unique(BASE_SELECTORS)
@@ -889,7 +889,7 @@
     if (settings.saveDestination === 'notes') {
       settings.saveDestination = 'share';
     }
-    if (!['drafts', 'share'].includes(settings.saveDestination)) {
+    if (!['drafts', 'ulysses', 'share'].includes(settings.saveDestination)) {
       settings.saveDestination = defaults.saveDestination;
     }
 

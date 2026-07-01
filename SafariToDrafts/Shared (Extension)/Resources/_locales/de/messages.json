@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "Teilen-Menü"
+    },
+    "hint_ulysses_group": {
+        "message": "Wenn Ulysses ausgewählt ist, wird der Standard-Tag als Ulysses-Gruppe gesendet. Kommagetrennte Tags werden zu einem Gruppenpfad."
     },
     "section_format": {
         "message": "Entwürfe formatieren"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "Systemfreigabe wird in diesem Browser-Kontext nicht unterstützt."
+    },
+    "error_share_failed": {
+        "message": "Safari konnte das Teilen-Menü aus diesem Erweiterungskontext nicht öffnen. Wählen Sie stattdessen Drafts oder Ulysses."
     },
     "version_label": {
         "message": "Version $VERSION$",

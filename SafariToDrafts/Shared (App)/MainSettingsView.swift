@@ -189,7 +189,7 @@ struct MainSettingsView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Drafts is not installed")
                     .font(.headline)
-                Text("The extension will use the Share Sheet because Drafts is not detected.")
+                Text("You can choose Ulysses or Share Sheet in the extension settings.")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }

@@ -682,10 +682,18 @@
                         <label for="destDrafts">
                             <span data-i18n="dest_drafts">Drafts</span>
                         </label>
+                        <input type="radio" name="saveDestination" value="ulysses" id="destUlysses">
+                        <label for="destUlysses">
+                            <span data-i18n="dest_ulysses">Ulysses</span>
+                        </label>
                         <input type="radio" name="saveDestination" value="share" id="destShare">
                         <label for="destShare">
                             <span data-i18n="dest_share_sheet">Share Sheet</span>
                         </label>
+                    </div>
+                    <div id="ulyssesDestinationHint" class="status-message info"
+                        style="display: none; margin-top: 16px;" data-i18n="hint_ulysses_group">
+                        When Ulysses is selected, Default Tag is sent as the Ulysses group. Comma-separated tags become a group path.
                     </div>
 
                 </div>

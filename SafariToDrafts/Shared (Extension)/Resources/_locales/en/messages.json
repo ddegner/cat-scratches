@@ -35,9 +35,17 @@
         "message": "Drafts",
         "description": "Label for Drafts destination option."
     },
+    "dest_ulysses": {
+        "message": "Ulysses",
+        "description": "Label for Ulysses destination option."
+    },
     "dest_share_sheet": {
         "message": "Share Sheet",
         "description": "Label for Share Sheet destination option."
+    },
+    "hint_ulysses_group": {
+        "message": "When Ulysses is selected, Default Tag is sent as the Ulysses group. Comma-separated tags become a group path.",
+        "description": "Hint shown when Ulysses is selected as the destination."
     },
     "section_format": {
         "message": "How to format drafts",
@@ -262,6 +270,10 @@
     "error_share_not_supported": {
         "message": "System sharing is not supported in this browser context.",
         "description": "Error when Web Share API is not available."
+    },
+    "error_share_failed": {
+        "message": "Safari could not open the system Share Sheet from this extension context. Try Drafts or Ulysses instead.",
+        "description": "Error when Safari rejects the Web Share API request."
     },
     "version_label": {
         "message": "Version $VERSION$",

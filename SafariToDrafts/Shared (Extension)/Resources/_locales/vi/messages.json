@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "Bảng chia sẻ"
+    },
+    "hint_ulysses_group": {
+        "message": "Khi chọn Ulysses, Thẻ mặc định được gửi dưới dạng nhóm Ulysses. Các thẻ phân tách bằng dấu phẩy sẽ trở thành đường dẫn nhóm."
     },
     "section_format": {
         "message": "Cách định dạng bản nháp"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "Chia sẻ hệ thống không được hỗ trợ trong ngữ cảnh trình duyệt này."
+    },
+    "error_share_failed": {
+        "message": "Safari không thể mở Bảng chia sẻ hệ thống từ ngữ cảnh tiện ích này. Hãy dùng Drafts hoặc Ulysses thay thế."
     },
     "version_label": {
         "message": "Phiên bản $VERSION$",

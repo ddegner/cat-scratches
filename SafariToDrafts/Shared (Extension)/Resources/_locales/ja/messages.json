@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "共有シート"
+    },
+    "hint_ulysses_group": {
+        "message": "Ulyssesを選択すると、デフォルトタグはUlyssesのグループとして送信されます。カンマ区切りのタグはグループパスになります。"
     },
     "section_format": {
         "message": "下書きのフォーマット"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "このブラウザ環境ではシステム共有機能がサポートされていません。"
+    },
+    "error_share_failed": {
+        "message": "Safariはこの拡張機能のコンテキストからシステム共有シートを開けませんでした。代わりにDraftsまたはUlyssesを使用してください。"
     },
     "version_label": {
         "message": "バージョン $VERSION$",

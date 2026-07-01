@@ -13,16 +13,16 @@ Messages, and other apps.
 
 ## Current Release
 
-Version 2.3.2 refreshes the App Store text so the listing explains the app in
-plain language. Cat Scratches sends clean Safari text to Drafts, or uses the
-Share Sheet for Notes, Mail, Messages, and other apps.
+Version 2.4.0 adds a direct Ulysses destination while keeping the existing
+Drafts and Share Sheet capture flow. Cat Scratches sends clean Safari text to
+Drafts, Ulysses, Notes, Mail, Messages, and other apps.
 
 Highlights:
 
-- Clearer App Store description and release notes
-- Plain-language wording for automatic article extraction and selected-text clips
-- Share Sheet wording that mentions Notes, Mail, Messages, and other apps
-- Version bump for a metadata-only App Store submission
+- Direct Ulysses handoff for creating Markdown sheets
+- Share Sheet errors are surfaced when a destination cannot open
+- Refreshed App Store screenshots for macOS and iOS
+- Same automatic article extraction and selected-text clipping flow
 
 ## Features
 

@@ -13,8 +13,9 @@ import AppKit
 
 // MARK: - Constants (mirrors Constants.swift in main app)
 // These are duplicated because extension targets don't share code with app targets
-private enum DraftsConstants {
-    static let urlScheme = "drafts://"
+private enum AppURLSchemeConstants {
+    static let draftsURLScheme = "drafts://"
+    static let supportedURLSchemes: Set<String> = ["drafts", "ulysses"]
     static let macBundleID = "com.agiletortoise.Drafts-OSX"
 }
 
@@ -76,10 +77,10 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
             os_log(.info, "iOS extension cannot check Drafts installation - returning nil")
             #else
             // macOS: Check using NSWorkspace
-            if let url = URL(string: DraftsConstants.urlScheme),
+            if let url = URL(string: AppURLSchemeConstants.draftsURLScheme),
                NSWorkspace.shared.urlForApplication(toOpen: url) != nil {
                 isInstalled = true
-            } else if NSWorkspace.shared.urlForApplication(withBundleIdentifier: DraftsConstants.macBundleID) != nil {
+            } else if NSWorkspace.shared.urlForApplication(withBundleIdentifier: AppURLSchemeConstants.macBundleID) != nil {
                 isInstalled = true
             } else {
                 isInstalled = false
@@ -97,7 +98,8 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         case "openURL":
             guard let urlString = messageDict["url"] as? String,
                   let url = URL(string: urlString),
-                  url.scheme?.lowercased() == "drafts" else {
+                  let scheme = url.scheme?.lowercased(),
+                  AppURLSchemeConstants.supportedURLSchemes.contains(scheme) else {
                 response["success"] = false
                 response["opened"] = false
                 response["error"] = "Invalid URL"
@@ -109,9 +111,9 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
             let opened = NSWorkspace.shared.open(url)
             response["opened"] = opened
             if opened {
-                os_log(.info, "Opened Drafts URL via native handler")
+                os_log(.info, "Opened app URL via native handler")
             } else {
-                os_log(.error, "Failed to open Drafts URL via native handler")
+                os_log(.error, "Failed to open app URL via native handler")
             }
             #else
             response["opened"] = false

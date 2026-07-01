@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "Deelmenu"
+    },
+    "hint_ulysses_group": {
+        "message": "Wanneer Ulysses is geselecteerd, wordt de standaard tag als Ulysses-groep verzonden. Door komma's gescheiden tags worden een groeppad."
     },
     "section_format": {
         "message": "Hoe concepten opmaken"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "Systeemdeelfunctie wordt niet ondersteund in deze browsercontext."
+    },
+    "error_share_failed": {
+        "message": "Safari kon het systeemdeelmenu niet openen vanuit deze extensiecontext. Gebruik in plaats daarvan Drafts of Ulysses."
     },
     "version_label": {
         "message": "Versie $VERSION$",

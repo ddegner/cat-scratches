@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "Hoja de compartir"
+    },
+    "hint_ulysses_group": {
+        "message": "Cuando se selecciona Ulysses, la etiqueta predeterminada se envía como grupo de Ulysses. Las etiquetas separadas por comas se convierten en una ruta de grupo."
     },
     "section_format": {
         "message": "Cómo dar formato a los borradores"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "La función de compartir del sistema no es compatible con este contexto del navegador."
+    },
+    "error_share_failed": {
+        "message": "Safari no pudo abrir la hoja de compartir del sistema desde este contexto de extensión. Usa Drafts o Ulysses en su lugar."
     },
     "version_label": {
         "message": "Versión $VERSION$",

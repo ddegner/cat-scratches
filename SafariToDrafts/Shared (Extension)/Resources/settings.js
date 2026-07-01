@@ -172,13 +172,22 @@ function setupEventListeners() {
 // Update UI with current settings
 function updateUI() {
     // Update destination toggle
-    const dest = currentSettings.saveDestination === 'share' ? 'share' : 'drafts';
+    const dest = ['drafts', 'ulysses', 'share'].includes(currentSettings.saveDestination)
+        ? currentSettings.saveDestination
+        : 'drafts';
     const destDrafts = document.getElementById('destDrafts');
+    const destUlysses = document.getElementById('destUlysses');
     const destShare = document.getElementById('destShare');
-    if (destDrafts && destShare) {
+    if (destDrafts) {
         destDrafts.checked = dest === 'drafts';
+    }
+    if (destUlysses) {
+        destUlysses.checked = dest === 'ulysses';
+    }
+    if (destShare) {
         destShare.checked = dest === 'share';
     }
+    updateUlyssesHintVisibility(dest);
 
     // Update content selectors textarea
     updateContentSelectorsUI();
@@ -483,7 +492,17 @@ function getPlaceholderExampleMap(placeholders) {
 function updateDestinationFromUI() {
     const selected = document.querySelector('input[name="saveDestination"]:checked');
     currentSettings.saveDestination = selected?.value || 'drafts';
+    updateUlyssesHintVisibility(currentSettings.saveDestination);
     setDirtyState(true);
+}
+
+function updateUlyssesHintVisibility(destination) {
+    const hint = document.getElementById('ulyssesDestinationHint');
+    if (!hint) {
+        return;
+    }
+
+    hint.style.display = destination === 'ulysses' ? 'block' : 'none';
 }
 
 // Check if Drafts is installed and show banner if not

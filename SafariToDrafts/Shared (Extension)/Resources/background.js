@@ -68,7 +68,7 @@ browser.runtime.onInstalled.addListener(async (details) => {
         // Only set default destination on first install (or if missing/invalid).
         // This preserves an existing user preference during extension updates.
         const isFirstInstall = details?.reason === 'install';
-        const hasValidDestination = ['drafts', 'share'].includes(extensionSettings.saveDestination);
+        const hasValidDestination = ['drafts', 'ulysses', 'share'].includes(extensionSettings.saveDestination);
 
         if (isFirstInstall || !hasValidDestination) {
             // Check if Drafts is installed and set default destination accordingly
@@ -237,10 +237,16 @@ async function createDraftFromCurrentTab() {
 async function createDraft(title, url, markdownBody) {
     const destination = extensionSettings?.saveDestination || 'drafts';
 
-    if (destination === 'share') {
-        await invokeShareSheet(title, url, markdownBody);
-    } else {
-        await sendToDrafts(title, url, markdownBody);
+    switch (destination) {
+        case 'share':
+            await invokeShareSheet(title, url, markdownBody);
+            break;
+        case 'ulysses':
+            await sendToUlysses(title, url, markdownBody);
+            break;
+        default:
+            await sendToDrafts(title, url, markdownBody);
+            break;
     }
 }
 
@@ -256,6 +262,33 @@ function getEncodedDraftTags(settings) {
     }
 
     return encodeURIComponent(tags.join(','));
+}
+
+function getUlyssesGroup(settings) {
+    const defaultTag = settings?.outputFormat?.defaultTag;
+    if (!defaultTag || !defaultTag.trim()) {
+        return '';
+    }
+
+    const group = defaultTag.trim();
+    if (group.startsWith('/')) {
+        return group;
+    }
+
+    const groupPathSegments = group
+        .split(',')
+        .map(segment => segment.trim())
+        .filter(segment => segment);
+
+    if (groupPathSegments.length === 0) {
+        return '';
+    }
+
+    if (groupPathSegments.length === 1) {
+        return groupPathSegments[0];
+    }
+
+    return `/${groupPathSegments.join('/')}`;
 }
 
 function getDraftsURLMode(settings) {
@@ -321,20 +354,20 @@ function truncateToCodePointBoundary(text, maxLength) {
     return truncated;
 }
 
-function buildMaxLengthDraftsURL(draftContent, encodedTags, maxURLLength, draftsURLMode, encodedAction) {
-    const fullURL = buildDraftsURL(draftContent, encodedTags, draftsURLMode, encodedAction);
+function buildMaxLengthURL(content, maxURLLength, buildURL) {
+    const fullURL = buildURL(content);
     if (fullURL.length <= maxURLLength) {
         return { url: fullURL, wasTruncated: false };
     }
 
     let low = 0;
-    let high = draftContent.length;
+    let high = content.length;
     let bestURL = null;
 
     while (low <= high) {
         const mid = Math.floor((low + high) / 2);
-        const candidateContent = truncateToCodePointBoundary(draftContent, mid);
-        const candidateURL = buildDraftsURL(candidateContent, encodedTags, draftsURLMode, encodedAction);
+        const candidateContent = truncateToCodePointBoundary(content, mid);
+        const candidateURL = buildURL(candidateContent);
 
         if (candidateURL.length <= maxURLLength) {
             bestURL = candidateURL;
@@ -349,6 +382,44 @@ function buildMaxLengthDraftsURL(draftContent, encodedTags, maxURLLength, drafts
     }
 
     return { url: bestURL, wasTruncated: true };
+}
+
+function buildMaxLengthDraftsURL(draftContent, encodedTags, maxURLLength, draftsURLMode, encodedAction) {
+    return buildMaxLengthURL(
+        draftContent,
+        maxURLLength,
+        (content) => buildDraftsURL(content, encodedTags, draftsURLMode, encodedAction)
+    );
+}
+
+function buildEncodedQuery(params) {
+    return params
+        .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+        .join('&');
+}
+
+function buildUlyssesNewSheetURL(sheetContent, group = '') {
+    const params = [
+        ['x-source', 'Cat Scratches'],
+        ['text', sheetContent]
+    ];
+
+    if (group) {
+        params.push(['group', group]);
+    }
+
+    params.push(['format', 'markdown']);
+
+    const query = buildEncodedQuery(params);
+    return `ulysses://x-callback-url/new-sheet?${query}`;
+}
+
+function buildMaxLengthUlyssesURL(sheetContent, maxURLLength, group) {
+    return buildMaxLengthURL(
+        sheetContent,
+        maxURLLength,
+        (content) => buildUlyssesNewSheetURL(content, group)
+    );
 }
 
 async function sendToDrafts(title, url, markdownBody) {
@@ -384,6 +455,24 @@ async function sendToDrafts(title, url, markdownBody) {
     await openURLScheme(result.url);
 }
 
+async function sendToUlysses(title, url, markdownBody) {
+    const sheetContent = formatDraftContent(title, url, markdownBody, extensionSettings);
+    const group = getUlyssesGroup(extensionSettings);
+    const MAX_URL_LENGTH = 65000;
+    const result = buildMaxLengthUlyssesURL(sheetContent, MAX_URL_LENGTH, group);
+
+    if (!result) {
+        await showContentTooLargeError('Ulysses');
+        return;
+    }
+
+    if (result.wasTruncated) {
+        console.warn('Ulysses content exceeded URL length limit and was truncated to fit.');
+    }
+
+    await openURLScheme(result.url);
+}
+
 async function executeInActiveTab(func, args = []) {
     const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
     if (!activeTab?.id) return;
@@ -400,15 +489,26 @@ async function invokeShareSheet(title, url, markdownBody) {
 
     try {
         const shareNotSupportedMsg = browser.i18n.getMessage('error_share_not_supported');
-        await executeInActiveTab((shareData, fallbackMsg) => {
-            if (navigator.share) {
-                navigator.share(shareData)
-                    .then(() => console.log('Shared successfully'))
-                    .catch((error) => console.log('Error sharing:', error));
-            } else {
+        const shareFailedMsg = browser.i18n.getMessage('error_share_failed') || shareNotSupportedMsg;
+        await executeInActiveTab(async (shareData, fallbackMsg, failedMsg) => {
+            if (!navigator.share) {
                 alert(fallbackMsg);
+                return;
             }
-        }, [{ title: title, text: shareContent }, shareNotSupportedMsg]);
+
+            try {
+                await navigator.share(shareData);
+                console.log('Shared successfully');
+            } catch (error) {
+                if (error?.name === 'AbortError') {
+                    return;
+                }
+
+                const detail = error?.message ? `\n\n${error.message}` : '';
+                alert(`${failedMsg}${detail}`);
+                throw error;
+            }
+        }, [{ title: title, text: shareContent }, shareNotSupportedMsg, shareFailedMsg]);
     } catch (error) {
         console.error("Failed to share:", error);
     }

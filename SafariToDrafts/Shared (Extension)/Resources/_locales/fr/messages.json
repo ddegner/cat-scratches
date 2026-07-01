@@ -26,8 +26,14 @@
     "dest_drafts": {
         "message": "Drafts"
     },
+    "dest_ulysses": {
+        "message": "Ulysses"
+    },
     "dest_share_sheet": {
         "message": "Feuille de partage"
+    },
+    "hint_ulysses_group": {
+        "message": "Lorsque Ulysses est sélectionné, le tag par défaut est envoyé comme groupe Ulysses. Les tags séparés par des virgules deviennent un chemin de groupe."
     },
     "section_format": {
         "message": "Comment formater les brouillons"
@@ -171,6 +177,9 @@
     },
     "error_share_not_supported": {
         "message": "Le partage système n'est pas pris en charge dans ce contexte de navigateur."
+    },
+    "error_share_failed": {
+        "message": "Safari n'a pas pu ouvrir la feuille de partage système depuis ce contexte d'extension. Utilisez plutôt Drafts ou Ulysses."
     },
     "version_label": {
         "message": "Version $VERSION$",

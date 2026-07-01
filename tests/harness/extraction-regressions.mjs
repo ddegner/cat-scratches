@@ -15,6 +15,7 @@ QUIET_VIRTUAL_CONSOLE.on("jsdomError", () => {});
 const TURNDOWN_SRC = readFileSync(join(EXT, "turndown.js"), "utf8");
 const DEFAULTS_SRC = readFileSync(join(EXT, "defaults.js"), "utf8");
 const EXTRACTOR_SRC = readFileSync(join(EXT, "content-extractor.js"), "utf8");
+const BACKGROUND_SRC = readFileSync(join(EXT, "background.js"), "utf8");
 
 function timezoneOffsetCompact(date) {
   const offsetMinutes = -date.getTimezoneOffset();
@@ -87,6 +88,39 @@ function extract(html, overrides = {}) {
   const result = sandbox.extractContentFromDoc(dom.window.document, settings, "https://example.test/");
   dom.window.close();
   return result.body;
+}
+
+function createBackgroundSandbox() {
+  const noopListener = { addListener() {} };
+  const sandbox = {
+    console,
+    globalThis: {},
+    self: { importScripts() {} },
+    SETTINGS_CACHE_KEY: "settings",
+    NATIVE_APP_ID: "application.id",
+    loadCatScratchesSettings: async () => ({ settings: {}, source: "default" }),
+    saveCatScratchesSettings: async (settings) => ({ settings, savedToCloud: false }),
+    browser: {
+      action: { onClicked: noopListener },
+      i18n: { getMessage: (key) => key },
+      runtime: {
+        onInstalled: noopListener,
+        onMessage: noopListener,
+        onStartup: noopListener,
+        sendNativeMessage: async () => ({ opened: false }),
+      },
+      scripting: { executeScript: async () => [] },
+      storage: { onChanged: noopListener },
+      tabs: {
+        query: async () => [],
+        update: async () => {},
+      },
+    },
+  };
+  sandbox.globalThis = sandbox;
+  vm.createContext(sandbox);
+  vm.runInContext(BACKGROUND_SRC, sandbox);
+  return sandbox;
 }
 
 const filler = " filler text".repeat(40);
@@ -359,6 +393,38 @@ const filler = " filler text".repeat(40);
   assert.match(linkedChrome, /Article text\./, "article prose survives linked-chrome cleanup");
   assert.match(linkedChrome, /More text\./, "trailing prose survives linked-chrome cleanup");
   dom.window.close();
+}
+
+{
+  const sandbox = createBackgroundSandbox();
+  const content = "# Saved Page\n\nhttps://example.test/story?a=1&b=two words\n\nCafé & emoji 😀";
+  const group = sandbox.getUlyssesGroup({
+    outputFormat: { defaultTag: "reading, web, article" },
+  });
+  const url = sandbox.buildUlyssesNewSheetURL(content, group);
+
+  assert.equal(group, "/reading/web/article", "comma-separated tags become a Ulysses group path");
+  assert.equal(
+    url,
+    `ulysses://x-callback-url/new-sheet?x-source=Cat%20Scratches&text=${encodeURIComponent(content)}&group=%2Freading%2Fweb%2Farticle&format=markdown`,
+    "Ulysses new-sheet URLs use the documented action, source, URL-encoded text, group, and markdown format",
+  );
+  assert.doesNotMatch(url, /\s/, "Ulysses callback URL contains no unencoded whitespace");
+  assert.match(url, /x-source=Cat%20Scratches/, "Ulysses callback URL identifies Cat Scratches as the source app");
+  assert.match(url, /%26b%3Dtwo%20words/, "embedded source URL query parameters are encoded inside the text parameter");
+  assert.match(url, /group=%2Freading%2Fweb%2Farticle/, "Ulysses group path is URL encoded");
+  assert.match(url, /format=markdown$/, "Ulysses import format is explicitly markdown");
+
+  assert.equal(
+    sandbox.getUlyssesGroup({ outputFormat: { defaultTag: "/Research/Web" } }),
+    "/Research/Web",
+    "explicit Ulysses group paths are preserved",
+  );
+  assert.equal(
+    sandbox.getUlyssesGroup({ outputFormat: { defaultTag: "Inbox" } }),
+    "Inbox",
+    "single tags are sent as a Ulysses group name",
+  );
 }
 
 console.log("extraction regression tests passed");
