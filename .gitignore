@@ -6,6 +6,7 @@
 **/*.xcuserstate
 
 # Local build/distribution outputs
+build/
 dist/
 
 # App Store media artifacts (kept local, not versioned)
