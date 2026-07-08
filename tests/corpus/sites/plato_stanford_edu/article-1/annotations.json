@@ -1,0 +1,7 @@
+{
+  "url": "https://plato.stanford.edu/entries/consciousness/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept the publish-date line, an internal jump-to-section TOC, the boilerplate 'Academic Tools'/cite-this-entry box, a typo-fix acknowledgments note, and the author copyright footer; removed all, kept full body, Bibliography, and Other Internet Resources, and stripped all inline link URLs"
+}

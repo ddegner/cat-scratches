@@ -1,0 +1,14 @@
+{
+  "url": "https://www.newsweek.com/sports/mlb/framber-valdez-likely-facing-suspension-after-throwing-at-trevor-story-11919391",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9570552147239264,
+    "recall_of_readability": 0.9571,
+    "recall_of_extracted": 0.9873,
+    "extracted_tokens": 158,
+    "readability_tokens": 163
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

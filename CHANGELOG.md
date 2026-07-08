@@ -2,6 +2,13 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.4.1] - 2026-07-08
+
+### Fixed
+- Improved body-text extraction across many sites. Adjacent inline elements that some sites space only with CSS (API-reference field lists, recipe ingredient amounts) no longer fuse into run-together words like "balance_transactionnullable string".
+- The article intro/standfirst paragraph is now kept on layouts that place it in a sibling of the main body container (e.g. some news CMSes) instead of being dropped.
+- Expanded the built-in filter list to strip more site chrome — Q&A user cards and voting widgets, recipe nutrition/serving disclaimers, documentation UI banners, and encyclopedia print/citation modals — so clipped articles carry less boilerplate.
+
 ## [2.4.0] - 2026-07-01
 
 ### Added

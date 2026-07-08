@@ -1,0 +1,7 @@
+{
+  "url": "https://www.britannica.com/technology/artificial-intelligence",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor kept real encyclopedia body but also print/cite/feedback UI, external-links lists, author/editor bios, News ticker, Key People/Related Topics sidebars, and quiz promo; stripped all of it, kept Top Questions Q&A + article prose."
+}

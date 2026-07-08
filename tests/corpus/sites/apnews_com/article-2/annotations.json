@@ -1,0 +1,14 @@
+{
+  "url": "https://apnews.com/article/iran-us-israel-war-china-may-6-2026-3d061a90ccde095178d9b988d94d08f3",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9333333333333333,
+    "recall_of_readability": 0.9333,
+    "recall_of_extracted": 0.9958,
+    "extracted_tokens": 478,
+    "readability_tokens": 510
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

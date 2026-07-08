@@ -1,0 +1,14 @@
+{
+  "url": "https://www.theglobalist.com/the-west-waves-the-welcome-flags-for-worlds-dirty-cash/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9722222222222222,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 0.9722,
+    "extracted_tokens": 720,
+    "readability_tokens": 700
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

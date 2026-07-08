@@ -1,0 +1,14 @@
+{
+  "url": "https://hacks.mozilla.org/2021/01/improving-cross-browser-testing-part-2-new-automation-features-in-firefox-nightly/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9581497797356828,
+    "recall_of_readability": 0.9581,
+    "recall_of_extracted": 0.9842,
+    "extracted_tokens": 442,
+    "readability_tokens": 454
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

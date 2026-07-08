@@ -1,0 +1,14 @@
+{
+  "url": "https://thehill.com/policy/defense/5867352-iranian-official-peace-proposal-americans-wish-list/amp/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9930555555555556,
+    "recall_of_readability": 0.9931,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 143,
+    "readability_tokens": 144
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

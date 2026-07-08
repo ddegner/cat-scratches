@@ -1,0 +1,7 @@
+{
+  "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor dropped all informative fossil-photo captions (this is a photo-essay piece where captions carry real content/quotes); merged them back in from readability.txt in DOM order, deduped repeated Left/Right combined captions, dropped photo-credit line and Next-article chrome."
+}

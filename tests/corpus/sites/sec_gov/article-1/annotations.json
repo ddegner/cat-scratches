@@ -1,0 +1,7 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+  "annotator": "llm-adjudicated",
+  "quality": "fixture-broken",
+  "adjudicated_at": "2026-07-07",
+  "notes": "6000+ line SEC 10-K filing; financial statement tables are flattened into disconnected one-value-per-line text with no structure, and the bulk of the doc is legal/tabular boilerplate rather than readable prose — not a fixable extraction target for a Drafts note"
+}

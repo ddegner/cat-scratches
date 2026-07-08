@@ -8,7 +8,7 @@ Rating
 
 Comments
 
-[Read comments](#notes_section)
+Read comments
 
 In this colorful, crunchy-topped vegetable dish, roasted carrots and shallots are topped with puddles of gooey mozzarella, while herbs, olives and a big squirt of lemon at the end add just the right level of tang. Serve this as a light, meatless meal on its own, or as a vibrant side dish to a simple roast chicken or fish.
 
@@ -18,22 +18,22 @@ In this colorful, crunchy-topped vegetable dish, roasted carrots and shallots ar
 
 ## Ingredients
 
-Yield:4 servings
+Yield: 4 servings
 
-* 1½pounds carrots, peeled and halved, or quartered lengthwise into long, thin sticks
-* 5small or 3 large shallots, peeled and cut lengthwise into ½-inch-thick wedges (about 1¼ cups)
+* 1½ pounds carrots, peeled and halved, or quartered lengthwise into long, thin sticks
+* 5 small or 3 large shallots, peeled and cut lengthwise into ½-inch-thick wedges (about 1¼ cups)
 * Salt and freshly ground black pepper
-* 5tablespoons extra-virgin olive oil
-* 1cup panko bread crumbs
-* 2tablespoons grated Parmesan
-* 1fat garlic clove, minced or finely grated
-* ¼teaspoon red-pepper flakes, plus more for serving
-* 6ounces mozzarella, hand-pulled or chopped into small pieces (1½ cups)
-* ¼cup green olives, pitted and rough chopped
-* 1 to 2tablespoons freshly squeezed lemon juice, plus more to taste
-* ⅓cup fresh basil, dill or mint, torn
+* 5 tablespoons extra-virgin olive oil
+* 1 cup panko bread crumbs
+* 2 tablespoons grated Parmesan
+* 1 fat garlic clove, minced or finely grated
+* ¼ teaspoon red-pepper flakes, plus more for serving
+* 6 ounces mozzarella, hand-pulled or chopped into small pieces (1½ cups)
+* ¼ cup green olives, pitted and rough chopped
+* 1 to 2 tablespoons freshly squeezed lemon juice, plus more to taste
+* ⅓ cup fresh basil, dill or mint, torn
 
-[Ingredient Substitution Guide](/article/ingredient-substitutions)
+Ingredient Substitution Guide
 
 ##### Nutritional analysis per serving (4 servings)
 
@@ -41,9 +41,7 @@ Yield:4 servings
 
 Note: The information shown is Edamam’s estimate based on available ingredients and preparation. It should not be considered a substitute for a professional nutritionist’s advice.
 
-[Powered by
-
-](https://www.edamam.com/website/wizard.jsp)
+Powered by
 
 ## Preparation
 
@@ -101,14 +99,14 @@ Private comments are only visible to you.
 
 ### Recipe Tags
 
-* [Vegetables](/tag/vegetables)
-* [Carrot](/tag/carrot)
-* [Mozzarella](/tag/mozzarella)
-* [Olive](/tag/olive)
-* [Panko](/tag/panko)
-* [Parmesan](/tag/parmesan)
-* [Shallot](/tag/shallot)
-* [Side Dish](/topics/side-dishes)
-* [Vegetarian](/topics/vegetarian)
+* Vegetables
+* Carrot
+* Mozzarella
+* Olive
+* Panko
+* Parmesan
+* Shallot
+* Side Dish
+* Vegetarian
 
 or to save this recipe.

@@ -1,0 +1,14 @@
+{
+  "url": "https://apnews.com/article/cruise-ship-hantavirus-andes-strain-south-africa-cb424510bb0c934c781f6bd42ce2e7c8",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9690140845070423,
+    "recall_of_readability": 0.969,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 344,
+    "readability_tokens": 355
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

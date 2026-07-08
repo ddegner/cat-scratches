@@ -1,0 +1,7 @@
+{
+  "url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md pulled an unrelated recommended post (15th anniversary) instead of the real article body (Tumblr User Panel); rebuilt from source.html's e-content div, matching readability.txt"
+}

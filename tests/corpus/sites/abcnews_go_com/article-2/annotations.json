@@ -1,0 +1,7 @@
+{
+  "url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed dek/subhead duplicate, mid-article Popular-Reads related-link blocks injected into body, and trailing ABC-News-Live widget"
+}

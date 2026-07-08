@@ -1,0 +1,7 @@
+{
+  "url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extracted was missing a subheading (For other RPM based distributions...) before the yum.repos.d code block, found in readability.txt; also stripped trailing author-bio chrome. Block-diff flagged the dnf install command as missing but it was already present, just fenced as code vs readability's plain text"
+}

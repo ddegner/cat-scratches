@@ -4,32 +4,32 @@ _Ship/Show/Ask is a branching strategy that combines the features of Pull Reques
 
 08 September 2021
 
-[Rouan Wilsenach](https://www.rouanw.com/)
+Rouan Wilsenach
 
 Rouan is a software engineer and technical leader, who helps build outstanding teams and high-quality software. He's worked in a variety of technology stacks for companies in the financial services, education, leisure and energy sectors (including as a consultant at Thoughtworks). He cares about keeping things simple, building inclusive teams, and writing about what he learns.
 
 ## Contents
 
-* [How do you do Continuous Integration with Pull Requests?](#HowDoYouDoContinuousIntegrationWithPullRequests)
-* [Introducing Ship / Show / Ask](#IntroducingShipShowAsk)
-    * [Ship](#Ship)
-    * [Show](#Show)
-    * [Ask](#Ask)
-* [The rules](#TheRules)
-* [The conversation](#TheConversation)
-* [The balance](#TheBalance)
-* [Should my team adopt this approach?](#ShouldMyTeamAdoptThisApproach)
-    * [If you mostly ship](#IfYouMostlyShip)
-    * [If you mostly ask](#IfYouMostlyAsk)
-* [Conclusion](#Conclusion)
+* How do you do Continuous Integration with Pull Requests?
+* Introducing Ship / Show / Ask
+    * Ship
+    * Show
+    * Ask
+* The rules
+* The conversation
+* The balance
+* Should my team adopt this approach?
+    * If you mostly ship
+    * If you mostly ask
+* Conclusion
 
 ## How do you do Continuous Integration with Pull Requests?
 
-[Pull Requests](/bliki/PullRequest.html) have been widely adopted by many software teams. Some people love them, and some people long for the days of [Continuous Integration](/articles/continuousIntegration.html) – where you never created branches and your team put their changes together all the time.
+Pull Requests have been widely adopted by many software teams. Some people love them, and some people long for the days of Continuous Integration – where you never created branches and your team put their changes together all the time.
 
 In some ways, Pull Requests are a game changer. Code hosting tools offer fantastic code review functionality. There are loads of SaaS providers offering services that can run on your pull requests – from running your tests and checking code quality to deploying fully-fledged preview environments.
 
-But the adoption of Pull Requests as the primary way of contributing code has created problems. We’ve lost some of the “Ready to Ship” mentality we had when we did Continuous Integration. Features-in-progress stay out of the way by delaying integration, and so we fall into the [pitfalls of low-frequency integration](/articles/branching-patterns.html#Low-frequencyIntegration) that Continuous Integration sought to address.
+But the adoption of Pull Requests as the primary way of contributing code has created problems. We’ve lost some of the “Ready to Ship” mentality we had when we did Continuous Integration. Features-in-progress stay out of the way by delaying integration, and so we fall into the pitfalls of low-frequency integration that Continuous Integration sought to address.
 
 Sometimes Pull Requests sit around and get stale, or we’re not sure what to work on while we wait for review. Sometimes they become bloated as we think “well, I may as well do this while I’m here.”
 
@@ -45,7 +45,7 @@ Every time you make a change, you choose one of three options: Ship, Show or Ask
 
 Figure 1: Change goes straight on mainline
 
-This feels the most like Continuous Integration. You want to make a change, so you make it directly on your [mainline](/articles/branching-patterns.html#mainline). When you do this, you’re not waiting for anyone to take your change to production. You’re not asking for a code review. No fuss – just make the change, with all the usual Continuous Integration techniques to make it safe.
+This feels the most like Continuous Integration. You want to make a change, so you make it directly on your mainline. When you do this, you’re not waiting for anyone to take your change to production. You’re not asking for a code review. No fuss – just make the change, with all the usual Continuous Integration techniques to make it safe.
 
 Works great when:
 
@@ -88,12 +88,12 @@ Works great when:
 
 * Code review, or “Approval”, should not be a requirement for a Pull Request to be merged.
 * People get to merge their own Pull Requests. This way they’re in control of whether their change is a “Show” or an “Ask”, and they can decide when it goes live.
-* We’ve got to use all the great Continuous Integration and [Continuous Delivery](/bliki/ContinuousDelivery.html) techniques that help keep the mainline releasable. Take [Feature Toggles](/bliki/FeatureToggle.html) as one example.
+* We’ve got to use all the great Continuous Integration and Continuous Delivery techniques that help keep the mainline releasable. Take Feature Toggles as one example.
 * Our branches should not live long, and we should rebase them on the mainline often.
 
 ## The conversation
 
-While Pull Requests can be a useful way of talking about changes, they have some pitfalls. The most alluring [Anti Pattern](/bliki/AntiPattern.html) is the idea that they can replace other ways of having a conversation.
+While Pull Requests can be a useful way of talking about changes, they have some pitfalls. The most alluring Anti Pattern is the idea that they can replace other ways of having a conversation.
 
 One common problem with branching is that folks decide on an approach without discussing it. By the time a Pull Request is opened, time has been invested in a solution that may be sub-optimal. Reviewers are influenced by the selected solution and find it harder to suggest alternative approaches. The bigger the change-sets and the longer-living the branches, the worse this problem becomes. Talk to your team before you start, so you can get better ideas and avoid rework.
 
@@ -127,7 +127,7 @@ A big part of why Pull Request models have become so popular is that they suppor
 
 I’ve also found (especially in teams that don’t talk enough 1), always committing to mainline can mean problematic changes are only noticed weeks after they’re made. By this time it’s difficult to have a useful conversation about them because the details have gone fuzzy. Encouraging team members to use the “Show” approach means you can have more conversations about the code as you go.
 
-1: [Pair Programming](/bliki/PairProgramming.html) is one effective technique for encouraging continuous communication in a team
+1: Pair Programming is one effective technique for encouraging continuous communication in a team
 
 ### If you mostly ask
 
@@ -155,7 +155,7 @@ Thanks also to Matthew Harward, Kief Morris, Giuseppe Pereira, Marcos Vinícius 
 
 ## Footnotes
 
-1: [Pair Programming](/bliki/PairProgramming.html) is one effective technique for encouraging continuous communication in a team
+1: Pair Programming is one effective technique for encouraging continuous communication in a team
 
 Significant Revisions
 

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.theatlantic.com/magazine/archive/2024/09/industry-tv-show-hbo-finance/679164/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9856870229007634,
+    "recall_of_readability": 0.9857,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 1033,
+    "readability_tokens": 1048
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

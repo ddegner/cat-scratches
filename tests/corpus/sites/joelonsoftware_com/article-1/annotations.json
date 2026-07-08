@@ -1,0 +1,14 @@
+{
+  "url": "https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9956663055254604,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 0.9957,
+    "extracted_tokens": 923,
+    "readability_tokens": 919
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -2,7 +2,7 @@ PRESS RELEASE June 10, 2024
 
 Setting a new standard for privacy in AI, Apple Intelligence understands personal context to deliver intelligence that is helpful and relevant
 
-CUPERTINO, CALIFORNIA Apple today introduced [Apple Intelligence](https://www.apple.com/apple-intelligence/), the personal intelligence system for iPhone, iPad, and Mac that combines the power of generative models with personal context to deliver intelligence that’s incredibly useful and relevant. Apple Intelligence is deeply integrated into iOS 18, iPadOS 18, and macOS Sequoia. It harnesses the power of Apple silicon to understand and create language and images, take action across apps, and draw from personal context to simplify and accelerate everyday tasks. With Private Cloud Compute, Apple sets a new standard for privacy in AI, with the ability to flex and scale computational capacity between on-device processing and larger, server-based models that run on dedicated Apple silicon servers.
+CUPERTINO, CALIFORNIA Apple today introduced Apple Intelligence, the personal intelligence system for iPhone, iPad, and Mac that combines the power of generative models with personal context to deliver intelligence that’s incredibly useful and relevant. Apple Intelligence is deeply integrated into iOS 18, iPadOS 18, and macOS Sequoia. It harnesses the power of Apple silicon to understand and create language and images, take action across apps, and draw from personal context to simplify and accelerate everyday tasks. With Private Cloud Compute, Apple sets a new standard for privacy in AI, with the ability to flex and scale computational capacity between on-device processing and larger, server-based models that run on dedicated Apple silicon servers.
 
 “We’re thrilled to introduce a new chapter in Apple innovation. Apple Intelligence will transform what users can do with our products — and what our products can do for our users,” said Tim Cook, Apple’s CEO. “Our unique approach combines generative AI with a user’s personal context to deliver truly helpful intelligence. And it can access that information in a completely private and secure way to help users do the things that matter most to them. This is AI as only Apple can deliver it, and we can’t wait for users to experience what it can do.”
 
@@ -72,7 +72,7 @@ ChatGPT will come to iOS 18, iPadOS 18, and macOS Sequoia later this year, power
 
 **Availability**
 
-Apple Intelligence is free for users, and will be available in beta as part of [iOS 18](https://www.apple.com/ios/ios-18-preview/), [iPadOS 18](https://www.apple.com/ipados/ipados-18-preview/), and [macOS Sequoia](https://www.apple.com/macos/macos-sequoia-preview/) this fall in U.S. English. Some features, software platforms, and additional languages will come over the course of the next year. Apple Intelligence will be available on iPhone 15 Pro, iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and device language set to U.S. English. For more information, visit [apple.com/apple-intelligence](https://www.apple.com/apple-intelligence/).
+Apple Intelligence is free for users, and will be available in beta as part of iOS 18, iPadOS 18, and macOS Sequoia this fall in U.S. English. Some features, software platforms, and additional languages will come over the course of the next year. Apple Intelligence will be available on iPhone 15 Pro, iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and device language set to U.S. English. For more information, visit apple.com/apple-intelligence.
 
 ## Media
 
@@ -84,7 +84,7 @@ Apple Intelligence is free for users, and will be available in beta as part of 
     
     Setting a new standard for privacy in AI, Apple Intelligence understands personal context to deliver intelligence that is helpful and relevant
     
-    CUPERTINO, CALIFORNIA Apple today introduced [Apple Intelligence](https://www.apple.com/apple-intelligence/), the personal intelligence system for iPhone, iPad, and Mac that combines the power of generative models with personal context to deliver intelligence that’s incredibly useful and relevant. Apple Intelligence is deeply integrated into iOS 18, iPadOS 18, and macOS Sequoia. It harnesses the power of Apple silicon to understand and create language and images, take action across apps, and draw from personal context to simplify and accelerate everyday tasks. With Private Cloud Compute, Apple sets a new standard for privacy in AI, with the ability to flex and scale computational capacity between on-device processing and larger, server-based models that run on dedicated Apple silicon servers.
+    CUPERTINO, CALIFORNIA Apple today introduced Apple Intelligence, the personal intelligence system for iPhone, iPad, and Mac that combines the power of generative models with personal context to deliver intelligence that’s incredibly useful and relevant. Apple Intelligence is deeply integrated into iOS 18, iPadOS 18, and macOS Sequoia. It harnesses the power of Apple silicon to understand and create language and images, take action across apps, and draw from personal context to simplify and accelerate everyday tasks. With Private Cloud Compute, Apple sets a new standard for privacy in AI, with the ability to flex and scale computational capacity between on-device processing and larger, server-based models that run on dedicated Apple silicon servers.
     
     “We’re thrilled to introduce a new chapter in Apple innovation. Apple Intelligence will transform what users can do with our products — and what our products can do for our users,” said Tim Cook, Apple’s CEO. “Our unique approach combines generative AI with a user’s personal context to deliver truly helpful intelligence. And it can access that information in a completely private and secure way to help users do the things that matter most to them. This is AI as only Apple can deliver it, and we can’t wait for users to experience what it can do.”
     
@@ -154,7 +154,7 @@ Apple Intelligence is free for users, and will be available in beta as part of 
     
     **Availability**
     
-    Apple Intelligence is free for users, and will be available in beta as part of [iOS 18](https://www.apple.com/ios/ios-18-preview/), [iPadOS 18](https://www.apple.com/ipados/ipados-18-preview/), and [macOS Sequoia](https://www.apple.com/macos/macos-sequoia-preview/) this fall in U.S. English. Some features, software platforms, and additional languages will come over the course of the next year. Apple Intelligence will be available on iPhone 15 Pro, iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and device language set to U.S. English. For more information, visit [apple.com/apple-intelligence](https://www.apple.com/apple-intelligence/).
+    Apple Intelligence is free for users, and will be available in beta as part of iOS 18, iPadOS 18, and macOS Sequoia this fall in U.S. English. Some features, software platforms, and additional languages will come over the course of the next year. Apple Intelligence will be available on iPhone 15 Pro, iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and device language set to U.S. English. For more information, visit apple.com/apple-intelligence.
     
     **About Apple** Apple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, AirPods, Apple Watch, and Apple Vision Pro. Apple’s six software platforms — iOS, iPadOS, macOS, watchOS, visionOS, and tvOS — provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV+. Apple’s more than 150,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it.
     
@@ -162,24 +162,24 @@ Apple Intelligence is free for users, and will be available in beta as part of 
     
     Apple Media Helpline
     
-    [media.help@apple.com](mailto:media.help@apple.com)
+    media.help@apple.com
     
     Apple Media Helpline
     
-    [media.uk@apple.com](mailto:media.uk@apple.com)
+    media.uk@apple.com
     
-    [Copy text](#)
+    Copy text
     
 * Images in this article
     
-    [Download all images](/newsroom/images/2024/06/introducing-apple-intelligence-for-iphone-ipad-and-mac/article/Images-of-Apple-WWDC24-Apple-Intelligence-240610.zip)
+    Download all images
 
 ## Press Contacts
 
 Apple Media Helpline
 
-[media.help@apple.com](mailto:media.help@apple.com)
+media.help@apple.com
 
 Apple Media Helpline
 
-[media.uk@apple.com](mailto:media.uk@apple.com)
+media.uk@apple.com

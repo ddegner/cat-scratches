@@ -1,0 +1,7 @@
+{
+  "url": "https://www.foxnews.com/politics/china-orders-firms-ignore-us-iran-sanctions-daring-us-enforce-crackdown",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed close-button/audio-CTA chrome, inline related-article callout links, and app-download CTA; stripped link URLs"
+}

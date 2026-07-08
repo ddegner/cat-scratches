@@ -1,0 +1,14 @@
+{
+  "url": "https://www.nature.com/articles/d41586-026-01454-3?error=cookies_not_supported&code=cc095b58-d12b-4252-8793-0aa028a9f4d7",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9409282700421941,
+    "recall_of_readability": 0.9409,
+    "recall_of_extracted": 0.9955,
+    "extracted_tokens": 224,
+    "readability_tokens": 237
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

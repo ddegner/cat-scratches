@@ -1,0 +1,14 @@
+{
+  "url": "https://www.newscientist.com/article/2523438-the-50-year-quest-to-create-a-quantum-spin-liquid-may-finally-be-over/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9833531510107015,
+    "recall_of_readability": 0.9834,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 827,
+    "readability_tokens": 841
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

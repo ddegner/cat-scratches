@@ -6,17 +6,13 @@ That’s where some form of _design system_ can be incredibly useful. Although a
 
 At first, it might seem really tricky to start building such a system — as it’s common to consider it to be an enormous project that will require months to complete. Not to mention that the whole app then seemingly needs be rewritten to adopt the new system. The good news, though, is that a design system can very often be built incrementally, and there’s really no need to rewrite anything to get started.
 
-So, in this article, I’d like to share how I’ve been helping the team at [Genius Scan](https://thegrizzlylabs.com/genius-scan) (which is also the company that has helped me bring back Swift by Sundell after a long hiatus, by [promoting their SDK](https://geniusscansdk.com/swiftbysundell)) to build an initial design system, which is being incrementally adopted across all of the company’s various code bases.
+So, in this article, I’d like to share how I’ve been helping the team at Genius Scan (which is also the company that has helped me bring back Swift by Sundell after a long hiatus, by promoting their SDK) to build an initial design system, which is being incrementally adopted across all of the company’s various code bases.
 
 This article won’t be a step-by-step tutorial on how to build a design system for any app, but rather an example (real-world, although somewhat edited to work well for an article) of how to approach the task of building such a system. I hope it’ll be interesting, and serve as a nice source of inspiration.
 
-[
-
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
-
-## [Picking an entry point](#picking-an-entry-point)
+## Picking an entry point
 
 Like all good engineering solutions, building a design system should aim to solve an actual problem that we’re facing within a given project. So, in the case of Genius Scan, what prompted us to start building such a system was that we had been struggling to maintain consistency (which in turn lead to duplicate bug fixes, and code duplication) within certain parts of our UI code — specifically within our various _lists_.
 
@@ -24,7 +20,7 @@ Like many other iOS apps, Genius Scan has a lot of list views — which let you 
 
 By picking an initial, reasonably sized goal like that, and not requiring an entire huge set of components to be built up front, we would be able to build and test the initial version of our design system quite quickly, and incrementally adopt it whenever we built a new list, or when an existing one was significantly updated or refactored.
 
-## [Composition is key](#composition-is-key)
+## Composition is key
 
 One mistake that’s sometimes made when building design systems is to lock them down too much around a specific set of prepared components. After all, even in the most consistent app code bases, different features will require different component tweaks, and app designs also tend to change over time.
 
@@ -60,7 +56,7 @@ public struct Row<Leading: View, Trailing: View>: View {
 }
 ```
 
-Note how we evaluate both of our content closures within the view’s initializer, rather than within its `body`. That’s to avoid re-evaluating the closures every time the view is updated. To learn more, check out [“Tips and tricks for when using SwiftUI’s ViewBuilder”](/articles/swiftui-viewbuilder-tips-and-tricks/).
+Note how we evaluate both of our content closures within the view’s initializer, rather than within its `body`. That’s to avoid re-evaluating the closures every time the view is updated. To learn more, check out “Tips and tricks for when using SwiftUI’s ViewBuilder”.
 
 The above component might not look that useful by itself, but it serves as a great starting point for building increasingly more complex row-based components. For example, using the above `Row`, we can now construct a specialized version of it for rendering a row that has a label and a text field — like this:
 
@@ -196,7 +192,7 @@ So, as the above examples illustrate, the process of getting started building a 
 
 For example, if a given feature within our app needs to show a label that’s different from the one that the default `TextFieldRow` uses, then that feature can now simply compose the root `Row` type with `TextInputView`, and define its own `leading` label for such rows, without having to add that additional complexity within our design system itself. That way the system itself can stay well-organized and focused, and defer all specialization to each individual feature.
 
-## [The power of the environment](#the-power-of-the-environment)
+## The power of the environment
 
 When it comes to specialization and customization, we do still want to enable our components to be tweaked to some extent, so that we won’t end up requiring a brand new (composed) implementation each time. Otherwise, we can often end up with another problem — that very few features actually end up _using_ the design system that we’ve built, since building components from scratch ends up being easier.
 
@@ -296,18 +292,14 @@ public extension View {
 
 By continuously using the principles that we explored above, we can take this very early beginning of a design system and keep scaling it up — to add more components, more APIs, and to increase adoption within any apps that consume our system. A design system will probably never be “finished”, as it will likely need to be an ever-evolving code base that’s adapted to new designs, as well as system changes from Apple — such as the introduction of Liquid Glass in iOS 26.
 
-[
-
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
-
-## [Conclusion](#conclusion)
+## Conclusion
 
 A design system is not something that you’d typically start building when an app’s code base is relatively small, but once a code base reaches a point where UI consistency and code duplication starts to become an issue, then building a design system can be a great solution to such problems.
 
 Plus, I’ve personally found that building a design system can often really help make the collaboration between developers and designers much better. When everyone involved in designing and building an app’s UI is focused on how different components can be defined and then later composed, then the process of translating designs into code often becomes so much more streamlined, and communication becomes smother too — since everyone now has a shared “vocabulary” of sorts when talking about the app’s UI.
 
-I hope that you found this article interesting. If you have any questions, comments, or feedback, then feel free to each out via either [Mastodon](https://mastodon.social/@johnsundell) or [Bluesky](https://bsky.app/profile/johnsundell.bsky.social).
+I hope that you found this article interesting. If you have any questions, comments, or feedback, then feel free to each out via either Mastodon or Bluesky.
 
 Thanks for reading!

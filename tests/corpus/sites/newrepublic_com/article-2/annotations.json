@@ -1,0 +1,14 @@
+{
+  "url": "https://newrepublic.com/post/210051/robert-f-kennedy-jr-kids-tanning-beds",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9684293606945541,
+    "recall_of_readability": 0.9808,
+    "recall_of_extracted": 0.9684,
+    "extracted_tokens": 1267,
+    "readability_tokens": 1251
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -2,7 +2,7 @@ Angela Chen and Clara Collier are “fascinated by what happens when we try to r
 
 > It was a time when the counterculture was really concerned about the war mongers, and that colored their perception of wargames. This is something \[D&D co-creator\] Gary Gygax came down very hard against early on, suggesting that, in his experience, most hobby wargamers were strictly anti-war. The wargames market was basically inaccessible to people that were part of the anti-war movement, unless it was couched in a way that wasn’t revisiting the atrocities that people were seeing on TV coming out of Vietnam.
 
-[Read the story](https://asteriskmag.com/issues/14/shall-we-play-a-game?src=longreads)
+Read the story
 
 ## More picks about games and gamers (even the non-human ones)
 

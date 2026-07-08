@@ -1,0 +1,211 @@
+NEWS
+                06 May 2026
+                
+            
+
+            
+
+            
+                
+                
+                    Neuronal recordings of people under anaesthesia show that their brains are processing words and sounds.
+                
+            
+        
+        
+            
+        
+    
+    
+
+
+            
+            
+
+
+        
+            
+                
+                    
+                
+            
+
+            
+                
+                     The brains of people under general anaesthesia continue to process words and sounds, a study finds.Credit: BSIP/UIG Via GettyPeople given general anaesthesia fall into a coma-like state in which their memory and perception of pain are switched off. But new data reveal that the hippocampus — a deep brain structure crucial for memory — remains remarkably active, parsing the grammar and meaning of spoken words and even anticipating what will be said next.Anaesthetized brains can still process podcastsThe research, published today in Nature1, challenges the assumption that complex cognition, such as grasping semantics and forecasting future events, can occur only if a person is fully conscious. By observing people’s individual neurons firing in real time while they are under anaesthesia, researchers discovered that the brain receives stimuli and actively processes what those signals mean.“The brain has developed such amazing, sophisticated mechanisms for doing all these complex tasks all day long, that it can do some of these things even without us being aware,” says Sameer Sheth, a neurosurgeon at Baylor College of Medicine in Houston, Texas.Probing the unconscious brainPrevious studies have shown2 that the parts of the brain that first detect sensory input can still register simple sounds while a person is unconscious. But it has remained unclear whether other, deeper regions of the brain are capable of complex cognition while someone is unconscious. To address this, Sheth and his colleagues recorded the brain activity of seven people anaesthetized with the drug propofol while they were undergoing surgery to treat epilepsy.How to detect consciousness in people, animals and maybe even AIThe researchers played a series of repetitive beeps interspersed with tones of a different pitch to three of the participants. Over the course of ten minutes, the brain recordings showed that the anaesthetized hippocampus becomes better at differentiating the tones and the beeps, suggesting a form of unconscious learning.The team also played ten-minute podcast segments to four of the study participants and observed that specific neurons were responding to certain parts of speech, distinguishing nouns from other words, for instance. The neurons also anticipated upcoming words on the basis of the context of the sentence. “They were literally predicting what the next word is going to be,” Sheth says.Comparing these participants’ data with those of a control group of awake participants who did a similar podcast-listening task revealed that both groups performed at a comparable level.
+            
+                doi: https://doi.org/10.1038/d41586-026-01465-0
+
+            ReferencesKatlowitz, K. A. et al. Nature https://doi.org/10.1038/s41586-026-10448-0 (2026).Article 
+    
+                    Google Scholar 
+                Tauber, J. M. et al. J. Cogn. Neurosci. 36, 394–413 (2024).Article 
+    PubMed 
+    
+                    Google Scholar 
+                Download references
+            
+                
+            
+
+            
+                Related Articles
+                
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                        Anaesthetized brains can still process podcasts
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                            
+                        
+                        Still conscious? Brain marker signals when anaesthesia takes hold
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                            
+                        
+                        How to detect consciousness in people, animals and maybe even AI
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                            
+                        
+                        How does the brain control consciousness? This deep-brain structure
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                            
+                        
+                        The consciousness wars: can scientists ever agree on how the mind works?
+                    
+                
+            
+        
+            
+                
+                    
+                        
+                            
+                        
+                        One-quarter of unresponsive people with brain injuries are conscious
+                    
+                
+            
+        
+    
+
+            
+
+            
+                Subjects
+                
+    
+
+            
+    Latest on:
+    
+        
+            
+                Brain
+            
+        
+            
+                Neuroscience
+            
+        
+    
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                        Are attention spans really shrinking? What the science says
+                        News Feature 06 MAY 26
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                        New-found brain network is a ‘secret system’ made of helper cells
+                        News 22 APR 26
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                        Revealed: how male and female brain cells differ in gene activity
+                        News 16 APR 26
+                    
+                
+            
+        
+    
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                        Plasticity and language in the anaesthetized human hippocampus
+                        Article 06 MAY 26
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                        Prefrontal to ventral tegmental area dynamics drive contingency degradation
+                        Article 06 MAY 26
+                    
+                
+            
+                
+                    
+                        
+                            
+                        
+                        Are attention spans really shrinking? What the science says
+                        News Feature 06 MAY 26

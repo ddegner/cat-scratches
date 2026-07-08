@@ -1,0 +1,7 @@
+{
+  "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor kept full Q&A body but interspersed heavy SO chrome (vote widgets, badges, share/permalink UI, comment threads); stripped all of it, kept question + all 26 answer bodies in order."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.latimes.com/california/story/2026-05-06/yosemite-ditches-reservations-drawing-huge-crowds-in-free-for-all",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9522727272727273,
+    "recall_of_readability": 0.9523,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 419,
+    "readability_tokens": 440
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

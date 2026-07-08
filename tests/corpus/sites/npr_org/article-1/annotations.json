@@ -1,0 +1,14 @@
+{
+  "url": "https://www.npr.org/2026/05/06/nx-s1-5813506/lord-of-the-flies-review",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9727891156462585,
+    "recall_of_readability": 0.9728,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 286,
+    "readability_tokens": 294
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed 271 leaked percent-encoded 'Run code' playground URLs, Source/version permalink lines, pilcrow/info-icon/Read-more decorative links, and stripped remaining link URLs to visible text"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.newyorker.com/magazine/2026/05/11/glorious-country-victoria-johnson-book-review",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9951130116065975,
+    "recall_of_readability": 0.9951,
+    "recall_of_extracted": 0.9976,
+    "extracted_tokens": 1633,
+    "readability_tokens": 1637
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

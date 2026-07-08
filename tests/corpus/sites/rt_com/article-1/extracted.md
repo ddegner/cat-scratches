@@ -6,8 +6,8 @@ On this episode of Breaking the Set, Abby Martin talks to peace activist Cindy S
 
 Abby then speaks to legislative representative for the International Brotherhood of Teamsters Mike Dolan about the Trans-pacific Partnership (TPP), the Obama administration’s efforts for a new trade agreement with the EU, and the negative implications of these agreements. BTS wraps up the show with a look at the ongoing nuclear crisis at the Hanford Nuclear site in Washington State – yet another example of a ‘Sacrifice Zone’ where the most vulnerable among us are most at risk.
 
-**LIKE** Breaking the Set @ [http://fb.me/BreakingTheSet](http://fb.me/BreakingTheSet) 
-**FOLLOW** Manuel Rapalo @ [http://twitter.com/Manuel\_Rapalo](http://twitter.com/Manuel_Rapalo) 
-**FOLLOW** Abby Martin @ [http://twitter.com/AbbyMartin](http://twitter.com/AbbyMartin)
+**LIKE** Breaking the Set @ http://fb.me/BreakingTheSet 
+**FOLLOW** Manuel Rapalo @ http://twitter.com/Manuel\_Rapalo 
+**FOLLOW** Abby Martin @ http://twitter.com/AbbyMartin
 
-Please check our [commenting policy](https://www.rt.com/comment-posting-rules/). If you have questions or suggestions feel free to send them to [feedback@rttv.ru](mailto:feedback@rttv.ru).
+Please check our commenting policy. If you have questions or suggestions feel free to send them to feedback@rttv.ru.

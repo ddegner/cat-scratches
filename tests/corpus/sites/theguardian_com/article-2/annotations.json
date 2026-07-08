@@ -1,0 +1,14 @@
+{
+  "url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9574468085106383,
+    "recall_of_readability": 0.9783,
+    "recall_of_extracted": 0.9574,
+    "extracted_tokens": 188,
+    "readability_tokens": 184
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

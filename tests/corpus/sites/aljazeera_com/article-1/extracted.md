@@ -24,7 +24,7 @@ Al Jazeera’s Obaida Hitto, reporting from Tyre, said the evening attack took p
 
 Hitto said there were many people who returned to the southern suburbs after the beginning of the ceasefire, and videos showed streets have been filled with people.
 
-Israeli forces have continued to strike Lebanon’s south and east despite the truce, [killing](/news/2026/5/6/israeli-attacks-on-southern-eastern-lebanon-kill-at-least-six-people) at least 13 people on Wednesday.
+Israeli forces have continued to strike Lebanon’s south and east despite the truce, killing at least 13 people on Wednesday.
 
 An Israeli strike in Lebanon’s eastern Bekaa Valley killed four people, while the Israeli army said it struck Hezbollah targets in the south, after warning residents of a dozen towns to evacuate.
 

@@ -1,0 +1,7 @@
+{
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38123456/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor had the correct abstract+keywords; removed disclaimer link, conflict-of-interest boilerplate, image placeholder, and external literature-source link lists. Readability-only blocks were all figure captions/reference-list chrome, not body text."
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://en.wiktionary.org/wiki/serendipity",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Kept etymology/definitions/usage notes/example quotes; dropped pronunciation audio widgets, derived terms, translation tables, references, categories, and page footer chrome"
+}

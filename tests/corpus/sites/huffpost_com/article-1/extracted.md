@@ -1,3 +1,5 @@
+LOADING ERROR LOADING
+
 HERSHEY, Pennsylvania, May 6 (Reuters) - U.S. Chief Justice John Roberts expressed concern on Wednesday about the public perception of the Supreme Court as an institution driven primarily by political outcomes rather than the law at a time when some prominent voices have raised questions about the top U.S. judicial body’s legitimacy.
 
 Roberts, who has led the court since 2005, appeared to acknowledge dimming public approval of the court, shown in opinion polls over the past few years, as its conservative majority continues to push American law dramatically rightward.
@@ -8,11 +10,11 @@ Roberts, who has led the court since 2005, appeared to acknowledge dimming publi
 
 Roberts, appointed as chief justice by Republican former President George W. Bush, is seen as deeply conservative but also concerned about the court’s institutional credibility and public perception.
 
-Its current 6-3 conservative majority was established in 2020 when President [Donald Trump](https://www.huffpost.com/news/topic/donald-trump) made a third appointment of a justice to a lifetime position on the bench. Since then, it has delivered landmark rulings rolling back abortion rights and race-conscious affirmative action practices, expanding gun rights, expanding religious rights, limiting transgender rights and restricting federal regulatory power.
+Its current 6-3 conservative majority was established in 2020 when President Donald Trump made a third appointment of a justice to a lifetime position on the bench. Since then, it has delivered landmark rulings rolling back abortion rights and race-conscious affirmative action practices, expanding gun rights, expanding religious rights, limiting transgender rights and restricting federal regulatory power.
 
-In another landmark ruling last week, the court’s conservatives gutted a key provision of the Voting Rights Act - making it harder for minorities to challenge electoral maps as racially discriminatory under the landmark civil rights law. The ruling was a victory for Louisiana [Republicans](https://www.huffpost.com/news/topic/republican-party) and the Trump administration.
+In another landmark ruling last week, the court’s conservatives gutted a key provision of the Voting Rights Act - making it harder for minorities to challenge electoral maps as racially discriminatory under the landmark civil rights law. The ruling was a victory for Louisiana Republicans and the Trump administration.
 
-In a ruling authored by Roberts in 2024, the court granted Trump broad immunity from criminal prosecution over his efforts to undo his 2020 election loss to Democrat [Joe Biden](https://www.huffpost.com/news/topic/joe-biden), bolstering his bid to regain the presidency by effectively delaying a trial that ultimately never took place.
+In a ruling authored by Roberts in 2024, the court granted Trump broad immunity from criminal prosecution over his efforts to undo his 2020 election loss to Democrat Joe Biden, bolstering his bid to regain the presidency by effectively delaying a trial that ultimately never took place.
 
 Since Trump returned to the presidency last year, the court has repeatedly taken emergency actions to let his far-reaching executive actions take effect pending legal challenges. In one setback for Trump, the court in another ruling authored by Roberts struck down in February Trump’s signature global tariffs issued under a law meant for use in national emergencies.
 
@@ -48,8 +50,8 @@ _(Reporting by Andrew Chung; Editing by Will Dunham)_
 
 Related
 
-[Supreme Court](https://www.huffpost.com/news/topic/supreme-court)[chief justice john roberts](https://www.huffpost.com/topic/chief-justice-john-roberts)[Justice Elena Kagan](https://www.huffpost.com/topic/justice-elena-kagan)
+Supreme Court chief justice john roberts Justice Elena Kagan
 
 |
 
-[Submit a tip](https://tips.huffpost.com/)
+Submit a tip

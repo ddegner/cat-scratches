@@ -1,0 +1,14 @@
+{
+  "url": "https://www.seriouseats.com/papas-guisadas-mexican-stewed-potatoes-recipe-11965414",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9660194174757282,
+    "recall_of_readability": 0.966,
+    "recall_of_extracted": 0.9779,
+    "extracted_tokens": 407,
+    "readability_tokens": 412
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

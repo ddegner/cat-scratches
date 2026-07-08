@@ -1,0 +1,14 @@
+{
+  "url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9828641370869033,
+    "recall_of_readability": 0.9829,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 803,
+    "readability_tokens": 817
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

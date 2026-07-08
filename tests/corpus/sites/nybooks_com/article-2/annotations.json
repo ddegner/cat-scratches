@@ -1,0 +1,14 @@
+{
+  "url": "https://www.nybooks.com/online/2026/05/02/his-moo-was-refined-the-story-of-ferdinand/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9917936694021102,
+    "recall_of_readability": 0.993,
+    "recall_of_extracted": 0.9918,
+    "extracted_tokens": 853,
+    "readability_tokens": 852
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

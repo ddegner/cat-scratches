@@ -1,0 +1,7 @@
+{
+  "url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept the byline, full site nav menu, a sponsor ad line, and the permalink/copyright footer; removed all, stripped inline link URLs, kept the linked headline as plain text and the commentary body"
+}

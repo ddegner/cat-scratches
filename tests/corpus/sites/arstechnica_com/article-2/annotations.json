@@ -1,0 +1,7 @@
+{
+  "url": "https://arstechnica.com/cars/2026/05/how-do-you-design-a-30000-electric-pickup-inside-fords-skunkworks/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor content was correct; removed repeated/duplicated image caption and photo-credit blocks (\"Ford\") that Readability had also dropped."
+}

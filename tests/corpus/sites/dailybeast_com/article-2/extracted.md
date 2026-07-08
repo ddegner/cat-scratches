@@ -1,19 +1,12 @@
-Take a look at the bold designs created by beauty legend [Donni Davy](https://www.instagram.com/donni.davy/?hl=en), and you’d never know the Emmy-winning makeup artist behind _Euphoria_ and founder of [Half Magic Beauty](https://halfmagicbeauty.com/pages/about) was actually an introvert who once felt debilitating anxiety about public speaking.
+Take a look at the bold designs created by beauty legend Donni Davy, and you’d never know the Emmy-winning makeup artist behind _Euphoria_ and founder of Half Magic Beauty was actually an introvert who once felt debilitating anxiety about public speaking.
 
 “I’ve overcome a lot of fears. I never wanted to be on camera, so I had to rebirth myself in this new way where little introverted me has to be an extrovert now,” Davy, 37, told the Looker.
 
-Despite her past shyness, the beauty entrepreneur and artist has built a devoted audience across multiple social media platforms. She has over half a million followers on her personal [Instagram](https://www.instagram.com/donni.davy/?hl=en "https://www.instagram.com/donni.davy/?hl=en") alone and another 260,000 on [Half Magic Beauty’s page](https://www.instagram.com/halfmagicbeauty/ "https://www.instagram.com/halfmagicbeauty/").
+Despite her past shyness, the beauty entrepreneur and artist has built a devoted audience across multiple social media platforms. She has over half a million followers on her personal Instagram alone and another 260,000 on Half Magic Beauty’s page.
 
 Davy spoke with the Looker about mental health, what it’s like to be a brand founder juggling it all, and how she overcame her fear of public speaking.
 
 **THE LOOKER: What advice would you give to the version of yourself that was just starting out?**
-
-Get a First Look
-
-## Sign up to receive news and updates from The Looker
-
-By clicking "Sign Up" you agree to our [Terms of Use](https://www.thedailybeast.com/company/terms-of-use/) and [Privacy Policy](https://www.thedailybeast.com/company/privacy-policy/).
-
 **DONNI DAVY:** You can’t be a rehearsed version of yourself. You have to let your freak flag fly. It’s the only thing that will set you free and allow you to have fun with it.
 
 In doing so, you learn that you can be yourself and people will still want to watch—they might even like you better because you’re showing your humanity through your authenticity.
@@ -48,6 +41,4 @@ The passion can’t be getting recognition. The passion has to be the work, and 
 
 _Answers have been lightly edited for clarity._
 
-[Carina HsiehReporter, Looker](/author/carina-hsieh/)
-
-Got a tip? [Send it to The Daily Beast](https://www.thedailybeast.com/tips).
+Carina Hsieh Reporter, Looker

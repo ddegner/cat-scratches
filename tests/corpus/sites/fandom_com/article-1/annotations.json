@@ -1,0 +1,14 @@
+{
+  "url": "https://en.wikipedia.org/wiki/Fandom_(website)",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9827150084317032,
+    "recall_of_readability": 0.9881,
+    "recall_of_extracted": 0.9827,
+    "extracted_tokens": 2372,
+    "readability_tokens": 2359
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

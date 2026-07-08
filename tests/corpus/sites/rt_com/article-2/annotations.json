@@ -1,0 +1,7 @@
+{
+  "url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept a published/updated timestamp, an image caption/credit, a 'READ MORE' promo link, and a comment-policy/feedback footer; removed all, kept dek and body"
+}

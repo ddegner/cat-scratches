@@ -1,0 +1,37 @@
+Work in tests/harness/ of this repo. First read tests/harness/ADJUDICATE.md in
+full — it is the operating manual for this task and overrides your own instincts.
+
+Your job: adjudicate extraction disagreements from the review queue, one page at
+a time, authoring ground-truth expected.md files.
+
+Session budget: 15 adjudicated pages.
+
+Rules of engagement:
+- You already have every permission this task needs: file writes under tests/**
+  and the node/npm commands. This session is headless — never ask for permission
+  or confirmation; attempt the tool call. Only if a call is actually DENIED by
+  the harness should you stop and report the denial.
+- Drive the loop with node adjudicate.mjs --next / --done exactly as the manual
+  describes. The only files you author are expected.md files (and the --note
+  text); annotations.json and review-queue.json are written by the script.
+- Never overwrite an existing expected.md. Never edit extracted.md,
+  readability.txt, defaults.js, or any harness code.
+- Author expected.md from evidence, not memory: every line you write must exist
+  in extracted.md, readability.txt, or source.html for that page. You are
+  choosing and arranging, not composing.
+- Be decisive about quality labels: edits needed = needs-improvement; unusable
+  fixture = fixture-broken; ok is reserved for pages where extracted.md was
+  already correct apart from junk you removed.
+- If adjudicate.mjs errors twice in a row, stop and report; do not fix it.
+
+Stop when ANY of: 15 pages adjudicated; the queue prints empty; or you hit a
+page you genuinely cannot decide (mark nothing, note it, move to the next; if
+3 such pages accumulate, stop and report them).
+
+Then: run node --max-old-space-size=8192 evaluate.mjs --write-baseline to enroll
+the new pages, and report:
+1. ADJUDICATED — each page: quality label + one-line what-was-wrong.
+2. UNDECIDED — pages you skipped and why.
+3. PATTERNS — recurring junk or missing-content shapes you saw across pages
+   (these become optimizer candidates; describe, don't fix).
+4. QUEUE — how many disagreements remain open.

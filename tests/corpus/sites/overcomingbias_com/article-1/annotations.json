@@ -1,0 +1,14 @@
+{
+  "url": "https://www.overcomingbias.com/p/on-politics-and-governance",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9903381642512077,
+    "recall_of_readability": 0.9951,
+    "recall_of_extracted": 0.9903,
+    "extracted_tokens": 207,
+    "readability_tokens": 206
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

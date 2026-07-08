@@ -1,0 +1,7 @@
+{
+  "url": "https://docs.stripe.com/api/charges/object",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor content was correct and complete (readability.txt was a useless single-line dump); attribute name+type labels had lost their separating space (e.g. idstring), so reformatted each into name (type): description."
+}

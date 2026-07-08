@@ -1,0 +1,14 @@
+{
+  "url": "https://dissentmagazine.org/online_articles/gisele-pelicot-trial-memoirs/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9958791208791209,
+    "recall_of_readability": 0.9959,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 1450,
+    "readability_tokens": 1456
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

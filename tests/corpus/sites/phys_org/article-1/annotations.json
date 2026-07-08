@@ -1,0 +1,7 @@
+{
+  "url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md content was complete and correct; only stripped inline link URLs. Readability's extra blocks were image captions/credits, a publication-details box, and a citation/copyright footer — not article content"
+}

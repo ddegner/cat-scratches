@@ -1,24 +1,16 @@
-[reviews](https://www.thebeliever.net/type/reviews/)
+reviews
 
-###### March 25th, 2026 | [Issue one hundred fifty-three](https://www.thebeliever.net/product/spring-2026/)
+###### March 25th, 2026 | Issue one hundred fifty-three
 
 # A Review of Ladies Almanack
 
-[
-
 ###### by Lauren LeBlanc
-
-](https://www.thebeliever.net/contributor/lauren-leblanc/)
 
 ###### Illustration by Pete Gamlen
 
 ### A Review of Ladies Almanack
 
-[
-
 ##### Lauren LeBlanc
-
-](https://www.thebeliever.net/contributor/lauren-leblanc/)
 
 During my final semester of college, I read James Joyce’s _Ulysses_. When we were several chapters deep into the notoriously complex novel, my professor assigned the first chapter of James Joyce’s _Finnegans Wake_. The contrast between the two novels made _Ulysses_ feel like a book club selection. Following this instructive line of comparative reading, I should have paused while tackling Djuna Barnes’s well-known 1936 novel, _Nightwood_, to read her slim but daring 1928 work, _Ladies Almanack_. The book is a pastiche of Restoration drama and _Gossip Girl_, and has such an experimental form that it’s not hard to understand why it never reached a wide audience. But Joyce is celebrated in the modernist canon. Why isn’t Barnes’s novel also venerated within that tradition? With its reissue, Dalkey Archive seems to be asking the same question.
 
@@ -34,11 +26,7 @@ Unfortunately, today Barnes’s grand visions of bodily autonomy, free speech, a
 
 **Publisher:** _Dalkey Archive_ **Page count:** _100_ **Price:** _$15.95_ **Key quote:** _“Love in Man is Fear of Fear. Love in Woman is Hope without Hope.”_ **Shelve next to:** _Shari Benstock, James Joyce, Jeanette Winterson_ **Unscientifically calculated reading time:** _The duration of a cocktail-drenched tea dance, while distracted by enchanting ladies_
 
-[
-
 ##### Lauren LeBlanc
-
-](https://www.thebeliever.net/contributor/lauren-leblanc/)
 
 ##### contributor
 
@@ -48,4 +36,4 @@ Unfortunately, today Barnes’s grand visions of bodily autonomy, free speech, a
 
 Lauren LeBlanc is a writer and critic who lives in Chapel Hill, North Carolina. Her work has been published in _The Atlantic_, _The New York Times Book Review_, _The Boston Globe_, _Vanity Fair_, _The Drift_, and _The Oxford American_, among other publications. She is a current board member of the National Book Critics Circle.
 
-[More by Lauren LeBlanc](https://www.thebeliever.net/contributor/lauren-leblanc/)
+More by Lauren LeBlanc

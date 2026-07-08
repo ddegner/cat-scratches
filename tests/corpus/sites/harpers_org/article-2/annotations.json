@@ -1,0 +1,14 @@
+{
+  "url": "https://harpers.org/2026/05/weekly-review-oil-spill-eggs-super-soldiers-shakespeare-grok-plantir-sonic-boom-you-will-never-outrun-it/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9977728285077951,
+    "recall_of_readability": 0.9978,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 448,
+    "readability_tokens": 449
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

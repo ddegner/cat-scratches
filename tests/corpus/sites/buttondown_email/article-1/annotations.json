@@ -1,0 +1,14 @@
+{
+  "url": "https://buttondown.com/blog/2023-12-2-data-is-plural",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.997229916897507,
+    "recall_of_readability": 0.9972,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 360,
+    "readability_tokens": 361
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

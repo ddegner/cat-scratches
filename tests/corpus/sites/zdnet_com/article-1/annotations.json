@@ -1,0 +1,7 @@
+{
+  "url": "https://www.zdnet.com/home-and-office/home-entertainment/sony-vs-samsung-soundbars-comparison/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor kept correct article body but also 'Why you can trust ZDNET' boilerplate, breadcrumbs, byline, affiliate 'View now' buttons, cross-link 'Also:' promos, Featured/Related article lists; stripped all of it."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://react.dev/reference/react/useState",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9444444444444444,
+    "recall_of_readability": 0.9444,
+    "recall_of_extracted": 0.9846,
+    "extracted_tokens": 518,
+    "readability_tokens": 540
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

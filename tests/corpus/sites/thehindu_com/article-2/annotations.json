@@ -1,0 +1,14 @@
+{
+  "url": "https://frontline.thehindu.com/politics/arvind-kejriwal-exclusive-interview-delhi-election-2025-voting-aap-vs-bjp-vs-congress/article69131147.ece?utm_source=th&utm_medium=footer&utm_campaign=internal",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.956482320942883,
+    "recall_of_readability": 0.9565,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 1055,
+    "readability_tokens": 1103
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

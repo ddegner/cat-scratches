@@ -1,0 +1,14 @@
+{
+  "url": "https://waxy.org/2025/08/will-smiths-concert-crowds-were-real-but-ai-is-blurring-the-lines/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9975490196078431,
+    "recall_of_readability": 0.9975,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 407,
+    "readability_tokens": 408
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

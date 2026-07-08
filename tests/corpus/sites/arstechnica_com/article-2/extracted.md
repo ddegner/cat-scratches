@@ -1,8 +1,8 @@
-LONG BEACH, Calif.—2026 is a strange time for electric vehicles in the US. The current administration has no desire to push for their adoption and has [rescinded](https://arstechnica.com/cars/2025/10/its-october-1-so-the-electric-vehicle-tax-credit-is-dead-now/) the federal tax credit on which EV sales have depended for years. Tariffs have made vehicles and their constituent components [even more expensive](https://arstechnica.com/cars/2025/03/trump-on-car-tariffs-i-couldnt-care-less-if-they-raise-prices/), making switching to an EV for the first time an even harder pill to swallow. Manufacturers like Honda, which had three nearly production-ready EVs on deck, [just killed them all unceremoniously](https://arstechnica.com/cars/2026/03/honda-cancels-the-two-electric-vehicles-it-was-developing-with-sony/).
+LONG BEACH, Calif.—2026 is a strange time for electric vehicles in the US. The current administration has no desire to push for their adoption and has rescinded the federal tax credit on which EV sales have depended for years. Tariffs have made vehicles and their constituent components even more expensive, making switching to an EV for the first time an even harder pill to swallow. Manufacturers like Honda, which had three nearly production-ready EVs on deck, just killed them all unceremoniously.
 
 It’s bleak out there.
 
-Still, Ford has decided to stay in the game with its “Universal Electric Vehicle,” [which it announced](https://arstechnica.com/cars/2025/08/ford-bets-big-on-universal-ev-production-system-and-30k-truck/) in late 2025. This highly modular platform is designed to underpin all of the Blue Oval’s electric vehicles going forward. The work has been largely conducted at Ford’s Electric Vehicle Development Center (EVDC) in sunny Long Beach, California, and Ars Technica was recently invited to tour the facility to see what makes it different from any of Ford’s other operations.
+Still, Ford has decided to stay in the game with its “Universal Electric Vehicle,” which it announced in late 2025. This highly modular platform is designed to underpin all of the Blue Oval’s electric vehicles going forward. The work has been largely conducted at Ford’s Electric Vehicle Development Center (EVDC) in sunny Long Beach, California, and Ars Technica was recently invited to tour the facility to see what makes it different from any of Ford’s other operations.
 
 ## The skunkworks
 
@@ -26,7 +26,7 @@ The EVDC lobby is a little less anonymous. Ford
 
 The outside of the EVDC. Ford
 
-Lockheed’s Skunk Works (an official trademark) was headed by an aeronautical engineer named Clarence Leonard Johnson—[better known as Kelly Johnson](https://arstechnica.com/cars/2019/05/kellys-heroes-lockheeds-five-finest-airplanes/). Johnson is well known today as the father of the P-38 Lightning, the U2 spy plane, and even the SR-71 Blackbird (aka the coolest plane ever).
+Lockheed’s Skunk Works (an official trademark) was headed by an aeronautical engineer named Clarence Leonard Johnson—better known as Kelly Johnson. Johnson is well known today as the father of the P-38 Lightning, the U2 spy plane, and even the SR-71 Blackbird (aka the coolest plane ever).
 
 He’s probably best known outside plane geek circles for his list of 14 rules for running a skunkworks program. Let’s run through them to understand Ford’s goals with EVDC.
 
@@ -94,11 +94,11 @@ While I can’t speak to the EVDC staff’s salaries, we can discuss why Ford ch
 
 ## The electric midsize truck
 
-So what has all this secrecy, agility, and good California sunshine gotten Ford? What have the folks behind the Universal Electric Vehicle program managed to create? Will the project bring widespread EV adoption to the US? Or will it be another F-150 Lightning—[technically great, liked by critics](https://arstechnica.com/cars/2022/05/the-most-important-ev-of-the-decade-we-drive-the-f-150-lightning/), but not widely embraced by the truck-buying public?
+So what has all this secrecy, agility, and good California sunshine gotten Ford? What have the folks behind the Universal Electric Vehicle program managed to create? Will the project bring widespread EV adoption to the US? Or will it be another F-150 Lightning—technically great, liked by critics, but not widely embraced by the truck-buying public?
 
 We don’t know much about the first vehicle based on the UEV platform, and what I saw during the tour was abstract and focused on how the sausage is made. Still, many of the design decisions Ford is making to bring down the UEV platform’s cost seem smart rather than short-sighted, which aligns with what I’ve come to expect from the Big Three.
 
-For example, the UEV uses the battery pack as a stressed member of the chassis, and the vehicle’s seats are even bolted to it. (BMW uses a similar approach with its [Neue Klasse](https://arstechnica.com/cars/2025/09/neue-klasse-bmws-tech-filled-ix3-electric-suv-is-unveiled/) EVs.) This reduces the amount of sheet metal required and the time it takes to build a vehicle on the line. The reduction in complexity and parts is at the heart of the UEV program, and it doesn’t stop at the pack.
+For example, the UEV uses the battery pack as a stressed member of the chassis, and the vehicle’s seats are even bolted to it. (BMW uses a similar approach with its Neue Klasse EVs.) This reduces the amount of sheet metal required and the time it takes to build a vehicle on the line. The reduction in complexity and parts is at the heart of the UEV program, and it doesn’t stop at the pack.
 
 Ford is using large castings to form the vehicle’s front and rear clips, reducing part count and increasing rigidity. That sounds great, but what happens in a crash? Would the owner be on the hook for an expensive single part rather than cheaper sheet-metal repair pieces? Ford has thought of that, too.
 
@@ -106,7 +106,7 @@ Vlad Bogachuk, Ford’s chief engineer of advanced vehicle structure, explained 
 
 If panel bond (essentially expensive car glue) sounds like a strange solution, keep in mind that most supercars and hypercars are held together with it and not much else.
 
-Other methods to keep costs down include “zonal architecture,” [which reduces the number of separate computers and control modules](https://arstechnica.com/cars/2023/05/throw-out-all-those-black-boxes-and-say-hello-to-the-software-defined-car/), thereby also reducing the wiring harness. That is further thinned down by using 48-volt architecture instead of 12-volt, allowing for thinner wires and less copper overall. EVDC engineers are most focused on increasing efficiency and reducing manufacturing costs.
+Other methods to keep costs down include “zonal architecture,” which reduces the number of separate computers and control modules, thereby also reducing the wiring harness. That is further thinned down by using 48-volt architecture instead of 12-volt, allowing for thinner wires and less copper overall. EVDC engineers are most focused on increasing efficiency and reducing manufacturing costs.
 
 Reducing the size and mass of a car’s wiring loom is a major focus of modern car design.
 
@@ -124,12 +124,12 @@ Reducing the size and mass of a car’s wiring loom is a major focus of modern c
 
 The battery lab puts cells through their paces. Ford
 
-[Using lithium iron phosphate battery chemistry](https://arstechnica.com/cars/2023/02/3-5-billion-lfp-battery-factory-to-be-built-by-ford-in-michigan/), despite its lower energy density when compared to lithium-ion cells, is also a calculated decision. Lithium iron phosphate, or LiFePO4, is much cheaper than lithium-ion because it doesn’t contain rare-earth minerals like cobalt. That also makes it more environmentally friendly.
+Using lithium iron phosphate battery chemistry, despite its lower energy density when compared to lithium-ion cells, is also a calculated decision. Lithium iron phosphate, or LiFePO4, is much cheaper than lithium-ion because it doesn’t contain rare-earth minerals like cobalt. That also makes it more environmentally friendly.
 
-Ford is hoping that making the UEV midsize truck [as light and aerodynamic as possible](https://arstechnica.com/cars/2026/02/ford-is-focusing-on-efficiency-to-make-its-2027-30000-ev-pickup-affordable/) will offset the lower energy density of LiFePO4 and still produce a vehicle with close to 300 miles (482 km) of range, seemingly the gold standard for convincing people to switch from internal combustion to electric power.
+Ford is hoping that making the UEV midsize truck as light and aerodynamic as possible will offset the lower energy density of LiFePO4 and still produce a vehicle with close to 300 miles (482 km) of range, seemingly the gold standard for convincing people to switch from internal combustion to electric power.
 
 ## Sounds good—hope it pans out
 
-All of this sounds encouraging, and I was impressed with the culture and facility that Ford has created in Long Beach. But if the recent lessons [Honda taught us](https://arstechnica.com/cars/2026/03/honda-cancels-the-two-electric-vehicles-it-was-developing-with-sony/) are anything to go by, the UEV’s future—and indeed that of the Electric Vehicle Development Center—are anything but certain.
+All of this sounds encouraging, and I was impressed with the culture and facility that Ford has created in Long Beach. But if the recent lessons Honda taught us are anything to go by, the UEV’s future—and indeed that of the Electric Vehicle Development Center—are anything but certain.
 
 Developing electric vehicles that push technology forward is expensive, and Ford is anything but a sentimental company. If the case for the UEV doesn’t make business sense—whether due to customer disinterest or the current administration and its attitudes toward environmentalism—it seems likely that CEO Jim Farley wouldn’t hesitate to cut it loose.

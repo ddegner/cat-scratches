@@ -1,12 +1,10 @@
-[4,922
+4,922
 
-](#)[4,922
+4,922
 
-](#)[4,922
+4,922
 
-](#)[4,922
-
-](#)
+4,922
 
 Prep Time:
 
@@ -50,7 +48,7 @@ Bake in a preheated 350 degrees F (175 degrees C) oven — the chocolate chip co
 
 ## Test Kitchen Tips
 
-“Everyone needs a good chocolate chip cookie recipe,” says culinary producer Nicole McLaughlin (a.k.a. [NicoleMcMom](https://www.allrecipes.com/cook/28183721/)). Here are a few of her expert tips and tricks for making perfect chocolate chip cookies every time: 
+“Everyone needs a good chocolate chip cookie recipe,” says culinary producer Nicole McLaughlin (a.k.a. NicoleMcMom). Here are a few of her expert tips and tricks for making perfect chocolate chip cookies every time: 
 
 * Beating the butter and sugar is the most important part of the chocolate chip cookie-making process, according to Nicole. It takes a lot longer than you might think: She recommends beating the ingredients together for about four minutes.
 * Nicole suggests chilling the dough before baking to prevent spreading. This is essential if you want a cookie that’s still a little gooey in the middle, she says. 
@@ -60,7 +58,7 @@ Bake in a preheated 350 degrees F (175 degrees C) oven — the chocolate chip co
 
 Store the cooled chocolate chip cookies in an airtight container at room temperature for up to a week. If you want to go the extra mile, throw a piece of white bread into the container — it'll absorb the dry air and keep the cookies soft for longer.
 
-**Learn more**: [How to Store Cookies So They Stay Fresh](https://www.allrecipes.com/article/how-to-store-cookies/)
+**Learn more**: How to Store Cookies So They Stay Fresh
 
 ## Can You Freeze Chocolate Chip Cookies?
 
@@ -69,11 +67,11 @@ Yes! You can freeze baked chocolate chip cookies and chocolate chip cookie dough
 * **To freeze baked cookies**: Allow the baked cookies to cool completely. Arrange them in a single layer on a baking sheet, cover, and freeze for about three hours or up to overnight. Transfer the now-frozen cookies to a resealable plastic freezer bag or freezer-safe container. Wrap in at least one layer of aluminum foil for extra protection. Freeze for up to two months.
 * **To freeze cookie dough**: Drop balls of dough onto a parchment-lined baking sheet. Cover and freeze for about three hours or up to overnight. Transfer the frozen cookie dough balls to a resealable plastic freezer bag or freezer-safe container. Wrap in at least one layer of aluminum foil for extra protection. Freeze for up to two months.
 
-**Learn more**: [How to Freeze Cookies and Cookie Dough for Easy Baking](https://www.allrecipes.com/article/freezing-cookies-and-cookie-dough/)
+**Learn more**: How to Freeze Cookies and Cookie Dough for Easy Baking
 
 ## Allrecipes Community Tips and Praise
 
-"My go-to recipe," says [Andrea Howard](https://www.allrecipes.com/cook/26282421). "I sometimes add oatmeal, nuts, raisins, etc. but they are also fantastic without. Crunchy and chewy in every bite!"
+"My go-to recipe," says Andrea Howard. "I sometimes add oatmeal, nuts, raisins, etc. but they are also fantastic without. Crunchy and chewy in every bite!"
 
 "This is hands down the best chocolate chip cookie recipe!" raves Baybos the baker man. "So good that we want to quadruple the recipe and freeze a few batches."
 

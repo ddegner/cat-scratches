@@ -1,0 +1,14 @@
+{
+  "url": "https://theplosblog.plos.org/2025/11/plos-launches-two-journals-to-address-critical-real-world-challenges/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 1,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 301,
+    "readability_tokens": 301
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

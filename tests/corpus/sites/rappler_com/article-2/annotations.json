@@ -1,0 +1,14 @@
+{
+  "url": "https://www.rappler.com/newsbreak/fact-check/ferdinand-marcos-jr-hospitalized-critical-condition/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9902912621359223,
+    "recall_of_readability": 0.9967,
+    "recall_of_extracted": 0.9903,
+    "extracted_tokens": 309,
+    "readability_tokens": 307
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

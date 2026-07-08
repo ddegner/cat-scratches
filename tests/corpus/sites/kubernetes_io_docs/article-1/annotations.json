@@ -1,0 +1,7 @@
+{
+  "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md was actually complete (readability's 'missing' blocks were false positives from code-block whitespace differences, verified present); real junk was the page-footer 'Was this page helpful?' feedback widget and 'Last modified' git-commit line, both removed; stripped inline link URLs throughout"
+}

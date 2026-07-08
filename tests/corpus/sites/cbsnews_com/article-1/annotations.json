@@ -1,0 +1,7 @@
+{
+  "url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed two Bankrate affiliate CTA links, stripped inline link URLs, and fixed quadruple-asterisk bold to standard bold"
+}

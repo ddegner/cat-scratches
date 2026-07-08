@@ -1,0 +1,7 @@
+{
+  "url": "https://www.straitstimes.com/singapore/transport/coe-prices-up-across-the-board-cat-a-premium-rises-to-124790?ref=singapore",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed newsletter signup and photo credit; extractor cut off after the Theseira quote, missing the last 8 paragraphs (deregistration outlook, parliamentary reply, LTA quota data) found buried in source.html JSON"
+}

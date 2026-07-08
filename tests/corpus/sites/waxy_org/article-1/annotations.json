@@ -1,0 +1,14 @@
+{
+  "url": "https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9928571428571429,
+    "recall_of_readability": 0.9929,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 417,
+    "readability_tokens": 420
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

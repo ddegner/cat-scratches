@@ -427,4 +427,44 @@ const filler = " filler text".repeat(40);
   );
 }
 
+// --- Structural extraction fixes (2026-07) --------------------------------
+{
+  const pad = "<p>" + "Padding sentence to clear the minimum content length threshold. ".repeat(6) + "</p>";
+
+  // Inline fusion repair: CSS-spaced label/value spans must not fuse.
+  const fused = extract(
+    `<main><article><div><span>balance_transaction</span><span>nullable string</span><span>Expandable</span></div>${pad}</article></main>`,
+  );
+  assert.match(fused, /balance_transaction nullable string Expandable|balance\\_transaction nullable string Expandable/, "adjacent inline spans get a separating space");
+
+  // Emphasis siblings are NOT separated (would shift cleanup-rule anchors).
+  const emphasis = extract(`<main><article><p><em>Instagram</em><em>.</em></p>${pad}</article></main>`);
+  assert.doesNotMatch(emphasis, /Instagram\s+\W*\s+\./, "adjacent emphasis elements are left fused (turndown markers already separate them)");
+
+  // Prose with real text nodes between elements is never touched.
+  const prose = extract(`<main><article><p>He said <em>hi</em>. Then <a href="/x">left</a>, quietly.</p>${pad}</article></main>`);
+  assert.match(prose, /He said _hi_\. Then left, quietly\./, "prose with interleaved text nodes is unchanged");
+
+  // Deck rescue: a standfirst sibling outside the content root is prepended.
+  const deck = extract(
+    `<main><div class="row"><div class="article__intro">The lede paragraph that sets up the whole story for readers.</div><div class="article__content"><p>Body paragraph one with plenty of words to pass the length gate here.</p>${pad}</div></div></main>`,
+    { selectors: [".article__content"] },
+  );
+  assert.match(deck, /The lede paragraph that sets up the whole story/, "deck/standfirst sibling is rescued into the output");
+
+  // Deck rescue must NOT duplicate a dek already inside the body.
+  const dekDupe = extract(
+    `<main><div class="row"><div class="article__intro">Shared dek sentence.</div><div class="article__content"><p>Shared dek sentence.</p>${pad}</div></div></main>`,
+    { selectors: [".article__content"] },
+  );
+  assert.equal((dekDupe.match(/Shared dek sentence/g) || []).length, 1, "deck already present in body is not duplicated");
+
+  // Subheadings (class contains 'subhead') are NOT treated as decks.
+  const subhead = extract(
+    `<main><div class="row"><div class="b-subheadline">A mid-article section heading.</div><div class="article__content"><p>Body paragraph with enough words to pass the content length gate cleanly.</p>${pad}</div></div></main>`,
+    { selectors: [".article__content"] },
+  );
+  assert.doesNotMatch(subhead, /A mid-article section heading/, "subheadline siblings are not rescued as decks");
+}
+
 console.log("extraction regression tests passed");

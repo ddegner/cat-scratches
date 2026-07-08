@@ -1,0 +1,7 @@
+{
+  "url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept a 'MORE CONTEXT' related-articles list with broken link markup; removed it and the section label/headline, kept dek and body"
+}

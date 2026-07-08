@@ -1,0 +1,7 @@
+{
+  "url": "https://www.nature.com/articles/d41586-026-01465-0?error=cookies_not_supported&code=65e79cfe-e12e-4a81-991b-54780d0cc9c5",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor dropped the deck/summary sentence (\"Neuronal recordings of people under anaesthesia...\"); readability had it but also References/Related Articles/Latest-on chrome which was excluded. Also dropped now-orphaned numeric footnote markers since the reference list itself is excluded."
+}

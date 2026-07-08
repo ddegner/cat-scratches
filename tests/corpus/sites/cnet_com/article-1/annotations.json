@@ -1,0 +1,14 @@
+{
+  "url": "https://www.cnet.com/news/social-media/online-child-teen-safety-social-media-age-verification-feature-news/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9729448491155047,
+    "recall_of_readability": 0.9729,
+    "recall_of_extracted": 0.9936,
+    "extracted_tokens": 941,
+    "readability_tokens": 961
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

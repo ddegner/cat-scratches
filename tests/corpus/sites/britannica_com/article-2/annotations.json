@@ -1,0 +1,7 @@
+{
+  "url": "https://www.britannica.com/event/French-Revolution",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Same Britannica page-chrome pattern as article-1 (print/cite/feedback UI, external-links lists, byline, Quick Facts sidebar, quiz promo); kept Top Questions Q&A + article prose."
+}

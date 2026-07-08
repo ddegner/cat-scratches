@@ -1,0 +1,14 @@
+{
+  "url": "https://www.engadget.com/2164815/remarkable-paper-pure-review/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9867724867724867,
+    "recall_of_readability": 0.9868,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 746,
+    "readability_tokens": 756
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -1,0 +1,6 @@
+# Regenerable optimizer artifacts — not source of truth. Ground truth
+# (expected.md, annotations.json) and the pinned eval-baseline.json ARE tracked.
+sites/**/evidence.json
+eval-report.json
+eval-report-structural.json
+candidates/

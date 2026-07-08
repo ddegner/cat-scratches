@@ -1,0 +1,14 @@
+{
+  "url": "https://nypost.com/2026/05/06/lifestyle/woman-left-stressful-teaching-job-to-earn-100000-a-year-as-a-professional-cuddler/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9643916913946587,
+    "recall_of_readability": 0.9644,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 325,
+    "readability_tokens": 337
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

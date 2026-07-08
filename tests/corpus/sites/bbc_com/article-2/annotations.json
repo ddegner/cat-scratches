@@ -1,0 +1,14 @@
+{
+  "url": "https://www.bbc.com/travel/article/20260506-what-british-people-really-mean-when-they-say-sorry",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9614457831325302,
+    "recall_of_readability": 0.9614,
+    "recall_of_extracted": 0.9779,
+    "extracted_tokens": 408,
+    "readability_tokens": 415
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

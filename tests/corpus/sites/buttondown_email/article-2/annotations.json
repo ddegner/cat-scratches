@@ -1,0 +1,14 @@
+{
+  "url": "https://buttondown.com/blog/future-of-email",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.981021897810219,
+    "recall_of_readability": 0.981,
+    "recall_of_extracted": 0.9956,
+    "extracted_tokens": 675,
+    "readability_tokens": 685
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

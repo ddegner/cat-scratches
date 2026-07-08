@@ -1,4 +1,4 @@
-I wanted to give an update on GitHub’s availability in light of [two recent incidents](#h-recent-incidents). Both of those incidents are not acceptable, and we are sorry for the impact they had on you. I wanted to share some details on them, as well as explain what we’ve done and what we’re doing to improve our reliability.
+I wanted to give an update on GitHub’s availability in light of two recent incidents. Both of those incidents are not acceptable, and we are sorry for the impact they had on you. I wanted to share some details on them, as well as explain what we’ve done and what we’re doing to improve our reliability.
 
 We started executing our plan to increase GitHub’s capacity by 10X in October 2025 with a goal of substantially improving reliability and failover. By February 2026, it was clear that we needed to design for a future that requires 30X today’s scale.
 
@@ -46,7 +46,7 @@ This is one of the systems we had not yet fully isolated to eliminate as a singl
 
 We have also heard clear feedback that customers need greater transparency during incidents.
 
-We recently [updated](https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/) the [GitHub status page](https://www.githubstatus.com/) to include availability numbers. We have also committed to statusing incidents both large and small, so you do not have to guess whether an issue is on your side or ours.
+We recently updated the GitHub status page to include availability numbers. We have also committed to statusing incidents both large and small, so you do not have to guess whether an issue is on your side or ours.
 
 We are continuing to improve how we categorize incidents so that the scale and scope are easier to understand. We are also working on better ways for customers to report incidents and share signals with us during disruptions.
 

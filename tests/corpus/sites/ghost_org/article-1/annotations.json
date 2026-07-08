@@ -1,0 +1,7 @@
+{
+  "url": "https://ghost.org/6/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept repeated 'follow this feed' UI cards (404 Media, Platformer, etc.), a stray arrow glyph, and a 'Powered by' badge; removed as chrome, kept the real announcement prose and feature list"
+}

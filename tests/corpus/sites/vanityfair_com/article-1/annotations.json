@@ -1,0 +1,7 @@
+{
+  "url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept a 'More Great Stories' recirc list (same site pattern as article-2); removed it and stripped inline link URLs, body otherwise correct"
+}

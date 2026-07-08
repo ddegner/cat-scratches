@@ -1,0 +1,14 @@
+{
+  "url": "https://jacobin.com/2024/06/morena-amlo-anti-corruption-class-politics/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9982425307557118,
+    "recall_of_readability": 0.9982,
+    "recall_of_extracted": 0.9982,
+    "extracted_tokens": 569,
+    "readability_tokens": 569
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

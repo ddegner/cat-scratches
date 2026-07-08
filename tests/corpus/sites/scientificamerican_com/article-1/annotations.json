@@ -1,0 +1,7 @@
+{
+  "url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extracted content was complete but kept UTM-tracked markdown link URLs throughout; stripped to plain visible text per link-URL convention"
+}

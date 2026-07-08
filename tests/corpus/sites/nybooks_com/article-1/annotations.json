@@ -1,0 +1,14 @@
+{
+  "url": "https://www.nybooks.com/articles/2026/05/28/irans-new-winter-christopher-de-bellaigue/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.95092693565976,
+    "recall_of_readability": 0.9989,
+    "recall_of_extracted": 0.9509,
+    "extracted_tokens": 917,
+    "readability_tokens": 873
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

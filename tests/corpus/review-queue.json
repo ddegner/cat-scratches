@@ -1,0 +1,1820 @@
+{
+  "generated_at": "2026-07-07T03:17:17.987Z",
+  "min_agreement": 0.93,
+  "queue": [
+    {
+      "id": "semafor_com/article-2",
+      "category": "news-major",
+      "url": "https://www.semafor.com/article/05/06/2026/anthropics-tie-up-with-elon-musk-paves-way-for-space-data-centers",
+      "score": 0.6519337016574586,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.6519,
+      "extracted_tokens": 181,
+      "readability_tokens": 118,
+      "reason": "too-thin"
+    },
+    {
+      "id": "msnbc_com/article-2",
+      "category": "news-major",
+      "url": "https://www.ms.now/all-in/watch/epstein-s-purported-suicide-note-released-2499126339549",
+      "score": 0.07692307692307693,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.0769,
+      "extracted_tokens": 65,
+      "readability_tokens": 5,
+      "reason": "too-thin"
+    },
+    {
+      "id": "spiegel_de/article-2",
+      "category": "news-intl",
+      "url": "https://www.spiegel.de/politik/ausland/demokraten-die-ergebnisse-in-den-einzelnen-staaten-a-67890.html",
+      "score": 0.7377049180327869,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.7377,
+      "extracted_tokens": 61,
+      "readability_tokens": 45,
+      "reason": "too-thin"
+    },
+    {
+      "id": "asahi_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.asahi.com/articles/ASV567259V56BQBQ2C5M.html?iref=comtop_7_06",
+      "score": 0.625,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.625,
+      "extracted_tokens": 8,
+      "readability_tokens": 5,
+      "reason": "too-thin"
+    },
+    {
+      "id": "asahi_com/article-2",
+      "category": "news-intl",
+      "url": "https://www.asahi.com/articles/ASV56266LV56ULFA00DM.html?iref=comtop_BreakingNews_list",
+      "score": 0.2857142857142857,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.2857,
+      "extracted_tokens": 7,
+      "readability_tokens": 2,
+      "reason": "too-thin"
+    },
+    {
+      "id": "rt_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.rt.com/shows/breaking-set-summary/poisoning-wa-oscars-propaganda-tpp-secrecy-tour-de-peace-456/",
+      "score": 0.7166666666666667,
+      "recall_of_readability": 0.9773,
+      "recall_of_extracted": 0.7167,
+      "extracted_tokens": 120,
+      "readability_tokens": 88,
+      "reason": "too-thin"
+    },
+    {
+      "id": "themoscowtimes_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.themoscowtimes.com/2012/02/02/putin-agrees-to-collaborate-with-election-observer-group-a12345",
+      "score": 0.5402298850574713,
+      "recall_of_readability": 0.5402,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 94,
+      "readability_tokens": 174,
+      "reason": "too-thin"
+    },
+    {
+      "id": "timesofindia_indiatimes_com/article-1",
+      "category": "news-intl",
+      "url": "https://timesofindia.indiatimes.com/india/example/articleshow/12345678.cms",
+      "score": 1,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 38,
+      "readability_tokens": 38,
+      "reason": "too-thin"
+    },
+    {
+      "id": "japantimes_co_jp/article-1",
+      "category": "news-intl",
+      "url": "https://www.japantimes.co.jp/news/2026/05/06/japan/japan-government-agencies-ai/",
+      "score": 0.6413043478260869,
+      "recall_of_readability": 0.6413,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 59,
+      "readability_tokens": 92,
+      "reason": "too-thin"
+    },
+    {
+      "id": "japantimes_co_jp/article-2",
+      "category": "news-intl",
+      "url": "https://www.japantimes.co.jp/news/2026/05/06/japan/swine-fever-outbreak-shizuoka/",
+      "score": 1,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 50,
+      "readability_tokens": 50,
+      "reason": "too-thin"
+    },
+    {
+      "id": "koreatimes_co_kr/article-1",
+      "category": "news-intl",
+      "url": "https://www.koreatimes.co.kr/southkorea/20121030/gyeonggi-province-forges-education-deal-with-us-state?utm_source=legacy_url&utm_medium=redirect&utm_campaign=news_manager_id",
+      "score": 0.9047619047619048,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.9048,
+      "extracted_tokens": 84,
+      "readability_tokens": 76,
+      "reason": "too-thin"
+    },
+    {
+      "id": "cnet_com/article-2",
+      "category": "tech-news",
+      "url": "https://www.cnet.com/tech/computing/this-25000-robot-looks-right-out-of-star-wars/",
+      "score": 0.6071428571428571,
+      "recall_of_readability": 0.6071,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 85,
+      "readability_tokens": 140,
+      "reason": "too-thin"
+    },
+    {
+      "id": "arxiv_org/article-1",
+      "category": "science",
+      "url": "https://arxiv.org/abs/2405.12345",
+      "score": 0.4682926829268293,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.4683,
+      "extracted_tokens": 205,
+      "readability_tokens": 96,
+      "reason": "too-thin"
+    },
+    {
+      "id": "pubmed_ncbi_nlm_nih_gov/article-2",
+      "category": "science",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38987654/",
+      "score": 0.3419354838709677,
+      "recall_of_readability": 0.8413,
+      "recall_of_extracted": 0.3419,
+      "extracted_tokens": 155,
+      "readability_tokens": 63,
+      "reason": "too-thin"
+    },
+    {
+      "id": "vqronline_org/article-2",
+      "category": "longform",
+      "url": "https://www.vqronline.org/vqr-congratulates-2024-winners",
+      "score": 0.8472222222222222,
+      "recall_of_readability": 0.9385,
+      "recall_of_extracted": 0.8472,
+      "extracted_tokens": 72,
+      "readability_tokens": 65,
+      "reason": "too-thin"
+    },
+    {
+      "id": "newrepublic_com/article-1",
+      "category": "longform",
+      "url": "https://newrepublic.com/article/123456/jezebel-tracked-down-the-woman-who-read-claudia-rankines-citizen-at-a-trump-rally",
+      "score": 1,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 115,
+      "readability_tokens": 115,
+      "reason": "too-thin"
+    },
+    {
+      "id": "kottke_org/article-1",
+      "category": "blog",
+      "url": "https://kottke.org/26/05/0048886-a-guy-interviewing-for-an",
+      "score": 0.8,
+      "recall_of_readability": 0.8,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 24,
+      "readability_tokens": 30,
+      "reason": "too-thin"
+    },
+    {
+      "id": "kottke_org/article-2",
+      "category": "blog",
+      "url": "https://kottke.org/26/05/0048880-what-has-changed-about-cl",
+      "score": 0.7931034482758621,
+      "recall_of_readability": 0.7931,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 23,
+      "readability_tokens": 29,
+      "reason": "too-thin"
+    },
+    {
+      "id": "tumblr_com/article-2",
+      "category": "blog",
+      "url": "https://www.tumblr.com/staff/811667537981030400",
+      "score": 0.9431818181818182,
+      "recall_of_readability": 0.9432,
+      "recall_of_extracted": 0.9432,
+      "extracted_tokens": 88,
+      "readability_tokens": 88,
+      "reason": "too-thin"
+    },
+    {
+      "id": "blogspot_com/article-1",
+      "category": "blog",
+      "url": "https://blogger.googleblog.com/2020/05/a-better-blogger-experience-on-web.html",
+      "score": 0.015706806282722512,
+      "recall_of_readability": 0.6,
+      "recall_of_extracted": 0.0157,
+      "extracted_tokens": 191,
+      "readability_tokens": 5,
+      "reason": "too-thin"
+    },
+    {
+      "id": "blogspot_com/article-2",
+      "category": "blog",
+      "url": "https://blogger.googleblog.com/2019/01/an-update-on-google-and-blogger.html",
+      "score": 0.010309278350515464,
+      "recall_of_readability": 0.2,
+      "recall_of_extracted": 0.0103,
+      "extracted_tokens": 97,
+      "readability_tokens": 5,
+      "reason": "too-thin"
+    },
+    {
+      "id": "micro_blog/article-1",
+      "category": "blog",
+      "url": "https://www.manton.org/2026/05/06/anthropic-has-announced-a-major.html",
+      "score": 0.9622641509433962,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.9623,
+      "extracted_tokens": 53,
+      "readability_tokens": 51,
+      "reason": "too-thin"
+    },
+    {
+      "id": "micro_blog/article-2",
+      "category": "blog",
+      "url": "https://www.manton.org/2026/05/06/spacex-data-center-followup.html",
+      "score": 0.9705882352941176,
+      "recall_of_readability": 0.9851,
+      "recall_of_extracted": 0.9706,
+      "extracted_tokens": 68,
+      "readability_tokens": 67,
+      "reason": "too-thin"
+    },
+    {
+      "id": "hugo_example/article-2",
+      "category": "blog",
+      "url": "https://gohugo.io/about/introduction/",
+      "score": 0.7961165048543689,
+      "recall_of_readability": 0.9318,
+      "recall_of_extracted": 0.7961,
+      "extracted_tokens": 103,
+      "readability_tokens": 88,
+      "reason": "too-thin"
+    },
+    {
+      "id": "docs_stripe_com/article-1",
+      "category": "docs",
+      "url": "https://docs.stripe.com/payments/quickstart",
+      "score": 0,
+      "extracted_tokens": 112,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "kubernetes_io_docs/article-2",
+      "category": "docs",
+      "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+      "score": 0.7286821705426356,
+      "recall_of_readability": 0.9691,
+      "recall_of_extracted": 0.7287,
+      "extracted_tokens": 129,
+      "readability_tokens": 97,
+      "reason": "too-thin"
+    },
+    {
+      "id": "developer_apple_com_docs/article-1",
+      "category": "docs",
+      "url": "https://developer.apple.com/documentation/swiftui/view",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "developer_apple_com_docs/article-2",
+      "category": "docs",
+      "url": "https://developer.apple.com/documentation/uikit/uiviewcontroller",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "docs_aws_amazon_com/article-1",
+      "category": "docs",
+      "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+      "score": 0.011235955056179775,
+      "recall_of_readability": 0.0112,
+      "recall_of_extracted": 0.1667,
+      "extracted_tokens": 18,
+      "readability_tokens": 267,
+      "reason": "too-thin"
+    },
+    {
+      "id": "docs_aws_amazon_com/article-2",
+      "category": "docs",
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html",
+      "score": 0.007238883143743537,
+      "recall_of_readability": 0.0072,
+      "recall_of_extracted": 0.3889,
+      "extracted_tokens": 18,
+      "readability_tokens": 967,
+      "reason": "too-thin"
+    },
+    {
+      "id": "reddit_com_old/article-1",
+      "category": "forum",
+      "url": "https://old.reddit.com/r/okbuddycinephile/comments/1t59734/the_substance_2024/",
+      "score": 0.0646830530401035,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.0647,
+      "extracted_tokens": 1546,
+      "readability_tokens": 100,
+      "reason": "too-thin"
+    },
+    {
+      "id": "reddit_com_new/article-1",
+      "category": "forum",
+      "url": "https://www.reddit.com/r/programming/comments/1cr123/example_thread/",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "reddit_com_new/article-2",
+      "category": "forum",
+      "url": "https://www.reddit.com/r/AskHistorians/comments/1ab456/example_answer/",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "news_ycombinator_com_thread/article-1",
+      "category": "forum",
+      "url": "https://news.ycombinator.com/item?id=40358101",
+      "score": 0.6842105263157895,
+      "recall_of_readability": 0.8125,
+      "recall_of_extracted": 0.6842,
+      "extracted_tokens": 19,
+      "readability_tokens": 16,
+      "reason": "too-thin"
+    },
+    {
+      "id": "news_ycombinator_com_thread/article-2",
+      "category": "forum",
+      "url": "https://news.ycombinator.com/item?id=42112345",
+      "score": 0.7321428571428571,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.7321,
+      "extracted_tokens": 112,
+      "readability_tokens": 82,
+      "reason": "too-thin"
+    },
+    {
+      "id": "lobste_rs/article-1",
+      "category": "forum",
+      "url": "https://lobste.rs/s/bgjmvk/we_re_not_building_ai_features_for_money",
+      "score": 0.018018018018018018,
+      "recall_of_readability": 0.018,
+      "recall_of_extracted": 0.3333,
+      "extracted_tokens": 6,
+      "readability_tokens": 111,
+      "reason": "too-thin"
+    },
+    {
+      "id": "github_com_issue/article-1",
+      "category": "forum",
+      "url": "https://github.com/nodejs/node/issues/12345",
+      "score": 0.4,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.4,
+      "extracted_tokens": 80,
+      "readability_tokens": 32,
+      "reason": "too-thin"
+    },
+    {
+      "id": "github_com_issue/article-2",
+      "category": "forum",
+      "url": "https://github.com/microsoft/vscode/pull/54321",
+      "score": 0.012658227848101266,
+      "recall_of_readability": 0.0345,
+      "recall_of_extracted": 0.0127,
+      "extracted_tokens": 79,
+      "readability_tokens": 29,
+      "reason": "too-thin"
+    },
+    {
+      "id": "bonappetit_com/article-2",
+      "category": "recipe",
+      "url": "https://www.bonappetit.com/recipes/slideshow/spring-salads-slideshow",
+      "score": 0.10869565217391304,
+      "recall_of_readability": 0.137,
+      "recall_of_extracted": 0.1087,
+      "extracted_tokens": 92,
+      "readability_tokens": 73,
+      "reason": "too-thin"
+    },
+    {
+      "id": "shopify_com_store/article-1",
+      "category": "ecommerce",
+      "url": "https://www.allbirds.com/products/mens-wool-runners",
+      "score": 0.4604651162790698,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.4605,
+      "extracted_tokens": 215,
+      "readability_tokens": 99,
+      "reason": "too-thin"
+    },
+    {
+      "id": "target_com/article-2",
+      "category": "ecommerce",
+      "url": "https://www.target.com/p/example-two/-/A-87654321",
+      "score": 0.417910447761194,
+      "recall_of_readability": 0.549,
+      "recall_of_extracted": 0.4179,
+      "extracted_tokens": 67,
+      "readability_tokens": 51,
+      "reason": "too-thin"
+    },
+    {
+      "id": "bsky_app/article-1",
+      "category": "social",
+      "url": "https://bsky.app/profile/jay.bsky.team/post/3kabc123def",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "bsky_app/article-2",
+      "category": "social",
+      "url": "https://bsky.app/profile/pfrazee.com/post/3kxyz456ghi",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "threads_net/article-1",
+      "category": "social",
+      "url": "https://www.threads.com/?error=invalid_post",
+      "score": 0.5737704918032787,
+      "recall_of_readability": 0.8333,
+      "recall_of_extracted": 0.5738,
+      "extracted_tokens": 61,
+      "readability_tokens": 42,
+      "reason": "too-thin"
+    },
+    {
+      "id": "threads_net/article-2",
+      "category": "social",
+      "url": "https://www.threads.com/?error=invalid_post",
+      "score": 0.9166666666666666,
+      "recall_of_readability": 0.9167,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 11,
+      "readability_tokens": 12,
+      "reason": "too-thin"
+    },
+    {
+      "id": "linkedin_com_pulse/article-1",
+      "category": "social",
+      "url": "https://www.linkedin.com/top-content/?trk=article_not_found",
+      "score": 0.12345679012345678,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.1235,
+      "extracted_tokens": 162,
+      "readability_tokens": 20,
+      "reason": "too-thin"
+    },
+    {
+      "id": "linkedin_com_pulse/article-2",
+      "category": "social",
+      "url": "https://www.linkedin.com/top-content/?trk=article_not_found",
+      "score": 0.12345679012345678,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.1235,
+      "extracted_tokens": 162,
+      "readability_tokens": 20,
+      "reason": "too-thin"
+    },
+    {
+      "id": "x_com_article/article-1",
+      "category": "social",
+      "url": "https://x.com/elonmusk/status/1234567890123456789",
+      "score": 1,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 21,
+      "readability_tokens": 21,
+      "reason": "too-thin"
+    },
+    {
+      "id": "x_com_article/article-2",
+      "category": "social",
+      "url": "https://x.com/paulg/status/1876543210987654321",
+      "score": 1,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 21,
+      "readability_tokens": 21,
+      "reason": "too-thin"
+    },
+    {
+      "id": "youtube_com_watch/article-1",
+      "category": "video",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "youtube_com_watch/article-2",
+      "category": "video",
+      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "podcasts_apple_com/article-1",
+      "category": "video",
+      "url": "https://podcasts.apple.com/us/podcast/miami-gp-race-review/id1670705840?i=1000765941837",
+      "score": 0.8631578947368421,
+      "recall_of_readability": 0.9762,
+      "recall_of_extracted": 0.8632,
+      "extracted_tokens": 95,
+      "readability_tokens": 84,
+      "reason": "too-thin"
+    },
+    {
+      "id": "spotify_com_episode/article-1",
+      "category": "video",
+      "url": "https://open.spotify.com/episode/abc123def456ghi789",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "spotify_com_episode/article-2",
+      "category": "video",
+      "url": "https://open.spotify.com/episode/xyz987wvu654tsr321",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "supremecourt_gov/article-1",
+      "category": "government",
+      "url": "https://www.supremecourt.gov/publicinfo/year-end/year-endreports.aspx",
+      "score": 0.05405405405405406,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.0541,
+      "extracted_tokens": 148,
+      "readability_tokens": 8,
+      "reason": "too-thin"
+    },
+    {
+      "id": "gov_uk/article-1",
+      "category": "government",
+      "url": "https://www.gov.uk/government/news/foreign-office-travel-advice-updates",
+      "score": 0.7553191489361702,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.7553,
+      "extracted_tokens": 94,
+      "readability_tokens": 71,
+      "reason": "too-thin"
+    },
+    {
+      "id": "gitbook_io/article-1",
+      "category": "docs-public",
+      "url": "https://gitbook.com/docs",
+      "score": 0.38461538461538464,
+      "recall_of_readability": 0.3846,
+      "recall_of_extracted": 0.5882,
+      "extracted_tokens": 34,
+      "readability_tokens": 52,
+      "reason": "too-thin"
+    },
+    {
+      "id": "gitbook_io/article-2",
+      "category": "docs-public",
+      "url": "https://gitbook.com/docs/integrations/install-an-integration",
+      "score": 0.8043478260869565,
+      "recall_of_readability": 0.8043,
+      "recall_of_extracted": 0.9487,
+      "extracted_tokens": 78,
+      "readability_tokens": 92,
+      "reason": "too-thin"
+    },
+    {
+      "id": "obsidian_publish/article-1",
+      "category": "docs-public",
+      "url": "https://obsidian.md/help/Start+here",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "obsidian_publish/article-2",
+      "category": "docs-public",
+      "url": "https://obsidian.md/help/Getting+started/Create+your+first+note",
+      "score": 0,
+      "extracted_tokens": 5,
+      "readability_tokens": 0,
+      "reason": "too-thin"
+    },
+    {
+      "id": "nytimes_com/article-1",
+      "category": "news-major",
+      "url": "https://www.nytimes.com/2026/05/06/us/politics/israel-maga-republicans.html",
+      "score": 0.9229480737018425,
+      "recall_of_readability": 0.9229,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 551,
+      "readability_tokens": 597,
+      "reason": "disagreement"
+    },
+    {
+      "id": "bbc_com/article-1",
+      "category": "news-major",
+      "url": "https://www.bbc.com/news/articles/c1m253033m4o",
+      "score": 0.9026845637583892,
+      "recall_of_readability": 0.9027,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 269,
+      "readability_tokens": 298,
+      "reason": "disagreement"
+    },
+    {
+      "id": "theatlantic_com/article-2",
+      "category": "longform",
+      "url": "https://www.theatlantic.com/national/archive/2024/05/political-dysfunction-facing-congress-washington-week/678425/",
+      "score": 0.864516129032258,
+      "recall_of_readability": 0.8645,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 134,
+      "readability_tokens": 155,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:32:20.270Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "npr_org/article-2",
+      "category": "news-major",
+      "url": "https://www.npr.org/2026/05/06/g-s1-118141/ragtime-tiny-desk-concert",
+      "score": 0.8789237668161435,
+      "recall_of_readability": 0.8869,
+      "recall_of_extracted": 0.8789,
+      "extracted_tokens": 223,
+      "readability_tokens": 221,
+      "reason": "disagreement"
+    },
+    {
+      "id": "vox_com/article-1",
+      "category": "news-major",
+      "url": "https://www.vox.com/politics/487934/iran-hormuz-ceasefire-end-five-scenarios",
+      "score": 0.9293139293139293,
+      "recall_of_readability": 0.9889,
+      "recall_of_extracted": 0.9293,
+      "extracted_tokens": 481,
+      "readability_tokens": 452,
+      "reason": "disagreement"
+    },
+    {
+      "id": "vox_com/article-2",
+      "category": "news-major",
+      "url": "https://www.vox.com/the-logoff-newsletter-trump/487986/kash-patel-fbi-investigate-atlantic-journalist-press-freedom",
+      "score": 0.9177489177489178,
+      "recall_of_readability": 0.9815,
+      "recall_of_extracted": 0.9177,
+      "extracted_tokens": 231,
+      "readability_tokens": 216,
+      "reason": "disagreement"
+    },
+    {
+      "id": "404media_co/article-1",
+      "category": "news-major",
+      "url": "https://www.404media.co/city-learns-flock-accessed-cameras-in-childrens-gymnastics-room-as-a-sales-pitch-demo-renews-contract-anyway/",
+      "score": 0.9146757679180887,
+      "recall_of_readability": 0.9147,
+      "recall_of_extracted": 0.9963,
+      "extracted_tokens": 269,
+      "readability_tokens": 293,
+      "reason": "disagreement"
+    },
+    {
+      "id": "nypost_com/article-2",
+      "category": "news-major",
+      "url": "https://nypost.com/2026/05/06/world-news/france-deploys-its-sole-aircraft-carrier-toward-strait-of-hormuz/",
+      "score": 0.9270833333333334,
+      "recall_of_readability": 0.9271,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 178,
+      "readability_tokens": 192,
+      "reason": "disagreement"
+    },
+    {
+      "id": "cbsnews_com/article-1",
+      "category": "news-major",
+      "url": "https://www.cbsnews.com/news/15000-cd-vs-high-yield-savings-account-vs-money-market-account-most-profitable-now/",
+      "score": 0.8695652173913043,
+      "recall_of_readability": 0.8696,
+      "recall_of_extracted": 0.9901,
+      "extracted_tokens": 202,
+      "readability_tokens": 230,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:41:07.262Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "cbsnews_com/article-2",
+      "category": "news-major",
+      "url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+      "score": 0.8717948717948718,
+      "recall_of_readability": 0.8718,
+      "recall_of_extracted": 0.9951,
+      "extracted_tokens": 205,
+      "readability_tokens": 234,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:43:18.370Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "abcnews_go_com/article-1",
+      "category": "news-major",
+      "url": "https://abcnews.com/Entertainment/wireStory/electrical-fire-broadway-theater-hosts-book-mormon-closed-132729594",
+      "score": 0.8636363636363636,
+      "recall_of_readability": 0.95,
+      "recall_of_extracted": 0.8636,
+      "extracted_tokens": 154,
+      "readability_tokens": 140,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:31:56.399Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "abcnews_go_com/article-2",
+      "category": "news-major",
+      "url": "https://abcnews.com/US/wireStory/runner-competing-250-mile-arizona-ultramarathon-dies-after-132730370",
+      "score": 0.8148148148148148,
+      "recall_of_readability": 0.9565,
+      "recall_of_extracted": 0.8148,
+      "extracted_tokens": 189,
+      "readability_tokens": 161,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:12:07.382Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "foxnews_com/article-1",
+      "category": "news-major",
+      "url": "https://www.foxnews.com/politics/china-orders-firms-ignore-us-iran-sanctions-daring-us-enforce-crackdown",
+      "score": 0.8676844783715013,
+      "recall_of_readability": 0.8677,
+      "recall_of_extracted": 0.9942,
+      "extracted_tokens": 343,
+      "readability_tokens": 393,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:40:37.152Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "foxnews_com/article-2",
+      "category": "news-major",
+      "url": "https://www.foxnews.com/media/rutgers-pulls-graduation-speaker-after-his-anti-israel-social-media-posts-allegedly-drew-student-backlash",
+      "score": 0.7076923076923077,
+      "recall_of_readability": 0.7077,
+      "recall_of_extracted": 0.9946,
+      "extracted_tokens": 185,
+      "readability_tokens": 260,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:05:03.176Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "huffpost_com/article-1",
+      "category": "news-major",
+      "url": "https://www.huffpost.com/entry/chief-justice-roberts-public-supreme-court-politics_n_69fbed5fe4b0cb033e4f76f6",
+      "score": 0.9168765743073047,
+      "recall_of_readability": 0.9169,
+      "recall_of_extracted": 0.9918,
+      "extracted_tokens": 367,
+      "readability_tokens": 397,
+      "reason": "disagreement"
+    },
+    {
+      "id": "dailybeast_com/article-2",
+      "category": "news-major",
+      "url": "https://thelooker.thedailybeast.com/makeup-artist-donni-davy-how-i-got-540000-followers-as-an-introvert/",
+      "score": 0.8698884758364313,
+      "recall_of_readability": 0.8699,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 234,
+      "readability_tokens": 269,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:41:33.990Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "aljazeera_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+      "score": 0.865,
+      "recall_of_readability": 0.865,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 173,
+      "readability_tokens": 200,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:32:37.174Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "dw_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.dw.com/en/austria-police-report-3-dead-in-shooting-in-linz-say-no-further-danger-to-public/a-77081505",
+      "score": 0.8734177215189873,
+      "recall_of_readability": 0.8734,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 138,
+      "readability_tokens": 158,
+      "reason": "disagreement"
+    },
+    {
+      "id": "france24_com/article-2",
+      "category": "news-intl",
+      "url": "https://www.france24.com/en/technology/20260429-trump-says-nasa-has-good-shot-at-returning-astronauts-to-moon-before-2029",
+      "score": 0.896774193548387,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8968,
+      "extracted_tokens": 155,
+      "readability_tokens": 139,
+      "reason": "disagreement"
+    },
+    {
+      "id": "rt_com/article-2",
+      "category": "news-intl",
+      "url": "https://www.rt.com/news/639521-homes-alleged-right-wing-extremists-raided-germany/",
+      "score": 0.8414096916299559,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8414,
+      "extracted_tokens": 227,
+      "readability_tokens": 191,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:19:39.889Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "themoscowtimes_com/article-2",
+      "category": "news-intl",
+      "url": "https://www.themoscowtimes.com/2019/10/24/win-a-6000-rub-gift-certificate-pinch-a67890",
+      "score": 0.6108949416342413,
+      "recall_of_readability": 0.6109,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 157,
+      "readability_tokens": 257,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:35:20.919Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "kyivindependent_com/article-1",
+      "category": "news-intl",
+      "url": "https://kyivindependent.com/ukraines-culture-minister-on-why-culture-needs-kpis-to-succeed-on-a-mass-scale/",
+      "score": 0.8574969021065675,
+      "recall_of_readability": 0.8575,
+      "recall_of_extracted": 0.9971,
+      "extracted_tokens": 694,
+      "readability_tokens": 807,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:28:51.745Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "straitstimes_com/article-2",
+      "category": "news-intl",
+      "url": "https://www.straitstimes.com/singapore/transport/coe-prices-up-across-the-board-cat-a-premium-rises-to-124790?ref=singapore",
+      "score": 0.722007722007722,
+      "recall_of_readability": 0.722,
+      "recall_of_extracted": 0.9791,
+      "extracted_tokens": 191,
+      "readability_tokens": 259,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:05:46.605Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "rappler_com/article-1",
+      "category": "news-intl",
+      "url": "https://www.rappler.com/newsbreak/in-depth/224537-duterte-word-became-flesh-kill-bishops/",
+      "score": 0.9252669039145908,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.9253,
+      "extracted_tokens": 562,
+      "readability_tokens": 520,
+      "reason": "disagreement"
+    },
+    {
+      "id": "techcrunch_com/article-2",
+      "category": "tech-news",
+      "url": "https://techcrunch.com/2026/05/06/robinhoods-venture-fund-ipo-attracted-150000-retail-investors-ceo-says/",
+      "score": 0.8051948051948052,
+      "recall_of_readability": 0.8052,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 186,
+      "readability_tokens": 231,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:11:19.054Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "arstechnica_com/article-2",
+      "category": "tech-news",
+      "url": "https://arstechnica.com/cars/2026/05/how-do-you-design-a-30000-electric-pickup-inside-fords-skunkworks/",
+      "score": 0.30414201183431955,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.3041,
+      "extracted_tokens": 845,
+      "readability_tokens": 257,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:30:18.885Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "9to5mac_com/article-1",
+      "category": "tech-news",
+      "url": "https://9to5mac.com/2026/05/06/ipados-26-5-will-add-three-new-features-for-ipad-heres-whats-coming/?extended-comments=1",
+      "score": 0.8229166666666666,
+      "recall_of_readability": 0.8229,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 158,
+      "readability_tokens": 192,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:16:28.922Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "9to5mac_com/article-2",
+      "category": "tech-news",
+      "url": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+      "score": 0.7889447236180904,
+      "recall_of_readability": 0.7889,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 157,
+      "readability_tokens": 199,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:11:03.141Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "macrumors_com/article-1",
+      "category": "tech-news",
+      "url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+      "score": 0.6743119266055045,
+      "recall_of_readability": 0.6743,
+      "recall_of_extracted": 0.9484,
+      "extracted_tokens": 155,
+      "readability_tokens": 218,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:02:45.569Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "macrumors_com/article-2",
+      "category": "tech-news",
+      "url": "https://www.macrumors.com/2026/01/29/iphone-16-worlds-best-selling-phone-2025/",
+      "score": 0.6898148148148148,
+      "recall_of_readability": 0.6898,
+      "recall_of_extracted": 0.9613,
+      "extracted_tokens": 155,
+      "readability_tokens": 216,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:04:42.453Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "zdnet_com/article-1",
+      "category": "tech-news",
+      "url": "https://www.zdnet.com/home-and-office/home-entertainment/sony-vs-samsung-soundbars-comparison/",
+      "score": 0.6714579055441479,
+      "recall_of_readability": 0.9761,
+      "recall_of_extracted": 0.6715,
+      "extracted_tokens": 487,
+      "readability_tokens": 335,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:02:26.381Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "zdnet_com/article-2",
+      "category": "tech-news",
+      "url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+      "score": 0.7330827067669173,
+      "recall_of_readability": 0.9512,
+      "recall_of_extracted": 0.7331,
+      "extracted_tokens": 532,
+      "readability_tokens": 410,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:07:02.755Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "theregister_com/article-1",
+      "category": "tech-news",
+      "url": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
+      "score": 0.8325358851674641,
+      "recall_of_readability": 0.9943,
+      "recall_of_extracted": 0.8325,
+      "extracted_tokens": 209,
+      "readability_tokens": 175,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:17:39.927Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "theregister_com/article-2",
+      "category": "tech-news",
+      "url": "https://www.theregister.com/science/2026/05/06/mars-rover-hits-rocky-snag-with-power-tool/5230838",
+      "score": 0.8557692307692307,
+      "recall_of_readability": 0.9944,
+      "recall_of_extracted": 0.8558,
+      "extracted_tokens": 208,
+      "readability_tokens": 179,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:27:49.841Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "techradar_com/article-1",
+      "category": "tech-news",
+      "url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+      "score": 0.839572192513369,
+      "recall_of_readability": 0.8396,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 314,
+      "readability_tokens": 374,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:18:47.632Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "businessinsider_com/article-1",
+      "category": "tech-news",
+      "url": "https://www.businessinsider.com/tiktok-pulling-back-testing-ai-feature-went-haywire-charli-damelio2026-5",
+      "score": 0.9254237288135593,
+      "recall_of_readability": 0.9254,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 273,
+      "readability_tokens": 295,
+      "reason": "disagreement"
+    },
+    {
+      "id": "nature_com/article-2",
+      "category": "science",
+      "url": "https://www.nature.com/articles/d41586-026-01465-0?error=cookies_not_supported&code=65e79cfe-e12e-4a81-991b-54780d0cc9c5",
+      "score": 0.6689895470383276,
+      "recall_of_readability": 0.669,
+      "recall_of_extracted": 0.9948,
+      "extracted_tokens": 193,
+      "readability_tokens": 287,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:01:45.678Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "quantamagazine_org/article-1",
+      "category": "science",
+      "url": "https://www.quantamagazine.org/the-hidden-mathematical-dance-inside-plant-cells-20260504/",
+      "score": 0.7330827067669173,
+      "recall_of_readability": 0.9898,
+      "recall_of_extracted": 0.7331,
+      "extracted_tokens": 798,
+      "readability_tokens": 591,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:07:12.882Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "quantamagazine_org/article-2",
+      "category": "science",
+      "url": "https://www.quantamagazine.org/a-treasure-trove-of-cambrian-fossils-rewrites-the-story-of-early-life-20260501/",
+      "score": 0.5151006711409396,
+      "recall_of_readability": 0.5151,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 307,
+      "readability_tokens": 596,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:33:09.926Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "pubmed_ncbi_nlm_nih_gov/article-1",
+      "category": "science",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38123456/",
+      "score": 0.4076923076923077,
+      "recall_of_readability": 0.4077,
+      "recall_of_extracted": 0.9876,
+      "extracted_tokens": 161,
+      "readability_tokens": 390,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:30:56.041Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "scientificamerican_com/article-1",
+      "category": "science",
+      "url": "https://www.scientificamerican.com/article/why-some-mathematicians-think-we-should-abandon-pi/",
+      "score": 0.7338877338877339,
+      "recall_of_readability": 0.7339,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 353,
+      "readability_tokens": 481,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:07:42.574Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "scientificamerican_com/article-2",
+      "category": "science",
+      "url": "https://www.scientificamerican.com/article/the-hantavirus-cruise-ship-outbreak-is-a-dangerous-experiment/",
+      "score": 0.7311827956989247,
+      "recall_of_readability": 0.7312,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 340,
+      "readability_tokens": 465,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:06:21.952Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "phys_org/article-1",
+      "category": "science",
+      "url": "https://phys.org/news/2026-05-death-defying-protein-tardigrades-synthetic.html",
+      "score": 0.848314606741573,
+      "recall_of_readability": 0.8483,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 302,
+      "readability_tokens": 356,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:22:47.485Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "phys_org/article-2",
+      "category": "science",
+      "url": "https://phys.org/news/2026-05-college-students-aismoothed-strong.html",
+      "score": 0.9298245614035088,
+      "recall_of_readability": 0.9298,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 424,
+      "readability_tokens": 456,
+      "reason": "disagreement"
+    },
+    {
+      "id": "plos_org/article-2",
+      "category": "science",
+      "url": "https://theplosblog.plos.org/2025/08/plos-responds-to-pnas-study-detailing-the-growth-of-peer-review-integrity-issues/",
+      "score": 0.7609561752988048,
+      "recall_of_readability": 0.761,
+      "recall_of_extracted": 0.9948,
+      "extracted_tokens": 192,
+      "readability_tokens": 251,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:10:08.124Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "longreads_com/article-1",
+      "category": "longform",
+      "url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+      "score": 0.8411214953271028,
+      "recall_of_readability": 0.8411,
+      "recall_of_extracted": 0.989,
+      "extracted_tokens": 182,
+      "readability_tokens": 214,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:19:23.229Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "longreads_com/article-2",
+      "category": "longform",
+      "url": "https://longreads.com/2026/05/06/what-will-it-take-to-get-ai-out-of-schools/",
+      "score": 0.9128205128205128,
+      "recall_of_readability": 0.9128,
+      "recall_of_extracted": 0.9889,
+      "extracted_tokens": 180,
+      "readability_tokens": 195,
+      "reason": "disagreement"
+    },
+    {
+      "id": "vqronline_org/article-1",
+      "category": "longform",
+      "url": "https://www.vqronline.org/winter-2025/photography-portfolios/last-days-and-afterlife-san-nicolas-mine",
+      "score": 0.7277777777777777,
+      "recall_of_readability": 0.9034,
+      "recall_of_extracted": 0.7278,
+      "extracted_tokens": 360,
+      "readability_tokens": 290,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:06:08.442Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "thebeliever_net/article-1",
+      "category": "longform",
+      "url": "https://www.thebeliever.net/a-review-of-ladies-almanack/",
+      "score": 0.917910447761194,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.9179,
+      "extracted_tokens": 402,
+      "readability_tokens": 369,
+      "reason": "disagreement"
+    },
+    {
+      "id": "vanityfair_com/article-1",
+      "category": "longform",
+      "url": "https://www.vanityfair.com/style/story/anok-yai-met-gala-2026-black-madonna-balenciaga",
+      "score": 0.8495575221238938,
+      "recall_of_readability": 0.9897,
+      "recall_of_extracted": 0.8496,
+      "extracted_tokens": 226,
+      "readability_tokens": 194,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:24:43.613Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "vanityfair_com/article-2",
+      "category": "longform",
+      "url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+      "score": 0.8203546646106399,
+      "recall_of_readability": 0.8204,
+      "recall_of_extracted": 0.9744,
+      "extracted_tokens": 1092,
+      "readability_tokens": 1297,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:14:48.708Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "martinfowler_com/article-1",
+      "category": "blog",
+      "url": "https://martinfowler.com/articles/ship-show-ask.html",
+      "score": 0.8515037593984962,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8515,
+      "extracted_tokens": 532,
+      "readability_tokens": 453,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:27:14.032Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "daringfireball_net/article-1",
+      "category": "blog",
+      "url": "https://daringfireball.net/linked/2026/05/06/claris-filemaker-agentic-coding",
+      "score": 0.85,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.85,
+      "extracted_tokens": 180,
+      "readability_tokens": 153,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:25:04.972Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "daringfireball_net/article-2",
+      "category": "blog",
+      "url": "https://daringfireball.net/linked/2026/05/01/tim-cooks-clever-solution-to-the-tariff-refund-puzzle",
+      "score": 0.8715596330275229,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8716,
+      "extracted_tokens": 218,
+      "readability_tokens": 190,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:42:52.877Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "swiftbysundell_com/article-1",
+      "category": "blog",
+      "url": "https://www.swiftbysundell.com/articles/building-a-design-system-at-genius-scan/",
+      "score": 0.9292604501607717,
+      "recall_of_readability": 0.9293,
+      "recall_of_extracted": 0.9931,
+      "extracted_tokens": 582,
+      "readability_tokens": 622,
+      "reason": "disagreement"
+    },
+    {
+      "id": "swiftbysundell_com/article-2",
+      "category": "blog",
+      "url": "https://www.swiftbysundell.com/articles/swiftui-viewbuilder-tips-and-tricks/",
+      "score": 0.9288617886178862,
+      "recall_of_readability": 0.9289,
+      "recall_of_extracted": 0.9913,
+      "extracted_tokens": 461,
+      "readability_tokens": 492,
+      "reason": "disagreement"
+    },
+    {
+      "id": "hacks_mozilla_org/article-2",
+      "category": "blog",
+      "url": "https://hacks.mozilla.org/2026/03/firefox-developer-edition-and-beta-try-out-mozillas-rpm-package/",
+      "score": 0.8159509202453987,
+      "recall_of_readability": 0.816,
+      "recall_of_extracted": 0.9925,
+      "extracted_tokens": 134,
+      "readability_tokens": 163,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:12:42.691Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "dev_to/article-2",
+      "category": "blog",
+      "url": "https://dev.to/samchon/autobe-vs-claude-code-3rd-gen-coding-agent-developers-review-of-the-leaked-source-code-313b",
+      "score": 0.8746882793017456,
+      "recall_of_readability": 0.8747,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 1403,
+      "readability_tokens": 1604,
+      "reason": "disagreement"
+    },
+    {
+      "id": "ghost_org/article-1",
+      "category": "blog",
+      "url": "https://ghost.org/6/",
+      "score": 0.8225,
+      "recall_of_readability": 0.9242,
+      "recall_of_extracted": 0.8225,
+      "extracted_tokens": 400,
+      "readability_tokens": 356,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:15:38.382Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "tumblr_com/article-1",
+      "category": "blog",
+      "url": "https://staff.tumblr.com/post/812545258409934848/we-meant-it-lets-work-together",
+      "score": 0.0944055944055944,
+      "recall_of_readability": 0.2061,
+      "recall_of_extracted": 0.0944,
+      "extracted_tokens": 286,
+      "readability_tokens": 131,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T14:57:03.183Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "doc_rust_lang_org/article-1",
+      "category": "docs",
+      "url": "https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html",
+      "score": 0.9132176234979973,
+      "recall_of_readability": 0.9132,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 684,
+      "readability_tokens": 749,
+      "reason": "disagreement"
+    },
+    {
+      "id": "doc_rust_lang_org/article-2",
+      "category": "docs",
+      "url": "https://doc.rust-lang.org/std/vec/struct.Vec.html",
+      "score": 0.8665794637017659,
+      "recall_of_readability": 0.8666,
+      "recall_of_extracted": 0.9324,
+      "extracted_tokens": 1421,
+      "readability_tokens": 1529,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:40:04.644Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "docs_stripe_com/article-2",
+      "category": "docs",
+      "url": "https://docs.stripe.com/api/charges/object",
+      "score": 0.6666666666666666,
+      "recall_of_readability": 0.6667,
+      "recall_of_extracted": 0.8171,
+      "extracted_tokens": 328,
+      "readability_tokens": 402,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:01:17.507Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "kubernetes_io_docs/article-1",
+      "category": "docs",
+      "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+      "score": 0.8494041170097508,
+      "recall_of_readability": 0.8494,
+      "recall_of_extracted": 0.9655,
+      "extracted_tokens": 812,
+      "readability_tokens": 923,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:24:26.687Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "docs_docker_com/article-2",
+      "category": "docs",
+      "url": "https://docs.docker.com/reference/cli/docker/container/run/",
+      "score": 0.8748055987558321,
+      "recall_of_readability": 0.8748,
+      "recall_of_extracted": 0.98,
+      "extracted_tokens": 1148,
+      "readability_tokens": 1286,
+      "reason": "disagreement"
+    },
+    {
+      "id": "developer_android_com/article-2",
+      "category": "docs",
+      "url": "https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier",
+      "score": 0.4600422195416164,
+      "recall_of_readability": 0.46,
+      "recall_of_extracted": 0.9964,
+      "extracted_tokens": 3062,
+      "readability_tokens": 6632,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:31:28.109Z",
+        "quality": "fixture-broken"
+      }
+    },
+    {
+      "id": "docs_microsoft_com/article-1",
+      "category": "docs",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/",
+      "score": 0.9084249084249084,
+      "recall_of_readability": 0.9084,
+      "recall_of_extracted": 0.9725,
+      "extracted_tokens": 255,
+      "readability_tokens": 273,
+      "reason": "disagreement"
+    },
+    {
+      "id": "wiktionary_org/article-1",
+      "category": "reference",
+      "url": "https://en.wiktionary.org/wiki/example",
+      "score": 0.8598901098901099,
+      "recall_of_readability": 0.9874,
+      "recall_of_extracted": 0.8599,
+      "extracted_tokens": 728,
+      "readability_tokens": 634,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:31:38.113Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "wiktionary_org/article-2",
+      "category": "reference",
+      "url": "https://en.wiktionary.org/wiki/serendipity",
+      "score": 0.7887029288702929,
+      "recall_of_readability": 0.9974,
+      "recall_of_extracted": 0.7887,
+      "extracted_tokens": 478,
+      "readability_tokens": 378,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:10:46.669Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "plato_stanford_edu/article-1",
+      "category": "reference",
+      "url": "https://plato.stanford.edu/entries/consciousness/",
+      "score": 0.8437993057746923,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8438,
+      "extracted_tokens": 3169,
+      "readability_tokens": 2674,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:21:53.688Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "plato_stanford_edu/article-2",
+      "category": "reference",
+      "url": "https://plato.stanford.edu/entries/ethics-ai/",
+      "score": 0.6254561064606139,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.6255,
+      "extracted_tokens": 4659,
+      "readability_tokens": 2914,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:36:28.230Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "britannica_com/article-1",
+      "category": "reference",
+      "url": "https://www.britannica.com/technology/artificial-intelligence",
+      "score": 0.5362318840579711,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.5362,
+      "extracted_tokens": 483,
+      "readability_tokens": 259,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:33:56.363Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "britannica_com/article-2",
+      "category": "reference",
+      "url": "https://www.britannica.com/event/French-Revolution",
+      "score": 0.6292947558770343,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.6293,
+      "extracted_tokens": 553,
+      "readability_tokens": 348,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:37:05.549Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "stackoverflow_com/article-1",
+      "category": "forum",
+      "url": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "score": 0.15198689061859894,
+      "recall_of_readability": 0.9537,
+      "recall_of_extracted": 0.152,
+      "extracted_tokens": 2441,
+      "readability_tokens": 389,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:28:24.833Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "superuser_com/article-1",
+      "category": "forum",
+      "url": "https://superuser.com/questions/123456/example-question",
+      "score": 0.8709677419354839,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.871,
+      "extracted_tokens": 186,
+      "readability_tokens": 162,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:42:10.929Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "cooking_nytimes_com/article-2",
+      "category": "recipe",
+      "url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+      "score": 0.8328173374613003,
+      "recall_of_readability": 0.9406,
+      "recall_of_extracted": 0.8328,
+      "extracted_tokens": 323,
+      "readability_tokens": 286,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:18:11.538Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "allrecipes_com/article-1",
+      "category": "recipe",
+      "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+      "score": 0.6759493670886076,
+      "recall_of_readability": 0.9963,
+      "recall_of_extracted": 0.6759,
+      "extracted_tokens": 395,
+      "readability_tokens": 268,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:03:28.918Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "allrecipes_com/article-2",
+      "category": "recipe",
+      "url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+      "score": 0.8059701492537313,
+      "recall_of_readability": 0.806,
+      "recall_of_extracted": 0.8308,
+      "extracted_tokens": 130,
+      "readability_tokens": 134,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:11:51.079Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "bonappetit_com/article-1",
+      "category": "recipe",
+      "url": "https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies",
+      "score": 0.5717761557177615,
+      "recall_of_readability": 0.9958,
+      "recall_of_extracted": 0.5718,
+      "extracted_tokens": 411,
+      "readability_tokens": 236,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T15:34:49.529Z",
+        "quality": "needs-improvement"
+      }
+    },
+    {
+      "id": "whitehouse_gov/article-1",
+      "category": "government",
+      "url": "https://www.whitehouse.gov/releases/2026/01/365-wins-in-365-days-president-trumps-return-marks-new-era-of-success-prosperity/",
+      "score": 0.8991935483870968,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8992,
+      "extracted_tokens": 2480,
+      "readability_tokens": 2230,
+      "reason": "disagreement"
+    },
+    {
+      "id": "sec_gov/article-1",
+      "category": "government",
+      "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "score": 0.8472032742155525,
+      "recall_of_readability": 0.8472,
+      "recall_of_extracted": 0.9892,
+      "extracted_tokens": 3139,
+      "readability_tokens": 3665,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:22:26.682Z",
+        "quality": "fixture-broken"
+      }
+    },
+    {
+      "id": "github_blog/article-1",
+      "category": "corp-blog",
+      "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+      "score": 0.8275229357798165,
+      "recall_of_readability": 0.8275,
+      "recall_of_extracted": 1,
+      "extracted_tokens": 451,
+      "readability_tokens": 545,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:17:06.356Z",
+        "quality": "ok"
+      }
+    },
+    {
+      "id": "anthropic_com_news/article-1",
+      "category": "corp-blog",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "score": 0.9103448275862069,
+      "recall_of_readability": 0.9103,
+      "recall_of_extracted": 0.99,
+      "extracted_tokens": 400,
+      "readability_tokens": 435,
+      "reason": "disagreement"
+    },
+    {
+      "id": "anthropic_com_news/article-2",
+      "category": "corp-blog",
+      "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "score": 0.9083503054989817,
+      "recall_of_readability": 0.9084,
+      "recall_of_extracted": 0.9911,
+      "extracted_tokens": 450,
+      "readability_tokens": 491,
+      "reason": "disagreement"
+    },
+    {
+      "id": "readthedocs_io/article-1",
+      "category": "docs-public",
+      "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+      "score": 0.8656987295825771,
+      "recall_of_readability": 1,
+      "recall_of_extracted": 0.8657,
+      "extracted_tokens": 551,
+      "readability_tokens": 477,
+      "reason": "disagreement",
+      "adjudicated": {
+        "at": "2026-07-07T16:35:01.543Z",
+        "quality": "needs-improvement"
+      }
+    }
+  ],
+  "failed": []
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://superuser.com/questions/123456/example-question",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed vote-widget/share/permalink/login/tag/badge forum chrome, keeping only question and answer bodies"
+}

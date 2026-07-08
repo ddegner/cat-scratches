@@ -1,10 +1,10 @@
-[Milestone](/research/index/milestone/)
+Milestone
 
 # Hello GPT‑4o
 
 We’re announcing GPT‑4o, our new flagship model that can reason across audio, vision, and text in real time.
 
-[Contributions](/gpt-4o-contributions/)[Try on ChatGPT](https://chatgpt.com) [GPT-4o System Card](/index/gpt-4o-system-card/)
+Contributions Try on ChatGPT GPT-4o System Card
 
 All videos on this page are at 1x real time.
 
@@ -12,11 +12,11 @@ Guessing May 13th’s announcement.
 
 More Resources
 
-[Try in Playground](https://platform.openai.com/playground?mode=chat&model=gpt-4o) [Rewatch live demos](/index/spring-update/)
+Try in Playground Rewatch live demos
 
 Loading…
 
-GPT‑4o (“o” for “omni”) is a step towards much more natural human-computer interaction—it accepts as input any combination of text, audio, image, and video and generates any combination of text, audio, and image outputs. It can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to [human response time⁠](https://www.pnas.org/doi/10.1073/pnas.0903616106) in a conversation. It matches GPT‑4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50% cheaper in the API. GPT‑4o is especially better at vision and audio understanding compared to existing models.
+GPT‑4o (“o” for “omni”) is a step towards much more natural human-computer interaction—it accepts as input any combination of text, audio, image, and video and generates any combination of text, audio, and image outputs. It can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to human response time⁠ in a conversation. It matches GPT‑4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50% cheaper in the API. GPT‑4o is especially better at vision and audio understanding compared to existing models.
 
 ## Model capabilities
 
@@ -52,7 +52,7 @@ GPT‑4o with Andy, from BeMyEyes in London.
 
 Customer service proof of concept.
 
-Prior to GPT‑4o, you could use [Voice Mode⁠](https://openai.com/index/chatgpt-can-now-see-hear-and-speak) to talk to ChatGPT with latencies of 2.8 seconds (GPT‑3.5) and 5.4 seconds (GPT‑4) on average. To achieve this, Voice Mode is a pipeline of three separate models: one simple model transcribes audio to text, GPT‑3.5 or GPT‑4 takes in text and outputs text, and a third simple model converts that text back to audio. This process means that the main source of intelligence, GPT‑4, loses a lot of information—it can’t directly observe tone, multiple speakers, or background noises, and it can’t output laughter, singing, or express emotion.
+Prior to GPT‑4o, you could use Voice Mode⁠ to talk to ChatGPT with latencies of 2.8 seconds (GPT‑3.5) and 5.4 seconds (GPT‑4) on average. To achieve this, Voice Mode is a pipeline of three separate models: one simple model transcribes audio to text, GPT‑3.5 or GPT‑4 takes in text and outputs text, and a third simple model converts that text back to audio. This process means that the main source of intelligence, GPT‑4, loses a lot of information—it can’t directly observe tone, multiple speakers, or background noises, and it can’t output laughter, singing, or express emotion.
 
 With GPT‑4o, we trained a single new model end-to-end across text, vision, and audio, meaning that all inputs and outputs are processed by the same neural network. Because GPT‑4o is our first model combining all of these modalities, we are still just scratching the surface of exploring what the model can do and its limitations.
 
@@ -208,9 +208,9 @@ Hello, my name is GPT-4o. I'm a new type of language model, it's nice to meet yo
 
 GPT‑4o has safety built-in by design across modalities, through techniques such as filtering training data and refining the model’s behavior through post-training. We have also created new safety systems to provide guardrails on voice outputs. 
   
-We’ve evaluated GPT‑4o according to our [Preparedness Framework⁠](https://openai.com/preparedness) and in line with our [voluntary commitments⁠](https://openai.com/index/moving-ai-governance-forward/). Our evaluations of cybersecurity, CBRN, persuasion, and model autonomy show that GPT‑4o does not score above Medium risk in any of these categories. This assessment involved running a suite of automated and human evaluations throughout the model training process. We tested both pre-safety-mitigation and post-safety-mitigation versions of the model, using custom fine-tuning and prompts, to better elicit model capabilities. 
+We’ve evaluated GPT‑4o according to our Preparedness Framework⁠ and in line with our voluntary commitments⁠ . Our evaluations of cybersecurity, CBRN, persuasion, and model autonomy show that GPT‑4o does not score above Medium risk in any of these categories. This assessment involved running a suite of automated and human evaluations throughout the model training process. We tested both pre-safety-mitigation and post-safety-mitigation versions of the model, using custom fine-tuning and prompts, to better elicit model capabilities. 
   
-GPT‑4o has also undergone extensive external red teaming with 70+ [external experts⁠](https://openai.com/index/red-teaming-network) in domains such as social psychology, bias and fairness, and misinformation to identify risks that are introduced or amplified by the newly added modalities. We used these learnings to build out our safety interventions in order to improve the safety of interacting with GPT‑4o. We will continue to mitigate new risks as they’re discovered. 
+GPT‑4o has also undergone extensive external red teaming with 70+ external experts⁠ in domains such as social psychology, bias and fairness, and misinformation to identify risks that are introduced or amplified by the newly added modalities. We used these learnings to build out our safety interventions in order to improve the safety of interacting with GPT‑4o. We will continue to mitigate new risks as they’re discovered. 
   
 We recognize that GPT‑4o’s audio modalities present a variety of novel risks. Today we are publicly releasing text and image inputs and text outputs. Over the upcoming weeks and months, we’ll be working on the technical infrastructure, usability via post-training, and safety necessary to release the other modalities. For example, at launch, audio outputs will be limited to a selection of preset voices and will abide by our existing safety policies. We will share further details addressing the full range of GPT‑4o’s modalities in the forthcoming system card. 
   
@@ -258,7 +258,7 @@ Low
 
 Low
 
-As part of our [Preparedness Framework⁠](https://openai.com/preparedness/), we conduct regular evaluations and update scorecards for our models. Only models with a post-mitigation score of “medium” or below are deployed.The overall risk level for a model is determined by the highest risk level in any category. Currently, GPT‑4o is assessed at medium risk both before and after mitigation efforts.
+As part of our Preparedness Framework⁠ , we conduct regular evaluations and update scorecards for our models. Only models with a post-mitigation score of “medium” or below are deployed.The overall risk level for a model is determined by the highest risk level in any category. Currently, GPT‑4o is assessed at medium risk both before and after mitigation efforts.
 
 ## Model availability
 
@@ -268,9 +268,9 @@ GPT‑4o’s text and image capabilities are starting to roll out today in ChatG
 
 Developers can also now access GPT‑4o in the API as a text and vision model. GPT‑4o is 2x faster, half the price, and has 5x higher rate limits compared to GPT‑4 Turbo. We plan to launch support for GPT‑4o's new audio and video capabilities to a small group of trusted partners in the API in the coming weeks.
 
-* [GPT](/research/index/?tags=gpt)
-* [Language](/research/index/?tags=language)
-* [Multi-agent](/research/index/?tags=multi-agent)
-* [Transformers](/research/index/?tags=transformers)
+* GPT
+* Language
+* Multi-agent
+* Transformers
 
-[View contributors](/gpt-4o-contributions/)
+View contributors

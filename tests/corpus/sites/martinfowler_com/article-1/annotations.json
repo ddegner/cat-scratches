@@ -1,0 +1,7 @@
+{
+  "url": "https://martinfowler.com/articles/ship-show-ask.html",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed title/byline/bio/TOC/figure-captions/acknowledgements/revision-history chrome; deduped repeated footnote"
+}

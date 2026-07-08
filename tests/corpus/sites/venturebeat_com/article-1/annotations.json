@@ -1,0 +1,14 @@
+{
+  "url": "https://venturebeat.com/technology/the-app-store-for-robots-has-arrived-hugging-face-launches-open-source-reachy-mini-app-store-with-200-apps",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9920127795527156,
+    "recall_of_readability": 0.992,
+    "recall_of_extracted": 0.9936,
+    "extracted_tokens": 625,
+    "readability_tokens": 626
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.theguardian.com/world/2026/may/06/donald-trump-iran-war-deal-us-bombing",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9881656804733728,
+    "recall_of_readability": 0.9882,
+    "recall_of_extracted": 0.996,
+    "extracted_tokens": 503,
+    "readability_tokens": 507
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

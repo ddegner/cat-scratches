@@ -1,0 +1,14 @@
+{
+  "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9846347607052897,
+    "recall_of_readability": 0.9949,
+    "recall_of_extracted": 0.9846,
+    "extracted_tokens": 3970,
+    "readability_tokens": 3929
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

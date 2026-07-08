@@ -1,0 +1,14 @@
+{
+  "url": "https://www.aljazeera.com/news/2026/5/6/trump-says-had-very-good-talks-with-iran-as-tehran-reviews-us-proposal",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9361111111111111,
+    "recall_of_readability": 0.9361,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 337,
+    "readability_tokens": 360
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

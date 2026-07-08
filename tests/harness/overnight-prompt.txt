@@ -1,0 +1,72 @@
+Work in tests/harness/ of this repo. First read tests/harness/OPTIMIZER.md in full —
+it is the operating manual for this task and its rules override your own judgment
+about the codebase.
+
+Your job: run the extraction-optimization loop from the manual, one patch at a time,
+until a stop condition is reached. This is a long unattended session — pace yourself
+by the ledger, not by time.
+
+Session budget: 25 accepted-and-applied patches (this overrides the manual's
+default budget of 5).
+
+Candidates are ALREADY FRESH at launch: tests/corpus/mined-candidates.json and
+evidence were regenerated against the current baseline right before this session
+started. Skip step 1 of the manual (the initial evidence+mine) and go straight
+to reading mined-candidates.json and proposing your first patch.
+
+CRITICAL — command execution:
+- Run every harness command in the FOREGROUND and wait for it to finish, however
+  long it takes (evidence generation can take 5-10 minutes — that is normal and
+  fine). The Bash tool blocks until the command completes and returns its output.
+- NEVER background a command (no trailing &, no run_in_background), and NEVER
+  schedule a wakeup / end your turn to "check later." A backgrounded command dies
+  with the session. Just call the command and wait for it to return.
+- To conserve the slow evidence step: re-run `npm run evidence && npm run mine`
+  only after every THIRD accepted apply (not every apply). Between refreshes,
+  keep using the current mined-candidates.json — a candidate that a prior apply
+  already handled will simply no-op and get rejected, which is safe. Always
+  refresh once before declaring the queue dry.
+
+Rules of engagement:
+- The only file you author by hand is the patch JSON for each proposal. Everything
+  else is written by the tools. Never hand-edit defaults.js, any expected.md,
+  eval-baseline.json, or experiments.jsonl.
+- Run only commands listed in OPTIMIZER.md (npm run evidence / mine / propose,
+  node evaluate.mjs / apply-defaults.mjs / text-cleanup-rules.mjs /
+  extraction-regressions.mjs).
+- Tool verdicts are final. On REJECTED (lint or eval): do not retry, do not modify
+  the patch to sneak it past the gate, do not use --skip-lint. Move to the next
+  candidate.
+- evaluate.mjs --write-baseline is legal ONLY immediately after a successful
+  apply-defaults.mjs, or never. A rejected proposal stays rejected; do not refresh
+  the baseline to change a verdict.
+- One op per patch. Before proposing anything, grep tests/corpus/experiments.jsonl
+  and skip any selector or rule that appears in ANY prior attempt, whatever its
+  verdict was.
+- Follow the candidate-preference order in the manual (data-attributes > semantic
+  class names > class stems; never layout/utility classes even if marked safe).
+- An ACCEPTED patch is not done until: holdout prints "gates: PASS", apply-defaults
+  succeeds, both regression scripts pass, and you re-ran evaluate.mjs
+  --write-baseline. If holdout fails, do not apply; move on.
+- Refresh the candidate queue (npm run evidence && npm run mine) after every
+  THIRD accepted apply and once before concluding the queue is dry — not after
+  every single apply (see the command-execution note above).
+- When add_filter candidates run dry, work the other sources in the manual's
+  "Where improvements come from" order: remove_or_narrow_filters (pages_hurt >= 2
+  only), then cleanup rules for unattributed_junk. Same one-op-per-patch
+  discipline applies.
+- If a command errors (not a REJECTED verdict — an actual crash) twice in a row,
+  stop and report it. Do not attempt to fix the harness or the extension code.
+
+Stop when ANY of: 5 consecutive rejections; no untried safe candidates remain
+after a fresh npm run evidence && npm run mine; or 25 accepted-and-applied
+patches.
+
+Then report, in this exact structure:
+1. ACCEPTED — for each: the op, pages helped, train objective before → after,
+   holdout confirmation.
+2. REJECTED — for each: the op and the gate that killed it, one line each.
+3. QUEUE — count of safe candidates still untried, and the top 3 you would try
+   next with one-line reasons.
+4. FLAGS — anything that looked wrong with the harness or ground truth itself.
+   Describe only; do not fix.

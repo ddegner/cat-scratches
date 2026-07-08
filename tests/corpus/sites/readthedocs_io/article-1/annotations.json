@@ -1,0 +1,7 @@
+{
+  "url": "https://requests.readthedocs.io/en/latest/user/quickstart/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Converted escaped >>> code/output into fenced code blocks, stripped heading pilcrow self-links and link URLs, unescaped markdown-escaped punctuation"
+}

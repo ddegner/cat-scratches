@@ -14,11 +14,18 @@
     "score": "node score.mjs",
     "story-review": "node story-review.mjs",
     "regressions": "node extraction-regressions.mjs",
+    "evaluate": "node --max-old-space-size=8192 evaluate.mjs",
+    "evidence": "node --max-old-space-size=8192 evaluate.mjs --evidence --set all",
+    "mine": "node --max-old-space-size=8192 mine-evidence.mjs",
+    "seed-expected": "node --max-old-space-size=8192 seed-expected.mjs",
+    "propose": "node --max-old-space-size=8192 propose.mjs",
+    "adjudicate": "node adjudicate.mjs",
     "reddit": "node reddit-extractor.mjs",
     "live-review": "node live-review.mjs",
     "ab:selectors": "node ab-selectors.mjs"
   },
   "dependencies": {
+    "@mozilla/readability": "^0.6.0",
     "jsdom": "^25.0.1"
   },
   "engines": {

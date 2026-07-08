@@ -1,0 +1,7 @@
+{
+  "url": "https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor body was mostly correct; removed rating-widget links, serving-size toggle UI, error-state placeholders, 'X home cooks made it' stat, and user-testimonial quotes (Community Tips and Praise); consolidated the two nutrition blocks into one list and dropped legal disclaimer footnotes."
+}

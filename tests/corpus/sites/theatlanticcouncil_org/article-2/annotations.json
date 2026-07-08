@@ -1,0 +1,14 @@
+{
+  "url": "https://www.atlanticcouncil.org/content-series/the-big-story/the-coming-compute-war-in-ukraine/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9487359550561798,
+    "recall_of_readability": 0.9487,
+    "recall_of_extracted": 0.9978,
+    "extracted_tokens": 1354,
+    "readability_tokens": 1424
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

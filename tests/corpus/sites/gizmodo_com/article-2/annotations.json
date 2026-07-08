@@ -1,0 +1,14 @@
+{
+  "url": "https://gizmodo.com/man-gets-worlds-worst-diarrhea-after-overdosing-on-experimental-glp-1-2000755155",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 1,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 327,
+    "readability_tokens": 327
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

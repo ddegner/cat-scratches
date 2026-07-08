@@ -1,1 +1,4 @@
 node_modules/
+.cache/
+# Ephemeral one-op patch files authored by the optimizer/adjudication loops.
+patch*.json

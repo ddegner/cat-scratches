@@ -4,7 +4,7 @@
 > * `while(true)` + autonomous selection of 40 tools + 4-tier context compression
 > * A masterclass in prompt engineering and agent workflow design
 > * 2nd generation: humans lead, AI assists
-> 2. [AutoBe](https://github.com/wrtnlabs/autobe)—the opposite design
+> 2. AutoBe—the opposite design
 > * 4 ASTs x 4-stage compiler x self-correction loops
 > * Function Calling Harness: even small models produce backends on par with top-tier models
 > * 3rd generation: AI generates, compilers verify
@@ -13,7 +13,7 @@
 > * 0.95^400 ~ 0%—the shift to 3rd generation is an architecture problem, not a model performance problem
 > * AutoBE handles the initial build, Claude Code handles maintenance—coexistence, not replacement
 > 
-> **Recommended reading**: [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830)—a deep dive into the technique that turned 6.75% into 100%
+> **Recommended reading**: Function Calling Harness—a deep dive into the technique that turned 6.75% into 100%
 
 ## 1\. The Incident
 
@@ -37,7 +37,7 @@ This post is those reading notes.
 
 ## 2\. What is AutoBE
 
-[AutoBe](https://github.com/wrtnlabs/autobe) is an open-source AI agent that automatically generates backends. Say "build me a shopping mall backend," and it produces everything from requirements analysis to database design, API specification, E2E tests, and NestJS implementation code—all at once.
+AutoBe is an open-source AI agent that automatically generates backends. Say "build me a shopping mall backend," and it produces everything from requirements analysis to database design, API specification, E2E tests, and NestJS implementation code—all at once.
 
 Because Function Calling Harness and AI-native compilers uniformly guarantee the quality of generated output, even small models like `qwen3.5-35b-a3b` can produce backends on par with top-tier models—at a fraction of the cost.
 
@@ -61,25 +61,25 @@ Compiler validation
 
 Requirements
 
-[`AutoBeAnalyze`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/analyze/AutoBeAnalyze.ts)—structured SRS
+`AutoBeAnalyze`—structured SRS
 
 Structure validation
 
 DB Design
 
-[`AutoBeDatabase`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/database/AutoBeDatabase.ts)—DB schema AST
+`AutoBeDatabase`—DB schema AST
 
 Database Compiler
 
 API Design
 
-[`AutoBeOpenApi`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/openapi/AutoBeOpenApi.ts)—OpenAPI v3.2 spec
+`AutoBeOpenApi`—OpenAPI v3.2 spec
 
 OpenAPI Compiler
 
 Testing
 
-[`AutoBeTest`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/test/AutoBeTest.ts)—30+ expression types
+`AutoBeTest`—30+ expression types
 
 Test Compiler
 
@@ -103,7 +103,7 @@ Free-form text generation cannot structurally meet this requirement.
 
 #### 2.2.1. Uncontrollable
 
-Can you enforce consistency through prompts? "Don't use varchar," "don't use `any` types," "don't create utility functions"—this is the [pink elephant problem](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830). Tell someone "don't think of a pink elephant," and the first thing they do is picture one. Tell an LLM "don't do X," and X lands at the center of attention, actually _increasing_ the probability of generating it. Natural language can only express constraints through prohibition, and **prohibition is structurally incomplete.** 
+Can you enforce consistency through prompts? "Don't use varchar," "don't use `any` types," "don't create utility functions"—this is the pink elephant problem. Tell someone "don't think of a pink elephant," and the first thing they do is picture one. Tell an LLM "don't do X," and X lands at the center of attention, actually _increasing_ the probability of generating it. Natural language can only express constraints through prohibition, and **prohibition is structurally incomplete.** 
 
 ```
 export namespace AutoBeDatabase {
@@ -196,13 +196,13 @@ Function Calling fundamentally solves this compound problem. The form is fixed, 
 
 LLM output is a sample drawn from a probability distribution. Run the same model with the same prompt and you get different code every time—different variable names, different patterns, different error handling approaches. Swap the model and the differences grow larger. Claude leans functional, GPT leans class-based, Qwen has its own idioms. This variance is richness in creative writing, but a defect in backends.
 
-When the form is fixed, variance vanishes. The AST schema uniformly governs the model's "style," and the compiler verifies the result, so the model's personality has minimal impact on the final output. The [benchmarks](https://autobe.dev/benchmark) prove this:
+When the form is fixed, variance vanishes. The AST schema uniformly governs the model's "style," and the compiler verifies the result, so the model's personality has minimal impact on the final output. The benchmarks prove this:
 
 The backends generated by `qwen3.5-35b-a3b` (3B active) and `claude-sonnet-4.6` have nearly identical architecture, module structure, and naming conventions. Strong models converge in 1-2 iterations; weaker models converge in 3-4—but the destination is the same. **Different models, same result. Run it again, same result.** This is the consistency that backends demand, and Function Calling is the only approach that can structurally guarantee it.
 
 ### 2.3. Industry Consensus: "That Won't Work"
 
-But the forms the LLM must fill are far from simple. [`AutoBeOpenApi.IJsonSchema`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/interface/AutoBeOpenApi.ts), which defines DTO types, is a recursive union type with 10 variants: 
+But the forms the LLM must fill are far from simple. `AutoBeOpenApi.IJsonSchema`, which defines DTO types, is a recursive union type with 10 variants: 
 
 ```
 export type IJsonSchema =
@@ -220,7 +220,7 @@ export type IJsonSchema =
 
 Ten variants nested 3 levels deep yield 1,000 possible paths.
 
-The test stage is even more complex. [`AutoBeTest.IExpression`](https://github.com/wrtnlabs/autobe/blob/main/packages/interface/src/test/AutoBeTest.ts), which represents E2E test logic, has **over 30 recursive variants**—programming-language-level complexity packed into a single Function Call: 
+The test stage is even more complex. `AutoBeTest.IExpression`, which represents E2E test logic, has **over 30 recursive variants**—programming-language-level complexity packed into a single Function Call: 
 
 ```
 export type IExpression =
@@ -243,13 +243,13 @@ export type IExpression =
 
 This is the actual complexity of the form the LLM must accurately fill in a single Function Call.
 
-`qwen3-coder-next`'s first-attempt success rate on `IJsonSchema`: **6.75%**. The industry consensus is clear—[NESTFUL (EMNLP 2025)](https://arxiv.org/abs/2409.03797) measured GPT-4o's nested tool calling accuracy at 28%, and [JSONSchemaBench (ICLR 2025)](https://arxiv.org/abs/2501.10868) reported success rates of 3-41% on the hardest tier across 10,000 real-world schemas. BoundaryML went further, arguing that structured output actually [degrades a model's reasoning ability](https://boundaryml.com/blog/structured-outputs-create-false-confidence). The consensus: **don't do Function Calling with complex schemas.**
+`qwen3-coder-next`'s first-attempt success rate on `IJsonSchema`: **6.75%**. The industry consensus is clear—NESTFUL (EMNLP 2025) measured GPT-4o's nested tool calling accuracy at 28%, and JSONSchemaBench (ICLR 2025) reported success rates of 3-41% on the hardest tier across 10,000 real-world schemas. BoundaryML went further, arguing that structured output actually degrades a model's reasoning ability. The consensus: **don't do Function Calling with complex schemas.**
 
 We couldn't give up. Without structured output, mechanical verification is impossible; without verification, feedback loops are impossible; without feedback loops, guarantees are impossible.
 
-So we built the [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830). [Typia](https://github.com/samchon/typia)'s 3-tier infrastructure is at its core:
+So we built the Function Calling Harness. Typia's 3-tier infrastructure is at its core:
 
-All three tiers are auto-generated by [Typia](https://github.com/samchon/typia)'s compiler from TypeScript type definitions. Developers only need to define TypeScript types—the Function Calling schema, `parse()` recovery logic, `validate()` checker, and `LlmJson.stringify()` feedback generator all derive from the same type. **A single type governs schema, parsing, validation, and feedback simultaneously.**
+All three tiers are auto-generated by Typia's compiler from TypeScript type definitions. Developers only need to define TypeScript types—the Function Calling schema, `parse()` recovery logic, `validate()` checker, and `LlmJson.stringify()` feedback generator all derive from the same type. **A single type governs schema, parsing, validation, and feedback simultaneously.**
 
 #### 2.3.1. `parse()` — Recovering Broken JSON
 
@@ -378,7 +378,7 @@ So we deliberately—with small models, in a simple pipeline, with minimal AI in
 
 ### 3.2. Breaking 100% and Rebuilding
 
-[We had previously achieved 100% compilation + runtime success rate](https://dev.to/samchon/autobe-we-built-an-ai-that-writes-full-backend-apps-then-broke-its-100-success-rate-on-purpose-5757). Then we deliberately broke it to rebuild at a higher level of quality.
+We had previously achieved 100% compilation + runtime success rate. Then we deliberately broke it to rebuild at a higher level of quality.
 
 #### 3.2.1. Divide and Conquer
 
@@ -994,6 +994,6 @@ Refine your prompts, design sophisticated workflows, hand agents their tools—0
 
 For backends, that mechanism was a compiler. But domains where deterministic verification is possible exist everywhere—circuit design has DRC/LVS, structural engineering has FEM solvers, drug design has molecular simulators, smart contracts have formal verifiers. The pattern where an LLM fills in a structure and a domain-specific verifier guarantees consistency **works anywhere**.
 
-Three things are needed: a **form** the LLM can fill (Function Calling Schema), a **dedicated compiler** to validate the form, and a **feedback loop** that automatically corrects failures. Just as we turned 6.75% into 100% with [Function Calling Harness](https://dev.to/samchon/qwen-meetup-function-calling-harness-from-675-to-100-3830), the same breakthrough is possible in your domain.
+Three things are needed: a **form** the LLM can fill (Function Calling Schema), a **dedicated compiler** to validate the form, and a **feedback loop** that automatically corrects failures. Just as we turned 6.75% into 100% with Function Calling Harness, the same breakthrough is possible in your domain.
 
 **0 to 80 is solved by the model. 80 to 100 is solved by the harness.** The person who builds that harness in your domain is you.

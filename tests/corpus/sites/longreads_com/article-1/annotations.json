@@ -1,0 +1,7 @@
+{
+  "url": "https://longreads.com/2026/04/29/wargames-tabletop-rpg-history/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md dropped the recommended-article titles for each 'More picks' entry (present in readability.txt as separate title lines); restored them as bold headers above each byline/blurb, also dropped the 'Read the story' link CTA"
+}

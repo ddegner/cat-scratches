@@ -1,0 +1,7 @@
+{
+  "url": "https://www.scientificamerican.com/article/the-hantavirus-cruise-ship-outbreak-is-a-dangerous-experiment/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extracted was already clean; readability version differed only by subscription CTA/support-journalism boilerplate that extracted correctly excluded"
+}

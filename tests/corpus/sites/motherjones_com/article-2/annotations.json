@@ -1,0 +1,14 @@
+{
+  "url": "https://www.motherjones.com/politics/2026/05/education-department-office-civil-rights-flunking/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9739130434782609,
+    "recall_of_readability": 0.9739,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 224,
+    "readability_tokens": 230
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

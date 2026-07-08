@@ -1,0 +1,14 @@
+{
+  "url": "https://techcrunch.com/2026/05/03/xteink-x3-review-tiny-magnetic-ereader/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9410526315789474,
+    "recall_of_readability": 0.9551,
+    "recall_of_extracted": 0.9411,
+    "extracted_tokens": 475,
+    "readability_tokens": 468
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -2,24 +2,24 @@ With the amazing produce spring brings, one of the best ways to enjoy it is in a
 
 More spring recipes, right this way →
 
-[43 Spring Dinner Ideas That Will Bring You Back to Life](https://www.bonappetit.com/recipes/slideshow/spring-recipes)
+43 Spring Dinner Ideas That Will Bring You Back to Life
 
 Revitalize your taste buds with spicy radishes, earthy mushrooms, and all the rhubarb you can eat.
 
-[31 Spring Side Dishes to Brighten Any Meal](https://www.bonappetit.com/gallery/spring-side-dishes-vegetable-recipes)
+31 Spring Side Dishes to Brighten Any Meal
 
 Blistered asparagus with harissa, shredded carrot and lentil salad, and more sides that make the most of spring produce.
 
-[37 Asparagus Recipes That’ll Put a Spring in Your Step](https://www.bonappetit.com/gallery/asparagus-recipes)
+37 Asparagus Recipes That’ll Put a Spring in Your Step
 
 Shaved into a salad, roasted until crispy, or puréed into soup, our best asparagus recipes celebrate spring’s most iconic spears.
 
-[23 Radish Recipes We’re Loving Right Now](https://www.bonappetit.com/gallery/best-radish-recipes)
+23 Radish Recipes We’re Loving Right Now
 
 Tacos with radish escabèche, fried lemon and radish salad, farmers market farro bowls, and more of our favorite ways to cook with radishes.
 
-[41 Spring Desserts to Lure You Out of Hibernation](https://www.bonappetit.com/recipes/gallery/spring-dessert-recipes)
+41 Spring Desserts to Lure You Out of Hibernation
 
 The season’s diamond? Rhubarb, obviously.
 
-Explore Bon Appétit[Salad](/dish/salad)[Spring](/season/spring)
+Explore Bon Appétit Salad Spring

@@ -1,6 +1,6 @@
 Feb 28, 2019 8:46 AM PHT
 
-[Paterno R. Esmaquel II](https://www.rappler.com/author/paterno-r-esmaquel-ii/)
+Paterno R. Esmaquel II
 
 SUMMARY
 
@@ -14,15 +14,15 @@ People close to David know this habit of his. 
 
 But in November 2018, it came as a shock that even the President of the Philippines knew his nightly routine. How did this intelligence information reach the commander in chief? And why? 
 
-“_David! Nagdududa nga ako bakit ka sige ikot diyan nang gabi. Duda tuloy ako, putang ina, nasa droga ka_,” [said Duterte](https://www.rappler.com/nation/217583-duterte-ssays-build-chapels-in-house-no-need-go-to-church) in a November 2018 speech in Davao City. (David! I’m having my suspicions because you keep going around at night. I have suspicions, son of a bitch, that you’re into drugs.) 
+“_David! Nagdududa nga ako bakit ka sige ikot diyan nang gabi. Duda tuloy ako, putang ina, nasa droga ka_,” said Duterte in a November 2018 speech in Davao City. (David! I’m having my suspicions because you keep going around at night. I have suspicions, son of a bitch, that you’re into drugs.) 
 
-The 59-year-old David, [one of the bishops most critical](https://www.rappler.com/newsbreak/in-depth/182373-caloocan-bishop-pablo-david-profile-war-drugs-killings) of Duterte’s war on drugs, knows he is being watched. He recently [received death threats](https://www.rappler.com/nation/224414-bishop-pablo-david-gets-death-threats) from anonymous senders, forcing him to skip an awarding ceremony on Tuesday, February 26, and to avoid going home to Caloocan for now.
+The 59-year-old David, one of the bishops most critical of Duterte’s war on drugs, knows he is being watched. He recently received death threats from anonymous senders, forcing him to skip an awarding ceremony on Tuesday, February 26, and to avoid going home to Caloocan for now.
 
-In his speech, David [said Duterte](https://www.rappler.com/nation/224411-maria-ressa-bishop-pablo-david-receive-ka-pepe-diokno-human-rights-awards) “was the first to pose a grave threat” against his life.
+In his speech, David said Duterte “was the first to pose a grave threat” against his life.
 
 Duterte had threatened in a speech on December 6, 2018: “_Eh puta, sinabi ko sa ‘yo, maghanap ka ng obispo diyan na nasa droga, ‘di ba, putulan kita ng ulo.”_ (Fuck, I told you, find a bishop who is into drugs, and I will chop off his head.)
 
-Duterte made these remarks a day after he [urged citizens](https://www.rappler.com/nation/218312-duterte-says-kill-bishops-all-they-do-is-criticize) to kill “useless” bishops. 
+Duterte made these remarks a day after he urged citizens to kill “useless” bishops. 
 
 At that time, David – vice president of the Catholic Bishops’ Conference of the Philippines – was the most prominent bishop he had linked to the illegal drug trade.
 
@@ -42,15 +42,15 @@ Nearly 3 years into his presidency, after all, Filipinos know that what Duterte 
 
 Duterte’s attacks against bishops and priests have escalated as the Catholic Church remains relentless in blasting his anti-drug campaign. His threats in December 2018 marked the first time he openly called for the murder of Catholic prelates. 
 
-Even then, his critics said his earlier tirades had emboldened killers, leading to the murder of 3 Catholic priests – Fathers [Marcelito Paez](https://www.rappler.com/nation/191099-father-tito-paez-comrade-hero-martyr), 72, and [Richmond Nilo](https://www.rappler.com/nation/204596-nueva-ecija-priest-richmond-nilo-killing), 43, both from Nueva Ecija, and Father [Mark Ventura](https://www.rappler.com/nation/202972-duterte-mark-ventura-killing-cagayan-bishop-david), 37, from Cagayan. 
+Even then, his critics said his earlier tirades had emboldened killers, leading to the murder of 3 Catholic priests – Fathers Marcelito Paez, 72, and Richmond Nilo, 43, both from Nueva Ecija, and Father Mark Ventura, 37, from Cagayan. 
 
-Lingayen-Dagupan Archbishop Socrates Villegas, another vocal critic of Duterte’s policies, said in June 2018 that Duterte should “stop the verbal persecution of the Catholic Church because such attacks can wittingly embolden more crimes against priests.” 
+Lingayen-Dagupan Archbishop Socrates Villegas, another vocal critic of Duterte’s policies, said in June 2018 that Duterte should “ stop the verbal persecution of the Catholic Church because such attacks can wittingly embolden more crimes against priests.” 
 
 But Duterte changed his tune on Monday, February 25. This was after Manila Archbishop Luis Antonio Cardinal Tagle – who is said to keep open communication lines with Duterte’s men – reportedly sent a text message to Duterte’s long-time aide, Bong Go.
 
 Duterte, in a February 25 speech, read Tagle’s supposed message to Go: “Good day po_._ Greetings from Rome. I was informed that Bishop David…some priests got death threats from someone claiming to be working for the President’s family….Just to let you know, _baka may naninira_ (someone might be trying to destroy your reputation). Thanks. We pray.”
 
-Duterte then [backtracked on his earlier call](https://www.rappler.com/nation/224414-bishop-pablo-david-gets-death-threats) to have bishops killed. He said he himself will be the enemy of those who kill bishops and priests, “because you are doing that to destroy my name.” 
+Duterte then backtracked on his earlier call to have bishops killed. He said he himself will be the enemy of those who kill bishops and priests, “because you are doing that to destroy my name.” 
 
 **Power of words**
 
@@ -66,15 +66,15 @@ Referring to Duterte’s reckless pronouncements, Mananzan told Rappler: “He d
 
 Mananzan cited how the government’s anti-drug campaign, called Oplan Tokhang, “is a great example” of how Duterte’s words have impact – and a bloody one at that – on the ground.
 
-She recalled Duterte’s repeated instruction for policemen to shoot drug suspects who fight back in police operations. (READ: [Bulacan drug war: Cops say he fought back, his wife says it was an execution](https://www.rappler.com/newsbreak/in-depth/224330-bulacan-drug-war-cops-say-jerson-sta-rita-fought-back-wife-says-execution))
+She recalled Duterte’s repeated instruction for policemen to shoot drug suspects who fight back in police operations. (READ: Bulacan drug war: Cops say he fought back, his wife says it was an execution)
 
 Now, she said, all drug suspects seem to be “fighting back.”
 
-Duterte’s words also influenced the deportation of Australian nun Sister Patricia Fox, whom the government [kicked out of the Philippines](https://www.rappler.com/nation/215892-sister-patricia-fox-arrives-australia-tyranny-philippines) for allegedly engaging in political activities – a charge the nun denies. (READ: [Crackdown on missionaries fuels dictatorship fears](https://www.rappler.com/newsbreak/in-depth/211361-crackdown-foreign-missionaries-dictatorship-duterte))
+Duterte’s words also influenced the deportation of Australian nun Sister Patricia Fox, whom the government kicked out of the Philippines for allegedly engaging in political activities – a charge the nun denies. (READ: Crackdown on missionaries fuels dictatorship fears)
 
 The Bureau of Immigration (BI) often cites a July 2015 order, stating that foreign tourists “are prohibited from engaging in any political activity” in the Philippines, and violators “shall be subject to deportation proceedings.” 
 
-In the BI’s July 2018 resolution to deport Fox, however, Duterte’s words [served as the final nail in the coffin](https://www.rappler.com/nation/208140-patricia-fox-hits-immigration-duterte-deportation-order). 
+In the BI’s July 2018 resolution to deport Fox, however, Duterte’s words served as the final nail in the coffin. 
 
 “Finally, we are mindful, and we take judicial notice of the fact, that the President has already announced in several media interviews and speeches that Fox is an undesirable alien by joining political rallies,” the BI said.
 
@@ -112,8 +112,8 @@ How does this make you feel?
 
 ## author
 
-[@paterno\_II](https://twitter.com/paterno_II)
+@paterno\_II
 
 Paterno R. Esmaquel II is a senior multimedia reporter covering religion for Rappler. He completed MA Journalism at Ateneo de Manila and MSc Asian Studies (Religions in Plural Societies) at NTU in Singapore. For story ideas or feedback, email pat.esmaquel@rappler.com.
 
-[More from Paterno R. Esmaquel II](https://www.rappler.com/author/paterno-r-esmaquel-ii/)
+More from Paterno R. Esmaquel II

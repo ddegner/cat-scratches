@@ -1,0 +1,7 @@
+{
+  "url": "https://en.wiktionary.org/wiki/example",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Stripped page-chrome (edit-links, infobox, pending-translations note, categories/footer) and rendered links as plain text"
+}

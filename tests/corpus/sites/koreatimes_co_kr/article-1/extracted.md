@@ -1,4 +1,4 @@
-1. [South Korea](/southkorea "South Korea Go to the page")
+1. South Korea
 
 # Gyeonggi Province forges education deal with US state
 

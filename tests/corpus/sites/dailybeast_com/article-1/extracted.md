@@ -14,11 +14,11 @@ In the past, the White House has also attributed the bruising on Trump’s hands
 
 Just last week, Trump’s “good” hand got the concealer treatment as he welcomed King Charles and Queen Camilla to Washington, D.C.
 
-[Trump, 79, Slathers Makeup on ‘Good’ Hand to Meet Royalty](/trump-79-slathers-makeup-on-good-hand-to-meet-king-charles-iii-and-queen-camilla-at-white-house/)[FIT FOR A KING](/trump-79-slathers-makeup-on-good-hand-to-meet-king-charles-iii-and-queen-camilla-at-white-house/)
+Trump, 79, Slathers Makeup on ‘Good’ Hand to Meet Royalty FIT FOR A KING
 
-[Vic Verbalaitis](/author/vic-verbalaitis)
+Vic Verbalaitis
 
-Trump’s concerning bruises, on top of his [public displays of drowsiness](https://www.thedailybeast.com/trump-79-fights-to-keep-his-eyes-open-at-kids-fitness-event/), [mental flubs](https://www.thedailybeast.com/trump-79-forgets-what-he-said-after-just-one-day/ "https://www.thedailybeast.com/trump-79-forgets-what-he-said-after-just-one-day/"), and [swollen ankles](https://www.thedailybeast.com/trump-79-lets-cankles-slip-after-surprise-medical-visit/ "https://www.thedailybeast.com/trump-79-lets-cankles-slip-after-surprise-medical-visit/"), have all raised questions about his health.
+Trump’s concerning bruises, on top of his public displays of drowsiness, mental flubs, and swollen ankles, have all raised questions about his health.
 
 The president nonetheless appeared to be in good spirits as he sang praises for the first lady at the early Mother’s Day celebration.
 

@@ -1,0 +1,7 @@
+{
+  "url": "https://www.vanityfair.com/culture/story/prada-heir-lorenzo-bertelli",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept embedded promo links, a photo-credit line, a corrections footnote, and a 'More Great Stories' recirc list; removed all, body text otherwise correct"
+}

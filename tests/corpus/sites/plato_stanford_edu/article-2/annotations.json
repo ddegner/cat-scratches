@@ -1,0 +1,7 @@
+{
+  "url": "https://plato.stanford.edu/entries/ethics-ai/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor's article body (Intro through Closing Note) was correct; removed table of contents, first-published date line, and backmatter (bibliography, academic tools, other internet resources, related entries, acknowledgments, copyright)."
+}

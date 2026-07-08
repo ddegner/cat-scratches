@@ -1,0 +1,14 @@
+{
+  "url": "https://www.wix.com/blog/how-to-design-a-website",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9728682170542635,
+    "recall_of_readability": 0.9729,
+    "recall_of_extracted": 0.998,
+    "extracted_tokens": 1509,
+    "readability_tokens": 1548
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

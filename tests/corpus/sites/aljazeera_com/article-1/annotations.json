@@ -1,0 +1,7 @@
+{
+  "url": "https://www.aljazeera.com/news/2026/5/6/israel-bombs-beiruts-southern-suburb-as-it-targets-radwan-force-commander",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md already clean; readability.txt had duplicated lead sentence and a Recommended Stories block mixed in"
+}

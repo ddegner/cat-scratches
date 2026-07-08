@@ -1,0 +1,7 @@
+{
+  "url": "https://cooking.nytimes.com/recipes/1022209-roasted-carrots-with-shallots-mozzarella-and-spicy-bread-crumbs",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept save/print button placeholders, star-rating widget, edamam 'Powered by' link, ratings/comments sections, and a recipe-tags list; removed all, kept time/ingredients/nutrition/steps"
+}

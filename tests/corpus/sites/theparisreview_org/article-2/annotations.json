@@ -1,0 +1,14 @@
+{
+  "url": "https://www.theparisreview.org/blog/2026/05/01/when-the-confederacy-came-to-la/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9905660377358491,
+    "recall_of_readability": 0.9906,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 840,
+    "readability_tokens": 848
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

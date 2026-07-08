@@ -1,0 +1,7 @@
+{
+  "url": "https://www.allrecipes.com/recipe/214906/the-perfect-sunday-brunch-spinach-salad/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor dropped the recipe's intro blurb (present in readability.txt) and left error-widget/scaling junk; removed junk, added intro, reformatted nutrition facts to match article-1 convention"
+}

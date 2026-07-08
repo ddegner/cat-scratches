@@ -43,15 +43,11 @@ struct RootView: View {
 
 But there _are_ situations in which using `ViewBuilder` directly can be incredibly useful — so let’s go ahead and explore a few such examples, along with some tips and tricks that can be good to keep in mind when writing that kind of code.
 
-[
-
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
+## Custom containers
 
-## [Custom containers](#custom-containers)
-
-Any property, function, or closure can be marked with the `@ViewBuilder` attribute, which opts that code into getting the same _[“DSL-like”](https://en.wikipedia.org/wiki/Domain-specific_language)_ capabilities as SwiftUI’s built-in APIs. For example, let’s say that we’re building a custom `Container` view, which renders a `header` on top of a `content` view, while also applying some default styling to those two components:
+Any property, function, or closure can be marked with the `@ViewBuilder` attribute, which opts that code into getting the same _“DSL-like”_ capabilities as SwiftUI’s built-in APIs. For example, let’s say that we’re building a custom `Container` view, which renders a `header` on top of a `content` view, while also applying some default styling to those two components:
 
 ```
 struct Container<Header: View, Content: View>: View {
@@ -117,7 +113,7 @@ struct RootView: View {
 
 Neat! Next, let’s take a look at how we might handle situations when we want to omit a specific component from a custom container view.
 
-## [Making view builder properties optional](#making-view-builder-properties-optional)
+## Making view builder properties optional
 
 For example, let’s say that we want to make our `Container` view’s `header` optional. One way to get that done would be to write an extension on `Container` with a generic constraint on SwiftUI’s `EmptyView` type, which allows us to then pass that type’s initializer as a closure when calling our view’s member-wise initializer:
 
@@ -176,7 +172,7 @@ Note that we no longer need to add the `@ViewBuilder` attribute to our propertie
 
 An alternative approach would’ve been to instead store references to our closures within the `header` and `content` properties, and to then call those closures within our view’s `body`. Doing so wouldn’t make much of a difference in this particular case (besides requiring those closures to be `@escaping`, which most of SwiftUI’s own view builder closures aren’t), however, in some situations, taking that approach can significantly hurt performance — since we’ll end up re-evaluating those closures every time our view’s `body` gets re-evaluated. So, when possible, resolving each view builder closure up-front gives us the most predictable and consistent results.
 
-## [Handling multiple view expressions](#handling-multiple-view-expressions)
+## Handling multiple view expressions
 
 Just like when using SwiftUI’s built-in containers, it’s also now possible to place multiple view expressions within either our `header` or `content` closures. For example, if we bring back the header within our `RootView`, we might use this capability to add a `NavigationLink` below our welcome text — like this:
 
@@ -282,16 +278,12 @@ private extension RootView {
 
 We still want to keep using `@ViewBuilder` for our `content` function, though, since it returns just a single (albeit conditional) root view expression.
 
-[
-
 Swift by Sundell is brought to you by the **Genius Scan SDK** — Add a powerful document scanner to any mobile app, and turn scans into high-quality PDFs with one line of code. Try it today.
 
-](https://geniusscansdk.com/swiftbysundell?utm_content=inline_ad)
-
-## [Conclusion](#conclusion)
+## Conclusion
 
 SwiftUI’s `ViewBuilder` is a really powerful tool, and the fact that we can opt our own code into using it gives us a lot of flexibility when it comes to how we want to structure and reuse our UI code. By adopting it within our own custom containers, we can really craft APIs that feel right at home alongside SwiftUI’s own features, which in turn should help us improve the consistency and clarity of the UI code that we write.
 
-I hope you enjoyed this article. If you have any questions, comments, or feedback, then feel free to reach out via either [Mastodon](https://mastodon.social/@johnsundell) or [Bluesky](https://bsky.app/profile/johnsundell.bsky.social).
+I hope you enjoyed this article. If you have any questions, comments, or feedback, then feel free to reach out via either Mastodon or Bluesky.
 
 Thanks for reading!

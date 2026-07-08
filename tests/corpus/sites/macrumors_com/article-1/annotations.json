@@ -1,0 +1,7 @@
+{
+  "url": "https://www.macrumors.com/2026/05/05/ios-26-5-three-new-iphone-features/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor body was correct; removed byline/date, Related Roundups/Forum links, and comment-count chrome. Readability-only blocks were all 'Popular Stories' sidebar teasers, not article content."
+}

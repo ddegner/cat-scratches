@@ -1,16 +1,16 @@
-If you have $150,000 saved right now, many would advise against putting it into a [certificate of deposit (CD) account](https://www.cbsnews.com/news/whats-a-certificate-of-deposit-cd/). Rates on these accounts are [fixed](https://www.cbsnews.com/news/fixed-vs-variable-interest-rate-which-is-better-for-your-savings-now/), meaning that you'll need to sacrifice access to your money to earn the interest rate it comes with. The top rates available, meanwhile, are generally around [4%](https://www.cbsnews.com/news/how-to-earn-4-interest-or-more-on-your-money-february-2026/). While that's competitive amid savings accounts, it pales in comparison to the [historic 10% return](https://www.chase.com/personal/investments/learning-and-insights/article/what-is-the-average-stock-market-return) many are accustomed to receiving with stock market investments. And, if you ultimately need to regain access to your funds before the account matures, the [early withdrawal penalty](https://www.cbsnews.com/news/cd-early-withdrawal-penalties-what-to-know/) on an account of this size could be substantial.
+If you have $150,000 saved right now, many would advise against putting it into a certificate of deposit (CD) account. Rates on these accounts are fixed, meaning that you'll need to sacrifice access to your money to earn the interest rate it comes with. The top rates available, meanwhile, are generally around 4%. While that's competitive amid savings accounts, it pales in comparison to the historic 10% return many are accustomed to receiving with stock market investments. And, if you ultimately need to regain access to your funds before the account matures, the early withdrawal penalty on an account of this size could be substantial.
 
-But the economic climate many are operating in now is also far from traditional. [Inflation](https://www.cbsnews.com/news/cpi-report-today-march-2026-inflation-iran-war-trump/) just surged to its highest level in years, essentially freezing today's elevated interest rates in place for the foreseeable future. That leaves borrowing costs high, uncertainty elevated and the need for a safe and predictable home for your money more important than it would otherwise be. In this environment, then, the value of a $150,000 CD account may be worth serious reconsideration. That begins with determining the interest-earning potential it represents.
+But the economic climate many are operating in now is also far from traditional. Inflation just surged to its highest level in years, essentially freezing today's elevated interest rates in place for the foreseeable future. That leaves borrowing costs high, uncertainty elevated and the need for a safe and predictable home for your money more important than it would otherwise be. In this environment, then, the value of a $150,000 CD account may be worth serious reconsideration. That begins with determining the interest-earning potential it represents.
 
 So, how much interest will a $150,000 CD account actually earn now? Thanks to the fixed rate the account employs, these figures are simple to calculate. Below, we'll do the math.
 
-[Start earning more interest on your money with a top CD account here](https://www.bankrate.com/landing/cbsnews/best-cd-options/?sub-id=www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026).
+Start earning more interest on your money with a top CD account here.
 
 ## **How much interest will a $150,000 CD account earn now?**
 
-CD account interest rates will vary depending on the lender and the [term](https://www.cbsnews.com/news/cd-terms-everything-to-know/) (or length) of the account. Here's how much interest $150,000 will generate when calculated against the top rates available for a variety of terms and the assumption that no fees or penalties are levied against the account:
+CD account interest rates will vary depending on the lender and the term (or length) of the account. Here's how much interest $150,000 will generate when calculated against the top rates available for a variety of terms and the assumption that no fees or penalties are levied against the account:
 
-* ****$150,000 3-month CD at 3.90%:**** $1,441.58 upon [maturity](https://www.cbsnews.com/news/what-to-do-when-your-cd-matures-according-to-experts/)
+* ****$150,000 3-month CD at 3.90%:**** $1,441.58 upon maturity
 * ****$150,000 6-month CD at 4.10%:**** $3,044.11 upon maturity
 * ****$150,000 9-month CD at 4.00%:**** $4,477.87 upon maturity
 * ****$150,000 1-year CD at 4.10%:**** $6,150.00 upon maturity
@@ -22,8 +22,6 @@ CD account interest rates will vary depending on the lender and the [term](https
 In short, the interest-earning capacity of a $150,000 CD account is substantial. Savers will earn a minimum of $1,440, approximately, in just around 90 days and tens of thousands more, depending on how long they leave the funds in the account. 
 
 Even a 6-month CD, which will allow savers to weather today's economic volatility while still allowing them to pivot relatively quickly, will result in a return worth more than $3,000. Consider all of these rates, terms and returns carefully, particularly the short-term options, as they could provide an ideal combination of a big return without an extended commitment. 
-
-[Compare your top CD account options online here](https://www.bankrate.com/landing/cbsnews/best-cd-options/?sub-id=www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026).
 
 ## **The bottom line**
 

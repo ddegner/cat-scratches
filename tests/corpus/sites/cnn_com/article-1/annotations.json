@@ -1,0 +1,14 @@
+{
+  "url": "https://www.cnn.com/2026/05/06/politics/jeffrey-epstein-purported-suicide-note",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 1,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 266,
+    "readability_tokens": 266
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

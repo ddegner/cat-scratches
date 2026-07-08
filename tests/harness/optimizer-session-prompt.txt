@@ -1,0 +1,45 @@
+Work in tests/harness/ of this repo. Read tests/harness/OPTIMIZER.md for the
+rules, then run a SHORT optimization session. A supervisor script relaunches you
+repeatedly, so you do NOT need to drain the whole queue — just make steady
+progress and exit cleanly.
+
+Session budget: 5 accepted-and-applied patches, then STOP and report. Fewer is
+fine; do not exceed 5.
+
+Candidates are ALREADY FRESH: the supervisor ran `npm run evidence && npm run
+mine` immediately before launching you. Read tests/corpus/mined-candidates.json
+and start proposing. You must NOT run `npm run evidence` or `npm run mine`
+yourself — the supervisor owns that step. (This is what keeps sessions short and
+prevents stalls.)
+
+CRITICAL — command execution:
+- Run every harness command in the FOREGROUND and wait for it to return. The
+  Bash tool blocks until completion. NEVER background a command, use `&`, or end
+  your turn to "check later" — that orphans the work and wastes the session.
+- The commands you may run: node evaluate.mjs (via `npm run propose` and the
+  holdout/apply steps), node apply-defaults.mjs, node text-cleanup-rules.mjs,
+  node extraction-regressions.mjs. NOT evidence or mine.
+
+Per-patch procedure (from the manual):
+1. Pick the highest-value candidate from mined-candidates.json that is NOT in
+   tests/corpus/experiments.jsonl already (grep it — skip any selector/rule
+   tried before, any verdict). Prefer data-attributes > semantic class names >
+   class stems. NEVER a layout/utility class (the linter now rejects these; do
+   not waste a proposal testing one).
+2. Write a one-op patch JSON and run `npm run propose -- --patch patch.json`.
+3. On REJECTED: it is logged; move to the next candidate. Do not retry or use
+   --skip-lint.
+4. On ACCEPTED: run the printed holdout check
+   (`node evaluate.mjs --config <candidate> --set holdout`). If it prints
+   `gates: PASS`, apply: `node apply-defaults.mjs <candidate>`, then
+   `node text-cleanup-rules.mjs && node extraction-regressions.mjs &&
+   node --max-old-space-size=8192 evaluate.mjs --write-baseline`. If holdout
+   FAILS, do not apply; move on.
+
+Stop when ANY of: 5 accepted-and-applied patches; 5 consecutive rejections; or
+you have grepped the top ~30 mined candidates and all are already tried.
+
+Then report tersely:
+1. ACCEPTED this session — op + pages helped + objective before→after.
+2. REJECTED this session — op + gate, one line each.
+3. Whether more untried safe candidates remain (yes/no + rough count).

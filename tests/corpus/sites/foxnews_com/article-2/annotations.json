@@ -1,0 +1,7 @@
+{
+  "url": "https://www.foxnews.com/media/rutgers-pulls-graduation-speaker-after-his-anti-israel-social-media-posts-allegedly-drew-student-backlash",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed listen-CTA, close button, and all-caps related-story callouts; readability-only block was an unrelated drag-race teaser (junk, not missing content)"
+}

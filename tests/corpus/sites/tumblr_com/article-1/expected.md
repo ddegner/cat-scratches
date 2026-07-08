@@ -1,0 +1,29 @@
+This place matters, and our goal is to keep Tumblr thriving for a long time. That means Tumblr has to keep evolving. There are things we know could be better. You probably have a list too. Some of it will be easy to fix. Some won’t. That’s exactly why we want to work with you.
+
+The Tumblr User Panel will be a group of people on Tumblr who’ll work with us over time to give feedback on how this place works today and where it’s going. We know we have to earn your trust, and we want to change how we build features and include you more in the process. We’re looking forward to shaping this together.
+
+If you’re interested in joining: https://tumblr.survey.fm/tumblr-user-panel-interest-survey
+
+## Here’s what you probably want to know:
+
+**Why a panel instead of just listening to everyone?**
+
+We won’t stop reading tags, comments, reblogs, and support tickets, but a panel helps us paint a more complete picture before we build, and go deeper than a reblog thread allows.
+
+**Who are you looking for?**
+
+A mix of experience levels, devices, countries, posting habits. People who’ve been here a decade and people who showed up last month.
+
+**Will everyone who fills out the survey get in?**
+
+No. We’re keeping it small enough to have real conversations. If you’re not selected, it’s because we’re balancing across a lot of dimensions, not because your response wasn’t good enough. We may expand or rotate members over time.
+
+**Will critical feedback affect my account?**
+
+No! We want your feedback and criticism, and that will never result in any action against your account.
+
+**Can I leave?**
+
+Whenever you want. No penalties.
+
+Questions before filling out the survey? Leave a comment.

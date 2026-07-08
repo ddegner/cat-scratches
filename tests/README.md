@@ -25,7 +25,7 @@ tests/
         article-2/
           …
   harness/
-    package.json                 # jsdom only
+    package.json                 # jsdom + @mozilla/readability
     build-manifest.mjs           # regenerates manifest.json from its SITES table
     patch-pilot-urls.mjs         # one-off URL fixer used during pilot
     fetch.mjs [--pilot] [--force]      # downloads source.html for every page
@@ -33,6 +33,13 @@ tests/
     score.mjs                          # diffs extracted.md vs expected.md → BASELINE.md
     seed-annotations.mjs               # writes annotations.json stubs (pilot)
     pilot.mjs                          # exports PILOT_SLUGS (20 sites)
+    # --- optimization loop (see OPTIMIZER.md for the full procedure) ---
+    evaluate.mjs                       # score a candidate config vs eval-baseline.json, with regression gates
+    seed-expected.mjs                  # grow ground truth via Readability triangulation
+    mine-evidence.mjs                  # aggregate evidence.json → ranked, risk-checked candidate changes
+    propose.mjs                        # lint + evaluate + ledger one patch (experiments.jsonl)
+    apply-defaults.mjs                 # write an accepted config back into defaults.js (verified round-trip)
+    lib/                               # shared corpus/extractor/scoring/evidence/lint modules
 ```
 
 ## Usage
@@ -51,6 +58,29 @@ node fetch.mjs --pilot
 node run.mjs   --pilot
 node score.mjs
 ```
+
+## Optimization loop
+
+[harness/OPTIMIZER.md](harness/OPTIMIZER.md) documents the closed
+propose→lint→evaluate→apply loop for improving `BASE_SELECTORS` /
+`BASE_FILTERS` / `BASE_TEXT_CLEANUP_RULES`, designed so a low-cost model can
+drive it. Quick tour:
+
+```bash
+npm run evidence   # score all ground-truth pages, write per-page evidence.json
+npm run mine       # → corpus/MINED_CANDIDATES.md (ranked, risk-checked filter ideas)
+npm run propose -- --patch p.json   # test one change; verdict → corpus/experiments.jsonl
+node apply-defaults.mjs corpus/candidates/<hash>.json  # ship an accepted change
+```
+
+Ground truth comes in two tiers: hand-curated pages (improvement signal) and
+`quality: auto-agreed` pages seeded by `seed-expected.mjs` where Mozilla
+Readability independently agrees with our extractor (regression armor —
+F1 = 1.0 by construction). `corpus/review-queue.json` lists the pages where
+the two extractors disagree; that's the curation backlog. A deterministic
+~20% holdout split is enforced by `evaluate.mjs --set holdout` at acceptance
+time; `eval-baseline.json` pins per-page scores and is only rewritten via
+`evaluate.mjs --write-baseline` after a change ships.
 
 ## `annotations.json` schema
 

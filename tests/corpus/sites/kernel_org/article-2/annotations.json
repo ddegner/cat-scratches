@@ -1,0 +1,14 @@
+{
+  "url": "https://www.kernel.org/doc/html/latest/admin-guide/README.html",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9922720247295209,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 0.9923,
+    "extracted_tokens": 647,
+    "readability_tokens": 642
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

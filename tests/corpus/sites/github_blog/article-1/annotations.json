@@ -1,0 +1,7 @@
+{
+  "url": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
+  "annotator": "llm-adjudicated",
+  "quality": "ok",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md content was complete and correct; stripped inline link URLs and the editor's-note update line, dropped readability's author-bio and 'explore more from GitHub' footer widgets which aren't article content"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.wired.com/2012/12/ff-robots-will-take-our-jobs/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9925857275254866,
+    "recall_of_readability": 0.9926,
+    "recall_of_extracted": 0.9991,
+    "extracted_tokens": 1072,
+    "readability_tokens": 1079
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

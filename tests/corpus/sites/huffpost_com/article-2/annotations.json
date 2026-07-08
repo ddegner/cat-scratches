@@ -1,0 +1,14 @@
+{
+  "url": "https://www.huffpost.com/entry/rudy-giuliani-girlfriend-health-update_n_69fa10cee4b055e1a49707bf?origin=top-ad-recirc",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.966824644549763,
+    "recall_of_readability": 0.9668,
+    "recall_of_extracted": 0.9761,
+    "extracted_tokens": 209,
+    "readability_tokens": 211
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

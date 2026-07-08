@@ -355,6 +355,73 @@
         return element;
     }
 
+    // Sites that space label/value spans purely with CSS produce fused text
+    // after markdown conversion ("balance_transactionnullable string"). When a
+    // parent holds ONLY element children, the author isn't writing prose, so a
+    // missing space at a child boundary is presentation, not intent — insert
+    // one. Mixed text/element content (real prose, drop caps, punctuation
+    // after links) is left untouched, as is anything code-like.
+    const SEPARATOR_SKIP_TAGS = new Set(['PRE', 'CODE', 'SCRIPT', 'STYLE', 'TEXTAREA', 'SVG', 'MATH', 'KBD', 'SAMP']);
+    const SEPARATOR_SKIP_CLASS_RE = /\b(highlight|hljs|prism|katex|codeblock|code-block|sourceCode)\b/i;
+    // Only fuse-repair between INLINE elements. Block elements (P, DIV, LI,
+    // headings…) already emit their own line breaks in markdown, so two block
+    // siblings never fuse — and forcing a space there promotes header/byline
+    // metadata (`<p>date</p><a>category</a>`) into the body differently than
+    // baseline. The fusion bug is strictly an inline-inline phenomenon.
+    // Pure emphasis tags (B/I/EM/STRONG/U/S/MARK/SUB/SUP) are deliberately
+    // excluded: turndown renders them with * / _ markers that already separate
+    // adjacent runs, so they don't fuse — and inserting spaces between them
+    // shifts the exact marker adjacency that footer/promo cleanup rules are
+    // anchored to. The real fusion bug is span/label-based (CSS-spaced
+    // label/value markup).
+    const INLINE_SEPARATOR_TAGS = new Set([
+        'SPAN', 'A', 'SMALL', 'ABBR', 'CITE', 'Q', 'TIME', 'LABEL',
+        'BDI', 'BDO', 'DFN', 'DATA', 'VAR', 'WBR'
+    ]);
+
+    function insertInlineSeparators(element) {
+        if (!element || !element.childNodes || element.nodeType !== 1) {
+            return element;
+        }
+        if (SEPARATOR_SKIP_TAGS.has(element.nodeName)) {
+            return element;
+        }
+        const className = typeof element.className === 'string' ? element.className : '';
+        if (SEPARATOR_SKIP_CLASS_RE.test(className)) {
+            return element;
+        }
+
+        const children = Array.from(element.childNodes);
+        const hasSignificantText = children.some(
+            node => node.nodeType === 3 && /\S/.test(node.nodeValue || '')
+        );
+
+        if (!hasSignificantText) {
+            for (let i = 0; i < children.length - 1; i += 1) {
+                const current = children[i];
+                const next = children[i + 1];
+                if (current.nodeType !== 1 || next.nodeType !== 1) {
+                    continue;
+                }
+                if (!INLINE_SEPARATOR_TAGS.has(current.nodeName) || !INLINE_SEPARATOR_TAGS.has(next.nodeName)) {
+                    continue;
+                }
+                const currentText = current.textContent || '';
+                const nextText = next.textContent || '';
+                if (/\S$/.test(currentText) && /^\S/.test(nextText)) {
+                    element.insertBefore(element.ownerDocument.createTextNode(' '), next);
+                }
+            }
+        }
+
+        for (const child of children) {
+            if (child.nodeType === 1) {
+                insertInlineSeparators(child);
+            }
+        }
+        return element;
+    }
+
     function extractMarkdownFromSelectionContainer(container, settings) {
         if (!container) {
             return '';
@@ -362,6 +429,7 @@
 
         const selectionClone = container.cloneNode ? container.cloneNode(true) : container;
         removeUnsafeDescendants(selectionClone);
+        insertInlineSeparators(selectionClone);
 
         if (typeof TurndownService !== 'undefined') {
             const turndownService = createBaseTurndownService(settings);
@@ -701,10 +769,61 @@
             }
         }
 
+        // Deck rescue: many CMSes place the standfirst/intro paragraph in a
+        // sibling of the article body container (e.g. .article__intro next to
+        // .article__content), so the winning selector never includes it. If a
+        // conventionally-named deck element precedes the chosen root, prepend
+        // its text — unless the body already contains it (some sites duplicate
+        // the dek inside the article).
+        // Deliberately excludes "subhead(line)" — that names mid-article
+        // section headings (.b-subheadline, .subhead-embed), not the lede.
+        const DECK_CLASS_RE = /(^|[\s_-])(article__intro|entry__intro|post__intro|standfirst|article-standfirst|deck|article__dek|dek|lede|article-lede)($|[\s_-])/i;
+
+        function findDeckElement(rootElement) {
+            let scope = rootElement.parentElement;
+            for (let depth = 0; scope && depth < 2; depth += 1, scope = scope.parentElement) {
+                for (const child of scope.children) {
+                    if (child === rootElement || child.contains(rootElement) || rootElement.contains(child)) {
+                        continue;
+                    }
+                    const className = typeof child.className === 'string' ? child.className : '';
+                    if (!DECK_CLASS_RE.test(className)) {
+                        continue;
+                    }
+                    // 2 = DOCUMENT_POSITION_PRECEDING: deck must come before the body.
+                    if (!(rootElement.compareDocumentPosition(child) & 2)) {
+                        continue;
+                    }
+                    const text = (child.textContent || '').trim();
+                    if (text.length >= 20 && text.length <= 600) {
+                        return child;
+                    }
+                }
+            }
+            return null;
+        }
+
         // If we found a best element, use it
         if (bestElement) {
             if (useMarkdownConversion) {
-                content = turndownService.turndown((bestSanitizedElement || bestElement).innerHTML);
+                // bestSanitizedElement is a detached, already-filtered clone;
+                // mutate it (never the live DOM element) to insert the inline
+                // fuse-repair separators before markdown conversion.
+                const conversionRoot = bestSanitizedElement || bestElement.cloneNode(true);
+                insertInlineSeparators(conversionRoot);
+                content = turndownService.turndown(conversionRoot.innerHTML);
+
+                const deck = findDeckElement(bestElement);
+                if (deck) {
+                    const deckClone = removeFilteredDescendants(deck.cloneNode(true));
+                    insertInlineSeparators(deckClone);
+                    const deckMarkdown = turndownService.turndown(deckClone.innerHTML || '').trim();
+                    const normalize = s => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+                    const deckKey = normalize(deckMarkdown).slice(0, 80);
+                    if (deckKey && !normalize(content).includes(deckKey)) {
+                        content = deckMarkdown + '\n\n' + content;
+                    }
+                }
             } else {
                 const textElement = bestSanitizedElement || bestElement;
                 content = textElement.textContent || textElement.innerText || '';
@@ -725,6 +844,7 @@
                     const bodyClone = fallbackElement.cloneNode(true);
                     unwrapHtmlTemplateScripts(bodyClone);
                     removeFilteredDescendants(bodyClone);
+                    insertInlineSeparators(bodyClone);
                     content = turndownService.turndown(bodyClone.innerHTML);
                 }
             } else {

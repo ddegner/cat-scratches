@@ -1,0 +1,14 @@
+{
+  "url": "https://jacobin.com/2026/05/commons-enclosure-working-class-history",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9846261355695318,
+    "recall_of_readability": 0.9846,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 1409,
+    "readability_tokens": 1431
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

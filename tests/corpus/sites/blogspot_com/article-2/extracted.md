@@ -12,4 +12,4 @@ Please note that if you have a custom template that includes Google+ features, y
 
 We are sorry for the inconvenience these changes may cause, but we look forward to delivering fresh functionality to Blogger in the coming year. Thanks for your continued loyalty. 
   
-If you have questions about any of these changes or need help navigating them, please visit our [Blogger Help Forum](https://productforums.google.com/forum/#!forum/blogger).
+If you have questions about any of these changes or need help navigating them, please visit our Blogger Help Forum.

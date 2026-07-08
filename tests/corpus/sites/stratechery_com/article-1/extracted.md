@@ -1,6 +1,6 @@
 **Listen to this **post**:**
 
-[Log in to listen](https://stratechery.com/wp-json/passport/v1/oauth/authlogin?signup_redirect_uri=https%3A%2F%2Fstratechery.com%2Fverify-your-email%2F)
+Log in to listen
 
 In the beginning was the mainframe.
 
@@ -32,7 +32,7 @@ PCs underwent their own transformation over their two decades of dominance, firs
 
 The Internet differed from traditional applications by virtue of being available on every PC, facilitating communication between PCs, and by being agnostic to the actual device it was accessed on. This, in turn, provided the bridge to the next device paradigm, the smartphone, with its touch interface:
 
-I’ve long noted that [Microsoft did not miss mobile](https://stratechery.com/2014/microsofts-mobile-muddle/); their error was in trying to extend the PC paradigm to mobile. This not only led to a focus on the wrong interface (WIMP via stylus and built-in keyboard), but also an assumption that the application layer, which Windows dominated, would be a key differentiator.
+I’ve long noted that Microsoft did not miss mobile; their error was in trying to extend the PC paradigm to mobile. This not only led to a focus on the wrong interface (WIMP via stylus and built-in keyboard), but also an assumption that the application layer, which Windows dominated, would be a key differentiator.
 
 Apple, famously, figured out the right interface for the smartphone, and built an entirely new operating system around touch. Yes, iOS is based on macOS at a low level, but it was a completely new operating system in a way that Windows Mobile was not; at the same time, because iOS was based on macOS, it was far more capable than smartphone-only alternatives like BlackBerry OS or PalmOS. The key aspect of this capability was that the iPhone could access the _real_ Internet.
 
@@ -52,13 +52,13 @@ We already established above that the next paradigm is wearables. Wearables toda
 
 Now Apple might dispute this characterization in terms of the Vision Pro specifically, which not only has a PC-class M2 chip, along with its own visionOS operating system and apps, but can also run iPad apps. In truth, though, this makes the Vision Pro akin to Microsoft Mobile: yes, it is a capable device, but it is stuck in the wrong paradigm, i.e. the previous one that Apple dominated. Or, to put it another way, I don’t view “apps” as the bridge between mobile and wearables; apps are just the way we access the Internet on mobile, and the Internet was the old bridge, not the new one.
 
-To think about the next bridge, it’s useful to jump forward to the future and work backwards; that jump forward is a lot easier to envision, for me anyways, thanks to [my experience](https://stratechery.com/2024/an-interview-with-meta-cto-andrew-bosworth-about-orion-and-reality-labs/) with Meta’s Orion AR glasses:
+To think about the next bridge, it’s useful to jump forward to the future and work backwards; that jump forward is a lot easier to envision, for me anyways, thanks to my experience with Meta’s Orion AR glasses:
 
-> They’re real and they’re spectacular. [pic.twitter.com/hIJZuS6taY](https://t.co/hIJZuS6taY)
+> They’re real and they’re spectacular. pic.twitter.com/hIJZuS6taY
 > 
-> — Ben Thompson (@benthompson) [September 25, 2024](https://twitter.com/benthompson/status/1839065543766429926?ref_src=twsrc%5Etfw)
+> — Ben Thompson (@benthompson) September 25, 2024
 
-The most impressive aspect of Orion is the resolution, which is perfect. I’m referring, of course, to the fact that you can see the real world with your actual eyes; I wrote in [an Update](https://stratechery.com/2024/more-on-orion-where-vision-pro-went-wrong-apples-response-and-metas-motivation/):
+The most impressive aspect of Orion is the resolution, which is perfect. I’m referring, of course, to the fact that you can see the real world with your actual eyes; I wrote in an Update:
 
 > The reality is that the only truly satisfactory answer to passthrough is to not need it at all. Orion has perfect field-of-view and infinite resolution because you’re looking at the real world; it’s also dramatically smaller and lighter. Moreover, this perfect fidelity actually gives more degrees of freedom in terms of delivering the AR experience: no matter how high resolution the display is, it will still be lower resolution than the world around it; I tried a version of Orion with double the resolution and, honestly, it wasn’t that different, because the magic was in having augmented reality at all, not in its resolution. I suspect the same thing applies to field of view: 70 degrees seemed massive on Orion, even though that is less than the Vision Pro’s 100 degrees, because the edge of the field of view for Orion was reality, whereas the edge for the Vision Pro is, well, nothing.
 
@@ -72,12 +72,12 @@ This is where you start to see the bridge: what I am describing is an applicatio
 
 Of course generative AI is also usable on the phone, and that is where I expect most of the exploration around generative UI to happen for now. We certainly see plenty of experimentation and rapid development of generative AI broadly, just as we saw plenty of experimentation and rapid development of the Internet on PCs. That experimentation and development was not just usable on the PC, but it also created the bridge to the smartphone; I think that generative AI is doing the same thing in terms of building a bridge to wearables that are not accessories, but general purpose computers in their own right:
 
-This is exciting in the long-term, and [bullish for Meta](https://stratechery.com/2024/metas-ai-abundance/) (and [I’ve previously noted how generative AI is the key to the metaverse, as well](https://stratechery.com/2022/dall-e-the-metaverse-and-zero-marginal-content/)). It’s also, clearly, well into the future. It also helps explain why Orion isn’t shipping today: it’s not just that the hardware isn’t yet in a production state, particularly from a cost perspective, but the entire application layer needs to be built out, first on today’s devices, enabling the same sort of smooth transition that the iPhone had. No, Apple didn’t have the App Store, but the iPhone was extraordinarily useful on day one, because it was an Internet Communicator.
+This is exciting in the long-term, and bullish for Meta (and I’ve previously noted how generative AI is the key to the metaverse, as well). It’s also, clearly, well into the future. It also helps explain why Orion isn’t shipping today: it’s not just that the hardware isn’t yet in a production state, particularly from a cost perspective, but the entire application layer needs to be built out, first on today’s devices, enabling the same sort of smooth transition that the iPhone had. No, Apple didn’t have the App Store, but the iPhone was extraordinarily useful on day one, because it was an Internet Communicator.
 
 ### Survey Complete
 
-Ten years ago I wrote a post entitled [The State of Consumer Technology in 2014](https://stratechery.com/2014/state-consumer-technology-end-2014/), where I explored some of the same paradigm-shifts I detailed in this Article. This was the illustration I made then:
+Ten years ago I wrote a post entitled The State of Consumer Technology in 2014, where I explored some of the same paradigm-shifts I detailed in this Article. This was the illustration I made then:
 
-There is a perspective in which 2024 has been a bit of a letdown in terms of generative AI; there hasn’t been a GPT-5 level model released; the more meaningful developments have been in the vastly increased efficiency and reduction in size of GPT-4 level models, and [the inference-scaling possibilities of `o1`](https://stratechery.com/2024/openais-new-model-how-o1-works-scaling-inference/). Concerns are rising that we may have hit a data wall, and that there won’t be more intelligent AI without new fundamental breakthroughs in AI architecture.
+There is a perspective in which 2024 has been a bit of a letdown in terms of generative AI; there hasn’t been a GPT-5 level model released; the more meaningful developments have been in the vastly increased efficiency and reduction in size of GPT-4 level models, and the inference-scaling possibilities of `o1`. Concerns are rising that we may have hit a data wall, and that there won’t be more intelligent AI without new fundamental breakthroughs in AI architecture.
 
 I, however, feel quite optimistic. To me the story of 2024 has been filling in those question marks in that illustration. The product overhang from the generative AI capabilities we have today are absolutely massive: there are so many new things to be built, and completely new application layer paradigms are at the top of the list. That, by extension, is the bridge that will unlock entirely new paradigms of computing. The road to the future needs to be built; it’s exciting to have the sense that the surveying is now complete.

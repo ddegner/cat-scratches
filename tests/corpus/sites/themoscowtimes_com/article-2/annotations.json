@@ -1,0 +1,7 @@
+{
+  "url": "https://www.themoscowtimes.com/2019/10/24/win-a-6000-rub-gift-certificate-pinch-a67890",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor dropped the opening deck paragraph describing the restaurant (\"This cozy and delicious Moscow restaurant...\"); readability had it but also included an unrelated donation-appeal/subscription CTA which was excluded."
+}

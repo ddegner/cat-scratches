@@ -1,0 +1,7 @@
+{
+  "url": "https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier",
+  "annotator": "llm-adjudicated",
+  "quality": "fixture-broken",
+  "adjudicated_at": "2026-07-07",
+  "notes": "17k-line auto-generated API reference listing (all Modifier extension functions); readability grabbed the site's package-nav sidebar instead of page content. Not curatable prose, this is a listing/index page."
+}

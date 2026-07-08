@@ -1,0 +1,14 @@
+{
+  "url": "https://harpers.org/2026/05/epiphany-narrative-kristin-dombek-interview/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 1,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 485,
+    "readability_tokens": 485
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.newyorker.com/magazine/2026/04/13/how-the-internet-fringe-infiltrated-republican-politics",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9889943074003795,
+    "recall_of_readability": 0.989,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 2606,
+    "readability_tokens": 2635
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

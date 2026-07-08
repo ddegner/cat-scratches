@@ -6,7 +6,7 @@ The **https://** ensures that you are connecting to the official website and tha
 
 Search: 
 
-[Advanced](/advanced/) [Clipboard](/clipboard/)
+Advanced Clipboard
 
 ### Add to Collections
 
@@ -20,14 +20,14 @@ Name must be less than 100 characters
 Choose a collection:
 
 Unable to load your collection due to an error 
-[Please try again](#)
+Please try again
 
 ### Add to My Bibliography
 
 * My Bibliography
 
 Unable to load your delegates due to an error 
-[Please try again](#)
+Please try again
 
 ## Your saved search
 
@@ -35,7 +35,7 @@ Name of saved search:
 
 Search terms:
 
-[Test search terms](#)
+Test search terms
 
 Would you like email updates of new search results?
 
@@ -44,7 +44,7 @@ Saved Search Alert Radio Buttons
 * Yes
 * No
 
-Email: ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+Email: (change)
 
 Frequency: Monthly Weekly Daily
 
@@ -72,13 +72,13 @@ RSS Link
 
 _No abstract available_
 
-[PubMed Disclaimer](/disclaimer/)
+PubMed Disclaimer
 
-* [Synchronization of the circadian clock by time-restricted feeding with progressive increasing calorie intake. Resemblances and differences regarding a sustained hypocaloric restriction.](/32572063/)
+* Synchronization of the circadian clock by time-restricted feeding with progressive increasing calorie intake. Resemblances and differences regarding a sustained hypocaloric restriction.
     
     García-Gaytán AC, Miranda-Anaya M, Turrubiate I, López-De Portugal L, Bocanegra-Botello GN, López-Islas A, Díaz-Muñoz M, Méndez I. García-Gaytán AC, et al. Sci Rep. 2020 Jun 22;10(1):10036. doi: 10.1038/s41598-020-66538-0. Sci Rep. 2020. PMID: 32572063 Free PMC article.
 
 * ### Full Text Sources
     
-    * [Nature Publishing Group](https://doi.org/10.1038/s41598-024-66718-2)
-    * [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/38987654/)
+    * Nature Publishing Group
+    * PubMed Central

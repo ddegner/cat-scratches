@@ -97,7 +97,6 @@
     '.story-body',
     '.story__body',
     '.story-content',
-    '.storytext',
     '.storyText',
     '.StoryBody',
     '.StoryBodyCompanionColumn',
@@ -114,7 +113,6 @@
     '.post-content__body',
     '.article-content-container',
     '.article-entry',
-    '.article-main',
     '.read__content',
     '.caas-body',
     '.RichTextStoryBody',
@@ -123,7 +121,6 @@
     '[itemtype*="Article"]',
     '[itemtype*="BlogPosting"]',
     'main[role="main"]',
-    'article',
     '[role="main"]',
     'main',
     '.article',
@@ -588,7 +585,23 @@
     '[class*="g92qtk"]',
     '[class*="18crmh6"]',
     '.css-18crmh6',
-    '[class*="kyszhr"]'
+    '[class*="kyszhr"]',
+    '.article-footer',
+    '.baseline-indicator',
+    '[data-testid="blob-size"]',
+    '.live-sample---specifying_grid_column_sizes',
+    '.interactive-example',
+    '.user-info',
+    '.mm-recipes-nutrition-facts-label-disclaimer-info',
+    '.js-voting-container',
+    '#Sidebar',
+    '.md-cite-modal',
+    '.form-select',
+    '.md-feedback-modal',
+    '.mntl-message-banner__text',
+    '.smallprint',
+    '.c-globalAuthor_metaContentWrap',
+    '[class*="byline--3Eec5bcq"]'
   ];
 
   const BASE_TEXT_CLEANUP_RULES = [
@@ -747,11 +760,14 @@
     String.raw`line:/^\s*reporting from\s+[^\n]{1,160}\s*$/i`,
     String.raw`line:/^\s*\*?\s*(?:Jan\.?|January|Feb\.?|February|Mar\.?|March|Apr\.?|April|May|Jun\.?|June|Jul\.?|July|Aug\.?|August|Sept\.?|September|Oct\.?|October|Nov\.?|November|Dec\.?|December)\s+\d{1,2},\s+\d{4}\s*\*?\s*$/`,
     String.raw`line:/^\s*\**\s*want to stay updated\b.*$/i`,
-    String.raw`line:/^.*we(?:'|\u2019)ll send our latest coverage to your inbox\.?$/i`
+    String.raw`line:/^.*we(?:'|\u2019)ll send our latest coverage to your inbox\.?$/i`,
+    String.raw`line:/^Open symbols panel$/`,
+    String.raw`line:/^Edit and raw actions$/`,
+    String.raw`line:/^Read technical reportStart now$/`
   ];
 
   const unique = arr => Array.from(new Set(arr.map(s => (typeof s === 'string' ? s.trim() : s)).filter(Boolean)));
-  const DEFAULTS_REVISION = 7;
+  const DEFAULTS_REVISION = 27;
 
   const DEFAULT_SETTINGS = {
     defaultsRevision: DEFAULTS_REVISION,

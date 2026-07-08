@@ -1,0 +1,7 @@
+{
+  "url": "https://www.zdnet.com/article/i-converted-to-adaptive-chargers-and-already-feel-safer/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed trust boilerplate, nav breadcrumb, byline/date, Follow-ZDNET CTA, inline Also-promo links, Featured/Related/editorial-standards chrome; kept key-takeaways box as legitimate editorial summary"
+}

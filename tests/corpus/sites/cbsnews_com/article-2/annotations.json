@@ -1,0 +1,7 @@
+{
+  "url": "https://www.cbsnews.com/news/how-much-interest-150000-cd-account-earn-may-2026/",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Removed two Bankrate affiliate CTA links, stripped inline link URLs, and fixed quadruple-asterisk bold to standard bold"
+}

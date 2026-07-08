@@ -1,0 +1,7 @@
+{
+  "url": "https://www.techradar.com/phones/android/5-android-17-features-that-could-be-announced-at-googles-pre-i-o-android-reveal-including-motion-assist-and-app-locking",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "extracted.md kept 'Share this article'/comment-count/Google-follow CTA chrome at top and TikTok/WhatsApp/Google-News follow CTAs at bottom; removed both, stripped inline links, kept the key-points bullets and body"
+}

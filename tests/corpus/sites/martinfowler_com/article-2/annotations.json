@@ -1,0 +1,14 @@
+{
+  "url": "https://martinfowler.com/bliki/TechnicalDebt.html",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9950980392156863,
+    "recall_of_readability": 1,
+    "recall_of_extracted": 0.9951,
+    "extracted_tokens": 408,
+    "readability_tokens": 406
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

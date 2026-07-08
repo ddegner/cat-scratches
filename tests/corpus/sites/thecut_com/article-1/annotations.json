@@ -1,0 +1,14 @@
+{
+  "url": "https://www.thecut.com/2019/09/the-story-of-caroline-calloway-and-her-ghostwriter-natalie.html",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9695014662756598,
+    "recall_of_readability": 0.9695,
+    "recall_of_extracted": 1,
+    "extracted_tokens": 1653,
+    "readability_tokens": 1705
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

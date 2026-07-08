@@ -1,0 +1,599 @@
+Development of a Rapid Adeno-Associated Virus (AAV) Identity Testing Platform through Comprehensive Intact Mass Analysis of Full-Length AAV Capsid Proteins
+
+
+    
+  
+
+
+        
+
+        
+
+
+    
+      
+        Josh Smith et al.
+      
+    
+  
+  
+    
+      
+        J Proteome Res.
+      
+      
+        
+          2023.
+        
+      
+    
+  
+
+
+        
+        
+        
+      
+    
+  
+
+
+  
+
+
+
+  
+
+  
+
+
+
+  
+    
+      
+        Abstract
+        
+      
+      
+        
+          
+            
+      
+      Adeno-associated viruses (AAVs) are commonly used as vectors for the delivery of gene therapy targets. Characterization of AAV capsid proteins (VPs) and their post-translational modifications (PTMs) have become a critical attribute monitored to evaluate product quality. Liquid chromatography-mass spectrometry (LC-MS) analysis of intact AAV VPs provides both quick and reliable serotype identification as well as proteoform information on each VP. Incorporating these analytical strategies into rapid good manufacturing practice (GMP)-compliant workflows containing robust, but simplified, data processing methods is necessary to ensure effective product quality control (QC) during production. Here, we present a GMP-compliant LC-MS workflow for the rapid identification and in-depth characterization of AAVs. Hydrophilic interaction liquid chromatography (HILIC) MS with difluoroacetic acid as a mobile phase modifier is utilized to achieve the intact separation and identification of AAV VPs and their potential proteoforms. Peptide mapping is performed to confirm PTMs identified during intact VP analysis and for in-depth PTM characterization. The intact separations platform is then incorporated into a data processing workflow developed using GMP-compliant software capable of rapid AAV serotype identification and, if desired, specific serotype PTM monitoring and characterization. Such a platform provides product QC capabilities that are easily accessible in a regulatory setting.
+    
+          
+        
+      
+
+      
+    
+
+    
+
+    
+      
+
+
+  
+
+  
+    
+      
+        
+          Keywords:
+        
+      
+      AAV intact viral capsid protein screening; adeno-associated virus; cell and gene therapy; good manufacturing practices; hydrophilic interaction liquid chromatography−mass spectrometry; rapid identity testing.
+    
+  
+
+
+    
+
+  
+
+
+  
+  
+
+
+
+  
+  PubMed Disclaimer
+
+  
+  
+    
+      Conflict of interest statement
+    
+
+    The authors declare the following competing financial interest(s): S.G.M. and R.O.S. are employees of Patheon Viral Vector Services. J.B. received funding from Patheon Viral Vector Services to undertake this research. J.S. was employed under the collaborative research engagement between Patheon Viral Vector Services and NIBRT.
+  
+
+
+  
+  
+  
+    
+      
+        
+          Figures
+        
+
+        
+          
+            
+              
+                
+              
+
+              
+              
+
+              
+                
+
+                
+
+                
+                  
+                  
+
+
+
+  
+    
+      Figure 1
+    
+  
+
+  
+    AAV2 capsid protein sequences searched when peptide mapping data
+were processed by LC-MS using pepsin digestion. The green arrow signifies
+the start of VP1, the orange arrow the start of VP2, the blue arrow
+the start of VP3, and the purple arrow the start of the VP3 variant
+A211-VP3. The red numbers convey the position of the amino acid residue
+above them in the VP1 protein sequence. Here, the amino acid residue
+considered to be the start of VP1 is the alanine residue with the
+red 1 under it as the N-terminal methionine (gray M) is cleaved off
+in the cell. Thus, here, the VP1 sequence would be considered A1-L734.
+Please see the web version of this article for the interpretation
+of color references if necessary.
+  
+
+
+
+                
+              
+
+            
+          
+            
+              
+                
+              
+
+              
+              
+
+              
+                
+
+                
+
+                
+                  
+                  
+
+
+
+  
+    
+      Figure 2
+    
+  
+
+  
+    A comparison
+of HEK293-derived full-length AAV2 viral capsid protein
+(VP) separation profiles when separation is performed at column temperatures
+of 25 °C (top), 45 °C (middle), and 60 °C (bottom)
+during HILIC-FLR-MS using DFA as an ion pairing agent. Deconvoluted
+MS spectra of the unmodified VPs are shown on the right of each FLR
+trace. All samples were run in technical triplicate. Separation was
+performed on an Acquity UPLC glycoprotein BEH amide column, 300 Å,
+1.7 μm, 2.1 × 150 mm with a gradient of 64.5–58.5%
+B. FLR traces were monitored by using λem = 280 and
+λex = 348 nm. Clear separation of all three viral
+proteins was seen at all column temperatures with better separation
+between VP2 and VP1 observed as column temperature decreased. An additional
+peak labeled VP3 Prime was also detected.
+  
+
+
+
+                
+              
+
+            
+          
+            
+              
+                
+              
+
+              
+              
+
+              
+                
+
+                
+
+                
+                  
+                  
+
+
+
+  
+    
+      Figure 3
+    
+  
+
+  
+    Raw MS spectra of AAV2 VPs analyzed at 15k resolving power
+(A)
+and 45k resolving power (B) illustrating the ability of this platform
+to generate high-quality MS spectra for full-length VP characterization.
+Top—VP3; middle top—VP3 prime; middle bottom—VP1;
+bottom—VP2. Deconvoluted MS spectra of the most abundant proteoform
+identified for each VP are shown above each spectrum on the upper
+right.
+  
+
+
+
+                
+              
+
+            
+          
+            
+              
+                
+              
+
+              
+              
+
+              
+                
+
+                
+
+                
+                  
+                  
+
+
+
+  
+    
+      Figure 4
+    
+  
+
+  
+    BPF generated deconvolution chromatograms of full-length
+VP proteoforms
+identified during data processing of samples separated at 25 °C
+with a 45k MS resolving power. Multiconsensus processing was performed
+in BPF to analyze the triplicate injections together. Displayed here
+are chromatographic overlays of each injection containing (A) Full
+chromatograms containing all proteoforms (gray); (B) chromatograms
+of the A211-VP3 variant of VP3 (orange); (C) chromatograms of unmodified
+VPs (green); (D) chromatograms of VPs containing single oxidation
+(blue); (E) chromatograms of VPs containing two oxidations (purple);
+(F) chromatograms of VPs containing a potential succinimide D modification
+(red). Injection one is represented by the darkest shade of each color,
+injection two the middle shade, and injection three the lightest shade.
+Please see the web version of this article for interpretation of color
+references if necessary.
+  
+
+
+
+                
+              
+
+            
+          
+            
+              
+                
+              
+
+              
+              
+
+              
+                
+
+                
+
+                
+                  
+                  
+
+
+
+  
+    
+      Figure 5
+    
+  
+
+  
+    Overview
+of the developmental process of the platform was created
+for rapid serotype identification and PTM monitoring. Serotypes are
+analyzed using HILIC-MS instrumentation controlled by Chromeleon.
+Components are identified using BioPharma Finder where component workbooks
+are generated. These workbooks are imported back into Chromeleon where
+methods for rapid serotype identification and specific serotype PTM
+monitoring were created and tested. Methods can then be used for release
+testing and quality control where results can easily be generated
+within the software.
+  
+
+
+
+                
+              
+
+            
+          
+        
+
+        
+
+        
+
+
+
+
+      
+    
+  
+
+
+  
+
+  
+  
+  
+    
+      References
+    
+    
+
+  
+
+  
+    
+      
+        
+
+
+
+
+  
+    
+      
+        
+          
+            Kotterman M. A.; Schaffer D. V. Engineering adeno-associated viruses for clinical gene therapy. Nat. Rev. Genet. 2014, 15 (7), 445–451. 10.1038/nrg3742.
+            
+              
+                
+                  -
+                  DOI
+                
+              
+            
+              
+                
+                  -
+                  PMC
+                
+              
+            
+              
+                
+                  -
+                  PubMed
+                
+              
+            
+          
+        
+      
+    
+  
+
+  
+    
+      
+        
+          
+            Samulski R. J.; Muzyczka N. AAV-Mediated Gene Therapy for Research and Therapeutic Purposes. Annu. Rev. Virol 2014, 1 (1), 427–451. 10.1146/annurev-virology-031413-085355.
+            
+              
+                
+                  -
+                  DOI
+                
+              
+            
+              
+                
+                  -
+                  PubMed
+                
+              
+            
+          
+        
+      
+    
+  
+
+  
+    
+      
+        
+          
+            Santiago-Ortiz J. L.; Schaffer D. V. Adeno-associated virus (AAV) vectors in cancer gene therapy. J. Controlled Release 2016, 240, 287–301. 10.1016/j.jconrel.2016.01.001.
+            
+              
+                
+                  -
+                  DOI
+                
+              
+            
+              
+                
+                  -
+                  PMC
+                
+              
+            
+              
+                
+                  -
+                  PubMed
+                
+              
+            
+          
+        
+      
+    
+  
+
+  
+    
+      
+        
+          
+            Liu A. P.; Patel S. K.; Xing T.; Yan Y.; Wang S.; Li N. Characterization of Adeno-Associated Virus Capsid Proteins Using Hydrophilic Interaction Chromatography Coupled with Mass Spectrometry. J. Pharm. Biomed. Anal. 2020, 189, 113481 10.1016/j.jpba.2020.113481.
+            
+              
+                
+                  -
+                  DOI
+                
+              
+            
+              
+                
+                  -
+                  PubMed
+                
+              
+            
+          
+        
+      
+    
+  
+
+  
+    
+      
+        
+          
+            Bulcha J. T.; Wang Y.; Ma H.; Tai P. W. L.; Gao G. Viral vector platforms within the gene therapy landscape. Signal Transduct Target Ther 2021, 6 (1), 53. 10.1038/s41392-021-00487-6.
+            
+              
+                
+                  -
+                  DOI
+                
+              
+            
+              
+                
+                  -
+                  PMC
+                
+              
+            
+              
+                
+                  -
+                  PubMed
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+      
+      
+        
+        
+
+      
+    
+  
+
+  
+    
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+  
+
+
+
+  
+  
+    
+      LinkOut - more resources
+    
+
+    Full Text Sources
+                    American Chemical Society
+                  
+                    Europe PMC
+                  
+                    PubMed Central
+                  Other Literature Sources
+                    The Lens - Patent Citations Database
+                  Miscellaneous
+                    NCI CPTAC Assay Portal

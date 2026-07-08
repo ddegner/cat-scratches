@@ -1,0 +1,14 @@
+{
+  "url": "https://time.com/article/2026/05/06/pope-leo-nuclear-weapons-trump/",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.967741935483871,
+    "recall_of_readability": 0.9677,
+    "recall_of_extracted": 0.9821,
+    "extracted_tokens": 336,
+    "readability_tokens": 341
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

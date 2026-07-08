@@ -1,0 +1,14 @@
+{
+  "url": "https://www.smh.com.au/politics/federal/thanks-to-trump-the-national-mood-has-seldom-been-bleaker-over-to-you-chalmers-20260505-p5zu2i.html",
+  "annotator": "readability-triangulation",
+  "quality": "auto-agreed",
+  "seeded_at": "2026-07-07",
+  "agreement": {
+    "score": 0.9725274725274725,
+    "recall_of_readability": 0.9797,
+    "recall_of_extracted": 0.9725,
+    "extracted_tokens": 546,
+    "readability_tokens": 542
+  },
+  "notes": "expected.md auto-seeded: extension output and Mozilla Readability agree. Pins current behavior as a regression anchor; not hand-verified."
+}

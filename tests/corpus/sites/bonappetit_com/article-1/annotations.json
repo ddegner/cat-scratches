@@ -1,0 +1,7 @@
+{
+  "url": "https://www.bonappetit.com/recipe/bas-best-chocolate-chip-cookies",
+  "annotator": "llm-adjudicated",
+  "quality": "needs-improvement",
+  "adjudicated_at": "2026-07-07",
+  "notes": "Extractor kept correct recipe body, but ingredient quantities/fractions were split onto separate lines from their units; rejoined into single ingredient list items and stripped related-recipe links, shopping/affiliate deal blocks, tag list, and empty Recipe Notes section."
+}

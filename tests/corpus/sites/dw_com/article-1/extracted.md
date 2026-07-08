@@ -1,6 +1,4 @@
-https://p.dw.com/p/5DQQ5
-
-Shots were fired in Linz in [Austria](/en/austria/t-18949575) on Thursday. A police spokesman told the Reuters news agency that three people had been killed and the weapon used had been recovered by law enforcement. 
+Shots were fired in Linz in Austria on Thursday. A police spokesman told the Reuters news agency that three people had been killed and the weapon used had been recovered by law enforcement. 
 
 National public broadcaster ORF reported a large police presence in the Klausenbachstrasse area in the north of the city. 
 
@@ -14,4 +12,4 @@ Gun crime is relatively rare in Austria with only around 0.2 people per 100,000
 
 _Edited by: Rana Taha_
 
-_If you are suffering from serious emotional strain or suicidal thoughts, do not hesitate to seek professional help. You can find information on where to find such help, no matter where you live in this world, at this website:_ [https://befrienders.org/](https://befrienders.org/ "External link — https://befrienders.org/")
+_If you are suffering from serious emotional strain or suicidal thoughts, do not hesitate to seek professional help. You can find information on where to find such help, no matter where you live in this world, at this website:_ https://befrienders.org/
