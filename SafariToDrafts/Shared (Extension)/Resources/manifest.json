@@ -3,7 +3,7 @@
     "default_locale": "en",
     "name": "__MSG_extension_name__",
     "description": "__MSG_extension_description__",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "author": "David Degner",
     "homepage_url": "https://www.daviddegner.com",
     "icons": {
