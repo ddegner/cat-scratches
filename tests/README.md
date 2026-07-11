@@ -10,8 +10,7 @@ Planning doc: [`~/.claude/plans/shiny-tickling-dongarra.md`](../.claude/plans/sh
 tests/
   corpus/
     manifest.json                # 200 sites, 400 URLs, categorized
-    BASELINE.md                  # extraction quality snapshot (per-category F1)
-    scores.json                  # per-page scoring data
+    eval-baseline.json           # canonical per-page regression baseline
     sites/
       <slug>/
         site.json                # {name, category, cms, slug}
@@ -30,7 +29,6 @@ tests/
     patch-pilot-urls.mjs         # one-off URL fixer used during pilot
     fetch.mjs [--pilot] [--force]      # downloads source.html for every page
     run.mjs   [--pilot]                # runs the extractor via jsdom, writes extracted.md
-    score.mjs                          # diffs extracted.md vs expected.md → BASELINE.md
     seed-annotations.mjs               # writes annotations.json stubs (pilot)
     pilot.mjs                          # exports PILOT_SLUGS (20 sites)
     # --- optimization loop (see OPTIMIZER.md for the full procedure) ---
@@ -51,12 +49,12 @@ npm install                   # installs jsdom
 # Full corpus (400 pages; many will bot-wall — see Known Limits below)
 node fetch.mjs                # ~20–40 min, polite 500ms between requests
 node run.mjs
-node score.mjs                # writes ../corpus/BASELINE.md
+npm run evaluate              # compare current defaults with eval-baseline.json
 
 # Pilot only (20 sites, 40 URLs, ~22 currently fetchable)
 node fetch.mjs --pilot
 node run.mjs   --pilot
-node score.mjs
+npm run evaluate
 ```
 
 ## Optimization loop
@@ -104,9 +102,9 @@ Aggregated across the corpus, `annotations.json` files are the evidence base for
 
 ## Scoring
 
-`score.mjs` computes per-page **recall / precision / F1** on lowercased alphanumeric tokens (≥3 chars, stopword-free) against `expected.md`, plus **missing / extra block** counts (paragraphs in one file with <30% token overlap in the other). Token F1 is an intentionally forgiving metric; block counts surface structural gaps (e.g. "The Verge extraction has 8 extra paragraph-shaped blocks not present in expected.md" → selector leakage).
+`evaluate.mjs` computes per-page **recall / precision / F1** on lowercased alphanumeric tokens (≥3 chars, stopword-free) against `expected.md`, plus **missing / extra block** counts (paragraphs in one file with <30% token overlap in the other). Token F1 is an intentionally forgiving metric; block counts surface structural gaps (e.g. "The Verge extraction has 8 extra paragraph-shaped blocks not present in expected.md" → selector leakage).
 
-**Regression policy:** any PR changing `content-extractor.js` or `defaults.js` must re-run `node score.mjs` and compare `BASELINE.md`. Category-level F1 should not drop; per-page F1 on `"quality: near-perfect"` anchors should not drop below 0.95.
+**Regression policy:** any PR changing `content-extractor.js` or `defaults.js` must run `npm run evaluate`. The command compares current results with `eval-baseline.json` and fails when anchor, category, or page-level regression gates are exceeded. Refresh the canonical baseline only with `node evaluate.mjs --write-baseline` after an intentional extraction change is accepted.
 
 ## Pilot
 
@@ -123,11 +121,11 @@ Current pilot state (after `--pilot` fetch + run):
 
 1. **Bot walls.** Several major news sites return 404/403 to a plain `fetch()` with a Safari UA. Workarounds (for future work): (a) hand-paste "Save As Web Archive" dumps into `source.html`; (b) fetch via archive.org snapshot URLs. The harness itself doesn't care where `source.html` came from.
 2. **No JS rendering.** `source.html` is server-rendered HTML. SPAs that inject body content client-side (GitHub blob view, some SPAs) will produce thin snapshots. For those, future work should add an optional Playwright-based fetcher, or substitute canonical mirrors (e.g. `raw.githubusercontent.com` for GitHub READMEs).
-3. **Ground truth is seeded, not all hand-curated.** After the pilot run, 20 of 22 `expected.md` files were seeded from `extracted.md` and marked with a `quality` field in annotations. Only pages marked `quality: "needs-improvement"` or `"poor"` need a human-written `expected.md` to score meaningfully — and that's exactly the handful where current BASELINE shows precision < 1.0 ([`theverge_com/article-1`](corpus/sites/theverge_com/article-1/) is the only fully-curated example today).
+3. **Ground truth is seeded, not all hand-curated.** After the pilot run, 20 of 22 `expected.md` files were seeded from `extracted.md` and marked with a `quality` field in annotations. Only pages marked `quality: "needs-improvement"` or `"poor"` need a human-written `expected.md` to score meaningfully. The canonical `eval-baseline.json` records the current per-page quality levels.
 4. **URL rot.** ~40 of the 200-site × 2-URL manifest entries are educated guesses at plausible permalinks and will 404. `fetch.json` records status per page — a periodic pass should replace dead URLs with live permalinks from the site's archive.
 
 ## Next steps (out of scope for corpus creation)
 
 - Expand hand-curated `expected.md` to every `quality: "needs-improvement"` page.
 - Audit `annotations.json` `strip` frequencies → propose concrete diff to `BASE_FILTERS` in [defaults.js](../SafariToDrafts/Shared%20(Extension)/Resources/defaults.js).
-- Wire `score.mjs` into CI; fail the build on category-level F1 regression.
+- Keep the automated evaluation gates aligned with newly curated ground truth.

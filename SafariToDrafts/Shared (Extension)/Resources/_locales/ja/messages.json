@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "除外する要素のCSSセレクタを1行に1つずつ入力"
     },
-    "section_selector_finder": {
-        "message": "セレクタファインダー"
-    },
-    "help_selector_finder": {
-        "message": "ウェブページを解析して、記事コンテンツ抽出に最適なCSSセレクタを見つけます。"
-    },
-    "privacy_selector_finder": {
-        "message": "プライバシーに関する注意：「ページを解析」をクリックすると、URLとページHTMLの加工済みコピーがセレクタファインダーサービスおよびGeminiに送信されます。リクエストは一時的に処理され、ネコスクラッチには保存されません。"
-    },
-    "btn_analyze": {
-        "message": "ページを解析"
-    },
-    "loading_analyzing": {
-        "message": "ページ構造を解析中..."
-    },
-    "label_found_content_selector": {
-        "message": "検出されたコンテンツセレクタ"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "検出された除外要素"
-    },
-    "label_extraction_preview": {
-        "message": "抽出プレビュー"
-    },
-    "btn_add_selectors": {
-        "message": "現在のセレクタに追加"
-    },
     "btn_reset": {
         "message": "デフォルトに戻す"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "リセットに失敗しました。もう一度お試しください。"
     },
-    "status_selectors_added": {
-        "message": "セレクタを追加しました！「設定を保存」をクリックして保存してください。"
-    },
     "validation_min_content_length": {
         "message": "最小コンテンツ長は正の数である必要があります"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "アクションURLを選択した場合、Draftsアクション名は必須です。"
     },
-    "error_enter_url": {
-        "message": "URLを入力してください"
-    },
-    "error_valid_url": {
-        "message": "有効なURLを入力してください"
-    },
     "error_prefix": {
         "message": "ネコスクラッチ エラー: $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "ネコスクラッチ エラー: アクションURLモードでは詳細設定でDraftsアクション名を指定する必要があります。"
     },
-    "error_content_too_large": {
-        "message": "コンテンツが大きすぎて$APP_NAME$に送信できません。ページの一部を選択してお試しください。",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "このブラウザ環境ではシステム共有機能がサポートされていません。"
     },
     "error_share_failed": {
         "message": "Safariはこの拡張機能のコンテキストからシステム共有シートを開けませんでした。代わりにDraftsまたはUlyssesを使用してください。"
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches は $APP_NAME$ を開けませんでした。インストールされていることを確認して、もう一度お試しください。",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "バージョン $VERSION$",

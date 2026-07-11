@@ -31,7 +31,6 @@ Highlights:
 - Use a keyboard shortcut, toolbar button, or extension menu
 - Customize article selectors, filters, cleanup rules, templates, and Drafts URL
   scheme behavior
-- Use Selector Finder from Advanced settings when a page needs a custom selector
 - Sync extension settings with iCloud where available
 
 ## Setup
@@ -81,8 +80,7 @@ Allow the prompt. If Safari offers "Remember my choice," enable it to avoid the
 prompt on future captures.
 
 **A site captures the wrong content**  
-Use Advanced settings to adjust selectors, filters, or cleanup rules. Selector
-Finder can suggest better selectors for difficult pages.
+Use Advanced settings to adjust selectors, filters, or cleanup rules.
 
 **The extension is unavailable on a page**  
 Check Safari Settings -> Extensions -> Cat Scratches and confirm site permission
@@ -97,3 +95,7 @@ The core extraction path lives in the Safari extension resources:
 - `SafariToDrafts/Shared (Extension)/Resources/background.js`
 
 The corpus harness and regression scripts live under `tests/`.
+
+Run `./validate.sh` before release work. It checks extension metadata, runs the
+regression and extraction-quality gates, builds both platform targets without
+signing, and verifies the packaged extension resources and versions.

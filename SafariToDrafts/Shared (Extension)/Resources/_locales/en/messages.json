@@ -135,42 +135,6 @@
         "message": "Post-extraction rules. Use line:, block:, tail:, or replace:. Blank lines and lines starting with # are ignored.",
         "description": "Help text for the text cleanup rules textarea."
     },
-    "section_selector_finder": {
-        "message": "Selector Finder",
-        "description": "Section heading for the AI selector finder tool."
-    },
-    "help_selector_finder": {
-        "message": "Analyze a web page to find the best CSS selectors for extracting article content.",
-        "description": "Help text for the selector finder."
-    },
-    "privacy_selector_finder": {
-        "message": "Privacy note: when you click Analyze Page, the URL and a processed copy of that page's HTML are sent to the Selector Finder service and Gemini for analysis. Requests are processed transiently and are not saved by Cat Scratches.",
-        "description": "Privacy notice for the selector finder."
-    },
-    "btn_analyze": {
-        "message": "Analyze Page",
-        "description": "Button to start page analysis."
-    },
-    "loading_analyzing": {
-        "message": "Analyzing page structure...",
-        "description": "Loading text during page analysis."
-    },
-    "label_found_content_selector": {
-        "message": "Found Content Selector",
-        "description": "Label for the content selector result."
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Found elements to ignore",
-        "description": "Label for the elements to remove result."
-    },
-    "label_extraction_preview": {
-        "message": "Extraction Preview",
-        "description": "Label for the extraction preview."
-    },
-    "btn_add_selectors": {
-        "message": "Add to Current Selectors",
-        "description": "Button to add found selectors to settings."
-    },
     "btn_reset": {
         "message": "Reset to Defaults",
         "description": "Button to reset all settings to defaults."
@@ -207,10 +171,6 @@
         "message": "Failed to reset settings. Please try again.",
         "description": "Error message when resetting settings fails."
     },
-    "status_selectors_added": {
-        "message": "Selectors added! Click \"Save Settings\" to keep them.",
-        "description": "Status message when selectors are added from finder."
-    },
     "validation_min_content_length": {
         "message": "Minimum content length must be a positive number",
         "description": "Validation error for minimum content length."
@@ -235,14 +195,6 @@
             }
         }
     },
-    "error_enter_url": {
-        "message": "Please enter a URL",
-        "description": "Error when URL field is empty."
-    },
-    "error_valid_url": {
-        "message": "Please enter a valid URL",
-        "description": "Error when URL is invalid."
-    },
     "error_prefix": {
         "message": "Cat Scratches Error: $MESSAGE$",
         "description": "Prefix for error alerts shown to the user.",
@@ -257,16 +209,6 @@
         "message": "Cat Scratches Error: Action URL mode requires a Drafts Action Name in Advanced Settings.",
         "description": "Error when action name is not set but action URL mode is selected."
     },
-    "error_content_too_large": {
-        "message": "Content too large to send to $APP_NAME$. Try selecting a smaller portion of the page.",
-        "description": "Error when content exceeds URL length limit.",
-        "placeholders": {
-            "APP_NAME": {
-                "content": "$1",
-                "example": "Drafts"
-            }
-        }
-    },
     "error_share_not_supported": {
         "message": "System sharing is not supported in this browser context.",
         "description": "Error when Web Share API is not available."
@@ -274,6 +216,16 @@
     "error_share_failed": {
         "message": "Safari could not open the system Share Sheet from this extension context. Try Drafts or Ulysses instead.",
         "description": "Error when Safari rejects the Web Share API request."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches could not open $APP_NAME$. Make sure it is installed and try again.",
+        "description": "Error shown when the selected destination app cannot be opened.",
+        "placeholders": {
+            "APP_NAME": {
+                "content": "$1",
+                "example": "Drafts"
+            }
+        }
     },
     "version_label": {
         "message": "Version $VERSION$",

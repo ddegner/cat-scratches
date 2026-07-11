@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "Introduce selectores CSS de elementos a eliminar, uno por línea"
     },
-    "section_selector_finder": {
-        "message": "Buscador de selectores"
-    },
-    "help_selector_finder": {
-        "message": "Analiza una página web para encontrar los mejores selectores CSS para extraer contenido de artículos."
-    },
-    "privacy_selector_finder": {
-        "message": "Nota de privacidad: al hacer clic en Analizar página, la URL y una copia procesada del HTML se envían al servicio Buscador de selectores y a Gemini para su análisis. Las solicitudes se procesan de forma transitoria y Arañazos de Gato no las almacena."
-    },
-    "btn_analyze": {
-        "message": "Analizar página"
-    },
-    "loading_analyzing": {
-        "message": "Analizando la estructura de la página..."
-    },
-    "label_found_content_selector": {
-        "message": "Selector de contenido encontrado"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Elementos a ignorar encontrados"
-    },
-    "label_extraction_preview": {
-        "message": "Vista previa de la extracción"
-    },
-    "btn_add_selectors": {
-        "message": "Añadir a los selectores actuales"
-    },
     "btn_reset": {
         "message": "Restablecer valores predeterminados"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "Error al restablecer. Inténtalo de nuevo."
     },
-    "status_selectors_added": {
-        "message": "¡Selectores añadidos! Haz clic en \"Guardar ajustes\" para conservarlos."
-    },
     "validation_min_content_length": {
         "message": "La longitud mínima del contenido debe ser un número positivo"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "El nombre de acción de Drafts es obligatorio cuando se selecciona URL de acción."
     },
-    "error_enter_url": {
-        "message": "Introduce una URL"
-    },
-    "error_valid_url": {
-        "message": "Introduce una URL válida"
-    },
     "error_prefix": {
         "message": "Error de Arañazos de Gato: $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "Error de Arañazos de Gato: el modo URL de acción requiere un nombre de acción de Drafts en Ajustes avanzados."
     },
-    "error_content_too_large": {
-        "message": "Contenido demasiado grande para enviar a $APP_NAME$. Intenta seleccionar una parte más pequeña de la página.",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "La función de compartir del sistema no es compatible con este contexto del navegador."
     },
     "error_share_failed": {
         "message": "Safari no pudo abrir la hoja de compartir del sistema desde este contexto de extensión. Usa Drafts o Ulysses en su lugar."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches no pudo abrir $APP_NAME$. Asegúrate de que esté instalada e inténtalo de nuevo.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "Versión $VERSION$",

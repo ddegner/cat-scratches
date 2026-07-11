@@ -13,7 +13,7 @@
 import { blocks, tokens, containment, stripLinkTargets } from "./scoring.mjs";
 import { validateFilters, findWinningSelector, settingsFromConfig } from "./extractor-host.mjs";
 
-const BLOCK_MATCH_THRESHOLD = 0.3; // same as score.mjs missing/extra definition
+const BLOCK_MATCH_THRESHOLD = 0.3; // same as evaluate.mjs missing/extra definition
 const SOURCE_CONTAINMENT = 0.8; // element must contain >=80% of block tokens
 const PRESENCE_CONTAINMENT = 0.6; // block counts as "present" in a text at >=60%
 

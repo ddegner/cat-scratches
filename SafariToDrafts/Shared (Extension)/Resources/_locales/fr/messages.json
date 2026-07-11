@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "Entrez les sélecteurs CSS des éléments à supprimer, un par ligne"
     },
-    "section_selector_finder": {
-        "message": "Chercheur de sélecteurs"
-    },
-    "help_selector_finder": {
-        "message": "Analysez une page web pour trouver les meilleurs sélecteurs CSS pour l'extraction de contenu."
-    },
-    "privacy_selector_finder": {
-        "message": "Note de confidentialité : lorsque vous cliquez sur Analyser la page, l'URL et une copie traitée du HTML de la page sont envoyées au service Chercheur de sélecteurs et à Gemini pour analyse. Les requêtes sont traitées de manière transitoire et ne sont pas enregistrées par Griffures de Chat."
-    },
-    "btn_analyze": {
-        "message": "Analyser la page"
-    },
-    "loading_analyzing": {
-        "message": "Analyse de la structure de la page..."
-    },
-    "label_found_content_selector": {
-        "message": "Sélecteur de contenu trouvé"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Éléments à ignorer trouvés"
-    },
-    "label_extraction_preview": {
-        "message": "Aperçu de l'extraction"
-    },
-    "btn_add_selectors": {
-        "message": "Ajouter aux sélecteurs actuels"
-    },
     "btn_reset": {
         "message": "Réinitialiser"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "Échec de la réinitialisation. Veuillez réessayer."
     },
-    "status_selectors_added": {
-        "message": "Sélecteurs ajoutés ! Cliquez sur « Enregistrer les réglages » pour les conserver."
-    },
     "validation_min_content_length": {
         "message": "La longueur minimale du contenu doit être un nombre positif"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "Le nom de l'action Drafts est requis lorsque URL d'action est sélectionné."
     },
-    "error_enter_url": {
-        "message": "Veuillez entrer une URL"
-    },
-    "error_valid_url": {
-        "message": "Veuillez entrer une URL valide"
-    },
     "error_prefix": {
         "message": "Erreur Griffures de Chat : $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "Erreur Griffures de Chat : le mode URL d'action nécessite un nom d'action Drafts dans les réglages avancés."
     },
-    "error_content_too_large": {
-        "message": "Contenu trop volumineux pour $APP_NAME$. Essayez de sélectionner une portion plus petite de la page.",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "Le partage système n'est pas pris en charge dans ce contexte de navigateur."
     },
     "error_share_failed": {
         "message": "Safari n'a pas pu ouvrir la feuille de partage système depuis ce contexte d'extension. Utilisez plutôt Drafts ou Ulysses."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches n’a pas pu ouvrir $APP_NAME$. Vérifiez que l’app est installée, puis réessayez.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "Version $VERSION$",

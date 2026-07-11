@@ -21,7 +21,7 @@
                 action: 'getSettings'
             });
 
-            if (isPlainObject(response?.settings)) {
+            if (response?.success === true && isPlainObject(response.settings)) {
                 const cloudSettings = migrateSettings(response.settings);
                 await browser.storage.local.set({ [SETTINGS_CACHE_KEY]: cloudSettings });
                 return { settings: cloudSettings, source: 'icloud' };
@@ -61,7 +61,7 @@
 
             return {
                 settings: normalizedSettings,
-                savedToCloud: Boolean(response?.success)
+                savedToCloud: response?.success === true && response?.saved === true
             };
         } catch (error) {
             console.log('Could not save settings to iCloud (saved locally):', error.message);

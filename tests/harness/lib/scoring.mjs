@@ -1,5 +1,5 @@
-// Shared scoring primitives. Semantics are identical to score.mjs /
-// ab-selectors.mjs: token-set recall/precision/F1 over lowercased
+// Shared scoring primitives used by evaluate.mjs and ab-selectors.mjs:
+// token-set recall/precision/F1 over lowercased
 // alphanumeric runs >=3 chars (stopword-free), plus block-level
 // missing/extra counts (<30% token overlap).
 

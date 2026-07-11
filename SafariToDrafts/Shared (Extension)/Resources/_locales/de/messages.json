@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "CSS-Selektoren für zu entfernende Elemente eingeben, einen pro Zeile"
     },
-    "section_selector_finder": {
-        "message": "Selektor-Finder"
-    },
-    "help_selector_finder": {
-        "message": "Eine Webseite analysieren, um die besten CSS-Selektoren für die Artikelextraktion zu finden."
-    },
-    "privacy_selector_finder": {
-        "message": "Datenschutzhinweis: Wenn Sie auf \u201ESeite analysieren\u201C klicken, werden die URL und eine verarbeitete Kopie des HTML der Seite an den Selektor-Finder-Dienst und Gemini zur Analyse gesendet. Anfragen werden vorübergehend verarbeitet und nicht von Katzenkratzer gespeichert."
-    },
-    "btn_analyze": {
-        "message": "Seite analysieren"
-    },
-    "loading_analyzing": {
-        "message": "Seitenstruktur wird analysiert..."
-    },
-    "label_found_content_selector": {
-        "message": "Gefundener Inhaltsselektor"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Gefundene zu ignorierende Elemente"
-    },
-    "label_extraction_preview": {
-        "message": "Extraktionsvorschau"
-    },
-    "btn_add_selectors": {
-        "message": "Zu aktuellen Selektoren hinzufügen"
-    },
     "btn_reset": {
         "message": "Auf Standard zurücksetzen"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "Einstellungen konnten nicht zurückgesetzt werden. Bitte versuchen Sie es erneut."
     },
-    "status_selectors_added": {
-        "message": "Selektoren hinzugefügt! Klicken Sie auf \u201EEinstellungen speichern\u201C, um sie zu behalten."
-    },
     "validation_min_content_length": {
         "message": "Mindestinhaltslänge muss eine positive Zahl sein"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "Drafts-Aktionsname ist erforderlich, wenn Aktions-URL ausgewählt ist."
     },
-    "error_enter_url": {
-        "message": "Bitte geben Sie eine URL ein"
-    },
-    "error_valid_url": {
-        "message": "Bitte geben Sie eine gültige URL ein"
-    },
     "error_prefix": {
         "message": "Katzenkratzer-Fehler: $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "Katzenkratzer-Fehler: Aktions-URL-Modus erfordert einen Drafts-Aktionsnamen in den erweiterten Einstellungen."
     },
-    "error_content_too_large": {
-        "message": "Inhalt zu groß für $APP_NAME$. Versuchen Sie, einen kleineren Abschnitt der Seite auszuwählen.",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "Systemfreigabe wird in diesem Browser-Kontext nicht unterstützt."
     },
     "error_share_failed": {
         "message": "Safari konnte das Teilen-Menü aus diesem Erweiterungskontext nicht öffnen. Wählen Sie stattdessen Drafts oder Ulysses."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches konnte $APP_NAME$ nicht öffnen. Stellen Sie sicher, dass die App installiert ist, und versuchen Sie es erneut.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "Version $VERSION$",

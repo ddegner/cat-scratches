@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Generates a plain-language review report for story/article extraction output.
-// This is intentionally simpler than score.mjs: it points at visible problems
+// This is intentionally simpler than evaluate.mjs: it points at visible problems
 // a human can confirm in extracted.md before a page becomes a scored fixture.
 
 import { existsSync, readFileSync, writeFileSync, readdirSync } from "node:fs";

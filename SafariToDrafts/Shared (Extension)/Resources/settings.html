@@ -532,77 +532,6 @@
             }
         }
 
-        /* Selector Finder Styles */
-        .finder-loading {
-            display: none;
-            align-items: center;
-            gap: 12px;
-            padding: 20px;
-            color: #666666;
-        }
-
-        .finder-loading.visible {
-            display: flex;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .finder-loading {
-                color: #a1a1aa;
-            }
-        }
-
-        .spinner {
-            width: 20px;
-            height: 20px;
-            border: 2px solid #e0e0e0;
-            border-top-color: #007aff;
-            border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .spinner {
-                border-color: #2a2a2e;
-                border-top-color: #0a84ff;
-            }
-        }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        .finder-results {
-            display: none;
-        }
-
-        .finder-results.visible {
-            display: block;
-        }
-
-        .preview-content {
-            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
-            font-size: 15px;
-            line-height: 1.6;
-            color: #1d1d1f;
-            padding: 20px;
-            background: #fafafa;
-            border-radius: 8px;
-            max-height: 300px;
-            overflow-y: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            margin-bottom: 16px;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .preview-content {
-                background: #1c1c1e;
-                color: #f5f5f7;
-            }
-        }
-
         .button-primary {
             background: #007aff;
             color: #ffffff;
@@ -623,21 +552,6 @@
             .button-primary:hover {
                 background: #409cff;
                 border-color: #409cff;
-            }
-        }
-
-        .finder-selectors {
-            font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
-            font-size: 13px;
-            background: #f8f9fa;
-            padding: 12px;
-            border-radius: 6px;
-            margin-bottom: 12px;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            .finder-selectors {
-                background: #1c1c1e;
             }
         }
 
@@ -960,50 +874,6 @@ tail:/\n+## Latest on:[\s\S]*$/i</textarea>
                         </div>
                     </div>
 
-                    <!-- Selector Finder Section -->
-                    <div class="section">
-                        <h2 data-i18n="section_selector_finder">Selector Finder</h2>
-                        <div class="help-text" data-i18n="help_selector_finder" style="margin-bottom: 16px;">Analyze a web page to find the best CSS selectors
-                            for extracting article content.</div>
-                        <div class="help-text" data-i18n="privacy_selector_finder" style="margin-bottom: 16px;">
-                            Privacy note: when you click Analyze Page, the URL and a processed copy of that page's HTML are
-                            sent to the Selector Finder service and Gemini for analysis. Requests are processed transiently and are
-                            not saved by Cat Scratches.
-                        </div>
-
-                        <div class="form-group">
-                            <input type="url" id="finderUrl" aria-label="Article URL"
-                                placeholder="https://example.com/article">
-                        </div>
-
-                        <button class="button button-primary" id="analyzeBtn" data-i18n="btn_analyze">Analyze Page</button>
-
-                        <div class="finder-loading" id="finderLoading">
-                            <div class="spinner"></div>
-                            <span data-i18n="loading_analyzing">Analyzing page structure...</span>
-                        </div>
-
-                        <div class="status-message error" id="finderError" style="margin-top: 16px;"></div>
-
-                        <div class="finder-results" id="finderResults">
-                            <div class="form-group" style="margin-top: 24px;">
-                                <label data-i18n="label_found_content_selector">Found Content Selector</label>
-                                <div class="finder-selectors" id="foundContentSelector"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label data-i18n="label_found_elements_to_ignore">Found elements to ignore</label>
-                                <div class="finder-selectors" id="foundElementsToRemove" style="white-space: pre-wrap;"></div>
-                            </div>
-
-                            <div class="form-group">
-                                <label data-i18n="label_extraction_preview">Extraction Preview</label>
-                                <div class="preview-content" id="finderPreview"></div>
-                            </div>
-
-                            <button class="button button-primary" id="addSelectorsBtn" data-i18n="btn_add_selectors">Add to Current Selectors</button>
-                        </div>
-                    </div>
                 </div>
             </details>
 

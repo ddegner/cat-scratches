@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "Voer CSS-selectors in voor te verwijderen elementen, één per regel"
     },
-    "section_selector_finder": {
-        "message": "Selector-zoeker"
-    },
-    "help_selector_finder": {
-        "message": "Analyseer een webpagina om de beste CSS-selectors te vinden voor het extraheren van artikelinhoud."
-    },
-    "privacy_selector_finder": {
-        "message": "Privacyopmerking: wanneer u op Pagina analyseren klikt, worden de URL en een verwerkte kopie van de HTML van de pagina naar de Selector-zoeker-service en Gemini gestuurd voor analyse. Verzoeken worden tijdelijk verwerkt en niet opgeslagen door Kattenkrabben."
-    },
-    "btn_analyze": {
-        "message": "Pagina analyseren"
-    },
-    "loading_analyzing": {
-        "message": "Paginastructuur wordt geanalyseerd..."
-    },
-    "label_found_content_selector": {
-        "message": "Gevonden inhoudsselector"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Gevonden te negeren elementen"
-    },
-    "label_extraction_preview": {
-        "message": "Extractievoorbeeld"
-    },
-    "btn_add_selectors": {
-        "message": "Toevoegen aan huidige selectors"
-    },
     "btn_reset": {
         "message": "Standaardinstellingen herstellen"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "Herstellen mislukt. Probeer het opnieuw."
     },
-    "status_selectors_added": {
-        "message": "Selectors toegevoegd! Klik op \"Instellingen opslaan\" om ze te bewaren."
-    },
     "validation_min_content_length": {
         "message": "Minimale inhoudslengte moet een positief getal zijn"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "Drafts-actienaam is vereist wanneer Actie-URL is geselecteerd."
     },
-    "error_enter_url": {
-        "message": "Voer een URL in"
-    },
-    "error_valid_url": {
-        "message": "Voer een geldige URL in"
-    },
     "error_prefix": {
         "message": "Kattenkrabben-fout: $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "Kattenkrabben-fout: Actie-URL-modus vereist een Drafts-actienaam in Geavanceerde instellingen."
     },
-    "error_content_too_large": {
-        "message": "Inhoud te groot om naar $APP_NAME$ te sturen. Probeer een kleiner gedeelte van de pagina te selecteren.",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "Systeemdeelfunctie wordt niet ondersteund in deze browsercontext."
     },
     "error_share_failed": {
         "message": "Safari kon het systeemdeelmenu niet openen vanuit deze extensiecontext. Gebruik in plaats daarvan Drafts of Ulysses."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches kon $APP_NAME$ niet openen. Controleer of de app is geïnstalleerd en probeer het opnieuw.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "Versie $VERSION$",

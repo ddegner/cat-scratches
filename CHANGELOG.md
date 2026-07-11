@@ -2,6 +2,20 @@
 
 All notable changes to Cat Scratches will be documented in this file.
 
+## [2.4.2] - 2026-07-11
+
+### Fixed
+- Report Drafts or Ulysses destination-opening failures while successful handoffs remain silent.
+- Made native messaging responses explicit so failed settings saves and app-opening attempts are not reported as successful.
+
+### Changed
+- Added one validation command and CI workflow covering extension metadata, handoff/storage regressions, extraction gates, both platform builds, and packaged bundle contents.
+- Removed the artificial callback URL length limit so captures are sent without extension-side truncation.
+- Retired the stale 19-page Markdown scoring report in favor of the maintained `eval-baseline.json` regression baseline.
+
+### Removed
+- Removed Selector Finder from the shipping extension, including its Cloudflare/Gemini integration and external network allowance.
+
 ## [2.4.1] - 2026-07-08
 
 ### Fixed

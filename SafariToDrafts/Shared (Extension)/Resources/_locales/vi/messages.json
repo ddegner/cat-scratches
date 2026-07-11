@@ -92,33 +92,6 @@
     "placeholder_custom_filters": {
         "message": "Nhập bộ chọn CSS cho các phần tử cần loại bỏ, mỗi dòng một bộ chọn"
     },
-    "section_selector_finder": {
-        "message": "Tìm bộ chọn"
-    },
-    "help_selector_finder": {
-        "message": "Phân tích trang web để tìm bộ chọn CSS tốt nhất cho việc trích xuất nội dung bài viết."
-    },
-    "privacy_selector_finder": {
-        "message": "Lưu ý bảo mật: khi bạn nhấn Phân tích trang, URL và bản sao đã xử lý của HTML trang đó sẽ được gửi đến dịch vụ Tìm bộ chọn và Gemini để phân tích. Các yêu cầu được xử lý tạm thời và không được Vết Mèo Cào lưu lại."
-    },
-    "btn_analyze": {
-        "message": "Phân tích trang"
-    },
-    "loading_analyzing": {
-        "message": "Đang phân tích cấu trúc trang..."
-    },
-    "label_found_content_selector": {
-        "message": "Bộ chọn nội dung tìm thấy"
-    },
-    "label_found_elements_to_ignore": {
-        "message": "Phần tử cần bỏ qua tìm thấy"
-    },
-    "label_extraction_preview": {
-        "message": "Xem trước trích xuất"
-    },
-    "btn_add_selectors": {
-        "message": "Thêm vào bộ chọn hiện tại"
-    },
     "btn_reset": {
         "message": "Đặt lại mặc định"
     },
@@ -146,9 +119,6 @@
     "status_reset_failed": {
         "message": "Không thể đặt lại cài đặt. Vui lòng thử lại."
     },
-    "status_selectors_added": {
-        "message": "Đã thêm bộ chọn! Nhấn \"Lưu cài đặt\" để giữ lại."
-    },
     "validation_min_content_length": {
         "message": "Độ dài nội dung tối thiểu phải là số dương"
     },
@@ -158,12 +128,6 @@
     "validation_action_required": {
         "message": "Tên hành động Drafts là bắt buộc khi chọn URL hành động."
     },
-    "error_enter_url": {
-        "message": "Vui lòng nhập URL"
-    },
-    "error_valid_url": {
-        "message": "Vui lòng nhập URL hợp lệ"
-    },
     "error_prefix": {
         "message": "Lỗi Vết Mèo Cào: $MESSAGE$",
         "placeholders": { "MESSAGE": { "content": "$1" } }
@@ -171,15 +135,15 @@
     "error_action_required": {
         "message": "Lỗi Vết Mèo Cào: Chế độ URL hành động yêu cầu Tên hành động Drafts trong Cài đặt nâng cao."
     },
-    "error_content_too_large": {
-        "message": "Nội dung quá lớn để gửi đến $APP_NAME$. Hãy thử chọn một phần nhỏ hơn của trang.",
-        "placeholders": { "APP_NAME": { "content": "$1" } }
-    },
     "error_share_not_supported": {
         "message": "Chia sẻ hệ thống không được hỗ trợ trong ngữ cảnh trình duyệt này."
     },
     "error_share_failed": {
         "message": "Safari không thể mở Bảng chia sẻ hệ thống từ ngữ cảnh tiện ích này. Hãy dùng Drafts hoặc Ulysses thay thế."
+    },
+    "error_open_failed": {
+        "message": "Cat Scratches không thể mở $APP_NAME$. Hãy đảm bảo ứng dụng đã được cài đặt rồi thử lại.",
+        "placeholders": { "APP_NAME": { "content": "$1" } }
     },
     "version_label": {
         "message": "Phiên bản $VERSION$",

@@ -10,13 +10,14 @@ Use this when a new version is already built and uploaded to App Store Connect a
 
 ## Prerequisites
 
-1. Upload both builds first (iOS and macOS) from Xcode Organizer or CLI export/upload flow.
-2. Confirm both builds are `VALID` in App Store Connect.
-3. Keychain entries exist:
+1. Run `./validate.sh` from the repository root.
+2. Upload both builds (iOS and macOS) from Xcode Organizer or CLI export/upload flow.
+3. Confirm both builds are `VALID` in App Store Connect.
+4. Keychain entries exist:
    - `ASC_KEY_ID_CATSCRATCHES`
    - `ASC_ISSUER_ID_CATSCRATCHES`
    - `ASC_AUTHSTRING_2FCY9973VV`
-4. Tools installed: `xcrun`, `curl`, `jq`, `rg`.
+5. Tools installed: `xcrun`, `curl`, `jq`, `rg`.
 
 ## Generate JWT token from Keychain
 

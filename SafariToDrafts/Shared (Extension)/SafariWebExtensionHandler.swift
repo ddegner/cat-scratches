@@ -36,7 +36,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
             return
         }
 
-        var response: [String: Any] = ["success": true]
+        var response: [String: Any] = ["success": false]
 
         switch action {
         case "getSettings":
@@ -51,6 +51,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
                 response["settings"] = NSNull()
                 os_log(.info, "No settings found in iCloud KVS")
             }
+            response["success"] = true
 
         case "saveSettings":
             // Save settings to iCloud Key-Value Store (single dictionary key pattern)
@@ -58,6 +59,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
             if let settings = messageDict["settings"] as? [String: Any] {
                 // Store as dictionary - must be property-list safe types
                 store.set(settings, forKey: settingsKey)
+                response["success"] = true
                 response["saved"] = true
                 os_log(.info, "Settings saved to iCloud KVS (will sync automatically)")
             } else {
@@ -94,6 +96,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
                 response["draftsInstalled"] = NSNull()
                 os_log(.info, "Drafts installed check: unknown (extension limitation)")
             }
+            response["success"] = true
 
         case "openURL":
             guard let urlString = messageDict["url"] as? String,
@@ -109,10 +112,12 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 
             #if os(macOS)
             let opened = NSWorkspace.shared.open(url)
+            response["success"] = opened
             response["opened"] = opened
             if opened {
                 os_log(.info, "Opened app URL via native handler")
             } else {
+                response["error"] = "The destination app could not be opened"
                 os_log(.error, "Failed to open app URL via native handler")
             }
             #else
@@ -124,14 +129,17 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         case "getExtensionVersion":
             let version = (Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String) ?? ""
             if !version.isEmpty {
+                response["success"] = true
                 response["version"] = version
                 os_log(.info, "Returning extension version: %{public}@", version)
             } else {
                 response["version"] = NSNull()
+                response["error"] = "Could not read extension version"
                 os_log(.error, "Could not read extension version from bundle")
             }
 
         default:
+            response["error"] = "Unknown action"
             os_log(.info, "Ignoring action: %{public}@", action)
         }
 

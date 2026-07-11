@@ -16,6 +16,7 @@ const TURNDOWN_SRC = readFileSync(join(EXT, "turndown.js"), "utf8");
 const DEFAULTS_SRC = readFileSync(join(EXT, "defaults.js"), "utf8");
 const EXTRACTOR_SRC = readFileSync(join(EXT, "content-extractor.js"), "utf8");
 const BACKGROUND_SRC = readFileSync(join(EXT, "background.js"), "utf8");
+const SETTINGS_STORE_SRC = readFileSync(join(EXT, "settings-store.js"), "utf8");
 
 function timezoneOffsetCompact(date) {
   const offsetMinutes = -date.getTimezoneOffset();
@@ -90,36 +91,105 @@ function extract(html, overrides = {}) {
   return result.body;
 }
 
-function createBackgroundSandbox() {
+function createBackgroundSandbox(options = {}) {
   const noopListener = { addListener() {} };
+  const calls = {
+    alerts: [],
+    nativeMessages: [],
+    scriptExecutions: [],
+    tabUpdates: [],
+  };
+  const activeTabs = options.activeTab === false ? [] : [{ id: 73 }];
   const sandbox = {
-    console,
+    console: options.console || console,
     globalThis: {},
     self: { importScripts() {} },
     SETTINGS_CACHE_KEY: "settings",
     NATIVE_APP_ID: "application.id",
     loadCatScratchesSettings: async () => ({ settings: {}, source: "default" }),
     saveCatScratchesSettings: async (settings) => ({ settings, savedToCloud: false }),
+    formatDraftContent: (_title, _url, body) => String(body ?? ""),
+    getDefaultSettings: () => ({}),
+    migrateSettings: (settings) => settings || {},
     browser: {
       action: { onClicked: noopListener },
-      i18n: { getMessage: (key) => key },
+      i18n: {
+        getMessage: (key, substitutions = []) => {
+          const values = Array.isArray(substitutions) ? substitutions : [substitutions];
+          return values.length > 0 ? `${key}:${values.join(",")}` : key;
+        },
+      },
       runtime: {
         onInstalled: noopListener,
         onMessage: noopListener,
         onStartup: noopListener,
-        sendNativeMessage: async () => ({ opened: false }),
+        sendNativeMessage: async (_applicationID, message) => {
+          calls.nativeMessages.push(message);
+          if (options.nativeError) throw options.nativeError;
+          if (options.nativeHandler) return options.nativeHandler(message);
+          return options.nativeResponse || { success: true, opened: true };
+        },
       },
-      scripting: { executeScript: async () => [] },
+      scripting: {
+        executeScript: async (request) => {
+          calls.scriptExecutions.push(request);
+          if (request.args?.length > 0) calls.alerts.push(request.args[0]);
+          return [{ result: undefined }];
+        },
+      },
       storage: { onChanged: noopListener },
       tabs: {
-        query: async () => [],
-        update: async () => {},
+        query: async () => activeTabs,
+        update: async (tabId, updateProperties) => {
+          calls.tabUpdates.push({ tabId, updateProperties });
+          if (options.tabUpdateError) throw options.tabUpdateError;
+        },
       },
     },
   };
   sandbox.globalThis = sandbox;
+  sandbox.__calls = calls;
   vm.createContext(sandbox);
   vm.runInContext(BACKGROUND_SRC, sandbox);
+  return sandbox;
+}
+
+function createSettingsStoreSandbox(options = {}) {
+  const calls = {
+    nativeMessages: [],
+    localWrites: [],
+  };
+  const localData = { ...(options.localData || {}) };
+  const sandbox = {
+    console,
+    globalThis: {},
+    NATIVE_APP_ID: "application.id",
+    migrateSettings: (settings) => ({ ...settings, normalized: true }),
+    getDefaultSettings: () => ({ defaults: true }),
+    browser: {
+      runtime: {
+        sendNativeMessage: async (_applicationID, message) => {
+          calls.nativeMessages.push(message);
+          if (options.nativeError) throw options.nativeError;
+          return options.nativeHandler ? options.nativeHandler(message) : { success: false };
+        },
+      },
+      storage: {
+        local: {
+          get: async () => ({ ...localData }),
+          set: async (values) => {
+            Object.assign(localData, values);
+            calls.localWrites.push(values);
+          },
+        },
+      },
+    },
+  };
+  sandbox.globalThis = sandbox;
+  sandbox.__calls = calls;
+  sandbox.__localData = localData;
+  vm.createContext(sandbox);
+  vm.runInContext(SETTINGS_STORE_SRC, sandbox);
   return sandbox;
 }
 
@@ -425,6 +495,103 @@ const filler = " filler text".repeat(40);
     "Inbox",
     "single tags are sent as a Ulysses group name",
   );
+}
+
+{
+  const sandbox = createBackgroundSandbox();
+  await sandbox.sendToDrafts("Title", "https://example.test/", "Short content");
+
+  assert.equal(sandbox.__calls.alerts.length, 0, "successful Drafts handoff stays silent");
+  assert.equal(sandbox.__calls.tabUpdates.length, 0, "native success does not use the Safari URL fallback");
+}
+
+{
+  const sandbox = createBackgroundSandbox();
+  const content = `START-${"x".repeat(100_000)}-END`;
+  await sandbox.sendToDrafts("Title", "https://example.test/", content);
+
+  const openMessage = sandbox.__calls.nativeMessages.find((message) => message.action === "openURL");
+  assert.ok(openMessage, "large Drafts content reaches the native handoff");
+  assert.equal(new URL(openMessage.url).searchParams.get("text"), content, "large Drafts content is not truncated");
+  assert.equal(sandbox.__calls.alerts.length, 0, "large successful Drafts handoff stays silent");
+}
+
+{
+  const sandbox = createBackgroundSandbox();
+  const content = `START-${"é".repeat(100_000)}-END`;
+  await sandbox.sendToUlysses("Title", "https://example.test/", content);
+
+  const openMessage = sandbox.__calls.nativeMessages.find((message) => message.action === "openURL");
+  assert.ok(openMessage, "large Ulysses content reaches the native handoff");
+  assert.equal(new URL(openMessage.url).searchParams.get("text"), content, "large Ulysses content is not truncated");
+  assert.equal(sandbox.__calls.alerts.length, 0, "large successful Ulysses handoff stays silent");
+}
+
+{
+  const silentConsole = { ...console, log() {}, warn() {}, error() {} };
+  const sandbox = createBackgroundSandbox({
+    console: silentConsole,
+    nativeResponse: { success: false, opened: false, error: "Native open failed" },
+    tabUpdateError: new Error("Safari fallback failed"),
+  });
+  await sandbox.sendToDrafts("Title", "https://example.test/", "Short content");
+
+  assert.deepEqual(
+    sandbox.__calls.alerts,
+    ["error_open_failed:Drafts"],
+    "failed native and Safari handoff shows exactly one destination warning",
+  );
+}
+
+{
+  const silentConsole = { ...console, log() {}, warn() {}, error() {} };
+  const sandbox = createBackgroundSandbox({
+    console: silentConsole,
+    nativeResponse: { success: false, opened: false, error: "Native open unavailable" },
+  });
+  await sandbox.sendToUlysses("Title", "https://example.test/", "Short content");
+
+  assert.equal(sandbox.__calls.alerts.length, 0, "successful Safari fallback stays silent");
+  assert.equal(sandbox.__calls.tabUpdates.length, 1, "Safari fallback runs when native open is unavailable");
+}
+
+{
+  const sandbox = createSettingsStoreSandbox({
+    localData: {
+      catScratchesSettings: { source: "local" },
+    },
+    nativeHandler: () => ({
+      success: false,
+      settings: { source: "cloud-but-failed" },
+    }),
+  });
+  const result = await sandbox.loadCatScratchesSettings();
+
+  assert.equal(result.source, "local", "failed native settings response falls back to local storage");
+  assert.equal(result.settings.source, "local", "failed cloud payload is not treated as authoritative");
+}
+
+{
+  const sandbox = createSettingsStoreSandbox({
+    nativeHandler: (message) => message.action === "saveSettings"
+      ? { success: true, saved: true }
+      : { success: true, settings: { source: "cloud" } },
+  });
+  const loaded = await sandbox.loadCatScratchesSettings();
+  const saved = await sandbox.saveCatScratchesSettings({ source: "updated" });
+
+  assert.equal(loaded.source, "icloud", "successful native settings response loads from iCloud");
+  assert.equal(loaded.settings.source, "cloud", "cloud settings are normalized and returned");
+  assert.equal(saved.savedToCloud, true, "cloud save requires explicit success and saved acknowledgements");
+}
+
+{
+  const sandbox = createSettingsStoreSandbox({
+    nativeHandler: () => ({ success: true, saved: false }),
+  });
+  const saved = await sandbox.saveCatScratchesSettings({ source: "updated" });
+
+  assert.equal(saved.savedToCloud, false, "native success without saved acknowledgement is not reported as cloud-saved");
 }
 
 // --- Structural extraction fixes (2026-07) --------------------------------

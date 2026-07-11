@@ -338,60 +338,6 @@ function buildDraftsURL(draftContent, encodedTags, draftsURLMode, encodedAction)
     return buildDraftsCreateURL(draftContent, encodedTags, encodedAction);
 }
 
-function truncateToCodePointBoundary(text, maxLength) {
-    if (maxLength <= 0) {
-        return '';
-    }
-
-    let truncated = text.slice(0, maxLength);
-
-    // Avoid ending on an unpaired high surrogate.
-    const lastCodeUnit = truncated.charCodeAt(truncated.length - 1);
-    if (lastCodeUnit >= 0xD800 && lastCodeUnit <= 0xDBFF) {
-        truncated = truncated.slice(0, -1);
-    }
-
-    return truncated;
-}
-
-function buildMaxLengthURL(content, maxURLLength, buildURL) {
-    const fullURL = buildURL(content);
-    if (fullURL.length <= maxURLLength) {
-        return { url: fullURL, wasTruncated: false };
-    }
-
-    let low = 0;
-    let high = content.length;
-    let bestURL = null;
-
-    while (low <= high) {
-        const mid = Math.floor((low + high) / 2);
-        const candidateContent = truncateToCodePointBoundary(content, mid);
-        const candidateURL = buildURL(candidateContent);
-
-        if (candidateURL.length <= maxURLLength) {
-            bestURL = candidateURL;
-            low = mid + 1;
-        } else {
-            high = mid - 1;
-        }
-    }
-
-    if (!bestURL) {
-        return null;
-    }
-
-    return { url: bestURL, wasTruncated: true };
-}
-
-function buildMaxLengthDraftsURL(draftContent, encodedTags, maxURLLength, draftsURLMode, encodedAction) {
-    return buildMaxLengthURL(
-        draftContent,
-        maxURLLength,
-        (content) => buildDraftsURL(content, encodedTags, draftsURLMode, encodedAction)
-    );
-}
-
 function buildEncodedQuery(params) {
     return params
         .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
@@ -414,73 +360,50 @@ function buildUlyssesNewSheetURL(sheetContent, group = '') {
     return `ulysses://x-callback-url/new-sheet?${query}`;
 }
 
-function buildMaxLengthUlyssesURL(sheetContent, maxURLLength, group) {
-    return buildMaxLengthURL(
-        sheetContent,
-        maxURLLength,
-        (content) => buildUlyssesNewSheetURL(content, group)
-    );
-}
-
 async function sendToDrafts(title, url, markdownBody) {
     // Format draft content using settings (from defaults.js)
     const draftContent = formatDraftContent(title, url, markdownBody, extensionSettings);
     const encodedTags = getEncodedDraftTags(extensionSettings);
     const encodedAction = getEncodedDraftAction(extensionSettings);
     const draftsURLMode = getDraftsURLMode(extensionSettings);
-    const MAX_URL_LENGTH = 65000;
 
     if (draftsURLMode === 'runAction' && !encodedAction) {
         await showDraftsActionRequiredError();
         return;
     }
 
-    const result = buildMaxLengthDraftsURL(
+    const targetURL = buildDraftsURL(
         draftContent,
         encodedTags,
-        MAX_URL_LENGTH,
         draftsURLMode,
         encodedAction
     );
 
-    if (!result) {
-        await showContentTooLargeError('Drafts');
-        return;
+    const opened = await openURLScheme(targetURL);
+    if (!opened) {
+        await showOpenURLFailedError('Drafts');
     }
-
-    if (result.wasTruncated) {
-        console.warn('Draft content exceeded URL length limit and was truncated to fit.');
-    }
-
-    await openURLScheme(result.url);
 }
 
 async function sendToUlysses(title, url, markdownBody) {
     const sheetContent = formatDraftContent(title, url, markdownBody, extensionSettings);
     const group = getUlyssesGroup(extensionSettings);
-    const MAX_URL_LENGTH = 65000;
-    const result = buildMaxLengthUlyssesURL(sheetContent, MAX_URL_LENGTH, group);
-
-    if (!result) {
-        await showContentTooLargeError('Ulysses');
-        return;
+    const targetURL = buildUlyssesNewSheetURL(sheetContent, group);
+    const opened = await openURLScheme(targetURL);
+    if (!opened) {
+        await showOpenURLFailedError('Ulysses');
     }
-
-    if (result.wasTruncated) {
-        console.warn('Ulysses content exceeded URL length limit and was truncated to fit.');
-    }
-
-    await openURLScheme(result.url);
 }
 
 async function executeInActiveTab(func, args = []) {
     const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
     if (!activeTab?.id) return;
-    await browser.scripting.executeScript({
+    const results = await browser.scripting.executeScript({
         target: { tabId: activeTab.id },
         func,
         args
     });
+    return results?.[0]?.result;
 }
 
 async function invokeShareSheet(title, url, markdownBody) {
@@ -523,11 +446,11 @@ async function showDraftsActionRequiredError() {
     }
 }
 
-async function showContentTooLargeError(appName) {
+async function showOpenURLFailedError(appName) {
     try {
-        await executeInActiveTab((msg) => alert(msg), [browser.i18n.getMessage('error_content_too_large', [appName])]);
-    } catch (e) {
-        console.error("Failed to show length warning:", e);
+        await executeInActiveTab((msg) => alert(msg), [browser.i18n.getMessage('error_open_failed', [appName])]);
+    } catch (error) {
+        console.error('Failed to show app-open error:', error);
     }
 }
 
@@ -540,7 +463,7 @@ async function openURLScheme(targetURL) {
             });
 
             if (response?.opened) {
-                return;
+                return true;
             }
 
             if (response?.error) {
@@ -553,12 +476,16 @@ async function openURLScheme(targetURL) {
 
     try {
         const [activeTab] = await browser.tabs.query({ active: true, currentWindow: true });
-        if (activeTab) {
-            // Use tabs.update to navigate to the custom scheme
-            // This is trusted from the background script and often bypasses the "Open in App?" prompt
-            await browser.tabs.update(activeTab.id, { url: targetURL });
+        if (!activeTab?.id) {
+            return false;
         }
+
+        // Use tabs.update to navigate to the custom scheme. This is trusted
+        // from the background script and often bypasses the "Open in App?" prompt.
+        await browser.tabs.update(activeTab.id, { url: targetURL });
+        return true;
     } catch (error) {
         console.error("Error opening URL scheme:", error);
+        return false;
     }
 }
